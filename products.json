@@ -79,6 +79,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -198,7 +199,8 @@
       "LUXURY",
       "MINI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260220_01.jpg",
@@ -315,6 +317,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -374,6 +377,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -427,6 +431,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -439,27 +444,27 @@
     "cuts": [
       {
         "url": "assets/N260224_01.jpg",
-        "cut": "화이트 착용컷",
+        "cut": "앞",
         "source": "assets/N260224_01.jpg"
       },
       {
         "url": "assets/N260224_02.jpg",
-        "cut": "화이트 착용컷",
+        "cut": "뒤",
         "source": "assets/N260224_02.jpg"
       },
       {
         "url": "assets/N260224_03.jpg",
-        "cut": "블랙 착용컷",
+        "cut": "측",
         "source": "assets/N260224_03.jpg"
       },
       {
         "url": "assets/N260224_04.jpg",
-        "cut": "블랙 착용컷",
+        "cut": "확",
         "source": "assets/N260224_04.jpg"
       },
       {
         "url": "assets/N260224_05.jpg",
-        "cut": "컬러 제품컷",
+        "cut": "실물",
         "source": "assets/N260224_05.jpg"
       }
     ],
@@ -486,6 +491,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -545,6 +551,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -604,6 +611,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -664,6 +672,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -724,6 +733,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -783,6 +793,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -836,6 +847,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -889,6 +901,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -943,6 +956,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -997,6 +1011,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -1050,6 +1065,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -1103,6 +1119,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -1156,6 +1173,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -1209,7 +1227,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260014_01.jpg",
@@ -1262,7 +1281,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260015_01.jpg",
@@ -1316,7 +1336,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260016_01.jpg",
@@ -1369,7 +1390,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260017_01.jpg",
@@ -1422,7 +1444,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260018_01.jpg",
@@ -1475,7 +1498,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260019_01.jpg",
@@ -1528,7 +1552,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260020_01.jpg",
@@ -1575,7 +1600,8 @@
     "tags": [
       "BEST",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260021_01.jpg",
@@ -1628,6 +1654,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1681,6 +1708,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1734,6 +1762,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1787,6 +1816,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1840,6 +1870,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1894,7 +1925,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260027_01.jpg",
@@ -1948,7 +1980,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260028_01.jpg",
@@ -2002,7 +2035,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260029_01.jpg",
@@ -2055,6 +2089,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -2109,7 +2144,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260031_01.jpg",
@@ -2163,7 +2199,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260032_01.jpg",
@@ -2216,6 +2253,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -2269,6 +2307,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -2322,6 +2361,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2368,7 +2408,7 @@
     "zipFolder": "실루엣/프라다탑OPS",
     "name": "리본 타이 오프숄더 미디 원피스",
     "storeName": "리본 타이 오프숄더 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "",
     "size": "S,M,L",
     "price": 126000.0,
@@ -2376,7 +2416,9 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260036_01.jpg",
@@ -2422,7 +2464,7 @@
     "zipFolder": "실루엣/프라다탑OPS 그레이",
     "name": "리본 타이 오프숄더 미디 원피스",
     "storeName": "리본 타이 오프숄더 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
     "price": 126000.0,
@@ -2430,7 +2472,9 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260037_01.jpg",
@@ -2476,7 +2520,7 @@
     "zipFolder": "실루엣/프라다탑OPS 아이",
     "name": "리본 타이 오프숄더 미디 원피스",
     "storeName": "리본 타이 오프숄더 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
     "price": 126000.0,
@@ -2484,7 +2528,9 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260038_01.jpg",
@@ -2538,6 +2584,7 @@
       "BEST",
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2591,6 +2638,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -2644,6 +2692,7 @@
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -2698,7 +2747,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260043_01.jpg",
@@ -2752,7 +2802,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260044_01.jpg",
@@ -2806,6 +2857,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2860,6 +2912,7 @@
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2914,7 +2967,8 @@
       "BEST",
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260047_01.jpg",
@@ -2968,7 +3022,8 @@
       "BEST",
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260048_01.jpg",
@@ -3022,7 +3077,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260049_01.jpg",
@@ -3076,7 +3132,8 @@
       "BEST",
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260050_01.jpg",
@@ -3129,7 +3186,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260051_01.jpg",
@@ -3181,7 +3239,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260052_01.jpg",
@@ -3233,7 +3292,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260053_01.jpg",
@@ -3285,7 +3345,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260054_01.jpg",
@@ -3962,27 +4023,27 @@
     "cuts": [
       {
         "url": "assets/N260067_01.jpg",
-        "cut": "대표",
+        "cut": "앞",
         "source": "assets/N260067_01.jpg"
       },
       {
         "url": "assets/N260067_02.jpg",
-        "cut": "후면",
+        "cut": "뒤",
         "source": "assets/N260067_02.jpg"
       },
       {
         "url": "assets/N260067_03.jpg",
-        "cut": "전면",
+        "cut": "측",
         "source": "assets/N260067_03.jpg"
       },
       {
         "url": "assets/N260067_04.jpg",
-        "cut": "디테일",
+        "cut": "확",
         "source": "assets/N260067_04.jpg"
       },
       {
         "url": "assets/N260067_05.jpg",
-        "cut": "컬러컷",
+        "cut": "실물",
         "source": "assets/N260067_05.jpg"
       }
     ],
@@ -4518,7 +4579,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260078_01.jpg",
@@ -4621,7 +4683,8 @@
     "tags": [
       "LUXURY",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260080_01.jpg",
@@ -4673,7 +4736,8 @@
     "tags": [
       "LUXURY",
       "MINI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260081_01.jpg",
@@ -4725,7 +4789,8 @@
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260082_01.jpg",
@@ -4777,7 +4842,8 @@
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260083_01.jpg",
@@ -4829,7 +4895,8 @@
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260084_01.jpg",
@@ -4874,14 +4941,16 @@
     "zipFolder": "지니/장미나시원피스 아이",
     "name": "입체 플라워 V넥 미디 원피스",
     "storeName": "입체 플라워 V넥 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "아이보리",
     "size": "S,M,L",
     "price": 126000.0,
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260085_01.jpg",
@@ -4926,14 +4995,16 @@
     "zipFolder": "지니/장미나시원피스 핑크",
     "name": "입체 플라워 V넥 미디 원피스",
     "storeName": "입체 플라워 V넥 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "핑크",
     "size": "S,M,L",
     "price": 126000.0,
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260086_01.jpg",
@@ -5138,7 +5209,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260090_01.jpg",
@@ -5241,7 +5313,8 @@
     "tags": [
       "LUXURY",
       "MIDI",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260092_01.jpg",
@@ -5446,6 +5519,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5498,6 +5572,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5550,6 +5625,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5602,6 +5678,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5647,14 +5724,16 @@
     "zipFolder": "티아라/S438",
     "name": "러플 롱슬리브 가디건",
     "storeName": "러플 롱슬리브 가디건",
-    "category": "LONG",
+    "category": "TOP",
     "color": "화이트/핑크",
     "size": "S,M,L",
     "price": 25000.0,
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260116_01.jpg",
@@ -5757,6 +5836,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5810,6 +5890,7 @@
       "LUXURY",
       "MINI",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5914,6 +5995,7 @@
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -7955,7 +8037,8 @@
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260161_01.jpg",
@@ -8007,7 +8090,8 @@
     "tags": [
       "LONG",
       "LUXURY",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260162_01.jpg",
@@ -8468,7 +8552,7 @@
     "zipFolder": "티아라/S528",
     "name": "끈나시 도트무늬 A라인 미디 원피스",
     "storeName": "끈나시 도트무늬 A라인 미디 원피스",
-    "category": "MIDI",
+    "category": "TOP",
     "color": "아이보리",
     "size": "S,M,L",
     "price": 111000.0,
@@ -8476,7 +8560,9 @@
       "LUXURY",
       "MIDI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260171_01.jpg",
@@ -8954,7 +9040,8 @@
       "LONG",
       "LUXURY",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260180_01.jpg",
@@ -9008,7 +9095,8 @@
       "LONG",
       "LUXURY",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260181_01.jpg",
@@ -9062,7 +9150,8 @@
       "LONG",
       "LUXURY",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260182_01.jpg",
@@ -9275,7 +9364,8 @@
       "LONG",
       "LUXURY",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260186_01.jpg",
@@ -9435,7 +9525,8 @@
       "LUXURY",
       "MIDI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260189_01.jpg",
@@ -9648,7 +9739,8 @@
       "LUXURY",
       "MINI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260193_01.jpg",
@@ -9755,7 +9847,8 @@
       "LUXURY",
       "MIDI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260195_01.jpg",
@@ -9809,7 +9902,8 @@
       "LUXURY",
       "MIDI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260196_01.jpg",
@@ -10022,6 +10116,7 @@
       "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -10076,7 +10171,8 @@
       "LUXURY",
       "MINI",
       "NEW",
-      "PARTY"
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260201_01.jpg",
@@ -10342,6 +10438,7 @@
       "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -10502,6 +10599,7 @@
       "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -10556,6 +10654,7 @@
       "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -10610,6 +10709,7 @@
       "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
