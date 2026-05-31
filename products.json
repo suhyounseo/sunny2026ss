@@ -423,7 +423,7 @@
     "category": "SKIRT",
     "color": "아이보리/블랙",
     "size": "S,M",
-    "price": 89000,
+    "price": 69000,
     "tags": [
       "LUXURY",
       "NEW",
@@ -439,32 +439,32 @@
     "cuts": [
       {
         "url": "assets/N260224_01.jpg",
-        "cut": "대표",
-        "source": "N260224_original_01.jpg"
+        "cut": "화이트 착용컷",
+        "source": "assets/N260224_01.jpg"
       },
       {
         "url": "assets/N260224_02.jpg",
-        "cut": "전면",
-        "source": "N260224_original_07.jpg"
+        "cut": "화이트 착용컷",
+        "source": "assets/N260224_02.jpg"
       },
       {
         "url": "assets/N260224_03.jpg",
-        "cut": "상세",
-        "source": "N260224_original_03.jpg"
+        "cut": "블랙 착용컷",
+        "source": "assets/N260224_03.jpg"
       },
       {
         "url": "assets/N260224_04.jpg",
-        "cut": "디테일",
-        "source": "N260224_original_04.jpg"
+        "cut": "블랙 착용컷",
+        "source": "assets/N260224_04.jpg"
       },
       {
         "url": "assets/N260224_05.jpg",
-        "cut": "색상",
-        "source": "N260224_original_05.jpg"
+        "cut": "컬러 제품컷",
+        "source": "assets/N260224_05.jpg"
       }
     ],
-    "desc": "4단 프릴 미니 스커트입니다. 층층이 잡힌 프릴 라인이 러블리한 분위기를 살려주며 니트, 블라우스와 함께 매치하기 좋습니다.",
-    "recommend": "데이트/모임/촬영/파티룩",
+    "desc": "4단 프릴 디테일이 풍성하지만 과하지 않게 포인트를 주는 미니 스커트입니다. 아이보리와 블랙 두 컬러로 니트, 블라우스, 나시와 다양하게 매칭하기 좋습니다.",
+    "recommend": "데이트 · 모임 · 촬영 · 파티룩",
     "fabric": "폴리혼방",
     "stretch": "확인필요",
     "see": "확인필요",
@@ -2318,7 +2318,7 @@
     "category": "TWO PIECE",
     "color": "화이트/핑크/블랙",
     "size": "S,M,L",
-    "price": 81000.0,
+    "price": 171000,
     "tags": [
       "BEST",
       "PARTY",
@@ -3945,9 +3945,9 @@
     "name": "도트 리본 타이 A라인 미니 드레스",
     "storeName": "도트 리본 타이 A라인 미니 드레스",
     "category": "MINI",
-    "color": "연보라",
+    "color": "연보라/옐로우/민트",
     "size": "S,M,L",
-    "price": 126000.0,
+    "price": 126000,
     "tags": [
       "MINI",
       "PARTY"
@@ -3956,28 +3956,34 @@
       "assets/N260067_01.jpg",
       "assets/N260067_02.jpg",
       "assets/N260067_03.jpg",
-      "assets/N260067_04.jpg"
+      "assets/N260067_04.jpg",
+      "assets/N260067_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260067_01.jpg",
-        "cut": "전면",
-        "source": "리본끈A라인원피스(coco)/img_xl_1_aonwbw.jpg"
+        "cut": "대표",
+        "source": "assets/N260067_01.jpg"
       },
       {
         "url": "assets/N260067_02.jpg",
         "cut": "후면",
-        "source": "리본끈A라인원피스(coco)/img_xl_ke1scq.jpg"
+        "source": "assets/N260067_02.jpg"
       },
       {
         "url": "assets/N260067_03.jpg",
-        "cut": "측면",
-        "source": "리본끈A라인원피스(coco)/img_xl_2_zvrgft.jpg"
+        "cut": "전면",
+        "source": "assets/N260067_03.jpg"
       },
       {
         "url": "assets/N260067_04.jpg",
-        "cut": "확대/디테일",
-        "source": "리본끈A라인원피스(coco)/img_xl_3_hvu8qg.jpg"
+        "cut": "디테일",
+        "source": "assets/N260067_04.jpg"
+      },
+      {
+        "url": "assets/N260067_05.jpg",
+        "cut": "컬러컷",
+        "source": "assets/N260067_05.jpg"
       }
     ],
     "desc": "도트리본 타이 A라인 미니드레스 상품입니다. 연보라 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",

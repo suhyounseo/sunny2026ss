@@ -163,7 +163,7 @@
       .thumb{flex-basis:72px;height:96px}
     }
   
-/* match11 detail image size fix */
+/* match15 detail image size fix */
 .panel{width:min(1080px,96vw)!important;}
 .visual{padding:18px!important;}
 .main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
@@ -178,11 +178,275 @@
 }
 
 
-/* match11 detail final size fix */
+/* match15 detail final size fix */
 .panel{width:min(1080px,96vw)!important;}
 .main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
 .main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
 @media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
+
+
+/* match15 mobile modal fix */
+@media(max-width:720px){
+  body.modal-open{overflow:hidden!important;}
+  .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
+  .panel{
+    width:94vw!important;
+    max-width:94vw!important;
+    max-height:88vh!important;
+    margin:8px auto!important;
+    border-radius:28px!important;
+    overflow:auto!important;
+  }
+  .head{
+    height:62px!important;
+    padding:0 18px!important;
+    font-size:22px!important;
+    letter-spacing:5px!important;
+    position:sticky!important;
+    top:0!important;
+    z-index:20!important;
+  }
+  .close{
+    width:46px!important;
+    height:46px!important;
+    font-size:30px!important;
+  }
+  .modal-body,
+  .body{
+    display:block!important;
+    grid-template-columns:none!important;
+  }
+  .visual{
+    padding:12px!important;
+    min-height:0!important;
+  }
+  .main{
+    width:100%!important;
+    height:auto!important;
+    max-height:46vh!important;
+    min-height:0!important;
+    aspect-ratio:auto!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    overflow:hidden!important;
+    border-radius:22px!important;
+  }
+  .main img{
+    width:auto!important;
+    height:auto!important;
+    max-width:100%!important;
+    max-height:46vh!important;
+    object-fit:contain!important;
+    border-radius:18px!important;
+  }
+  .thumbs{
+    display:flex!important;
+    gap:8px!important;
+    overflow-x:auto!important;
+    padding:10px 4px 4px!important;
+  }
+  .thumb{
+    flex:0 0 74px!important;
+    width:74px!important;
+    height:86px!important;
+    border-radius:14px!important;
+  }
+  .copy{
+    padding:16px!important;
+  }
+  .copy h2{
+    font-size:28px!important;
+    line-height:1.15!important;
+    word-break:keep-all!important;
+  }
+  .price{
+    font-size:24px!important;
+    margin:10px 0 18px!important;
+  }
+  .box{
+    padding:14px!important;
+    margin:12px 0!important;
+  }
+  .specs{
+    grid-template-columns:1fr 1fr!important;
+    gap:10px!important;
+  }
+  .cta{
+    grid-template-columns:1fr 1fr!important;
+    gap:10px!important;
+    position:sticky!important;
+    bottom:0!important;
+    background:#fbf7f1!important;
+    padding:10px 0 4px!important;
+  }
+  .cta a{
+    min-height:52px!important;
+    font-size:15px!important;
+    border-radius:16px!important;
+    white-space:nowrap!important;
+  }
+}
+@media(max-width:390px){
+  .panel{width:96vw!important;max-width:96vw!important;}
+  .head{font-size:20px!important;letter-spacing:4px!important;}
+  .copy h2{font-size:25px!important;}
+  .main,.main img{max-height:42vh!important;}
+  .thumb{flex-basis:68px!important;width:68px!important;height:80px!important;}
+}
+
+
+/* match15 final CTA + mobile detail balance */
+.cta{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:12px!important;
+  margin-top:18px!important;
+}
+.cta a{
+  min-height:58px!important;
+  padding:14px 16px!important;
+  border-radius:18px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:10px!important;
+  text-decoration:none!important;
+  font-weight:900!important;
+  font-size:18px!important;
+  line-height:1.05!important;
+  white-space:nowrap!important;
+  box-sizing:border-box!important;
+}
+.cta a.kakao{
+  background:#FEE500!important;
+  color:#1e1600!important;
+  border:1px solid rgba(60,30,30,.12)!important;
+  box-shadow:0 10px 22px rgba(254,229,0,.18)!important;
+}
+.cta a.kakao .kakao-logo{
+  width:34px!important;
+  height:24px!important;
+  min-width:34px!important;
+  padding:0!important;
+  border-radius:9px!important;
+  background:#3C1E1E!important;
+  color:#FEE500!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font-size:9px!important;
+  letter-spacing:-.02em!important;
+  font-weight:1000!important;
+}
+.cta a.insta{
+  background:#fff!important;
+  color:#201713!important;
+  border:1px solid #d9c8b8!important;
+  box-shadow:0 10px 22px rgba(60,35,20,.06)!important;
+}
+.cta a.insta .logo-icon.insta{
+  width:30px!important;
+  height:30px!important;
+  min-width:30px!important;
+  border-radius:10px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:radial-gradient(circle at 30% 105%, #fdf497 0%, #fdf497 18%, #fd5949 42%, #d6249f 64%, #285AEB 100%)!important;
+  color:#fff!important;
+}
+.cta a.insta .logo-icon.insta svg{
+  width:21px!important;
+  height:21px!important;
+  stroke:#fff!important;
+  stroke-width:2.15!important;
+}
+.cta a:hover{transform:translateY(-1px);filter:brightness(1.01)}
+@media(max-width:720px){
+  body.modal-open{overflow:hidden!important;}
+  .overlay{align-items:flex-start!important;overflow:auto!important;padding:8px 0!important;}
+  .panel{
+    width:94vw!important;
+    max-width:94vw!important;
+    max-height:88vh!important;
+    margin:8px auto!important;
+    border-radius:28px!important;
+    overflow:auto!important;
+  }
+  .head{
+    height:60px!important;
+    padding:0 18px!important;
+    font-size:22px!important;
+    letter-spacing:5px!important;
+    position:sticky!important;
+    top:0!important;
+    z-index:50!important;
+    background:#fffaf4!important;
+  }
+  .close{width:44px!important;height:44px!important;font-size:28px!important}
+  .body,.modal-body{display:block!important;grid-template-columns:none!important}
+  .visual{padding:12px!important;min-height:0!important}
+  .main{
+    width:100%!important;
+    min-height:0!important;
+    height:auto!important;
+    max-height:43vh!important;
+    aspect-ratio:auto!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    overflow:hidden!important;
+    border-radius:22px!important;
+    background:#efe6dd!important;
+  }
+  .main img{
+    width:auto!important;
+    height:auto!important;
+    max-width:100%!important;
+    max-height:43vh!important;
+    object-fit:contain!important;
+    border-radius:18px!important;
+  }
+  .thumbs{display:flex!important;gap:8px!important;overflow-x:auto!important;padding:10px 2px 2px!important}
+  .thumb{flex:0 0 70px!important;width:70px!important;height:82px!important;border-radius:14px!important}
+  .copy{padding:15px 16px 18px!important}
+  .copy h2{font-size:27px!important;line-height:1.16!important;word-break:keep-all!important}
+  .price{font-size:24px!important;margin:8px 0 16px!important}
+  .box{padding:14px!important;margin:10px 0!important}
+  .story p,.scene p,.note p,.points{font-size:14.5px!important;line-height:1.7!important}
+  .specs,.spec{grid-template-columns:1fr 1fr!important;gap:9px!important}
+  .spec .cell{padding:13px!important;border-radius:15px!important}
+  .spec .cell span{font-size:16px!important}
+  .cta{
+    grid-template-columns:1fr 1fr!important;
+    gap:9px!important;
+    margin-top:12px!important;
+    position:sticky!important;
+    bottom:0!important;
+    background:#fbf7f1!important;
+    padding:10px 0 2px!important;
+    z-index:30!important;
+  }
+  .cta a{
+    min-height:50px!important;
+    padding:11px 9px!important;
+    font-size:15px!important;
+    border-radius:15px!important;
+    gap:7px!important;
+  }
+  .cta a.kakao .kakao-logo{width:30px!important;height:22px!important;min-width:30px!important;font-size:8px!important}
+  .cta a.insta .logo-icon.insta{width:28px!important;height:28px!important;min-width:28px!important}
+  .cta a.insta .logo-icon.insta svg{width:19px!important;height:19px!important}
+}
+@media(max-width:390px){
+  .panel{width:96vw!important;max-width:96vw!important}
+  .head{font-size:20px!important;letter-spacing:4px!important}
+  .copy h2{font-size:24px!important}
+  .main,.main img{max-height:40vh!important}
+  .thumb{flex-basis:66px!important;width:66px!important;height:78px!important}
+  .cta a{font-size:14px!important}
+}
 
 </style>
 </head>
@@ -332,7 +596,7 @@
       grid.innerHTML = list.map(item => `
         <article class="card" data-code="${item.code}">
           <div class="photo">
-            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match11" alt="${item.name}">` : ''}
+            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match15" alt="${item.name}">` : ''}
             <div class="badges">${makePromoBadges(item)}</div>
             <span class="code">${item.code}</span>
           </div>
@@ -353,7 +617,7 @@
       const main = qs('#mainImage');
       const target = currentImages[index];
       if(!main || !target) return;
-      main.src = `${target.url}?v=match11`;
+      main.src = `${target.url}?v=match15`;
       qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
     }
 
@@ -374,11 +638,11 @@
       panelBody.innerHTML = `
         <div class="dbody">
           <section class="visual">
-            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match11" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match15" alt="${item.name}">` : 'NO IMAGE'}</div>
             <div class="thumbs">
               ${currentImages.map((im, i) => `
                 <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
-                  <img src="${im.url}?v=match11" alt="${item.name} ${i+1}">
+                  <img src="${im.url}?v=match15" alt="${item.name} ${i+1}">
                 </button>
               `).join('')}
             </div>
@@ -441,7 +705,7 @@
     }
 
     async function init(){
-      PRODUCTS = await (await fetch('./products.json?v=match11')).json();
+      PRODUCTS = await (await fetch('./products.json?v=match15')).json();
       chips.innerHTML = FILTERS.map(([key, label]) => `
         <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
       `).join('');
