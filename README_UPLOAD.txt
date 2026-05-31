@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 NICE SHOWROOM MATCH9 업로드본
 
 반영사항:
@@ -21,12 +20,3 @@ GitHub Desktop에서 Commit → Push origin.
 
 확인 주소:
 https://suhyounseo.github.io/sunny2026ss/?v=match9
-=======
-NICE 온라인 매칭 검수 패키지
-
-1. index.html, products.json, assets 폴더를 GitHub sunny2026ss 폴더에 덮어쓰기
-2. Commit to main → Push origin
-3. https://suhyounseo.github.io/sunny2026ss/?v=match2 확인
-
-검수용이라 거래처/원본폴더가 보입니다. 고객용 최종본에서는 숨깁니다.
->>>>>>> Stashed changes
