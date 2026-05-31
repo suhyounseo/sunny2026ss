@@ -1,36 +1,458 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NICE COLLECTION</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Sans+KR:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f7f1eb;--card:#fffaf5;--ink:#15110e;--muted:#8c7d70;--gold:#b99162;--line:#eadfd4;--dark:#181411;--soft:#f0e7df;--white:#fffaf5}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',sans-serif}button,input{font:inherit}.hero{background:radial-gradient(circle at 72% 18%,#5b3f2e 0,#1b1511 46%,#0d0b09 100%);color:#fff;padding:42px 18px 32px;text-align:center}.eyebrow{letter-spacing:.42em;color:var(--gold);font-size:11px;margin-bottom:12px}.brand{font-family:'Cormorant Garamond',serif;font-size:clamp(46px,11vw,88px);letter-spacing:.14em;font-weight:500;line-height:.95}.tagline{margin-top:14px;color:#d7c7b7;font-size:13px;letter-spacing:.1em;line-height:1.7}.hero-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px}.hero-actions a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.28);padding:10px 16px;border-radius:999px;font-size:12px;letter-spacing:.08em;background:rgba(255,255,255,.06)}.toolbar{position:sticky;top:0;z-index:30;background:rgba(247,241,235,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:12px 12px 10px}.search{max-width:1040px;margin:0 auto 10px}.search input{width:100%;border:1px solid var(--line);background:#fff;border-radius:999px;padding:13px 18px;outline:none;box-shadow:0 6px 18px rgba(0,0,0,.035)}.chips{max-width:1040px;margin:0 auto;display:flex;gap:7px;overflow:auto;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.chip{border:1px solid var(--line);background:#fffaf5;color:var(--muted);border-radius:999px;padding:9px 13px;white-space:nowrap;font-size:12px;cursor:pointer}.chip.on{background:var(--dark);color:#fff;border-color:var(--dark)}.wrap{max-width:1160px;margin:0 auto;padding:26px 12px 90px}.section-head{display:flex;justify-content:space-between;align-items:flex-end;margin:10px 4px 18px}.section-title{font-family:'Cormorant Garamond',serif;font-size:32px;letter-spacing:.08em}.count{font-size:12px;color:var(--muted);text-align:right}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}@media(min-width:720px){.grid{grid-template-columns:repeat(3,1fr);gap:18px}}@media(min-width:1040px){.grid{grid-template-columns:repeat(4,1fr)}}.card{background:var(--card);border:1px solid rgba(234,223,212,.8);border-radius:18px;overflow:hidden;box-shadow:0 8px 28px rgba(38,25,15,.06);cursor:pointer;transition:.22s}.card:hover{transform:translateY(-3px);box-shadow:0 18px 45px rgba(38,25,15,.12)}.photo{aspect-ratio:3/4;background:linear-gradient(135deg,#eadfd4,#fffaf5);position:relative;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;display:block}.photo .empty{position:absolute;inset:0;display:grid;place-items:center;color:#bca790;font-size:12px;text-align:center;padding:20px}.badge{position:absolute;top:10px;left:10px;background:rgba(20,16,13,.88);color:#fff;font-size:10px;letter-spacing:.1em;padding:5px 8px;border-radius:999px}.badge.new{left:auto;right:10px;background:rgba(185,145,98,.94)}.price-pill{position:absolute;right:10px;bottom:10px;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);padding:7px 10px;border-radius:999px;font-family:'Noto Sans KR',sans-serif;font-size:14px;font-weight:800;letter-spacing:-.02em;color:#181411;box-shadow:0 4px 14px rgba(0,0,0,.12)}.info{padding:12px 12px 14px}.name{font-weight:700;font-size:14px;line-height:1.38;min-height:38px}.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px;color:var(--muted);font-size:11px}.meta span{background:#f0e7df;border-radius:999px;padding:4px 7px}.detail{position:fixed;inset:0;background:rgba(15,11,8,.72);z-index:100;display:none;overflow:auto}.detail.open{display:block}.panel{max-width:980px;margin:0 auto;background:#fffaf5;min-height:100vh}@media(min-width:900px){.panel{margin:34px auto;border-radius:24px;overflow:hidden;min-height:auto}}.topbar{position:sticky;top:0;background:rgba(255,250,245,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;padding:12px 16px;z-index:3}.close{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer}.detail-body{display:grid;grid-template-columns:1fr}@media(min-width:780px){.detail-body{grid-template-columns:1.05fr .95fr}}.gallery{background:#eee2d8}.main-img{aspect-ratio:3/4;background:#eee2d8}.main-img img{width:100%;height:100%;object-fit:cover;display:block}.thumbs{display:flex;gap:8px;padding:12px;overflow-x:auto;background:#eadfd4}.thumb{width:64px;height:84px;border-radius:10px;overflow:hidden;border:2px solid transparent;background:#fff;flex:0 0 auto;cursor:pointer;opacity:.65}.thumb.on{border-color:var(--dark);opacity:1}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.dinfo{padding:28px 22px}.dcat{font-size:12px;letter-spacing:.2em;color:var(--gold);margin-bottom:8px}.dname{font-family:'Cormorant Garamond',serif;font-size:34px;line-height:1.08;margin-bottom:10px}.dprice{font-family:'Noto Sans KR',sans-serif;font-size:28px;font-weight:800;letter-spacing:-.03em;margin:14px 0 20px;color:#181411}.pointbox{background:#fff;border-left:3px solid var(--gold);padding:16px;border-radius:14px;margin-bottom:16px}.point-title{font-weight:800;margin-bottom:10px;font-size:15px}.points{margin:0;padding-left:18px;color:#4e453e;line-height:1.7;font-size:14px}.points li{margin-bottom:5px}.recommend{background:#f3ebe3;border-radius:12px;padding:12px 14px;color:#5c5149;font-size:13px;margin-bottom:16px}.specs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}.spec{background:#f3ebe3;border-radius:12px;padding:11px}.spec b{display:block;font-size:11px;color:var(--muted);margin-bottom:4px}.spec.soft{opacity:.78}.cta{display:grid;gap:9px;margin-top:20px}.cta a{text-align:center;text-decoration:none;border-radius:14px;padding:13px 15px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:9px}.cta svg{width:20px;height:20px;flex:0 0 auto}.kakao{background:#fee500;color:#1b1b1b}.insta{background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);color:#fff}.store{border:1px solid var(--line);color:var(--ink);background:#fff}.admin{display:none;max-width:980px;margin:24px auto 0;background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;font-size:13px;color:#5c5149}.footer{text-align:center;color:var(--muted);font-size:12px;padding:35px 20px}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NICE COLLECTION</title>
+  <meta name="description" content="NICE COLLECTION luxury evening showroom" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J4LF4DF3X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-6J4LF4DF3X');
+  </script>
+  <style>
+    :root{
+      --bg:#f4eee8;
+      --paper:#fbf7f3;
+      --card:#fffaf6;
+      --line:#e6d8cb;
+      --line-2:#d6c4b4;
+      --text:#241b16;
+      --sub:#7d6859;
+      --accent:#17110e;
+      --gold:#c6a27a;
+      --gold-2:#edd9c1;
+      --shadow:0 14px 36px rgba(25,16,11,.08);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR','Apple SD Gothic Neo',sans-serif}
+    a{text-decoration:none;color:inherit}
+    button,input{font:inherit}
+    img{display:block;max-width:100%}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6J4LF4DF3X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-6J4LF4DF3X');
-</script>
+    .hero{
+      background:radial-gradient(circle at top,#3d2a20 0%, #1a120e 38%, #0f0a08 100%);
+      color:#fff;
+      text-align:center;
+      padding:54px 20px 42px;
+      border-bottom:1px solid #2b2019;
+    }
+    .hero h1{
+      margin:0;
+      font-family:Georgia,'Times New Roman',serif;
+      font-size:64px;
+      font-weight:700;
+      letter-spacing:.16em;
+      line-height:1;
+    }
+    .hero p{
+      margin:16px 0 0;
+      color:#e7d6c6;
+      font-size:18px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+    }
+
+    .wrap{max-width:1280px;margin:0 auto;padding:20px 14px 80px}
+    .searchbar{
+      width:100%;border:1px solid var(--line-2);background:#fff;border-radius:999px;padding:18px 22px;
+      font-size:18px;outline:none;color:var(--text);box-shadow:0 6px 20px rgba(0,0,0,.03)
+    }
+    .searchbar::placeholder{color:#9a8777}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 26px}
+    .chip{
+      border:1px solid var(--line-2);background:rgba(255,255,255,.8);color:#4a3d34;padding:12px 18px;border-radius:999px;
+      cursor:pointer;transition:.18s ease;white-space:nowrap
+    }
+    .chip:hover{transform:translateY(-1px);border-color:#bda28b}
+    .chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:10px 2px 20px}
+    .section-head h2{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:46px;font-weight:600;letter-spacing:.04em}
+    .section-head .count{color:var(--sub);font-size:17px}
+
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    @media(min-width:820px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}}
+    @media(min-width:1180px){.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}}
+
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);
+      transition:transform .18s ease, box-shadow .18s ease;
+    }
+    .card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(25,16,11,.12)}
+    .photo{position:relative;aspect-ratio:3/4;background:#eadfd5}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    .badges{position:absolute;left:12px;top:12px;display:flex;flex-wrap:wrap;gap:6px;z-index:2}
+    .badge{
+      border-radius:999px;padding:8px 12px;font-size:12px;font-weight:700;letter-spacing:.02em;
+      background:rgba(23,17,14,.82);color:#fff;backdrop-filter:blur(10px)
+    }
+    .badge.gold{background:linear-gradient(135deg,#dec1a2,#b58a60);color:#fff}
+    .badge.light{background:rgba(255,250,246,.94);color:#4b3d34;border:1px solid rgba(145,118,94,.18)}
+    .code{
+      position:absolute;right:12px;bottom:12px;background:rgba(255,255,255,.95);color:#3f322a;border-radius:999px;padding:9px 14px;
+      font-weight:800;box-shadow:0 4px 12px rgba(0,0,0,.08)
+    }
+    .info{padding:14px 14px 16px}
+    .name{font-size:18px;line-height:1.45;font-weight:800;min-height:52px}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .meta span{
+      font-size:12px;color:#816c5e;background:#f0e6dd;border:1px solid #e4d5c7;border-radius:999px;padding:6px 10px
+    }
+    .price{margin-top:14px;font-size:31px;font-weight:900;letter-spacing:-.02em;color:#18110d}
+
+    .empty{padding:50px 20px;text-align:center;color:var(--sub);background:var(--paper);border:1px dashed var(--line-2);border-radius:22px}
+
+    .detail{position:fixed;inset:0;background:rgba(18,11,9,.52);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;padding:18px;z-index:999}
+    .detail.open{display:flex}
+    .panel{
+      width:min(1180px,100%);max-height:min(92vh,100%);overflow:auto;background:var(--paper);border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)
+    }
+    .dtop{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:16px 18px;background:rgba(251,247,243,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    .brand-mini{font-family:Georgia,'Times New Roman',serif;font-size:20px;letter-spacing:.12em;font-weight:700}
+    .close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-2);background:#fff;cursor:pointer;font-size:20px}
+    .dbody{display:grid;grid-template-columns:1.08fr .92fr;gap:0}
+    @media(max-width:980px){.dbody{grid-template-columns:1fr}}
+    .visual{padding:22px;background:#efe6dd}
+    .main{
+      aspect-ratio:3/4;border-radius:22px;overflow:hidden;background:#e9ddd1;box-shadow:0 10px 28px rgba(0,0,0,.08)
+    }
+    .main img{width:100%;height:100%;object-fit:cover}
+    .thumbs{display:flex;gap:10px;overflow:auto;padding-top:14px}
+    .thumb{flex:0 0 82px;height:108px;border-radius:14px;overflow:hidden;border:2px solid transparent;background:#fff;cursor:pointer;padding:0}
+    .thumb img{width:100%;height:100%;object-fit:cover}
+    .thumb.on{border-color:#2f221b;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+    .copy{padding:28px 26px 28px;background:var(--paper)}
+    .mini-cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+    .mini-cats span{padding:8px 12px;border-radius:999px;background:#f1e6db;border:1px solid #e4d5c8;font-size:12px;font-weight:700;color:#6b584b}
+    .copy h2{margin:0 0 8px;font-size:44px;line-height:1.16;letter-spacing:-.03em}
+    .copy h3{margin:0 0 20px;font-size:40px;letter-spacing:-.03em}
+    .story,.note,.scene{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 18px 16px;margin-top:14px}
+    .story b,.note b,.scene b{display:block;margin-bottom:10px;font-size:13px;letter-spacing:.12em;color:#8a7058}
+    .points{margin:0;padding-left:18px;color:#4c3d33;line-height:1.75;font-size:17px}
+    .story p,.scene p,.note p{margin:0;color:#4c3d33;line-height:1.8;font-size:17px}
+    .spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+    @media(max-width:520px){.spec{grid-template-columns:1fr 1fr}}
+    .spec .cell{background:#efe4d8;border:1px solid #e1cfbf;border-radius:18px;padding:16px}
+    .spec .cell b{display:block;font-size:12px;letter-spacing:.12em;color:#8a7058;margin-bottom:8px}
+    .spec .cell span{font-size:18px;font-weight:700;color:#2c211b}
+    .cta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+    @media(max-width:520px){.cta{grid-template-columns:1fr}}
+    .cta a{display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 16px;border-radius:18px;font-weight:900;font-size:19px}
+    .cta .kakao{background:#ffe100;color:#221d00}
+    .cta .insta{background:#15100d;color:#fff}
+    .logo-icon{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px}
+    .kakao-logo{font-size:11px;font-weight:900;border-radius:9px;background:#3d3100;color:#ffe100;width:auto;padding:4px 6px;line-height:1}
+    .insta svg{width:24px;height:24px;stroke:currentColor}
+
+    @media(max-width:720px){
+      .hero{padding:42px 16px 32px}
+      .hero h1{font-size:54px}
+      .hero p{font-size:14px;letter-spacing:.12em}
+      .searchbar{font-size:16px;padding:16px 18px}
+      .section-head h2{font-size:34px}
+      .name{font-size:16px;min-height:46px}
+      .price{font-size:24px}
+      .copy{padding:22px 18px 24px}
+      .copy h2{font-size:34px}
+      .copy h3{font-size:32px}
+      .story p,.scene p,.note p,.points{font-size:15px}
+      .thumb{flex-basis:72px;height:96px}
+    }
+  </style>
 </head>
 <body>
-<header class="hero"><div class="eyebrow">CURATED DRESS COLLECTION</div><div class="brand">NICE</div><div class="tagline">고급 섹시 원피스 · 파티룩 · 투피스 온라인 쇼룸</div><div class="hero-actions"><a href="#products" onclick="quick('BEST')">BEST 보기</a><a href="#products" onclick="quick('NEW')">NEW 보기</a><a href="#products" onclick="quick('ALL')">전체상품</a></div></header>
-<nav class="toolbar"><div class="search"><input id="q" placeholder="검색: 블랙, 화이트, 미니, 롱, 투피스, 코스튬, 파티룩" oninput="handleSearch(this.value)"></div><div class="chips" id="chips"></div></nav>
-<main class="wrap" id="products"><div class="section-head"><div><div class="section-title">New Collection</div><div class="count" id="count"></div></div></div><div class="grid" id="grid"></div><div class="admin" id="adminBox"></div></main>
-<div class="detail" id="detail" onclick="if(event.target.id==='detail')closeDetail()"><div class="panel" id="panel"></div></div><footer class="footer">NICE COLLECTION · 온라인 쇼룸</footer>
-<script>
-let PRODUCTS=[],currentCat='ALL',currentImages=[],modalOpen=false;const INSTAGRAM_URL='https://www.instagram.com/dongdaemun_helloapm_nice?igsh=am16YjFmdHdtajN6';const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';const cats=[['ALL','전체'],['BEST','🔥 BEST'],['NEW','✨ NEW'],['RECOMMEND','👑 추천'],['LUXURY','💎 LUXURY'],['COSTUME','🎭 COSTUME'],['TWO PIECE','👗 투피스'],['PARTY','🎉 PARTY'],['MINI','MINI'],['MIDI','MIDI'],['LONG','LONG'],['TOP','상의'],['SKIRT','스커트']];const money=n=>n?`₩${Number(n).toLocaleString('ko-KR')}`:'문의';const clean=s=>(s||'').toString();function categoryOf(p){const t=[p.category,p.name,p.origin,p.folder].join(' ');if(/투피스|TWO PIECE|3PS/i.test(t))return 'TWO PIECE';if(/블라우스|가디건|탑|BL|TOP|나시|뷔스티에/i.test(t))return 'TOP';if(/스커트|SK|하의/i.test(t))return 'SKIRT';if(/롱|LONG/i.test(t))return 'LONG';if(/미디|MIDI|H라인/i.test(t))return 'MIDI';if(/미니|MINI/i.test(t))return 'MINI';if(/DRESS|원피스|OPS/i.test(t))return 'MINI';return p.category||'ITEM'}function tagsOf(p){const t=[p.name,p.origin,p.folder,p.category,p.color,p.catch].join(' ');let tags=[];if(p.best)tags.push('BEST');if(Number((p.code||'').replace(/\D/g,''))>=260150)tags.push('NEW');if(/마린|세일러|스쿨|교복|코스튬/i.test(t))tags.push('COSTUME');if(/럭셔리|롱|주얼|트위드|새틴|프라다|샤넬|고급|시스루/i.test(t))tags.push('LUXURY');if(/파티|글램|스팽글|오프숄더|코르셋|홀터|튜브탑/i.test(t))tags.push('PARTY');if(/추천|강추/i.test(t))tags.push('RECOMMEND');tags.push(categoryOf(p));return [...new Set(tags)]}function displayName(p){return clean(p.name).replace(/아이보리보리/g,'아이보리').replace(/스림/g,'슬림').replace(/얀간/g,'약간')}function salesPoints(p){let pts=p.points&&p.points.length?p.points.slice(0,3):[];const n=displayName(p);if(pts.length<3&&/오프숄더/.test(n))pts.push('어깨선과 쇄골 라인을 살려 상체가 여리해 보이는 포인트');if(pts.length<3&&/투피스/.test(n))pts.push('상·하 세트 구성이라 코디 고민 없이 바로 완성되는 룩');if(pts.length<3&&/롱|미디/.test(n))pts.push('기장감이 있어 고급스럽고 차분한 분위기까지 살릴 수 있는 디자인');if(pts.length<3)pts.push('조명 아래에서 실루엣이 살아나는 파티·방송·촬영 추천 스타일');return [...new Set(pts)].slice(0,3)}function gaEvent(name,params){if(typeof gtag==='function'){gtag('event',name,params||{});}}function track(type,code,extra){const k='nice_stat_'+type+'_'+(code||'all');localStorage.setItem(k,(Number(localStorage.getItem(k)||0)+1));gaEvent(type,Object.assign({product_code:code||'all'},extra||{}));}async function load(){PRODUCTS=await(await fetch('./products.json')).json();makeChips();render();initHistory();if(location.hash==='#admin')showAdmin()}function makeChips(){chips.innerHTML=cats.map(([k,v])=>`<button class="chip ${k==='ALL'?'on':''}" data-k="${k}" onclick="currentCat='${k}';track('category_click',k,{category:k});document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));this.classList.add('on');render()">${v}</button>`).join('')}function quick(k){currentCat=k;track('hero_click',k,{category:k});setTimeout(()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.k===k));render()},50)}let searchTimer=null;function handleSearch(v){render();clearTimeout(searchTimer);const keyword=(v||'').trim();if(keyword.length>=2){searchTimer=setTimeout(()=>track('product_search',keyword,{search_term:keyword}),700);}}function match(p){const q=document.getElementById('q').value.trim().toLowerCase();const text=[displayName(p),categoryOf(p),p.color,p.code,p.origin,p.desc,(p.points||[]).join(' '),tagsOf(p).join(' ')].join(' ').toLowerCase();return(!q||text.includes(q))&&(currentCat==='ALL'||tagsOf(p).includes(currentCat))}function render(){const list=PRODUCTS.filter(match);count.innerHTML=`${list.length} items<br>${currentCat==='ALL'?'전체 상품':currentCat+' 컬렉션'}`;grid.innerHTML=list.map(p=>{const tags=tagsOf(p);const cat=categoryOf(p);return `<article class="card" onclick="openDetail('${p.code}')"><div class="photo">${p.images&&p.images[0]?`<img loading="lazy" decoding="async" src="${p.images[0]}" alt="${displayName(p)}">`:`<div class="empty">IMAGE<br>COMING SOON</div>`}${tags.includes('BEST')?'<span class="badge">BEST</span>':''}${tags.includes('NEW')?'<span class="badge new">NEW</span>':''}<span class="price-pill">${money(p.price)}</span></div><div class="info"><div class="name">${displayName(p)}</div><div class="meta"><span>${cat}</span>${p.color?`<span>${clean(p.color).replace(/아이보리보리/g,'아이보리')}</span>`:''}</div></div></article>`}).join('')}function setMainImage(i){const main=document.getElementById('mainProductImage');if(!main||!currentImages[i])return;main.src=currentImages[i];document.querySelectorAll('.thumb').forEach((t,idx)=>t.classList.toggle('on',idx===i));}function openDetail(code,push=true){const p=PRODUCTS.find(x=>x.code===code);if(!p)return;track('product_view',code,{product_name:displayName(p),category:categoryOf(p),price:p.price||0});if(push){if(!history.state||(!history.state.niceHome&&!history.state.niceModal)){history.replaceState({niceHome:true},'', location.pathname+location.search);}history.pushState({niceModal:code},'', location.pathname+location.search+'#product-'+code);}const imgs=p.images||[];currentImages=imgs;const cat=categoryOf(p);const thumbs=imgs.length>1?`<div class="thumbs">${imgs.map((src,i)=>`<button class="thumb ${i===0?'on':''}" onclick="setMainImage(${i})"><img src="${src}" alt="${displayName(p)} ${i+1}"></button>`).join('')}</div>`:'';const pointList=salesPoints(p).map(x=>`<li>${x}</li>`).join('');panel.innerHTML=`<div class="topbar"><button class="close" onclick="closeDetail()">✕</button><span>${p.code} · ${cat}</span></div><div class="detail-body"><div class="gallery"><div class="main-img">${imgs[0]?`<img id="mainProductImage" src="${imgs[0]}" alt="${displayName(p)}">`:'<div class="empty">IMAGE COMING SOON</div>'}</div>${thumbs}</div><div class="dinfo"><div class="dcat">${tagsOf(p).filter(x=>!['MINI','MIDI','LONG','TOP','SKIRT','TWO PIECE'].includes(x)).join(' · ')||cat}</div><div class="dname">${displayName(p)}</div><div class="dprice">${money(p.price)}</div><div class="pointbox"><div class="point-title">이 옷의 포인트</div><ul class="points">${pointList}</ul></div><div class="recommend">${p.recommend||'추천 상황: 클럽 · 파티 · 방송 · 촬영 · 행사룩'}</div><div class="specs"><div class="spec"><b>COLOR</b>${clean(p.color).replace(/아이보리보리/g,'아이보리')||'-'}</div><div class="spec"><b>SIZE</b>${p.size||'S / M / L'}</div><div class="spec"><b>FIT</b>${p.stretch||'-'}</div><div class="spec"><b>SEE THROUGH</b>${p.see||'-'}</div><div class="spec soft"><b>FABRIC</b>${p.fabric||'-'}</div><div class="spec soft"><b>LINING</b>${p.lining||'-'}</div></div><div class="cta"><a class="kakao" href="${KAKAO_URL}" target="_blank" onclick="track('kakao_click','${p.code}',{product_name:displayName(p),category:categoryOf(p)})"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 4C6.48 4 2 7.42 2 11.65c0 2.67 1.78 5.02 4.47 6.39l-.72 2.64c-.08.28.24.5.48.34l3.14-2.08c.84.18 1.72.27 2.63.27 5.52 0 10-3.42 10-7.56S17.52 4 12 4Z"/></svg>카카오톡 문의</a><a class="insta" href="${INSTAGRAM_URL}" target="_blank" onclick="track('instagram_click','${p.code}',{product_name:displayName(p),category:categoryOf(p)})"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg>Instagram DM</a><a class="store" href="#" onclick="track('store_click','${p.code}',{product_name:displayName(p),category:categoryOf(p)});alert('스마트스토어 연결 예정입니다')">스마트스토어 준비중</a></div></div></div>`;detail.classList.add('open');document.body.style.overflow='hidden';modalOpen=true}
-function closeDetail(fromPop=false){if(!fromPop&&modalOpen&&history.state&&history.state.niceModal){history.back();return}detail.classList.remove('open');document.body.style.overflow='';modalOpen=false}
-function initHistory(){if(!history.state||(!history.state.niceHome&&!history.state.niceModal)){history.replaceState({niceHome:true},'',location.pathname+location.search)}if(location.hash.startsWith('#product-')){const code=location.hash.replace('#product-','');setTimeout(()=>openDetail(code,false),300)}}
-window.addEventListener('popstate',e=>{if(modalOpen){closeDetail(true);history.replaceState({niceHome:true},'',location.pathname+location.search);return}if(e.state&&e.state.niceModal){openDetail(e.state.niceModal,false)}});function showAdmin(){let total=0;Object.keys(localStorage).forEach(k=>{if(k.startsWith('nice_stat_product_view_'))total+=Number(localStorage.getItem(k)||0)});adminBox.style.display='block';adminBox.innerHTML=`<b>관리자 로컬 통계</b><br>이 브라우저에서 기록된 상품 조회: ${total}회<br>정식 방문자 통계는 Google Analytics 연결 후 전체 방문자 기준으로 확인 가능`}load();
-</script>
+  <header class="hero">
+    <h1>NICE</h1>
+    <p>Luxury Evening Edit</p>
+  </header>
+
+  <main class="wrap">
+    <input id="q" class="searchbar" placeholder="검색: 상품명, 컬러, 카테고리" />
+    <div id="chips" class="chips"></div>
+
+    <div class="section-head">
+      <h2>Collection</h2>
+      <div id="count" class="count"></div>
+    </div>
+
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <div id="detail" class="detail" aria-hidden="true">
+    <div class="panel">
+      <div class="dtop">
+        <div class="brand-mini">NICE COLLECTION</div>
+        <button type="button" class="close" id="closeBtn">✕</button>
+      </div>
+      <div id="panelBody"></div>
+    </div>
+  </div>
+
+  <script>
+    const qs = (s, el=document)=>el.querySelector(s);
+    const qsa = (s, el=document)=>[...el.querySelectorAll(s)];
+    const q = qs('#q');
+    const chips = qs('#chips');
+    const grid = qs('#grid');
+    const count = qs('#count');
+    const detail = qs('#detail');
+    const panelBody = qs('#panelBody');
+    const closeBtn = qs('#closeBtn');
+
+    let PRODUCTS = [];
+    let FILTER = 'ALL';
+    let currentImages = [];
+
+    const FILTERS = [
+      ['ALL','전체'],
+      ['BEST','🔥 BEST'],
+      ['NEW','✨ NEW'],
+      ['RECOMMEND','EDITOR’S PICK'],
+      ['LUXURY','LUXURY'],
+      ['COSTUME','COSTUME'],
+      ['TWO PIECE','투피스'],
+      ['PARTY','PARTY'],
+      ['MINI','MINI'],
+      ['MIDI','MIDI'],
+      ['LONG','LONG'],
+      ['TOP','상의'],
+      ['SKIRT','스커트']
+    ];
+
+    const money = n => n ? '₩' + Number(n).toLocaleString('ko-KR') : '문의';
+    function track(name, params={}){ try{ gtag('event', name, params); }catch(e){} }
+
+    function normalize(text){ return String(text || '').toLowerCase(); }
+
+    function matchesFilter(item){
+      const search = normalize(q.value.trim());
+      const hay = normalize([
+        item.code, item.name, item.storeName, item.origin, item.folder, item.supplier, item.color, item.category, ...(item.tags||[])
+      ].join(' '));
+
+      const searchOk = !search || hay.includes(search);
+      const tags = item.tags || [];
+      const filterOk = FILTER === 'ALL'
+        || (FILTER === 'BEST' && (item.best || tags.includes('BEST')))
+        || (FILTER === 'NEW' && (item.new || tags.includes('NEW')))
+        || tags.includes(FILTER)
+        || item.category === FILTER;
+      return searchOk && filterOk;
+    }
+
+    function makePromoBadges(item){
+      const tags = item.tags || [];
+      const out = [];
+      if(item.best || tags.includes('BEST')) out.push('<span class="badge">BEST</span>');
+      if(item.new || tags.includes('NEW')) out.push('<span class="badge gold">NEW</span>');
+      if(tags.includes('RECOMMEND')) out.push('<span class="badge light">EDITOR’S PICK</span>');
+      if(!out.length) out.push(`<span class="badge">${item.category || 'NICE'}</span>`);
+      return out.join('');
+    }
+
+    function smallMeta(item){
+      const tags = [];
+      if(item.category) tags.push(item.category);
+      if(item.color) tags.push(item.color);
+      if(item.size) tags.push('SIZE ' + item.size);
+      return tags.slice(0,3).map(v=>`<span>${v}</span>`).join('');
+    }
+
+    function sellingPoints(item){
+      const pts = [];
+      const name = item.name || '';
+      const cat = item.category || '';
+      const color = item.color || '';
+
+      if(cat === 'TWO PIECE') pts.push('상하의 밸런스가 좋아 허리선은 더욱 슬림해 보이고 비율은 길어 보이는 실루엣입니다.');
+      else if(cat === 'MINI') pts.push('다리 라인을 더욱 길고 슬림하게 보여 주는 미니 기장으로 존재감 있는 스타일을 완성합니다.');
+      else if(cat === 'MIDI') pts.push('부담 없이 세련된 분위기를 연출하는 미디 기장으로 우아함과 여성스러움을 동시에 살려줍니다.');
+      else if(cat === 'LONG') pts.push('움직일 때마다 흐르는 실루엣이 고급스럽게 살아나는 롱 라인으로 특별한 자리에서 더 돋보입니다.');
+      else if(cat === 'TOP') pts.push('단독으로도 포인트가 살아나고 다양한 하의와 함께 스타일링하기 좋은 활용도 높은 디자인입니다.');
+      else if(cat === 'SKIRT') pts.push('하체 라인을 정돈해 주면서도 여성스러운 분위기를 살려 주는 세련된 실루엣입니다.');
+      else pts.push('라인감이 돋보여 몸매를 더욱 정리해 보이게 하고 사진에서도 존재감 있게 표현되는 스타일입니다.');
+
+      if(/러플|프릴|셔링|드레이프|플리츠|주름/.test(name)) pts.push('디테일 포인트가 얼굴빛과 전체 분위기를 한층 더 화사하고 입체적으로 보이게 해줍니다.');
+      else if(/오프숄더|튜브|홀터|브이넥/.test(name)) pts.push('넥라인이 예쁘게 드러나 답답해 보이지 않고 여리여리한 무드를 더해줍니다.');
+      else pts.push('군더더기 없이 떨어지는 라인 덕분에 고급스럽고 세련된 분위기를 자연스럽게 완성해 줍니다.');
+
+      if(color) pts.push(`${color} 컬러 특유의 분위기가 고급스럽게 살아나 파티, 모임, 촬영 등 시선을 끌고 싶은 순간에 특히 잘 어울립니다.`);
+      else pts.push('실제 착용 시에도 사진처럼 분위기가 살아나 특별한 자리에서 자연스럽게 시선을 사로잡을 수 있습니다.');
+
+      return pts.slice(0,3);
+    }
+
+    function sceneText(item){
+      return item.recommend
+        ? item.recommend.replaceAll('/', ' · ')
+        : '파티 · 모임 · 데이트 · 촬영 · 특별한 약속';
+    }
+
+    function styleNote(item){
+      const size = item.size || 'FREE';
+      const stretch = item.stretch || '확인 필요';
+      return `${item.name}는 단독으로도 포인트가 충분한 디자인이라 별다른 스타일링 없이도 완성도 높은 룩을 연출할 수 있습니다. 사이즈는 ${size} 구성이며, 착용감은 ${stretch} 기준입니다.`;
+    }
+
+    function render(){
+      const list = PRODUCTS.filter(matchesFilter);
+      count.textContent = `${list.length} items`;
+
+      if(!list.length){
+        grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 다른 검색어나 카테고리를 선택해 보세요.</div>';
+        return;
+      }
+
+      grid.innerHTML = list.map(item => `
+        <article class="card" data-code="${item.code}">
+          <div class="photo">
+            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match9" alt="${item.name}">` : ''}
+            <div class="badges">${makePromoBadges(item)}</div>
+            <span class="code">${item.code}</span>
+          </div>
+          <div class="info">
+            <div class="name">${item.name}</div>
+            <div class="meta">${smallMeta(item)}</div>
+            <div class="price">${money(item.price)}</div>
+          </div>
+        </article>
+      `).join('');
+
+      qsa('.card').forEach(card => {
+        card.addEventListener('click', () => openDetail(card.dataset.code));
+      });
+    }
+
+    function setImage(index){
+      const main = qs('#mainImage');
+      const target = currentImages[index];
+      if(!main || !target) return;
+      main.src = `${target.url}?v=match9`;
+      qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
+    }
+
+    function openDetail(code){
+      const item = PRODUCTS.find(p => p.code === code);
+      if(!item) return;
+      currentImages = item.cuts?.length ? item.cuts : (item.images || []).map((url, i) => ({url, cut:'컷'+(i+1), source:url}));
+      const tags = item.tags || [];
+      const labelTags = [];
+      if(item.best || tags.includes('BEST')) labelTags.push('BEST');
+      if(item.new || tags.includes('NEW')) labelTags.push('NEW');
+      if(tags.includes('RECOMMEND')) labelTags.push('EDITOR’S PICK');
+      if(item.category) labelTags.push(item.category);
+      if(item.color) labelTags.push(item.color);
+
+      track('product_view', {product_code:item.code, product_name:item.name, category:item.category, price:item.price});
+
+      panelBody.innerHTML = `
+        <div class="dbody">
+          <section class="visual">
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match9" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="thumbs">
+              ${currentImages.map((im, i) => `
+                <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
+                  <img src="${im.url}?v=match9" alt="${item.name} ${i+1}">
+                </button>
+              `).join('')}
+            </div>
+          </section>
+          <section class="copy">
+            <div class="mini-cats">${labelTags.map(v => `<span>${v}</span>`).join('')}</div>
+            <h2>${item.name}</h2>
+            <h3>${money(item.price)}</h3>
+
+            <div class="story">
+              <b>WHY YOU’LL LOVE IT</b>
+              <ul class="points">${sellingPoints(item).map(p => `<li>${p}</li>`).join('')}</ul>
+            </div>
+
+            <div class="scene">
+              <b>EDITOR’S NOTE</b>
+              <p>${styleNote(item)}</p>
+            </div>
+
+            <div class="note">
+              <b>RECOMMENDED FOR</b>
+              <p>${sceneText(item)}</p>
+            </div>
+
+            <div class="spec">
+              <div class="cell"><b>COLOR</b><span>${item.color || '-'}</span></div>
+              <div class="cell"><b>SIZE</b><span>${item.size || '-'}</span></div>
+              <div class="cell"><b>FIT</b><span>${item.stretch || '-'}</span></div>
+              <div class="cell"><b>LINING</b><span>${item.lining || '-'}</span></div>
+            </div>
+
+            <div class="cta">
+              <a class="kakao" href="http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-" target="_blank" rel="noopener">
+                <span class="logo-icon kakao-logo">TALK</span><span>카카오톡 문의</span>
+              </a>
+              <a class="insta" href="https://www.instagram.com/dongdaemun_helloapm_nice?igsh=am16YjFmdHdtajN6" target="_blank" rel="noopener">
+                <span class="logo-icon insta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle></svg></span>
+                <span>인스타 DM</span>
+              </a>
+            </div>
+          </section>
+        </div>
+      `;
+
+      detail.classList.add('open');
+      detail.setAttribute('aria-hidden','false');
+      history.pushState({detail: code}, '', '#' + code);
+
+      qsa('.thumb', detail).forEach(btn => {
+        btn.addEventListener('click', () => setImage(Number(btn.dataset.index)));
+      });
+    }
+
+    function closeDetail(fromPop=false){
+      detail.classList.remove('open');
+      detail.setAttribute('aria-hidden','true');
+      if(!fromPop && location.hash){
+        history.pushState({}, '', location.pathname);
+      }
+    }
+
+    async function init(){
+      PRODUCTS = await (await fetch('./products.json?v=match9')).json();
+      chips.innerHTML = FILTERS.map(([key, label]) => `
+        <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
+      `).join('');
+
+      chips.addEventListener('click', e => {
+        const btn = e.target.closest('.chip');
+        if(!btn) return;
+        FILTER = btn.dataset.filter;
+        qsa('.chip', chips).forEach(ch => ch.classList.toggle('on', ch === btn));
+        track('category_click', {category: FILTER});
+        render();
+      });
+
+      q.addEventListener('input', () => {
+        if(q.value.trim().length >= 2) track('product_search', {search_term: q.value.trim()});
+        render();
+      });
+
+      const initialCode = decodeURIComponent(location.hash.replace('#',''));
+      render();
+      if(initialCode) setTimeout(() => openDetail(initialCode), 50);
+    }
+
+    closeBtn.addEventListener('click', () => closeDetail());
+    detail.addEventListener('click', e => { if(e.target === detail) closeDetail(); });
+    window.addEventListener('keydown', e => { if(e.key === 'Escape') closeDetail(); });
+    window.addEventListener('popstate', () => {
+      const code = decodeURIComponent(location.hash.replace('#',''));
+      if(code) openDetail(code);
+      else closeDetail(true);
+    });
+
+    init();
+  </script>
 </body>
 </html>
