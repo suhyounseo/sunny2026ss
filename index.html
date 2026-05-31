@@ -162,7 +162,29 @@
       .story p,.scene p,.note p,.points{font-size:15px}
       .thumb{flex-basis:72px;height:96px}
     }
-  </style>
+  
+/* match11 detail image size fix */
+.panel{width:min(1080px,96vw)!important;}
+.visual{padding:18px!important;}
+.main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
+.main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:68vh!important;object-fit:contain!important;border-radius:18px!important;}
+.cta a{min-height:58px!important;}
+.logo-icon svg{display:block!important;width:26px!important;height:26px!important;}
+@media(max-width:720px){
+  .panel{width:96vw!important;max-height:92vh!important;}
+  .main{max-height:48vh!important;}
+  .main img{max-height:48vh!important;}
+  .copy h2{font-size:28px!important;}
+}
+
+
+/* match11 detail final size fix */
+.panel{width:min(1080px,96vw)!important;}
+.main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
+.main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
+@media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
+
+</style>
 </head>
 <body>
   <header class="hero">
@@ -310,7 +332,7 @@
       grid.innerHTML = list.map(item => `
         <article class="card" data-code="${item.code}">
           <div class="photo">
-            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match9" alt="${item.name}">` : ''}
+            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match11" alt="${item.name}">` : ''}
             <div class="badges">${makePromoBadges(item)}</div>
             <span class="code">${item.code}</span>
           </div>
@@ -331,7 +353,7 @@
       const main = qs('#mainImage');
       const target = currentImages[index];
       if(!main || !target) return;
-      main.src = `${target.url}?v=match9`;
+      main.src = `${target.url}?v=match11`;
       qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
     }
 
@@ -352,11 +374,11 @@
       panelBody.innerHTML = `
         <div class="dbody">
           <section class="visual">
-            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match9" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match11" alt="${item.name}">` : 'NO IMAGE'}</div>
             <div class="thumbs">
               ${currentImages.map((im, i) => `
                 <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
-                  <img src="${im.url}?v=match9" alt="${item.name} ${i+1}">
+                  <img src="${im.url}?v=match11" alt="${item.name} ${i+1}">
                 </button>
               `).join('')}
             </div>
@@ -419,7 +441,7 @@
     }
 
     async function init(){
-      PRODUCTS = await (await fetch('./products.json?v=match9')).json();
+      PRODUCTS = await (await fetch('./products.json?v=match11')).json();
       chips.innerHTML = FILTERS.map(([key, label]) => `
         <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
       `).join('');
