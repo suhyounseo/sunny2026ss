@@ -5074,28 +5074,40 @@
       "assets/N260081_01.jpg",
       "assets/N260081_02.jpg",
       "assets/N260081_03.jpg",
-      "assets/N260081_04.jpg"
+      "assets/N260081_04.jpg",
+      "assets/N260081_05.jpg",
+      "assets/N260081_06.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260081_01.jpg",
-        "cut": "전면",
-        "source": "시스룩긴팔원피스(화이트)/img_xl_1_toklv9.jpg"
+        "cut": "메인",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML6.jpg"
       },
       {
         "url": "assets/N260081_02.jpg",
-        "cut": "후면",
-        "source": "시스룩긴팔원피스(화이트)/img_xl_2_hskyvk.jpg"
+        "cut": "전면",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML1.jpg"
       },
       {
         "url": "assets/N260081_03.jpg",
-        "cut": "측면",
-        "source": "시스룩긴팔원피스(화이트)/img_xl_3_vltlul.jpg"
+        "cut": "전면",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML2.jpg"
       },
       {
         "url": "assets/N260081_04.jpg",
-        "cut": "확대/디테일",
-        "source": "시스룩긴팔원피스(화이트)/img_xl_4_jtiwue.jpg"
+        "cut": "전면 확대",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML3.jpg"
+      },
+      {
+        "url": "assets/N260081_05.jpg",
+        "cut": "전면",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML4.jpg"
+      },
+      {
+        "url": "assets/N260081_06.jpg",
+        "cut": "전후면",
+        "source": "시스루OPS/시스루레이스OPS_아블 SML5.jpg"
       }
     ],
     "desc": "시스루 레이스 원피스 상품입니다. 화이트 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 상:비침 하:없음, 안감 부분, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
