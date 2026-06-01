@@ -170,7 +170,7 @@
       .thumb{flex-basis:72px;height:96px}
     }
   
-/* match19 detail image size fix */
+/* match20 detail image size fix */
 .panel{width:min(1080px,96vw)!important;}
 .visual{padding:18px!important;}
 .main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
@@ -185,14 +185,14 @@
 }
 
 
-/* match19 detail final size fix */
+/* match20 detail final size fix */
 .panel{width:min(1080px,96vw)!important;}
 .main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
 .main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
 @media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
 
 
-/* match19 mobile modal fix */
+/* match20 mobile modal fix */
 @media(max-width:720px){
   body.modal-open{overflow:hidden!important;}
   .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
@@ -303,7 +303,7 @@
 }
 
 
-/* match19 final CTA + mobile detail balance */
+/* match20 final CTA + mobile detail balance */
 .cta{
   display:grid!important;
   grid-template-columns:1fr 1fr!important;
@@ -456,7 +456,7 @@
 }
 
 
-/* match19 filter + 5cut + mobile balance */
+/* match20 filter + 5cut + mobile balance */
 @media(max-width:720px){
   .panel{width:94vw!important;max-width:94vw!important;max-height:88vh!important}
   .main,.main img{max-height:40vh!important}
@@ -465,7 +465,7 @@
 }
 
 
-/* match19 mobile main + product badge cleanup */
+/* match20 mobile main + product badge cleanup */
 .code-line{
   display:inline-flex;
   align-items:center;
@@ -651,7 +651,7 @@
 }
 
 
-/* match19 desktop filter one-line + product code outside image */
+/* match20 desktop filter one-line + product code outside image */
 .chips{
   display:flex!important;
   flex-wrap:nowrap!important;
@@ -824,7 +824,7 @@
     const panelBody = qs('#panelBody');
     const closeBtn = qs('#closeBtn');
 
-    const VERSION = 'match19';
+    const VERSION = 'match20';
     let PRODUCTS = [];
     let FILTER = 'ALL';
     let LANG = localStorage.getItem('niceLang') || 'kr';
