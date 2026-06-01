@@ -129,6 +129,7 @@
     .thumb{flex:0 0 82px;height:108px;border-radius:14px;overflow:hidden;border:2px solid transparent;background:#fff;cursor:pointer;padding:0}
     .thumb img{width:100%;height:100%;object-fit:cover}
     .thumb.on{border-color:#2f221b;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+    .mobile-gallery{display:none}
     .copy{padding:28px 26px 28px;background:var(--paper)}
     .mini-cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
     .mini-cats span{padding:8px 12px;border-radius:999px;background:#f1e6db;border:1px solid #e4d5c8;font-size:12px;font-weight:700;color:#6b584b}
@@ -170,7 +171,7 @@
       .thumb{flex-basis:72px;height:96px}
     }
   
-/* match22 detail image size fix */
+/* match23 detail image size fix */
 .panel{width:min(1080px,96vw)!important;}
 .visual{padding:18px!important;}
 .main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
@@ -185,14 +186,14 @@
 }
 
 
-/* match22 detail final size fix */
+/* match23 detail final size fix */
 .panel{width:min(1080px,96vw)!important;}
 .main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
 .main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
 @media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
 
 
-/* match22 mobile modal fix */
+/* match23 mobile modal fix */
 @media(max-width:720px){
   body.modal-open{overflow:hidden!important;}
   .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
@@ -303,7 +304,7 @@
 }
 
 
-/* match22 final CTA + mobile detail balance */
+/* match23 final CTA + mobile detail balance */
 .cta{
   display:grid!important;
   grid-template-columns:1fr 1fr!important;
@@ -373,51 +374,74 @@
 @media(max-width:720px){
   body.modal-open{overflow:hidden!important;}
   .overlay{align-items:flex-start!important;overflow:auto!important;padding:8px 0!important;}
+  .detail{padding:8px 0!important;align-items:flex-start!important;overflow:auto!important;}
   .panel{
-    width:94vw!important;
-    max-width:94vw!important;
+    width:92vw!important;
+    max-width:92vw!important;
     max-height:88vh!important;
     margin:8px auto!important;
     border-radius:28px!important;
     overflow:auto!important;
   }
-  .head{
-    height:60px!important;
-    padding:0 18px!important;
-    font-size:22px!important;
-    letter-spacing:5px!important;
+  .dtop,.head{
+    min-height:58px!important;
+    padding:8px 14px!important;
     position:sticky!important;
     top:0!important;
     z-index:50!important;
     background:#fffaf4!important;
   }
+  .brand-mini{
+    min-width:0!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+    white-space:nowrap!important;
+    font-size:16px!important;
+    letter-spacing:.08em!important;
+  }
   .close{width:44px!important;height:44px!important;font-size:28px!important}
   .body,.modal-body{display:block!important;grid-template-columns:none!important}
-  .visual{padding:12px!important;min-height:0!important}
+  .visual{padding:0!important;min-height:0!important;background:#efe6dd!important}
   .main{
+    display:none!important;
+  }
+  .mobile-gallery{
+    display:flex!important;
     width:100%!important;
-    min-height:0!important;
-    height:auto!important;
-    max-height:43vh!important;
-    aspect-ratio:auto!important;
+    overflow-x:auto!important;
+    scroll-snap-type:x mandatory!important;
+    -webkit-overflow-scrolling:touch!important;
+    background:#efe6dd!important;
+  }
+  .mobile-gallery::-webkit-scrollbar{display:none!important}
+  .mobile-slide{
+    flex:0 0 100%!important;
+    height:min(48vh,480px)!important;
+    padding:12px!important;
     display:flex!important;
     align-items:center!important;
     justify-content:center!important;
-    overflow:hidden!important;
-    border-radius:22px!important;
-    background:#efe6dd!important;
+    scroll-snap-align:center!important;
   }
-  .main img{
+  .mobile-slide img{
     width:auto!important;
     height:auto!important;
     max-width:100%!important;
-    max-height:43vh!important;
+    max-height:100%!important;
     object-fit:contain!important;
     border-radius:18px!important;
   }
-  .thumbs{display:flex!important;gap:8px!important;overflow-x:auto!important;padding:10px 2px 2px!important}
+  .thumbs{display:none!important}
   .thumb{flex:0 0 70px!important;width:70px!important;height:82px!important;border-radius:14px!important}
   .copy{padding:15px 16px 18px!important}
+  .mini-cats{
+    flex-wrap:nowrap!important;
+    overflow-x:auto!important;
+    padding-bottom:4px!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+  .mini-cats::-webkit-scrollbar{display:none!important}
+  .mini-cats span{flex:0 0 auto!important}
   .copy h2{font-size:27px!important;line-height:1.16!important;word-break:keep-all!important}
   .price{font-size:24px!important;margin:8px 0 16px!important}
   .box{padding:14px!important;margin:10px 0!important}
@@ -438,10 +462,13 @@
   .cta a{
     min-height:50px!important;
     padding:11px 9px!important;
-    font-size:15px!important;
+    font-size:14px!important;
     border-radius:15px!important;
     gap:7px!important;
+    min-width:0!important;
+    overflow:hidden!important;
   }
+  .cta a span:last-child{overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
   .cta a.kakao .kakao-logo{width:30px!important;height:22px!important;min-width:30px!important;font-size:8px!important}
   .cta a.insta .logo-icon.insta{width:28px!important;height:28px!important;min-width:28px!important}
   .cta a.insta .logo-icon.insta svg{width:19px!important;height:19px!important}
@@ -450,13 +477,13 @@
   .panel{width:96vw!important;max-width:96vw!important}
   .head{font-size:20px!important;letter-spacing:4px!important}
   .copy h2{font-size:24px!important}
-  .main,.main img{max-height:40vh!important}
+  .mobile-slide{height:min(44vh,420px)!important}
   .thumb{flex-basis:66px!important;width:66px!important;height:78px!important}
   .cta a{font-size:14px!important}
 }
 
 
-/* match22 filter + 5cut + mobile balance */
+/* match23 filter + 5cut + mobile balance */
 @media(max-width:720px){
   .panel{width:94vw!important;max-width:94vw!important;max-height:88vh!important}
   .main,.main img{max-height:40vh!important}
@@ -465,7 +492,7 @@
 }
 
 
-/* match22 mobile main + product badge cleanup */
+/* match23 mobile main + product badge cleanup */
 .code-line{
   display:inline-flex;
   align-items:center;
@@ -651,7 +678,7 @@
 }
 
 
-/* match22 desktop filter one-line + product code outside image */
+/* match23 desktop filter one-line + product code outside image */
 .chips{
   display:flex!important;
   flex-wrap:nowrap!important;
@@ -824,7 +851,7 @@
     const panelBody = qs('#panelBody');
     const closeBtn = qs('#closeBtn');
 
-    const VERSION = 'match22';
+    const VERSION = 'match23';
     let PRODUCTS = [];
     let FILTER = 'ALL';
     let LANG = localStorage.getItem('niceLang') || 'kr';
@@ -1136,6 +1163,13 @@
         <div class="dbody">
           <section class="visual">
             <div class="main">${currentImages[0] ? `<img id="mainImage" src="${imageUrl(currentImages[0].url)}" alt="${displayName}">` : 'NO IMAGE'}</div>
+            <div class="mobile-gallery" aria-label="product image gallery">
+              ${currentImages.map((im, i) => `
+                <div class="mobile-slide">
+                  <img src="${imageUrl(im.url)}" alt="${displayName} ${i+1}">
+                </div>
+              `).join('')}
+            </div>
             <div class="thumbs">
               ${currentImages.map((im, i) => `
                 <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
