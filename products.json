@@ -2298,16 +2298,16 @@
       "RECOMMEND"
     ],
     "images": [
-      "assets/N260031_01.jpg",
-      "assets/N260031_02.jpg",
       "assets/N260031_03.jpg",
-      "assets/N260031_04.jpg"
+      "assets/N260031_02.jpg",
+      "assets/N260031_04.jpg",
+      "assets/N260031_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260031_01.jpg",
-        "cut": "전면",
-        "source": "컨페티OPS아이/img_xl_1_nh6oom.jpg"
+        "url": "assets/N260031_03.jpg",
+        "cut": "측면",
+        "source": "컨페티OPS아이/img_xl_3_p0v3jq.jpg"
       },
       {
         "url": "assets/N260031_02.jpg",
@@ -2315,14 +2315,14 @@
         "source": "컨페티OPS아이/img_xl_2_vysiyf.jpg"
       },
       {
-        "url": "assets/N260031_03.jpg",
-        "cut": "측면",
-        "source": "컨페티OPS아이/img_xl_3_p0v3jq.jpg"
-      },
-      {
         "url": "assets/N260031_04.jpg",
         "cut": "확대/디테일",
         "source": "컨페티OPS아이/img_xl_4_fejcsy.jpg"
+      },
+      {
+        "url": "assets/N260031_01.jpg",
+        "cut": "전면",
+        "source": "컨페티OPS아이/img_xl_1_nh6oom.jpg"
       }
     ],
     "desc": "라인 디테일 스림 미디 원피스, 언발란스 밑단과 딥 슬림 디테일이 포인트 상품입니다. 화이트 컬러 구성으로 준비했습니다. 소재는 폴리스판 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
