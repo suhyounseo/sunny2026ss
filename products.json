@@ -62,7 +62,10 @@
     "stretch": "확인필요",
     "see": "확인필요",
     "lining": "확인필요",
-    "new": true
+    "new": true,
+    "name_en": "Sakura Mini Dress",
+    "name_cn": "樱花 迷你连衣裙",
+    "name_jp": "サクラ ミニワンピース"
   },
   {
     "code": "N260218",
@@ -122,7 +125,10 @@
     "stretch": "있음",
     "see": "확인필요",
     "lining": "없음",
-    "new": true
+    "new": true,
+    "name_en": "Beaded Collar Sleeveless Knit Top",
+    "name_cn": "珠饰 翻领 无袖 针织上衣",
+    "name_jp": "ビーズ カラー ノースリーブ ニットトップ"
   },
   {
     "code": "N260219",
@@ -181,7 +187,10 @@
     "stretch": "확인필요",
     "see": "확인필요",
     "lining": "확인필요",
-    "new": true
+    "new": true,
+    "name_en": "Monet Print Summer Dress",
+    "name_cn": "莫奈 印花 夏季 连衣裙",
+    "name_jp": "モネ プリント サマー ワンピース"
   },
   {
     "code": "N260220",
@@ -242,7 +251,10 @@
     "stretch": "확인필요",
     "see": "확인필요",
     "lining": "확인필요",
-    "new": true
+    "new": true,
+    "name_en": "Tiny Flower Embroidery Square Neck Dress",
+    "name_cn": "小花 刺绣 方领 连衣裙",
+    "name_jp": "小花 刺繍 スクエアネック ワンピース"
   },
   {
     "code": "N260221",
@@ -300,7 +312,10 @@
     "stretch": "있음",
     "see": "확인필요",
     "lining": "없음",
-    "new": true
+    "new": true,
+    "name_en": "Paola Slim Knit Top",
+    "name_cn": "Paola 修身 针织上衣",
+    "name_jp": "パオラ スリム ニットトップ"
   },
   {
     "code": "N260222",
@@ -360,7 +375,10 @@
     "stretch": "확인필요",
     "see": "확인필요",
     "lining": "확인필요",
-    "new": true
+    "new": true,
+    "name_en": "Lace Flare Skirt",
+    "name_cn": "蕾丝 伞摆 半身裙",
+    "name_jp": "レース フレア スカート"
   },
   {
     "code": "N260223",
@@ -414,7 +432,10 @@
     "stretch": "있음",
     "see": "확인필요",
     "lining": "없음",
-    "new": true
+    "new": true,
+    "name_en": "Glossy Ribbed Knit Top Sleeveless Top",
+    "name_cn": "光泽 罗纹 针织上衣 无袖上衣",
+    "name_jp": "グロッシー リブ ニットトップ ノースリーブトップ"
   },
   {
     "code": "N260224",
@@ -474,7 +495,10 @@
     "stretch": "확인필요",
     "see": "확인필요",
     "lining": "확인필요",
-    "new": true
+    "new": true,
+    "name_en": "4-Tier Frill Mini Skirt",
+    "name_cn": "四层 荷叶边 迷你 半身裙",
+    "name_jp": "4段 フリル ミニ スカート"
   },
   {
     "code": "N260001",
@@ -534,7 +558,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Ruffle V-Neck Cropped Two-Piece Set",
+    "name_cn": "荷叶边 V领 短款 两件套",
+    "name_jp": "ラッフル Vネック クロップド セットアップ"
   },
   {
     "code": "N260002",
@@ -594,7 +621,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Ruffle V-Neck Cropped Two-Piece Set",
+    "name_cn": "荷叶边 V领 短款 两件套",
+    "name_jp": "ラッフル Vネック クロップド セットアップ"
   },
   {
     "code": "N260003",
@@ -654,7 +684,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Ruffle V-Neck Cropped Two-Piece Mini Dress",
+    "name_cn": "荷叶边 V领 短款 两件套迷你连衣裙",
+    "name_jp": "ラッフル Vネック クロップド セットアップミニワンピース"
   },
   {
     "code": "N260004",
@@ -715,7 +748,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Marine Style Two-Piece Set",
+    "name_cn": "海军风 风格 两件套",
+    "name_jp": "マリン スタイル セットアップ"
   },
   {
     "code": "N260005",
@@ -776,7 +812,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Marine Style Two-Piece Set",
+    "name_cn": "海军风 风格 两件套",
+    "name_jp": "マリン スタイル セットアップ"
   },
   {
     "code": "N260006",
@@ -830,7 +869,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Ruffle Off-Shoulder Cropped Two-Piece Set",
+    "name_cn": "荷叶边 露肩 短款 两件套",
+    "name_jp": "ラッフル オフショルダー クロップド セットアップ"
   },
   {
     "code": "N260007",
@@ -884,7 +926,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Ruffle Two-Piece Set",
+    "name_cn": "荷叶边 两件套",
+    "name_jp": "ラッフル セットアップ"
   },
   {
     "code": "N260008",
@@ -938,7 +983,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Off-Shoulder Tulle Skirt Two-Piece Set",
+    "name_cn": "露肩 薄纱 半身裙 两件套",
+    "name_jp": "オフショルダー チュール スカート セットアップ"
   },
   {
     "code": "N260009",
@@ -993,7 +1041,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Marine Sailor Two-Piece Set",
+    "name_cn": "海军风 水手 两件套",
+    "name_jp": "マリン セーラー セットアップ"
   },
   {
     "code": "N260010",
@@ -1048,7 +1099,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Marine Sailor Two-Piece Set",
+    "name_cn": "海军风 水手 两件套",
+    "name_jp": "マリン セーラー セットアップ"
   },
   {
     "code": "N260011",
@@ -1102,7 +1156,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
+    "name_cn": "露肩 裹身 半身裙 两件套",
+    "name_jp": "オフショルダー ラップ スカート セットアップ"
   },
   {
     "code": "N260012",
@@ -1156,7 +1213,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
+    "name_cn": "露肩 裹身 半身裙 两件套",
+    "name_jp": "オフショルダー ラップ スカート セットアップ"
   },
   {
     "code": "N260013",
@@ -1210,7 +1270,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분, 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
+    "name_cn": "露肩 裹身 半身裙 两件套",
+    "name_jp": "オフショルダー ラップ スカート セットアップ"
   },
   {
     "code": "N260014",
@@ -1264,7 +1327,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Gold Button Chain Slim Dress",
+    "name_cn": "金色纽扣 链条 修身 连衣裙",
+    "name_jp": "ゴールドボタン チェーン スリム ワンピース"
   },
   {
     "code": "N260015",
@@ -1318,7 +1384,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Gold Button Chain Slim Dress",
+    "name_cn": "金色纽扣 链条 修身 连衣裙",
+    "name_jp": "ゴールドボタン チェーン スリム ワンピース"
   },
   {
     "code": "N260016",
@@ -1373,7 +1442,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Glam Midi Dress",
+    "name_cn": "华丽 中长连衣裙",
+    "name_jp": "グラム ミディワンピース"
   },
   {
     "code": "N260017",
@@ -1427,7 +1499,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Guinness Mini Dress",
+    "name_cn": "Guinness 迷你连衣裙",
+    "name_jp": "ギネス ミニワンピース"
   },
   {
     "code": "N260018",
@@ -1481,7 +1556,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Guinness Mini Dress",
+    "name_cn": "Guinness 迷你连衣裙",
+    "name_jp": "ギネス ミニワンピース"
   },
   {
     "code": "N260019",
@@ -1535,7 +1613,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Guinness Mini Dress",
+    "name_cn": "Guinness 迷你连衣裙",
+    "name_jp": "ギネス ミニワンピース"
   },
   {
     "code": "N260020",
@@ -1583,7 +1664,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "best": true
+    "best": true,
+    "name_en": "Accessory Option",
+    "name_cn": "配饰选项",
+    "name_jp": "アクセサリーオプション"
   },
   {
     "code": "N260021",
@@ -1637,7 +1721,10 @@
     "stretch": "적음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "La Vie Dress",
+    "name_cn": "La Vie 连衣裙",
+    "name_jp": "ラヴィアン ワンピース"
   },
   {
     "code": "N260022",
@@ -1691,7 +1778,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Tube Top Ribbon Stripe Mini Dress",
+    "name_cn": "抹胸 蝴蝶结 条纹 迷你连衣裙",
+    "name_jp": "チューブトップ リボン ストライプ ミニワンピース"
   },
   {
     "code": "N260023",
@@ -1745,7 +1835,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Tube Top Ribbon Stripe Mini Dress",
+    "name_cn": "抹胸 蝴蝶结 条纹 迷你连衣裙",
+    "name_jp": "チューブトップ リボン ストライプ ミニワンピース"
   },
   {
     "code": "N260024",
@@ -1799,7 +1892,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "없음",
-    "best": true
+    "best": true,
+    "name_en": "Stripe Ribbon Top Blouse",
+    "name_cn": "条纹 蝴蝶结 上衣 衬衫",
+    "name_jp": "ストライプ リボン トップス ブラウス"
   },
   {
     "code": "N260025",
@@ -1853,7 +1949,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "없음",
-    "best": true
+    "best": true,
+    "name_en": "Stripe Ribbon Top Blouse",
+    "name_cn": "条纹 蝴蝶结 上衣 衬衫",
+    "name_jp": "ストライプ リボン トップス ブラウス"
   },
   {
     "code": "N260026",
@@ -1907,7 +2006,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "없음",
-    "best": true
+    "best": true,
+    "name_en": "Stripe Ribbon Top Blouse",
+    "name_cn": "条纹 蝴蝶结 上衣 衬衫",
+    "name_jp": "ストライプ リボン トップス ブラウス"
   },
   {
     "code": "N260027",
@@ -1962,7 +2064,10 @@
     "stretch": "보통",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Modern Fit Gray Slim Midi Dress",
+    "name_cn": "摩登修身 灰色 修身 中长连衣裙",
+    "name_jp": "モダンフィット グレー スリム ミディワンピース"
   },
   {
     "code": "N260028",
@@ -2017,7 +2122,10 @@
     "stretch": "보통",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Modern Fit Gray Slim Midi Dress",
+    "name_cn": "摩登修身 灰色 修身 中长连衣裙",
+    "name_jp": "モダンフィット グレー スリム ミディワンピース"
   },
   {
     "code": "N260029",
@@ -2072,7 +2180,10 @@
     "stretch": "보통",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Modern Fit Gray Slim Midi Dress",
+    "name_cn": "摩登修身 灰色 修身 中长连衣裙",
+    "name_jp": "モダンフィット グレー スリム ミディワンピース"
   },
   {
     "code": "N260030",
@@ -2126,7 +2237,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Draped Tube Top Dress",
+    "name_cn": "垂褶 抹胸 连衣裙",
+    "name_jp": "ドレープ チューブトップ ワンピース"
   },
   {
     "code": "N260031",
@@ -2181,7 +2295,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Lua Black Line Ribbon Slit Midi Dress",
+    "name_cn": "Lua 黑色线条 蝴蝶结 开衩 中长连衣裙",
+    "name_jp": "ルア ブラックライン リボン スリット ミディワンピース"
   },
   {
     "code": "N260032",
@@ -2236,7 +2353,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Lua Black Line Ribbon Slit Midi Dress",
+    "name_cn": "Lua 黑色线条 蝴蝶结 开衩 中长连衣裙",
+    "name_jp": "ルア ブラックライン リボン スリット ミディワンピース"
   },
   {
     "code": "N260033",
@@ -2290,7 +2410,10 @@
     "stretch": "있음",
     "see": "있음",
     "lining": "없음",
-    "best": true
+    "best": true,
+    "name_en": "Neck Ribbon Blouse",
+    "name_cn": "领口蝴蝶结 衬衫",
+    "name_jp": "ネックリボン ブラウス"
   },
   {
     "code": "N260034",
@@ -2344,7 +2467,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Classic Mood Pleated Skirt",
+    "name_cn": "经典 风格 百褶 半身裙",
+    "name_jp": "クラシック ムード プリーツ スカート"
   },
   {
     "code": "N260035",
@@ -2398,7 +2524,10 @@
     "stretch": "상:있음 하:없음",
     "see": "없음",
     "lining": "상:없음 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Neck Ribbon Classic Mood Pleated Two-Piece Set",
+    "name_cn": "领口蝴蝶结 经典 风格 百褶 两件套",
+    "name_jp": "ネックリボン クラシック ムード プリーツ セットアップ"
   },
   {
     "code": "N260036",
@@ -2454,7 +2583,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Ribbon Tie Off-Shoulder Midi Dress",
+    "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
+    "name_jp": "リボン タイ オフショルダー ミディワンピース"
   },
   {
     "code": "N260037",
@@ -2510,7 +2642,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Ribbon Tie Off-Shoulder Midi Dress",
+    "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
+    "name_jp": "リボン タイ オフショルダー ミディワンピース"
   },
   {
     "code": "N260038",
@@ -2566,7 +2701,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Ribbon Tie Off-Shoulder Midi Dress",
+    "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
+    "name_jp": "リボン タイ オフショルダー ミディワンピース"
   },
   {
     "code": "N260039",
@@ -2621,7 +2759,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Bella Corset Hook Mini Two-Piece Set",
+    "name_cn": "Bella 束身 钩扣 迷你两件套",
+    "name_jp": "ベラ コルセット フック ミニセットアップ"
   },
   {
     "code": "N260040",
@@ -2675,7 +2816,10 @@
     "stretch": "보통",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Bella Corset Cropped Sleeveless Top Blouse",
+    "name_cn": "Bella 束身 短款 无袖上衣 衬衫",
+    "name_jp": "ベラ コルセット クロップド ノースリーブトップ ブラウス"
   },
   {
     "code": "N260041",
@@ -2729,7 +2873,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "Bella Hook Line Skirt",
+    "name_cn": "Bella 钩扣 线条 半身裙",
+    "name_jp": "ベラ フック ライン スカート"
   },
   {
     "code": "N260043",
@@ -2784,7 +2931,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "La Vie Contrast Satin Midi Dress",
+    "name_cn": "La Vie 撞色 缎面 中长连衣裙",
+    "name_jp": "ラヴィアン 配色 サテン ミディワンピース"
   },
   {
     "code": "N260044",
@@ -2839,7 +2989,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "La Vie Contrast Satin Midi Dress",
+    "name_cn": "La Vie 撞色 缎面 中长连衣裙",
+    "name_jp": "ラヴィアン 配色 サテン ミディワンピース"
   },
   {
     "code": "N260045",
@@ -2894,7 +3047,10 @@
     "stretch": "상:약간 하:있음",
     "see": "상:있음 하:없음",
     "lining": "상:없음 하:있음",
-    "best": true
+    "best": true,
+    "name_en": "Preppy Dot Collar Two-Piece Set",
+    "name_cn": "学院风 波点 翻领 两件套",
+    "name_jp": "プレッピー ドット カラー セットアップ"
   },
   {
     "code": "N260046",
@@ -2949,7 +3105,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "best": true
+    "best": true,
+    "name_en": "Preppy Dot Collar Two-Piece Set",
+    "name_cn": "学院风 波点 翻领 两件套",
+    "name_jp": "プレッピー ドット カラー セットアップ"
   },
   {
     "code": "N260047",
@@ -3004,7 +3163,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "best": true
+    "best": true,
+    "name_en": "Sheer Long Dress",
+    "name_cn": "透视 长款礼服",
+    "name_jp": "シースルー ロングドレス"
   },
   {
     "code": "N260048",
@@ -3059,7 +3221,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "best": true
+    "best": true,
+    "name_en": "A-Line Long Dress",
+    "name_cn": "A字版 长款礼服",
+    "name_jp": "Aライン ロングドレス"
   },
   {
     "code": "N260049",
@@ -3114,7 +3279,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "H-Line Midi Dress",
+    "name_cn": "H版型 中长礼服",
+    "name_jp": "Hライン ミディドレス"
   },
   {
     "code": "N260050",
@@ -3169,7 +3337,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "best": true
+    "best": true,
+    "name_en": "H-Line Midi Dress",
+    "name_cn": "H版型 中长礼服",
+    "name_jp": "Hライン ミディドレス"
   },
   {
     "code": "N260051",
@@ -3222,7 +3393,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "H-Line Midi Dress",
+    "name_cn": "H版型 中长礼服",
+    "name_jp": "Hライン ミディドレス"
   },
   {
     "code": "N260052",
@@ -3275,7 +3449,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "H-Line Midi Dress",
+    "name_cn": "H版型 中长礼服",
+    "name_jp": "Hライン ミディドレス"
   },
   {
     "code": "N260053",
@@ -3328,7 +3505,10 @@
     "fabric": "",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Red Floral H-Line Midi Dress",
+    "name_cn": "红色花朵 H版型 中长礼服",
+    "name_jp": "レッドフラワー Hライン ミディドレス"
   },
   {
     "code": "N260054",
@@ -3381,7 +3561,10 @@
     "fabric": "",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Blue Floral H-Line Midi Dress",
+    "name_cn": "蓝色花朵 H版型 中长礼服",
+    "name_jp": "ブルーフラワー Hライン ミディドレス"
   },
   {
     "code": "N260055",
@@ -3432,7 +3615,10 @@
     "fabric": "",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Mini Top Dress",
+    "name_cn": "迷你 上衣 礼服",
+    "name_jp": "ミニ トップス ドレス"
   },
   {
     "code": "N260056",
@@ -3483,7 +3669,10 @@
     "fabric": "",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Mini Top Dress",
+    "name_cn": "迷你 上衣 礼服",
+    "name_jp": "ミニ トップス ドレス"
   },
   {
     "code": "N260057",
@@ -3535,7 +3724,10 @@
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Strap Sleeveless Top Pleated Mini Dress",
+    "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
+    "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース"
   },
   {
     "code": "N260058",
@@ -3587,7 +3779,10 @@
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Strap Sleeveless Top Pleated Mini Dress",
+    "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
+    "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース"
   },
   {
     "code": "N260059",
@@ -3638,7 +3833,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Flower Shoulder H-Line Mini Dress",
+    "name_cn": "花朵 肩部 H版型 迷你礼服",
+    "name_jp": "フラワー ショルダー Hライン ミニドレス"
   },
   {
     "code": "N260060",
@@ -3689,7 +3887,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Flower Shoulder H-Line Mini Dress",
+    "name_cn": "花朵 肩部 H版型 迷你礼服",
+    "name_jp": "フラワー ショルダー Hライン ミニドレス"
   },
   {
     "code": "N260061",
@@ -3740,7 +3941,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260062",
@@ -3791,7 +3995,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260063",
@@ -3842,7 +4049,10 @@
     "fabric": "폴리스판",
     "stretch": "얀간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dot Mini A-Line Dress",
+    "name_cn": "波点 迷你 A字版 连衣裙",
+    "name_jp": "ドット ミニ Aライン ワンピース"
   },
   {
     "code": "N260064",
@@ -3893,7 +4103,10 @@
     "fabric": "폴리스판",
     "stretch": "약간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dot Mini A-Line Dress",
+    "name_cn": "波点 迷你 A字版 连衣裙",
+    "name_jp": "ドット ミニ Aライン ワンピース"
   },
   {
     "code": "N260065",
@@ -3944,7 +4157,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "V-Buckle Pleated Mini Dress",
+    "name_cn": "V形扣 百褶 迷你连衣裙",
+    "name_jp": "Vバックル プリーツ ミニワンピース"
   },
   {
     "code": "N260066",
@@ -3995,7 +4211,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Pearl Button Square Neck Mini Dress",
+    "name_cn": "珍珠纽扣 方领 迷你连衣裙",
+    "name_jp": "パールボタン スクエアネック ミニワンピース"
   },
   {
     "code": "N260067",
@@ -4052,7 +4271,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dot Ribbon Tie A-Line Mini Dress",
+    "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
+    "name_jp": "ドット リボン タイ Aライン ミニドレス"
   },
   {
     "code": "N260068",
@@ -4103,7 +4325,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dot Ribbon Tie A-Line Mini Dress",
+    "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
+    "name_jp": "ドット リボン タイ Aライン ミニドレス"
   },
   {
     "code": "N260069",
@@ -4154,7 +4379,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dot Ribbon Tie A-Line Mini Dress",
+    "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
+    "name_jp": "ドット リボン タイ Aライン ミニドレス"
   },
   {
     "code": "N260070",
@@ -4205,7 +4433,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "V-Buckle Pleated Mini Dress",
+    "name_cn": "V形扣 百褶 迷你连衣裙",
+    "name_jp": "Vバックル プリーツ ミニワンピース"
   },
   {
     "code": "N260071",
@@ -4256,7 +4487,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "V-Buckle Pleated Mini Dress",
+    "name_cn": "V形扣 百褶 迷你连衣裙",
+    "name_jp": "Vバックル プリーツ ミニワンピース"
   },
   {
     "code": "N260072",
@@ -4307,7 +4541,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Pearl Button Square Neck Mini Dress",
+    "name_cn": "珍珠纽扣 方领 迷你连衣裙",
+    "name_jp": "パールボタン スクエアネック ミニワンピース"
   },
   {
     "code": "N260073",
@@ -4358,7 +4595,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Pearl Button Square Neck Mini Dress",
+    "name_cn": "珍珠纽扣 方领 迷你连衣裙",
+    "name_jp": "パールボタン スクエアネック ミニワンピース"
   },
   {
     "code": "N260074",
@@ -4409,7 +4649,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Pearl Button Square Neck Mini Dress",
+    "name_cn": "珍珠纽扣 方领 迷你连衣裙",
+    "name_jp": "パールボタン スクエアネック ミニワンピース"
   },
   {
     "code": "N260075",
@@ -4460,7 +4703,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Flare Cropped Two-Piece Set",
+    "name_cn": "伞摆 短款 两件套",
+    "name_jp": "フレア クロップド セットアップ"
   },
   {
     "code": "N260076",
@@ -4511,7 +4757,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Flare Cropped Two-Piece Set",
+    "name_cn": "伞摆 短款 两件套",
+    "name_jp": "フレア クロップド セットアップ"
   },
   {
     "code": "N260077",
@@ -4562,7 +4811,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Flare Cropped Two-Piece Set",
+    "name_cn": "伞摆 短款 两件套",
+    "name_jp": "フレア クロップド セットアップ"
   },
   {
     "code": "N260078",
@@ -4615,7 +4867,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Shirring Pintuck Midi Dress",
+    "name_cn": "抽褶 捏褶 中长连衣裙",
+    "name_jp": "シャーリング ピンタック ミディワンピース"
   },
   {
     "code": "N260079",
@@ -4666,7 +4921,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Shirring Cropped Top and Flare Two-Piece Set",
+    "name_cn": "抽褶 短款 上衣 和 伞摆 两件套",
+    "name_jp": "シャーリング クロップド トップス と フレア セットアップ"
   },
   {
     "code": "N260080",
@@ -4719,7 +4977,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "상:비침 하:없음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Sheer Lace Dress",
+    "name_cn": "透视 蕾丝 连衣裙",
+    "name_jp": "シースルー レース ワンピース"
   },
   {
     "code": "N260081",
@@ -4772,7 +5033,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "상:비침 하:없음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Sheer Lace Dress",
+    "name_cn": "透视 蕾丝 连衣裙",
+    "name_jp": "シースルー レース ワンピース"
   },
   {
     "code": "N260082",
@@ -4825,7 +5089,10 @@
     "fabric": "새틴",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Corset Long Slip Dress",
+    "name_cn": "束身 长款 吊带 连衣裙",
+    "name_jp": "コルセット ロング スリップ ワンピース"
   },
   {
     "code": "N260083",
@@ -4878,7 +5145,10 @@
     "fabric": "새틴",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Corset Long Slip Dress",
+    "name_cn": "束身 长款 吊带 连衣裙",
+    "name_jp": "コルセット ロング スリップ ワンピース"
   },
   {
     "code": "N260084",
@@ -4931,7 +5201,10 @@
     "fabric": "새틴",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Corset Long Slip Dress",
+    "name_cn": "束身 长款 吊带 连衣裙",
+    "name_jp": "コルセット ロング スリップ ワンピース"
   },
   {
     "code": "N260085",
@@ -4985,7 +5258,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dimensional Flower V-Neck Midi Dress",
+    "name_cn": "立体 花朵 V领 中长连衣裙",
+    "name_jp": "立体 フラワー Vネック ミディワンピース"
   },
   {
     "code": "N260086",
@@ -5039,7 +5315,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Dimensional Flower V-Neck Midi Dress",
+    "name_cn": "立体 花朵 V领 中长连衣裙",
+    "name_jp": "立体 フラワー Vネック ミディワンピース"
   },
   {
     "code": "N260087",
@@ -5090,7 +5369,10 @@
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Frill Shoulder Sequin Mini Dress",
+    "name_cn": "荷叶边 肩部 亮片 迷你连衣裙",
+    "name_jp": "フリル ショルダー スパンコール ミニワンピース"
   },
   {
     "code": "N260088",
@@ -5141,7 +5423,10 @@
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Frill Shoulder Sequin Mini Dress",
+    "name_cn": "荷叶边 肩部 亮片 迷你连衣裙",
+    "name_jp": "フリル ショルダー スパンコール ミニワンピース"
   },
   {
     "code": "N260089",
@@ -5192,7 +5477,10 @@
     "fabric": "상: 망사 / 하: 폴리혼방",
     "stretch": "있음",
     "see": "상:있음/하:없음",
-    "lining": "상:없음/하:있음"
+    "lining": "상:없음/하:있음",
+    "name_en": "Flower Sheer Cropped Two-Piece Set",
+    "name_cn": "花朵 透视 短款 两件套",
+    "name_jp": "フラワー シースルー クロップド セットアップ"
   },
   {
     "code": "N260090",
@@ -5245,7 +5533,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Shirring Pintuck Midi Dress",
+    "name_cn": "抽褶 捏褶 中长连衣裙",
+    "name_jp": "シャーリング ピンタック ミディワンピース"
   },
   {
     "code": "N260091",
@@ -5296,7 +5587,10 @@
     "fabric": "상: 망사 / 하: 폴리혼방",
     "stretch": "있음",
     "see": "상:있음/하:없음",
-    "lining": "상:없음/하:있음"
+    "lining": "상:없음/하:있음",
+    "name_en": "Flower Sheer Cropped Two-Piece Set",
+    "name_cn": "花朵 透视 短款 两件套",
+    "name_jp": "フラワー シースルー クロップド セットアップ"
   },
   {
     "code": "N260092",
@@ -5349,7 +5643,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Shirring Pintuck Midi Dress",
+    "name_cn": "抽褶 捏褶 中长连衣裙",
+    "name_jp": "シャーリング ピンタック ミディワンピース"
   },
   {
     "code": "N260093",
@@ -5400,7 +5697,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Shirring Cropped Flare Two-Piece Set",
+    "name_cn": "抽褶 短款 伞摆 两件套",
+    "name_jp": "シャーリング クロップド フレア セットアップ"
   },
   {
     "code": "N260110",
@@ -5451,7 +5751,10 @@
     "fabric": "니트",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Turtleneck Sleeveless Top",
+    "name_cn": "高领 无袖 上衣",
+    "name_jp": "タートルネック ノースリーブ トップス"
   },
   {
     "code": "N260111",
@@ -5502,7 +5805,10 @@
     "fabric": "폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Collar Short-Sleeve Cardigan",
+    "name_cn": "翻领 短袖 开衫",
+    "name_jp": "カラー 半袖 カーディガン"
   },
   {
     "code": "N260112",
@@ -5555,7 +5861,10 @@
     "fabric": "레이스",
     "stretch": "있음",
     "see": "없음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Lace Corset Top",
+    "name_cn": "蕾丝 束身 上衣",
+    "name_jp": "レース コルセット トップス"
   },
   {
     "code": "N260113",
@@ -5608,7 +5917,10 @@
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Flower Chiffon Sleeveless Top",
+    "name_cn": "花朵 雪纺 无袖上衣",
+    "name_jp": "フラワー シフォン ノースリーブトップ"
   },
   {
     "code": "N260114",
@@ -5661,7 +5973,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Lace Corset Bustier",
+    "name_cn": "蕾丝 束身 抹胸上衣",
+    "name_jp": "レース コルセット ビスチェ"
   },
   {
     "code": "N260115",
@@ -5714,7 +6029,10 @@
     "fabric": "니트",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Embroidery Embellished Ribbed Top",
+    "name_cn": "刺绣 装饰 罗纹 上衣",
+    "name_jp": "刺繍 装飾 リブ トップス"
   },
   {
     "code": "N260116",
@@ -5768,7 +6086,10 @@
     "fabric": "니트",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Ruffle Long-Sleeve Cardigan",
+    "name_cn": "荷叶边 长袖 开衫",
+    "name_jp": "ラッフル ロングスリーブ カーディガン"
   },
   {
     "code": "N260117",
@@ -5819,7 +6140,10 @@
     "fabric": "니트",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Scarf Necktie Sleeveless Top",
+    "name_cn": "丝巾 领带 无袖上衣",
+    "name_jp": "スカーフ ネクタイ ノースリーブトップ"
   },
   {
     "code": "N260118",
@@ -5872,7 +6196,10 @@
     "fabric": "니트+망사",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Flower Beaded Cropped Top",
+    "name_cn": "花朵 珠饰 短款 上衣",
+    "name_jp": "フラワー ビーズ クロップド トップス"
   },
   {
     "code": "N260119",
@@ -5926,7 +6253,10 @@
     "fabric": "니트+망사",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Flower Beaded Cardigan",
+    "name_cn": "花朵 珠饰 开衫",
+    "name_jp": "フラワー ビーズ カーディガン"
   },
   {
     "code": "N260120",
@@ -5978,7 +6308,10 @@
     "fabric": "니트",
     "stretch": "좋음",
     "see": "있음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "V-Neck Knit Top Cardigan",
+    "name_cn": "V领 针织上衣 开衫",
+    "name_jp": "Vネック ニットトップ カーディガン"
   },
   {
     "code": "N260121",
@@ -6031,7 +6364,10 @@
     "fabric": "폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Jewel Button Cropped Two-Piece Set",
+    "name_cn": "珠宝纽扣 短款 两件套",
+    "name_jp": "ジュエルボタン クロップド セットアップ"
   },
   {
     "code": "N260122",
@@ -6082,7 +6418,10 @@
     "fabric": "상:니트 하:폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "속바지"
+    "lining": "속바지",
+    "name_en": "Slim Cropped Setup Two-Piece Set",
+    "name_cn": "修身 短款 套装 两件套",
+    "name_jp": "スリム クロップド セットアップ セットアップ"
   },
   {
     "code": "N260123",
@@ -6133,7 +6472,10 @@
     "fabric": "상:니트 하:폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "속바지"
+    "lining": "속바지",
+    "name_en": "Slim Cropped Setup Two-Piece Set",
+    "name_cn": "修身 短款 套装 两件套",
+    "name_jp": "スリム クロップド セットアップ セットアップ"
   },
   {
     "code": "N260124",
@@ -6184,7 +6526,10 @@
     "fabric": "상:니트 하:폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "속바지"
+    "lining": "속바지",
+    "name_en": "Slim Cropped Setup Two-Piece Set",
+    "name_cn": "修身 短款 套装 两件套",
+    "name_jp": "スリム クロップド セットアップ セットアップ"
   },
   {
     "code": "N260125",
@@ -6235,7 +6580,10 @@
     "fabric": "상:레이스 하:폴리혼방",
     "stretch": "상:야간 하:없음",
     "see": "상:시스루 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Contrast Slim Setup Two-Piece Set",
+    "name_cn": "撞色 修身 套装 两件套",
+    "name_jp": "配色 スリム セットアップ セットアップ"
   },
   {
     "code": "N260126",
@@ -6286,7 +6634,10 @@
     "fabric": "상:니트, 하 :폴리혼방",
     "stretch": "상:좋음 하:없음",
     "see": "상:없음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Line Two-Piece Set",
+    "name_cn": "柔和 线条 两件套",
+    "name_jp": "ソフト ライン セットアップ"
   },
   {
     "code": "N260127",
@@ -6337,7 +6688,10 @@
     "fabric": "상:니트, 하 :폴리혼방",
     "stretch": "상:좋음 하:없음",
     "see": "상:없음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Line Two-Piece Set",
+    "name_cn": "柔和 线条 两件套",
+    "name_jp": "ソフト ライン セットアップ"
   },
   {
     "code": "N260128",
@@ -6388,7 +6742,10 @@
     "fabric": "상:니트, 하 :폴리혼방",
     "stretch": "상:좋음 하:없음",
     "see": "상:없음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Line Two-Piece Set",
+    "name_cn": "柔和 线条 两件套",
+    "name_jp": "ソフト ライン セットアップ"
   },
   {
     "code": "N260129",
@@ -6439,7 +6796,10 @@
     "fabric": "상:새틴 하:폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Modern Line Two-Piece Set",
+    "name_cn": "摩登 线条 两件套",
+    "name_jp": "モダン ライン セットアップ"
   },
   {
     "code": "N260130",
@@ -6490,7 +6850,10 @@
     "fabric": "상:새틴 하:폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Modern Line Two-Piece Set",
+    "name_cn": "摩登 线条 两件套",
+    "name_jp": "モダン ライン セットアップ"
   },
   {
     "code": "N260131",
@@ -6541,7 +6904,10 @@
     "fabric": "상:새틴 하:폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Modern Line Two-Piece Set",
+    "name_cn": "摩登 线条 两件套",
+    "name_jp": "モダン ライン セットアップ"
   },
   {
     "code": "N260132",
@@ -6592,7 +6958,10 @@
     "fabric": "상:니트+망사, 하:폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Three-Piece Setup Two-Piece Set",
+    "name_cn": "三件式 套装 两件套",
+    "name_jp": "スリーピース セットアップ セットアップ"
   },
   {
     "code": "N260133",
@@ -6643,7 +7012,10 @@
     "fabric": "상:쉬폰, 하:레이스",
     "stretch": "상:없음 하:약간",
     "see": "상:있음 하:없음",
-    "lining": "상:없음 하:있음"
+    "lining": "상:없음 하:있음",
+    "name_en": "Contrast Line Two-Piece Set",
+    "name_cn": "撞色 线条 两件套",
+    "name_jp": "配色 ライン セットアップ"
   },
   {
     "code": "N260134",
@@ -6694,7 +7066,10 @@
     "fabric": "상:쉬폰, 하:레이스",
     "stretch": "상:없음 하:약간",
     "see": "상:있음 하:없음",
-    "lining": "상:없음 하:있음"
+    "lining": "상:없음 하:있음",
+    "name_en": "Classic Setup Two-Piece Set",
+    "name_cn": "经典 套装 两件套",
+    "name_jp": "クラシック セットアップ セットアップ"
   },
   {
     "code": "N260135",
@@ -6745,7 +7120,10 @@
     "fabric": "상:폴리혼방 하:레이스+새틴",
     "stretch": "상:있음 하:약간",
     "see": "없음",
-    "lining": "상:없음 하:있음"
+    "lining": "상:없음 하:있음",
+    "name_en": "Classic Setup Two-Piece Set",
+    "name_cn": "经典 套装 两件套",
+    "name_jp": "クラシック セットアップ セットアップ"
   },
   {
     "code": "N260136",
@@ -6796,7 +7174,10 @@
     "fabric": "상:폴리혼방 하:레이스+새틴",
     "stretch": "상:있음 하:약간",
     "see": "없음",
-    "lining": "상:없음 하:있음"
+    "lining": "상:없음 하:있음",
+    "name_en": "Classic Setup Two-Piece Set",
+    "name_cn": "经典 套装 两件套",
+    "name_jp": "クラシック セットアップ セットアップ"
   },
   {
     "code": "N260137",
@@ -6847,7 +7228,10 @@
     "fabric": "상:폴리혼방 하:레이스+새틴",
     "stretch": "상:있음 하:약간",
     "see": "없음",
-    "lining": "상:없음 하:있음"
+    "lining": "상:없음 하:있음",
+    "name_en": "Classic Setup Two-Piece Set",
+    "name_cn": "经典 套装 两件套",
+    "name_jp": "クラシック セットアップ セットアップ"
   },
   {
     "code": "N260138",
@@ -6898,7 +7282,10 @@
     "fabric": "폴리혼방",
     "stretch": "상:있음 하:없음",
     "see": "없음",
-    "lining": "상:부분 하:속바지"
+    "lining": "상:부분 하:속바지",
+    "name_en": "Adjustable Length Cropped Two-Piece Set",
+    "name_cn": "可调长度 短款 两件套",
+    "name_jp": "丈調節 クロップド セットアップ"
   },
   {
     "code": "N260139",
@@ -6949,7 +7336,10 @@
     "fabric": "폴리혼방",
     "stretch": "상:있음 하:없음",
     "see": "없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Point Two-Piece Set",
+    "name_cn": "柔和 亮点 两件套",
+    "name_jp": "ソフト ポイント セットアップ"
   },
   {
     "code": "N260140",
@@ -7000,7 +7390,10 @@
     "fabric": "상:니트 하:폴리혼방",
     "stretch": "상:좋음 하:없음",
     "see": "상:있음, 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Point Two-Piece Set",
+    "name_cn": "柔和 亮点 两件套",
+    "name_jp": "ソフト ポイント セットアップ"
   },
   {
     "code": "N260141",
@@ -7051,7 +7444,10 @@
     "fabric": "상:니트 하:폴리혼방",
     "stretch": "상:좋음 하:없음",
     "see": "상:있음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Soft Point Two-Piece Set",
+    "name_cn": "柔和 亮点 两件套",
+    "name_jp": "ソフト ポイント セットアップ"
   },
   {
     "code": "N260142",
@@ -7102,7 +7498,10 @@
     "fabric": "상:니트 하:니트",
     "stretch": "상:좋음 하:있음",
     "see": "상:있음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Minimal Point Two-Piece Set",
+    "name_cn": "简约 亮点 两件套",
+    "name_jp": "ミニマル ポイント セットアップ"
   },
   {
     "code": "N260143",
@@ -7153,7 +7552,10 @@
     "fabric": "상:니트 하:니트",
     "stretch": "상:좋음 하:있음",
     "see": "상:있음 하:없음",
-    "lining": "상:없음 하:속바지"
+    "lining": "상:없음 하:속바지",
+    "name_en": "Minimal Point Two-Piece Set",
+    "name_cn": "简约 亮点 两件套",
+    "name_jp": "ミニマル ポイント セットアップ"
   },
   {
     "code": "N260144",
@@ -7204,7 +7606,10 @@
     "fabric": "폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "상:있음 하:속바지"
+    "lining": "상:있음 하:속바지",
+    "name_en": "Minimal Setup Two-Piece Set",
+    "name_cn": "简约 套装 两件套",
+    "name_jp": "ミニマル セットアップ セットアップ"
   },
   {
     "code": "N260145",
@@ -7255,7 +7660,10 @@
     "fabric": "폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "상:있음 하:속바지"
+    "lining": "상:있음 하:속바지",
+    "name_en": "Minimal Setup Two-Piece Set",
+    "name_cn": "简约 套装 两件套",
+    "name_jp": "ミニマル セットアップ セットアップ"
   },
   {
     "code": "N260146",
@@ -7306,7 +7714,10 @@
     "fabric": "폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "상:있음 하:속바지"
+    "lining": "상:있음 하:속바지",
+    "name_en": "Minimal Setup Two-Piece Set",
+    "name_cn": "简约 套装 两件套",
+    "name_jp": "ミニマル セットアップ セットアップ"
   },
   {
     "code": "N260147",
@@ -7357,7 +7768,10 @@
     "fabric": "망사스판",
     "stretch": "좋음",
     "see": "없음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260148",
@@ -7408,7 +7822,10 @@
     "fabric": "망사스판",
     "stretch": "좋음",
     "see": "없음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260149",
@@ -7459,7 +7876,10 @@
     "fabric": "망사스판",
     "stretch": "좋음",
     "see": "없음",
-    "lining": "없음"
+    "lining": "없음",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260150",
@@ -7510,7 +7930,10 @@
     "fabric": "망사+새틴",
     "stretch": "없음",
     "see": "있음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Adjustable Strap Point Mini Dress",
+    "name_cn": "可调肩带 亮点 迷你连衣裙",
+    "name_jp": "調節可能ストラップ ポイント ミニワンピース"
   },
   {
     "code": "N260151",
@@ -7561,7 +7984,10 @@
     "fabric": "망사+새틴",
     "stretch": "없음",
     "see": "있음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Adjustable Strap Point Mini Dress",
+    "name_cn": "可调肩带 亮点 迷你连衣裙",
+    "name_jp": "調節可能ストラップ ポイント ミニワンピース"
   },
   {
     "code": "N260152",
@@ -7612,7 +8038,10 @@
     "fabric": "망사+새틴",
     "stretch": "없음",
     "see": "있음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Adjustable Strap Point Mini Dress",
+    "name_cn": "可调肩带 亮点 迷你连衣裙",
+    "name_jp": "調節可能ストラップ ポイント ミニワンピース"
   },
   {
     "code": "N260153",
@@ -7663,7 +8092,10 @@
     "fabric": "망사+새틴",
     "stretch": "없음",
     "see": "있음",
-    "lining": "부분"
+    "lining": "부분",
+    "name_en": "Adjustable Strap Point Mini Dress",
+    "name_cn": "可调肩带 亮点 迷你连衣裙",
+    "name_jp": "調節可能ストラップ ポイント ミニワンピース"
   },
   {
     "code": "N260154",
@@ -7714,7 +8146,10 @@
     "fabric": "폴리혼방",
     "stretch": "약가",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Back Cover Detachable Mini Dress",
+    "name_cn": "背部罩片 可拆卸 迷你连衣裙",
+    "name_jp": "バックカバー 取り外し可能 ミニワンピース"
   },
   {
     "code": "N260155",
@@ -7765,7 +8200,10 @@
     "fabric": "폴리혼방",
     "stretch": "약가",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Back Cover Detachable Mini Dress",
+    "name_cn": "背部罩片 可拆卸 迷你连衣裙",
+    "name_jp": "バックカバー 取り外し可能 ミニワンピース"
   },
   {
     "code": "N260156",
@@ -7816,7 +8254,10 @@
     "fabric": "폴리혼방",
     "stretch": "약가",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Back Cover Detachable Mini Dress",
+    "name_cn": "背部罩片 可拆卸 迷你连衣裙",
+    "name_jp": "バックカバー 取り外し可能 ミニワンピース"
   },
   {
     "code": "N260157",
@@ -7867,7 +8308,10 @@
     "fabric": "폴리혼방",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260158",
@@ -7918,7 +8362,10 @@
     "fabric": "폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260159",
@@ -7969,7 +8416,10 @@
     "fabric": "폴리혼방",
     "stretch": "없음",
     "see": "없음",
-    "lining": "있음"
+    "lining": "있음",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260160",
@@ -8020,7 +8470,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Signature Two-Piece Set",
+    "name_cn": "经典款 两件套",
+    "name_jp": "シグネチャー セットアップ"
   },
   {
     "code": "N260161",
@@ -8073,7 +8526,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Long Dress",
+    "name_cn": "亮点 长款礼服",
+    "name_jp": "ポイント ロングドレス"
   },
   {
     "code": "N260162",
@@ -8126,7 +8582,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Long Dress",
+    "name_cn": "亮点 长款礼服",
+    "name_jp": "ポイント ロングドレス"
   },
   {
     "code": "N260163",
@@ -8177,7 +8636,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260164",
@@ -8228,7 +8690,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Modern Slim Two-Piece Set",
+    "name_cn": "摩登 修身 两件套",
+    "name_jp": "モダン スリム セットアップ"
   },
   {
     "code": "N260165",
@@ -8279,7 +8744,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260166",
@@ -8330,7 +8798,10 @@
     "fabric": "",
     "stretch": "",
     "see": "",
-    "lining": ""
+    "lining": "",
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260167",
@@ -8383,7 +8854,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Off-Shoulder Ribbon Point Mini Dress",
+    "name_cn": "露肩 蝴蝶结 亮点 迷你连衣裙",
+    "name_jp": "オフショルダー リボン ポイント ミニワンピース"
   },
   {
     "code": "N260168",
@@ -8436,7 +8910,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Off-Shoulder Ribbon Point Mini Dress",
+    "name_cn": "露肩 蝴蝶结 亮点 迷你连衣裙",
+    "name_jp": "オフショルダー リボン ポイント ミニワンピース"
   },
   {
     "code": "N260169",
@@ -8489,7 +8966,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260170",
@@ -8542,7 +9022,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260171",
@@ -8598,7 +9081,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Strap Sleeveless Top Dot Pattern A-Line Midi Dress",
+    "name_cn": "肩带 无袖上衣 波点 A字版 中长连衣裙",
+    "name_jp": "ストラップ ノースリーブトップ ドット柄 Aライン ミディワンピース"
   },
   {
     "code": "N260172",
@@ -8651,7 +9137,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260173",
@@ -8704,7 +9193,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260174",
@@ -8757,7 +9249,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260175",
@@ -8810,7 +9305,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260176",
@@ -8863,7 +9361,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Back Heart Point Mini Dress",
+    "name_cn": "背部爱心 亮点 迷你连衣裙",
+    "name_jp": "バックハート ポイント ミニワンピース"
   },
   {
     "code": "N260177",
@@ -8916,7 +9417,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Back Heart Point Mini Dress",
+    "name_cn": "背部爱心 亮点 迷你连衣裙",
+    "name_jp": "バックハート ポイント ミニワンピース"
   },
   {
     "code": "N260178",
@@ -8969,7 +9473,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260179",
@@ -9022,7 +9529,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260180",
@@ -9077,7 +9587,10 @@
     "stretch": "없음",
     "see": "있음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Long Dress",
+    "name_cn": "亮点 长款礼服",
+    "name_jp": "ポイント ロングドレス"
   },
   {
     "code": "N260181",
@@ -9132,7 +9645,10 @@
     "stretch": "없음",
     "see": "있음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Long Dress",
+    "name_cn": "亮点 长款礼服",
+    "name_jp": "ポイント ロングドレス"
   },
   {
     "code": "N260182",
@@ -9187,7 +9703,10 @@
     "stretch": "없음",
     "see": "있음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Long Dress",
+    "name_cn": "亮点 长款礼服",
+    "name_jp": "ポイント ロングドレス"
   },
   {
     "code": "N260183",
@@ -9240,7 +9759,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260184",
@@ -9293,7 +9815,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260185",
@@ -9346,7 +9871,10 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Point Mini Dress",
+    "name_cn": "亮点 迷你连衣裙",
+    "name_jp": "ポイント ミニワンピース"
   },
   {
     "code": "N260186",
@@ -9401,7 +9929,10 @@
     "stretch": "없음",
     "see": "있음",
     "lining": "",
-    "new": true
+    "new": true,
+    "name_en": "Adjustable Strap Long Dress",
+    "name_cn": "可调肩带 长款礼服",
+    "name_jp": "調節可能ストラップ ロングドレス"
   },
   {
     "code": "N260187",
@@ -9454,7 +9985,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Rose Heart Button Cropped Sleeveless Top Midi Two-Piece Set",
+    "name_cn": "玫瑰 爱心纽扣 短款 无袖上衣 中长两件套",
+    "name_jp": "ロゼ ハートボタン クロップド ノースリーブトップ ミディセットアップ"
   },
   {
     "code": "N260188",
@@ -9507,7 +10041,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Rose Heart Button Cropped Sleeveless Top Midi Two-Piece Set",
+    "name_cn": "玫瑰 爱心纽扣 短款 无袖上衣 中长两件套",
+    "name_jp": "ロゼ ハートボタン クロップド ノースリーブトップ ミディセットアップ"
   },
   {
     "code": "N260189",
@@ -9562,7 +10099,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Midi Dress",
+    "name_cn": "亮点 中长礼服",
+    "name_jp": "ポイント ミディドレス"
   },
   {
     "code": "N260190",
@@ -9615,7 +10155,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Dot A-Line Mini Dress",
+    "name_cn": "波点 A字版 迷你连衣裙",
+    "name_jp": "ドット Aライン ミニワンピース"
   },
   {
     "code": "N260191",
@@ -9668,7 +10211,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Dot A-Line Mini Dress",
+    "name_cn": "波点 A字版 迷你连衣裙",
+    "name_jp": "ドット Aライン ミニワンピース"
   },
   {
     "code": "N260192",
@@ -9721,7 +10267,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Epaulet Button Blouse",
+    "name_cn": "肩章 纽扣 衬衫",
+    "name_jp": "エポレット ボタン ブラウス"
   },
   {
     "code": "N260193",
@@ -9776,7 +10325,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Diamond Embroidery Dress",
+    "name_cn": "菱格 刺绣 连衣裙",
+    "name_jp": "ダイヤ 刺繍 ワンピース"
   },
   {
     "code": "N260194",
@@ -9829,7 +10381,10 @@
     "stretch": "상:있음 하:약간",
     "see": "없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Point Two-Piece Set",
+    "name_cn": "亮点 两件套",
+    "name_jp": "ポイント セットアップ"
   },
   {
     "code": "N260195",
@@ -9884,7 +10439,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Ring Point Dress",
+    "name_cn": "圆环 亮点 连衣裙",
+    "name_jp": "リング ポイント ワンピース"
   },
   {
     "code": "N260196",
@@ -9939,7 +10497,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Chandelier Dress",
+    "name_cn": "水晶灯 连衣裙",
+    "name_jp": "シャンデリア ワンピース"
   },
   {
     "code": "N260197",
@@ -9992,7 +10553,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Shirring Sleeveless Top",
+    "name_cn": "抽褶 无袖上衣",
+    "name_jp": "シャーリング ノースリーブトップ"
   },
   {
     "code": "N260198",
@@ -10045,7 +10609,10 @@
     "stretch": "있음",
     "see": "있음",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Accordion Blouse",
+    "name_cn": "风琴褶 衬衫",
+    "name_jp": "アコーディオン ブラウス"
   },
   {
     "code": "N260199",
@@ -10098,7 +10665,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Contrast Point Two-Piece Set",
+    "name_cn": "撞色 亮点 两件套",
+    "name_jp": "配色 ポイント セットアップ"
   },
   {
     "code": "N260200",
@@ -10153,7 +10723,10 @@
     "stretch": "좋음",
     "see": "있음",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Double Lace Flounce Blouse",
+    "name_cn": "双层 蕾丝 荷叶摆 衬衫",
+    "name_jp": "ダブル レース フラウンス ブラウス"
   },
   {
     "code": "N260201",
@@ -10208,7 +10781,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Embroidery Mini Dress",
+    "name_cn": "刺绣 迷你连衣裙",
+    "name_jp": "刺繍 ミニワンピース"
   },
   {
     "code": "N260202",
@@ -10261,7 +10837,10 @@
     "stretch": "약간",
     "see": "없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Collar Contrast Two-Piece Set",
+    "name_cn": "翻领 撞色 两件套",
+    "name_jp": "カラー 配色 セットアップ"
   },
   {
     "code": "N260203",
@@ -10314,7 +10893,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Candy Dress",
+    "name_cn": "糖果 连衣裙",
+    "name_jp": "キャンディ ワンピース"
   },
   {
     "code": "N260204",
@@ -10367,7 +10949,10 @@
     "stretch": "있음",
     "see": "상:있음 하:없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Cut-Out Two-Piece Set",
+    "name_cn": "镂空 两件套",
+    "name_jp": "カットアウト セットアップ"
   },
   {
     "code": "N260205",
@@ -10420,7 +11005,10 @@
     "stretch": "있음",
     "see": "시스루",
     "lining": "없음",
-    "new": true
+    "new": true,
+    "name_en": "Comez Blouse Ivory Pink",
+    "name_cn": "Comez 衬衫 象牙色 粉色",
+    "name_jp": "コメズ ブラウス アイボリー ピンク"
   },
   {
     "code": "N260206",
@@ -10475,7 +11063,10 @@
     "stretch": "있음",
     "see": "시스루",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Lace Top",
+    "name_cn": "蕾丝 上衣",
+    "name_jp": "レース トップス"
   },
   {
     "code": "N260207",
@@ -10528,7 +11119,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "부분",
-    "new": true
+    "new": true,
+    "name_en": "Tinker Sleeveless Top",
+    "name_cn": "Tinker 无袖上衣",
+    "name_jp": "ティンカー ノースリーブトップ"
   },
   {
     "code": "N260208",
@@ -10581,7 +11175,10 @@
     "stretch": "있음",
     "see": "상:있음 하:없음",
     "lining": "상:부분 하:있음",
-    "new": true
+    "new": true,
+    "name_en": "Pom-Pom Two-Piece Set",
+    "name_cn": "绒球 两件套",
+    "name_jp": "ポンポン セットアップ"
   },
   {
     "code": "N260209",
@@ -10636,7 +11233,10 @@
     "stretch": "상:있음 하:약간",
     "see": "상:있음 하:없음",
     "lining": "상:없음 하:속바지",
-    "new": true
+    "new": true,
+    "name_en": "Lace Skirt Two-Piece Set",
+    "name_cn": "蕾丝 半身裙 两件套",
+    "name_jp": "レース スカート セットアップ"
   },
   {
     "code": "N260210",
@@ -10691,7 +11291,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "상:있음 하:속바지",
-    "new": true
+    "new": true,
+    "name_en": "Jewel Tweed Two-Piece Set",
+    "name_cn": "珠宝 粗花呢 两件套",
+    "name_jp": "ジュエル ツイード セットアップ"
   },
   {
     "code": "N260211",
@@ -10746,7 +11349,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "상:있음 하:속바지",
-    "new": true
+    "new": true,
+    "name_en": "Jewel Tweed Two-Piece Set",
+    "name_cn": "珠宝 粗花呢 两件套",
+    "name_jp": "ジュエル ツイード セットアップ"
   },
   {
     "code": "N260212",
@@ -10800,7 +11406,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "상:없음 하:속바지",
-    "new": true
+    "new": true,
+    "name_en": "Stripe Preppy Two-Piece Set",
+    "name_cn": "条纹 学院风 两件套",
+    "name_jp": "ストライプ プレッピー セットアップ"
   },
   {
     "code": "N260213",
@@ -10854,7 +11463,10 @@
     "stretch": "없음",
     "see": "없음",
     "lining": "상:없음 하:속바지",
-    "new": true
+    "new": true,
+    "name_en": "Stripe Preppy Two-Piece Set",
+    "name_cn": "条纹 学院风 两件套",
+    "name_jp": "ストライプ プレッピー セットアップ"
   },
   {
     "code": "N260214",
@@ -10907,7 +11519,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Big Ribbon Button Mini Dress",
+    "name_cn": "大蝴蝶结 纽扣 迷你礼服",
+    "name_jp": "ビッグリボン ボタン ミニドレス"
   },
   {
     "code": "N260215",
@@ -10960,7 +11575,10 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Big Ribbon Button Mini Dress",
+    "name_cn": "大蝴蝶结 纽扣 迷你礼服",
+    "name_jp": "ビッグリボン ボタン ミニドレス"
   },
   {
     "code": "N260216",
@@ -11013,6 +11631,9 @@
     "stretch": "있음",
     "see": "없음",
     "lining": "있음",
-    "new": true
+    "new": true,
+    "name_en": "Big Ribbon Button Mini Dress",
+    "name_cn": "大蝴蝶结 纽扣 迷你礼服",
+    "name_jp": "ビッグリボン ボタン ミニドレス"
   }
 ]

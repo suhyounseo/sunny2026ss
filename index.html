@@ -57,11 +57,15 @@
     }
 
     .wrap{max-width:1280px;margin:0 auto;padding:20px 14px 80px}
+    .top-tools{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center}
     .searchbar{
       width:100%;border:1px solid var(--line-2);background:#fff;border-radius:999px;padding:18px 22px;
       font-size:18px;outline:none;color:var(--text);box-shadow:0 6px 20px rgba(0,0,0,.03)
     }
     .searchbar::placeholder{color:#9a8777}
+    .lang-switch{display:flex;gap:6px;padding:5px;border:1px solid var(--line-2);background:rgba(255,255,255,.78);border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.03)}
+    .lang-btn{width:44px;height:40px;border:0;border-radius:999px;background:transparent;color:#5f4d40;font-size:13px;font-weight:900;cursor:pointer}
+    .lang-btn.on{background:var(--accent);color:#fff}
     .chips{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 26px}
     .chip{
       border:1px solid var(--line-2);background:rgba(255,255,255,.8);color:#4a3d34;padding:12px 18px;border-radius:999px;
@@ -152,6 +156,8 @@
       .hero{padding:42px 16px 32px}
       .hero h1{font-size:54px}
       .hero p{font-size:14px;letter-spacing:.12em}
+      .top-tools{grid-template-columns:1fr;gap:10px}
+      .lang-switch{justify-content:center;width:max-content;max-width:100%;justify-self:end}
       .searchbar{font-size:16px;padding:16px 18px}
       .section-head h2{font-size:34px}
       .name{font-size:16px;min-height:46px}
@@ -163,7 +169,7 @@
       .thumb{flex-basis:72px;height:96px}
     }
   
-/* match18 detail image size fix */
+/* match19 detail image size fix */
 .panel{width:min(1080px,96vw)!important;}
 .visual{padding:18px!important;}
 .main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
@@ -178,14 +184,14 @@
 }
 
 
-/* match18 detail final size fix */
+/* match19 detail final size fix */
 .panel{width:min(1080px,96vw)!important;}
 .main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
 .main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
 @media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
 
 
-/* match18 mobile modal fix */
+/* match19 mobile modal fix */
 @media(max-width:720px){
   body.modal-open{overflow:hidden!important;}
   .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
@@ -296,7 +302,7 @@
 }
 
 
-/* match18 final CTA + mobile detail balance */
+/* match19 final CTA + mobile detail balance */
 .cta{
   display:grid!important;
   grid-template-columns:1fr 1fr!important;
@@ -449,7 +455,7 @@
 }
 
 
-/* match18 filter + 5cut + mobile balance */
+/* match19 filter + 5cut + mobile balance */
 @media(max-width:720px){
   .panel{width:94vw!important;max-width:94vw!important;max-height:88vh!important}
   .main,.main img{max-height:40vh!important}
@@ -458,7 +464,7 @@
 }
 
 
-/* match18 mobile main + product badge cleanup */
+/* match19 mobile main + product badge cleanup */
 .code-line{
   display:inline-flex;
   align-items:center;
@@ -644,7 +650,7 @@
 }
 
 
-/* match18 desktop filter one-line + product code outside image */
+/* match19 desktop filter one-line + product code outside image */
 .chips{
   display:flex!important;
   flex-wrap:nowrap!important;
@@ -770,11 +776,19 @@
   </header>
 
   <main class="wrap">
-    <input id="q" class="searchbar" placeholder="검색: 상품명, 컬러, 카테고리" />
+    <div class="top-tools">
+      <input id="q" class="searchbar" placeholder="검색: 상품명, 컬러, 카테고리" />
+      <div id="langSwitch" class="lang-switch" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="kr">KR</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="cn">CN</button>
+        <button type="button" class="lang-btn" data-lang="jp">JP</button>
+      </div>
+    </div>
     <div id="chips" class="chips"></div>
 
     <div class="section-head">
-      <h2>Collection</h2>
+      <h2 id="sectionTitle">Collection</h2>
       <div id="count" class="count"></div>
     </div>
 
@@ -795,42 +809,104 @@
     const qs = (s, el=document)=>el.querySelector(s);
     const qsa = (s, el=document)=>[...el.querySelectorAll(s)];
     const q = qs('#q');
+    const langSwitch = qs('#langSwitch');
     const chips = qs('#chips');
     const grid = qs('#grid');
     const count = qs('#count');
+    const sectionTitle = qs('#sectionTitle');
     const detail = qs('#detail');
     const panelBody = qs('#panelBody');
     const closeBtn = qs('#closeBtn');
 
+    const VERSION = 'match19';
     let PRODUCTS = [];
     let FILTER = 'ALL';
+    let LANG = localStorage.getItem('niceLang') || 'kr';
     let currentImages = [];
+    let currentDetailCode = '';
 
     const FILTERS = [
-      ['ALL','전체'],
-      ['BEST','🔥 BEST'],
-      ['NEW','✨ NEW'],
-      ['RECOMMEND','EDITOR’S PICK'],
-      ['LUXURY','LUXURY'],
-      ['COSTUME','COSTUME'],
-      ['TWO PIECE','투피스'],
-      ['PARTY','PARTY'],
-      ['MINI','MINI'],
-      ['MIDI','MIDI'],
-      ['LONG','LONG'],
-      ['TOP','상의'],
-      ['SKIRT','스커트']
+      'ALL','BEST','NEW','RECOMMEND','LUXURY','COSTUME','TWO PIECE','PARTY','MINI','MIDI','LONG','TOP','SKIRT'
     ];
 
-    const money = n => n ? '₩' + Number(n).toLocaleString('ko-KR') : '문의';
+    const I18N = {
+      kr: {
+        search: '검색: 상품명, 컬러, 카테고리',
+        all: '전체', collection: 'Collection', items: 'items',
+        empty: '조건에 맞는 상품이 없습니다. 다른 검색어나 카테고리를 선택해 보세요.',
+        love: 'WHY YOU’LL LOVE IT', note: 'EDITOR’S NOTE', recommended: 'RECOMMENDED FOR',
+        color: 'COLOR', size: 'SIZE', fit: 'FIT', lining: 'LINING',
+        kakao: '카카오톡 문의', insta: '인스타 DM', inquiry: '문의',
+        filters: {'ALL':'전체','BEST':'🔥 BEST','NEW':'✨ NEW','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'투피스','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'상의','SKIRT':'스커트'}
+      },
+      en: {
+        search: 'Search: name, color, category',
+        all: 'All', collection: 'Collection', items: 'items',
+        empty: 'No products match your filters. Try another search or category.',
+        love: 'WHY YOU’LL LOVE IT', note: 'EDITOR’S NOTE', recommended: 'RECOMMENDED FOR',
+        color: 'COLOR', size: 'SIZE', fit: 'FIT', lining: 'LINING',
+        kakao: 'KakaoTalk Inquiry', insta: 'Instagram DM', inquiry: 'Ask',
+        filters: {'ALL':'All','BEST':'BEST','NEW':'NEW','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'Two-Piece Set','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'Top','SKIRT':'Skirt'}
+      },
+      cn: {
+        search: '搜索：商品名、颜色、类别',
+        all: '全部', collection: 'Collection', items: '件商品',
+        empty: '没有符合条件的商品。请尝试其他搜索词或分类。',
+        love: '推荐亮点', note: '编辑推荐', recommended: '适合场景',
+        color: '颜色', size: '尺码', fit: '版型', lining: '内衬',
+        kakao: 'KakaoTalk 咨询', insta: 'Instagram 私信', inquiry: '咨询',
+        filters: {'ALL':'全部','BEST':'BEST','NEW':'NEW','RECOMMEND':'编辑推荐','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'两件套','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'上衣','SKIRT':'半身裙'}
+      },
+      jp: {
+        search: '検索：商品名、カラー、カテゴリー',
+        all: 'すべて', collection: 'Collection', items: '点',
+        empty: '条件に合う商品がありません。別の検索語やカテゴリーをお試しください。',
+        love: 'おすすめポイント', note: 'エディターズノート', recommended: 'おすすめシーン',
+        color: 'カラー', size: 'サイズ', fit: 'フィット', lining: '裏地',
+        kakao: 'カカオトークで相談', insta: 'Instagram DM', inquiry: 'お問い合わせ',
+        filters: {'ALL':'すべて','BEST':'BEST','NEW':'NEW','RECOMMEND':'エディターズピック','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'セットアップ','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'トップス','SKIRT':'スカート'}
+      }
+    };
+
+    const money = n => n ? '₩' + Number(n).toLocaleString('ko-KR') : t('inquiry');
     function track(name, params={}){ try{ gtag('event', name, params); }catch(e){} }
 
     function normalize(text){ return String(text || '').toLowerCase(); }
+    function t(key){ return (I18N[LANG] && I18N[LANG][key]) || I18N.kr[key] || key; }
+    function filterLabel(key){ return (I18N[LANG]?.filters?.[key]) || I18N.kr.filters[key] || key; }
+    function productName(item){
+      if(LANG === 'en') return item.name_en || item.name;
+      if(LANG === 'cn') return item.name_cn || item.name;
+      if(LANG === 'jp') return item.name_jp || item.name;
+      return item.name;
+    }
+    function productDesc(item){
+      if(LANG === 'en') return item.desc_en || item.desc;
+      if(LANG === 'cn') return item.desc_cn || item.desc;
+      if(LANG === 'jp') return item.desc_jp || item.desc;
+      return item.desc;
+    }
+    function imageUrl(url){ return `${url}?v=${VERSION}`; }
+    function buildChips(){
+      chips.innerHTML = FILTERS.map(key => `
+        <button type="button" class="chip ${key===FILTER ? 'on' : ''}" data-filter="${key}">${filterLabel(key)}</button>
+      `).join('');
+    }
+    function applyLanguage(){
+      document.documentElement.lang = LANG === 'kr' ? 'ko' : (LANG === 'cn' ? 'zh-CN' : (LANG === 'jp' ? 'ja' : 'en'));
+      q.placeholder = t('search');
+      sectionTitle.textContent = t('collection');
+      qsa('.lang-btn', langSwitch).forEach(btn => btn.classList.toggle('on', btn.dataset.lang === LANG));
+      buildChips();
+      render();
+      if(detail.classList.contains('open') && currentDetailCode) openDetail(currentDetailCode, true);
+    }
 
     function matchesFilter(item){
       const search = normalize(q.value.trim());
       const textRaw = [
-        item.code, item.name, item.storeName, item.origin, item.folder, item.supplier,
+        item.code, item.name, item.name_en, item.name_cn, item.name_jp,
+        item.storeName, item.origin, item.folder, item.supplier,
         item.color, item.category, item.size, ...(item.tags||[])
       ].join(' ');
       const hay = normalize(textRaw);
@@ -869,14 +945,14 @@
       const out = [];
       if(item.best || tags.includes('BEST')) out.push('<span class="badge">BEST</span>');
       if(item.new || tags.includes('NEW')) out.push('<span class="badge gold">NEW</span>');
-      if(tags.includes('RECOMMEND')) out.push('<span class="badge light editor-badge">EDITOR’S PICK</span>');
-      if(!out.length) out.push(`<span class="badge">${item.category || 'NICE'}</span>`);
+      if(tags.includes('RECOMMEND')) out.push(`<span class="badge light editor-badge">${filterLabel('RECOMMEND')}</span>`);
+      if(!out.length) out.push(`<span class="badge">${filterLabel(item.category) || item.category || 'NICE'}</span>`);
       return out.join('');
     }
 
     function smallMeta(item){
       const tags = [];
-      if(item.category) tags.push(item.category);
+      if(item.category) tags.push(filterLabel(item.category));
       if(item.color) tags.push(item.color);
       if(item.size) tags.push('SIZE ' + item.size);
       return tags.slice(0,3).map(v=>`<span>${v}</span>`).join('');
@@ -915,27 +991,29 @@
     function styleNote(item){
       const size = item.size || 'FREE';
       const stretch = item.stretch || '확인 필요';
-      return `${item.name}는 단독으로도 포인트가 충분한 디자인이라 별다른 스타일링 없이도 완성도 높은 룩을 연출할 수 있습니다. 사이즈는 ${size} 구성이며, 착용감은 ${stretch} 기준입니다.`;
+      const translatedDesc = productDesc(item);
+      if(LANG !== 'kr' && translatedDesc && translatedDesc !== item.desc) return translatedDesc;
+      return `${productName(item)}는 단독으로도 포인트가 충분한 디자인이라 별다른 스타일링 없이도 완성도 높은 룩을 연출할 수 있습니다. 사이즈는 ${size} 구성이며, 착용감은 ${stretch} 기준입니다.`;
     }
 
     function render(){
       const list = PRODUCTS.filter(matchesFilter);
-      count.textContent = `${list.length} items`;
+      count.textContent = `${list.length} ${t('items')}`;
 
       if(!list.length){
-        grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 다른 검색어나 카테고리를 선택해 보세요.</div>';
+        grid.innerHTML = `<div class="empty">${t('empty')}</div>`;
         return;
       }
 
       grid.innerHTML = list.map(item => `
         <article class="card" data-code="${item.code}">
           <div class="photo">
-            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match18" alt="${item.name}">` : ''}
+            ${item.images?.[0] ? `<img loading="lazy" src="${imageUrl(item.images[0])}" alt="${productName(item)}">` : ''}
             <div class="badges">${makePromoBadges(item)}</div>
           </div>
           <div class="info">
             <div class="code-line">${item.code}</div>
-            <div class="name">${item.name}</div>
+            <div class="name">${productName(item)}</div>
             <div class="meta">${smallMeta(item)}</div>
             <div class="price">${money(item.price)}</div>
           </div>
@@ -951,70 +1029,72 @@
       const main = qs('#mainImage');
       const target = currentImages[index];
       if(!main || !target) return;
-      main.src = `${target.url}?v=match18`;
+      main.src = imageUrl(target.url);
       qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
     }
 
-    function openDetail(code){
+    function openDetail(code, replace=false){
       const item = PRODUCTS.find(p => p.code === code);
       if(!item) return;
+      currentDetailCode = code;
       currentImages = item.cuts?.length ? item.cuts : (item.images || []).map((url, i) => ({url, cut:'컷'+(i+1), source:url}));
       const tags = item.tags || [];
       const labelTags = [];
       if(item.best || tags.includes('BEST')) labelTags.push('BEST');
       if(item.new || tags.includes('NEW')) labelTags.push('NEW');
-      if(tags.includes('RECOMMEND')) labelTags.push('EDITOR’S PICK');
+      if(tags.includes('RECOMMEND')) labelTags.push('RECOMMEND');
       if(item.category) labelTags.push(item.category);
       if(item.color) labelTags.push(item.color);
+      const displayName = productName(item);
 
       track('product_view', {product_code:item.code, product_name:item.name, category:item.category, price:item.price});
 
       panelBody.innerHTML = `
         <div class="dbody">
           <section class="visual">
-            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match18" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${imageUrl(currentImages[0].url)}" alt="${displayName}">` : 'NO IMAGE'}</div>
             <div class="thumbs">
               ${currentImages.map((im, i) => `
                 <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
-                  <img src="${im.url}?v=match18" alt="${item.name} ${i+1}">
+                  <img src="${imageUrl(im.url)}" alt="${displayName} ${i+1}">
                 </button>
               `).join('')}
             </div>
           </section>
           <section class="copy">
-            <div class="mini-cats">${labelTags.map(v => `<span>${v}</span>`).join('')}</div>
-            <h2>${item.name}</h2>
+            <div class="mini-cats">${labelTags.map(v => `<span>${filterLabel(v) || v}</span>`).join('')}</div>
+            <h2>${displayName}</h2>
             <h3>${money(item.price)}</h3>
 
             <div class="story">
-              <b>WHY YOU’LL LOVE IT</b>
+              <b>${t('love')}</b>
               <ul class="points">${sellingPoints(item).map(p => `<li>${p}</li>`).join('')}</ul>
             </div>
 
             <div class="scene">
-              <b>EDITOR’S NOTE</b>
+              <b>${t('note')}</b>
               <p>${styleNote(item)}</p>
             </div>
 
             <div class="note">
-              <b>RECOMMENDED FOR</b>
+              <b>${t('recommended')}</b>
               <p>${sceneText(item)}</p>
             </div>
 
             <div class="spec">
-              <div class="cell"><b>COLOR</b><span>${item.color || '-'}</span></div>
-              <div class="cell"><b>SIZE</b><span>${item.size || '-'}</span></div>
-              <div class="cell"><b>FIT</b><span>${item.stretch || '-'}</span></div>
-              <div class="cell"><b>LINING</b><span>${item.lining || '-'}</span></div>
+              <div class="cell"><b>${t('color')}</b><span>${item.color || '-'}</span></div>
+              <div class="cell"><b>${t('size')}</b><span>${item.size || '-'}</span></div>
+              <div class="cell"><b>${t('fit')}</b><span>${item.stretch || '-'}</span></div>
+              <div class="cell"><b>${t('lining')}</b><span>${item.lining || '-'}</span></div>
             </div>
 
             <div class="cta">
               <a class="kakao" href="http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-" target="_blank" rel="noopener">
-                <span class="logo-icon kakao-logo">TALK</span><span>카카오톡 문의</span>
+                <span class="logo-icon kakao-logo">TALK</span><span>${t('kakao')}</span>
               </a>
               <a class="insta" href="https://www.instagram.com/dongdaemun_helloapm_nice?igsh=am16YjFmdHdtajN6" target="_blank" rel="noopener">
                 <span class="logo-icon insta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle></svg></span>
-                <span>인스타 DM</span>
+                <span>${t('insta')}</span>
               </a>
             </div>
           </section>
@@ -1023,7 +1103,7 @@
 
       detail.classList.add('open');
       detail.setAttribute('aria-hidden','false');
-      history.pushState({detail: code}, '', '#' + code);
+      if(!replace) history.pushState({detail: code}, '', '#' + code);
 
       qsa('.thumb', detail).forEach(btn => {
         btn.addEventListener('click', () => setImage(Number(btn.dataset.index)));
@@ -1033,16 +1113,15 @@
     function closeDetail(fromPop=false){
       detail.classList.remove('open');
       detail.setAttribute('aria-hidden','true');
+      currentDetailCode = '';
       if(!fromPop && location.hash){
         history.pushState({}, '', location.pathname);
       }
     }
 
     async function init(){
-      PRODUCTS = await (await fetch('./products.json?v=match18')).json();
-      chips.innerHTML = FILTERS.map(([key, label]) => `
-        <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
-      `).join('');
+      PRODUCTS = await (await fetch(`./products.json?v=${VERSION}`)).json();
+      buildChips();
 
       chips.addEventListener('click', e => {
         const btn = e.target.closest('.chip');
@@ -1053,13 +1132,22 @@
         render();
       });
 
+      langSwitch.addEventListener('click', e => {
+        const btn = e.target.closest('.lang-btn');
+        if(!btn) return;
+        LANG = btn.dataset.lang;
+        localStorage.setItem('niceLang', LANG);
+        track('language_select', {language: LANG});
+        applyLanguage();
+      });
+
       q.addEventListener('input', () => {
         if(q.value.trim().length >= 2) track('product_search', {search_term: q.value.trim()});
         render();
       });
 
       const initialCode = decodeURIComponent(location.hash.replace('#',''));
-      render();
+      applyLanguage();
       if(initialCode) setTimeout(() => openDetail(initialCode), 50);
     }
 
