@@ -6167,28 +6167,52 @@
       "assets/N260118_01.jpg",
       "assets/N260118_02.jpg",
       "assets/N260118_03.jpg",
-      "assets/N260118_04.jpg"
+      "assets/N260118_04.jpg",
+      "assets/N260118_05.jpg",
+      "assets/N260118_06.jpg",
+      "assets/N260118_07.jpg",
+      "assets/N260118_08.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260118_01.jpg",
-        "cut": "전면",
-        "source": "티아라/S440/img_xl_1_vhdfrx.jpg"
+        "cut": "전면확대",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free1 전면확대.jpg"
       },
       {
         "url": "assets/N260118_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S440/img_xl_2_zjm651.jpg"
+        "cut": "전면",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free2 전면.jpg"
       },
       {
         "url": "assets/N260118_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S440/img_xl_fi2gxl.jpg"
+        "cut": "상의확대",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free3 상의확대.jpg"
       },
       {
         "url": "assets/N260118_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S440/img_xl_3_anklnj.jpg"
+        "cut": "전면",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free5전면.jpg"
+      },
+      {
+        "url": "assets/N260118_05.jpg",
+        "cut": "후면",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free6 후면.jpg"
+      },
+      {
+        "url": "assets/N260118_06.jpg",
+        "cut": "전면확대",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free7 전면확대.jpg"
+      },
+      {
+        "url": "assets/N260118_07.jpg",
+        "cut": "전면",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑민 Free1.jpg"
+      },
+      {
+        "url": "assets/N260118_08.jpg",
+        "cut": "제품컷",
+        "source": "티아라/S607/비즈카라민소매니트_아블핑소 Free8 제품컷.jpg"
       }
     ],
     "desc": "플라워 비즈 크롭 탑 2color 상품입니다. 화이트/핑크 컬러 구성으로 준비했습니다. 소재는 니트+망사 기준입니다. 착용 정보: 신축성 좋음, 비침 있음, 안감 없음, 지퍼 없음. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
