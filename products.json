@@ -5311,13 +5311,14 @@
       "assets/N260085_01.jpg",
       "assets/N260085_02.jpg",
       "assets/N260085_03.jpg",
-      "assets/N260085_04.jpg"
+      "assets/N260085_04.jpg",
+      "assets/N260085_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260085_01.jpg",
         "cut": "전면",
-        "source": "장미나시원피스 아이/img_xl_1_ugmmix.jpg"
+        "source": "장미나시원피스 아이/img_xl (6).jpg"
       },
       {
         "url": "assets/N260085_02.jpg",
@@ -5333,6 +5334,11 @@
         "url": "assets/N260085_04.jpg",
         "cut": "확대/디테일",
         "source": "장미나시원피스 아이/img_xl_4_pkyfdh.jpg"
+      },
+      {
+        "url": "assets/N260085_05.jpg",
+        "cut": "전면",
+        "source": "장미나시원피스 아이/img_xl (10).jpg"
       }
     ],
     "desc": "입체 플라워 V넥 미디 원피스 상품입니다. 아이보리 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
