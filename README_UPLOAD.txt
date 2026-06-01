@@ -1,30 +1,25 @@
-NICE SHOWROOM MATCH17 모바일 메인/배지 수정본
+NICE SHOWROOM MATCH18 PC 필터/상품코드 수정본
 
 수정사항:
-1. 모바일 메인 상단 축소
-   - NICE 헤더 높이 축소
-   - 검색창 높이 축소
-   - 필터 버튼을 가로 스크롤형으로 변경
-   - 첫 화면에서 상품이 더 빨리 보이도록 정리
-2. 상품 카드 배지 수정
-   - BEST / NEW 배지 크기 축소
-   - EDITOR’S PICK은 모바일 카드 이미지 위에서는 숨김
-   - 상품코드 N260000을 이미지 위에서 빼고 상품명 위로 이동
-   - 사진 가림 문제 완화
-3. match16 필터 수정 유지
-   - BEST / NEW / 투피스 / 상의 / 스커트 필터 보강 유지
-4. 기존 상품 수정 유지
-   - N260067 지니 5컷 기준 유지
-   - N260224 4단 프릴 스커트 69,000원 유지
-   - N260035 투피스 171,000원 유지
+1. PC 화면 검색창 아래 필터 버튼 영역 수정
+   - 줄바꿈으로 내려가던 필터 버튼을 한 줄 가로 스크롤형으로 변경
+   - 상단 공간을 줄여 상품이 더 빨리 보이도록 정리
+2. 상품카드 상품코드 표시 수정
+   - N260000 코드가 사진 위를 가리던 구조 제거
+   - 상품명 위 작은 코드칩으로 이동
+3. 상품카드 배지 정리
+   - PC에서도 BEST/NEW/EDITOR’S PICK 배지 크기 축소
+   - 모바일에서는 EDITOR’S PICK 사진 위 노출 숨김 유지
+4. match17 모바일 메인 수정 유지
+5. match16 필터/5컷 기준 수정 유지
 
 확인 주소:
-https://suhyounseo.github.io/sunny2026ss/?v=match17
+https://suhyounseo.github.io/sunny2026ss/?v=match18
 
 업로드:
 index.html
 products.json
 assets 폴더
 README_UPLOAD.txt
-MATCH17_수정내역.csv
+MATCH18_수정내역.csv
 를 sunny2026ss 폴더 바로 아래에 넣고 Commit → Push origin.

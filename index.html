@@ -163,7 +163,7 @@
       .thumb{flex-basis:72px;height:96px}
     }
   
-/* match17 detail image size fix */
+/* match18 detail image size fix */
 .panel{width:min(1080px,96vw)!important;}
 .visual{padding:18px!important;}
 .main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
@@ -178,14 +178,14 @@
 }
 
 
-/* match17 detail final size fix */
+/* match18 detail final size fix */
 .panel{width:min(1080px,96vw)!important;}
 .main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
 .main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
 @media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
 
 
-/* match17 mobile modal fix */
+/* match18 mobile modal fix */
 @media(max-width:720px){
   body.modal-open{overflow:hidden!important;}
   .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
@@ -296,7 +296,7 @@
 }
 
 
-/* match17 final CTA + mobile detail balance */
+/* match18 final CTA + mobile detail balance */
 .cta{
   display:grid!important;
   grid-template-columns:1fr 1fr!important;
@@ -449,7 +449,7 @@
 }
 
 
-/* match17 filter + 5cut + mobile balance */
+/* match18 filter + 5cut + mobile balance */
 @media(max-width:720px){
   .panel{width:94vw!important;max-width:94vw!important;max-height:88vh!important}
   .main,.main img{max-height:40vh!important}
@@ -458,7 +458,7 @@
 }
 
 
-/* match17 mobile main + product badge cleanup */
+/* match18 mobile main + product badge cleanup */
 .code-line{
   display:inline-flex;
   align-items:center;
@@ -643,6 +643,124 @@
   .price{font-size:20px!important;}
 }
 
+
+/* match18 desktop filter one-line + product code outside image */
+.chips{
+  display:flex!important;
+  flex-wrap:nowrap!important;
+  overflow-x:auto!important;
+  gap:10px!important;
+  padding:0 0 8px 0!important;
+  -webkit-overflow-scrolling:touch!important;
+  scroll-snap-type:x proximity!important;
+}
+.chips::-webkit-scrollbar{height:6px}
+.chips::-webkit-scrollbar-thumb{background:#d8c5b3;border-radius:999px}
+.chips button{
+  flex:0 0 auto!important;
+  white-space:nowrap!important;
+  height:46px!important;
+  padding:0 18px!important;
+  border-radius:999px!important;
+  scroll-snap-align:start!important;
+}
+.card .photo .code{display:none!important;}
+.code-line{
+  display:inline-flex!important;
+  align-items:center!important;
+  width:max-content!important;
+  max-width:100%!important;
+  margin:0 0 8px 0!important;
+  padding:7px 12px!important;
+  border-radius:999px!important;
+  background:#f2eadf!important;
+  color:#342820!important;
+  font-size:13px!important;
+  font-weight:900!important;
+  letter-spacing:.02em!important;
+}
+.card .badges{
+  position:absolute!important;
+  top:10px!important;
+  left:10px!important;
+  right:auto!important;
+  display:flex!important;
+  flex-direction:row!important;
+  flex-wrap:wrap!important;
+  gap:6px!important;
+  align-items:flex-start!important;
+  pointer-events:none!important;
+  z-index:3!important;
+  max-width:80%!important;
+}
+.card .badge{
+  min-height:26px!important;
+  padding:7px 11px!important;
+  border-radius:999px!important;
+  font-size:11px!important;
+  line-height:1!important;
+  white-space:nowrap!important;
+  box-shadow:0 8px 16px rgba(30,20,12,.10)!important;
+  opacity:.94!important;
+}
+.card .editor-badge{
+  max-width:120px!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+.toolbar{
+  padding-bottom:14px!important;
+}
+.section{
+  padding-top:28px!important;
+}
+@media(min-width:721px){
+  .toolbar{
+    max-width:1280px!important;
+  }
+  .searchbar{
+    margin-bottom:14px!important;
+  }
+  .chips{
+    max-width:100%!important;
+  }
+  .card .photo{
+    position:relative!important;
+  }
+  .info{
+    padding-top:16px!important;
+  }
+}
+@media(max-width:720px){
+  .chips::-webkit-scrollbar{display:none!important;}
+  .chips button{
+    height:40px!important;
+    padding:0 15px!important;
+    font-size:14px!important;
+  }
+  .card .badges{
+    flex-direction:column!important;
+    top:8px!important;
+    left:8px!important;
+    gap:4px!important;
+    max-width:72%!important;
+  }
+  .card .badge{
+    min-height:24px!important;
+    padding:6px 9px!important;
+    font-size:10.5px!important;
+    max-width:130px!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+  }
+  .card .editor-badge{display:none!important;}
+  .code-line{
+    font-size:11px!important;
+    padding:5px 9px!important;
+    margin-bottom:7px!important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -812,7 +930,7 @@
       grid.innerHTML = list.map(item => `
         <article class="card" data-code="${item.code}">
           <div class="photo">
-            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match17" alt="${item.name}">` : ''}
+            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match18" alt="${item.name}">` : ''}
             <div class="badges">${makePromoBadges(item)}</div>
           </div>
           <div class="info">
@@ -833,7 +951,7 @@
       const main = qs('#mainImage');
       const target = currentImages[index];
       if(!main || !target) return;
-      main.src = `${target.url}?v=match17`;
+      main.src = `${target.url}?v=match18`;
       qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
     }
 
@@ -854,11 +972,11 @@
       panelBody.innerHTML = `
         <div class="dbody">
           <section class="visual">
-            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match17" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match18" alt="${item.name}">` : 'NO IMAGE'}</div>
             <div class="thumbs">
               ${currentImages.map((im, i) => `
                 <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
-                  <img src="${im.url}?v=match17" alt="${item.name} ${i+1}">
+                  <img src="${im.url}?v=match18" alt="${item.name} ${i+1}">
                 </button>
               `).join('')}
             </div>
@@ -921,7 +1039,7 @@
     }
 
     async function init(){
-      PRODUCTS = await (await fetch('./products.json?v=match17')).json();
+      PRODUCTS = await (await fetch('./products.json?v=match18')).json();
       chips.innerHTML = FILTERS.map(([key, label]) => `
         <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
       `).join('');
