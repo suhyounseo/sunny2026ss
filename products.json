@@ -1637,11 +1637,16 @@
       "RECOMMEND"
     ],
     "images": [
+      "assets/N260020_03.jpg",
       "assets/N260020_01.jpg",
-      "assets/N260020_02.jpg",
-      "assets/N260020_03.jpg"
+      "assets/N260020_02.jpg"
     ],
     "cuts": [
+      {
+        "url": "assets/N260020_03.jpg",
+        "cut": "측면",
+        "source": "다이아브로치/img_xl_mliplp.jpg"
+      },
       {
         "url": "assets/N260020_01.jpg",
         "cut": "전면",
@@ -1651,11 +1656,6 @@
         "url": "assets/N260020_02.jpg",
         "cut": "후면",
         "source": "다이아브로치/img_xl_2_zhjld6.jpg"
-      },
-      {
-        "url": "assets/N260020_03.jpg",
-        "cut": "측면",
-        "source": "다이아브로치/img_xl_mliplp.jpg"
       }
     ],
     "desc": "악세사리 옵션 상품입니다. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
