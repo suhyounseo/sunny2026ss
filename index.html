@@ -851,7 +851,7 @@
     const panelBody = qs('#panelBody');
     const closeBtn = qs('#closeBtn');
 
-    const VERSION = 'match27';
+    const VERSION = 'match28';
     let PRODUCTS = [];
     let FILTER = 'ALL';
     let LANG = localStorage.getItem('niceLang') || 'kr';
@@ -1005,6 +1005,7 @@
     }
 
     function sellingPoints(item){
+      if(LANG === 'kr' && Array.isArray(item.love)) return item.love;
       if(LANG !== 'kr') return localizedSellingPoints(item);
       const pts = [];
       const name = item.name || '';
