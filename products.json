@@ -1,19 +1,497 @@
 [
   {
+    "code": "N260217",
+    "origin": "사쿠라원피스",
+    "folder": "사쿠라원피스",
+    "supplier": "티아라",
+    "zipFolder": "티아라/사쿠라원피스",
+    "name": "사쿠라 미니 원피스",
+    "storeName": "사쿠라 미니 원피스",
+    "category": "MINI",
+    "color": "아이보리/블랙",
+    "size": "S,M",
+    "price": "",
+    "tags": [
+      "MINI",
+      "NEW",
+      "PARTY"
+    ],
+    "images": [
+      "assets/N260217_01.jpg",
+      "assets/N260217_02.jpg",
+      "assets/N260217_03.jpg",
+      "assets/N260217_04.jpg",
+      "assets/N260217_05.jpg",
+      "assets/N260217_06.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260217_01.jpg",
+        "cut": "대표",
+        "source": "assets/N260217_01.jpg"
+      },
+      {
+        "url": "assets/N260217_02.jpg",
+        "cut": "전면",
+        "source": "assets/N260217_02.jpg"
+      },
+      {
+        "url": "assets/N260217_03.jpg",
+        "cut": "전면",
+        "source": "assets/N260217_03.jpg"
+      },
+      {
+        "url": "assets/N260217_04.jpg",
+        "cut": "전면",
+        "source": "assets/N260217_04.jpg"
+      },
+      {
+        "url": "assets/N260217_05.jpg",
+        "cut": "색상컷",
+        "source": "assets/N260217_05.jpg"
+      },
+      {
+        "url": "assets/N260217_06.jpg",
+        "cut": "추가컷",
+        "source": "assets/N260217_06.jpg"
+      }
+    ],
+    "desc": "사쿠라 미니 원피스입니다. 아이보리/블랙 컬러 구성으로 준비했습니다. 러플 디테일과 미니 기장이 러블리한 분위기를 살려주며, 데이트룩·파티룩·촬영룩으로 활용하기 좋습니다.",
+    "recommend": "데이트/파티/모임/촬영",
+    "fabric": "폴리혼방",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
+    "new": true
+  },
+  {
+    "code": "N260218",
+    "origin": "로티카라니트",
+    "folder": "로티카라니트",
+    "supplier": "티아라",
+    "zipFolder": "티아라/로티카라니트",
+    "name": "비즈 카라 민소매 니트",
+    "storeName": "비즈 카라 민소매 니트",
+    "category": "TOP",
+    "color": "아이보리/블랙/핑크/소라",
+    "size": "FREE",
+    "price": 69000,
+    "tags": [
+      "LUXURY",
+      "NEW",
+      "RECOMMEND",
+      "TOP"
+    ],
+    "images": [
+      "assets/N260218_01.jpg",
+      "assets/N260218_02.jpg",
+      "assets/N260218_03.jpg",
+      "assets/N260218_04.jpg",
+      "assets/N260218_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260218_01.jpg",
+        "cut": "대표",
+        "source": "N260218_original_02.jpg"
+      },
+      {
+        "url": "assets/N260218_02.jpg",
+        "cut": "전면",
+        "source": "N260218_original_03.jpg"
+      },
+      {
+        "url": "assets/N260218_03.jpg",
+        "cut": "상세",
+        "source": "N260218_original_04.jpg"
+      },
+      {
+        "url": "assets/N260218_04.jpg",
+        "cut": "디테일",
+        "source": "N260218_original_05.jpg"
+      },
+      {
+        "url": "assets/N260218_05.jpg",
+        "cut": "색상",
+        "source": "N260218_original_01.jpg"
+      }
+    ],
+    "desc": "비즈 카라 민소매 니트입니다. 흰 카라와 단작 라인의 비즈 포인트가 사랑스러운 분위기를 더해주며, 단독 착용은 물론 스커트와 매치하기 좋은 아이템입니다.",
+    "recommend": "데이트/모임/출근룩/촬영",
+    "fabric": "니트혼방",
+    "stretch": "있음",
+    "see": "확인필요",
+    "lining": "없음",
+    "new": true
+  },
+  {
+    "code": "N260219",
+    "origin": "모네원피스",
+    "folder": "모네원피스",
+    "supplier": "티아라",
+    "zipFolder": "티아라/모네원피스",
+    "name": "모네 프린트 여름 원피스",
+    "storeName": "모네 프린트 여름 원피스",
+    "category": "MINI",
+    "color": "블루",
+    "size": "S,M",
+    "price": 135000,
+    "tags": [
+      "MINI",
+      "NEW",
+      "PARTY"
+    ],
+    "images": [
+      "assets/N260219_01.jpg",
+      "assets/N260219_02.jpg",
+      "assets/N260219_03.jpg",
+      "assets/N260219_04.jpg",
+      "assets/N260219_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260219_01.jpg",
+        "cut": "대표",
+        "source": "N260219_original_05.jpg"
+      },
+      {
+        "url": "assets/N260219_02.jpg",
+        "cut": "전면",
+        "source": "N260219_original_06.jpg"
+      },
+      {
+        "url": "assets/N260219_03.jpg",
+        "cut": "상세",
+        "source": "N260219_original_07.jpg"
+      },
+      {
+        "url": "assets/N260219_04.jpg",
+        "cut": "디테일",
+        "source": "N260219_original_03.jpg"
+      },
+      {
+        "url": "assets/N260219_05.jpg",
+        "cut": "색상",
+        "source": "N260219_original_02.jpg"
+      }
+    ],
+    "desc": "모네 프린트 여름 원피스입니다. 그림 같은 컬러감과 시원한 분위기의 패턴이 돋보이며, 여름 데이트룩이나 휴양지룩으로도 잘 어울립니다.",
+    "recommend": "데이트/휴양지/여름모임/촬영",
+    "fabric": "폴리혼방",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
+    "new": true
+  },
+  {
+    "code": "N260220",
+    "origin": "루벤원피스",
+    "folder": "루벤원피스",
+    "supplier": "티아라",
+    "zipFolder": "티아라/루벤원피스",
+    "name": "잔꽃 자수 스퀘어넥 원피스",
+    "storeName": "잔꽃 자수 스퀘어넥 원피스",
+    "category": "MINI",
+    "color": "핑크/소라",
+    "size": "S,M",
+    "price": 119000,
+    "tags": [
+      "LUXURY",
+      "MINI",
+      "NEW",
+      "PARTY",
+      "RECOMMEND"
+    ],
+    "images": [
+      "assets/N260220_01.jpg",
+      "assets/N260220_02.jpg",
+      "assets/N260220_03.jpg",
+      "assets/N260220_04.jpg",
+      "assets/N260220_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260220_01.jpg",
+        "cut": "대표",
+        "source": "N260220_original_03.jpg"
+      },
+      {
+        "url": "assets/N260220_02.jpg",
+        "cut": "전면",
+        "source": "N260220_original_04.jpg"
+      },
+      {
+        "url": "assets/N260220_03.jpg",
+        "cut": "상세",
+        "source": "N260220_original_05.jpg"
+      },
+      {
+        "url": "assets/N260220_04.jpg",
+        "cut": "디테일",
+        "source": "N260220_original_06.jpg"
+      },
+      {
+        "url": "assets/N260220_05.jpg",
+        "cut": "색상",
+        "source": "N260220_original_02.jpg"
+      }
+    ],
+    "desc": "잔꽃 자수 스퀘어넥 원피스입니다. 은은하게 깔린 자수 디테일과 스퀘어넥 라인이 여성스러운 분위기를 만들어주며, 부담 없이 화사한 스타일을 완성하기 좋습니다.",
+    "recommend": "데이트/모임/촬영/하객룩",
+    "fabric": "자수 원단/폴리혼방",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
+    "new": true
+  },
+  {
+    "code": "N260221",
+    "origin": "파올라니트",
+    "folder": "파올라니트",
+    "supplier": "티아라",
+    "zipFolder": "티아라/파올라니트",
+    "name": "파올라 슬림 니트 탑",
+    "storeName": "파올라 슬림 니트 탑",
+    "category": "TOP",
+    "color": "아이보리/블랙/그레이",
+    "size": "FREE",
+    "price": 79000,
+    "tags": [
+      "NEW",
+      "TOP"
+    ],
+    "images": [
+      "assets/N260221_01.jpg",
+      "assets/N260221_02.jpg",
+      "assets/N260221_03.jpg",
+      "assets/N260221_04.jpg",
+      "assets/N260221_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260221_01.jpg",
+        "cut": "대표",
+        "source": "N260221_original_02.jpg"
+      },
+      {
+        "url": "assets/N260221_02.jpg",
+        "cut": "전면",
+        "source": "N260221_original_03.jpg"
+      },
+      {
+        "url": "assets/N260221_03.jpg",
+        "cut": "상세",
+        "source": "N260221_original_04.jpg"
+      },
+      {
+        "url": "assets/N260221_04.jpg",
+        "cut": "디테일",
+        "source": "N260221_original_05.jpg"
+      },
+      {
+        "url": "assets/N260221_05.jpg",
+        "cut": "색상",
+        "source": "N260221_original_01.jpg"
+      }
+    ],
+    "desc": "파올라 슬림 니트 탑입니다. 깔끔한 핏과 베이직한 분위기로 스커트, 팬츠 모두 매치하기 좋으며 데일리룩부터 모임룩까지 활용도가 높은 상의입니다.",
+    "recommend": "데일리/모임/출근룩/데이트",
+    "fabric": "니트혼방",
+    "stretch": "있음",
+    "see": "확인필요",
+    "lining": "없음",
+    "new": true
+  },
+  {
+    "code": "N260222",
+    "origin": "프리볼스커트",
+    "folder": "프리볼스커트",
+    "supplier": "티아라",
+    "zipFolder": "티아라/프리볼스커트",
+    "name": "레이스 플레어 스커트",
+    "storeName": "레이스 플레어 스커트",
+    "category": "SKIRT",
+    "color": "베이지/블랙",
+    "size": "S,M",
+    "price": 89000,
+    "tags": [
+      "LUXURY",
+      "NEW",
+      "RECOMMEND",
+      "SKIRT"
+    ],
+    "images": [
+      "assets/N260222_01.jpg",
+      "assets/N260222_02.jpg",
+      "assets/N260222_03.jpg",
+      "assets/N260222_04.jpg",
+      "assets/N260222_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260222_01.jpg",
+        "cut": "대표",
+        "source": "N260222_original_06.jpg"
+      },
+      {
+        "url": "assets/N260222_02.jpg",
+        "cut": "전면",
+        "source": "N260222_original_01.jpg"
+      },
+      {
+        "url": "assets/N260222_03.jpg",
+        "cut": "상세",
+        "source": "N260222_original_02.jpg"
+      },
+      {
+        "url": "assets/N260222_04.jpg",
+        "cut": "디테일",
+        "source": "N260222_original_03.jpg"
+      },
+      {
+        "url": "assets/N260222_05.jpg",
+        "cut": "색상",
+        "source": "N260222_original_04.jpg"
+      }
+    ],
+    "desc": "레이스 플레어 스커트입니다. 니트, 블라우스와 모두 자연스럽게 매치되며 여성스러운 분위기를 더해주는 활용도 높은 스커트입니다.",
+    "recommend": "데이트/모임/출근룩/촬영",
+    "fabric": "레이스/폴리혼방",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
+    "new": true
+  },
+  {
+    "code": "N260223",
+    "origin": "랑방나시",
+    "folder": "랑방나시",
+    "supplier": "티아라",
+    "zipFolder": "티아라/랑방나시",
+    "name": "글로시 골지 니트 나시",
+    "storeName": "글로시 골지 니트 나시",
+    "category": "TOP",
+    "color": "아이보리/블랙/핑크/소라/노랑",
+    "size": "FREE",
+    "price": 109000,
+    "tags": [
+      "LUXURY",
+      "NEW",
+      "RECOMMEND",
+      "TOP"
+    ],
+    "images": [
+      "assets/N260223_01.jpg",
+      "assets/N260223_02.jpg",
+      "assets/N260223_03.jpg",
+      "assets/N260223_04.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260223_01.jpg",
+        "cut": "대표",
+        "source": "assets/N260223_01.jpg"
+      },
+      {
+        "url": "assets/N260223_02.jpg",
+        "cut": "전면",
+        "source": "assets/N260223_02.jpg"
+      },
+      {
+        "url": "assets/N260223_03.jpg",
+        "cut": "전면",
+        "source": "assets/N260223_03.jpg"
+      },
+      {
+        "url": "assets/N260223_04.jpg",
+        "cut": "착용컷",
+        "source": "assets/N260223_04.jpg"
+      }
+    ],
+    "desc": "글로시 골지 니트 나시입니다. 은은한 광택감과 쫀쫀한 착용감, 시원한 니트 질감이 장점이며 슬림한 라인을 자연스럽게 살려줍니다. 나염 스커트와 매치하면 완성도 높은 코디가 됩니다.",
+    "recommend": "데이트/모임/여름코디/촬영",
+    "fabric": "니트혼방",
+    "stretch": "있음",
+    "see": "확인필요",
+    "lining": "없음",
+    "new": true
+  },
+  {
+    "code": "N260224",
+    "origin": "4단프릴스커트",
+    "folder": "4단프릴스커트",
+    "supplier": "티아라",
+    "zipFolder": "티아라/4단프릴스커트",
+    "name": "4단 프릴 미니 스커트",
+    "storeName": "4단 프릴 미니 스커트",
+    "category": "SKIRT",
+    "color": "아이보리/블랙",
+    "size": "S,M",
+    "price": 69000,
+    "tags": [
+      "LUXURY",
+      "NEW",
+      "RECOMMEND",
+      "SKIRT"
+    ],
+    "images": [
+      "assets/N260224_01.jpg",
+      "assets/N260224_02.jpg",
+      "assets/N260224_03.jpg",
+      "assets/N260224_04.jpg",
+      "assets/N260224_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260224_01.jpg",
+        "cut": "앞",
+        "source": "assets/N260224_01.jpg"
+      },
+      {
+        "url": "assets/N260224_02.jpg",
+        "cut": "뒤",
+        "source": "assets/N260224_02.jpg"
+      },
+      {
+        "url": "assets/N260224_03.jpg",
+        "cut": "측",
+        "source": "assets/N260224_03.jpg"
+      },
+      {
+        "url": "assets/N260224_04.jpg",
+        "cut": "확",
+        "source": "assets/N260224_04.jpg"
+      },
+      {
+        "url": "assets/N260224_05.jpg",
+        "cut": "실물",
+        "source": "assets/N260224_05.jpg"
+      }
+    ],
+    "desc": "4단 프릴 디테일이 풍성하지만 과하지 않게 포인트를 주는 미니 스커트입니다. 아이보리와 블랙 두 컬러로 니트, 블라우스, 나시와 다양하게 매칭하기 좋습니다.",
+    "recommend": "데이트 · 모임 · 촬영 · 파티룩",
+    "fabric": "폴리혼방",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
+    "new": true
+  },
+  {
     "code": "N260001",
     "origin": "S504",
     "folder": "S504",
     "supplier": "그레이스",
     "zipFolder": "그레이스/S504",
-    "name": "화이트 러플 브이넥 크롭 투피스",
-    "storeName": "화이트 러플 브이넥 크롭 투피스 홀복 나이스",
+    "name": "러플 브이넥 크롭 투피스",
+    "storeName": "러플 브이넥 크롭 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 171000,
+    "price": 171000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -64,15 +542,16 @@
     "folder": "S505",
     "supplier": "그레이스",
     "zipFolder": "그레이스/S505",
-    "name": "핑크 러플 브이넥 크롭 투피스",
-    "storeName": "핑크 러플 브이넥 크롭 투피스 홀복 나이스",
+    "name": "러플 브이넥 크롭 투피스",
+    "storeName": "러플 브이넥 크롭 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 171000,
+    "price": 171000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -123,14 +602,16 @@
     "folder": "S506",
     "supplier": "그레이스",
     "zipFolder": "그레이스/S506",
-    "name": "블랙 러플 브이넥 크롭 투피스",
-    "storeName": "블랙 러플 브이넥 크롭 투피스 섹시원피스 나이스",
+    "name": "러플 브이넥 크롭 투피스 미니 원피스",
+    "storeName": "러플 브이넥 크롭 투피스 미니 원피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 171000,
+    "price": 171000.0,
     "tags": [
       "BEST",
+      "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -181,16 +662,17 @@
     "folder": "S507",
     "supplier": "그레이스",
     "zipFolder": "그레이스/S507",
-    "name": "화이트 마린 스타일 투피스",
-    "storeName": "화이트 마린 스타일 투피스 홀복 나이스",
+    "name": "마린 스타일 투피스",
+    "storeName": "마린 스타일 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 171000,
+    "price": 171000.0,
     "tags": [
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -241,16 +723,17 @@
     "folder": "S508",
     "supplier": "그레이스",
     "zipFolder": "그레이스/S508",
-    "name": "네이비 마린 스타일 투피스",
-    "storeName": "네이비 마린 스타일 투피스 홀복 나이스",
+    "name": "마린 스타일 투피스",
+    "storeName": "마린 스타일 투피스",
     "category": "TWO PIECE",
     "color": "네이비",
     "size": "S,M,L",
-    "price": 171000,
+    "price": 171000.0,
     "tags": [
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -301,15 +784,16 @@
     "folder": "S405 투피스",
     "supplier": "세윤",
     "zipFolder": "세윤/S405 투피스",
-    "name": "핑크/화이트 러플 오프숄더 크롭 투피스",
-    "storeName": "핑크/화이트 러플 오프숄더 크롭 투피스 홀복 나이스",
+    "name": "러플 오프숄더 크롭 투피스",
+    "storeName": "러플 오프숄더 크롭 투피스",
     "category": "TWO PIECE",
     "color": "핑크/화이트",
     "size": "S,M,L",
-    "price": 156000,
+    "price": 156000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -354,15 +838,16 @@
     "folder": "S406 투피스",
     "supplier": "세윤",
     "zipFolder": "세윤/S406 투피스",
-    "name": "블랙 러플 투피스",
-    "storeName": "블랙 러플 투피스 홀복 나이스",
+    "name": "러플 투피스",
+    "storeName": "러플 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 156000,
+    "price": 156000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -407,15 +892,16 @@
     "folder": "S472 투피스",
     "supplier": "세윤",
     "zipFolder": "세윤/S472 투피스",
-    "name": "화이트/블랙 오프숄더 튤스커트 투피스",
-    "storeName": "화이트/블랙 오프숄더 튤스커트 투피스 홀복 나이스",
+    "name": "오프숄더 튤스커트 투피스",
+    "storeName": "오프숄더 튤스커트 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
     "size": "S,M,L",
-    "price": 156000,
+    "price": 156000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -460,16 +946,17 @@
     "folder": "S473 투피스",
     "supplier": "세윤",
     "zipFolder": "세윤/S473 투피스",
-    "name": "화이트 마린 세일러 투피스",
-    "storeName": "화이트 마린 세일러 투피스 홀복 나이스",
+    "name": "마린 세일러 투피스",
+    "storeName": "마린 세일러 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 161000,
+    "price": 161000.0,
     "tags": [
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -514,16 +1001,17 @@
     "folder": "S474 투피스",
     "supplier": "세윤",
     "zipFolder": "세윤/S474 투피스",
-    "name": "블랙 마린 세일러 투피스",
-    "storeName": "블랙 마린 세일러 투피스 홀복 나이스",
+    "name": "마린 세일러 투피스",
+    "storeName": "마린 세일러 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 161000,
+    "price": 161000.0,
     "tags": [
       "BEST",
       "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -568,15 +1056,16 @@
     "folder": "S509",
     "supplier": "세윤",
     "zipFolder": "세윤/S509",
-    "name": "화이트/블랙 오프숄더 랩스커트 투피스",
-    "storeName": "화이트/블랙 오프숄더 랩스커트 투피스 홀복 나이스",
+    "name": "오프숄더 랩스커트 투피스",
+    "storeName": "오프숄더 랩스커트 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -621,15 +1110,16 @@
     "folder": "S510",
     "supplier": "세윤",
     "zipFolder": "세윤/S510",
-    "name": "핑크/화이트 핑크 오프숄더 랩스커트 투피스",
-    "storeName": "핑크/화이트 핑크 오프숄더 랩스커트 투피스 홀복 나이스",
+    "name": "오프숄더 랩스커트 투피스",
+    "storeName": "오프숄더 랩스커트 투피스",
     "category": "TWO PIECE",
     "color": "핑크/화이트",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -674,15 +1164,16 @@
     "folder": "S511",
     "supplier": "세윤",
     "zipFolder": "세윤/S511",
-    "name": "블랙/화이트 블랙 오프숄더 랩스커트 투피스",
-    "storeName": "블랙/화이트 블랙 오프숄더 랩스커트 투피스 홀복 나이스",
+    "name": "오프숄더 랩스커트 투피스",
+    "storeName": "오프숄더 랩스커트 투피스",
     "category": "TWO PIECE",
     "color": "블랙/화이트",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -727,15 +1218,17 @@
     "folder": "S512",
     "supplier": "세윤",
     "zipFolder": "세윤/S512",
-    "name": "핑크 골드버튼 체인 슬림 원피스",
-    "storeName": "핑크 골드버튼 체인 슬림 원피스 섹시원피스 나이스",
+    "name": "골드버튼 체인 슬림 원피스",
+    "storeName": "골드버튼 체인 슬림 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "BEST",
-      "MINI"
+      "MINI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260014_01.jpg",
@@ -779,15 +1272,17 @@
     "folder": "S513",
     "supplier": "세윤",
     "zipFolder": "세윤/S513",
-    "name": "소라 골드버튼 체인 슬림 원피스",
-    "storeName": "소라 골드버튼 체인 슬림 원피스 섹시원피스 나이스",
+    "name": "골드버튼 체인 슬림 원피스",
+    "storeName": "골드버튼 체인 슬림 원피스",
     "category": "MINI",
     "color": "소라",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "BEST",
-      "MINI"
+      "MINI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260015_01.jpg",
@@ -831,17 +1326,18 @@
     "folder": "글램OPS",
     "supplier": "실루엣",
     "zipFolder": "실루엣/글램OPS",
-    "name": "베이지/화이트 글램미디원피스",
-    "storeName": "베이지/화이트 글램미디원피스 미디드레스 나이스",
+    "name": "글램 미디 원피스",
+    "storeName": "글램 미디 원피스",
     "category": "MIDI",
     "color": "베이지/화이트",
     "size": "S,M,L",
-    "price": 117000,
+    "price": 117000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260016_01.jpg",
@@ -885,16 +1381,17 @@
     "folder": "기네스OPS 블랙",
     "supplier": "실루엣",
     "zipFolder": "실루엣/기네스OPS 블랙",
-    "name": "블랙 기네스미니원피스",
-    "storeName": "블랙 기네스미니원피스 섹시원피스 나이스",
+    "name": "기네스 미니 원피스",
+    "storeName": "기네스 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 111000,
+    "price": 111000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260017_01.jpg",
@@ -938,16 +1435,17 @@
     "folder": "기네스OPS 아이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/기네스OPS 아이",
-    "name": "화이트 기네스미니원피스",
-    "storeName": "화이트 기네스미니원피스 섹시원피스 나이스",
+    "name": "기네스 미니 원피스",
+    "storeName": "기네스 미니 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 111000,
+    "price": 111000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260018_01.jpg",
@@ -991,16 +1489,17 @@
     "folder": "기네스OPS 추가",
     "supplier": "실루엣",
     "zipFolder": "실루엣/기네스OPS 추가",
-    "name": "기네스미니원피스",
-    "storeName": "기네스미니원피스 섹시원피스 나이스",
+    "name": "기네스 미니 원피스",
+    "storeName": "기네스 미니 원피스",
     "category": "MINI",
     "color": "",
     "size": "S,M,L",
-    "price": 111000,
+    "price": 111000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260019_01.jpg",
@@ -1044,16 +1543,17 @@
     "folder": "다이아브로치",
     "supplier": "실루엣",
     "zipFolder": "실루엣/다이아브로치",
-    "name": "악세사리 옵션",
-    "storeName": "악세사리 옵션 홀복 나이스",
+    "name": "액세서리 옵션",
+    "storeName": "액세서리 옵션",
     "category": "MINI",
     "color": "",
     "size": "S,M,L",
-    "price": 9000,
+    "price": 9000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260020_01.jpg",
@@ -1091,16 +1591,17 @@
     "folder": "라비앙OPS",
     "supplier": "실루엣",
     "zipFolder": "실루엣/라비앙OPS",
-    "name": "아이보리/베이지 라비앙원피스",
-    "storeName": "아이보리/베이지 라비앙원피스 섹시원피스 나이스",
+    "name": "라비앙 원피스",
+    "storeName": "라비앙 원피스",
     "category": "MINI",
     "color": "아이보리/베이지",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260021_01.jpg",
@@ -1144,15 +1645,16 @@
     "folder": "리본끈 탑원피스(그레이)",
     "supplier": "실루엣",
     "zipFolder": "실루엣/리본끈 탑원피스(그레이)",
-    "name": "그레이 튜브탑 넥라인이 입체감 있는 리본디테일, 몸매를 더 슬림해 보이는 스프라이트 패턴",
-    "storeName": "그레이 튜브탑 넥라인이 입체감 있는 리본디테일, 몸매를 더 슬림해 보이는 스프라이트 패턴 섹시원피스 나이스",
+    "name": "튜브탑 리본 스트라이프 미니 원피스",
+    "storeName": "튜브탑 리본 스트라이프 미니 원피스",
     "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 106000,
+    "price": 106000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1197,15 +1699,16 @@
     "folder": "리본끈 탑원피스(화이트)",
     "supplier": "실루엣",
     "zipFolder": "실루엣/리본끈 탑원피스(화이트)",
-    "name": "화이트 튜브탑 넥라인이 입체감 있는 리본디테일, 몸매를 더 슬림해 보이는 스프라이트 패턴",
-    "storeName": "화이트 튜브탑 넥라인이 입체감 있는 리본디테일, 몸매를 더 슬림해 보이는 스프라이트 패턴 섹시원피스 나이스",
+    "name": "튜브탑 리본 스트라이프 미니 원피스",
+    "storeName": "튜브탑 리본 스트라이프 미니 원피스",
     "category": "TOP",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 106000,
+    "price": 106000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1250,15 +1753,16 @@
     "folder": "쏘잉BL",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쏘잉BL",
-    "name": "스트라이프 리본 오프숄더 탑블라이스",
-    "storeName": "스트라이프 리본 오프숄더 탑블라이스 블라우스 나이스",
+    "name": "스트라이프 리본 탑 블라우스",
+    "storeName": "스트라이프 리본 탑 블라우스",
     "category": "TOP",
     "color": "",
     "size": "S,M,L",
-    "price": 75000,
+    "price": 75000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1303,15 +1807,16 @@
     "folder": "쏘잉BL그레이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쏘잉BL그레이",
-    "name": "그레이 스트라이프 리본 오프숄더 탑블라이스",
-    "storeName": "그레이 스트라이프 리본 오프숄더 탑블라이스 블라우스 나이스",
+    "name": "스트라이프 리본 탑 블라우스",
+    "storeName": "스트라이프 리본 탑 블라우스",
     "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 75000,
+    "price": 75000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1356,15 +1861,16 @@
     "folder": "쏘잉BL핑크",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쏘잉BL핑크",
-    "name": "쏘잉BL핑크",
-    "storeName": "쏘잉BL핑크 블라우스 나이스",
+    "name": "스트라이프 리본 탑 블라우스",
+    "storeName": "스트라이프 리본 탑 블라우스",
     "category": "TOP",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 75000,
+    "price": 75000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1409,17 +1915,18 @@
     "folder": "에비뉴OPS",
     "supplier": "실루엣",
     "zipFolder": "실루엣/에비뉴OPS",
-    "name": "허리라인을 돋보이게해주는 미디원피스",
-    "storeName": "허리라인을 돋보이게해주는 미디원피스 섹시원피스 나이스",
+    "name": "모던핏 그레이 슬림 미디원피스",
+    "storeName": "모던핏 그레이 슬림 미디원피스",
     "category": "MIDI",
     "color": "",
     "size": "S,M,L",
-    "price": 110000,
+    "price": 110000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260027_01.jpg",
@@ -1463,17 +1970,18 @@
     "folder": "에비뉴OPS그레이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/에비뉴OPS그레이",
-    "name": "그레이 허리라인을 돋보이게해주는 미디원피스",
-    "storeName": "그레이 허리라인을 돋보이게해주는 미디원피스 미디드레스 나이스",
+    "name": "모던핏 그레이 슬림 미디원피스",
+    "storeName": "모던핏 그레이 슬림 미디원피스",
     "category": "MIDI",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 110000,
+    "price": 110000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260028_01.jpg",
@@ -1517,17 +2025,18 @@
     "folder": "에비뉴OPS화이트",
     "supplier": "실루엣",
     "zipFolder": "실루엣/에비뉴OPS화이트",
-    "name": "화이트 허리라인을 돋보이게해주는 미디원피스",
-    "storeName": "화이트 허리라인을 돋보이게해주는 미디원피스 미디드레스 나이스",
+    "name": "모던핏 그레이 슬림 미디원피스",
+    "storeName": "모던핏 그레이 슬림 미디원피스",
     "category": "MIDI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 110000,
+    "price": 110000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260029_01.jpg",
@@ -1571,15 +2080,16 @@
     "folder": "카시아2OPS",
     "supplier": "실루엣",
     "zipFolder": "실루엣/카시아2OPS",
-    "name": "화이트/핑크 시선을 사로잡는 드레이핑 튜브탑 원피스, 가슴 라인의 드레이핑이 포인트",
-    "storeName": "화이트/핑크 시선을 사로잡는 드레이핑 튜브탑 원피스, 가슴 라인의 드레이핑이 포인트 섹시원피스 나이스",
+    "name": "드레이핑 튜브탑 원피스",
+    "storeName": "드레이핑 튜브탑 원피스",
     "category": "TOP",
     "color": "화이트/핑크",
     "size": "S,M,L",
-    "price": 110000,
+    "price": 110000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1624,16 +2134,18 @@
     "folder": "컨페티OPS아이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/컨페티OPS아이",
-    "name": "화이트 라인 디테일 스림 미디 원피스, 언발란스 밑단과 딥 슬림 디테일이 포인트",
-    "storeName": "화이트 라인 디테일 스림 미디 원피스, 언발란스 밑단과 딥 슬림 디테일이 포인트 섹시원피스 나이스",
+    "name": "루아 블랙라인 리본트임 미디원피스",
+    "storeName": "루아 블랙라인 리본트임 미디원피스",
     "category": "MIDI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 122000,
+    "price": 122000.0,
     "tags": [
       "BEST",
       "LUXURY",
-      "MIDI"
+      "MIDI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260031_01.jpg",
@@ -1677,16 +2189,18 @@
     "folder": "컨페티OPS핑크",
     "supplier": "실루엣",
     "zipFolder": "실루엣/컨페티OPS핑크",
-    "name": "핑크 라인 디테일 스림 미디 원피스, 언발란스 밑단과 딥 슬림 디테일이 포인트",
-    "storeName": "핑크 라인 디테일 스림 미디 원피스, 언발란스 밑단과 딥 슬림 디테일이 포인트 섹시원피스 나이스",
+    "name": "루아 블랙라인 리본트임 미디원피스",
+    "storeName": "루아 화이트라인 리본트임 미디원피스",
     "category": "MIDI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 122000,
+    "price": 122000.0,
     "tags": [
       "BEST",
       "LUXURY",
-      "MIDI"
+      "MIDI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260032_01.jpg",
@@ -1730,15 +2244,16 @@
     "folder": "쿠키BL샤넬주름SK아이핑크블랙",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쿠키BL샤넬주름SK아이핑크블랙",
-    "name": "화이트/핑크 넥리본 포인트 핏이 좋은 블라우스",
-    "storeName": "화이트/핑크 넥리본 포인트 핏이 좋은 블라우스 블라우스 나이스",
+    "name": "넥리본 블라우스",
+    "storeName": "넥리본 블라우스",
     "category": "TOP",
     "color": "화이트/핑크",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -1783,15 +2298,16 @@
     "folder": "쿠키BL샤넬주름SK아이핑크블랙 추가이미지",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쿠키BL샤넬주름SK아이핑크블랙 추가이미지",
-    "name": "블랙/화이트 동안핏 감성 촘촘한 주름스커트",
-    "storeName": "블랙/화이트 동안핏 감성 촘촘한 주름스커트 스커트 나이스",
+    "name": "클래식 무드 플리츠 스커트",
+    "storeName": "클래식 무드 플리츠 스커트",
     "category": "SKIRT",
     "color": "블랙/화이트",
     "size": "S,M,L",
-    "price": 76000,
+    "price": 76000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -1836,15 +2352,16 @@
     "folder": "쿠키BL샤넬주름SK추가2",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쿠키BL샤넬주름SK추가2",
-    "name": "화이트/핑크/블랙 넥리본 포인트 핏이 좋은 블라우스 동안핏 감성 촘촘한 주름스커트",
-    "storeName": "화이트/핑크/블랙 넥리본 포인트 핏이 좋은 블라우스 동안핏 감성 촘촘한 주름스커트 홀복 나이스",
+    "name": "넥리본 클랙식 무드 플리츠 투피스",
+    "storeName": "넥리본 클랙식 무드 플리츠 투피스",
     "category": "TWO PIECE",
     "color": "화이트/핑크/블랙",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 171000,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -1889,17 +2406,19 @@
     "folder": "프라다탑OPS",
     "supplier": "실루엣",
     "zipFolder": "실루엣/프라다탑OPS",
-    "name": "다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스",
-    "storeName": "다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "리본 타이 오프숄더 미디 원피스",
+    "storeName": "리본 타이 오프숄더 미디 원피스",
+    "category": "TOP",
     "color": "",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260036_01.jpg",
@@ -1943,17 +2462,19 @@
     "folder": "프라다탑OPS 그레이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/프라다탑OPS 그레이",
-    "name": "그레이 다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스",
-    "storeName": "그레이 다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "리본 타이 오프숄더 미디 원피스",
+    "storeName": "리본 타이 오프숄더 미디 원피스",
+    "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260037_01.jpg",
@@ -1997,17 +2518,19 @@
     "folder": "프라다탑OPS 아이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/프라다탑OPS 아이",
-    "name": "그레이 다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스",
-    "storeName": "그레이 다양한 연출이 가능한 리본 타이와 슬림한 오프숄더 미디 원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "리본 타이 오프숄더 미디 원피스",
+    "storeName": "리본 타이 오프숄더 미디 원피스",
+    "category": "TOP",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260038_01.jpg",
@@ -2051,15 +2574,17 @@
     "folder": "후크BL후크SK",
     "supplier": "실루엣",
     "zipFolder": "실루엣/후크BL후크SK",
-    "name": "아이보리/블랙 어깨끈 탈부착 가능",
-    "storeName": "아이보리/블랙 어깨끈 탈부착 가능 홀복 나이스",
+    "name": "벨라 코르셋 후크 미니투피스",
+    "storeName": "벨라 코르셋 후크 미니투피스",
     "category": "TWO PIECE",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 170000,
+    "price": 170000.0,
     "tags": [
       "BEST",
+      "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2090,7 +2615,7 @@
         "source": "후크BL후크SK/img_xl_4_a0rf6p.jpg"
       }
     ],
-    "desc": "어깨끈 탈부착 가능 상품입니다. 아이보리/블랙 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "코르셋 라인이 허리를 슬림하게 잡아주고,\n스커트의 후크 디테일이 시크한 포인트를 더해주는 미니투피스.\n\n크롭나시 상의와 미니스커트 세트 구성으로\n특별한 날 스타일링까지\n글램하고 세련된 분위기로 완성해줍니다.\n소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼.",
     "recommend": "동대문 매장/클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "있음",
@@ -2104,15 +2629,16 @@
     "folder": "후크BL후크SK 블랙",
     "supplier": "실루엣",
     "zipFolder": "실루엣/후크BL후크SK 블랙",
-    "name": "아이보리/블랙 어깨끈 탈부착 가능",
-    "storeName": "아이보리/블랙 어깨끈 탈부착 가능 블라우스 나이스",
+    "name": "벨라 코르셋 크롭나시 블라우스",
+    "storeName": "벨라 코르셋 크롭나시 블라우스",
     "category": "TOP",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 93000,
+    "price": 93000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -2143,7 +2669,7 @@
         "source": "후크BL후크SK 블랙/img_xl_4_jqojxl.jpg"
       }
     ],
-    "desc": "어깨끈 탈부착 가능 상품입니다. 아이보리/블랙 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 보통, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "코르셋 라인이 허리를 슬림하게 잡아주고, 시크한 포인트를 더해주는 블라우스.\n\n크롭나시 상의로 특별한 날 스타일링까지\n글램하고 세련된 분위기로 완성해줍니다.\n소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼.  소재는 폴리혼방 기준입니다. 착용 정보: 신축성 보통, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
     "recommend": "동대문 매장/클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "보통",
@@ -2157,15 +2683,16 @@
     "folder": "후크BL후크SK 아이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/후크BL후크SK 아이",
-    "name": "아이보리/블랙 어깨끈 탈부착 가능",
-    "storeName": "아이보리/블랙 어깨끈 탈부착 가능 스커트 나이스",
+    "name": "벨라 후크 라인 스커트",
+    "storeName": "벨라 후크 라인 스커트",
     "category": "SKIRT",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 77000,
+    "price": 77000.0,
     "tags": [
       "BEST",
       "PARTY",
+      "RECOMMEND",
       "SKIRT"
     ],
     "images": [
@@ -2196,63 +2723,10 @@
         "source": "후크BL후크SK 아이/img_xl_eq0q3b.jpg"
       }
     ],
-    "desc": "어깨끈 탈부착 가능 상품입니다. 아이보리/블랙 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 약간, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "코르셋 라인이 허리를 슬림하게 잡아주고,\n스커트의 후크 디테일이 시크한 포인트를 더해줘 특별한 날 스타일링까지\n글램하고 세련된 분위기로 완성해줍니다.\n소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 약간, 비침 없음, 안감 있음, 지퍼 뒷지퍼.",
     "recommend": "동대문 매장/클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "약간",
-    "see": "없음",
-    "lining": "있음",
-    "best": true
-  },
-  {
-    "code": "N260042",
-    "origin": "후크BL후크SK_아이블랙_추가",
-    "folder": "후크BL후크SK 아이블랙 추가",
-    "supplier": "실루엣",
-    "zipFolder": "실루엣/후크BL후크SK 아이블랙 추가",
-    "name": "아이보리/블랙 어깨끈 탈부착 가능",
-    "storeName": "아이보리/블랙 어깨끈 탈부착 가능 홀복 나이스",
-    "category": "TWO PIECE",
-    "color": "아이보리/블랙",
-    "size": "S,M,L",
-    "price": 170000,
-    "tags": [
-      "BEST",
-      "PARTY",
-      "TWO PIECE"
-    ],
-    "images": [
-      "assets/N260042_01.jpg",
-      "assets/N260042_02.jpg",
-      "assets/N260042_03.jpg",
-      "assets/N260042_04.jpg"
-    ],
-    "cuts": [
-      {
-        "url": "assets/N260042_01.jpg",
-        "cut": "전면",
-        "source": "후크BL후크SK 아이블랙 추가/img_xl_fk0pzv.jpg"
-      },
-      {
-        "url": "assets/N260042_02.jpg",
-        "cut": "후면",
-        "source": "후크BL후크SK 아이블랙 추가/img_xl_1_g8vpua.jpg"
-      },
-      {
-        "url": "assets/N260042_03.jpg",
-        "cut": "측면",
-        "source": "후크BL후크SK 아이블랙 추가/img_xl_2_pa5rwo.jpg"
-      },
-      {
-        "url": "assets/N260042_04.jpg",
-        "cut": "확대/디테일",
-        "source": "후크BL후크SK 아이블랙 추가/img_xl_3_pkwmd6.jpg"
-      }
-    ],
-    "desc": "어깨끈 탈부착 가능 상품입니다. 아이보리/블랙 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 보통, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
-    "recommend": "동대문 매장/클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "보통",
     "see": "없음",
     "lining": "있음",
     "best": true
@@ -2263,17 +2737,18 @@
     "folder": "S470",
     "supplier": "써니",
     "zipFolder": "써니/S470",
-    "name": "가슴부분 장식과 하얀 포인트를 주는 블랙 배색 미디 드레스",
-    "storeName": "가슴부분 장식과 하얀 포인트를 주는 블랙 배색 미디 드레스 미디드레스 나이스",
+    "name": "라비앙 배색 새틴 미디원피스",
+    "storeName": "라비앙 배색 새틴 미디원피스",
     "category": "MIDI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260043_01.jpg",
@@ -2317,17 +2792,18 @@
     "folder": "S471",
     "supplier": "써니",
     "zipFolder": "써니/S471",
-    "name": "가슴부분 장식과 하얀 포인트를 주는 핑크 배색 미디 드레스",
-    "storeName": "가슴부분 장식과 하얀 포인트를 주는 핑크 배색 미디 드레스 미디드레스 나이스",
+    "name": "라비앙 배색 새틴 미디원피스",
+    "storeName": "라비앙 배색 새틴 미디원피스",
     "category": "MIDI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260044_01.jpg",
@@ -2371,15 +2847,17 @@
     "folder": "S468 투피스",
     "supplier": "예스",
     "zipFolder": "예스/S468 투피스",
-    "name": "베이지 도트 카라 투피스",
-    "storeName": "베이지 도트 카라 투피스 홀복 나이스",
+    "name": "프레피 도트 카라 투피스",
+    "storeName": "프레피 도트 카라 투피스",
     "category": "TWO PIECE",
     "color": "베이지",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "BEST",
+      "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2410,7 +2888,7 @@
         "source": "S468 투피스/img_xl_4_abrom1.jpg"
       }
     ],
-    "desc": "베이지 도트 카라 투피스 상품입니다. 베이지 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 상:약간 하:있음, 비침 상:있음 하:없음, 안감 상:없음 하:있음, 지퍼 상:없음 하:뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "프레피한 스쿨룩 무드에 도트 카라 포인트를 더한 투피스입니다. 상하의 세트 구성이라 코디가 쉽고, 발랄하면서도 깔끔한 코스튬룩으로 연출하기 좋습니다.",
     "recommend": "동대문 매장/클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "상:약간 하:있음",
@@ -2424,15 +2902,17 @@
     "folder": "S469 투피스",
     "supplier": "예스",
     "zipFolder": "예스/S469 투피스",
-    "name": "핑크 도트 카라 투피스",
-    "storeName": "핑크 도트 카라 투피스 홀복 나이스",
+    "name": "프레피 도트 카라 투피스",
+    "storeName": "프레피 도트 카라 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "BEST",
+      "COSTUME",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -2463,7 +2943,7 @@
         "source": "S469 투피스/img_xl_4_ky9cuo.jpg"
       }
     ],
-    "desc": "핑크 도트 카라 투피스 상품입니다. 핑크 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "프레피한 스쿨룩 무드에 도트 카라 포인트를 더한 투피스입니다. 상하의 세트 구성이라 코디가 쉽고, 발랄하면서도 깔끔한 코스튬룩으로 연출하기 좋습니다.",
     "recommend": "동대문 매장/클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "",
@@ -2477,17 +2957,18 @@
     "folder": "S466",
     "supplier": "임마누엘",
     "zipFolder": "임마누엘/S466",
-    "name": "화이트 시스루 롱 드레스",
-    "storeName": "화이트 시스루 롱 드레스 롱드레스 나이스",
+    "name": "시스루 롱 드레스",
+    "storeName": "시스루 롱 드레스",
     "category": "LONG",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 144000,
+    "price": 144000.0,
     "tags": [
       "BEST",
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260047_01.jpg",
@@ -2531,17 +3012,18 @@
     "folder": "S467",
     "supplier": "임마누엘",
     "zipFolder": "임마누엘/S467",
-    "name": "블랙 A라인 롱 드레스",
-    "storeName": "블랙 A라인 롱 드레스 롱드레스 나이스",
+    "name": "A라인 롱 드레스",
+    "storeName": "A라인 롱 드레스",
     "category": "LONG",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 144000,
+    "price": 144000.0,
     "tags": [
       "BEST",
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260048_01.jpg",
@@ -2585,17 +3067,18 @@
     "folder": "S390",
     "supplier": "지나",
     "zipFolder": "지나/S390",
-    "name": "화이트 H라인 미디드레스",
-    "storeName": "화이트 H라인 미디드레스 미디드레스 나이스",
+    "name": "H라인 미디 드레스",
+    "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 131000,
+    "price": 131000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260049_01.jpg",
@@ -2639,17 +3122,18 @@
     "folder": "S391",
     "supplier": "지나",
     "zipFolder": "지나/S391",
-    "name": "블랙 H라인 미디드레스",
-    "storeName": "블랙 H라인 미디드레스 미디드레스 나이스",
+    "name": "H라인 미디 드레스",
+    "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 131000,
+    "price": 131000.0,
     "tags": [
       "BEST",
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260050_01.jpg",
@@ -2693,16 +3177,17 @@
     "folder": "S392",
     "supplier": "지나",
     "zipFolder": "지나/S392",
-    "name": "화이트 H라인 미디드레스",
-    "storeName": "화이트 H라인 미디드레스 미디드레스 나이스",
+    "name": "H라인 미디 드레스",
+    "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260051_01.jpg",
@@ -2745,15 +3230,17 @@
     "folder": "S393",
     "supplier": "지나",
     "zipFolder": "지나/S393",
-    "name": "소라 화이트 H라인 미디드레스",
-    "storeName": "소라 화이트 H라인 미디드레스 섹시원피스 나이스",
+    "name": "H라인 미디 드레스",
+    "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "소라",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
-      "MIDI"
+      "MIDI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260052_01.jpg",
@@ -2796,15 +3283,17 @@
     "folder": "S394",
     "supplier": "지나",
     "zipFolder": "지나/S394",
-    "name": "레드꽃무늬 H라인 미디드레스",
-    "storeName": "레드꽃무늬 H라인 미디드레스 섹시원피스 나이스",
+    "name": "레드꽃무늬 H라인 미디 드레스",
+    "storeName": "레드꽃무늬 H라인 미디 드레스",
     "category": "MIDI",
     "color": "레드",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
-      "MIDI"
+      "MIDI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260053_01.jpg",
@@ -2847,15 +3336,17 @@
     "folder": "S395",
     "supplier": "지나",
     "zipFolder": "지나/S395",
-    "name": "블루꽃무늬 H라인 미디드레스",
-    "storeName": "블루꽃무늬 H라인 미디드레스 섹시원피스 나이스",
+    "name": "블루꽃무늬 H라인 미디 드레스",
+    "storeName": "블루꽃무늬 H라인 미디 드레스",
     "category": "MIDI",
     "color": "블루",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
-      "MIDI"
+      "MIDI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260054_01.jpg",
@@ -2898,12 +3389,12 @@
     "folder": "S475",
     "supplier": "지나",
     "zipFolder": "지나/S475",
-    "name": "화이트 미니탑 드레스",
-    "storeName": "화이트 미니탑 드레스 섹시원피스 나이스",
+    "name": "미니탑 드레스",
+    "storeName": "미니탑 드레스",
     "category": "TOP",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "PARTY",
       "TOP"
@@ -2949,12 +3440,12 @@
     "folder": "S476",
     "supplier": "지나",
     "zipFolder": "지나/S476",
-    "name": "블랙 미니탑 드레스",
-    "storeName": "블랙 미니탑 드레스 섹시원피스 나이스",
+    "name": "미니탑 드레스",
+    "storeName": "미니탑 드레스",
     "category": "TOP",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "PARTY",
       "TOP"
@@ -3000,15 +3491,16 @@
     "folder": "S477",
     "supplier": "지나",
     "zipFolder": "지나/S477",
-    "name": "민트 끈나시 주름치마드레스",
-    "storeName": "민트 끈나시 주름치마드레스 섹시원피스 나이스",
-    "category": "MINI",
+    "name": "끈나시 플리츠 미니 원피스",
+    "storeName": "끈나시 플리츠 미니 원피스",
+    "category": "TOP",
     "color": "민트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
+      "MINI",
       "PARTY",
-      "MINI"
+      "TOP"
     ],
     "images": [
       "assets/N260057_01.jpg",
@@ -3051,15 +3543,16 @@
     "folder": "S478",
     "supplier": "지나",
     "zipFolder": "지나/S478",
-    "name": "블랙 끈나시 주름치마드레스",
-    "storeName": "블랙 끈나시 주름치마드레스 섹시원피스 나이스",
-    "category": "MINI",
+    "name": "끈나시 플리츠 미니 원피스",
+    "storeName": "끈나시 플리츠 미니 원피스",
+    "category": "TOP",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
+      "MINI",
       "PARTY",
-      "MINI"
+      "TOP"
     ],
     "images": [
       "assets/N260058_01.jpg",
@@ -3102,14 +3595,15 @@
     "folder": "S514",
     "supplier": "지나",
     "zipFolder": "지나/S514",
-    "name": "화이트 어깨꽃 H라인미니드레스",
-    "storeName": "화이트 어깨꽃 H라인미니드레스 섹시원피스 나이스",
+    "name": "플라워 숄더 H라인 미니 드레스",
+    "storeName": "플라워 숄더 H라인 미니 드레스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260059_01.jpg",
@@ -3152,14 +3646,15 @@
     "folder": "S515",
     "supplier": "지나",
     "zipFolder": "지나/S515",
-    "name": "블랙 어깨꽃 H라인미니드레스",
-    "storeName": "블랙 어깨꽃 H라인미니드레스 섹시원피스 나이스",
+    "name": "플라워 숄더 H라인 미니 드레스",
+    "storeName": "플라워 숄더 H라인 미니 드레스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260060_01.jpg",
@@ -3202,15 +3697,15 @@
     "folder": "S516",
     "supplier": "지나",
     "zipFolder": "지나/S516",
-    "name": "화이트 S516",
-    "storeName": "화이트 S516 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260061_01.jpg",
@@ -3253,15 +3748,15 @@
     "folder": "S517",
     "supplier": "지나",
     "zipFolder": "지나/S517",
-    "name": "핑크 S517",
-    "storeName": "핑크 S517 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260062_01.jpg",
@@ -3304,15 +3799,15 @@
     "folder": "S518",
     "supplier": "지나",
     "zipFolder": "지나/S518",
-    "name": "화이트 도트 미니 A라인원피스",
-    "storeName": "화이트 도트 미니 A라인원피스 섹시원피스 나이스",
+    "name": "도트 미니 A라인 원피스",
+    "storeName": "도트 미니 A라인 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260063_01.jpg",
@@ -3355,15 +3850,15 @@
     "folder": "S519",
     "supplier": "지나",
     "zipFolder": "지나/S519",
-    "name": "블랙 도트 미니 A라인원피스",
-    "storeName": "블랙 도트 미니 A라인원피스 섹시원피스 나이스",
+    "name": "도트 미니 A라인 원피스",
+    "storeName": "도트 미니 A라인 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260064_01.jpg",
@@ -3406,15 +3901,15 @@
     "folder": "6369(브라운)",
     "supplier": "지니",
     "zipFolder": "지니/6369(브라운)",
-    "name": "브라운 V버클 플리츠 미니원피스",
-    "storeName": "브라운 V버클 플리츠 미니원피스 섹시원피스 나이스",
+    "name": "V버클 플리츠 미니원피스",
+    "storeName": "V버클 플리츠 미니원피스",
     "category": "MINI",
     "color": "브라운",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260065_01.jpg",
@@ -3457,15 +3952,15 @@
     "folder": "골지 미니 원피스 핑크",
     "supplier": "지니",
     "zipFolder": "지니/골지 미니 원피스 핑크",
-    "name": "핑크/화이트/블랙 진주 버튼 스퀘어넥 미니 원피스",
-    "storeName": "핑크/화이트/블랙 진주 버튼 스퀘어넥 미니 원피스 섹시원피스 나이스",
+    "name": "진주 버튼 스퀘어넥 미니 원피스",
+    "storeName": "진주 버튼 스퀘어넥 미니 원피스",
     "category": "MINI",
     "color": "핑크/화이트/블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260066_01.jpg",
@@ -3508,41 +4003,48 @@
     "folder": "리본끈A라인원피스(coco)",
     "supplier": "지니",
     "zipFolder": "지니/리본끈A라인원피스(coco)",
-    "name": "연보라 도트리본 타이 A라인 미니드레스",
-    "storeName": "연보라 도트리본 타이 A라인 미니드레스 섹시원피스 나이스",
+    "name": "도트 리본 타이 A라인 미니 드레스",
+    "storeName": "도트 리본 타이 A라인 미니 드레스",
     "category": "MINI",
-    "color": "연보라",
+    "color": "연보라/옐로우/민트",
     "size": "S,M,L",
     "price": 126000,
     "tags": [
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260067_01.jpg",
       "assets/N260067_02.jpg",
       "assets/N260067_03.jpg",
-      "assets/N260067_04.jpg"
+      "assets/N260067_04.jpg",
+      "assets/N260067_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260067_01.jpg",
-        "cut": "전면",
-        "source": "리본끈A라인원피스(coco)/img_xl_1_aonwbw.jpg"
+        "cut": "앞",
+        "source": "assets/N260067_01.jpg"
       },
       {
         "url": "assets/N260067_02.jpg",
-        "cut": "후면",
-        "source": "리본끈A라인원피스(coco)/img_xl_ke1scq.jpg"
+        "cut": "뒤",
+        "source": "assets/N260067_02.jpg"
       },
       {
         "url": "assets/N260067_03.jpg",
-        "cut": "측면",
-        "source": "리본끈A라인원피스(coco)/img_xl_2_zvrgft.jpg"
+        "cut": "측",
+        "source": "assets/N260067_03.jpg"
       },
       {
         "url": "assets/N260067_04.jpg",
-        "cut": "확대/디테일",
-        "source": "리본끈A라인원피스(coco)/img_xl_3_hvu8qg.jpg"
+        "cut": "확",
+        "source": "assets/N260067_04.jpg"
+      },
+      {
+        "url": "assets/N260067_05.jpg",
+        "cut": "실물",
+        "source": "assets/N260067_05.jpg"
       }
     ],
     "desc": "도트리본 타이 A라인 미니드레스 상품입니다. 연보라 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
@@ -3558,14 +4060,15 @@
     "folder": "리본끈A라인원피스(노랑)",
     "supplier": "지니",
     "zipFolder": "지니/리본끈A라인원피스(노랑)",
-    "name": "엘로우 도트리본 타이 A라인 미니드레스",
-    "storeName": "엘로우 도트리본 타이 A라인 미니드레스 섹시원피스 나이스",
+    "name": "도트 리본 타이 A라인 미니 드레스",
+    "storeName": "도트 리본 타이 A라인 미니 드레스",
     "category": "MINI",
     "color": "엘로우",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260068_01.jpg",
@@ -3608,14 +4111,15 @@
     "folder": "리본끈A라인원피스(연보라)",
     "supplier": "지니",
     "zipFolder": "지니/리본끈A라인원피스(연보라)",
-    "name": "연보라 도트리본 타이 A라인 미니드레스",
-    "storeName": "연보라 도트리본 타이 A라인 미니드레스 섹시원피스 나이스",
+    "name": "도트 리본 타이 A라인 미니 드레스",
+    "storeName": "도트 리본 타이 A라인 미니 드레스",
     "category": "MINI",
     "color": "연보라",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260069_01.jpg",
@@ -3658,15 +4162,15 @@
     "folder": "6368(베이지)",
     "supplier": "지니",
     "zipFolder": "지니/6368(베이지)",
-    "name": "베이지 V버클 플리츠 미니원피스",
-    "storeName": "베이지 V버클 플리츠 미니원피스 섹시원피스 나이스",
+    "name": "V버클 플리츠 미니원피스",
+    "storeName": "V버클 플리츠 미니원피스",
     "category": "MINI",
     "color": "베이지",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260070_01.jpg",
@@ -3709,15 +4213,15 @@
     "folder": "6370(핑크)",
     "supplier": "지니",
     "zipFolder": "지니/6370(핑크)",
-    "name": "핑크 V버클 플리츠 미니원피스",
-    "storeName": "핑크 V버클 플리츠 미니원피스 섹시원피스 나이스",
+    "name": "V버클 플리츠 미니원피스",
+    "storeName": "V버클 플리츠 미니원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260071_01.jpg",
@@ -3760,15 +4264,15 @@
     "folder": "사각쭈글원피스(핑크)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글원피스(핑크)",
-    "name": "핑크 진주 버튼 스퀘어넥 미니 원피스",
-    "storeName": "핑크 진주 버튼 스퀘어넥 미니 원피스 섹시원피스 나이스",
+    "name": "진주 버튼 스퀘어넥 미니 원피스",
+    "storeName": "진주 버튼 스퀘어넥 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260072_01.jpg",
@@ -3811,15 +4315,15 @@
     "folder": "사각쭈글원피스(화이트)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글원피스(화이트)",
-    "name": "화이트 진주 버튼 스퀘어넥 미니 원피스",
-    "storeName": "화이트 진주 버튼 스퀘어넥 미니 원피스 섹시원피스 나이스",
+    "name": "진주 버튼 스퀘어넥 미니 원피스",
+    "storeName": "진주 버튼 스퀘어넥 미니 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260073_01.jpg",
@@ -3862,15 +4366,15 @@
     "folder": "사각쭈글원피스(검정)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글원피스(검정)",
-    "name": "블랙 진주 버튼 스퀘어넥 미니 원피스",
-    "storeName": "블랙 진주 버튼 스퀘어넥 미니 원피스 섹시원피스 나이스",
+    "name": "진주 버튼 스퀘어넥 미니 원피스",
+    "storeName": "진주 버튼 스퀘어넥 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260074_01.jpg",
@@ -3913,12 +4417,12 @@
     "folder": "사각쭈글투피스(소라)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글투피스(소라)",
-    "name": "소라 플레어크롭투피스",
-    "storeName": "소라 플레어크롭투피스 홀복 나이스",
+    "name": "플레어 크롭 투피스",
+    "storeName": "플레어 크롭 투피스",
     "category": "TWO PIECE",
     "color": "소라",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -3964,12 +4468,12 @@
     "folder": "사각쭈글투피스(핑크)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글투피스(핑크)",
-    "name": "핑크 플레어크롭투피스",
-    "storeName": "핑크 플레어크롭투피스 홀복 나이스",
+    "name": "플레어 크롭 투피스",
+    "storeName": "플레어 크롭 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4015,12 +4519,12 @@
     "folder": "사각쭈글투피스(화이트)",
     "supplier": "지니",
     "zipFolder": "지니/사각쭈글투피스(화이트)",
-    "name": "화이트 플레어크롭투피스",
-    "storeName": "화이트 플레어크롭투피스 홀복 나이스",
+    "name": "플레어 크롭 투피스",
+    "storeName": "플레어 크롭 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 153000,
+    "price": 153000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4066,16 +4570,17 @@
     "folder": "JN6316(소라)",
     "supplier": "지니",
     "zipFolder": "지니/JN6316(소라)",
-    "name": "소라 입체적이 셔링 디테일, 가슴 라인의 핀컥으로 핏을 살려주는 미디 원피스",
-    "storeName": "소라 입체적이 셔링 디테일, 가슴 라인의 핀컥으로 핏을 살려주는 미디 원피스 미디드레스 나이스",
+    "name": "셔링 핀턱 미디 원피스",
+    "storeName": "셔링 핀턱 미디 원피스",
     "category": "MIDI",
     "color": "소라",
     "size": "S,M,L",
-    "price": 122000,
+    "price": 122000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260078_01.jpg",
@@ -4118,12 +4623,12 @@
     "folder": "JN6373(민트)",
     "supplier": "지니",
     "zipFolder": "지니/JN6373(민트)",
-    "name": "민트 셔링 크롭탑과 플레어 미니스커트의 조화",
-    "storeName": "민트 셔링 크롭탑과 플레어 미니스커트의 조화 홀복 나이스",
+    "name": "셔링 크롭탑과 플레어 투피스",
+    "storeName": "셔링 크롭탑과 플레어 투피스",
     "category": "TWO PIECE",
     "color": "민트",
     "size": "S,M,L",
-    "price": 154000,
+    "price": 154000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4169,14 +4674,17 @@
     "folder": "시스룩긴팔원피스(검정)",
     "supplier": "지니",
     "zipFolder": "지니/시스룩긴팔원피스(검정)",
-    "name": "블랙 시스루 레이스 원피스",
-    "storeName": "블랙 시스루 레이스 원피스 섹시원피스 나이스",
+    "name": "시스루 레이스 원피스",
+    "storeName": "시스루 레이스 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 140000,
+    "price": 140000.0,
     "tags": [
-      "MINI"
+      "LUXURY",
+      "MINI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260080_01.jpg",
@@ -4219,14 +4727,17 @@
     "folder": "시스룩긴팔원피스(화이트)",
     "supplier": "지니",
     "zipFolder": "지니/시스룩긴팔원피스(화이트)",
-    "name": "화이트 시스루 레이스 원피스",
-    "storeName": "화이트 시스루 레이스 원피스 섹시원피스 나이스",
+    "name": "시스루 레이스 원피스",
+    "storeName": "시스루 레이스 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 140000,
+    "price": 140000.0,
     "tags": [
-      "MINI"
+      "LUXURY",
+      "MINI",
+      "PARTY",
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260081_01.jpg",
@@ -4269,16 +4780,17 @@
     "folder": "실루엣 롱 원피스(검정)",
     "supplier": "지니",
     "zipFolder": "지니/실루엣 롱 원피스(검정)",
-    "name": "블랙 코르셋 롱 슬립 원피스",
-    "storeName": "블랙 코르셋 롱 슬립 원피스 롱드레스 나이스",
+    "name": "코르셋 롱 슬립 원피스",
+    "storeName": "코르셋 롱 슬립 원피스",
     "category": "LONG",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 129000,
+    "price": 129000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260082_01.jpg",
@@ -4321,16 +4833,17 @@
     "folder": "실루엣 롱 원피스(아이)",
     "supplier": "지니",
     "zipFolder": "지니/실루엣 롱 원피스(아이)",
-    "name": "아이보리 코르셋 롱 슬립 원피스",
-    "storeName": "아이보리 코르셋 롱 슬립 원피스 롱드레스 나이스",
+    "name": "코르셋 롱 슬립 원피스",
+    "storeName": "코르셋 롱 슬립 원피스",
     "category": "LONG",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 129000,
+    "price": 129000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260083_01.jpg",
@@ -4373,16 +4886,17 @@
     "folder": "실루엣 롱 원피스(핑크)",
     "supplier": "지니",
     "zipFolder": "지니/실루엣 롱 원피스(핑크)",
-    "name": "핑크 코르셋 롱 슬립 원피스",
-    "storeName": "핑크 코르셋 롱 슬립 원피스 롱드레스 나이스",
+    "name": "코르셋 롱 슬립 원피스",
+    "storeName": "코르셋 롱 슬립 원피스",
     "category": "LONG",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 129000,
+    "price": 129000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260084_01.jpg",
@@ -4425,16 +4939,18 @@
     "folder": "장미나시원피스 아이",
     "supplier": "지니",
     "zipFolder": "지니/장미나시원피스 아이",
-    "name": "아이보리 입체 플라워 V넥 미디 원피스",
-    "storeName": "아이보리 입체 플라워 V넥 미디 원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "입체 플라워 V넥 미디 원피스",
+    "storeName": "입체 플라워 V넥 미디 원피스",
+    "category": "TOP",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260085_01.jpg",
@@ -4477,16 +4993,18 @@
     "folder": "장미나시원피스 핑크",
     "supplier": "지니",
     "zipFolder": "지니/장미나시원피스 핑크",
-    "name": "핑크 입체 플라워 V넥 미디 원피스",
-    "storeName": "핑크 입체 플라워 V넥 미디 원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "입체 플라워 V넥 미디 원피스",
+    "storeName": "입체 플라워 V넥 미디 원피스",
+    "category": "TOP",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260086_01.jpg",
@@ -4529,15 +5047,15 @@
     "folder": "장미문향프릴원피스(검정)",
     "supplier": "지니",
     "zipFolder": "지니/장미문향프릴원피스(검정)",
-    "name": "블랙 프릴 숄더 스팽글 미니 원피스",
-    "storeName": "블랙 프릴 숄더 스팽글 미니 원피스 섹시원피스 나이스",
+    "name": "프릴 숄더 스팽글 미니 원피스",
+    "storeName": "프릴 숄더 스팽글 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260087_01.jpg",
@@ -4580,15 +5098,15 @@
     "folder": "장미문향프릴원피스(핑크)",
     "supplier": "지니",
     "zipFolder": "지니/장미문향프릴원피스(핑크)",
-    "name": "핑크 프릴 숄더 스팽글 미니 원피스",
-    "storeName": "핑크 프릴 숄더 스팽글 미니 원피스 섹시원피스 나이스",
+    "name": "프릴 숄더 스팽글 미니 원피스",
+    "storeName": "프릴 숄더 스팽글 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260088_01.jpg",
@@ -4631,12 +5149,12 @@
     "folder": "핑크꽃무늬투피스",
     "supplier": "지니",
     "zipFolder": "지니/핑크꽃무늬투피스",
-    "name": "핑크/아이보리 입체 플라워 시스루 크롭 블라우스",
-    "storeName": "핑크/아이보리 입체 플라워 시스루 크롭 블라우스 홀복 나이스",
+    "name": "플라워 시스루 크롭 투피스",
+    "storeName": "플라워 시스루 크롭 투피스",
     "category": "TWO PIECE",
     "color": "핑크/아이보리",
     "size": "S,M,L",
-    "price": 191000,
+    "price": 191000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4682,16 +5200,17 @@
     "folder": "핑크미디원피스",
     "supplier": "지니",
     "zipFolder": "지니/핑크미디원피스",
-    "name": "핑크 입체적인 셔링 디테일과 핀턱이 몸매를 잡아주는 미디 원피스",
-    "storeName": "핑크 입체적인 셔링 디테일과 핀턱이 몸매를 잡아주는 미디 원피스 미디드레스 나이스",
+    "name": "셔링 핀턱 미디 원피스",
+    "storeName": "셔링 핀턱 미디 원피스",
     "category": "MIDI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 122000,
+    "price": 122000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260090_01.jpg",
@@ -4734,12 +5253,12 @@
     "folder": "하늘꽃무늬투피스",
     "supplier": "지니",
     "zipFolder": "지니/하늘꽃무늬투피스",
-    "name": "아이보리 입체 플라워 시스루 크롭 블라우스",
-    "storeName": "아이보리 입체 플라워 시스루 크롭 블라우스 홀복 나이스",
+    "name": "플라워 시스루 크롭 투피스",
+    "storeName": "플라워 시스루 크롭 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 191000,
+    "price": 191000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4785,16 +5304,17 @@
     "folder": "화이트미디원피스",
     "supplier": "지니",
     "zipFolder": "지니/화이트미디원피스",
-    "name": "화이트 입체적인 셔링 디테일과 핀턱이 몸매를 잡아주는 미디 원피스",
-    "storeName": "화이트 입체적인 셔링 디테일과 핀턱이 몸매를 잡아주는 미디 원피스 섹시원피스 나이스",
+    "name": "셔링 핀턱 미디 원피스",
+    "storeName": "셔링 핀턱 미디 원피스",
     "category": "MIDI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 122000,
+    "price": 122000.0,
     "tags": [
       "LUXURY",
+      "MIDI",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260092_01.jpg",
@@ -4837,12 +5357,12 @@
     "folder": "횐색투피스",
     "supplier": "지니",
     "zipFolder": "지니/횐색투피스",
-    "name": "화이트 셔링 크롭탑과 플레어 미니스커트의 조화",
-    "storeName": "화이트 셔링 크롭탑과 플레어 미니스커트의 조화 홀복 나이스",
+    "name": "셔링 크롭 플레어 투피스",
+    "storeName": "셔링 크롭 플레어 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 154000,
+    "price": 154000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -4888,12 +5408,12 @@
     "folder": "S429",
     "supplier": "티아라",
     "zipFolder": "티아라/S429",
-    "name": "화이트/핑크/베이지 터틀넥 민소매 탑 3color",
-    "storeName": "화이트/핑크/베이지 터틀넥 민소매 탑 3color 블라우스 나이스",
+    "name": "터틀넥 민소매 탑",
+    "storeName": "터틀넥 민소매 탑",
     "category": "TOP",
     "color": "화이트/핑크/베이지",
     "size": "S,M,L",
-    "price": 32000,
+    "price": 32000.0,
     "tags": [
       "PARTY",
       "TOP"
@@ -4939,12 +5459,12 @@
     "folder": "S430",
     "supplier": "티아라",
     "zipFolder": "티아라/S430",
-    "name": "화이트/블랙 카라 반소매 가디건 2color",
-    "storeName": "화이트/블랙 카라 반소매 가디건 2color 블라우스 나이스",
+    "name": "카라 반소매 가디건",
+    "storeName": "카라 반소매 가디건",
     "category": "TOP",
     "color": "화이트/블랙",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
       "PARTY",
       "TOP"
@@ -4990,14 +5510,16 @@
     "folder": "S431",
     "supplier": "티아라",
     "zipFolder": "티아라/S431",
-    "name": "핑크/블랙 레이스 코르셋 탑 2color",
-    "storeName": "핑크/블랙 레이스 코르셋 탑 2color 블라우스 나이스",
+    "name": "레이스 코르셋 탑",
+    "storeName": "레이스 코르셋 탑",
     "category": "TOP",
     "color": "핑크/블랙",
     "size": "S,M,L",
-    "price": 65000,
+    "price": 65000.0,
     "tags": [
+      "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5041,15 +5563,16 @@
     "folder": "S432",
     "supplier": "티아라",
     "zipFolder": "티아라/S432",
-    "name": "화이트/핑크/블랙 플라워 쉬폰 나시 탑 3color",
-    "storeName": "화이트/핑크/블랙 플라워 쉬폰 나시 탑 3color 블라우스 나이스",
+    "name": "플라워 쉬폰 나시 탑",
+    "storeName": "플라워 쉬폰 나시 탑",
     "category": "TOP",
     "color": "화이트/핑크/블랙",
     "size": "S,M,L",
-    "price": 64000,
+    "price": 64000.0,
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5093,14 +5616,16 @@
     "folder": "S433",
     "supplier": "티아라",
     "zipFolder": "티아라/S433",
-    "name": "핑크/블랙 레이스 코르셋 뷔스티에 2color",
-    "storeName": "핑크/블랙 레이스 코르셋 뷔스티에 2color 블라우스 나이스",
+    "name": "레이스 코르셋 뷔스티에",
+    "storeName": "레이스 코르셋 뷔스티에",
     "category": "TOP",
     "color": "핑크/블랙",
     "size": "S,M,L",
-    "price": 63000,
+    "price": 63000.0,
     "tags": [
+      "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5144,14 +5669,16 @@
     "folder": "S437",
     "supplier": "티아라",
     "zipFolder": "티아라/S437",
-    "name": "화이트/베이지 자수 장식 리브 탑 3color",
-    "storeName": "화이트/베이지 자수 장식 리브 탑 3color 블라우스 나이스",
+    "name": "자수 장식 리브 탑",
+    "storeName": "자수 장식 리브 탑",
     "category": "TOP",
     "color": "화이트/베이지",
     "size": "S,M,L",
-    "price": 57000,
+    "price": 57000.0,
     "tags": [
+      "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5195,16 +5722,18 @@
     "folder": "S438",
     "supplier": "티아라",
     "zipFolder": "티아라/S438",
-    "name": "화이트/핑크 러플 롱슬리브 가디건 3color",
-    "storeName": "화이트/핑크 러플 롱슬리브 가디건 3color 블라우스 나이스",
-    "category": "LONG",
+    "name": "러플 롱슬리브 가디건",
+    "storeName": "러플 롱슬리브 가디건",
+    "category": "TOP",
     "color": "화이트/핑크",
     "size": "S,M,L",
-    "price": 25000,
+    "price": 25000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260116_01.jpg",
@@ -5247,12 +5776,12 @@
     "folder": "S439",
     "supplier": "티아라",
     "zipFolder": "티아라/S439",
-    "name": "화이트/블루/베이지/블랙 스카프 넥타이 나시 탑 4color",
-    "storeName": "화이트/블루/베이지/블랙 스카프 넥타이 나시 탑 4color 블라우스 나이스",
+    "name": "스카프 넥타이 나시 탑",
+    "storeName": "스카프 넥타이 나시 탑",
     "category": "TOP",
     "color": "화이트/블루/베이지/블랙",
     "size": "S,M,L",
-    "price": 86000,
+    "price": 86000.0,
     "tags": [
       "PARTY",
       "TOP"
@@ -5298,14 +5827,16 @@
     "folder": "S440",
     "supplier": "티아라",
     "zipFolder": "티아라/S440",
-    "name": "화이트/핑크 플라워 비즈 크롭 탑 2color",
-    "storeName": "화이트/핑크 플라워 비즈 크롭 탑 2color 블라우스 나이스",
+    "name": "플라워 비즈 크롭 탑",
+    "storeName": "플라워 비즈 크롭 탑",
     "category": "TOP",
     "color": "화이트/핑크",
     "size": "S,M,L",
-    "price": 158000,
+    "price": 158000.0,
     "tags": [
+      "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -5349,15 +5880,18 @@
     "folder": "S441",
     "supplier": "티아라",
     "zipFolder": "티아라/S441",
-    "name": "블루/화이트 플라워 비즈 가디건 3color",
-    "storeName": "블루/화이트 플라워 비즈 가디건 3color 블라우스 나이스",
-    "category": "MINI",
+    "name": "플라워 비즈 가디건",
+    "storeName": "플라워 비즈 가디건",
+    "category": "TOP",
     "color": "블루/화이트",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
+      "LUXURY",
+      "MINI",
       "PARTY",
-      "MINI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260119_01.jpg",
@@ -5400,15 +5934,16 @@
     "folder": "S442",
     "supplier": "티아라",
     "zipFolder": "티아라/S442",
-    "name": "화이트/아이보리 브이넥 니트 가디건 2color",
-    "storeName": "화이트/아이보리 브이넥 니트 가디건 2color 블라우스 나이스",
-    "category": "MINI",
+    "name": "브이넥 니트 가디건",
+    "storeName": "브이넥 니트 가디건",
+    "category": "TOP",
     "color": "화이트/아이보리",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
+      "MINI",
       "PARTY",
-      "MINI"
+      "TOP"
     ],
     "images": [
       "assets/N260120_01.jpg",
@@ -5451,15 +5986,16 @@
     "folder": "S443 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S443 투피스",
-    "name": "화이트 주얼버튼 크롭 투피스",
-    "storeName": "화이트 주얼버튼 크롭 투피스 홀복 나이스",
+    "name": "주얼버튼 크롭 투피스",
+    "storeName": "주얼버튼 크롭 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 294000,
+    "price": 294000.0,
     "tags": [
       "LUXURY",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -5503,12 +6039,12 @@
     "folder": "S444 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S444 투피스",
-    "name": "핑크 S444 투피스",
-    "storeName": "핑크 S444 투피스 홀복 나이스",
+    "name": "슬림 크롭 셋업 투피스",
+    "storeName": "슬림 크롭 셋업 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5554,12 +6090,12 @@
     "folder": "S445 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S445 투피스",
-    "name": "민트 S445 투피스",
-    "storeName": "민트 S445 투피스 홀복 나이스",
+    "name": "슬림 크롭 셋업 투피스",
+    "storeName": "슬림 크롭 셋업 투피스",
     "category": "TWO PIECE",
     "color": "민트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5605,12 +6141,12 @@
     "folder": "S446 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S446 투피스",
-    "name": "화이트 S446 투피스",
-    "storeName": "화이트 S446 투피스 홀복 나이스",
+    "name": "슬림 크롭 셋업 투피스",
+    "storeName": "슬림 크롭 셋업 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5656,12 +6192,12 @@
     "folder": "S447 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S447 투피스",
-    "name": "아이보리/블랙 S447 투피스",
-    "storeName": "아이보리/블랙 S447 투피스 홀복 나이스",
+    "name": "배색 슬림 셋업 투피스",
+    "storeName": "배색 슬림 셋업 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 90000,
+    "price": 90000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5707,12 +6243,12 @@
     "folder": "S448 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S448 투피스",
-    "name": "화이트 상:프리사이즈",
-    "storeName": "화이트 상:프리사이즈 홀복 나이스",
+    "name": "소프트 라인 투피스",
+    "storeName": "소프트 라인 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 125000,
+    "price": 125000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5758,12 +6294,12 @@
     "folder": "S449 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S449 투피스",
-    "name": "핑크 상:프리사이즈",
-    "storeName": "핑크 상:프리사이즈 홀복 나이스",
+    "name": "소프트 라인 투피스",
+    "storeName": "소프트 라인 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 125000,
+    "price": 125000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5809,12 +6345,12 @@
     "folder": "S450 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S450 투피스",
-    "name": "블랙 상:프리사이즈",
-    "storeName": "블랙 상:프리사이즈 홀복 나이스",
+    "name": "소프트 라인 투피스",
+    "storeName": "소프트 라인 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 125000,
+    "price": 125000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5860,12 +6396,12 @@
     "folder": "S451 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S451 투피스",
-    "name": "아이보리 S451 투피스",
-    "storeName": "아이보리 S451 투피스 홀복 나이스",
+    "name": "모던 라인 투피스",
+    "storeName": "모던 라인 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5911,12 +6447,12 @@
     "folder": "S452 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S452 투피스",
-    "name": "핑크 S452 투피스",
-    "storeName": "핑크 S452 투피스 홀복 나이스",
+    "name": "모던 라인 투피스",
+    "storeName": "모던 라인 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -5962,12 +6498,12 @@
     "folder": "S453 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S453 투피스",
-    "name": "블랙 S453 투피스",
-    "storeName": "블랙 S453 투피스 홀복 나이스",
+    "name": "모던 라인 투피스",
+    "storeName": "모던 라인 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6013,12 +6549,12 @@
     "folder": "S454 3PS",
     "supplier": "티아라",
     "zipFolder": "티아라/S454 3PS",
-    "name": "핑크/아이보리/베이지/소라 S454 3PS",
-    "storeName": "핑크/아이보리/베이지/소라 S454 3PS 홀복 나이스",
+    "name": "쓰리피스 셋업 투피스",
+    "storeName": "쓰리피스 셋업 투피스",
     "category": "TWO PIECE",
     "color": "핑크/아이보리/베이지/소라",
     "size": "S,M,L",
-    "price": 225000,
+    "price": 225000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6064,12 +6600,12 @@
     "folder": "S455 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S455 투피스",
-    "name": "블랙 S455 투피스",
-    "storeName": "블랙 S455 투피스 홀복 나이스",
+    "name": "배색 라인 투피스",
+    "storeName": "배색 라인 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 108000,
+    "price": 108000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6115,12 +6651,12 @@
     "folder": "S456 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S456 투피스",
-    "name": "핑크 상:프리사이즈",
-    "storeName": "핑크 상:프리사이즈 홀복 나이스",
+    "name": "클래식 셋업 투피스",
+    "storeName": "클래식 셋업 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 108000,
+    "price": 108000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6166,8 +6702,8 @@
     "folder": "S457 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S457 투피스",
-    "name": "화이트 S457 투피스",
-    "storeName": "화이트 S457 투피스 홀복 나이스",
+    "name": "클래식 셋업 투피스",
+    "storeName": "클래식 셋업 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
@@ -6217,8 +6753,8 @@
     "folder": "S458 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S458 투피스",
-    "name": "핑크 S458 투피스",
-    "storeName": "핑크 S458 투피스 홀복 나이스",
+    "name": "클래식 셋업 투피스",
+    "storeName": "클래식 셋업 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
@@ -6268,8 +6804,8 @@
     "folder": "S459 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S459 투피스",
-    "name": "블랙 S459 투피스",
-    "storeName": "블랙 S459 투피스 홀복 나이스",
+    "name": "클래식 셋업 투피스",
+    "storeName": "클래식 셋업 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
@@ -6319,12 +6855,12 @@
     "folder": "S460 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S460 투피스",
-    "name": "베이지/아이보리/블랙/핑크 BL:54,000/SK:61,000 상의길이조절가능",
-    "storeName": "베이지/아이보리/블랙/핑크 BL:54,000/SK:61,000 상의길이조절가능 홀복 나이스",
+    "name": "길이조절 크롭 투피스",
+    "storeName": "길이조절 크롭 투피스",
     "category": "TWO PIECE",
     "color": "베이지/아이보리/블랙/핑크",
     "size": "S,M,L",
-    "price": 105000,
+    "price": 105000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6370,12 +6906,12 @@
     "folder": "S461 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S461 투피스",
-    "name": "핑크/아이보리 BL:72,000/SK:61,000",
-    "storeName": "핑크/아이보리 BL:72,000/SK:61,000 홀복 나이스",
+    "name": "소프트 포인트 투피스",
+    "storeName": "소프트 포인트 투피스",
     "category": "TWO PIECE",
     "color": "핑크/아이보리",
     "size": "S,M,L",
-    "price": 133000,
+    "price": 133000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6421,12 +6957,12 @@
     "folder": "S462번 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S462번 투피스",
-    "name": "소라/아이보리/베이지/핑크/민트 상:프리사이즈(36,000)하:63,000",
-    "storeName": "소라/아이보리/베이지/핑크/민트 상:프리사이즈(36,000)하:63,000 홀복 나이스",
+    "name": "소프트 포인트 투피스",
+    "storeName": "소프트 포인트 투피스",
     "category": "TWO PIECE",
     "color": "소라/아이보리/베이지/핑크/민트",
     "size": "S,M,L",
-    "price": 99000,
+    "price": 99000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6472,12 +7008,12 @@
     "folder": "S463 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S463 투피스",
-    "name": "소라/아이보리/베이지/핑크/민트 상:36,000(프리사이즈) 하:63,000",
-    "storeName": "소라/아이보리/베이지/핑크/민트 상:36,000(프리사이즈) 하:63,000 홀복 나이스",
+    "name": "소프트 포인트 투피스",
+    "storeName": "소프트 포인트 투피스",
     "category": "TWO PIECE",
     "color": "소라/아이보리/베이지/핑크/민트",
     "size": "S,M,L",
-    "price": 99000,
+    "price": 99000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6523,12 +7059,12 @@
     "folder": "S464 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S464 투피스",
-    "name": "아이보리 상:57,000 하:54,000",
-    "storeName": "아이보리 상:57,000 하:54,000 홀복 나이스",
+    "name": "미니멀 포인트 투피스",
+    "storeName": "미니멀 포인트 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 112000,
+    "price": 112000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6574,12 +7110,12 @@
     "folder": "S465 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S465 투피스",
-    "name": "블랙 상:57,000 하:54,000",
-    "storeName": "블랙 상:57,000 하:54,000 홀복 나이스",
+    "name": "미니멀 포인트 투피스",
+    "storeName": "미니멀 포인트 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 112000,
+    "price": 112000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6625,12 +7161,12 @@
     "folder": "S479 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S479 투피스",
-    "name": "아이보리 S479 투피스",
-    "storeName": "아이보리 S479 투피스 홀복 나이스",
+    "name": "미니멀 셋업 투피스",
+    "storeName": "미니멀 셋업 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6676,12 +7212,12 @@
     "folder": "S480 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S480 투피스",
-    "name": "핑크 S480 투피스",
-    "storeName": "핑크 S480 투피스 홀복 나이스",
+    "name": "미니멀 셋업 투피스",
+    "storeName": "미니멀 셋업 투피스",
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6727,12 +7263,12 @@
     "folder": "S481 투피스",
     "supplier": "티아라",
     "zipFolder": "티아라/S481 투피스",
-    "name": "그레이 S481 투피스",
-    "storeName": "그레이 S481 투피스 홀복 나이스",
+    "name": "미니멀 셋업 투피스",
+    "storeName": "미니멀 셋업 투피스",
     "category": "TWO PIECE",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -6778,15 +7314,15 @@
     "folder": "S482",
     "supplier": "티아라",
     "zipFolder": "티아라/S482",
-    "name": "오렌지 S482",
-    "storeName": "오렌지 S482 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "오렌지",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260147_01.jpg",
@@ -6829,15 +7365,15 @@
     "folder": "S483",
     "supplier": "티아라",
     "zipFolder": "티아라/S483",
-    "name": "와인 S483",
-    "storeName": "와인 S483 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "와인",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260148_01.jpg",
@@ -6880,15 +7416,15 @@
     "folder": "S484",
     "supplier": "티아라",
     "zipFolder": "티아라/S484",
-    "name": "블랙 S484",
-    "storeName": "블랙 S484 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260149_01.jpg",
@@ -6931,15 +7467,15 @@
     "folder": "S485",
     "supplier": "티아라",
     "zipFolder": "티아라/S485",
-    "name": "아이보리 어깨끈조절가능",
-    "storeName": "아이보리 어깨끈조절가능 섹시원피스 나이스",
+    "name": "어깨끈 조절 포인트 미니 원피스",
+    "storeName": "어깨끈 조절 포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260150_01.jpg",
@@ -6982,15 +7518,15 @@
     "folder": "S486",
     "supplier": "티아라",
     "zipFolder": "티아라/S486",
-    "name": "핑크 어깨끈조절가능",
-    "storeName": "핑크 어깨끈조절가능 섹시원피스 나이스",
+    "name": "어깨끈 조절 포인트 미니 원피스",
+    "storeName": "어깨끈 조절 포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260151_01.jpg",
@@ -7033,15 +7569,15 @@
     "folder": "S487",
     "supplier": "티아라",
     "zipFolder": "티아라/S487",
-    "name": "그레이 어깨끈조절가능",
-    "storeName": "그레이 어깨끈조절가능 섹시원피스 나이스",
+    "name": "어깨끈 조절 포인트 미니 원피스",
+    "storeName": "어깨끈 조절 포인트 미니 원피스",
     "category": "MINI",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260152_01.jpg",
@@ -7084,15 +7620,15 @@
     "folder": "S488",
     "supplier": "티아라",
     "zipFolder": "티아라/S488",
-    "name": "블랙 어깨끈조절가능",
-    "storeName": "블랙 어깨끈조절가능 섹시원피스 나이스",
+    "name": "어깨끈 조절 포인트 미니 원피스",
+    "storeName": "어깨끈 조절 포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260153_01.jpg",
@@ -7135,15 +7671,15 @@
     "folder": "S489",
     "supplier": "티아라",
     "zipFolder": "티아라/S489",
-    "name": "아이보리 뒷커버 탈부착가능",
-    "storeName": "아이보리 뒷커버 탈부착가능 섹시원피스 나이스",
+    "name": "백커버 탈부착 미니 원피스",
+    "storeName": "백커버 탈부착 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 144000,
+    "price": 144000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260154_01.jpg",
@@ -7186,15 +7722,15 @@
     "folder": "S490",
     "supplier": "티아라",
     "zipFolder": "티아라/S490",
-    "name": "핑크 뒷커버 탈부착가능",
-    "storeName": "핑크 뒷커버 탈부착가능 섹시원피스 나이스",
+    "name": "백커버 탈부착 미니 원피스",
+    "storeName": "백커버 탈부착 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 144000,
+    "price": 144000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260155_01.jpg",
@@ -7237,15 +7773,15 @@
     "folder": "S491",
     "supplier": "티아라",
     "zipFolder": "티아라/S491",
-    "name": "블랙 뒷커버 탈부착가능",
-    "storeName": "블랙 뒷커버 탈부착가능 섹시원피스 나이스",
+    "name": "백커버 탈부착 미니 원피스",
+    "storeName": "백커버 탈부착 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 144000,
+    "price": 144000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260156_01.jpg",
@@ -7288,15 +7824,15 @@
     "folder": "S492",
     "supplier": "티아라",
     "zipFolder": "티아라/S492",
-    "name": "핑크 S492",
-    "storeName": "핑크 S492 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 248000,
+    "price": 248000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260157_01.jpg",
@@ -7339,15 +7875,15 @@
     "folder": "S493",
     "supplier": "티아라",
     "zipFolder": "티아라/S493",
-    "name": "민트 S493",
-    "storeName": "민트 S493 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "민트",
     "size": "S,M,L",
-    "price": 97000,
+    "price": 97000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260158_01.jpg",
@@ -7390,15 +7926,15 @@
     "folder": "S494",
     "supplier": "티아라",
     "zipFolder": "티아라/S494",
-    "name": "핑크 S494",
-    "storeName": "핑크 S494 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 97000,
+    "price": 97000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260159_01.jpg",
@@ -7441,12 +7977,12 @@
     "folder": "S495",
     "supplier": "티아라",
     "zipFolder": "티아라/S495",
-    "name": "아이보리 S495",
-    "storeName": "아이보리 S495 홀복 나이스",
+    "name": "시그니처 투피스",
+    "storeName": "시그니처 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -7492,16 +8028,17 @@
     "folder": "S496",
     "supplier": "티아라",
     "zipFolder": "티아라/S496",
-    "name": "핑크 S496",
-    "storeName": "핑크 S496 롱드레스 나이스",
+    "name": "포인트 롱 드레스",
+    "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260161_01.jpg",
@@ -7544,16 +8081,17 @@
     "folder": "S497",
     "supplier": "티아라",
     "zipFolder": "티아라/S497",
-    "name": "그레이 S497",
-    "storeName": "그레이 S497 롱드레스 나이스",
+    "name": "포인트 롱 드레스",
+    "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "그레이",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
+      "LONG",
       "LUXURY",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260162_01.jpg",
@@ -7596,15 +8134,15 @@
     "folder": "S520",
     "supplier": "티아라",
     "zipFolder": "티아라/S520",
-    "name": "화이트 S520",
-    "storeName": "화이트 S520 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260163_01.jpg",
@@ -7647,12 +8185,12 @@
     "folder": "S521",
     "supplier": "티아라",
     "zipFolder": "티아라/S521",
-    "name": "블랙 S521",
-    "storeName": "블랙 S521 홀복 나이스",
+    "name": "모던 슬림 투피스",
+    "storeName": "모던 슬림 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 284000,
+    "price": 284000.0,
     "tags": [
       "PARTY",
       "TWO PIECE"
@@ -7698,15 +8236,15 @@
     "folder": "S522",
     "supplier": "티아라",
     "zipFolder": "티아라/S522",
-    "name": "아이보리 S522",
-    "storeName": "아이보리 S522 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
     "price": "",
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260165_01.jpg",
@@ -7749,15 +8287,15 @@
     "folder": "S523",
     "supplier": "티아라",
     "zipFolder": "티아라/S523",
-    "name": "핑크 S523",
-    "storeName": "핑크 S523 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
     "price": "",
     "tags": [
-      "PARTY",
-      "MINI"
+      "MINI",
+      "PARTY"
     ],
     "images": [
       "assets/N260166_01.jpg",
@@ -7800,16 +8338,16 @@
     "folder": "S524번",
     "supplier": "티아라",
     "zipFolder": "티아라/S524번",
-    "name": "아이보리 오프숄더 가슴쪽 리본",
-    "storeName": "아이보리 오프숄더 가슴쪽 리본 섹시원피스 나이스",
+    "name": "오프숄더 리본 포인트 미니 원피스",
+    "storeName": "오프숄더 리본 포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260167_01.jpg",
@@ -7853,16 +8391,16 @@
     "folder": "S525",
     "supplier": "티아라",
     "zipFolder": "티아라/S525",
-    "name": "블랙 오프숄더 가슴쪽 리본",
-    "storeName": "블랙 오프숄더 가슴쪽 리본 섹시원피스 나이스",
+    "name": "오프숄더 리본 포인트 미니 원피스",
+    "storeName": "오프숄더 리본 포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 126000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260168_01.jpg",
@@ -7906,16 +8444,16 @@
     "folder": "S526",
     "supplier": "티아라",
     "zipFolder": "티아라/S526",
-    "name": "아이보리 S526",
-    "storeName": "아이보리 S526 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260169_01.jpg",
@@ -7959,16 +8497,16 @@
     "folder": "S527",
     "supplier": "티아라",
     "zipFolder": "티아라/S527",
-    "name": "핑크 S527",
-    "storeName": "핑크 S527 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260170_01.jpg",
@@ -8012,17 +8550,19 @@
     "folder": "S528",
     "supplier": "티아라",
     "zipFolder": "티아라/S528",
-    "name": "아이보리 끈나시 토트무뉘 A라인 미디원피스",
-    "storeName": "아이보리 끈나시 토트무뉘 A라인 미디원피스 미디드레스 나이스",
-    "category": "MIDI",
+    "name": "끈나시 도트무늬 A라인 미디 원피스",
+    "storeName": "끈나시 도트무늬 A라인 미디 원피스",
+    "category": "TOP",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 111000,
+    "price": 111000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "MIDI",
+      "NEW",
       "PARTY",
-      "MIDI"
+      "RECOMMEND",
+      "TOP"
     ],
     "images": [
       "assets/N260171_01.jpg",
@@ -8066,16 +8606,16 @@
     "folder": "S529",
     "supplier": "티아라",
     "zipFolder": "티아라/S529",
-    "name": "아이보리 S529",
-    "storeName": "아이보리 S529 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260172_01.jpg",
@@ -8119,16 +8659,16 @@
     "folder": "S530",
     "supplier": "티아라",
     "zipFolder": "티아라/S530",
-    "name": "핑크 S530",
-    "storeName": "핑크 S530 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260173_01.jpg",
@@ -8172,16 +8712,16 @@
     "folder": "S531",
     "supplier": "티아라",
     "zipFolder": "티아라/S531",
-    "name": "아이보리 S531",
-    "storeName": "아이보리 S531 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260174_01.jpg",
@@ -8225,16 +8765,16 @@
     "folder": "S532",
     "supplier": "티아라",
     "zipFolder": "티아라/S532",
-    "name": "핑크 S532",
-    "storeName": "핑크 S532 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260175_01.jpg",
@@ -8278,16 +8818,16 @@
     "folder": "S533",
     "supplier": "티아라",
     "zipFolder": "티아라/S533",
-    "name": "아이보리 뒤 하트모양이 포인트",
-    "storeName": "아이보리 뒤 하트모양이 포인트 섹시원피스 나이스",
+    "name": "백하트 포인트 미니 원피스",
+    "storeName": "백하트 포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 158000,
+    "price": 158000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260176_01.jpg",
@@ -8331,16 +8871,16 @@
     "folder": "S534",
     "supplier": "티아라",
     "zipFolder": "티아라/S534",
-    "name": "핑크 뒤 하트모양이 포인트",
-    "storeName": "핑크 뒤 하트모양이 포인트 섹시원피스 나이스",
+    "name": "백하트 포인트 미니 원피스",
+    "storeName": "백하트 포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 158000,
+    "price": 158000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260177_01.jpg",
@@ -8384,16 +8924,16 @@
     "folder": "S535",
     "supplier": "티아라",
     "zipFolder": "티아라/S535",
-    "name": "아이보리 S535",
-    "storeName": "아이보리 S535 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260178_01.jpg",
@@ -8437,16 +8977,16 @@
     "folder": "S536",
     "supplier": "티아라",
     "zipFolder": "티아라/S536",
-    "name": "블랙 S536",
-    "storeName": "블랙 S536 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260179_01.jpg",
@@ -8490,17 +9030,18 @@
     "folder": "S537",
     "supplier": "티아라",
     "zipFolder": "티아라/S537",
-    "name": "아이보리 S537",
-    "storeName": "아이보리 S537 롱드레스 나이스",
+    "name": "포인트 롱 드레스",
+    "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "NEW",
+      "LONG",
       "LUXURY",
+      "NEW",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260180_01.jpg",
@@ -8544,17 +9085,18 @@
     "folder": "S538",
     "supplier": "티아라",
     "zipFolder": "티아라/S538",
-    "name": "핑크 S538",
-    "storeName": "핑크 S538 롱드레스 나이스",
+    "name": "포인트 롱 드레스",
+    "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "NEW",
+      "LONG",
       "LUXURY",
+      "NEW",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260181_01.jpg",
@@ -8598,17 +9140,18 @@
     "folder": "S539",
     "supplier": "티아라",
     "zipFolder": "티아라/S539",
-    "name": "소라 S539",
-    "storeName": "소라 S539 롱드레스 나이스",
+    "name": "포인트 롱 드레스",
+    "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "소라",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
-      "NEW",
+      "LONG",
       "LUXURY",
+      "NEW",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260182_01.jpg",
@@ -8652,16 +9195,16 @@
     "folder": "S540",
     "supplier": "티아라",
     "zipFolder": "티아라/S540",
-    "name": "아이보리 S540",
-    "storeName": "아이보리 S540 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 75000,
+    "price": 75000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260183_01.jpg",
@@ -8705,16 +9248,16 @@
     "folder": "S541",
     "supplier": "티아라",
     "zipFolder": "티아라/S541",
-    "name": "블랙 S541",
-    "storeName": "블랙 S541 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 75000,
+    "price": 75000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260184_01.jpg",
@@ -8758,16 +9301,16 @@
     "folder": "S542",
     "supplier": "티아라",
     "zipFolder": "티아라/S542",
-    "name": "아이보리 S542",
-    "storeName": "아이보리 S542 섹시원피스 나이스",
+    "name": "포인트 미니 원피스",
+    "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 104000,
+    "price": 104000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260185_01.jpg",
@@ -8811,17 +9354,18 @@
     "folder": "S543",
     "supplier": "티아라",
     "zipFolder": "티아라/S543",
-    "name": "아이보리 끈조절가능함",
-    "storeName": "아이보리 끈조절가능함 롱드레스 나이스",
+    "name": "끈조절가능함 롱 드레스",
+    "storeName": "끈조절가능함 롱 드레스",
     "category": "LONG",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 68000,
+    "price": 68000.0,
     "tags": [
-      "NEW",
+      "LONG",
       "LUXURY",
+      "NEW",
       "PARTY",
-      "LONG"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260186_01.jpg",
@@ -8865,12 +9409,12 @@
     "folder": "S398 투피스",
     "supplier": "펄",
     "zipFolder": "펄/S398 투피스",
-    "name": "아이보리 S398 투피스",
-    "storeName": "아이보리 S398 투피스 홀복 나이스",
+    "name": "로제 하트버튼 크롭나시 미디투피스",
+    "storeName": "로제 하트버튼 크롭나시 미디투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -8918,12 +9462,12 @@
     "folder": "S399 투피스",
     "supplier": "펄",
     "zipFolder": "펄/S399 투피스",
-    "name": "네이비 S399 투피스",
-    "storeName": "네이비 S399 투피스 홀복 나이스",
+    "name": "로제 하트버튼 크롭나시 미디투피스",
+    "storeName": "로제 하트버튼 크롭나시 미디투피스",
     "category": "TWO PIECE",
     "color": "네이비",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -8971,17 +9515,18 @@
     "folder": "S501",
     "supplier": "펄",
     "zipFolder": "펄/S501",
-    "name": "핑크/민트 S501",
-    "storeName": "핑크/민트 S501 미디드레스 나이스",
+    "name": "포인트 미디 드레스",
+    "storeName": "포인트 미디 드레스",
     "category": "MIDI",
     "color": "핑크/민트",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "MIDI",
+      "NEW",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260189_01.jpg",
@@ -9025,16 +9570,16 @@
     "folder": "S502",
     "supplier": "펄",
     "zipFolder": "펄/S502",
-    "name": "아이보리 도트 A라인 미니원피스",
-    "storeName": "아이보리 도트 A라인 미니원피스 섹시원피스 나이스",
+    "name": "도트 A라인 미니 원피스",
+    "storeName": "도트 A라인 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260190_01.jpg",
@@ -9078,16 +9623,16 @@
     "folder": "S503",
     "supplier": "펄",
     "zipFolder": "펄/S503",
-    "name": "블랙 도트 A라인 미니원피스",
-    "storeName": "블랙 도트 A라인 미니원피스 섹시원피스 나이스",
+    "name": "도트 A라인 미니 원피스",
+    "storeName": "도트 A라인 미니 원피스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260191_01.jpg",
@@ -9131,12 +9676,12 @@
     "folder": "견장단추BL아이블랙",
     "supplier": "펄",
     "zipFolder": "펄/견장단추BL아이블랙",
-    "name": "아이보리/블랙 견장단추BL아이블랙",
-    "storeName": "아이보리/블랙 견장단추BL아이블랙 블라우스 나이스",
+    "name": "견장 버튼 블라우스",
+    "storeName": "견장 버튼 블라우스",
     "category": "TOP",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9184,16 +9729,18 @@
     "folder": "다이아자수SK아이핑크",
     "supplier": "펄",
     "zipFolder": "펄/다이아자수SK아이핑크",
-    "name": "아이보리/핑크 다이아자수SK아이핑크",
-    "storeName": "아이보리/핑크 다이아자수SK아이핑크 섹시원피스 나이스",
+    "name": "다이아 자수 원피스",
+    "storeName": "다이아 자수 원피스",
     "category": "MINI",
     "color": "아이보리/핑크",
     "size": "S,M,L",
-    "price": 90000,
+    "price": 90000.0,
     "tags": [
+      "LUXURY",
+      "MINI",
       "NEW",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260193_01.jpg",
@@ -9237,12 +9784,12 @@
     "folder": "도뜨리본BL 델리SK(S397번 투피스P S396번 투피스I",
     "supplier": "펄",
     "zipFolder": "펄/도뜨리본BL 델리SK(S397번 투피스P S396번 투피스I",
-    "name": "아이보리/핑크 상:81,000 하:81,000",
-    "storeName": "아이보리/핑크 상:81,000 하:81,000 홀복 나이스",
+    "name": "포인트 투피스",
+    "storeName": "포인트 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/핑크",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9290,17 +9837,18 @@
     "folder": "링SK아이블랙",
     "supplier": "펄",
     "zipFolder": "펄/링SK아이블랙",
-    "name": "아이보리/블랙 링SK아이블랙",
-    "storeName": "아이보리/블랙 링SK아이블랙 미디드레스 나이스",
+    "name": "링 포인트 원피스",
+    "storeName": "링 포인트 원피스",
     "category": "MIDI",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "MIDI",
+      "NEW",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260195_01.jpg",
@@ -9344,17 +9892,18 @@
     "folder": "샹드리에SK아이핑크",
     "supplier": "펄",
     "zipFolder": "펄/샹드리에SK아이핑크",
-    "name": "화이트/핑크 샹드리에SK아이핑크",
-    "storeName": "화이트/핑크 샹드리에SK아이핑크 미디드레스 나이스",
+    "name": "샹드리에 원피스",
+    "storeName": "샹드리에 원피스",
     "category": "MIDI",
     "color": "화이트/핑크",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "MIDI",
+      "NEW",
       "PARTY",
-      "MIDI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260196_01.jpg",
@@ -9398,12 +9947,12 @@
     "folder": "셔링나시 아이 중청(S436)",
     "supplier": "펄",
     "zipFolder": "펄/셔링나시 아이 중청(S436)",
-    "name": "화이트/블루 셔링나시 아이 중청(S436)",
-    "storeName": "화이트/블루 셔링나시 아이 중청(S436) 블라우스 나이스",
+    "name": "셔링 나시 탑",
+    "storeName": "셔링 나시 탑",
     "category": "TOP",
     "color": "화이트/블루",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9451,8 +10000,8 @@
     "folder": "아코디언BL아이핑크(S435)",
     "supplier": "펄",
     "zipFolder": "펄/아코디언BL아이핑크(S435)",
-    "name": "아코디언BL아이핑크(S435)",
-    "storeName": "아코디언BL아이핑크(S435) 블라우스 나이스",
+    "name": "아코디언 블라우스",
+    "storeName": "아코디언 블라우스",
     "category": "TOP",
     "color": "",
     "size": "S,M,L",
@@ -9504,12 +10053,12 @@
     "folder": "오투3아이 블랙",
     "supplier": "펄",
     "zipFolder": "펄/오투3아이 블랙",
-    "name": "아이보리/블랙 오투3아이 블랙",
-    "storeName": "아이보리/블랙 오투3아이 블랙 홀복 나이스",
+    "name": "배색 포인트 투피스",
+    "storeName": "배색 포인트 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9557,15 +10106,17 @@
     "folder": "이중레이스훌BL핑크블루",
     "supplier": "펄",
     "zipFolder": "펄/이중레이스훌BL핑크블루",
-    "name": "핑크/블루 이중레이스훌BL핑크블루",
-    "storeName": "핑크/블루 이중레이스훌BL핑크블루 블라우스 나이스",
+    "name": "이중 레이스 훌 블라우스",
+    "storeName": "이중 레이스 훌 블라우스",
     "category": "TOP",
     "color": "핑크/블루",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
+      "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -9610,16 +10161,18 @@
     "folder": "자수미니SK아검",
     "supplier": "펄",
     "zipFolder": "펄/자수미니SK아검",
-    "name": "아이보리/블랙 자수미니SK아검",
-    "storeName": "아이보리/블랙 자수미니SK아검 섹시원피스 나이스",
+    "name": "자수 미니 원피스",
+    "storeName": "자수 미니 원피스",
     "category": "MINI",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
+      "LUXURY",
+      "MINI",
       "NEW",
       "PARTY",
-      "MINI"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260201_01.jpg",
@@ -9663,12 +10216,12 @@
     "folder": "카라야투피스블랙블루",
     "supplier": "펄",
     "zipFolder": "펄/카라야투피스블랙블루",
-    "name": "카라야투피스블랙블루",
-    "storeName": "카라야투피스블랙블루 홀복 나이스",
+    "name": "카라 배색 투피스",
+    "storeName": "카라 배색 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9716,16 +10269,16 @@
     "folder": "캔디원피스민트크림",
     "supplier": "펄",
     "zipFolder": "펄/캔디원피스민트크림",
-    "name": "아이보리/민트 캔디원피스민트크림",
-    "storeName": "아이보리/민트 캔디원피스민트크림 섹시원피스 나이스",
+    "name": "캔디 원피스",
+    "storeName": "캔디 원피스",
     "category": "MINI",
     "color": "아이보리/민트",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "PARTY",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260203_01.jpg",
@@ -9769,12 +10322,12 @@
     "folder": "컷팅투피스아이블랙",
     "supplier": "펄",
     "zipFolder": "펄/컷팅투피스아이블랙",
-    "name": "아이보리/블랙 컷팅투피스아이블랙",
-    "storeName": "아이보리/블랙 컷팅투피스아이블랙 홀복 나이스",
+    "name": "컷아웃 투피스",
+    "storeName": "컷아웃 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9822,12 +10375,12 @@
     "folder": "코메즈 아이 핑크",
     "supplier": "펄",
     "zipFolder": "펄/코메즈 아이 핑크",
-    "name": "아이보리/핑크 코메즈 아이 핑크",
-    "storeName": "아이보리/핑크 코메즈 아이 핑크 블라우스 나이스",
+    "name": "코메즈 블라우스 아이 핑크",
+    "storeName": "코메즈 블라우스 아이 핑크",
     "category": "TOP",
     "color": "아이보리/핑크",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9875,15 +10428,17 @@
     "folder": "탑레이스 민트 아이(S434)",
     "supplier": "펄",
     "zipFolder": "펄/탑레이스 민트 아이(S434)",
-    "name": "아이보리/민트 탑레이스 민트 아이(S434)",
-    "storeName": "아이보리/민트 탑레이스 민트 아이(S434) 블라우스 나이스",
+    "name": "레이스 탑",
+    "storeName": "레이스 탑",
     "category": "TOP",
     "color": "아이보리/민트",
     "size": "S,M,L",
-    "price": 81000,
+    "price": 81000.0,
     "tags": [
+      "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TOP"
     ],
     "images": [
@@ -9928,12 +10483,12 @@
     "folder": "팅커나시아이중청",
     "supplier": "펄",
     "zipFolder": "펄/팅커나시아이중청",
-    "name": "아이보리/블루 팅커나시아이중청",
-    "storeName": "아이보리/블루 팅커나시아이중청 블라우스 나이스",
+    "name": "팅커 나시",
+    "storeName": "팅커 나시",
     "category": "TOP",
     "color": "아이보리/블루",
     "size": "S,M,L",
-    "price": 72000,
+    "price": 72000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -9981,12 +10536,12 @@
     "folder": "폼폼투피스 소라아이(S401 투피스S400 투피스)",
     "supplier": "펄",
     "zipFolder": "펄/폼폼투피스 소라아이(S401 투피스S400 투피스)",
-    "name": "아이보리/민트 폼폼투피스 소라아이(S401 투피스S400 투피스)",
-    "storeName": "아이보리/민트 폼폼투피스 소라아이(S401 투피스S400 투피스) 홀복 나이스",
+    "name": "폼폼 투피스",
+    "storeName": "폼폼 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/민트",
     "size": "S,M,L",
-    "price": 162000,
+    "price": 162000.0,
     "tags": [
       "NEW",
       "PARTY",
@@ -10034,15 +10589,17 @@
     "folder": "S402 투피스",
     "supplier": "희야",
     "zipFolder": "희야/S402 투피스",
-    "name": "화이트/블랙 화이트 레이스스커트 투피스",
-    "storeName": "화이트/블랙 화이트 레이스스커트 투피스 홀복 나이스",
+    "name": "레이스 스커트 투피스",
+    "storeName": "레이스 스커트 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
     "size": "S,M,L",
-    "price": 114000,
+    "price": 114000.0,
     "tags": [
+      "LUXURY",
       "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -10087,16 +10644,17 @@
     "folder": "S403 투피스",
     "supplier": "희야",
     "zipFolder": "희야/S403 투피스",
-    "name": "화이트 주얼 트위드 투피스",
-    "storeName": "화이트 주얼 트위드 투피스 홀복 나이스",
+    "name": "주얼 트위드 투피스",
+    "storeName": "주얼 트위드 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
     "size": "S,M,L",
-    "price": 99000,
+    "price": 99000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -10141,16 +10699,17 @@
     "folder": "S404번 투피스",
     "supplier": "희야",
     "zipFolder": "희야/S404번 투피스",
-    "name": "라벤더 주얼 트위드 투피스",
-    "storeName": "라벤더 주얼 트위드 투피스 홀복 나이스",
+    "name": "주얼 트위드 투피스",
+    "storeName": "주얼 트위드 투피스",
     "category": "TWO PIECE",
     "color": "라벤더",
     "size": "S,M,L",
-    "price": 99000,
+    "price": 99000.0,
     "tags": [
-      "NEW",
       "LUXURY",
+      "NEW",
       "PARTY",
+      "RECOMMEND",
       "TWO PIECE"
     ],
     "images": [
@@ -10195,13 +10754,14 @@
     "folder": "S407투피스",
     "supplier": "희야",
     "zipFolder": "희야/S407투피스",
-    "name": "화이트/블랙 스트라이프 스쿨룩 투피스",
-    "storeName": "화이트/블랙 스트라이프 스쿨룩 투피스 홀복 나이스",
+    "name": "스트라이프 프레피 투피스",
+    "storeName": "스트라이프 프레피 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
+      "COSTUME",
       "NEW",
       "PARTY",
       "TWO PIECE"
@@ -10248,13 +10808,14 @@
     "folder": "S408 투피스",
     "supplier": "희야",
     "zipFolder": "희야/S408 투피스",
-    "name": "블루/그레이 블루 스트라이프 스쿨룩 투피스",
-    "storeName": "블루/그레이 블루 스트라이프 스쿨룩 투피스 홀복 나이스",
+    "name": "스트라이프 프레피 투피스",
+    "storeName": "스트라이프 프레피 투피스",
     "category": "TWO PIECE",
     "color": "블루/그레이",
     "size": "S,M,L",
-    "price": 84000,
+    "price": 84000.0,
     "tags": [
+      "COSTUME",
       "NEW",
       "PARTY",
       "TWO PIECE"
@@ -10301,15 +10862,16 @@
     "folder": "S498",
     "supplier": "희야",
     "zipFolder": "희야/S498",
-    "name": "핑크 빅리본 버튼 미니드레스",
-    "storeName": "핑크 빅리본 버튼 미니드레스 섹시원피스 나이스",
+    "name": "빅리본 버튼 미니 드레스",
+    "storeName": "빅리본 버튼 미니 드레스",
     "category": "MINI",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260214_01.jpg",
@@ -10353,15 +10915,16 @@
     "folder": "S499",
     "supplier": "희야",
     "zipFolder": "희야/S499",
-    "name": "민트 빅리본 버튼 미니드레스",
-    "storeName": "민트 빅리본 버튼 미니드레스 섹시원피스 나이스",
+    "name": "빅리본 버튼 미니 드레스",
+    "storeName": "빅리본 버튼 미니 드레스",
     "category": "MINI",
     "color": "민트",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260215_01.jpg",
@@ -10405,15 +10968,16 @@
     "folder": "S500",
     "supplier": "희야",
     "zipFolder": "희야/S500",
-    "name": "블랙 빅리본 버튼 미니드레스",
-    "storeName": "블랙 빅리본 버튼 미니드레스 섹시원피스 나이스",
+    "name": "빅리본 버튼 미니 드레스",
+    "storeName": "빅리본 버튼 미니 드레스",
     "category": "MINI",
     "color": "블랙",
     "size": "S,M,L",
-    "price": 135000,
+    "price": 135000.0,
     "tags": [
+      "MINI",
       "NEW",
-      "MINI"
+      "PARTY"
     ],
     "images": [
       "assets/N260216_01.jpg",

@@ -1,15 +1,960 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>NICE 매칭 검수</title>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6J4LF4DF3X"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-6J4LF4DF3X');</script>
-<style>*{box-sizing:border-box}body{margin:0;background:#f7f1eb;color:#17120f;font-family:system-ui,-apple-system,'Noto Sans KR',sans-serif}.hero{background:#181411;color:white;text-align:center;padding:30px 16px}.hero h1{font-size:42px;letter-spacing:.12em;margin:0}.hero p{color:#d8c8b8}.bar{position:sticky;top:0;background:rgba(247,241,235,.96);z-index:10;border-bottom:1px solid #eadfd4;padding:10px}.search{max-width:1120px;margin:0 auto 8px}.search input{width:100%;padding:12px 16px;border:1px solid #eadfd4;border-radius:999px}.chips{max-width:1120px;margin:auto;display:flex;gap:7px;overflow:auto}.chip{border:1px solid #eadfd4;background:#fff;border-radius:999px;padding:9px 12px;white-space:nowrap;cursor:pointer}.chip.on{background:#181411;color:#fff}.wrap{max-width:1200px;margin:auto;padding:18px 12px 60px}.head{display:flex;justify-content:space-between;align-items:end;margin:10px 2px 14px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}@media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr)}}@media(min-width:1100px){.grid{grid-template-columns:repeat(4,1fr)}}.card{background:#fffaf7;border:1px solid #eadfd4;border-radius:16px;overflow:hidden;cursor:pointer;box-shadow:0 8px 20px #0000000d}.photo{aspect-ratio:3/4;background:#eee2d8;position:relative}.photo img{width:100%;height:100%;object-fit:cover;display:block}.badge,.code{position:absolute;background:#000b;color:white;border-radius:999px;padding:4px 8px;font-size:11px}.badge{top:8px;left:8px}.code{right:8px;bottom:8px;background:#ffffffe6;color:#111;font-weight:800}.info{padding:12px}.name{font-weight:800;line-height:1.35;min-height:40px}.meta{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.meta span{font-size:11px;background:#f0e7df;border-radius:999px;padding:4px 7px;color:#665b53}.price{font-weight:900;margin-top:8px}.detail{display:none;position:fixed;inset:0;background:#0009;z-index:100;overflow:auto}.detail.open{display:block}.panel{background:#fffaf7;max-width:1040px;margin:0 auto;min-height:100vh}.top{position:sticky;top:0;background:#fffaf7ee;border-bottom:1px solid #eadfd4;padding:10px;display:flex;gap:10px;align-items:center}.close{width:38px;height:38px;border-radius:50%;border:1px solid #eadfd4;background:#fff}.body{display:grid}@media(min-width:800px){.body{grid-template-columns:1.05fr .95fr}}.main{aspect-ratio:3/4;background:#eadfd4}.main img{width:100%;height:100%;object-fit:cover}.thumbs{display:flex;gap:8px;background:#eadfd4;padding:10px;overflow:auto}.thumb{width:70px;height:92px;border:2px solid transparent;border-radius:10px;overflow:hidden;flex:0 0 auto;position:relative;background:#fff}.thumb.on{border-color:#181411}.thumb img{width:100%;height:100%;object-fit:cover}.thumb small{display:none}.dinfo{padding:22px}.dinfo h2{font-size:30px;margin:8px 0}.box{background:#fff;border-left:3px solid #b99162;padding:13px;border-radius:12px;line-height:1.65;margin:12px 0}.spec{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.spec div{background:#f2e9e1;border-radius:12px;padding:10px;font-size:13px}.spec b{display:block;font-size:11px;color:#817367}.cta{display:grid;gap:8px;margin-top:15px}.cta a{text-align:center;text-decoration:none;border-radius:12px;padding:12px;font-weight:800}.kakao{background:#fee500;color:#111}.insta{background:#181411;color:white}.src{font-size:11px;color:#83766c;word-break:break-all;margin-top:10px}
-.cta2 a{min-height:52px;font-size:16px}
-.logo-icon{width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px}
-.logo-icon svg{width:28px;height:28px;display:block}
-.kakao .logo-icon{background:#3c1e1e;color:#fee500;border-radius:50%;font-weight:900;font-size:10px;letter-spacing:-.04em}
-.insta .logo-icon{border-radius:8px;background:radial-gradient(circle at 30% 110%,#fdf497 0%,#fdf497 20%,#fd5949 45%,#d6249f 65%,#285AEB 100%);padding:5px}
-.insta .logo-icon svg{stroke:#fff}
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NICE COLLECTION</title>
+  <meta name="description" content="NICE COLLECTION luxury evening showroom" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J4LF4DF3X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-6J4LF4DF3X');
+  </script>
+  <style>
+    :root{
+      --bg:#f4eee8;
+      --paper:#fbf7f3;
+      --card:#fffaf6;
+      --line:#e6d8cb;
+      --line-2:#d6c4b4;
+      --text:#241b16;
+      --sub:#7d6859;
+      --accent:#17110e;
+      --gold:#c6a27a;
+      --gold-2:#edd9c1;
+      --shadow:0 14px 36px rgba(25,16,11,.08);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR','Apple SD Gothic Neo',sans-serif}
+    a{text-decoration:none;color:inherit}
+    button,input{font:inherit}
+    img{display:block;max-width:100%}
 
-</style></head><body>
-<header class="hero"><h1>NICE</h1><p>Cloudinary 폴더 기준 온라인 매칭 검수용</p></header><nav class="bar"><div class="search"><input id="q" placeholder="검색: 상품코드, 상품명, 원본폴더, 색상, 거래처"></div><div class="chips" id="chips"></div></nav><main class="wrap"><div class="head"><h2>Match Preview</h2><div id="count"></div></div><div class="grid" id="grid"></div></main><div class="detail" id="detail"><div class="panel" id="panel"></div></div>
-<script>
-let P=[],F='ALL',imgs=[];const filters=[['ALL','전체'],['BEST','🔥 BEST'],['NEW','✨ NEW'],['RECOMMEND','추천'],['LUXURY','LUXURY'],['COSTUME','COSTUME'],['TWO PIECE','투피스'],['MINI','미니'],['MIDI','미디'],['LONG','롱'],['TOP','상의'],['SKIRT','스커트'],['NOIMG','이미지없음']];const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';function tr(n,p){try{gtag('event',n,p||{})}catch(e){}}async function init(){P=await(await fetch('./products.json?v=match5')).json();chips.innerHTML=filters.map(x=>`<button type="button" class="chip ${x[0]=='ALL'?'on':''}" data-f="${x[0]}">${x[1]}</button>`).join('');chips.onclick=e=>{let b=e.target.closest('button');if(!b)return;F=b.dataset.f;document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x==b));tr('category_click',{category:F});render()};q.oninput=()=>{if(q.value.trim().length>=2)tr('product_search',{search_term:q.value.trim()});render()};render()}function ok(p){let s=[p.code,p.name,p.storeName,p.origin,p.folder,p.supplier,p.color,p.category,(p.tags||[]).join(' ')].join(' ').toLowerCase(),v=q.value.trim().toLowerCase();return(!v||s.includes(v))&&(F=='ALL'||(F=='NOIMG'&&!(p.images||[]).length)||(F=='BEST'&&(p.best||(p.tags||[]).includes('BEST')))||(F=='NEW'&&(p.new||(p.tags||[]).includes('NEW')))||(p.tags||[]).includes(F)||p.category==F)}function render(){let L=P.filter(ok);count.innerHTML=L.length+' items / '+F;grid.innerHTML=L.map(p=>`<article class=card data-code="${p.code}"><div class=photo>${p.images?.[0]?`<img loading=lazy src="${p.images[0]}?v=match5">`:'NO IMAGE'}<span class=badge>${p.category}</span><span class=code>${p.code}</span></div><div class=info><div class=name>${p.name}</div><div class=meta><span>${p.supplier}</span><span>${p.origin||p.folder}</span><span>${p.color||''}</span></div><div class=price>${money(p.price)}</div></div></article>`).join('');document.querySelectorAll('.card').forEach(c=>c.onclick=()=>openD(c.dataset.code))}function setI(i){let im=imgs[i];main.src=im.url;document.querySelectorAll('.thumb').forEach((t,j)=>t.classList.toggle('on',i==j));src.textContent=im.cut+' · '+im.source}function openD(code){let p=P.find(x=>x.code==code);imgs=p.cuts?.length?p.cuts:(p.images||[]).map((u,i)=>({url:u,cut:'컷'+(i+1),source:u}));tr('product_view',{product_code:p.code,product_name:p.name,category:p.category,price:p.price});panel.innerHTML=`<div class=top><button type="button" class=close>✕</button><b>${p.code}</b><span>${p.supplier} / ${p.folder}</span></div><div class=body><div><div class=main>${imgs[0]?`<img id=main src="${imgs[0].url}?v=match5">`:'NO IMAGE'}</div><div class=thumbs>${imgs.map((im,i)=>`<button type="button" class="thumb ${i==0?'on':''}" data-i=${i}><img src="${im.url}?v=match5"></button>`).join('')}</div></div><div class=dinfo><div>${p.category} · ${p.color||''}</div><h2>${p.name}</h2><h3>${money(p.price)}</h3><div class=box><b>검수 포인트</b><br>1. 같은 옷 사진끼리 묶였는지<br>2. 대표사진이 전면/전신인지<br>3. 제품컷/색상컷은 뒤쪽이면 정상</div><div class=spec><div><b>원본코드</b>${p.origin||'-'}</div><div><b>폴더</b>${p.zipFolder||'-'}</div><div><b>SIZE</b>${p.size||'-'}</div><div><b>이미지수</b>${(p.images||[]).length}</div></div><div class=box>${p.desc||''}</div><div class=cta><a class=kakao href="http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-" target=_blank><span class="logo-icon kakao-logo">TALK</span><span>카카오톡 문의</span></a><a class=insta href="https://www.instagram.com/dongdaemun_helloapm_nice?igsh=am16YjFmdHdtajN6" target=_blank><span class="logo-icon insta-logo"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="white" stroke="none"></circle></svg></span><span>인스타 DM</span></a></div><div class=src id=src>${imgs[0]?(imgs[0].cut+' · '+imgs[0].source):''}</div></div></div>`;detail.classList.add('open');history.pushState({d:code},'','#'+code);panel.querySelector('.close').onclick=()=>closeD();panel.querySelectorAll('.thumb').forEach(t=>t.onclick=()=>setI(Number(t.dataset.i)))}function closeD(pop){detail.classList.remove('open');if(!pop&&location.hash)history.pushState('',document.title,location.pathname+location.search)}onpopstate=()=>{if(detail.classList.contains('open'))closeD(true)};detail.onclick=e=>{if(e.target.id=='detail')closeD()};init();
-</script></body></html>
+    .hero{
+      background:radial-gradient(circle at top,#3d2a20 0%, #1a120e 38%, #0f0a08 100%);
+      color:#fff;
+      text-align:center;
+      padding:54px 20px 42px;
+      border-bottom:1px solid #2b2019;
+    }
+    .hero h1{
+      margin:0;
+      font-family:Georgia,'Times New Roman',serif;
+      font-size:64px;
+      font-weight:700;
+      letter-spacing:.16em;
+      line-height:1;
+    }
+    .hero p{
+      margin:16px 0 0;
+      color:#e7d6c6;
+      font-size:18px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+    }
+
+    .wrap{max-width:1280px;margin:0 auto;padding:20px 14px 80px}
+    .searchbar{
+      width:100%;border:1px solid var(--line-2);background:#fff;border-radius:999px;padding:18px 22px;
+      font-size:18px;outline:none;color:var(--text);box-shadow:0 6px 20px rgba(0,0,0,.03)
+    }
+    .searchbar::placeholder{color:#9a8777}
+    .chips{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 26px}
+    .chip{
+      border:1px solid var(--line-2);background:rgba(255,255,255,.8);color:#4a3d34;padding:12px 18px;border-radius:999px;
+      cursor:pointer;transition:.18s ease;white-space:nowrap
+    }
+    .chip:hover{transform:translateY(-1px);border-color:#bda28b}
+    .chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:10px 2px 20px}
+    .section-head h2{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:46px;font-weight:600;letter-spacing:.04em}
+    .section-head .count{color:var(--sub);font-size:17px}
+
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    @media(min-width:820px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}}
+    @media(min-width:1180px){.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}}
+
+    .card{
+      background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;cursor:pointer;box-shadow:var(--shadow);
+      transition:transform .18s ease, box-shadow .18s ease;
+    }
+    .card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(25,16,11,.12)}
+    .photo{position:relative;aspect-ratio:3/4;background:#eadfd5}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    .badges{position:absolute;left:12px;top:12px;display:flex;flex-wrap:wrap;gap:6px;z-index:2}
+    .badge{
+      border-radius:999px;padding:8px 12px;font-size:12px;font-weight:700;letter-spacing:.02em;
+      background:rgba(23,17,14,.82);color:#fff;backdrop-filter:blur(10px)
+    }
+    .badge.gold{background:linear-gradient(135deg,#dec1a2,#b58a60);color:#fff}
+    .badge.light{background:rgba(255,250,246,.94);color:#4b3d34;border:1px solid rgba(145,118,94,.18)}
+    .code{
+      position:absolute;right:12px;bottom:12px;background:rgba(255,255,255,.95);color:#3f322a;border-radius:999px;padding:9px 14px;
+      font-weight:800;box-shadow:0 4px 12px rgba(0,0,0,.08)
+    }
+    .info{padding:14px 14px 16px}
+    .name{font-size:18px;line-height:1.45;font-weight:800;min-height:52px}
+    .meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .meta span{
+      font-size:12px;color:#816c5e;background:#f0e6dd;border:1px solid #e4d5c7;border-radius:999px;padding:6px 10px
+    }
+    .price{margin-top:14px;font-size:31px;font-weight:900;letter-spacing:-.02em;color:#18110d}
+
+    .empty{padding:50px 20px;text-align:center;color:var(--sub);background:var(--paper);border:1px dashed var(--line-2);border-radius:22px}
+
+    .detail{position:fixed;inset:0;background:rgba(18,11,9,.52);backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;padding:18px;z-index:999}
+    .detail.open{display:flex}
+    .panel{
+      width:min(1180px,100%);max-height:min(92vh,100%);overflow:auto;background:var(--paper);border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.28)
+    }
+    .dtop{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:16px 18px;background:rgba(251,247,243,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+    .brand-mini{font-family:Georgia,'Times New Roman',serif;font-size:20px;letter-spacing:.12em;font-weight:700}
+    .close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-2);background:#fff;cursor:pointer;font-size:20px}
+    .dbody{display:grid;grid-template-columns:1.08fr .92fr;gap:0}
+    @media(max-width:980px){.dbody{grid-template-columns:1fr}}
+    .visual{padding:22px;background:#efe6dd}
+    .main{
+      aspect-ratio:3/4;border-radius:22px;overflow:hidden;background:#e9ddd1;box-shadow:0 10px 28px rgba(0,0,0,.08)
+    }
+    .main img{width:100%;height:100%;object-fit:cover}
+    .thumbs{display:flex;gap:10px;overflow:auto;padding-top:14px}
+    .thumb{flex:0 0 82px;height:108px;border-radius:14px;overflow:hidden;border:2px solid transparent;background:#fff;cursor:pointer;padding:0}
+    .thumb img{width:100%;height:100%;object-fit:cover}
+    .thumb.on{border-color:#2f221b;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+    .copy{padding:28px 26px 28px;background:var(--paper)}
+    .mini-cats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+    .mini-cats span{padding:8px 12px;border-radius:999px;background:#f1e6db;border:1px solid #e4d5c8;font-size:12px;font-weight:700;color:#6b584b}
+    .copy h2{margin:0 0 8px;font-size:44px;line-height:1.16;letter-spacing:-.03em}
+    .copy h3{margin:0 0 20px;font-size:40px;letter-spacing:-.03em}
+    .story,.note,.scene{background:#fff;border:1px solid var(--line);border-radius:20px;padding:18px 18px 16px;margin-top:14px}
+    .story b,.note b,.scene b{display:block;margin-bottom:10px;font-size:13px;letter-spacing:.12em;color:#8a7058}
+    .points{margin:0;padding-left:18px;color:#4c3d33;line-height:1.75;font-size:17px}
+    .story p,.scene p,.note p{margin:0;color:#4c3d33;line-height:1.8;font-size:17px}
+    .spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+    @media(max-width:520px){.spec{grid-template-columns:1fr 1fr}}
+    .spec .cell{background:#efe4d8;border:1px solid #e1cfbf;border-radius:18px;padding:16px}
+    .spec .cell b{display:block;font-size:12px;letter-spacing:.12em;color:#8a7058;margin-bottom:8px}
+    .spec .cell span{font-size:18px;font-weight:700;color:#2c211b}
+    .cta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+    @media(max-width:520px){.cta{grid-template-columns:1fr}}
+    .cta a{display:flex;align-items:center;justify-content:center;gap:10px;padding:18px 16px;border-radius:18px;font-weight:900;font-size:19px}
+    .cta .kakao{background:#ffe100;color:#221d00}
+    .cta .insta{background:#15100d;color:#fff}
+    .logo-icon{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px}
+    .kakao-logo{font-size:11px;font-weight:900;border-radius:9px;background:#3d3100;color:#ffe100;width:auto;padding:4px 6px;line-height:1}
+    .insta svg{width:24px;height:24px;stroke:currentColor}
+
+    @media(max-width:720px){
+      .hero{padding:42px 16px 32px}
+      .hero h1{font-size:54px}
+      .hero p{font-size:14px;letter-spacing:.12em}
+      .searchbar{font-size:16px;padding:16px 18px}
+      .section-head h2{font-size:34px}
+      .name{font-size:16px;min-height:46px}
+      .price{font-size:24px}
+      .copy{padding:22px 18px 24px}
+      .copy h2{font-size:34px}
+      .copy h3{font-size:32px}
+      .story p,.scene p,.note p,.points{font-size:15px}
+      .thumb{flex-basis:72px;height:96px}
+    }
+  
+/* match17 detail image size fix */
+.panel{width:min(1080px,96vw)!important;}
+.visual{padding:18px!important;}
+.main{aspect-ratio:auto!important;min-height:0!important;max-height:68vh!important;display:flex!important;align-items:center!important;justify-content:center!important;background:#efe6dd!important;}
+.main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:68vh!important;object-fit:contain!important;border-radius:18px!important;}
+.cta a{min-height:58px!important;}
+.logo-icon svg{display:block!important;width:26px!important;height:26px!important;}
+@media(max-width:720px){
+  .panel{width:96vw!important;max-height:92vh!important;}
+  .main{max-height:48vh!important;}
+  .main img{max-height:48vh!important;}
+  .copy h2{font-size:28px!important;}
+}
+
+
+/* match17 detail final size fix */
+.panel{width:min(1080px,96vw)!important;}
+.main{aspect-ratio:auto!important;max-height:66vh!important;display:flex!important;align-items:center!important;justify-content:center!important;}
+.main img{width:auto!important;height:auto!important;max-width:100%!important;max-height:66vh!important;object-fit:contain!important;}
+@media(max-width:720px){.main{max-height:48vh!important}.main img{max-height:48vh!important}}
+
+
+/* match17 mobile modal fix */
+@media(max-width:720px){
+  body.modal-open{overflow:hidden!important;}
+  .overlay{align-items:flex-start!important;overflow:auto!important;padding:10px 0!important;}
+  .panel{
+    width:94vw!important;
+    max-width:94vw!important;
+    max-height:88vh!important;
+    margin:8px auto!important;
+    border-radius:28px!important;
+    overflow:auto!important;
+  }
+  .head{
+    height:62px!important;
+    padding:0 18px!important;
+    font-size:22px!important;
+    letter-spacing:5px!important;
+    position:sticky!important;
+    top:0!important;
+    z-index:20!important;
+  }
+  .close{
+    width:46px!important;
+    height:46px!important;
+    font-size:30px!important;
+  }
+  .modal-body,
+  .body{
+    display:block!important;
+    grid-template-columns:none!important;
+  }
+  .visual{
+    padding:12px!important;
+    min-height:0!important;
+  }
+  .main{
+    width:100%!important;
+    height:auto!important;
+    max-height:46vh!important;
+    min-height:0!important;
+    aspect-ratio:auto!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    overflow:hidden!important;
+    border-radius:22px!important;
+  }
+  .main img{
+    width:auto!important;
+    height:auto!important;
+    max-width:100%!important;
+    max-height:46vh!important;
+    object-fit:contain!important;
+    border-radius:18px!important;
+  }
+  .thumbs{
+    display:flex!important;
+    gap:8px!important;
+    overflow-x:auto!important;
+    padding:10px 4px 4px!important;
+  }
+  .thumb{
+    flex:0 0 74px!important;
+    width:74px!important;
+    height:86px!important;
+    border-radius:14px!important;
+  }
+  .copy{
+    padding:16px!important;
+  }
+  .copy h2{
+    font-size:28px!important;
+    line-height:1.15!important;
+    word-break:keep-all!important;
+  }
+  .price{
+    font-size:24px!important;
+    margin:10px 0 18px!important;
+  }
+  .box{
+    padding:14px!important;
+    margin:12px 0!important;
+  }
+  .specs{
+    grid-template-columns:1fr 1fr!important;
+    gap:10px!important;
+  }
+  .cta{
+    grid-template-columns:1fr 1fr!important;
+    gap:10px!important;
+    position:sticky!important;
+    bottom:0!important;
+    background:#fbf7f1!important;
+    padding:10px 0 4px!important;
+  }
+  .cta a{
+    min-height:52px!important;
+    font-size:15px!important;
+    border-radius:16px!important;
+    white-space:nowrap!important;
+  }
+}
+@media(max-width:390px){
+  .panel{width:96vw!important;max-width:96vw!important;}
+  .head{font-size:20px!important;letter-spacing:4px!important;}
+  .copy h2{font-size:25px!important;}
+  .main,.main img{max-height:42vh!important;}
+  .thumb{flex-basis:68px!important;width:68px!important;height:80px!important;}
+}
+
+
+/* match17 final CTA + mobile detail balance */
+.cta{
+  display:grid!important;
+  grid-template-columns:1fr 1fr!important;
+  gap:12px!important;
+  margin-top:18px!important;
+}
+.cta a{
+  min-height:58px!important;
+  padding:14px 16px!important;
+  border-radius:18px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:10px!important;
+  text-decoration:none!important;
+  font-weight:900!important;
+  font-size:18px!important;
+  line-height:1.05!important;
+  white-space:nowrap!important;
+  box-sizing:border-box!important;
+}
+.cta a.kakao{
+  background:#FEE500!important;
+  color:#1e1600!important;
+  border:1px solid rgba(60,30,30,.12)!important;
+  box-shadow:0 10px 22px rgba(254,229,0,.18)!important;
+}
+.cta a.kakao .kakao-logo{
+  width:34px!important;
+  height:24px!important;
+  min-width:34px!important;
+  padding:0!important;
+  border-radius:9px!important;
+  background:#3C1E1E!important;
+  color:#FEE500!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  font-size:9px!important;
+  letter-spacing:-.02em!important;
+  font-weight:1000!important;
+}
+.cta a.insta{
+  background:#fff!important;
+  color:#201713!important;
+  border:1px solid #d9c8b8!important;
+  box-shadow:0 10px 22px rgba(60,35,20,.06)!important;
+}
+.cta a.insta .logo-icon.insta{
+  width:30px!important;
+  height:30px!important;
+  min-width:30px!important;
+  border-radius:10px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  background:radial-gradient(circle at 30% 105%, #fdf497 0%, #fdf497 18%, #fd5949 42%, #d6249f 64%, #285AEB 100%)!important;
+  color:#fff!important;
+}
+.cta a.insta .logo-icon.insta svg{
+  width:21px!important;
+  height:21px!important;
+  stroke:#fff!important;
+  stroke-width:2.15!important;
+}
+.cta a:hover{transform:translateY(-1px);filter:brightness(1.01)}
+@media(max-width:720px){
+  body.modal-open{overflow:hidden!important;}
+  .overlay{align-items:flex-start!important;overflow:auto!important;padding:8px 0!important;}
+  .panel{
+    width:94vw!important;
+    max-width:94vw!important;
+    max-height:88vh!important;
+    margin:8px auto!important;
+    border-radius:28px!important;
+    overflow:auto!important;
+  }
+  .head{
+    height:60px!important;
+    padding:0 18px!important;
+    font-size:22px!important;
+    letter-spacing:5px!important;
+    position:sticky!important;
+    top:0!important;
+    z-index:50!important;
+    background:#fffaf4!important;
+  }
+  .close{width:44px!important;height:44px!important;font-size:28px!important}
+  .body,.modal-body{display:block!important;grid-template-columns:none!important}
+  .visual{padding:12px!important;min-height:0!important}
+  .main{
+    width:100%!important;
+    min-height:0!important;
+    height:auto!important;
+    max-height:43vh!important;
+    aspect-ratio:auto!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    overflow:hidden!important;
+    border-radius:22px!important;
+    background:#efe6dd!important;
+  }
+  .main img{
+    width:auto!important;
+    height:auto!important;
+    max-width:100%!important;
+    max-height:43vh!important;
+    object-fit:contain!important;
+    border-radius:18px!important;
+  }
+  .thumbs{display:flex!important;gap:8px!important;overflow-x:auto!important;padding:10px 2px 2px!important}
+  .thumb{flex:0 0 70px!important;width:70px!important;height:82px!important;border-radius:14px!important}
+  .copy{padding:15px 16px 18px!important}
+  .copy h2{font-size:27px!important;line-height:1.16!important;word-break:keep-all!important}
+  .price{font-size:24px!important;margin:8px 0 16px!important}
+  .box{padding:14px!important;margin:10px 0!important}
+  .story p,.scene p,.note p,.points{font-size:14.5px!important;line-height:1.7!important}
+  .specs,.spec{grid-template-columns:1fr 1fr!important;gap:9px!important}
+  .spec .cell{padding:13px!important;border-radius:15px!important}
+  .spec .cell span{font-size:16px!important}
+  .cta{
+    grid-template-columns:1fr 1fr!important;
+    gap:9px!important;
+    margin-top:12px!important;
+    position:sticky!important;
+    bottom:0!important;
+    background:#fbf7f1!important;
+    padding:10px 0 2px!important;
+    z-index:30!important;
+  }
+  .cta a{
+    min-height:50px!important;
+    padding:11px 9px!important;
+    font-size:15px!important;
+    border-radius:15px!important;
+    gap:7px!important;
+  }
+  .cta a.kakao .kakao-logo{width:30px!important;height:22px!important;min-width:30px!important;font-size:8px!important}
+  .cta a.insta .logo-icon.insta{width:28px!important;height:28px!important;min-width:28px!important}
+  .cta a.insta .logo-icon.insta svg{width:19px!important;height:19px!important}
+}
+@media(max-width:390px){
+  .panel{width:96vw!important;max-width:96vw!important}
+  .head{font-size:20px!important;letter-spacing:4px!important}
+  .copy h2{font-size:24px!important}
+  .main,.main img{max-height:40vh!important}
+  .thumb{flex-basis:66px!important;width:66px!important;height:78px!important}
+  .cta a{font-size:14px!important}
+}
+
+
+/* match17 filter + 5cut + mobile balance */
+@media(max-width:720px){
+  .panel{width:94vw!important;max-width:94vw!important;max-height:88vh!important}
+  .main,.main img{max-height:40vh!important}
+  .thumb{flex:0 0 66px!important;width:66px!important;height:78px!important}
+  .copy h2{font-size:24px!important}
+}
+
+
+/* match17 mobile main + product badge cleanup */
+.code-line{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  max-width:100%;
+  margin:0 0 8px 0;
+  padding:7px 12px;
+  border-radius:999px;
+  background:#f2eadf;
+  color:#342820;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:.02em;
+}
+.card .photo .code{display:none!important;}
+.card .badges{
+  position:absolute!important;
+  top:10px!important;
+  left:10px!important;
+  right:auto!important;
+  display:flex!important;
+  flex-direction:column!important;
+  gap:6px!important;
+  align-items:flex-start!important;
+  pointer-events:none!important;
+  z-index:3!important;
+}
+.card .badge{
+  height:auto!important;
+  min-height:28px!important;
+  padding:7px 11px!important;
+  border-radius:999px!important;
+  font-size:12px!important;
+  line-height:1!important;
+  letter-spacing:.02em!important;
+  box-shadow:0 8px 16px rgba(30,20,12,.12)!important;
+  opacity:.94!important;
+}
+.card .badge.light{
+  background:rgba(255,250,244,.92)!important;
+  color:#4a3a31!important;
+  border:1px solid rgba(226,208,190,.8)!important;
+}
+.card .badge.gold{
+  background:#d3ad7b!important;
+  color:#fff!important;
+}
+
+@media(max-width:720px){
+  .hero{
+    padding:26px 16px 22px!important;
+  }
+  .hero h1{
+    font-size:44px!important;
+    letter-spacing:.20em!important;
+    line-height:1!important;
+    margin:0!important;
+  }
+  .hero p{
+    margin-top:14px!important;
+    font-size:12px!important;
+    letter-spacing:.22em!important;
+  }
+  .toolbar{
+    padding:18px 14px 14px!important;
+  }
+  .searchbar{
+    height:50px!important;
+    padding:0 18px!important;
+    font-size:17px!important;
+    border-radius:999px!important;
+    margin-bottom:12px!important;
+  }
+  .chips{
+    display:flex!important;
+    flex-wrap:nowrap!important;
+    overflow-x:auto!important;
+    gap:8px!important;
+    padding:2px 4px 8px!important;
+    scroll-snap-type:x proximity!important;
+    -webkit-overflow-scrolling:touch!important;
+  }
+  .chips::-webkit-scrollbar{display:none!important;}
+  .chips button{
+    flex:0 0 auto!important;
+    height:40px!important;
+    min-width:auto!important;
+    padding:0 15px!important;
+    border-radius:999px!important;
+    font-size:14px!important;
+    line-height:1!important;
+    scroll-snap-align:start!important;
+  }
+  .section{
+    padding-top:18px!important;
+  }
+  .section-head{
+    display:flex!important;
+    align-items:flex-end!important;
+    justify-content:space-between!important;
+    gap:12px!important;
+    margin-bottom:14px!important;
+  }
+  .section-head h2{
+    font-size:38px!important;
+    line-height:.95!important;
+    margin:0!important;
+  }
+  #count{
+    font-size:15px!important;
+    white-space:nowrap!important;
+    padding-bottom:5px!important;
+  }
+  .grid{
+    gap:14px!important;
+  }
+  .card{
+    border-radius:22px!important;
+    overflow:hidden!important;
+  }
+  .photo{
+    border-radius:22px 22px 0 0!important;
+  }
+  .card .badges{
+    top:8px!important;
+    left:8px!important;
+    gap:4px!important;
+    max-width:72%!important;
+  }
+  .card .badge{
+    min-height:24px!important;
+    padding:6px 9px!important;
+    font-size:10.5px!important;
+    max-width:130px!important;
+    white-space:nowrap!important;
+    overflow:hidden!important;
+    text-overflow:ellipsis!important;
+  }
+  .card .editor-badge{display:none!important;}
+  .card .badges .badge:nth-child(n+3){display:none!important;}
+  .info{
+    padding:13px 12px 16px!important;
+  }
+  .code-line{
+    font-size:11px!important;
+    padding:5px 9px!important;
+    margin-bottom:7px!important;
+    background:#f1e8dc!important;
+  }
+  .name{
+    font-size:15.5px!important;
+    line-height:1.32!important;
+    min-height:42px!important;
+    word-break:keep-all!important;
+  }
+  .meta{
+    gap:6px!important;
+    margin:10px 0!important;
+  }
+  .meta span{
+    font-size:10.5px!important;
+    padding:6px 8px!important;
+    border-radius:999px!important;
+  }
+  .price{
+    font-size:22px!important;
+    line-height:1!important;
+    margin-top:6px!important;
+  }
+}
+@media(max-width:390px){
+  .hero{padding:22px 14px 18px!important;}
+  .hero h1{font-size:38px!important;}
+  .hero p{font-size:11px!important;margin-top:12px!important;}
+  .toolbar{padding:15px 12px 12px!important;}
+  .searchbar{height:46px!important;font-size:15.5px!important;}
+  .chips button{height:36px!important;font-size:13px!important;padding:0 13px!important;}
+  .section-head h2{font-size:34px!important;}
+  #count{font-size:14px!important;}
+  .card .badge{font-size:10px!important;padding:5px 8px!important;min-height:22px!important;}
+  .name{font-size:14.5px!important;}
+  .price{font-size:20px!important;}
+}
+
+</style>
+</head>
+<body>
+  <header class="hero">
+    <h1>NICE</h1>
+    <p>Luxury Evening Edit</p>
+  </header>
+
+  <main class="wrap">
+    <input id="q" class="searchbar" placeholder="검색: 상품명, 컬러, 카테고리" />
+    <div id="chips" class="chips"></div>
+
+    <div class="section-head">
+      <h2>Collection</h2>
+      <div id="count" class="count"></div>
+    </div>
+
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <div id="detail" class="detail" aria-hidden="true">
+    <div class="panel">
+      <div class="dtop">
+        <div class="brand-mini">NICE COLLECTION</div>
+        <button type="button" class="close" id="closeBtn">✕</button>
+      </div>
+      <div id="panelBody"></div>
+    </div>
+  </div>
+
+  <script>
+    const qs = (s, el=document)=>el.querySelector(s);
+    const qsa = (s, el=document)=>[...el.querySelectorAll(s)];
+    const q = qs('#q');
+    const chips = qs('#chips');
+    const grid = qs('#grid');
+    const count = qs('#count');
+    const detail = qs('#detail');
+    const panelBody = qs('#panelBody');
+    const closeBtn = qs('#closeBtn');
+
+    let PRODUCTS = [];
+    let FILTER = 'ALL';
+    let currentImages = [];
+
+    const FILTERS = [
+      ['ALL','전체'],
+      ['BEST','🔥 BEST'],
+      ['NEW','✨ NEW'],
+      ['RECOMMEND','EDITOR’S PICK'],
+      ['LUXURY','LUXURY'],
+      ['COSTUME','COSTUME'],
+      ['TWO PIECE','투피스'],
+      ['PARTY','PARTY'],
+      ['MINI','MINI'],
+      ['MIDI','MIDI'],
+      ['LONG','LONG'],
+      ['TOP','상의'],
+      ['SKIRT','스커트']
+    ];
+
+    const money = n => n ? '₩' + Number(n).toLocaleString('ko-KR') : '문의';
+    function track(name, params={}){ try{ gtag('event', name, params); }catch(e){} }
+
+    function normalize(text){ return String(text || '').toLowerCase(); }
+
+    function matchesFilter(item){
+      const search = normalize(q.value.trim());
+      const textRaw = [
+        item.code, item.name, item.storeName, item.origin, item.folder, item.supplier,
+        item.color, item.category, item.size, ...(item.tags||[])
+      ].join(' ');
+      const hay = normalize(textRaw);
+      const searchOk = !search || hay.includes(search);
+      const tags = item.tags || [];
+      const cat = item.category || '';
+      const nameText = String(item.name || '') + ' ' + String(item.storeName || '') + ' ' + String(item.origin || '') + ' ' + String(item.folder || '');
+
+      let filterOk = true;
+      if(FILTER === 'ALL'){
+        filterOk = true;
+      }else if(FILTER === 'BEST'){
+        filterOk = !!item.best || tags.includes('BEST');
+      }else if(FILTER === 'NEW'){
+        filterOk = !!item.new || tags.includes('NEW');
+      }else if(FILTER === 'TWO PIECE'){
+        filterOk = cat === 'TWO PIECE' || tags.includes('TWO PIECE') || /투피스|세트/.test(nameText);
+      }else if(FILTER === 'MINI'){
+        filterOk = cat === 'MINI' || tags.includes('MINI') || /미니/.test(nameText);
+      }else if(FILTER === 'MIDI'){
+        filterOk = cat === 'MIDI' || tags.includes('MIDI') || /미디/.test(nameText);
+      }else if(FILTER === 'LONG'){
+        filterOk = cat === 'LONG' || tags.includes('LONG') || /롱/.test(nameText);
+      }else if(FILTER === 'TOP'){
+        filterOk = cat === 'TOP' || tags.includes('TOP') || /블라우스|니트|나시|탑|상의/.test(nameText);
+      }else if(FILTER === 'SKIRT'){
+        filterOk = cat === 'SKIRT' || tags.includes('SKIRT') || /스커트|하의/.test(nameText);
+      }else{
+        filterOk = tags.includes(FILTER) || cat === FILTER;
+      }
+      return searchOk && filterOk;
+    }
+
+    function makePromoBadges(item){
+      const tags = item.tags || [];
+      const out = [];
+      if(item.best || tags.includes('BEST')) out.push('<span class="badge">BEST</span>');
+      if(item.new || tags.includes('NEW')) out.push('<span class="badge gold">NEW</span>');
+      if(tags.includes('RECOMMEND')) out.push('<span class="badge light editor-badge">EDITOR’S PICK</span>');
+      if(!out.length) out.push(`<span class="badge">${item.category || 'NICE'}</span>`);
+      return out.join('');
+    }
+
+    function smallMeta(item){
+      const tags = [];
+      if(item.category) tags.push(item.category);
+      if(item.color) tags.push(item.color);
+      if(item.size) tags.push('SIZE ' + item.size);
+      return tags.slice(0,3).map(v=>`<span>${v}</span>`).join('');
+    }
+
+    function sellingPoints(item){
+      const pts = [];
+      const name = item.name || '';
+      const cat = item.category || '';
+      const color = item.color || '';
+
+      if(cat === 'TWO PIECE') pts.push('상하의 밸런스가 좋아 허리선은 더욱 슬림해 보이고 비율은 길어 보이는 실루엣입니다.');
+      else if(cat === 'MINI') pts.push('다리 라인을 더욱 길고 슬림하게 보여 주는 미니 기장으로 존재감 있는 스타일을 완성합니다.');
+      else if(cat === 'MIDI') pts.push('부담 없이 세련된 분위기를 연출하는 미디 기장으로 우아함과 여성스러움을 동시에 살려줍니다.');
+      else if(cat === 'LONG') pts.push('움직일 때마다 흐르는 실루엣이 고급스럽게 살아나는 롱 라인으로 특별한 자리에서 더 돋보입니다.');
+      else if(cat === 'TOP') pts.push('단독으로도 포인트가 살아나고 다양한 하의와 함께 스타일링하기 좋은 활용도 높은 디자인입니다.');
+      else if(cat === 'SKIRT') pts.push('하체 라인을 정돈해 주면서도 여성스러운 분위기를 살려 주는 세련된 실루엣입니다.');
+      else pts.push('라인감이 돋보여 몸매를 더욱 정리해 보이게 하고 사진에서도 존재감 있게 표현되는 스타일입니다.');
+
+      if(/러플|프릴|셔링|드레이프|플리츠|주름/.test(name)) pts.push('디테일 포인트가 얼굴빛과 전체 분위기를 한층 더 화사하고 입체적으로 보이게 해줍니다.');
+      else if(/오프숄더|튜브|홀터|브이넥/.test(name)) pts.push('넥라인이 예쁘게 드러나 답답해 보이지 않고 여리여리한 무드를 더해줍니다.');
+      else pts.push('군더더기 없이 떨어지는 라인 덕분에 고급스럽고 세련된 분위기를 자연스럽게 완성해 줍니다.');
+
+      if(color) pts.push(`${color} 컬러 특유의 분위기가 고급스럽게 살아나 파티, 모임, 촬영 등 시선을 끌고 싶은 순간에 특히 잘 어울립니다.`);
+      else pts.push('실제 착용 시에도 사진처럼 분위기가 살아나 특별한 자리에서 자연스럽게 시선을 사로잡을 수 있습니다.');
+
+      return pts.slice(0,3);
+    }
+
+    function sceneText(item){
+      return item.recommend
+        ? item.recommend.replaceAll('/', ' · ')
+        : '파티 · 모임 · 데이트 · 촬영 · 특별한 약속';
+    }
+
+    function styleNote(item){
+      const size = item.size || 'FREE';
+      const stretch = item.stretch || '확인 필요';
+      return `${item.name}는 단독으로도 포인트가 충분한 디자인이라 별다른 스타일링 없이도 완성도 높은 룩을 연출할 수 있습니다. 사이즈는 ${size} 구성이며, 착용감은 ${stretch} 기준입니다.`;
+    }
+
+    function render(){
+      const list = PRODUCTS.filter(matchesFilter);
+      count.textContent = `${list.length} items`;
+
+      if(!list.length){
+        grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 다른 검색어나 카테고리를 선택해 보세요.</div>';
+        return;
+      }
+
+      grid.innerHTML = list.map(item => `
+        <article class="card" data-code="${item.code}">
+          <div class="photo">
+            ${item.images?.[0] ? `<img loading="lazy" src="${item.images[0]}?v=match17" alt="${item.name}">` : ''}
+            <div class="badges">${makePromoBadges(item)}</div>
+          </div>
+          <div class="info">
+            <div class="code-line">${item.code}</div>
+            <div class="name">${item.name}</div>
+            <div class="meta">${smallMeta(item)}</div>
+            <div class="price">${money(item.price)}</div>
+          </div>
+        </article>
+      `).join('');
+
+      qsa('.card').forEach(card => {
+        card.addEventListener('click', () => openDetail(card.dataset.code));
+      });
+    }
+
+    function setImage(index){
+      const main = qs('#mainImage');
+      const target = currentImages[index];
+      if(!main || !target) return;
+      main.src = `${target.url}?v=match17`;
+      qsa('.thumb', detail).forEach((thumb, i) => thumb.classList.toggle('on', i === index));
+    }
+
+    function openDetail(code){
+      const item = PRODUCTS.find(p => p.code === code);
+      if(!item) return;
+      currentImages = item.cuts?.length ? item.cuts : (item.images || []).map((url, i) => ({url, cut:'컷'+(i+1), source:url}));
+      const tags = item.tags || [];
+      const labelTags = [];
+      if(item.best || tags.includes('BEST')) labelTags.push('BEST');
+      if(item.new || tags.includes('NEW')) labelTags.push('NEW');
+      if(tags.includes('RECOMMEND')) labelTags.push('EDITOR’S PICK');
+      if(item.category) labelTags.push(item.category);
+      if(item.color) labelTags.push(item.color);
+
+      track('product_view', {product_code:item.code, product_name:item.name, category:item.category, price:item.price});
+
+      panelBody.innerHTML = `
+        <div class="dbody">
+          <section class="visual">
+            <div class="main">${currentImages[0] ? `<img id="mainImage" src="${currentImages[0].url}?v=match17" alt="${item.name}">` : 'NO IMAGE'}</div>
+            <div class="thumbs">
+              ${currentImages.map((im, i) => `
+                <button type="button" class="thumb ${i===0?'on':''}" data-index="${i}" aria-label="thumbnail ${i+1}">
+                  <img src="${im.url}?v=match17" alt="${item.name} ${i+1}">
+                </button>
+              `).join('')}
+            </div>
+          </section>
+          <section class="copy">
+            <div class="mini-cats">${labelTags.map(v => `<span>${v}</span>`).join('')}</div>
+            <h2>${item.name}</h2>
+            <h3>${money(item.price)}</h3>
+
+            <div class="story">
+              <b>WHY YOU’LL LOVE IT</b>
+              <ul class="points">${sellingPoints(item).map(p => `<li>${p}</li>`).join('')}</ul>
+            </div>
+
+            <div class="scene">
+              <b>EDITOR’S NOTE</b>
+              <p>${styleNote(item)}</p>
+            </div>
+
+            <div class="note">
+              <b>RECOMMENDED FOR</b>
+              <p>${sceneText(item)}</p>
+            </div>
+
+            <div class="spec">
+              <div class="cell"><b>COLOR</b><span>${item.color || '-'}</span></div>
+              <div class="cell"><b>SIZE</b><span>${item.size || '-'}</span></div>
+              <div class="cell"><b>FIT</b><span>${item.stretch || '-'}</span></div>
+              <div class="cell"><b>LINING</b><span>${item.lining || '-'}</span></div>
+            </div>
+
+            <div class="cta">
+              <a class="kakao" href="http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-" target="_blank" rel="noopener">
+                <span class="logo-icon kakao-logo">TALK</span><span>카카오톡 문의</span>
+              </a>
+              <a class="insta" href="https://www.instagram.com/dongdaemun_helloapm_nice?igsh=am16YjFmdHdtajN6" target="_blank" rel="noopener">
+                <span class="logo-icon insta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle></svg></span>
+                <span>인스타 DM</span>
+              </a>
+            </div>
+          </section>
+        </div>
+      `;
+
+      detail.classList.add('open');
+      detail.setAttribute('aria-hidden','false');
+      history.pushState({detail: code}, '', '#' + code);
+
+      qsa('.thumb', detail).forEach(btn => {
+        btn.addEventListener('click', () => setImage(Number(btn.dataset.index)));
+      });
+    }
+
+    function closeDetail(fromPop=false){
+      detail.classList.remove('open');
+      detail.setAttribute('aria-hidden','true');
+      if(!fromPop && location.hash){
+        history.pushState({}, '', location.pathname);
+      }
+    }
+
+    async function init(){
+      PRODUCTS = await (await fetch('./products.json?v=match17')).json();
+      chips.innerHTML = FILTERS.map(([key, label]) => `
+        <button type="button" class="chip ${key==='ALL' ? 'on' : ''}" data-filter="${key}">${label}</button>
+      `).join('');
+
+      chips.addEventListener('click', e => {
+        const btn = e.target.closest('.chip');
+        if(!btn) return;
+        FILTER = btn.dataset.filter;
+        qsa('.chip', chips).forEach(ch => ch.classList.toggle('on', ch === btn));
+        track('category_click', {category: FILTER});
+        render();
+      });
+
+      q.addEventListener('input', () => {
+        if(q.value.trim().length >= 2) track('product_search', {search_term: q.value.trim()});
+        render();
+      });
+
+      const initialCode = decodeURIComponent(location.hash.replace('#',''));
+      render();
+      if(initialCode) setTimeout(() => openDetail(initialCode), 50);
+    }
+
+    closeBtn.addEventListener('click', () => closeDetail());
+    detail.addEventListener('click', e => { if(e.target === detail) closeDetail(); });
+    window.addEventListener('keydown', e => { if(e.key === 'Escape') closeDetail(); });
+    window.addEventListener('popstate', () => {
+      const code = decodeURIComponent(location.hash.replace('#',''));
+      if(code) openDetail(code);
+      else closeDetail(true);
+    });
+
+    init();
+  </script>
+</body>
+</html>
