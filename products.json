@@ -1581,16 +1581,16 @@
   },
   {
     "code": "N260019",
-    "origin": "기네스OPS_추가",
-    "folder": "기네스OPS 추가",
+    "origin": "라비앙원피스_베이지",
+    "folder": "라비앙원피스_베이지",
     "supplier": "실루엣",
-    "zipFolder": "실루엣/기네스OPS 추가",
-    "name": "기네스 미니 원피스",
-    "storeName": "기네스 미니 원피스",
+    "zipFolder": "실루엣/라비앙원피스",
+    "name": "라비앙 원피스",
+    "storeName": "라비앙 원피스",
     "category": "MINI",
-    "color": "",
+    "color": "베이지",
     "size": "S,M,L",
-    "price": 111000.0,
+    "price": 135000.0,
     "tags": [
       "BEST",
       "MINI",
@@ -1601,40 +1601,46 @@
       "assets/N260019_01.jpg",
       "assets/N260019_02.jpg",
       "assets/N260019_03.jpg",
-      "assets/N260019_04.jpg"
+      "assets/N260019_04.jpg",
+      "assets/N260019_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260019_01.jpg",
-        "cut": "전면",
-        "source": "기네스OPS 추가/img_xl_1_v2x6si.jpg"
+        "cut": "상세",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스\\라비앙원피스_베 sml1.jpg"
       },
       {
         "url": "assets/N260019_02.jpg",
-        "cut": "후면",
-        "source": "기네스OPS 추가/img_xl_2_sqqmos.jpg"
+        "cut": "전면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스\\라비앙원피스_베 sml2.jpg"
       },
       {
         "url": "assets/N260019_03.jpg",
-        "cut": "측면",
-        "source": "기네스OPS 추가/img_xl_3_yhlg1h.jpg"
+        "cut": "전면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스\\라비앙원피스_베 sml3.jpg"
       },
       {
         "url": "assets/N260019_04.jpg",
-        "cut": "확대/디테일",
-        "source": "기네스OPS 추가/img_xl_4_weknv0.jpg"
+        "cut": "후면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스\\라비앙원피스_베 sml4.jpg"
+      },
+      {
+        "url": "assets/N260019_05.jpg",
+        "cut": "측면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스\\라비앙원피스_베 sml5.jpg"
       }
     ],
-    "desc": "기네스미니원피스 상품입니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 약간, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "라비앙원피스 상품입니다. 베이지 컬러 구성으로 준비했습니다. 소재는 새틴 기준입니다. 착용 정보: 신축성 적음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
     "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "약간",
+    "fabric": "새틴",
+    "stretch": "적음",
     "see": "없음",
     "lining": "있음",
     "best": true,
-    "name_en": "Guinness Mini Dress",
-    "name_cn": "Guinness 迷你连衣裙",
-    "name_jp": "ギネス ミニワンピース"
+    "name_en": "La Vie Dress",
+    "name_cn": "La Vie 连衣裙",
+    "name_jp": "ラヴィアン ワンピース"
   },
   {
     "code": "N260020",
@@ -1696,7 +1702,7 @@
     "name": "라비앙 원피스",
     "storeName": "라비앙 원피스",
     "category": "MINI",
-    "color": "아이보리/베이지",
+    "color": "아이보리",
     "size": "S,M,L",
     "price": 135000.0,
     "tags": [
@@ -1709,31 +1715,43 @@
       "assets/N260021_01.jpg",
       "assets/N260021_02.jpg",
       "assets/N260021_03.jpg",
-      "assets/N260021_04.jpg"
+      "assets/N260021_04.jpg",
+      "assets/N260021_05.jpg",
+      "assets/N260021_06.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260021_01.jpg",
         "cut": "전면",
-        "source": "라비앙OPS/img_xl_1_smmami.jpg"
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml1.png"
       },
       {
         "url": "assets/N260021_02.jpg",
-        "cut": "후면",
-        "source": "라비앙OPS/img_xl_2_vm2gq3.jpg"
+        "cut": "전면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml2.png"
       },
       {
         "url": "assets/N260021_03.jpg",
-        "cut": "측면",
-        "source": "라비앙OPS/img_xl_3_vpw0qc.jpg"
+        "cut": "전면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml3.jpg"
       },
       {
         "url": "assets/N260021_04.jpg",
-        "cut": "확대/디테일",
-        "source": "라비앙OPS/img_xl_m3xdqq.jpg"
+        "cut": "상세",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml4.jpg"
+      },
+      {
+        "url": "assets/N260021_05.jpg",
+        "cut": "측면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml5측.jpg"
+      },
+      {
+        "url": "assets/N260021_06.jpg",
+        "cut": "후면",
+        "source": "C:\\Users\\UserK\\Downloads\\실루엣\\라비앙원피스_아베\\라비앙원피스_아 sml5 후.jpg"
       }
     ],
-    "desc": "라비앙원피스 상품입니다. 아이보리/베이지 컬러 구성으로 준비했습니다. 소재는 새틴 기준입니다. 착용 정보: 신축성 적음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
+    "desc": "라비앙원피스 상품입니다. 아이보리 컬러 구성으로 준비했습니다. 소재는 새틴 기준입니다. 착용 정보: 신축성 적음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "새틴",
     "stretch": "적음",
