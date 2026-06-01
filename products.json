@@ -1430,28 +1430,34 @@
       "assets/N260016_01.jpg",
       "assets/N260016_02.jpg",
       "assets/N260016_03.jpg",
-      "assets/N260016_04.jpg"
+      "assets/N260016_04.jpg",
+      "assets/N260016_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260016_01.jpg",
-        "cut": "전면",
-        "source": "글램OPS/img_xl_1_x9sdob.jpg"
+        "cut": "메인",
+        "source": "글램OPS/글램원피스_아베 메인.jpg"
       },
       {
         "url": "assets/N260016_02.jpg",
-        "cut": "후면",
-        "source": "글램OPS/img_xl_2_sp3ccs.jpg"
+        "cut": "전면",
+        "source": "글램OPS/글램원피스_아베 SML1.jpg"
       },
       {
         "url": "assets/N260016_03.jpg",
-        "cut": "측면",
-        "source": "글램OPS/img_xl_3_mukp0b.jpg"
+        "cut": "전면",
+        "source": "글램OPS/글램원피스_아베 SML2.jpg"
       },
       {
         "url": "assets/N260016_04.jpg",
-        "cut": "확대/디테일",
-        "source": "글램OPS/img_xl_4_rdgdnw.jpg"
+        "cut": "측면",
+        "source": "글램OPS/글램원피스_아베 SML4-측면.jpg"
+      },
+      {
+        "url": "assets/N260016_05.jpg",
+        "cut": "후면",
+        "source": "글램OPS/글램원피스_아베 SML4-후면.jpg"
       }
     ],
     "desc": "글램미디원피스 상품입니다. 베이지/화이트 컬러 구성으로 준비했습니다. 소재는 니트 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
