@@ -1878,21 +1878,21 @@
   },
   {
     "code": "N260024",
-    "origin": "쏘잉BL",
-    "folder": "쏘잉BL",
+    "origin": "베베원피스",
+    "folder": "베베OPS",
     "supplier": "실루엣",
-    "zipFolder": "실루엣/쏘잉BL",
-    "name": "스트라이프 리본 탑 블라우스",
-    "storeName": "스트라이프 리본 탑 블라우스",
-    "category": "TOP",
-    "color": "",
+    "zipFolder": "실루엣/베베OPS",
+    "name": "베베원피스",
+    "storeName": "베베원피스",
+    "category": "MINI",
+    "color": "아이보리/블랙",
     "size": "S,M,L",
-    "price": 75000.0,
+    "price": 119000.0,
     "tags": [
       "BEST",
+      "MINI",
       "PARTY",
-      "RECOMMEND",
-      "TOP"
+      "RECOMMEND"
     ],
     "images": [
       "assets/N260024_01.jpg",
@@ -1903,35 +1903,35 @@
     "cuts": [
       {
         "url": "assets/N260024_01.jpg",
-        "cut": "전면",
-        "source": "쏘잉BL/img_xl_1_udokbw.jpg"
+        "cut": "아이보리 전면",
+        "source": "베베OPS/베베원피스_노블 SML1.jpg"
       },
       {
         "url": "assets/N260024_02.jpg",
-        "cut": "후면",
-        "source": "쏘잉BL/img_xl_2_wcgmpa.jpg"
+        "cut": "아이보리 착용",
+        "source": "베베OPS/베베원피스_노블 SML3.jpg"
       },
       {
         "url": "assets/N260024_03.jpg",
-        "cut": "측면",
-        "source": "쏘잉BL/img_xl_3_fem8v0.jpg"
+        "cut": "블랙 착용",
+        "source": "베베OPS/베베원피스_노블 SML4.jpg"
       },
       {
         "url": "assets/N260024_04.jpg",
-        "cut": "확대/디테일",
-        "source": "쏘잉BL/img_xl_4_z2nifm.jpg"
+        "cut": "블랙 전면",
+        "source": "베베OPS/베베원피스_노블 SML2.jpg"
       }
     ],
-    "desc": "스트라이프 리본 오프숄더 탑블라이스 상품입니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 없음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "있음",
-    "see": "없음",
-    "lining": "없음",
+    "desc": "베베원피스는 상세 제품 설명 준비 중입니다. 가격과 기본 상품 정보만 우선 등록했습니다.",
+    "recommend": "데이트/모임/파티/촬영",
+    "fabric": "확인필요",
+    "stretch": "확인필요",
+    "see": "확인필요",
+    "lining": "확인필요",
     "best": true,
-    "name_en": "Stripe Ribbon Top Blouse",
-    "name_cn": "条纹 蝴蝶结 上衣 衬衫",
-    "name_jp": "ストライプ リボン トップス ブラウス"
+    "name_en": "Bebe Mini Dress",
+    "name_cn": "Bebe 迷你连衣裙",
+    "name_jp": "ベベ ミニワンピース"
   },
   {
     "code": "N260025",
