@@ -4769,13 +4769,15 @@
       "assets/N260076_01.jpg",
       "assets/N260076_02.jpg",
       "assets/N260076_03.jpg",
-      "assets/N260076_04.jpg"
+      "assets/N260076_04.jpg",
+      "assets/N260076_05.jpg",
+      "assets/N260076_06.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260076_01.jpg",
         "cut": "전면",
-        "source": "사각쭈글투피스(핑크)/img_xl_1_v8oqf2.jpg"
+        "source": "사각쭈글투피스(핑크)/img_xl.jpg"
       },
       {
         "url": "assets/N260076_02.jpg",
@@ -4791,6 +4793,16 @@
         "url": "assets/N260076_04.jpg",
         "cut": "확대/디테일",
         "source": "사각쭈글투피스(핑크)/img_xl_4_jf6rnl.jpg"
+      },
+      {
+        "url": "assets/N260076_05.jpg",
+        "cut": "후면",
+        "source": "사각쭈글투피스(핑크)/img_xl (5).jpg"
+      },
+      {
+        "url": "assets/N260076_06.jpg",
+        "cut": "확대/디테일",
+        "source": "사각쭈글투피스(핑크)/img_xl (16).jpg"
       }
     ],
     "desc": "플레어크롭투피스 상품입니다. 핑크 컬러 구성으로 준비했습니다. 소재는 폴리혼방 기준입니다. 착용 정보: 신축성 있음, 비침 없음, 안감 있음, 지퍼 뒷지퍼. 클럽, 파티, 방송, 행사룩 등 존재감이 필요한 자리에서 추천드립니다.",
