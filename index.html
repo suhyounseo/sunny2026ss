@@ -964,7 +964,21 @@
       return tags.slice(0,3).map(v=>`<span>${v}</span>`).join('');
     }
 
+    function localizedValue(value){
+      if(!value) return '-';
+      if(LANG === 'kr') return value;
+      const maps = {
+        en: {'아이보리':'Ivory','블랙':'Black','핑크':'Pink','소라':'Sky Blue','블루':'Blue','베이지':'Beige','화이트':'White','라벤더':'Lavender','민트':'Mint','그레이':'Gray','노랑':'Yellow','레드':'Red','있음':'Yes','없음':'No','확인필요':'Check needed','확인 필요':'Check needed','약간':'Slight','상':'Top','하':'Bottom','속바지':'Inner shorts','안감':'Lining'},
+        cn: {'아이보리':'象牙色','블랙':'黑色','핑크':'粉色','소라':'天蓝色','블루':'蓝色','베이지':'米色','화이트':'白色','라벤더':'薰衣草色','민트':'薄荷色','그레이':'灰色','노랑':'黄色','레드':'红色','있음':'有','없음':'无','확인필요':'需确认','확인 필요':'需确认','약간':'微弹','상':'上衣','하':'下装','속바지':'内衬裤','안감':'内衬'},
+        jp: {'아이보리':'アイボリー','블랙':'ブラック','핑크':'ピンク','소라':'スカイブルー','블루':'ブルー','베이지':'ベージュ','화이트':'ホワイト','라벤더':'ラベンダー','민트':'ミント','그레이':'グレー','노랑':'イエロー','레드':'レッド','있음':'あり','없음':'なし','확인필요':'確認必要','확인 필요':'確認必要','약간':'ややあり','상':'トップス','하':'ボトム','속바지':'インナーショーツ','안감':'裏地'}
+      };
+      let out = String(value);
+      Object.entries(maps[LANG] || {}).forEach(([src, dst]) => { out = out.replaceAll(src, dst); });
+      return out;
+    }
+
     function sellingPoints(item){
+      if(LANG !== 'kr') return localizedSellingPoints(item);
       const pts = [];
       const name = item.name || '';
       const cat = item.category || '';
@@ -988,17 +1002,80 @@
       return pts.slice(0,3);
     }
 
+    function localizedSellingPoints(item){
+      const cat = item.category || '';
+      const color = localizedValue(item.color || '');
+      const detailName = productName(item);
+      const byLang = {
+        en: {
+          cat: {
+            'TWO PIECE': 'The coordinated top-and-bottom balance creates a slim waistline and longer-looking proportions.',
+            'MINI': 'The mini length helps the legs look longer and slimmer while giving the look a confident presence.',
+            'MIDI': 'The midi length feels polished and feminine without being overdone.',
+            'LONG': 'The long silhouette moves beautifully and feels especially elegant for special occasions.',
+            'TOP': 'Easy to style on its own or with skirts and pants, this top adds a refined focal point.',
+            'SKIRT': 'The skirt shapes the lower body neatly while keeping a feminine, polished mood.',
+            default: 'The clean silhouette photographs beautifully and gives the outfit a refined presence.'
+          },
+          detail: `${detailName} has a polished detail balance that makes the look feel special without heavy styling.`,
+          color: color ? `The ${color} color mood works well for parties, gatherings, photoshoots, and moments when you want a standout look.` : 'It keeps a graceful mood in person and in photos.'
+        },
+        cn: {
+          cat: {
+            'TWO PIECE': '上下装比例协调，能修饰腰线并拉长整体身形。',
+            'MINI': '迷你长度能让腿部线条显得更修长，整体造型更有存在感。',
+            'MIDI': '中长款长度优雅得体，轻松呈现精致的女性氛围。',
+            'LONG': '长款线条随动作自然流动，适合更正式或特别的场合。',
+            'TOP': '单穿也有亮点，也很适合搭配不同下装，实穿度高。',
+            'SKIRT': '半身裙能整理下半身线条，同时保留柔美精致的氛围。',
+            default: '利落的版型上身和拍照都很有存在感，整体显得更精致。'
+          },
+          detail: `${detailName} 的细节感恰到好处，不需要复杂搭配也能完成精致造型。`,
+          color: color ? `${color} 的色彩氛围高级，适合派对、聚会、拍摄等想要更出众的时刻。` : '实际穿着和拍照时都能保持优雅氛围。'
+        },
+        jp: {
+          cat: {
+            'TWO PIECE': '上下のバランスがよく、ウエストラインをすっきり見せて全体の比率もきれいに整えます。',
+            'MINI': 'ミニ丈が脚のラインを長くすっきり見せ、存在感のあるスタイルに仕上げます。',
+            'MIDI': 'ミディ丈で上品さと女性らしさを無理なく演出できます。',
+            'LONG': '動くたびに流れるロングシルエットが、特別なシーンでより華やかに見せてくれます。',
+            'TOP': '一枚でもポイントになり、さまざまなボトムと合わせやすいデザインです。',
+            'SKIRT': '下半身のラインを整えながら、フェミニンで洗練された印象を添えます。',
+            default: 'すっきりしたラインで写真映えし、上品な存在感を出せるアイテムです。'
+          },
+          detail: `${detailName} はディテールのバランスがよく、シンプルなスタイリングでも完成度の高い印象になります。`,
+          color: color ? `${color} のカラー感が上品で、パーティー、集まり、撮影など目を引きたいシーンにおすすめです。` : '実際の着用時も写真でも、自然に華やかな雰囲気を演出できます。'
+        }
+      };
+      const pack = byLang[LANG];
+      return [(pack.cat[cat] || pack.cat.default), pack.detail, pack.color];
+    }
+
     function sceneText(item){
+      if(LANG !== 'kr') return localizedRecommend(item.recommend);
       return item.recommend
         ? item.recommend.replaceAll('/', ' · ')
         : '파티 · 모임 · 데이트 · 촬영 · 특별한 약속';
     }
 
+    function localizedRecommend(value){
+      const text = value || '파티/모임/데이트/촬영/특별한 약속';
+      const maps = {
+        en: {'데이트':'Date','파티':'Party','모임':'Gathering','촬영':'Photoshoot','출근룩':'Office Look','데일리':'Daily','여름모임':'Summer Gathering','휴양지':'Resort','하객룩':'Wedding Guest','동대문 매장':'Dongdaemun Store','클럽':'Club','방송':'Broadcast','행사':'Event','여름코디':'Summer Styling','특별한 약속':'Special Occasion'},
+        cn: {'데이트':'约会','파티':'派对','모임':'聚会','촬영':'拍摄','출근룩':'通勤','데일리':'日常','여름모임':'夏日聚会','휴양지':'度假','하객룩':'婚礼宾客','동대문 매장':'东大门门店','클럽':'俱乐部','방송':'直播/节目','행사':'活动','여름코디':'夏季穿搭','특별한 약속':'特别约会'},
+        jp: {'데이트':'デート','파티':'パーティー','모임':'集まり','촬영':'撮影','출근룩':'通勤コーデ','데일리':'デイリー','여름모임':'夏の集まり','휴양지':'リゾート','하객룩':'ゲストコーデ','동대문 매장':'東大門店舗','클럽':'クラブ','방송':'配信/番組','행사':'イベント','여름코디':'夏コーデ','특별한 약속':'特別な予定'}
+      };
+      return text.split(/[\/·]/).map(v => v.trim()).filter(Boolean).map(v => maps[LANG][v] || localizedValue(v)).join(' · ');
+    }
+
     function styleNote(item){
       const size = item.size || 'FREE';
-      const stretch = item.stretch || '확인 필요';
+      const stretch = localizedValue(item.stretch || '확인 필요');
       const translatedDesc = productDesc(item);
       if(LANG !== 'kr' && translatedDesc && translatedDesc !== item.desc) return translatedDesc;
+      if(LANG === 'en') return `${productName(item)} has enough detail to stand on its own, so it creates a polished look without complicated styling. Available size option: ${size}. Fit feel: ${stretch}.`;
+      if(LANG === 'cn') return `${productName(item)} 单穿也有足够亮点，不需要复杂搭配也能完成精致造型。尺码为 ${size}，穿着感以 ${stretch} 为准。`;
+      if(LANG === 'jp') return `${productName(item)} は一枚でもポイントになるデザインで、難しいスタイリングなしでも完成度の高いルックに仕上がります。サイズは ${size}、着用感は ${stretch} 基準です。`;
       return `${productName(item)}는 단독으로도 포인트가 충분한 디자인이라 별다른 스타일링 없이도 완성도 높은 룩을 연출할 수 있습니다. 사이즈는 ${size} 구성이며, 착용감은 ${stretch} 기준입니다.`;
     }
 
@@ -1088,10 +1165,10 @@
             </div>
 
             <div class="spec">
-              <div class="cell"><b>${t('color')}</b><span>${item.color || '-'}</span></div>
+              <div class="cell"><b>${t('color')}</b><span>${localizedValue(item.color)}</span></div>
               <div class="cell"><b>${t('size')}</b><span>${item.size || '-'}</span></div>
-              <div class="cell"><b>${t('fit')}</b><span>${item.stretch || '-'}</span></div>
-              <div class="cell"><b>${t('lining')}</b><span>${item.lining || '-'}</span></div>
+              <div class="cell"><b>${t('fit')}</b><span>${localizedValue(item.stretch)}</span></div>
+              <div class="cell"><b>${t('lining')}</b><span>${localizedValue(item.lining)}</span></div>
             </div>
 
             <div class="cta">
