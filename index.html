@@ -851,7 +851,7 @@
     const panelBody = qs('#panelBody');
     const closeBtn = qs('#closeBtn');
 
-    const VERSION = 'match24';
+    const VERSION = 'match25';
     let PRODUCTS = [];
     let FILTER = 'ALL';
     let LANG = localStorage.getItem('niceLang') || 'kr';
@@ -1088,11 +1088,15 @@
     function localizedRecommend(value){
       const text = value || '파티/모임/데이트/촬영/특별한 약속';
       const maps = {
-        en: {'데이트':'Date','파티':'Party','모임':'Gathering','촬영':'Photoshoot','출근룩':'Office Look','데일리':'Daily','여름모임':'Summer Gathering','휴양지':'Resort','하객룩':'Wedding Guest','동대문 매장':'Dongdaemun Store','클럽':'Club','방송':'Broadcast','행사':'Event','여름코디':'Summer Styling','특별한 약속':'Special Occasion'},
-        cn: {'데이트':'约会','파티':'派对','모임':'聚会','촬영':'拍摄','출근룩':'通勤','데일리':'日常','여름모임':'夏日聚会','휴양지':'度假','하객룩':'婚礼宾客','동대문 매장':'东大门门店','클럽':'俱乐部','방송':'直播/节目','행사':'活动','여름코디':'夏季穿搭','특별한 약속':'特别约会'},
-        jp: {'데이트':'デート','파티':'パーティー','모임':'集まり','촬영':'撮影','출근룩':'通勤コーデ','데일리':'デイリー','여름모임':'夏の集まり','휴양지':'リゾート','하객룩':'ゲストコーデ','동대문 매장':'東大門店舗','클럽':'クラブ','방송':'配信/番組','행사':'イベント','여름코디':'夏コーデ','특별한 약속':'特別な予定'}
+        en: {'데이트':'Date','파티':'Party','모임':'Gathering','촬영':'Photoshoot','출근룩':'Office Look','데일리':'Daily','여름모임':'Summer Gathering','휴양지':'Resort','하객룩':'Wedding Guest','클럽':'Club','방송':'Broadcast','행사':'Event','여름코디':'Summer Styling','특별한 약속':'Special Occasion'},
+        cn: {'데이트':'约会','파티':'派对','모임':'聚会','촬영':'拍摄','출근룩':'通勤','데일리':'日常','여름모임':'夏日聚会','휴양지':'度假','하객룩':'婚礼宾客','클럽':'俱乐部','방송':'直播/节目','행사':'活动','여름코디':'夏季穿搭','특별한 약속':'特别约会'},
+        jp: {'데이트':'デート','파티':'パーティー','모임':'集まり','촬영':'撮影','출근룩':'通勤コーデ','데일리':'デイリー','여름모임':'夏の集まり','휴양지':'リゾート','하객룩':'ゲストコーデ','클럽':'クラブ','방송':'配信/番組','행사':'イベント','여름코디':'夏コーデ','특별한 약속':'特別な予定'}
       };
-      return text.split(/[\/·]/).map(v => v.trim()).filter(Boolean).map(v => maps[LANG][v] || localizedValue(v)).join(' · ');
+      return text.split(/[\/·]/)
+        .map(v => v.trim())
+        .filter(Boolean)
+        .map(v => maps[LANG][v] || localizedValue(v))
+        .join(' · ');
     }
 
     function styleNote(item){
