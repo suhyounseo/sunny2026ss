@@ -49,8 +49,70 @@
       "MINI",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P002_01.jpg",
+      "assets/P002_02.jpg",
+      "assets/P002_03.jpg",
+      "assets/P002_04.jpg",
+      "assets/P002_05.jpg",
+      "assets/P002_06.jpg",
+      "assets/P002_07.jpg",
+      "assets/P002_08.jpg",
+      "assets/P002_09.jpg",
+      "assets/P002_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P002_01.jpg",
+        "cut": "대표",
+        "source": "assets/P002_01.jpg"
+      },
+      {
+        "url": "assets/P002_02.jpg",
+        "cut": "대표",
+        "source": "assets/P002_02.jpg"
+      },
+      {
+        "url": "assets/P002_03.jpg",
+        "cut": "대표",
+        "source": "assets/P002_03.jpg"
+      },
+      {
+        "url": "assets/P002_04.jpg",
+        "cut": "컷",
+        "source": "assets/P002_04.jpg"
+      },
+      {
+        "url": "assets/P002_05.jpg",
+        "cut": "컷",
+        "source": "assets/P002_05.jpg"
+      },
+      {
+        "url": "assets/P002_06.jpg",
+        "cut": "컷",
+        "source": "assets/P002_06.jpg"
+      },
+      {
+        "url": "assets/P002_07.jpg",
+        "cut": "확대상",
+        "source": "assets/P002_07.jpg"
+      },
+      {
+        "url": "assets/P002_08.jpg",
+        "cut": "확대하",
+        "source": "assets/P002_08.jpg"
+      },
+      {
+        "url": "assets/P002_09.jpg",
+        "cut": "후면",
+        "source": "assets/P002_09.jpg"
+      },
+      {
+        "url": "assets/P002_10.jpg",
+        "cut": "전후",
+        "source": "assets/P002_10.jpg"
+      }
+    ],
     "desc": "엘린 리본홀터 플레어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘린 리본홀터 플레어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 브라이덜샤워",
     "fabric": "원피스",
@@ -81,8 +143,70 @@
       "MINI",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P003_01.jpg",
+      "assets/P003_02.jpg",
+      "assets/P003_03.jpg",
+      "assets/P003_04.jpg",
+      "assets/P003_05.jpg",
+      "assets/P003_06.jpg",
+      "assets/P003_07.jpg",
+      "assets/P003_08.jpg",
+      "assets/P003_09.jpg",
+      "assets/P003_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P003_01.jpg",
+        "cut": "컷",
+        "source": "assets/P003_01.jpg"
+      },
+      {
+        "url": "assets/P003_02.jpg",
+        "cut": "컷",
+        "source": "assets/P003_02.jpg"
+      },
+      {
+        "url": "assets/P003_03.jpg",
+        "cut": "컷",
+        "source": "assets/P003_03.jpg"
+      },
+      {
+        "url": "assets/P003_04.jpg",
+        "cut": "컷",
+        "source": "assets/P003_04.jpg"
+      },
+      {
+        "url": "assets/P003_05.jpg",
+        "cut": "컷",
+        "source": "assets/P003_05.jpg"
+      },
+      {
+        "url": "assets/P003_06.jpg",
+        "cut": "컷",
+        "source": "assets/P003_06.jpg"
+      },
+      {
+        "url": "assets/P003_07.jpg",
+        "cut": "컷",
+        "source": "assets/P003_07.jpg"
+      },
+      {
+        "url": "assets/P003_08.jpg",
+        "cut": "컷",
+        "source": "assets/P003_08.jpg"
+      },
+      {
+        "url": "assets/P003_09.jpg",
+        "cut": "컷",
+        "source": "assets/P003_09.jpg"
+      },
+      {
+        "url": "assets/P003_10.jpg",
+        "cut": "컷",
+        "source": "assets/P003_10.jpg"
+      }
+    ],
     "desc": "세린 초커넥 플리츠 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 세린 초커넥 플리츠 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "클럽 / 파티 / 방송 / 촬영 / 모임",
     "fabric": "원피스",
@@ -113,8 +237,58 @@
       "MINI",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P004_01.jpg",
+      "assets/P004_02.jpg",
+      "assets/P004_03.jpg",
+      "assets/P004_04.jpg",
+      "assets/P004_05.jpg",
+      "assets/P004_06.jpg",
+      "assets/P004_07.jpg",
+      "assets/P004_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P004_01.jpg",
+        "cut": "컷",
+        "source": "assets/P004_01.jpg"
+      },
+      {
+        "url": "assets/P004_02.jpg",
+        "cut": "컷",
+        "source": "assets/P004_02.jpg"
+      },
+      {
+        "url": "assets/P004_03.jpg",
+        "cut": "컷",
+        "source": "assets/P004_03.jpg"
+      },
+      {
+        "url": "assets/P004_04.jpg",
+        "cut": "컷",
+        "source": "assets/P004_04.jpg"
+      },
+      {
+        "url": "assets/P004_05.jpg",
+        "cut": "컷",
+        "source": "assets/P004_05.jpg"
+      },
+      {
+        "url": "assets/P004_06.jpg",
+        "cut": "컷",
+        "source": "assets/P004_06.jpg"
+      },
+      {
+        "url": "assets/P004_07.jpg",
+        "cut": "컷",
+        "source": "assets/P004_07.jpg"
+      },
+      {
+        "url": "assets/P004_08.jpg",
+        "cut": "컷",
+        "source": "assets/P004_08.jpg"
+      }
+    ],
     "desc": "로제 트위드 슬림 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로제 트위드 슬림 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 하객룩",
     "fabric": "원피스",
@@ -145,8 +319,70 @@
       "MINI",
       "아이보리도트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P005_01.jpg",
+      "assets/P005_02.jpg",
+      "assets/P005_03.jpg",
+      "assets/P005_04.jpg",
+      "assets/P005_05.jpg",
+      "assets/P005_06.jpg",
+      "assets/P005_07.jpg",
+      "assets/P005_08.jpg",
+      "assets/P005_09.jpg",
+      "assets/P005_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P005_01.jpg",
+        "cut": "컷",
+        "source": "assets/P005_01.jpg"
+      },
+      {
+        "url": "assets/P005_02.jpg",
+        "cut": "컷",
+        "source": "assets/P005_02.jpg"
+      },
+      {
+        "url": "assets/P005_03.jpg",
+        "cut": "컷",
+        "source": "assets/P005_03.jpg"
+      },
+      {
+        "url": "assets/P005_04.jpg",
+        "cut": "컷",
+        "source": "assets/P005_04.jpg"
+      },
+      {
+        "url": "assets/P005_05.jpg",
+        "cut": "컷",
+        "source": "assets/P005_05.jpg"
+      },
+      {
+        "url": "assets/P005_06.jpg",
+        "cut": "컷",
+        "source": "assets/P005_06.jpg"
+      },
+      {
+        "url": "assets/P005_07.jpg",
+        "cut": "컷",
+        "source": "assets/P005_07.jpg"
+      },
+      {
+        "url": "assets/P005_08.jpg",
+        "cut": "컷",
+        "source": "assets/P005_08.jpg"
+      },
+      {
+        "url": "assets/P005_09.jpg",
+        "cut": "컷",
+        "source": "assets/P005_09.jpg"
+      },
+      {
+        "url": "assets/P005_10.jpg",
+        "cut": "컷",
+        "source": "assets/P005_10.jpg"
+      }
+    ],
     "desc": "도트 리본벨트 플레어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 도트 리본벨트 플레어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 생일룩 / 모임 / 방송",
     "fabric": "원피스",
@@ -178,8 +414,70 @@
       "세이지핑크",
       "로즈레드"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P006_01.jpg",
+      "assets/P006_02.jpg",
+      "assets/P006_03.jpg",
+      "assets/P006_04.jpg",
+      "assets/P006_05.jpg",
+      "assets/P006_06.jpg",
+      "assets/P006_07.jpg",
+      "assets/P006_08.jpg",
+      "assets/P006_09.jpg",
+      "assets/P006_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P006_01.jpg",
+        "cut": "컷",
+        "source": "assets/P006_01.jpg"
+      },
+      {
+        "url": "assets/P006_02.jpg",
+        "cut": "컷",
+        "source": "assets/P006_02.jpg"
+      },
+      {
+        "url": "assets/P006_03.jpg",
+        "cut": "컷",
+        "source": "assets/P006_03.jpg"
+      },
+      {
+        "url": "assets/P006_04.jpg",
+        "cut": "컷",
+        "source": "assets/P006_04.jpg"
+      },
+      {
+        "url": "assets/P006_05.jpg",
+        "cut": "컷",
+        "source": "assets/P006_05.jpg"
+      },
+      {
+        "url": "assets/P006_06.jpg",
+        "cut": "컷",
+        "source": "assets/P006_06.jpg"
+      },
+      {
+        "url": "assets/P006_07.jpg",
+        "cut": "컷",
+        "source": "assets/P006_07.jpg"
+      },
+      {
+        "url": "assets/P006_08.jpg",
+        "cut": "컷",
+        "source": "assets/P006_08.jpg"
+      },
+      {
+        "url": "assets/P006_09.jpg",
+        "cut": "컷",
+        "source": "assets/P006_09.jpg"
+      },
+      {
+        "url": "assets/P006_10.jpg",
+        "cut": "컷",
+        "source": "assets/P006_10.jpg"
+      }
+    ],
     "desc": "로제 플라워 카라 플레어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로제 플라워 카라 플레어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 모임 / 파티 / 촬영 / 하객룩",
     "fabric": "원피스",
@@ -210,8 +508,70 @@
       "MINI",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P007_01.jpg",
+      "assets/P007_02.jpg",
+      "assets/P007_03.jpg",
+      "assets/P007_04.jpg",
+      "assets/P007_05.jpg",
+      "assets/P007_06.jpg",
+      "assets/P007_07.jpg",
+      "assets/P007_08.jpg",
+      "assets/P007_09.jpg",
+      "assets/P007_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P007_01.jpg",
+        "cut": "컷",
+        "source": "assets/P007_01.jpg"
+      },
+      {
+        "url": "assets/P007_02.jpg",
+        "cut": "컷",
+        "source": "assets/P007_02.jpg"
+      },
+      {
+        "url": "assets/P007_03.jpg",
+        "cut": "컷",
+        "source": "assets/P007_03.jpg"
+      },
+      {
+        "url": "assets/P007_04.jpg",
+        "cut": "컷",
+        "source": "assets/P007_04.jpg"
+      },
+      {
+        "url": "assets/P007_05.jpg",
+        "cut": "컷",
+        "source": "assets/P007_05.jpg"
+      },
+      {
+        "url": "assets/P007_06.jpg",
+        "cut": "컷",
+        "source": "assets/P007_06.jpg"
+      },
+      {
+        "url": "assets/P007_07.jpg",
+        "cut": "컷",
+        "source": "assets/P007_07.jpg"
+      },
+      {
+        "url": "assets/P007_08.jpg",
+        "cut": "컷",
+        "source": "assets/P007_08.jpg"
+      },
+      {
+        "url": "assets/P007_09.jpg",
+        "cut": "컷",
+        "source": "assets/P007_09.jpg"
+      },
+      {
+        "url": "assets/P007_10.jpg",
+        "cut": "컷",
+        "source": "assets/P007_10.jpg"
+      }
+    ],
     "desc": "블랑 큐빅넥 레이어드 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 블랑 큐빅넥 레이어드 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 모임 / 촬영 / 브라이덜샤워 / 하객룩",
     "fabric": "원피스",
@@ -242,8 +602,70 @@
       "MIDI",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P008_01.jpg",
+      "assets/P008_02.jpg",
+      "assets/P008_03.jpg",
+      "assets/P008_04.jpg",
+      "assets/P008_05.jpg",
+      "assets/P008_06.jpg",
+      "assets/P008_07.jpg",
+      "assets/P008_08.jpg",
+      "assets/P008_09.jpg",
+      "assets/P008_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P008_01.jpg",
+        "cut": "컷",
+        "source": "assets/P008_01.jpg"
+      },
+      {
+        "url": "assets/P008_02.jpg",
+        "cut": "컷",
+        "source": "assets/P008_02.jpg"
+      },
+      {
+        "url": "assets/P008_03.jpg",
+        "cut": "컷",
+        "source": "assets/P008_03.jpg"
+      },
+      {
+        "url": "assets/P008_04.jpg",
+        "cut": "컷",
+        "source": "assets/P008_04.jpg"
+      },
+      {
+        "url": "assets/P008_05.jpg",
+        "cut": "컷",
+        "source": "assets/P008_05.jpg"
+      },
+      {
+        "url": "assets/P008_06.jpg",
+        "cut": "컷",
+        "source": "assets/P008_06.jpg"
+      },
+      {
+        "url": "assets/P008_07.jpg",
+        "cut": "컷",
+        "source": "assets/P008_07.jpg"
+      },
+      {
+        "url": "assets/P008_08.jpg",
+        "cut": "컷",
+        "source": "assets/P008_08.jpg"
+      },
+      {
+        "url": "assets/P008_09.jpg",
+        "cut": "컷",
+        "source": "assets/P008_09.jpg"
+      },
+      {
+        "url": "assets/P008_10.jpg",
+        "cut": "컷",
+        "source": "assets/P008_10.jpg"
+      }
+    ],
     "desc": "블랑 리본레이스 원숄더 미디원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 블랑 리본레이스 원숄더 미디원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 브라이덜샤워 / 모임 / 생일룩",
     "fabric": "원피스",
@@ -274,8 +696,70 @@
       "LONG",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P009_01.jpg",
+      "assets/P009_02.jpg",
+      "assets/P009_03.jpg",
+      "assets/P009_04.jpg",
+      "assets/P009_05.jpg",
+      "assets/P009_06.jpg",
+      "assets/P009_07.jpg",
+      "assets/P009_08.jpg",
+      "assets/P009_09.jpg",
+      "assets/P009_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P009_01.jpg",
+        "cut": "컷",
+        "source": "assets/P009_01.jpg"
+      },
+      {
+        "url": "assets/P009_02.jpg",
+        "cut": "컷",
+        "source": "assets/P009_02.jpg"
+      },
+      {
+        "url": "assets/P009_03.jpg",
+        "cut": "컷",
+        "source": "assets/P009_03.jpg"
+      },
+      {
+        "url": "assets/P009_04.jpg",
+        "cut": "컷",
+        "source": "assets/P009_04.jpg"
+      },
+      {
+        "url": "assets/P009_05.jpg",
+        "cut": "컷",
+        "source": "assets/P009_05.jpg"
+      },
+      {
+        "url": "assets/P009_06.jpg",
+        "cut": "컷",
+        "source": "assets/P009_06.jpg"
+      },
+      {
+        "url": "assets/P009_07.jpg",
+        "cut": "컷",
+        "source": "assets/P009_07.jpg"
+      },
+      {
+        "url": "assets/P009_08.jpg",
+        "cut": "컷",
+        "source": "assets/P009_08.jpg"
+      },
+      {
+        "url": "assets/P009_09.jpg",
+        "cut": "컷",
+        "source": "assets/P009_09.jpg"
+      },
+      {
+        "url": "assets/P009_10.jpg",
+        "cut": "컷",
+        "source": "assets/P009_10.jpg"
+      }
+    ],
     "desc": "엘레나 홀터넥 셔링 롱원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘레나 홀터넥 셔링 롱원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 브라이덜샤워 / 이브닝룩 / 모임",
     "fabric": "원피스",
@@ -307,8 +791,58 @@
       "스카이블루",
       "민트핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P010_01.jpg",
+      "assets/P010_02.jpg",
+      "assets/P010_03.jpg",
+      "assets/P010_04.jpg",
+      "assets/P010_05.jpg",
+      "assets/P010_06.jpg",
+      "assets/P010_07.jpg",
+      "assets/P010_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P010_01.jpg",
+        "cut": "컷",
+        "source": "assets/P010_01.jpg"
+      },
+      {
+        "url": "assets/P010_02.jpg",
+        "cut": "컷",
+        "source": "assets/P010_02.jpg"
+      },
+      {
+        "url": "assets/P010_03.jpg",
+        "cut": "컷",
+        "source": "assets/P010_03.jpg"
+      },
+      {
+        "url": "assets/P010_04.jpg",
+        "cut": "컷",
+        "source": "assets/P010_04.jpg"
+      },
+      {
+        "url": "assets/P010_05.jpg",
+        "cut": "컷",
+        "source": "assets/P010_05.jpg"
+      },
+      {
+        "url": "assets/P010_06.jpg",
+        "cut": "컷",
+        "source": "assets/P010_06.jpg"
+      },
+      {
+        "url": "assets/P010_07.jpg",
+        "cut": "컷",
+        "source": "assets/P010_07.jpg"
+      },
+      {
+        "url": "assets/P010_08.jpg",
+        "cut": "컷",
+        "source": "assets/P010_08.jpg"
+      }
+    ],
     "desc": "아리아 플라워 슬림 미디원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 아리아 플라워 슬림 미디원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 여름룩",
     "fabric": "원피스",
@@ -339,8 +873,70 @@
       "MINI",
       "베이지핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P011_01.jpg",
+      "assets/P011_02.jpg",
+      "assets/P011_03.jpg",
+      "assets/P011_04.jpg",
+      "assets/P011_05.jpg",
+      "assets/P011_06.jpg",
+      "assets/P011_07.jpg",
+      "assets/P011_08.jpg",
+      "assets/P011_09.jpg",
+      "assets/P011_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P011_01.jpg",
+        "cut": "컷",
+        "source": "assets/P011_01.jpg"
+      },
+      {
+        "url": "assets/P011_02.jpg",
+        "cut": "컷",
+        "source": "assets/P011_02.jpg"
+      },
+      {
+        "url": "assets/P011_03.jpg",
+        "cut": "컷",
+        "source": "assets/P011_03.jpg"
+      },
+      {
+        "url": "assets/P011_04.jpg",
+        "cut": "컷",
+        "source": "assets/P011_04.jpg"
+      },
+      {
+        "url": "assets/P011_05.jpg",
+        "cut": "컷",
+        "source": "assets/P011_05.jpg"
+      },
+      {
+        "url": "assets/P011_06.jpg",
+        "cut": "컷",
+        "source": "assets/P011_06.jpg"
+      },
+      {
+        "url": "assets/P011_07.jpg",
+        "cut": "컷",
+        "source": "assets/P011_07.jpg"
+      },
+      {
+        "url": "assets/P011_08.jpg",
+        "cut": "컷",
+        "source": "assets/P011_08.jpg"
+      },
+      {
+        "url": "assets/P011_09.jpg",
+        "cut": "컷",
+        "source": "assets/P011_09.jpg"
+      },
+      {
+        "url": "assets/P011_10.jpg",
+        "cut": "컷",
+        "source": "assets/P011_10.jpg"
+      }
+    ],
     "desc": "엘리 큐빅홀터 리본 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘리 큐빅홀터 리본 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -371,8 +967,70 @@
       "MINI",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P012_01.jpg",
+      "assets/P012_02.jpg",
+      "assets/P012_03.jpg",
+      "assets/P012_04.jpg",
+      "assets/P012_05.jpg",
+      "assets/P012_06.jpg",
+      "assets/P012_07.jpg",
+      "assets/P012_08.jpg",
+      "assets/P012_09.jpg",
+      "assets/P012_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P012_01.jpg",
+        "cut": "컷",
+        "source": "assets/P012_01.jpg"
+      },
+      {
+        "url": "assets/P012_02.jpg",
+        "cut": "컷",
+        "source": "assets/P012_02.jpg"
+      },
+      {
+        "url": "assets/P012_03.jpg",
+        "cut": "컷",
+        "source": "assets/P012_03.jpg"
+      },
+      {
+        "url": "assets/P012_04.jpg",
+        "cut": "컷",
+        "source": "assets/P012_04.jpg"
+      },
+      {
+        "url": "assets/P012_05.jpg",
+        "cut": "컷",
+        "source": "assets/P012_05.jpg"
+      },
+      {
+        "url": "assets/P012_06.jpg",
+        "cut": "컷",
+        "source": "assets/P012_06.jpg"
+      },
+      {
+        "url": "assets/P012_07.jpg",
+        "cut": "컷",
+        "source": "assets/P012_07.jpg"
+      },
+      {
+        "url": "assets/P012_08.jpg",
+        "cut": "컷",
+        "source": "assets/P012_08.jpg"
+      },
+      {
+        "url": "assets/P012_09.jpg",
+        "cut": "컷",
+        "source": "assets/P012_09.jpg"
+      },
+      {
+        "url": "assets/P012_10.jpg",
+        "cut": "컷",
+        "source": "assets/P012_10.jpg"
+      }
+    ],
     "desc": "로아 러플 오프숄더 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 러플 오프숄더 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 생일룩 / 모임 / 클럽",
     "fabric": "원피스",
@@ -403,8 +1061,70 @@
       "MINI",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P013_01.jpg",
+      "assets/P013_02.jpg",
+      "assets/P013_03.jpg",
+      "assets/P013_04.jpg",
+      "assets/P013_05.jpg",
+      "assets/P013_06.jpg",
+      "assets/P013_07.jpg",
+      "assets/P013_08.jpg",
+      "assets/P013_09.jpg",
+      "assets/P013_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P013_01.jpg",
+        "cut": "컷",
+        "source": "assets/P013_01.jpg"
+      },
+      {
+        "url": "assets/P013_02.jpg",
+        "cut": "컷",
+        "source": "assets/P013_02.jpg"
+      },
+      {
+        "url": "assets/P013_03.jpg",
+        "cut": "컷",
+        "source": "assets/P013_03.jpg"
+      },
+      {
+        "url": "assets/P013_04.jpg",
+        "cut": "컷",
+        "source": "assets/P013_04.jpg"
+      },
+      {
+        "url": "assets/P013_05.jpg",
+        "cut": "컷",
+        "source": "assets/P013_05.jpg"
+      },
+      {
+        "url": "assets/P013_06.jpg",
+        "cut": "컷",
+        "source": "assets/P013_06.jpg"
+      },
+      {
+        "url": "assets/P013_07.jpg",
+        "cut": "컷",
+        "source": "assets/P013_07.jpg"
+      },
+      {
+        "url": "assets/P013_08.jpg",
+        "cut": "컷",
+        "source": "assets/P013_08.jpg"
+      },
+      {
+        "url": "assets/P013_09.jpg",
+        "cut": "컷",
+        "source": "assets/P013_09.jpg"
+      },
+      {
+        "url": "assets/P013_10.jpg",
+        "cut": "컷",
+        "source": "assets/P013_10.jpg"
+      }
+    ],
     "desc": "엘라 비즈스트랩 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘라 비즈스트랩 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 하객룩",
     "fabric": "원피스",
@@ -435,8 +1155,70 @@
       "MINI",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P014_01.jpg",
+      "assets/P014_02.jpg",
+      "assets/P014_03.jpg",
+      "assets/P014_04.jpg",
+      "assets/P014_05.jpg",
+      "assets/P014_06.jpg",
+      "assets/P014_07.jpg",
+      "assets/P014_08.jpg",
+      "assets/P014_09.jpg",
+      "assets/P014_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P014_01.jpg",
+        "cut": "컷",
+        "source": "assets/P014_01.jpg"
+      },
+      {
+        "url": "assets/P014_02.jpg",
+        "cut": "컷",
+        "source": "assets/P014_02.jpg"
+      },
+      {
+        "url": "assets/P014_03.jpg",
+        "cut": "컷",
+        "source": "assets/P014_03.jpg"
+      },
+      {
+        "url": "assets/P014_04.jpg",
+        "cut": "컷",
+        "source": "assets/P014_04.jpg"
+      },
+      {
+        "url": "assets/P014_05.jpg",
+        "cut": "컷",
+        "source": "assets/P014_05.jpg"
+      },
+      {
+        "url": "assets/P014_06.jpg",
+        "cut": "컷",
+        "source": "assets/P014_06.jpg"
+      },
+      {
+        "url": "assets/P014_07.jpg",
+        "cut": "컷",
+        "source": "assets/P014_07.jpg"
+      },
+      {
+        "url": "assets/P014_08.jpg",
+        "cut": "컷",
+        "source": "assets/P014_08.jpg"
+      },
+      {
+        "url": "assets/P014_09.jpg",
+        "cut": "컷",
+        "source": "assets/P014_09.jpg"
+      },
+      {
+        "url": "assets/P014_10.jpg",
+        "cut": "컷",
+        "source": "assets/P014_10.jpg"
+      }
+    ],
     "desc": "로미 리본스트랩 플레어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로미 리본스트랩 플레어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 생일룩 / 모임",
     "fabric": "원피스",
@@ -467,8 +1249,70 @@
       "TWO PIECE",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P015_01.jpg",
+      "assets/P015_02.jpg",
+      "assets/P015_03.jpg",
+      "assets/P015_04.jpg",
+      "assets/P015_05.jpg",
+      "assets/P015_06.jpg",
+      "assets/P015_07.jpg",
+      "assets/P015_08.jpg",
+      "assets/P015_09.jpg",
+      "assets/P015_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P015_01.jpg",
+        "cut": "컷",
+        "source": "assets/P015_01.jpg"
+      },
+      {
+        "url": "assets/P015_02.jpg",
+        "cut": "컷",
+        "source": "assets/P015_02.jpg"
+      },
+      {
+        "url": "assets/P015_03.jpg",
+        "cut": "컷",
+        "source": "assets/P015_03.jpg"
+      },
+      {
+        "url": "assets/P015_04.jpg",
+        "cut": "컷",
+        "source": "assets/P015_04.jpg"
+      },
+      {
+        "url": "assets/P015_05.jpg",
+        "cut": "컷",
+        "source": "assets/P015_05.jpg"
+      },
+      {
+        "url": "assets/P015_06.jpg",
+        "cut": "컷",
+        "source": "assets/P015_06.jpg"
+      },
+      {
+        "url": "assets/P015_07.jpg",
+        "cut": "컷",
+        "source": "assets/P015_07.jpg"
+      },
+      {
+        "url": "assets/P015_08.jpg",
+        "cut": "컷",
+        "source": "assets/P015_08.jpg"
+      },
+      {
+        "url": "assets/P015_09.jpg",
+        "cut": "컷",
+        "source": "assets/P015_09.jpg"
+      },
+      {
+        "url": "assets/P015_10.jpg",
+        "cut": "컷",
+        "source": "assets/P015_10.jpg"
+      }
+    ],
     "desc": "로라 체크타이 크롭 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로라 체크타이 크롭 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 생일룩 / 방송 / 하이틴룩",
     "fabric": "크롭 블라우스 + 체크 플레어 스커트 투피스",
@@ -499,8 +1343,58 @@
       "MINI",
       "연핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P016_01.jpg",
+      "assets/P016_02.jpg",
+      "assets/P016_03.jpg",
+      "assets/P016_04.jpg",
+      "assets/P016_05.jpg",
+      "assets/P016_06.jpg",
+      "assets/P016_07.jpg",
+      "assets/P016_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P016_01.jpg",
+        "cut": "컷",
+        "source": "assets/P016_01.jpg"
+      },
+      {
+        "url": "assets/P016_02.jpg",
+        "cut": "컷",
+        "source": "assets/P016_02.jpg"
+      },
+      {
+        "url": "assets/P016_03.jpg",
+        "cut": "컷",
+        "source": "assets/P016_03.jpg"
+      },
+      {
+        "url": "assets/P016_04.jpg",
+        "cut": "컷",
+        "source": "assets/P016_04.jpg"
+      },
+      {
+        "url": "assets/P016_05.jpg",
+        "cut": "컷",
+        "source": "assets/P016_05.jpg"
+      },
+      {
+        "url": "assets/P016_06.jpg",
+        "cut": "컷",
+        "source": "assets/P016_06.jpg"
+      },
+      {
+        "url": "assets/P016_07.jpg",
+        "cut": "컷",
+        "source": "assets/P016_07.jpg"
+      },
+      {
+        "url": "assets/P016_08.jpg",
+        "cut": "컷",
+        "source": "assets/P016_08.jpg"
+      }
+    ],
     "desc": "엘린 쉬폰셔링 플레어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘린 쉬폰셔링 플레어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 브라이덜샤워 / 모임",
     "fabric": "원피스",
@@ -564,8 +1458,70 @@
       "아이보리",
       "베이지"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P018_01.jpg",
+      "assets/P018_02.jpg",
+      "assets/P018_03.jpg",
+      "assets/P018_04.jpg",
+      "assets/P018_05.jpg",
+      "assets/P018_06.jpg",
+      "assets/P018_07.jpg",
+      "assets/P018_08.jpg",
+      "assets/P018_09.jpg",
+      "assets/P018_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P018_01.jpg",
+        "cut": "컷",
+        "source": "assets/P018_01.jpg"
+      },
+      {
+        "url": "assets/P018_02.jpg",
+        "cut": "컷",
+        "source": "assets/P018_02.jpg"
+      },
+      {
+        "url": "assets/P018_03.jpg",
+        "cut": "컷",
+        "source": "assets/P018_03.jpg"
+      },
+      {
+        "url": "assets/P018_04.jpg",
+        "cut": "컷",
+        "source": "assets/P018_04.jpg"
+      },
+      {
+        "url": "assets/P018_05.jpg",
+        "cut": "컷",
+        "source": "assets/P018_05.jpg"
+      },
+      {
+        "url": "assets/P018_06.jpg",
+        "cut": "컷",
+        "source": "assets/P018_06.jpg"
+      },
+      {
+        "url": "assets/P018_07.jpg",
+        "cut": "컷",
+        "source": "assets/P018_07.jpg"
+      },
+      {
+        "url": "assets/P018_08.jpg",
+        "cut": "컷",
+        "source": "assets/P018_08.jpg"
+      },
+      {
+        "url": "assets/P018_09.jpg",
+        "cut": "컷",
+        "source": "assets/P018_09.jpg"
+      },
+      {
+        "url": "assets/P018_10.jpg",
+        "cut": "컷",
+        "source": "assets/P018_10.jpg"
+      }
+    ],
     "desc": "엘라 셔링홀터 미니 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘라 셔링홀터 미니 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 방송 / 모임 / 클럽",
     "fabric": "홀터넥 블라우스 + 미니 스커트 투피스",
@@ -597,8 +1553,70 @@
       "크림베이지",
       "실버그레이"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P019_01.jpg",
+      "assets/P019_02.jpg",
+      "assets/P019_03.jpg",
+      "assets/P019_04.jpg",
+      "assets/P019_05.jpg",
+      "assets/P019_06.jpg",
+      "assets/P019_07.jpg",
+      "assets/P019_08.jpg",
+      "assets/P019_09.jpg",
+      "assets/P019_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P019_01.jpg",
+        "cut": "컷",
+        "source": "assets/P019_01.jpg"
+      },
+      {
+        "url": "assets/P019_02.jpg",
+        "cut": "컷",
+        "source": "assets/P019_02.jpg"
+      },
+      {
+        "url": "assets/P019_03.jpg",
+        "cut": "컷",
+        "source": "assets/P019_03.jpg"
+      },
+      {
+        "url": "assets/P019_04.jpg",
+        "cut": "컷",
+        "source": "assets/P019_04.jpg"
+      },
+      {
+        "url": "assets/P019_05.jpg",
+        "cut": "컷",
+        "source": "assets/P019_05.jpg"
+      },
+      {
+        "url": "assets/P019_06.jpg",
+        "cut": "컷",
+        "source": "assets/P019_06.jpg"
+      },
+      {
+        "url": "assets/P019_07.jpg",
+        "cut": "컷",
+        "source": "assets/P019_07.jpg"
+      },
+      {
+        "url": "assets/P019_08.jpg",
+        "cut": "컷",
+        "source": "assets/P019_08.jpg"
+      },
+      {
+        "url": "assets/P019_09.jpg",
+        "cut": "컷",
+        "source": "assets/P019_09.jpg"
+      },
+      {
+        "url": "assets/P019_10.jpg",
+        "cut": "컷",
+        "source": "assets/P019_10.jpg"
+      }
+    ],
     "desc": "셀린 홀터넥 머메이드 롱드레스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 셀린 홀터넥 머메이드 롱드레스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 이브닝룩 / 촬영 / 모임 / 생일룩",
     "fabric": "롱드레스",
@@ -630,8 +1648,70 @@
       "핑크",
       "민트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P020_01.jpg",
+      "assets/P020_02.jpg",
+      "assets/P020_03.jpg",
+      "assets/P020_04.jpg",
+      "assets/P020_05.jpg",
+      "assets/P020_06.jpg",
+      "assets/P020_07.jpg",
+      "assets/P020_08.jpg",
+      "assets/P020_09.jpg",
+      "assets/P020_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P020_01.jpg",
+        "cut": "컷",
+        "source": "assets/P020_01.jpg"
+      },
+      {
+        "url": "assets/P020_02.jpg",
+        "cut": "컷",
+        "source": "assets/P020_02.jpg"
+      },
+      {
+        "url": "assets/P020_03.jpg",
+        "cut": "컷",
+        "source": "assets/P020_03.jpg"
+      },
+      {
+        "url": "assets/P020_04.jpg",
+        "cut": "컷",
+        "source": "assets/P020_04.jpg"
+      },
+      {
+        "url": "assets/P020_05.jpg",
+        "cut": "컷",
+        "source": "assets/P020_05.jpg"
+      },
+      {
+        "url": "assets/P020_06.jpg",
+        "cut": "컷",
+        "source": "assets/P020_06.jpg"
+      },
+      {
+        "url": "assets/P020_07.jpg",
+        "cut": "컷",
+        "source": "assets/P020_07.jpg"
+      },
+      {
+        "url": "assets/P020_08.jpg",
+        "cut": "컷",
+        "source": "assets/P020_08.jpg"
+      },
+      {
+        "url": "assets/P020_09.jpg",
+        "cut": "컷",
+        "source": "assets/P020_09.jpg"
+      },
+      {
+        "url": "assets/P020_10.jpg",
+        "cut": "컷",
+        "source": "assets/P020_10.jpg"
+      }
+    ],
     "desc": "로엘 트위드 샤스커트 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로엘 트위드 샤스커트 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 모임 / 촬영 / 파티 / 하객룩",
     "fabric": "트위드 베스트 + 샤스커트 투피스",
@@ -663,8 +1743,70 @@
       "크림베이지",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P021_01.jpg",
+      "assets/P021_02.jpg",
+      "assets/P021_03.jpg",
+      "assets/P021_04.jpg",
+      "assets/P021_05.jpg",
+      "assets/P021_06.jpg",
+      "assets/P021_07.jpg",
+      "assets/P021_08.jpg",
+      "assets/P021_09.jpg",
+      "assets/P021_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P021_01.jpg",
+        "cut": "컷",
+        "source": "assets/P021_01.jpg"
+      },
+      {
+        "url": "assets/P021_02.jpg",
+        "cut": "컷",
+        "source": "assets/P021_02.jpg"
+      },
+      {
+        "url": "assets/P021_03.jpg",
+        "cut": "컷",
+        "source": "assets/P021_03.jpg"
+      },
+      {
+        "url": "assets/P021_04.jpg",
+        "cut": "컷",
+        "source": "assets/P021_04.jpg"
+      },
+      {
+        "url": "assets/P021_05.jpg",
+        "cut": "컷",
+        "source": "assets/P021_05.jpg"
+      },
+      {
+        "url": "assets/P021_06.jpg",
+        "cut": "컷",
+        "source": "assets/P021_06.jpg"
+      },
+      {
+        "url": "assets/P021_07.jpg",
+        "cut": "컷",
+        "source": "assets/P021_07.jpg"
+      },
+      {
+        "url": "assets/P021_08.jpg",
+        "cut": "컷",
+        "source": "assets/P021_08.jpg"
+      },
+      {
+        "url": "assets/P021_09.jpg",
+        "cut": "컷",
+        "source": "assets/P021_09.jpg"
+      },
+      {
+        "url": "assets/P021_10.jpg",
+        "cut": "컷",
+        "source": "assets/P021_10.jpg"
+      }
+    ],
     "desc": "셀린 셔링 오프숄더 롱드레스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 셀린 셔링 오프숄더 롱드레스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 이브닝룩 / 촬영 / 모임 / 생일룩",
     "fabric": "롱드레스",
@@ -696,8 +1838,70 @@
       "아이보리",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P022_01.jpg",
+      "assets/P022_02.jpg",
+      "assets/P022_03.jpg",
+      "assets/P022_04.jpg",
+      "assets/P022_05.jpg",
+      "assets/P022_06.jpg",
+      "assets/P022_07.jpg",
+      "assets/P022_08.jpg",
+      "assets/P022_09.jpg",
+      "assets/P022_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P022_01.jpg",
+        "cut": "컷",
+        "source": "assets/P022_01.jpg"
+      },
+      {
+        "url": "assets/P022_02.jpg",
+        "cut": "컷",
+        "source": "assets/P022_02.jpg"
+      },
+      {
+        "url": "assets/P022_03.jpg",
+        "cut": "컷",
+        "source": "assets/P022_03.jpg"
+      },
+      {
+        "url": "assets/P022_04.jpg",
+        "cut": "컷",
+        "source": "assets/P022_04.jpg"
+      },
+      {
+        "url": "assets/P022_05.jpg",
+        "cut": "컷",
+        "source": "assets/P022_05.jpg"
+      },
+      {
+        "url": "assets/P022_06.jpg",
+        "cut": "컷",
+        "source": "assets/P022_06.jpg"
+      },
+      {
+        "url": "assets/P022_07.jpg",
+        "cut": "컷",
+        "source": "assets/P022_07.jpg"
+      },
+      {
+        "url": "assets/P022_08.jpg",
+        "cut": "컷",
+        "source": "assets/P022_08.jpg"
+      },
+      {
+        "url": "assets/P022_09.jpg",
+        "cut": "컷",
+        "source": "assets/P022_09.jpg"
+      },
+      {
+        "url": "assets/P022_10.jpg",
+        "cut": "컷",
+        "source": "assets/P022_10.jpg"
+      }
+    ],
     "desc": "엘리 큐빅넥 프릴 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘리 큐빅넥 프릴 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -728,8 +1932,58 @@
       "MINI",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P023_01.jpg",
+      "assets/P023_02.jpg",
+      "assets/P023_03.jpg",
+      "assets/P023_04.jpg",
+      "assets/P023_05.jpg",
+      "assets/P023_06.jpg",
+      "assets/P023_07.jpg",
+      "assets/P023_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P023_01.jpg",
+        "cut": "컷",
+        "source": "assets/P023_01.jpg"
+      },
+      {
+        "url": "assets/P023_02.jpg",
+        "cut": "컷",
+        "source": "assets/P023_02.jpg"
+      },
+      {
+        "url": "assets/P023_03.jpg",
+        "cut": "컷",
+        "source": "assets/P023_03.jpg"
+      },
+      {
+        "url": "assets/P023_04.jpg",
+        "cut": "컷",
+        "source": "assets/P023_04.jpg"
+      },
+      {
+        "url": "assets/P023_05.jpg",
+        "cut": "컷",
+        "source": "assets/P023_05.jpg"
+      },
+      {
+        "url": "assets/P023_06.jpg",
+        "cut": "컷",
+        "source": "assets/P023_06.jpg"
+      },
+      {
+        "url": "assets/P023_07.jpg",
+        "cut": "컷",
+        "source": "assets/P023_07.jpg"
+      },
+      {
+        "url": "assets/P023_08.jpg",
+        "cut": "컷",
+        "source": "assets/P023_08.jpg"
+      }
+    ],
     "desc": "로제 레이스카라 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로제 레이스카라 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 모임 / 촬영 / 파티 / 생일룩",
     "fabric": "원피스",
@@ -761,8 +2015,70 @@
       "스카이블루",
       "네이비"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P024_01.jpg",
+      "assets/P024_02.jpg",
+      "assets/P024_03.jpg",
+      "assets/P024_04.jpg",
+      "assets/P024_05.jpg",
+      "assets/P024_06.jpg",
+      "assets/P024_07.jpg",
+      "assets/P024_08.jpg",
+      "assets/P024_09.jpg",
+      "assets/P024_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P024_01.jpg",
+        "cut": "컷",
+        "source": "assets/P024_01.jpg"
+      },
+      {
+        "url": "assets/P024_02.jpg",
+        "cut": "컷",
+        "source": "assets/P024_02.jpg"
+      },
+      {
+        "url": "assets/P024_03.jpg",
+        "cut": "컷",
+        "source": "assets/P024_03.jpg"
+      },
+      {
+        "url": "assets/P024_04.jpg",
+        "cut": "컷",
+        "source": "assets/P024_04.jpg"
+      },
+      {
+        "url": "assets/P024_05.jpg",
+        "cut": "컷",
+        "source": "assets/P024_05.jpg"
+      },
+      {
+        "url": "assets/P024_06.jpg",
+        "cut": "컷",
+        "source": "assets/P024_06.jpg"
+      },
+      {
+        "url": "assets/P024_07.jpg",
+        "cut": "컷",
+        "source": "assets/P024_07.jpg"
+      },
+      {
+        "url": "assets/P024_08.jpg",
+        "cut": "컷",
+        "source": "assets/P024_08.jpg"
+      },
+      {
+        "url": "assets/P024_09.jpg",
+        "cut": "컷",
+        "source": "assets/P024_09.jpg"
+      },
+      {
+        "url": "assets/P024_10.jpg",
+        "cut": "컷",
+        "source": "assets/P024_10.jpg"
+      }
+    ],
     "desc": "로아 빅리본 오프숄더 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 빅리본 오프숄더 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -794,8 +2110,70 @@
       "아이보리핑크",
       "스카이블루"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P025_01.jpg",
+      "assets/P025_02.jpg",
+      "assets/P025_03.jpg",
+      "assets/P025_04.jpg",
+      "assets/P025_05.jpg",
+      "assets/P025_06.jpg",
+      "assets/P025_07.jpg",
+      "assets/P025_08.jpg",
+      "assets/P025_09.jpg",
+      "assets/P025_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P025_01.jpg",
+        "cut": "컷",
+        "source": "assets/P025_01.jpg"
+      },
+      {
+        "url": "assets/P025_02.jpg",
+        "cut": "컷",
+        "source": "assets/P025_02.jpg"
+      },
+      {
+        "url": "assets/P025_03.jpg",
+        "cut": "컷",
+        "source": "assets/P025_03.jpg"
+      },
+      {
+        "url": "assets/P025_04.jpg",
+        "cut": "컷",
+        "source": "assets/P025_04.jpg"
+      },
+      {
+        "url": "assets/P025_05.jpg",
+        "cut": "컷",
+        "source": "assets/P025_05.jpg"
+      },
+      {
+        "url": "assets/P025_06.jpg",
+        "cut": "컷",
+        "source": "assets/P025_06.jpg"
+      },
+      {
+        "url": "assets/P025_07.jpg",
+        "cut": "컷",
+        "source": "assets/P025_07.jpg"
+      },
+      {
+        "url": "assets/P025_08.jpg",
+        "cut": "컷",
+        "source": "assets/P025_08.jpg"
+      },
+      {
+        "url": "assets/P025_09.jpg",
+        "cut": "컷",
+        "source": "assets/P025_09.jpg"
+      },
+      {
+        "url": "assets/P025_10.jpg",
+        "cut": "컷",
+        "source": "assets/P025_10.jpg"
+      }
+    ],
     "desc": "로제 리본플라워 오프숄더 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로제 리본플라워 오프숄더 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 생일룩 / 촬영 / 모임 / 데이트",
     "fabric": "원피스",
@@ -827,8 +2205,70 @@
       "핑크",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P026_01.jpg",
+      "assets/P026_02.jpg",
+      "assets/P026_03.jpg",
+      "assets/P026_04.jpg",
+      "assets/P026_05.jpg",
+      "assets/P026_06.jpg",
+      "assets/P026_07.jpg",
+      "assets/P026_08.jpg",
+      "assets/P026_09.jpg",
+      "assets/P026_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P026_01.jpg",
+        "cut": "컷",
+        "source": "assets/P026_01.jpg"
+      },
+      {
+        "url": "assets/P026_02.jpg",
+        "cut": "컷",
+        "source": "assets/P026_02.jpg"
+      },
+      {
+        "url": "assets/P026_03.jpg",
+        "cut": "컷",
+        "source": "assets/P026_03.jpg"
+      },
+      {
+        "url": "assets/P026_04.jpg",
+        "cut": "컷",
+        "source": "assets/P026_04.jpg"
+      },
+      {
+        "url": "assets/P026_05.jpg",
+        "cut": "컷",
+        "source": "assets/P026_05.jpg"
+      },
+      {
+        "url": "assets/P026_06.jpg",
+        "cut": "컷",
+        "source": "assets/P026_06.jpg"
+      },
+      {
+        "url": "assets/P026_07.jpg",
+        "cut": "컷",
+        "source": "assets/P026_07.jpg"
+      },
+      {
+        "url": "assets/P026_08.jpg",
+        "cut": "컷",
+        "source": "assets/P026_08.jpg"
+      },
+      {
+        "url": "assets/P026_09.jpg",
+        "cut": "컷",
+        "source": "assets/P026_09.jpg"
+      },
+      {
+        "url": "assets/P026_10.jpg",
+        "cut": "컷",
+        "source": "assets/P026_10.jpg"
+      }
+    ],
     "desc": "엘라 새틴리본 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘라 새틴리본 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 생일룩 / 촬영 / 모임 / 클럽",
     "fabric": "원피스",
@@ -860,8 +2300,70 @@
       "아이보리",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P027_01.jpg",
+      "assets/P027_02.jpg",
+      "assets/P027_03.jpg",
+      "assets/P027_04.jpg",
+      "assets/P027_05.jpg",
+      "assets/P027_06.jpg",
+      "assets/P027_07.jpg",
+      "assets/P027_08.jpg",
+      "assets/P027_09.jpg",
+      "assets/P027_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P027_01.jpg",
+        "cut": "컷",
+        "source": "assets/P027_01.jpg"
+      },
+      {
+        "url": "assets/P027_02.jpg",
+        "cut": "컷",
+        "source": "assets/P027_02.jpg"
+      },
+      {
+        "url": "assets/P027_03.jpg",
+        "cut": "컷",
+        "source": "assets/P027_03.jpg"
+      },
+      {
+        "url": "assets/P027_04.jpg",
+        "cut": "컷",
+        "source": "assets/P027_04.jpg"
+      },
+      {
+        "url": "assets/P027_05.jpg",
+        "cut": "컷",
+        "source": "assets/P027_05.jpg"
+      },
+      {
+        "url": "assets/P027_06.jpg",
+        "cut": "컷",
+        "source": "assets/P027_06.jpg"
+      },
+      {
+        "url": "assets/P027_07.jpg",
+        "cut": "컷",
+        "source": "assets/P027_07.jpg"
+      },
+      {
+        "url": "assets/P027_08.jpg",
+        "cut": "컷",
+        "source": "assets/P027_08.jpg"
+      },
+      {
+        "url": "assets/P027_09.jpg",
+        "cut": "컷",
+        "source": "assets/P027_09.jpg"
+      },
+      {
+        "url": "assets/P027_10.jpg",
+        "cut": "컷",
+        "source": "assets/P027_10.jpg"
+      }
+    ],
     "desc": "엘린 리본스퀘어 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘린 리본스퀘어 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 생일룩 / 모임",
     "fabric": "원피스",
@@ -893,8 +2395,70 @@
       "아이보리",
       "스카이블루"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P028_01.jpg",
+      "assets/P028_02.jpg",
+      "assets/P028_03.jpg",
+      "assets/P028_04.jpg",
+      "assets/P028_05.jpg",
+      "assets/P028_06.jpg",
+      "assets/P028_07.jpg",
+      "assets/P028_08.jpg",
+      "assets/P028_09.jpg",
+      "assets/P028_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P028_01.jpg",
+        "cut": "컷",
+        "source": "assets/P028_01.jpg"
+      },
+      {
+        "url": "assets/P028_02.jpg",
+        "cut": "컷",
+        "source": "assets/P028_02.jpg"
+      },
+      {
+        "url": "assets/P028_03.jpg",
+        "cut": "컷",
+        "source": "assets/P028_03.jpg"
+      },
+      {
+        "url": "assets/P028_04.jpg",
+        "cut": "컷",
+        "source": "assets/P028_04.jpg"
+      },
+      {
+        "url": "assets/P028_05.jpg",
+        "cut": "컷",
+        "source": "assets/P028_05.jpg"
+      },
+      {
+        "url": "assets/P028_06.jpg",
+        "cut": "컷",
+        "source": "assets/P028_06.jpg"
+      },
+      {
+        "url": "assets/P028_07.jpg",
+        "cut": "컷",
+        "source": "assets/P028_07.jpg"
+      },
+      {
+        "url": "assets/P028_08.jpg",
+        "cut": "컷",
+        "source": "assets/P028_08.jpg"
+      },
+      {
+        "url": "assets/P028_09.jpg",
+        "cut": "컷",
+        "source": "assets/P028_09.jpg"
+      },
+      {
+        "url": "assets/P028_10.jpg",
+        "cut": "컷",
+        "source": "assets/P028_10.jpg"
+      }
+    ],
     "desc": "로아 리본라인 미니 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 리본라인 미니 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 생일룩 / 방송",
     "fabric": "크롭 상의 + 플레어 스커트 투피스",
@@ -925,8 +2489,70 @@
       "LONG",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P029_01.jpg",
+      "assets/P029_02.jpg",
+      "assets/P029_03.jpg",
+      "assets/P029_04.jpg",
+      "assets/P029_05.jpg",
+      "assets/P029_06.jpg",
+      "assets/P029_07.jpg",
+      "assets/P029_08.jpg",
+      "assets/P029_09.jpg",
+      "assets/P029_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P029_01.jpg",
+        "cut": "컷",
+        "source": "assets/P029_01.jpg"
+      },
+      {
+        "url": "assets/P029_02.jpg",
+        "cut": "컷",
+        "source": "assets/P029_02.jpg"
+      },
+      {
+        "url": "assets/P029_03.jpg",
+        "cut": "컷",
+        "source": "assets/P029_03.jpg"
+      },
+      {
+        "url": "assets/P029_04.jpg",
+        "cut": "컷",
+        "source": "assets/P029_04.jpg"
+      },
+      {
+        "url": "assets/P029_05.jpg",
+        "cut": "컷",
+        "source": "assets/P029_05.jpg"
+      },
+      {
+        "url": "assets/P029_06.jpg",
+        "cut": "컷",
+        "source": "assets/P029_06.jpg"
+      },
+      {
+        "url": "assets/P029_07.jpg",
+        "cut": "컷",
+        "source": "assets/P029_07.jpg"
+      },
+      {
+        "url": "assets/P029_08.jpg",
+        "cut": "컷",
+        "source": "assets/P029_08.jpg"
+      },
+      {
+        "url": "assets/P029_09.jpg",
+        "cut": "컷",
+        "source": "assets/P029_09.jpg"
+      },
+      {
+        "url": "assets/P029_10.jpg",
+        "cut": "컷",
+        "source": "assets/P029_10.jpg"
+      }
+    ],
     "desc": "엘린 튤레이어드 롱원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘린 튤레이어드 롱원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 촬영 / 브라이덜샤워 / 모임 / 파티",
     "fabric": "원피스",
@@ -958,8 +2584,70 @@
       "핑크",
       "스카이블루"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P030_01.jpg",
+      "assets/P030_02.jpg",
+      "assets/P030_03.jpg",
+      "assets/P030_04.jpg",
+      "assets/P030_05.jpg",
+      "assets/P030_06.jpg",
+      "assets/P030_07.jpg",
+      "assets/P030_08.jpg",
+      "assets/P030_09.jpg",
+      "assets/P030_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P030_01.jpg",
+        "cut": "컷",
+        "source": "assets/P030_01.jpg"
+      },
+      {
+        "url": "assets/P030_02.jpg",
+        "cut": "컷",
+        "source": "assets/P030_02.jpg"
+      },
+      {
+        "url": "assets/P030_03.jpg",
+        "cut": "컷",
+        "source": "assets/P030_03.jpg"
+      },
+      {
+        "url": "assets/P030_04.jpg",
+        "cut": "컷",
+        "source": "assets/P030_04.jpg"
+      },
+      {
+        "url": "assets/P030_05.jpg",
+        "cut": "컷",
+        "source": "assets/P030_05.jpg"
+      },
+      {
+        "url": "assets/P030_06.jpg",
+        "cut": "컷",
+        "source": "assets/P030_06.jpg"
+      },
+      {
+        "url": "assets/P030_07.jpg",
+        "cut": "컷",
+        "source": "assets/P030_07.jpg"
+      },
+      {
+        "url": "assets/P030_08.jpg",
+        "cut": "컷",
+        "source": "assets/P030_08.jpg"
+      },
+      {
+        "url": "assets/P030_09.jpg",
+        "cut": "컷",
+        "source": "assets/P030_09.jpg"
+      },
+      {
+        "url": "assets/P030_10.jpg",
+        "cut": "컷",
+        "source": "assets/P030_10.jpg"
+      }
+    ],
     "desc": "로아 트위드 크롭 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 트위드 크롭 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "크롭 상의 + 미니 스커트 투피스",
@@ -991,8 +2679,70 @@
       "아이보리",
       "네이비"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P031_01.jpg",
+      "assets/P031_02.jpg",
+      "assets/P031_03.jpg",
+      "assets/P031_04.jpg",
+      "assets/P031_05.jpg",
+      "assets/P031_06.jpg",
+      "assets/P031_07.jpg",
+      "assets/P031_08.jpg",
+      "assets/P031_09.jpg",
+      "assets/P031_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P031_01.jpg",
+        "cut": "컷",
+        "source": "assets/P031_01.jpg"
+      },
+      {
+        "url": "assets/P031_02.jpg",
+        "cut": "컷",
+        "source": "assets/P031_02.jpg"
+      },
+      {
+        "url": "assets/P031_03.jpg",
+        "cut": "컷",
+        "source": "assets/P031_03.jpg"
+      },
+      {
+        "url": "assets/P031_04.jpg",
+        "cut": "컷",
+        "source": "assets/P031_04.jpg"
+      },
+      {
+        "url": "assets/P031_05.jpg",
+        "cut": "컷",
+        "source": "assets/P031_05.jpg"
+      },
+      {
+        "url": "assets/P031_06.jpg",
+        "cut": "컷",
+        "source": "assets/P031_06.jpg"
+      },
+      {
+        "url": "assets/P031_07.jpg",
+        "cut": "컷",
+        "source": "assets/P031_07.jpg"
+      },
+      {
+        "url": "assets/P031_08.jpg",
+        "cut": "컷",
+        "source": "assets/P031_08.jpg"
+      },
+      {
+        "url": "assets/P031_09.jpg",
+        "cut": "컷",
+        "source": "assets/P031_09.jpg"
+      },
+      {
+        "url": "assets/P031_10.jpg",
+        "cut": "컷",
+        "source": "assets/P031_10.jpg"
+      }
+    ],
     "desc": "로아 배색라인 크롭 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 배색라인 크롭 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 방송 / 모임 / 클럽",
     "fabric": "크롭 상의 + 벨트 미니 스커트 투피스",
@@ -1024,8 +2774,70 @@
       "아이보리",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P032_01.jpg",
+      "assets/P032_02.jpg",
+      "assets/P032_03.jpg",
+      "assets/P032_04.jpg",
+      "assets/P032_05.jpg",
+      "assets/P032_06.jpg",
+      "assets/P032_07.jpg",
+      "assets/P032_08.jpg",
+      "assets/P032_09.jpg",
+      "assets/P032_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P032_01.jpg",
+        "cut": "컷",
+        "source": "assets/P032_01.jpg"
+      },
+      {
+        "url": "assets/P032_02.jpg",
+        "cut": "컷",
+        "source": "assets/P032_02.jpg"
+      },
+      {
+        "url": "assets/P032_03.jpg",
+        "cut": "컷",
+        "source": "assets/P032_03.jpg"
+      },
+      {
+        "url": "assets/P032_04.jpg",
+        "cut": "컷",
+        "source": "assets/P032_04.jpg"
+      },
+      {
+        "url": "assets/P032_05.jpg",
+        "cut": "컷",
+        "source": "assets/P032_05.jpg"
+      },
+      {
+        "url": "assets/P032_06.jpg",
+        "cut": "컷",
+        "source": "assets/P032_06.jpg"
+      },
+      {
+        "url": "assets/P032_07.jpg",
+        "cut": "컷",
+        "source": "assets/P032_07.jpg"
+      },
+      {
+        "url": "assets/P032_08.jpg",
+        "cut": "컷",
+        "source": "assets/P032_08.jpg"
+      },
+      {
+        "url": "assets/P032_09.jpg",
+        "cut": "컷",
+        "source": "assets/P032_09.jpg"
+      },
+      {
+        "url": "assets/P032_10.jpg",
+        "cut": "컷",
+        "source": "assets/P032_10.jpg"
+      }
+    ],
     "desc": "엘린 플라워쉬폰 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 엘린 플라워쉬폰 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -1057,8 +2869,70 @@
       "핑크",
       "스카이블루"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P033_01.jpg",
+      "assets/P033_02.jpg",
+      "assets/P033_03.jpg",
+      "assets/P033_04.jpg",
+      "assets/P033_05.jpg",
+      "assets/P033_06.jpg",
+      "assets/P033_07.jpg",
+      "assets/P033_08.jpg",
+      "assets/P033_09.jpg",
+      "assets/P033_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P033_01.jpg",
+        "cut": "컷",
+        "source": "assets/P033_01.jpg"
+      },
+      {
+        "url": "assets/P033_02.jpg",
+        "cut": "컷",
+        "source": "assets/P033_02.jpg"
+      },
+      {
+        "url": "assets/P033_03.jpg",
+        "cut": "컷",
+        "source": "assets/P033_03.jpg"
+      },
+      {
+        "url": "assets/P033_04.jpg",
+        "cut": "컷",
+        "source": "assets/P033_04.jpg"
+      },
+      {
+        "url": "assets/P033_05.jpg",
+        "cut": "컷",
+        "source": "assets/P033_05.jpg"
+      },
+      {
+        "url": "assets/P033_06.jpg",
+        "cut": "컷",
+        "source": "assets/P033_06.jpg"
+      },
+      {
+        "url": "assets/P033_07.jpg",
+        "cut": "컷",
+        "source": "assets/P033_07.jpg"
+      },
+      {
+        "url": "assets/P033_08.jpg",
+        "cut": "컷",
+        "source": "assets/P033_08.jpg"
+      },
+      {
+        "url": "assets/P033_09.jpg",
+        "cut": "컷",
+        "source": "assets/P033_09.jpg"
+      },
+      {
+        "url": "assets/P033_10.jpg",
+        "cut": "컷",
+        "source": "assets/P033_10.jpg"
+      }
+    ],
     "desc": "로아 플라워퍼프 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 플라워퍼프 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -1090,8 +2964,70 @@
       "옐로우",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P034_01.jpg",
+      "assets/P034_02.jpg",
+      "assets/P034_03.jpg",
+      "assets/P034_04.jpg",
+      "assets/P034_05.jpg",
+      "assets/P034_06.jpg",
+      "assets/P034_07.jpg",
+      "assets/P034_08.jpg",
+      "assets/P034_09.jpg",
+      "assets/P034_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P034_01.jpg",
+        "cut": "컷",
+        "source": "assets/P034_01.jpg"
+      },
+      {
+        "url": "assets/P034_02.jpg",
+        "cut": "컷",
+        "source": "assets/P034_02.jpg"
+      },
+      {
+        "url": "assets/P034_03.jpg",
+        "cut": "컷",
+        "source": "assets/P034_03.jpg"
+      },
+      {
+        "url": "assets/P034_04.jpg",
+        "cut": "컷",
+        "source": "assets/P034_04.jpg"
+      },
+      {
+        "url": "assets/P034_05.jpg",
+        "cut": "컷",
+        "source": "assets/P034_05.jpg"
+      },
+      {
+        "url": "assets/P034_06.jpg",
+        "cut": "컷",
+        "source": "assets/P034_06.jpg"
+      },
+      {
+        "url": "assets/P034_07.jpg",
+        "cut": "컷",
+        "source": "assets/P034_07.jpg"
+      },
+      {
+        "url": "assets/P034_08.jpg",
+        "cut": "컷",
+        "source": "assets/P034_08.jpg"
+      },
+      {
+        "url": "assets/P034_09.jpg",
+        "cut": "컷",
+        "source": "assets/P034_09.jpg"
+      },
+      {
+        "url": "assets/P034_10.jpg",
+        "cut": "컷",
+        "source": "assets/P034_10.jpg"
+      }
+    ],
     "desc": "로아 레이스퍼프 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 로아 레이스퍼프 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 모임 / 촬영 / 생일룩",
     "fabric": "원피스",
@@ -1155,8 +3091,58 @@
       "TWO PIECE",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P036_01.jpg",
+      "assets/P036_02.jpg",
+      "assets/P036_03.jpg",
+      "assets/P036_04.jpg",
+      "assets/P036_05.jpg",
+      "assets/P036_06.jpg",
+      "assets/P036_07.jpg",
+      "assets/P036_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P036_01.jpg",
+        "cut": "컷",
+        "source": "assets/P036_01.jpg"
+      },
+      {
+        "url": "assets/P036_02.jpg",
+        "cut": "컷",
+        "source": "assets/P036_02.jpg"
+      },
+      {
+        "url": "assets/P036_03.jpg",
+        "cut": "컷",
+        "source": "assets/P036_03.jpg"
+      },
+      {
+        "url": "assets/P036_04.jpg",
+        "cut": "컷",
+        "source": "assets/P036_04.jpg"
+      },
+      {
+        "url": "assets/P036_05.jpg",
+        "cut": "컷",
+        "source": "assets/P036_05.jpg"
+      },
+      {
+        "url": "assets/P036_06.jpg",
+        "cut": "컷",
+        "source": "assets/P036_06.jpg"
+      },
+      {
+        "url": "assets/P036_07.jpg",
+        "cut": "컷",
+        "source": "assets/P036_07.jpg"
+      },
+      {
+        "url": "assets/P036_08.jpg",
+        "cut": "컷",
+        "source": "assets/P036_08.jpg"
+      }
+    ],
     "desc": "세린 카라 트위드 투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 세린 카라 트위드 투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 모임 / 하객룩 / 촬영 / 파티",
     "fabric": "트위드 카라 상의 + 미니 스커트 투피스",
@@ -1188,8 +3174,70 @@
       "아이보리",
       "연핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P037_01.jpg",
+      "assets/P037_02.jpg",
+      "assets/P037_03.jpg",
+      "assets/P037_04.jpg",
+      "assets/P037_05.jpg",
+      "assets/P037_06.jpg",
+      "assets/P037_07.jpg",
+      "assets/P037_08.jpg",
+      "assets/P037_09.jpg",
+      "assets/P037_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P037_01.jpg",
+        "cut": "컷",
+        "source": "assets/P037_01.jpg"
+      },
+      {
+        "url": "assets/P037_02.jpg",
+        "cut": "컷",
+        "source": "assets/P037_02.jpg"
+      },
+      {
+        "url": "assets/P037_03.jpg",
+        "cut": "컷",
+        "source": "assets/P037_03.jpg"
+      },
+      {
+        "url": "assets/P037_04.jpg",
+        "cut": "컷",
+        "source": "assets/P037_04.jpg"
+      },
+      {
+        "url": "assets/P037_05.jpg",
+        "cut": "컷",
+        "source": "assets/P037_05.jpg"
+      },
+      {
+        "url": "assets/P037_06.jpg",
+        "cut": "컷",
+        "source": "assets/P037_06.jpg"
+      },
+      {
+        "url": "assets/P037_07.jpg",
+        "cut": "컷",
+        "source": "assets/P037_07.jpg"
+      },
+      {
+        "url": "assets/P037_08.jpg",
+        "cut": "컷",
+        "source": "assets/P037_08.jpg"
+      },
+      {
+        "url": "assets/P037_09.jpg",
+        "cut": "컷",
+        "source": "assets/P037_09.jpg"
+      },
+      {
+        "url": "assets/P037_10.jpg",
+        "cut": "컷",
+        "source": "assets/P037_10.jpg"
+      }
+    ],
     "desc": "세린 쉬폰레이어드 롱투피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 세린 쉬폰레이어드 롱투피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 촬영 / 브라이덜샤워 / 모임 / 파티",
     "fabric": "쉬폰 블라우스 + 롱스커트 투피스",
@@ -1221,8 +3269,70 @@
       "아이보리",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P038_01.jpg",
+      "assets/P038_02.jpg",
+      "assets/P038_03.jpg",
+      "assets/P038_04.jpg",
+      "assets/P038_05.jpg",
+      "assets/P038_06.jpg",
+      "assets/P038_07.jpg",
+      "assets/P038_08.jpg",
+      "assets/P038_09.jpg",
+      "assets/P038_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P038_01.jpg",
+        "cut": "컷",
+        "source": "assets/P038_01.jpg"
+      },
+      {
+        "url": "assets/P038_02.jpg",
+        "cut": "컷",
+        "source": "assets/P038_02.jpg"
+      },
+      {
+        "url": "assets/P038_03.jpg",
+        "cut": "컷",
+        "source": "assets/P038_03.jpg"
+      },
+      {
+        "url": "assets/P038_04.jpg",
+        "cut": "컷",
+        "source": "assets/P038_04.jpg"
+      },
+      {
+        "url": "assets/P038_05.jpg",
+        "cut": "컷",
+        "source": "assets/P038_05.jpg"
+      },
+      {
+        "url": "assets/P038_06.jpg",
+        "cut": "컷",
+        "source": "assets/P038_06.jpg"
+      },
+      {
+        "url": "assets/P038_07.jpg",
+        "cut": "컷",
+        "source": "assets/P038_07.jpg"
+      },
+      {
+        "url": "assets/P038_08.jpg",
+        "cut": "컷",
+        "source": "assets/P038_08.jpg"
+      },
+      {
+        "url": "assets/P038_09.jpg",
+        "cut": "컷",
+        "source": "assets/P038_09.jpg"
+      },
+      {
+        "url": "assets/P038_10.jpg",
+        "cut": "컷",
+        "source": "assets/P038_10.jpg"
+      }
+    ],
     "desc": "세린 레이스슬립 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 세린 레이스슬립 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 모임 / 생일룩 / 브라이덜샤워",
     "fabric": "레이스 슬립 미니원피스 + 자켓 코디 가능",
@@ -1254,8 +3364,58 @@
       "핑크베이지",
       "아이보리"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P039_01.jpg",
+      "assets/P039_02.jpg",
+      "assets/P039_03.jpg",
+      "assets/P039_04.jpg",
+      "assets/P039_05.jpg",
+      "assets/P039_06.jpg",
+      "assets/P039_07.jpg",
+      "assets/P039_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P039_01.jpg",
+        "cut": "컷",
+        "source": "assets/P039_01.jpg"
+      },
+      {
+        "url": "assets/P039_02.jpg",
+        "cut": "컷",
+        "source": "assets/P039_02.jpg"
+      },
+      {
+        "url": "assets/P039_03.jpg",
+        "cut": "컷",
+        "source": "assets/P039_03.jpg"
+      },
+      {
+        "url": "assets/P039_04.jpg",
+        "cut": "컷",
+        "source": "assets/P039_04.jpg"
+      },
+      {
+        "url": "assets/P039_05.jpg",
+        "cut": "컷",
+        "source": "assets/P039_05.jpg"
+      },
+      {
+        "url": "assets/P039_06.jpg",
+        "cut": "컷",
+        "source": "assets/P039_06.jpg"
+      },
+      {
+        "url": "assets/P039_07.jpg",
+        "cut": "컷",
+        "source": "assets/P039_07.jpg"
+      },
+      {
+        "url": "assets/P039_08.jpg",
+        "cut": "컷",
+        "source": "assets/P039_08.jpg"
+      }
+    ],
     "desc": "세린 새틴셔링 미니원피스은 나이스 온라인 쇼룸용으로 정리된 상품입니다. 실루엣을 깔끔하게 잡아주어 착용 시 비율이 좋아 보입니다. / 단독 착용만으로도 포인트가 살아나는 디자인입니다. / 데이트, 파티, 촬영, 모임 등 다양한 상황에 활용하기 좋습니다. 세린 새틴셔링 미니원피스은 여성스러운 무드와 포인트 디테일을 살린 쇼룸 상품입니다. 과하지 않으면서도 사진에 잘 나오는 스타일로, 매장 피팅 또는 DM 문의를 통해 현재 재고와 착용감을 확인해드릴 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 생일룩 / 모임 / 클럽",
     "fabric": "원피스",
@@ -1287,8 +3447,70 @@
       "아이보리",
       "연핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P040_01.jpg",
+      "assets/P040_02.jpg",
+      "assets/P040_03.jpg",
+      "assets/P040_04.jpg",
+      "assets/P040_05.jpg",
+      "assets/P040_06.jpg",
+      "assets/P040_07.jpg",
+      "assets/P040_08.jpg",
+      "assets/P040_09.jpg",
+      "assets/P040_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P040_01.jpg",
+        "cut": "컷",
+        "source": "assets/P040_01.jpg"
+      },
+      {
+        "url": "assets/P040_02.jpg",
+        "cut": "컷",
+        "source": "assets/P040_02.jpg"
+      },
+      {
+        "url": "assets/P040_03.jpg",
+        "cut": "컷",
+        "source": "assets/P040_03.jpg"
+      },
+      {
+        "url": "assets/P040_04.jpg",
+        "cut": "컷",
+        "source": "assets/P040_04.jpg"
+      },
+      {
+        "url": "assets/P040_05.jpg",
+        "cut": "컷",
+        "source": "assets/P040_05.jpg"
+      },
+      {
+        "url": "assets/P040_06.jpg",
+        "cut": "컷",
+        "source": "assets/P040_06.jpg"
+      },
+      {
+        "url": "assets/P040_07.jpg",
+        "cut": "컷",
+        "source": "assets/P040_07.jpg"
+      },
+      {
+        "url": "assets/P040_08.jpg",
+        "cut": "컷",
+        "source": "assets/P040_08.jpg"
+      },
+      {
+        "url": "assets/P040_09.jpg",
+        "cut": "컷",
+        "source": "assets/P040_09.jpg"
+      },
+      {
+        "url": "assets/P040_10.jpg",
+        "cut": "컷",
+        "source": "assets/P040_10.jpg"
+      }
+    ],
     "desc": "프릴 포인트 홀터넥 상의와 언발 플레어 롱스커트가 함께 구성된 여성스러운 롱투피스입니다. 프릴 포인트가 더해진 홀터넥 상의가 목선과 어깨라인을 여리여리하게 연출해줍니다. / 길게 떨어지는 언발 플레어 롱스커트가 움직일 때마다 우아하고 여성스러운 실루엣을 완성해줍니다. / 상의와 스커트를 컬러별로 조합할 수 있어 세트 착용은 물론 단품 코디로도 활용하기 좋습니다. 세린 홀터플레어 롱투피스는 홀터넥 민소매 상의와 언발 플레어 롱스커트가 함께 구성된 여성스러운 세트 스타일입니다. 상의는 바디라인을 깔끔하게 잡아주고, 넥라인의 프릴 디테일이 얼굴 주변을 부드럽게 살려줍니다. 스커트는 자연스럽게 흐르는 플레어 라인으로 우아한 분위기를 더해주며, 데이트룩, 파티룩, 촬영룩, 모임룩으로 활용하기 좋습니다. 세트 착용은 물론 상의와 스커트 분리 구매도 가능합니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 모임 / 이브닝룩",
     "fabric": "홀터넥 민소매 상의 + 언발 플레어 롱스커트 투피스",
@@ -1320,8 +3542,70 @@
       "화이트",
       "블랙"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P041_01.jpg",
+      "assets/P041_02.jpg",
+      "assets/P041_03.jpg",
+      "assets/P041_04.jpg",
+      "assets/P041_05.jpg",
+      "assets/P041_06.jpg",
+      "assets/P041_07.jpg",
+      "assets/P041_08.jpg",
+      "assets/P041_09.jpg",
+      "assets/P041_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P041_01.jpg",
+        "cut": "컷",
+        "source": "assets/P041_01.jpg"
+      },
+      {
+        "url": "assets/P041_02.jpg",
+        "cut": "컷",
+        "source": "assets/P041_02.jpg"
+      },
+      {
+        "url": "assets/P041_03.jpg",
+        "cut": "컷",
+        "source": "assets/P041_03.jpg"
+      },
+      {
+        "url": "assets/P041_04.jpg",
+        "cut": "컷",
+        "source": "assets/P041_04.jpg"
+      },
+      {
+        "url": "assets/P041_05.jpg",
+        "cut": "컷",
+        "source": "assets/P041_05.jpg"
+      },
+      {
+        "url": "assets/P041_06.jpg",
+        "cut": "컷",
+        "source": "assets/P041_06.jpg"
+      },
+      {
+        "url": "assets/P041_07.jpg",
+        "cut": "컷",
+        "source": "assets/P041_07.jpg"
+      },
+      {
+        "url": "assets/P041_08.jpg",
+        "cut": "컷",
+        "source": "assets/P041_08.jpg"
+      },
+      {
+        "url": "assets/P041_09.jpg",
+        "cut": "컷",
+        "source": "assets/P041_09.jpg"
+      },
+      {
+        "url": "assets/P041_10.jpg",
+        "cut": "컷",
+        "source": "assets/P041_10.jpg"
+      }
+    ],
     "desc": "레이스 홀터 크롭 상의와 캉캉 미니 스커트가 함께 구성된 러블리한 미니 투피스입니다. 레이스 홀터넥 크롭 상의가 목선과 어깨라인을 여리여리하게 연출해줍니다. / 층층이 잡힌 캉캉 미니 스커트가 러블리한 볼륨감을 더해주고 다리 라인을 길어 보이게 만들어줍니다. / 상의와 스커트 모두 단독으로도 활용 가능해 세트 착용은 물론 다양한 코디로 연출하기 좋습니다. 로아 레이스캉캉 미니 투피스는 레이스 홀터 크롭 상의와 캉캉 미니 스커트가 함께 구성된 러블리한 세트 스타일입니다. 상의는 레이스 텍스처와 리본 포인트로 얼굴 주변을 화사하게 살려주고, 스커트는 층층이 퍼지는 프릴 라인으로 발랄하고 여성스러운 실루엣을 완성해줍니다. 화이트는 깨끗하고 러블리한 무드로, 블랙은 시크하고 포인트 있는 분위기로 착용하기 좋습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 방송 / 생일룩 / 클럽",
     "fabric": "레이스 홀터 상의 + 캉캉 미니 스커트 투피스",
@@ -1353,8 +3637,70 @@
       "아이보리",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P042_01.jpg",
+      "assets/P042_02.jpg",
+      "assets/P042_03.jpg",
+      "assets/P042_04.jpg",
+      "assets/P042_05.jpg",
+      "assets/P042_06.jpg",
+      "assets/P042_07.jpg",
+      "assets/P042_08.jpg",
+      "assets/P042_09.jpg",
+      "assets/P042_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P042_01.jpg",
+        "cut": "컷",
+        "source": "assets/P042_01.jpg"
+      },
+      {
+        "url": "assets/P042_02.jpg",
+        "cut": "컷",
+        "source": "assets/P042_02.jpg"
+      },
+      {
+        "url": "assets/P042_03.jpg",
+        "cut": "컷",
+        "source": "assets/P042_03.jpg"
+      },
+      {
+        "url": "assets/P042_04.jpg",
+        "cut": "컷",
+        "source": "assets/P042_04.jpg"
+      },
+      {
+        "url": "assets/P042_05.jpg",
+        "cut": "컷",
+        "source": "assets/P042_05.jpg"
+      },
+      {
+        "url": "assets/P042_06.jpg",
+        "cut": "컷",
+        "source": "assets/P042_06.jpg"
+      },
+      {
+        "url": "assets/P042_07.jpg",
+        "cut": "컷",
+        "source": "assets/P042_07.jpg"
+      },
+      {
+        "url": "assets/P042_08.jpg",
+        "cut": "컷",
+        "source": "assets/P042_08.jpg"
+      },
+      {
+        "url": "assets/P042_09.jpg",
+        "cut": "컷",
+        "source": "assets/P042_09.jpg"
+      },
+      {
+        "url": "assets/P042_10.jpg",
+        "cut": "컷",
+        "source": "assets/P042_10.jpg"
+      }
+    ],
     "desc": "리본 타이 블라우스와 플라워 포인트 미니 스커트가 함께 구성된 러블리한 투피스입니다. 리본 타이 블라우스가 얼굴 주변을 화사하게 살려주며 여성스럽고 단정한 분위기를 연출해줍니다. / 밑단의 입체 플라워 디테일이 포인트가 되어 미니 스커트만으로도 충분히 특별한 무드를 완성해줍니다. / 블라우스와 스커트를 각각 단품으로도 활용할 수 있어 세트 착용은 물론 다양한 코디로 연출하기 좋습니다. 로아 리본블라우스 플라워 미니 투피스는 리본 타이 블라우스와 플라워 포인트 미니 스커트가 함께 구성된 러블리한 세트 스타일입니다. 블라우스는 리본과 프릴 소매 디테일로 여성스러운 분위기를 살려주고, 스커트는 밑단의 입체 플라워 장식이 포인트가 되어 단독 착용만으로도 시선을 끌어줍니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 파티 / 촬영 / 생일룩 / 모임",
     "fabric": "리본 블라우스 + 플라워 미니 스커트 투피스",
@@ -1386,8 +3732,70 @@
       "아이보리",
       "핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P043_01.jpg",
+      "assets/P043_02.jpg",
+      "assets/P043_03.jpg",
+      "assets/P043_04.jpg",
+      "assets/P043_05.jpg",
+      "assets/P043_06.jpg",
+      "assets/P043_07.jpg",
+      "assets/P043_08.jpg",
+      "assets/P043_09.jpg",
+      "assets/P043_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P043_01.jpg",
+        "cut": "컷",
+        "source": "assets/P043_01.jpg"
+      },
+      {
+        "url": "assets/P043_02.jpg",
+        "cut": "컷",
+        "source": "assets/P043_02.jpg"
+      },
+      {
+        "url": "assets/P043_03.jpg",
+        "cut": "컷",
+        "source": "assets/P043_03.jpg"
+      },
+      {
+        "url": "assets/P043_04.jpg",
+        "cut": "컷",
+        "source": "assets/P043_04.jpg"
+      },
+      {
+        "url": "assets/P043_05.jpg",
+        "cut": "컷",
+        "source": "assets/P043_05.jpg"
+      },
+      {
+        "url": "assets/P043_06.jpg",
+        "cut": "컷",
+        "source": "assets/P043_06.jpg"
+      },
+      {
+        "url": "assets/P043_07.jpg",
+        "cut": "컷",
+        "source": "assets/P043_07.jpg"
+      },
+      {
+        "url": "assets/P043_08.jpg",
+        "cut": "컷",
+        "source": "assets/P043_08.jpg"
+      },
+      {
+        "url": "assets/P043_09.jpg",
+        "cut": "컷",
+        "source": "assets/P043_09.jpg"
+      },
+      {
+        "url": "assets/P043_10.jpg",
+        "cut": "컷",
+        "source": "assets/P043_10.jpg"
+      }
+    ],
     "desc": "레이스 홀터 상의와 미니 스커트가 함께 구성된 여성스러운 미니 투피스입니다. 레이스 홀터넥 상의가 목선과 어깨라인을 여리여리하게 살려주며 여성스러운 분위기를 연출해줍니다. / 상의의 프릴 레이어드 디테일이 러블리한 볼륨감을 더해주고, 단독 착용만으로도 충분한 포인트가 됩니다. / 레이스 미니 스커트와 함께 착용하면 허리라인은 슬림하게, 다리 라인은 길어 보이는 투피스룩이 완성됩니다. 엘라 레이스홀터 미니 투피스는 레이스 홀터 상의와 미니 스커트가 함께 구성된 여성스러운 세트 스타일입니다. 상의는 홀터넥 라인과 레이스 프릴 디테일로 얼굴 주변을 화사하게 살려주고, 스커트는 깔끔한 미니핏으로 전체 비율을 길어 보이게 연출해줍니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 생일룩 / 모임 / 브라이덜샤워",
     "fabric": "레이스 홀터 상의 + 레이스 미니 스커트 투피스",
@@ -1418,8 +3826,58 @@
       "MINI",
       "화이트"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P044_01.jpg",
+      "assets/P044_02.jpg",
+      "assets/P044_03.jpg",
+      "assets/P044_04.jpg",
+      "assets/P044_05.jpg",
+      "assets/P044_06.jpg",
+      "assets/P044_07.jpg",
+      "assets/P044_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P044_01.jpg",
+        "cut": "컷",
+        "source": "assets/P044_01.jpg"
+      },
+      {
+        "url": "assets/P044_02.jpg",
+        "cut": "컷",
+        "source": "assets/P044_02.jpg"
+      },
+      {
+        "url": "assets/P044_03.jpg",
+        "cut": "컷",
+        "source": "assets/P044_03.jpg"
+      },
+      {
+        "url": "assets/P044_04.jpg",
+        "cut": "컷",
+        "source": "assets/P044_04.jpg"
+      },
+      {
+        "url": "assets/P044_05.jpg",
+        "cut": "컷",
+        "source": "assets/P044_05.jpg"
+      },
+      {
+        "url": "assets/P044_06.jpg",
+        "cut": "컷",
+        "source": "assets/P044_06.jpg"
+      },
+      {
+        "url": "assets/P044_07.jpg",
+        "cut": "컷",
+        "source": "assets/P044_07.jpg"
+      },
+      {
+        "url": "assets/P044_08.jpg",
+        "cut": "컷",
+        "source": "assets/P044_08.jpg"
+      }
+    ],
     "desc": "셔링 디테일과 리본 스트랩, 프릴 밑단이 돋보이는 청순한 화이트 미니원피스입니다. 얇은 숄더 스트랩과 가슴 셔링 디테일이 여리여리하고 청순한 분위기를 연출해줍니다. / 리본 스트랩 포인트가 사랑스럽고 러블리한 무드를 더해줍니다. / 밑단의 프릴 라인이 움직일 때마다 자연스럽게 퍼져 다리 라인이 길어 보입니다. 로아 리본프릴 미니원피스는 깨끗한 화이트 컬러에 셔링 디테일과 리본 스트랩, 프릴 밑단을 더해 사랑스럽게 완성된 미니원피스입니다. 상체는 여리하게 잡아주고, 허리 아래로 자연스럽게 퍼지는 프릴 라인이 청순하면서도 러블리한 실루엣을 연출해줍니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "데이트 / 촬영 / 브라이덜샤워 / 파티 / 생일룩",
     "fabric": "원피스",
@@ -1451,8 +3909,70 @@
       "아이보리",
       "베이지핑크"
     ],
-    "images": [],
-    "cuts": [],
+    "images": [
+      "assets/P045_01.jpg",
+      "assets/P045_02.jpg",
+      "assets/P045_03.jpg",
+      "assets/P045_04.jpg",
+      "assets/P045_05.jpg",
+      "assets/P045_06.jpg",
+      "assets/P045_07.jpg",
+      "assets/P045_08.jpg",
+      "assets/P045_09.jpg",
+      "assets/P045_10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/P045_01.jpg",
+        "cut": "컷",
+        "source": "assets/P045_01.jpg"
+      },
+      {
+        "url": "assets/P045_02.jpg",
+        "cut": "컷",
+        "source": "assets/P045_02.jpg"
+      },
+      {
+        "url": "assets/P045_03.jpg",
+        "cut": "컷",
+        "source": "assets/P045_03.jpg"
+      },
+      {
+        "url": "assets/P045_04.jpg",
+        "cut": "컷",
+        "source": "assets/P045_04.jpg"
+      },
+      {
+        "url": "assets/P045_05.jpg",
+        "cut": "컷",
+        "source": "assets/P045_05.jpg"
+      },
+      {
+        "url": "assets/P045_06.jpg",
+        "cut": "컷",
+        "source": "assets/P045_06.jpg"
+      },
+      {
+        "url": "assets/P045_07.jpg",
+        "cut": "컷",
+        "source": "assets/P045_07.jpg"
+      },
+      {
+        "url": "assets/P045_08.jpg",
+        "cut": "컷",
+        "source": "assets/P045_08.jpg"
+      },
+      {
+        "url": "assets/P045_09.jpg",
+        "cut": "컷",
+        "source": "assets/P045_09.jpg"
+      },
+      {
+        "url": "assets/P045_10.jpg",
+        "cut": "컷",
+        "source": "assets/P045_10.jpg"
+      }
+    ],
     "desc": "드레이프 블라우스와 비즈 포인트 롱스커트, 자켓까지 코디 가능한 고급 롱세트입니다. 부드럽게 흐르는 드레이프 상의가 목선과 상체 라인을 우아하게 연출해줍니다. / 은은한 비즈 포인트가 더해진 롱스커트가 고급스러운 분위기를 살려주며, 전체 비율을 길어 보이게 만들어줍니다. / 블라우스, 스커트, 자켓을 각각 단품으로도 활용할 수 있어 세트 착용은 물론 다양한 코디로 연출하기 좋습니다. 세린 드레이프 비즈 롱세트는 드레이프 블라우스와 비즈 포인트 롱스커트를 함께 코디할 수 있는 고급스러운 세트 스타일입니다. 상의는 자연스럽게 흐르는 드레이프 라인으로 여리여리한 분위기를 살려주고, 스커트는 길게 떨어지는 실루엣과 은은한 비즈 장식으로 우아한 무드를 완성해줍니다. 자켓까지 함께 매치하면 한층 더 격식 있고 세련된 룩으로 연출할 수 있습니다. 재고는 수시로 변동될 수 있습니다. / 촬영 환경과 보정에 따라 실제 색상과 차이가 있을 수 있습니다. / 방문 전 DM 주시면 현재 보유 여부와 피팅 가능 여부를 안내해드립니다.",
     "recommend": "파티 / 촬영 / 모임 / 이브닝룩 / 행사",
     "fabric": "드레이프 블라우스 + 비즈 포인트 롱스커트 + 자켓 코디세트",
