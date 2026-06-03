@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match47';
+const VERSION='match46';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 let PRODUCTS=[], FILTER='HOME', currentImages=[];
@@ -86,7 +86,6 @@ function match(p){
   else if(FILTER==='SIZE_77')f=hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||String(p.size||'').includes('77');
   else if(FILTER==='BUY_NOW')f=isBuyNow(p);
   if(isJessicaAnk(p)&&/미디|midi/i.test(rawSearch))ok=false;
-  if(isJessicaAnk(p)&&/미디|midi/i.test(search))ok=false;
   return ok&&f;
 }
 function badges(p){

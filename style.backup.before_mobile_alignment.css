@@ -59,25 +59,3 @@
   .panel{width:min(1480px,94vw)}
   .body{grid-template-columns:minmax(0,1fr) minmax(480px,.95fr)}
 }
-
-/* Mobile modal alignment fix */
-@media(max-width:720px){
-  html,body{max-width:100%;overflow-x:hidden}
-  .modal{padding:8px;align-items:flex-start;overflow-y:auto;overflow-x:hidden}
-  .panel{width:calc(100vw - 16px);max-width:calc(100vw - 16px);max-height:88vh;border-radius:24px;overflow-x:hidden}
-  .modal-top{padding:14px 16px}
-  .brand{font-size:18px;letter-spacing:.08em;white-space:nowrap}
-  .body,.visual,.copy{width:100%;max-width:100%;min-width:0;overflow-x:hidden}
-  .visual{padding:12px}
-  .copy{padding:18px 14px 20px}
-  .copy h2{font-size:25px;line-height:1.22}
-  .copy h3{font-size:23px}
-  .box{padding:15px 14px;border-radius:18px;max-width:100%;overflow-wrap:anywhere}
-  .box p,.box li{font-size:15px;line-height:1.75;word-break:keep-all;overflow-wrap:anywhere}
-  .spec{grid-template-columns:1fr;gap:9px}
-  .cell{min-width:0;max-width:100%;padding:13px 12px;overflow-wrap:anywhere}
-  .cell span{display:block;max-width:100%;font-size:15px;line-height:1.55;white-space:normal;overflow-wrap:anywhere}
-  .cta{grid-template-columns:1fr;gap:9px;position:sticky;bottom:0;margin-left:-2px;margin-right:-2px}
-  .cta a{width:100%;min-width:0;font-size:16px;white-space:normal}
-  .thumbs{max-width:100%;overflow-x:auto}
-}
