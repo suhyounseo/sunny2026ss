@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match43';
-const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
+const VERSION='match42';
+const KAKAO_URL=['https://pf.kakao.com','_xeKxaon','chat'].join('/');
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 let PRODUCTS=[], FILTER='ALL', currentImages=[];
 
@@ -39,7 +39,7 @@ function sectionIntro(){
 }
 function match(p){
   const search=norm(q.value.trim());
-  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...(p.tags||[]),...(p.styleTags||[]),...(p.sceneTags||[])].join(' '));
+  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.collectionName,...(p.tags||[]),...(p.styleTags||[]),...(p.sceneTags||[])].join(' '));
   let ok=!search||hay.includes(search);
   let tags=p.tags||[];
   let f=true;
@@ -103,9 +103,9 @@ function openDetail(code){
       <div class="tags">${tags.map(t=>`<span>${t}</span>`).join('')}</div>
       <h2>${name(p)}</h2>
       <h3>${money(p.price)}</h3>
-      <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x=>`<li>${x}</li>`).join('')}</ul></div>
-      <div class="box"><b>EDITOR'S NOTE</b><p>${p.desc||p.description||p.mainCopy||'NICE 컬렉션 상품입니다.'}</p></div>
-      <div class="box"><b>RECOMMENDED FOR</b><p>${String(p.recommend||'파티 · 모임 · 데이트 · 촬영 · 하객룩').replaceAll('/',' · ')}</p></div>
+      <div class="box"><b>WHY YOU’LL LOVE IT</b><ul>${points(p).map(x=>`<li>${x}</li>`).join('')}</ul></div>
+      <div class="box"><b>EDITOR’S NOTE</b><p>${p.desc||p.description||p.mainCopy||'NICE 셀렉션 상품입니다.'}</p></div>
+      <div class="box"><b>RECOMMENDED FOR</b><p>${String(p.recommend||'파티 · 모임 · 데이트 · 촬영 · 특별한 약속').replaceAll('/',' · ')}</p></div>
       <div class="spec">
         <div class="cell"><b>COLOR</b><span>${p.color||'-'}</span></div>
         <div class="cell"><b>SIZE</b><span>${p.size||p.sizeInfo||'-'}</span></div>
