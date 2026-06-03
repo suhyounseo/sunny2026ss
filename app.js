@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match38';
+const VERSION='match39';
 let PRODUCTS=[], FILTER='ALL', currentImages=[];
 const COLLECTIONS=[
   {key:'A',filter:'COL_A',title:'COLLECTION A',name:'미니 원피스 컬렉션',desc:'쇼룸 첫 화면에 어울리는 미니 원피스 중심'},
@@ -54,9 +54,9 @@ function badges(p){
   let out=[];let tags=p.tags||[];
   if(p.best||p.isPopular||tags.includes('BEST'))out.push('<span class="badge">BEST</span>');
   if(p.new||p.isNew||tags.includes('NEW'))out.push('<span class="badge gold">NEW</span>');
-  if(p.collectionName)out.push(`<span class="badge light">${p.collectionName}</span>`);
   return out.join('')||'<span class="badge">NICE</span>';
 }
+function collectionBadge(p){return p.collectionName?`<div class="info-collection">${p.collectionName}</div>`:''}
 function meta(p){return [p.length,p.color,p.size?'SIZE '+p.size:''].filter(Boolean).slice(0,3).map(x=>`<span>${x}</span>`).join('')}
 function renderHome(){
   title.textContent='NICE COLLECTION';count.textContent='';intro.textContent=sectionIntro();grid.className='collection-grid';
@@ -69,7 +69,7 @@ function render(){
   grid.className='grid';
   let list=PRODUCTS.filter(match);count.textContent=`${list.length} items`;
   if(!list.length){grid.innerHTML='<div class="empty">조건에 맞는 상품이 없습니다.</div>';return}
-  grid.innerHTML=list.map(p=>`<article class="card" data-code="${p.code}"><div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:''}<div class="badges">${badges(p)}</div></div><div class="info"><div class="code">${p.code}</div><div class="name">${name(p)}</div><div class="meta">${meta(p)}</div><div class="price">${money(p.price)}</div></div></article>`).join('');
+  grid.innerHTML=list.map(p=>`<article class="card" data-code="${p.code}"><div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:''}<div class="badges">${badges(p)}</div></div><div class="info"><div class="code">${p.code}</div>${collectionBadge(p)}<div class="name">${name(p)}</div><div class="meta">${meta(p)}</div><div class="price">${money(p.price)}</div></div></article>`).join('');
   $$('.card').forEach(el=>el.onclick=()=>openDetail(el.dataset.code));
 }
 function points(p){return Array.isArray(p.points)&&p.points.length?p.points.slice(0,5):[p.mainCopy,p.desc||p.description,p.fit&&p.fit+' 실루엣'].filter(Boolean).slice(0,3)}
