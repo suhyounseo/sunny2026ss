@@ -8,8 +8,8 @@
     "name": "더블버튼 원피스",
     "storeName": "더블버튼 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -21,7 +21,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -42,21 +42,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-301_01.jpg",
       "assets/JES-301_02.jpg",
       "assets/JES-301_03.jpg",
       "assets/JES-301_04.jpg",
-      "assets/JES-301_05.jpg"
+      "assets/JES-301_05.jpg",
+      "assets/JES-301_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-301_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-301_01.jpg"
-      },
-      {
         "url": "assets/JES-301_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-301_02.jpg"
       },
       {
@@ -73,6 +68,11 @@
         "url": "assets/JES-301_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-301_05.jpg"
+      },
+      {
+        "url": "assets/JES-301_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-301_01.jpg"
       }
     ],
     "mainCopy": "단정한 무드에 러블리한 실루엣을 더한 여름 미니원피스",
@@ -94,8 +94,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-301_01.jpg",
-    "thumbnail": "assets/JES-301_01.jpg"
+    "mainImage": "assets/JES-301_02.jpg",
+    "thumbnail": "assets/JES-301_02.jpg"
   },
   {
     "code": "JES-302",
@@ -106,8 +106,8 @@
     "name": "리본 플레어 원피스",
     "storeName": "리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -119,7 +119,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -140,21 +140,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-302_01.jpg",
       "assets/JES-302_02.jpg",
       "assets/JES-302_03.jpg",
       "assets/JES-302_04.jpg",
-      "assets/JES-302_05.jpg"
+      "assets/JES-302_05.jpg",
+      "assets/JES-302_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-302_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-302_01.jpg"
-      },
-      {
         "url": "assets/JES-302_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-302_02.jpg"
       },
       {
@@ -171,6 +166,11 @@
         "url": "assets/JES-302_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-302_05.jpg"
+      },
+      {
+        "url": "assets/JES-302_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-302_01.jpg"
       }
     ],
     "mainCopy": "러블리한 상의와 블랙 플레어 스커트가 만난 반전 미니룩",
@@ -192,8 +192,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-302_01.jpg",
-    "thumbnail": "assets/JES-302_01.jpg"
+    "mainImage": "assets/JES-302_02.jpg",
+    "thumbnail": "assets/JES-302_02.jpg"
   },
   {
     "code": "JES-303",
@@ -205,7 +205,7 @@
     "storeName": "스퀘어넥 버튼 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -217,7 +217,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -238,20 +238,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-303_01.jpg",
       "assets/JES-303_02.jpg",
       "assets/JES-303_03.jpg",
-      "assets/JES-303_04.jpg"
+      "assets/JES-303_04.jpg",
+      "assets/JES-303_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-303_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-303_01.jpg"
-      },
-      {
         "url": "assets/JES-303_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-303_02.jpg"
       },
       {
@@ -263,6 +258,11 @@
         "url": "assets/JES-303_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-303_04.jpg"
+      },
+      {
+        "url": "assets/JES-303_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-303_01.jpg"
       }
     ],
     "mainCopy": "강렬한 레드 컬러로 시선을 잡는 고급 슬림 미니원피스",
@@ -284,8 +284,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-303_01.jpg",
-    "thumbnail": "assets/JES-303_01.jpg"
+    "mainImage": "assets/JES-303_02.jpg",
+    "thumbnail": "assets/JES-303_02.jpg"
   },
   {
     "code": "JES-304",
@@ -329,20 +329,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-304_01.jpg",
       "assets/JES-304_02.jpg",
       "assets/JES-304_03.jpg",
-      "assets/JES-304_04.jpg"
+      "assets/JES-304_04.jpg",
+      "assets/JES-304_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-304_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-304_01.jpg"
-      },
-      {
         "url": "assets/JES-304_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-304_02.jpg"
       },
       {
@@ -354,6 +349,11 @@
         "url": "assets/JES-304_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-304_04.jpg"
+      },
+      {
+        "url": "assets/JES-304_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-304_01.jpg"
       }
     ],
     "mainCopy": "화이트 라인 배색으로 더 날씬해 보이는 고급 블랙 미디원피스",
@@ -375,8 +375,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-304_01.jpg",
-    "thumbnail": "assets/JES-304_01.jpg"
+    "mainImage": "assets/JES-304_02.jpg",
+    "thumbnail": "assets/JES-304_02.jpg"
   },
   {
     "code": "JES-305",
@@ -420,21 +420,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-305_01.jpg",
       "assets/JES-305_02.jpg",
       "assets/JES-305_03.jpg",
       "assets/JES-305_04.jpg",
-      "assets/JES-305_05.jpg"
+      "assets/JES-305_05.jpg",
+      "assets/JES-305_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-305_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-305_01.jpg"
-      },
-      {
         "url": "assets/JES-305_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-305_02.jpg"
       },
       {
@@ -451,6 +446,11 @@
         "url": "assets/JES-305_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-305_05.jpg"
+      },
+      {
+        "url": "assets/JES-305_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-305_01.jpg"
       }
     ],
     "mainCopy": "차분한 그레이 컬러에 라인감을 살린 고급 미디원피스",
@@ -472,8 +472,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-305_01.jpg",
-    "thumbnail": "assets/JES-305_01.jpg"
+    "mainImage": "assets/JES-305_02.jpg",
+    "thumbnail": "assets/JES-305_02.jpg"
   },
   {
     "code": "JES-306",
@@ -484,8 +484,8 @@
     "name": "스카이 카라 퍼프 원피스",
     "storeName": "스카이 카라 퍼프 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -497,7 +497,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -518,22 +518,17 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-306_01.jpg",
       "assets/JES-306_02.jpg",
       "assets/JES-306_03.jpg",
       "assets/JES-306_04.jpg",
       "assets/JES-306_05.jpg",
-      "assets/JES-306_06.jpg"
+      "assets/JES-306_06.jpg",
+      "assets/JES-306_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-306_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-306_01.jpg"
-      },
-      {
         "url": "assets/JES-306_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-306_02.jpg"
       },
       {
@@ -555,6 +550,11 @@
         "url": "assets/JES-306_06.jpg",
         "cut": "상세 5",
         "source": "assets/JES-306_06.jpg"
+      },
+      {
+        "url": "assets/JES-306_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-306_01.jpg"
       }
     ],
     "mainCopy": "청량한 스카이블루 컬러로 여름 분위기를 살려주는 A라인 미니원피스",
@@ -576,8 +576,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-306_01.jpg",
-    "thumbnail": "assets/JES-306_01.jpg"
+    "mainImage": "assets/JES-306_02.jpg",
+    "thumbnail": "assets/JES-306_02.jpg"
   },
   {
     "code": "JES-307",
@@ -588,8 +588,8 @@
     "name": "데님 스모크 원피스",
     "storeName": "데님 스모크 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -601,7 +601,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -622,20 +622,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-307_01.jpg",
       "assets/JES-307_02.jpg",
       "assets/JES-307_03.jpg",
-      "assets/JES-307_04.jpg"
+      "assets/JES-307_04.jpg",
+      "assets/JES-307_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-307_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-307_01.jpg"
-      },
-      {
         "url": "assets/JES-307_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-307_02.jpg"
       },
       {
@@ -647,6 +642,11 @@
         "url": "assets/JES-307_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-307_04.jpg"
+      },
+      {
+        "url": "assets/JES-307_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-307_01.jpg"
       }
     ],
     "mainCopy": "편안하면서도 여성스러운 데님블루 A라인 미니원피스",
@@ -668,8 +668,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-307_01.jpg",
-    "thumbnail": "assets/JES-307_01.jpg"
+    "mainImage": "assets/JES-307_02.jpg",
+    "thumbnail": "assets/JES-307_02.jpg"
   },
   {
     "code": "JES-308",
@@ -681,7 +681,7 @@
     "storeName": "오프숄더 프릴 플레어 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -693,7 +693,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -714,20 +714,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-308_01.jpg",
       "assets/JES-308_02.jpg",
       "assets/JES-308_03.jpg",
-      "assets/JES-308_04.jpg"
+      "assets/JES-308_04.jpg",
+      "assets/JES-308_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-308_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-308_01.jpg"
-      },
-      {
         "url": "assets/JES-308_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-308_02.jpg"
       },
       {
@@ -739,6 +734,11 @@
         "url": "assets/JES-308_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-308_04.jpg"
+      },
+      {
+        "url": "assets/JES-308_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-308_01.jpg"
       }
     ],
     "mainCopy": "어깨선을 살려주는 오프숄더 프릴 미니원피스",
@@ -760,8 +760,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-308_01.jpg",
-    "thumbnail": "assets/JES-308_01.jpg"
+    "mainImage": "assets/JES-308_02.jpg",
+    "thumbnail": "assets/JES-308_02.jpg"
   },
   {
     "code": "JES-309",
@@ -773,7 +773,7 @@
     "storeName": "사이드셔링 머메이드 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -785,7 +785,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -806,21 +806,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-309_01.jpg",
       "assets/JES-309_02.jpg",
       "assets/JES-309_03.jpg",
       "assets/JES-309_04.jpg",
-      "assets/JES-309_05.jpg"
+      "assets/JES-309_05.jpg",
+      "assets/JES-309_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-309_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-309_01.jpg"
-      },
-      {
         "url": "assets/JES-309_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-309_02.jpg"
       },
       {
@@ -837,6 +832,11 @@
         "url": "assets/JES-309_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-309_05.jpg"
+      },
+      {
+        "url": "assets/JES-309_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-309_01.jpg"
       }
     ],
     "mainCopy": "은은한 베이지 컬러에 셔링 포인트가 돋보이는 글램 미니원피스",
@@ -858,8 +858,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-309_01.jpg",
-    "thumbnail": "assets/JES-309_01.jpg"
+    "mainImage": "assets/JES-309_02.jpg",
+    "thumbnail": "assets/JES-309_02.jpg"
   },
   {
     "code": "JES-310",
@@ -903,25 +903,25 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-310_01.jpg",
       "assets/JES-310_02.jpg",
-      "assets/JES-310_03.jpg"
+      "assets/JES-310_03.jpg",
+      "assets/JES-310_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-310_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-310_01.jpg"
-      },
-      {
         "url": "assets/JES-310_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-310_02.jpg"
       },
       {
         "url": "assets/JES-310_03.jpg",
         "cut": "상세 2",
         "source": "assets/JES-310_03.jpg"
+      },
+      {
+        "url": "assets/JES-310_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-310_01.jpg"
       }
     ],
     "mainCopy": "깨끗한 화이트 컬러에 프릴과 벨트로 포인트를 준 고급 미디원피스",
@@ -943,8 +943,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-310_01.jpg",
-    "thumbnail": "assets/JES-310_01.jpg"
+    "mainImage": "assets/JES-310_02.jpg",
+    "thumbnail": "assets/JES-310_02.jpg"
   },
   {
     "code": "JES-311",
@@ -988,25 +988,25 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-311_01.jpg",
       "assets/JES-311_02.jpg",
-      "assets/JES-311_03.jpg"
+      "assets/JES-311_03.jpg",
+      "assets/JES-311_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-311_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-311_01.jpg"
-      },
-      {
         "url": "assets/JES-311_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-311_02.jpg"
       },
       {
         "url": "assets/JES-311_03.jpg",
         "cut": "상세 2",
         "source": "assets/JES-311_03.jpg"
+      },
+      {
+        "url": "assets/JES-311_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-311_01.jpg"
       }
     ],
     "mainCopy": "사랑스러운 로즈 리본 상의와 레드 스커트의 화려한 조합",
@@ -1028,8 +1028,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-311_01.jpg",
-    "thumbnail": "assets/JES-311_01.jpg"
+    "mainImage": "assets/JES-311_02.jpg",
+    "thumbnail": "assets/JES-311_02.jpg"
   },
   {
     "code": "JES-312",
@@ -1041,7 +1041,7 @@
     "storeName": "버튼 머메이드 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -1053,7 +1053,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -1074,20 +1074,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-312_01.jpg",
       "assets/JES-312_02.jpg",
       "assets/JES-312_03.jpg",
-      "assets/JES-312_04.jpg"
+      "assets/JES-312_04.jpg",
+      "assets/JES-312_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-312_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-312_01.jpg"
-      },
-      {
         "url": "assets/JES-312_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-312_02.jpg"
       },
       {
@@ -1099,6 +1094,11 @@
         "url": "assets/JES-312_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-312_04.jpg"
+      },
+      {
+        "url": "assets/JES-312_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-312_01.jpg"
       }
     ],
     "mainCopy": "골드 버튼 하나로 고급미를 살린 블랙 머메이드 미니원피스",
@@ -1120,8 +1120,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-312_01.jpg",
-    "thumbnail": "assets/JES-312_01.jpg"
+    "mainImage": "assets/JES-312_02.jpg",
+    "thumbnail": "assets/JES-312_02.jpg"
   },
   {
     "code": "JES-313",
@@ -1132,8 +1132,8 @@
     "name": "레몬 니트탑 투피스 원피스",
     "storeName": "레몬 니트탑 투피스 원피스",
     "category": "TWO PIECE",
-    "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -1145,7 +1145,7 @@
     "price": 135000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "미니",
       "섹시",
@@ -1166,25 +1166,25 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-313_01.jpg",
       "assets/JES-313_02.jpg",
-      "assets/JES-313_03.jpg"
+      "assets/JES-313_03.jpg",
+      "assets/JES-313_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-313_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-313_01.jpg"
-      },
-      {
         "url": "assets/JES-313_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-313_02.jpg"
       },
       {
         "url": "assets/JES-313_03.jpg",
         "cut": "상세 2",
         "source": "assets/JES-313_03.jpg"
+      },
+      {
+        "url": "assets/JES-313_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-313_01.jpg"
       }
     ],
     "mainCopy": "상큼한 레몬 컬러와 네이비 스커트가 어우러진 슬림 투피스",
@@ -1206,8 +1206,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-313_01.jpg",
-    "thumbnail": "assets/JES-313_01.jpg"
+    "mainImage": "assets/JES-313_02.jpg",
+    "thumbnail": "assets/JES-313_02.jpg"
   },
   {
     "code": "JES-314",
@@ -1218,8 +1218,8 @@
     "name": "스카이 버튼 투피스 원피스",
     "storeName": "스카이 버튼 투피스 원피스",
     "category": "TWO PIECE",
-    "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -1231,7 +1231,7 @@
     "price": 135000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "미니",
       "섹시",
@@ -1252,20 +1252,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-314_01.jpg",
       "assets/JES-314_02.jpg",
       "assets/JES-314_03.jpg",
-      "assets/JES-314_04.jpg"
+      "assets/JES-314_04.jpg",
+      "assets/JES-314_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-314_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-314_01.jpg"
-      },
-      {
         "url": "assets/JES-314_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-314_02.jpg"
       },
       {
@@ -1277,6 +1272,11 @@
         "url": "assets/JES-314_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-314_04.jpg"
+      },
+      {
+        "url": "assets/JES-314_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-314_01.jpg"
       }
     ],
     "mainCopy": "청량한 컬러와 골드 버튼 포인트가 돋보이는 슬림 투피스",
@@ -1298,8 +1298,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-314_01.jpg",
-    "thumbnail": "assets/JES-314_01.jpg"
+    "mainImage": "assets/JES-314_02.jpg",
+    "thumbnail": "assets/JES-314_02.jpg"
   },
   {
     "code": "JES-315",
@@ -1310,8 +1310,8 @@
     "name": "리본 플레어 원피스",
     "storeName": "리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -1323,7 +1323,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -1344,20 +1344,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-315_01.jpg",
       "assets/JES-315_02.jpg",
       "assets/JES-315_03.jpg",
-      "assets/JES-315_04.jpg"
+      "assets/JES-315_04.jpg",
+      "assets/JES-315_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-315_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-315_01.jpg"
-      },
-      {
         "url": "assets/JES-315_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-315_02.jpg"
       },
       {
@@ -1369,6 +1364,11 @@
         "url": "assets/JES-315_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-315_04.jpg"
+      },
+      {
+        "url": "assets/JES-315_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-315_01.jpg"
       }
     ],
     "mainCopy": "화이트 리본 상의와 그레이 플레어 스커트의 러블리 조합",
@@ -1390,8 +1390,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-315_01.jpg",
-    "thumbnail": "assets/JES-315_01.jpg"
+    "mainImage": "assets/JES-315_02.jpg",
+    "thumbnail": "assets/JES-315_02.jpg"
   },
   {
     "code": "JES-316",
@@ -1403,7 +1403,7 @@
     "storeName": "더블버튼 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -1415,7 +1415,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -1436,21 +1436,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-316_01.jpg",
       "assets/JES-316_02.jpg",
       "assets/JES-316_03.jpg",
       "assets/JES-316_04.jpg",
-      "assets/JES-316_05.jpg"
+      "assets/JES-316_05.jpg",
+      "assets/JES-316_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-316_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-316_01.jpg"
-      },
-      {
         "url": "assets/JES-316_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-316_02.jpg"
       },
       {
@@ -1467,6 +1462,11 @@
         "url": "assets/JES-316_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-316_05.jpg"
+      },
+      {
+        "url": "assets/JES-316_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-316_01.jpg"
       }
     ],
     "mainCopy": "강렬하지만 사랑스럽게 연출되는 레드 A라인 미니원피스",
@@ -1488,8 +1488,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-316_01.jpg",
-    "thumbnail": "assets/JES-316_01.jpg"
+    "mainImage": "assets/JES-316_02.jpg",
+    "thumbnail": "assets/JES-316_02.jpg"
   },
   {
     "code": "JES-317",
@@ -1533,21 +1533,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-317_01.jpg",
       "assets/JES-317_02.jpg",
       "assets/JES-317_03.jpg",
       "assets/JES-317_04.jpg",
-      "assets/JES-317_05.jpg"
+      "assets/JES-317_05.jpg",
+      "assets/JES-317_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-317_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-317_01.jpg"
-      },
-      {
         "url": "assets/JES-317_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-317_02.jpg"
       },
       {
@@ -1564,6 +1559,11 @@
         "url": "assets/JES-317_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-317_05.jpg"
+      },
+      {
+        "url": "assets/JES-317_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-317_01.jpg"
       }
     ],
     "mainCopy": "레이스와 벨트 포인트로 완성한 고급 블랙 슬림 미디원피스",
@@ -1585,8 +1585,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-317_01.jpg",
-    "thumbnail": "assets/JES-317_01.jpg"
+    "mainImage": "assets/JES-317_02.jpg",
+    "thumbnail": "assets/JES-317_02.jpg"
   },
   {
     "code": "JES-318",
@@ -1597,8 +1597,8 @@
     "name": "버튼 스커트 투피스 원피스",
     "storeName": "버튼 스커트 투피스 원피스",
     "category": "TWO PIECE",
-    "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션",
     "collectionDescription": "고급스럽고 존재감 있는 파티·무대·행사용 원피스",
     "vendor": "제시카",
     "length": "미디",
@@ -1610,7 +1610,7 @@
     "price": 135000,
     "tags": [
       "NEW",
-      "미디 & 롱 컬렉션",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "미디",
       "롱",
@@ -1630,25 +1630,25 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-318_01.jpg",
       "assets/JES-318_02.jpg",
-      "assets/JES-318_03.jpg"
+      "assets/JES-318_03.jpg",
+      "assets/JES-318_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-318_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-318_01.jpg"
-      },
-      {
         "url": "assets/JES-318_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-318_02.jpg"
       },
       {
         "url": "assets/JES-318_03.jpg",
         "cut": "상세 2",
         "source": "assets/JES-318_03.jpg"
+      },
+      {
+        "url": "assets/JES-318_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-318_01.jpg"
       }
     ],
     "mainCopy": "블랙 상의와 베이지 스커트가 세련된 고급 투피스",
@@ -1670,8 +1670,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-318_01.jpg",
-    "thumbnail": "assets/JES-318_01.jpg"
+    "mainImage": "assets/JES-318_02.jpg",
+    "thumbnail": "assets/JES-318_02.jpg"
   },
   {
     "code": "JES-319",
@@ -1683,7 +1683,7 @@
     "storeName": "버튼 머메이드 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -1695,7 +1695,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -1716,21 +1716,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-319_01.jpg",
       "assets/JES-319_02.jpg",
       "assets/JES-319_03.jpg",
       "assets/JES-319_04.jpg",
-      "assets/JES-319_05.jpg"
+      "assets/JES-319_05.jpg",
+      "assets/JES-319_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-319_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-319_01.jpg"
-      },
-      {
         "url": "assets/JES-319_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-319_02.jpg"
       },
       {
@@ -1747,6 +1742,11 @@
         "url": "assets/JES-319_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-319_05.jpg"
+      },
+      {
+        "url": "assets/JES-319_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-319_01.jpg"
       }
     ],
     "mainCopy": "부드러운 핑크 컬러에 머메이드 라인을 더한 고급 미니원피스",
@@ -1768,8 +1768,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-319_01.jpg",
-    "thumbnail": "assets/JES-319_01.jpg"
+    "mainImage": "assets/JES-319_02.jpg",
+    "thumbnail": "assets/JES-319_02.jpg"
   },
   {
     "code": "JES-320",
@@ -1780,8 +1780,8 @@
     "name": "카라 배색 원피스",
     "storeName": "카라 배색 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "제시카",
     "length": "미니",
@@ -1793,7 +1793,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -1814,20 +1814,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-320_01.jpg",
       "assets/JES-320_02.jpg",
       "assets/JES-320_03.jpg",
-      "assets/JES-320_04.jpg"
+      "assets/JES-320_04.jpg",
+      "assets/JES-320_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-320_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-320_01.jpg"
-      },
-      {
         "url": "assets/JES-320_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-320_02.jpg"
       },
       {
@@ -1839,6 +1834,11 @@
         "url": "assets/JES-320_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-320_04.jpg"
+      },
+      {
+        "url": "assets/JES-320_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-320_01.jpg"
       }
     ],
     "mainCopy": "카라 배색으로 단정하면서도 발랄한 블랙 A라인 미니원피스",
@@ -1860,8 +1860,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-320_01.jpg",
-    "thumbnail": "assets/JES-320_01.jpg"
+    "mainImage": "assets/JES-320_02.jpg",
+    "thumbnail": "assets/JES-320_02.jpg"
   },
   {
     "code": "JES-321",
@@ -1905,20 +1905,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-321_01.jpg",
       "assets/JES-321_02.jpg",
       "assets/JES-321_03.jpg",
-      "assets/JES-321_04.jpg"
+      "assets/JES-321_04.jpg",
+      "assets/JES-321_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-321_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-321_01.jpg"
-      },
-      {
         "url": "assets/JES-321_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-321_02.jpg"
       },
       {
@@ -1930,6 +1925,11 @@
         "url": "assets/JES-321_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-321_04.jpg"
+      },
+      {
+        "url": "assets/JES-321_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-321_01.jpg"
       }
     ],
     "mainCopy": "화사한 레몬 컬러에 블랙 라인으로 세련미를 더한 슬림 미디원피스",
@@ -1951,8 +1951,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-321_01.jpg",
-    "thumbnail": "assets/JES-321_01.jpg"
+    "mainImage": "assets/JES-321_02.jpg",
+    "thumbnail": "assets/JES-321_02.jpg"
   },
   {
     "code": "JES-322",
@@ -1996,20 +1996,15 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-322_01.jpg",
       "assets/JES-322_02.jpg",
       "assets/JES-322_03.jpg",
-      "assets/JES-322_04.jpg"
+      "assets/JES-322_04.jpg",
+      "assets/JES-322_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-322_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-322_01.jpg"
-      },
-      {
         "url": "assets/JES-322_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-322_02.jpg"
       },
       {
@@ -2021,6 +2016,11 @@
         "url": "assets/JES-322_04.jpg",
         "cut": "상세 3",
         "source": "assets/JES-322_04.jpg"
+      },
+      {
+        "url": "assets/JES-322_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-322_01.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디라인을 우아하게 잡아주는 아이보리 미디원피스",
@@ -2042,8 +2042,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-322_01.jpg",
-    "thumbnail": "assets/JES-322_01.jpg"
+    "mainImage": "assets/JES-322_02.jpg",
+    "thumbnail": "assets/JES-322_02.jpg"
   },
   {
     "code": "JES-323",
@@ -2055,7 +2055,7 @@
     "storeName": "더블버튼 스퀘어넥 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -2067,7 +2067,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -2088,21 +2088,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/JES-323_01.jpg",
       "assets/JES-323_02.jpg",
       "assets/JES-323_03.jpg",
       "assets/JES-323_04.jpg",
-      "assets/JES-323_05.jpg"
+      "assets/JES-323_05.jpg",
+      "assets/JES-323_01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/JES-323_01.jpg",
-        "cut": "대표",
-        "source": "assets/JES-323_01.jpg"
-      },
-      {
         "url": "assets/JES-323_02.jpg",
-        "cut": "상세 1",
+        "cut": "대표",
         "source": "assets/JES-323_02.jpg"
       },
       {
@@ -2119,6 +2114,11 @@
         "url": "assets/JES-323_05.jpg",
         "cut": "상세 4",
         "source": "assets/JES-323_05.jpg"
+      },
+      {
+        "url": "assets/JES-323_01.jpg",
+        "cut": "제품/마네킹컷",
+        "source": "assets/JES-323_01.jpg"
       }
     ],
     "mainCopy": "스퀘어넥과 더블버튼으로 고급스럽게 완성한 블랙 미니원피스",
@@ -2140,8 +2140,8 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/JES-323_01.jpg",
-    "thumbnail": "assets/JES-323_01.jpg"
+    "mainImage": "assets/JES-323_02.jpg",
+    "thumbnail": "assets/JES-323_02.jpg"
   },
   {
     "code": "JES-324",
@@ -2153,7 +2153,7 @@
     "storeName": "리본버튼 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "제시카",
     "length": "미니",
@@ -2165,7 +2165,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -2233,7 +2233,7 @@
     "storeName": "버튼셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -2245,7 +2245,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -2305,8 +2305,8 @@
     "name": "배색스퀘어 플레어 원피스",
     "storeName": "배색스퀘어 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2318,7 +2318,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2378,8 +2378,8 @@
     "name": "프릴블라우스 배색 원피스",
     "storeName": "프릴블라우스 배색 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2391,7 +2391,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2451,8 +2451,8 @@
     "name": "세일러카라 플레어 원피스",
     "storeName": "세일러카라 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2464,7 +2464,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2525,8 +2525,8 @@
     "name": "오프숄더 러플 원피스",
     "storeName": "오프숄더 러플 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2538,7 +2538,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2598,8 +2598,8 @@
     "name": "레이스숄더 플레어 원피스",
     "storeName": "레이스숄더 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2611,7 +2611,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2671,8 +2671,8 @@
     "name": "체크셔링 원피스",
     "storeName": "체크셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2684,7 +2684,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2744,8 +2744,8 @@
     "name": "펀칭레이스 플레어 원피스",
     "storeName": "펀칭레이스 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2757,7 +2757,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2819,7 +2819,7 @@
     "storeName": "랩셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -2831,7 +2831,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -2891,8 +2891,8 @@
     "name": "스트라이프 플레어 원피스",
     "storeName": "스트라이프 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -2904,7 +2904,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -2965,7 +2965,7 @@
     "storeName": "드레이프셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -2977,7 +2977,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -3037,8 +3037,8 @@
     "name": "더블버튼 플레어 원피스",
     "storeName": "더블버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3050,7 +3050,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3111,8 +3111,8 @@
     "name": "리본블라우스 셔링 원피스",
     "storeName": "리본블라우스 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3124,7 +3124,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3184,8 +3184,8 @@
     "name": "더블버튼 레이스 원피스",
     "storeName": "더블버튼 레이스 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3197,7 +3197,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3259,7 +3259,7 @@
     "storeName": "랩카라 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -3271,7 +3271,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -3332,8 +3332,8 @@
     "name": "스트라이프니트 플레어 원피스",
     "storeName": "스트라이프니트 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3345,7 +3345,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3405,8 +3405,8 @@
     "name": "레이스시스루 셔링 원피스",
     "storeName": "레이스시스루 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3418,7 +3418,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3479,8 +3479,8 @@
     "name": "숄더포인트 플레어 원피스",
     "storeName": "숄더포인트 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3492,7 +3492,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3552,7 +3552,7 @@
     "storeName": "드레이프셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -3564,7 +3564,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -3624,8 +3624,8 @@
     "name": "블라우스배색 플레어 원피스",
     "storeName": "블라우스배색 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3637,7 +3637,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3698,7 +3698,7 @@
     "storeName": "랩포인트 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -3710,7 +3710,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -3770,8 +3770,8 @@
     "name": "스퀘어넥 버튼 플레어 원피스",
     "storeName": "스퀘어넥 버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3783,7 +3783,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3844,8 +3844,8 @@
     "name": "러플숄더 셔링 원피스",
     "storeName": "러플숄더 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3857,7 +3857,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3917,8 +3917,8 @@
     "name": "빅리본 플레어 원피스",
     "storeName": "빅리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -3930,7 +3930,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -3992,7 +3992,7 @@
     "storeName": "셔츠카라 랩스커트 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -4004,7 +4004,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -4066,8 +4066,8 @@
     "name": "더블버튼 플레어 원피스",
     "storeName": "더블버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4079,7 +4079,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4140,8 +4140,8 @@
     "name": "프릴숄더 셔링 원피스",
     "storeName": "프릴숄더 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4153,7 +4153,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4213,8 +4213,8 @@
     "name": "배색라인 플레어 원피스",
     "storeName": "배색라인 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4226,7 +4226,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4286,8 +4286,8 @@
     "name": "스트라이프 리본 원피스",
     "storeName": "스트라이프 리본 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4299,7 +4299,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4359,8 +4359,8 @@
     "name": "레이스숄더 플레어 원피스",
     "storeName": "레이스숄더 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4372,7 +4372,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4433,7 +4433,7 @@
     "storeName": "사이드드레이프 언발 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -4445,7 +4445,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -4506,8 +4506,8 @@
     "name": "레이스플레어 원피스",
     "storeName": "레이스플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4519,7 +4519,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4579,8 +4579,8 @@
     "name": "스퀘어넥 버튼 원피스",
     "storeName": "스퀘어넥 버튼 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4592,7 +4592,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4652,8 +4652,8 @@
     "name": "프릴라인 플레어 원피스",
     "storeName": "프릴라인 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4665,7 +4665,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4725,8 +4725,8 @@
     "name": "오프숄더 리본 원피스",
     "storeName": "오프숄더 리본 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4738,7 +4738,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4798,8 +4798,8 @@
     "name": "카라버튼 플레어 원피스",
     "storeName": "카라버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4811,7 +4811,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4872,8 +4872,8 @@
     "name": "리본블라우스 배색 원피스",
     "storeName": "리본블라우스 배색 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4885,7 +4885,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -4945,8 +4945,8 @@
     "name": "체크버튼 플레어 원피스",
     "storeName": "체크버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -4958,7 +4958,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5019,8 +5019,8 @@
     "name": "배색플레어 원피스",
     "storeName": "배색플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5032,7 +5032,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5093,7 +5093,7 @@
     "storeName": "오프숄더 드레이프 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -5105,7 +5105,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -5165,8 +5165,8 @@
     "name": "레이스블라우스 셔링 원피스",
     "storeName": "레이스블라우스 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5178,7 +5178,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5238,8 +5238,8 @@
     "name": "셔츠카라 플레어 원피스",
     "storeName": "셔츠카라 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5251,7 +5251,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5312,8 +5312,8 @@
     "name": "레이스브이넥 셔링 원피스",
     "storeName": "레이스브이넥 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5325,7 +5325,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5386,8 +5386,8 @@
     "name": "레이스라인 플레어 원피스",
     "storeName": "레이스라인 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5399,7 +5399,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5460,7 +5460,7 @@
     "storeName": "카울넥 드레이프 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -5472,7 +5472,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -5532,8 +5532,8 @@
     "name": "레이스백 셔링 원피스",
     "storeName": "레이스백 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5545,7 +5545,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5605,8 +5605,8 @@
     "name": "셔링리본 플레어 원피스",
     "storeName": "셔링리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5618,7 +5618,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5680,7 +5680,7 @@
     "storeName": "배색카라 트임 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -5692,7 +5692,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -5754,7 +5754,7 @@
     "storeName": "랩셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -5766,7 +5766,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -5826,8 +5826,8 @@
     "name": "레이스헴 플레어 원피스",
     "storeName": "레이스헴 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5839,7 +5839,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -5900,7 +5900,7 @@
     "storeName": "스퀘어넥 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -5912,7 +5912,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -5972,8 +5972,8 @@
     "name": "레이스플레어 원피스",
     "storeName": "레이스플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -5985,7 +5985,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6045,8 +6045,8 @@
     "name": "러플숄더 원피스",
     "storeName": "러플숄더 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6058,7 +6058,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6117,8 +6117,8 @@
     "name": "더블버튼 플레어 원피스",
     "storeName": "더블버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6130,7 +6130,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6192,7 +6192,7 @@
     "storeName": "오프숄더 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -6204,7 +6204,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -6264,8 +6264,8 @@
     "name": "빅리본 플레어 원피스",
     "storeName": "빅리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6277,7 +6277,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6339,7 +6339,7 @@
     "storeName": "잔셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -6351,7 +6351,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -6410,8 +6410,8 @@
     "name": "더블버튼 플레어 원피스",
     "storeName": "더블버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6423,7 +6423,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6485,7 +6485,7 @@
     "storeName": "오프숄더 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -6497,7 +6497,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -6557,8 +6557,8 @@
     "name": "레이스숄더 플레어 원피스",
     "storeName": "레이스숄더 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6570,7 +6570,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6631,7 +6631,7 @@
     "storeName": "스트라이프 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -6643,7 +6643,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -6703,8 +6703,8 @@
     "name": "레이스브이넥 플레어 원피스",
     "storeName": "레이스브이넥 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6716,7 +6716,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6778,7 +6778,7 @@
     "storeName": "셔링카라 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -6790,7 +6790,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -6850,8 +6850,8 @@
     "name": "하트버튼 플레어 원피스",
     "storeName": "하트버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6863,7 +6863,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6924,8 +6924,8 @@
     "name": "레이스백 러플 원피스",
     "storeName": "레이스백 러플 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -6937,7 +6937,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -6997,8 +6997,8 @@
     "name": "배색라인 플레어 원피스",
     "storeName": "배색라인 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7010,7 +7010,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7070,8 +7070,8 @@
     "name": "빅리본 셔링 원피스",
     "storeName": "빅리본 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7083,7 +7083,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7144,8 +7144,8 @@
     "name": "리본셔링 플레어 원피스",
     "storeName": "리본셔링 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7157,7 +7157,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7219,7 +7219,7 @@
     "storeName": "랩셔링 스커트 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -7231,7 +7231,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -7292,8 +7292,8 @@
     "name": "도트플레어 원피스",
     "storeName": "도트플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7305,7 +7305,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7366,7 +7366,7 @@
     "storeName": "셔츠카라 랩스커트 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -7378,7 +7378,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -7440,8 +7440,8 @@
     "name": "플라워레이스 플레어 원피스",
     "storeName": "플라워레이스 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7453,7 +7453,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7514,7 +7514,7 @@
     "storeName": "드레이프셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -7526,7 +7526,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -7586,8 +7586,8 @@
     "name": "레이스칼라 플레어 원피스",
     "storeName": "레이스칼라 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7599,7 +7599,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7659,8 +7659,8 @@
     "name": "오프숄더 버튼 플레어 원피스",
     "storeName": "오프숄더 버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7672,7 +7672,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7733,8 +7733,8 @@
     "name": "스퀘어넥 플레어 원피스",
     "storeName": "스퀘어넥 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7746,7 +7746,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7807,7 +7807,7 @@
     "storeName": "더블버튼 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -7819,7 +7819,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -7880,8 +7880,8 @@
     "name": "배색라인 플레어 원피스",
     "storeName": "배색라인 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -7893,7 +7893,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -7954,7 +7954,7 @@
     "storeName": "버튼셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -7966,7 +7966,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -8026,8 +8026,8 @@
     "name": "레이스블라우스 셔링 원피스",
     "storeName": "레이스블라우스 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8039,7 +8039,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8099,8 +8099,8 @@
     "name": "셔츠버튼 원피스",
     "storeName": "셔츠버튼 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8112,7 +8112,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8171,8 +8171,8 @@
     "name": "더블버튼 플레어 원피스",
     "storeName": "더블버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8184,7 +8184,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8245,8 +8245,8 @@
     "name": "랩러플 셔링 원피스",
     "storeName": "랩러플 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8258,7 +8258,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8319,8 +8319,8 @@
     "name": "벨트포인트 플레어 원피스",
     "storeName": "벨트포인트 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8332,7 +8332,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8392,8 +8392,8 @@
     "name": "레이스블라우스 셔링 원피스",
     "storeName": "레이스블라우스 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8405,7 +8405,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8465,8 +8465,8 @@
     "name": "빅리본 플레어 원피스",
     "storeName": "빅리본 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8478,7 +8478,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8540,7 +8540,7 @@
     "storeName": "랩카라 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -8552,7 +8552,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -8613,8 +8613,8 @@
     "name": "퍼프소매 버튼 플레어 원피스",
     "storeName": "퍼프소매 버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8626,7 +8626,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8687,8 +8687,8 @@
     "name": "레이스블라우스 셔링 원피스",
     "storeName": "레이스블라우스 셔링 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8700,7 +8700,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8760,8 +8760,8 @@
     "name": "리본스트랩 플레어 원피스",
     "storeName": "리본스트랩 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8773,7 +8773,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8835,7 +8835,7 @@
     "storeName": "베스트버튼 셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -8847,7 +8847,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -8907,8 +8907,8 @@
     "name": "스트라이프뷔스티에 플레어 원피스",
     "storeName": "스트라이프뷔스티에 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8920,7 +8920,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -8980,8 +8980,8 @@
     "name": "스퀘어넥 포켓 원피스",
     "storeName": "스퀘어넥 포켓 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -8993,7 +8993,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -9052,8 +9052,8 @@
     "name": "버튼 플레어 원피스",
     "storeName": "버튼 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -9065,7 +9065,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -9126,7 +9126,7 @@
     "storeName": "잔셔링 원피스",
     "category": "MINI",
     "collection": "A",
-    "collectionName": "섹시 미니 컬렉션",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
     "vendor": "앙크최",
     "length": "미니",
@@ -9138,7 +9138,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "섹시 미니 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "섹시",
@@ -9197,8 +9197,8 @@
     "name": "배색카라 플레어 원피스",
     "storeName": "배색카라 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -9210,7 +9210,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -9271,8 +9271,8 @@
     "name": "스트라이프 니트 원피스",
     "storeName": "스트라이프 니트 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -9284,7 +9284,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -9343,8 +9343,8 @@
     "name": "퍼프소매 플레어 원피스",
     "storeName": "퍼프소매 플레어 원피스",
     "category": "MINI",
-    "collection": "B",
-    "collectionName": "데일리 & 러블리 컬렉션",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션",
     "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
     "vendor": "앙크최",
     "length": "미니",
@@ -9356,7 +9356,7 @@
     "price": 75000,
     "tags": [
       "NEW",
-      "데일리 & 러블리 컬렉션",
+      "미니 원피스 컬렉션",
       "MINI",
       "미니",
       "데일리",
@@ -9421,6 +9421,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리"
     ],
@@ -9501,7 +9502,9 @@
       "detail": []
     },
     "mainImage": "assets/P002_01.jpg",
-    "thumbnail": "assets/P002_01.jpg"
+    "thumbnail": "assets/P002_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P003",
@@ -9517,6 +9520,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리"
     ],
@@ -9597,7 +9601,9 @@
       "detail": []
     },
     "mainImage": "assets/P003_01.jpg",
-    "thumbnail": "assets/P003_01.jpg"
+    "thumbnail": "assets/P003_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P004",
@@ -9613,6 +9619,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "핑크"
     ],
@@ -9681,7 +9688,9 @@
       "detail": []
     },
     "mainImage": "assets/P004_01.jpg",
-    "thumbnail": "assets/P004_01.jpg"
+    "thumbnail": "assets/P004_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P005",
@@ -9697,6 +9706,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리도트"
     ],
@@ -9777,7 +9787,9 @@
       "detail": []
     },
     "mainImage": "assets/P005_01.jpg",
-    "thumbnail": "assets/P005_01.jpg"
+    "thumbnail": "assets/P005_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P006",
@@ -9793,6 +9805,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "세이지핑크",
       "로즈레드"
@@ -9874,7 +9887,9 @@
       "detail": []
     },
     "mainImage": "assets/P006_01.jpg",
-    "thumbnail": "assets/P006_01.jpg"
+    "thumbnail": "assets/P006_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P007",
@@ -9890,6 +9905,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "화이트"
     ],
@@ -9970,7 +9986,9 @@
       "detail": []
     },
     "mainImage": "assets/P007_01.jpg",
-    "thumbnail": "assets/P007_01.jpg"
+    "thumbnail": "assets/P007_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P008",
@@ -9986,6 +10004,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "MIDI",
       "화이트"
     ],
@@ -10066,7 +10085,9 @@
       "detail": []
     },
     "mainImage": "assets/P008_01.jpg",
-    "thumbnail": "assets/P008_01.jpg"
+    "thumbnail": "assets/P008_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P009",
@@ -10082,6 +10103,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "LONG",
       "화이트"
     ],
@@ -10162,7 +10184,9 @@
       "detail": []
     },
     "mainImage": "assets/P009_01.jpg",
-    "thumbnail": "assets/P009_01.jpg"
+    "thumbnail": "assets/P009_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P010",
@@ -10178,6 +10202,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "MIDI",
       "스카이블루",
       "민트핑크"
@@ -10247,7 +10272,9 @@
       "detail": []
     },
     "mainImage": "assets/P010_01.jpg",
-    "thumbnail": "assets/P010_01.jpg"
+    "thumbnail": "assets/P010_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P011",
@@ -10263,6 +10290,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "베이지핑크"
     ],
@@ -10343,7 +10371,9 @@
       "detail": []
     },
     "mainImage": "assets/P011_01.jpg",
-    "thumbnail": "assets/P011_01.jpg"
+    "thumbnail": "assets/P011_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P012",
@@ -10359,6 +10389,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "화이트"
     ],
@@ -10439,7 +10470,9 @@
       "detail": []
     },
     "mainImage": "assets/P012_01.jpg",
-    "thumbnail": "assets/P012_01.jpg"
+    "thumbnail": "assets/P012_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P013",
@@ -10455,6 +10488,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리"
     ],
@@ -10535,7 +10569,9 @@
       "detail": []
     },
     "mainImage": "assets/P013_01.jpg",
-    "thumbnail": "assets/P013_01.jpg"
+    "thumbnail": "assets/P013_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P014",
@@ -10551,6 +10587,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "화이트"
     ],
@@ -10631,7 +10668,9 @@
       "detail": []
     },
     "mainImage": "assets/P014_01.jpg",
-    "thumbnail": "assets/P014_01.jpg"
+    "thumbnail": "assets/P014_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P015",
@@ -10647,6 +10686,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "핑크"
     ],
@@ -10727,7 +10767,9 @@
       "detail": []
     },
     "mainImage": "assets/P015_01.jpg",
-    "thumbnail": "assets/P015_01.jpg"
+    "thumbnail": "assets/P015_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P016",
@@ -10743,6 +10785,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "연핑크"
     ],
@@ -10811,7 +10854,9 @@
       "detail": []
     },
     "mainImage": "assets/P016_01.jpg",
-    "thumbnail": "assets/P016_01.jpg"
+    "thumbnail": "assets/P016_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P018",
@@ -10827,6 +10872,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "베이지"
@@ -10908,7 +10954,9 @@
       "detail": []
     },
     "mainImage": "assets/P018_01.jpg",
-    "thumbnail": "assets/P018_01.jpg"
+    "thumbnail": "assets/P018_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P019",
@@ -10924,6 +10972,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "LONG",
       "크림베이지",
       "실버그레이"
@@ -11005,7 +11054,9 @@
       "detail": []
     },
     "mainImage": "assets/P019_01.jpg",
-    "thumbnail": "assets/P019_01.jpg"
+    "thumbnail": "assets/P019_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P020",
@@ -11021,6 +11072,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "핑크",
       "민트"
@@ -11102,7 +11154,9 @@
       "detail": []
     },
     "mainImage": "assets/P020_01.jpg",
-    "thumbnail": "assets/P020_01.jpg"
+    "thumbnail": "assets/P020_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P021",
@@ -11118,6 +11172,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "LONG",
       "크림베이지",
       "블랙"
@@ -11199,7 +11254,9 @@
       "detail": []
     },
     "mainImage": "assets/P021_01.jpg",
-    "thumbnail": "assets/P021_01.jpg"
+    "thumbnail": "assets/P021_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P022",
@@ -11215,6 +11272,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리",
       "블랙"
@@ -11296,7 +11354,9 @@
       "detail": []
     },
     "mainImage": "assets/P022_01.jpg",
-    "thumbnail": "assets/P022_01.jpg"
+    "thumbnail": "assets/P022_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P023",
@@ -11312,6 +11372,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "블랙"
     ],
@@ -11380,7 +11441,9 @@
       "detail": []
     },
     "mainImage": "assets/P023_01.jpg",
-    "thumbnail": "assets/P023_01.jpg"
+    "thumbnail": "assets/P023_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P024",
@@ -11396,6 +11459,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "스카이블루",
       "네이비"
@@ -11477,7 +11541,9 @@
       "detail": []
     },
     "mainImage": "assets/P024_01.jpg",
-    "thumbnail": "assets/P024_01.jpg"
+    "thumbnail": "assets/P024_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P025",
@@ -11493,6 +11559,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리핑크",
       "스카이블루"
@@ -11574,7 +11641,9 @@
       "detail": []
     },
     "mainImage": "assets/P025_01.jpg",
-    "thumbnail": "assets/P025_01.jpg"
+    "thumbnail": "assets/P025_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P026",
@@ -11590,6 +11659,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "핑크",
       "블랙"
@@ -11671,7 +11741,9 @@
       "detail": []
     },
     "mainImage": "assets/P026_01.jpg",
-    "thumbnail": "assets/P026_01.jpg"
+    "thumbnail": "assets/P026_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P027",
@@ -11687,6 +11759,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리",
       "핑크"
@@ -11768,7 +11841,9 @@
       "detail": []
     },
     "mainImage": "assets/P027_01.jpg",
-    "thumbnail": "assets/P027_01.jpg"
+    "thumbnail": "assets/P027_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P028",
@@ -11784,6 +11859,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "스카이블루"
@@ -11865,7 +11941,9 @@
       "detail": []
     },
     "mainImage": "assets/P028_01.jpg",
-    "thumbnail": "assets/P028_01.jpg"
+    "thumbnail": "assets/P028_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P029",
@@ -11881,6 +11959,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미디 & 롱 컬렉션",
       "LONG",
       "아이보리"
     ],
@@ -11961,7 +12040,9 @@
       "detail": []
     },
     "mainImage": "assets/P029_01.jpg",
-    "thumbnail": "assets/P029_01.jpg"
+    "thumbnail": "assets/P029_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "P030",
@@ -11977,6 +12058,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "핑크",
       "스카이블루"
@@ -12058,7 +12140,9 @@
       "detail": []
     },
     "mainImage": "assets/P030_01.jpg",
-    "thumbnail": "assets/P030_01.jpg"
+    "thumbnail": "assets/P030_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P031",
@@ -12074,6 +12158,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "네이비"
@@ -12155,7 +12240,9 @@
       "detail": []
     },
     "mainImage": "assets/P031_01.jpg",
-    "thumbnail": "assets/P031_01.jpg"
+    "thumbnail": "assets/P031_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P032",
@@ -12171,6 +12258,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리",
       "블랙"
@@ -12252,7 +12340,9 @@
       "detail": []
     },
     "mainImage": "assets/P032_01.jpg",
-    "thumbnail": "assets/P032_01.jpg"
+    "thumbnail": "assets/P032_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P033",
@@ -12268,6 +12358,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "핑크",
       "스카이블루"
@@ -12349,7 +12440,9 @@
       "detail": []
     },
     "mainImage": "assets/P033_01.jpg",
-    "thumbnail": "assets/P033_01.jpg"
+    "thumbnail": "assets/P033_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P034",
@@ -12365,6 +12458,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "옐로우",
       "블랙"
@@ -12446,7 +12540,9 @@
       "detail": []
     },
     "mainImage": "assets/P034_01.jpg",
-    "thumbnail": "assets/P034_01.jpg"
+    "thumbnail": "assets/P034_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P036",
@@ -12462,6 +12558,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리"
     ],
@@ -12530,7 +12627,9 @@
       "detail": []
     },
     "mainImage": "assets/P036_01.jpg",
-    "thumbnail": "assets/P036_01.jpg"
+    "thumbnail": "assets/P036_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P037",
@@ -12546,6 +12645,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "연핑크"
@@ -12627,7 +12727,9 @@
       "detail": []
     },
     "mainImage": "assets/P037_01.jpg",
-    "thumbnail": "assets/P037_01.jpg"
+    "thumbnail": "assets/P037_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P038",
@@ -12643,6 +12745,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "아이보리",
       "핑크"
@@ -12724,7 +12827,9 @@
       "detail": []
     },
     "mainImage": "assets/P038_01.jpg",
-    "thumbnail": "assets/P038_01.jpg"
+    "thumbnail": "assets/P038_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P039",
@@ -12740,6 +12845,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "핑크베이지",
       "아이보리"
@@ -12809,7 +12915,9 @@
       "detail": []
     },
     "mainImage": "assets/P039_01.jpg",
-    "thumbnail": "assets/P039_01.jpg"
+    "thumbnail": "assets/P039_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P040",
@@ -12825,6 +12933,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "연핑크"
@@ -12906,7 +13015,9 @@
       "detail": []
     },
     "mainImage": "assets/P040_01.jpg",
-    "thumbnail": "assets/P040_01.jpg"
+    "thumbnail": "assets/P040_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P041",
@@ -12922,6 +13033,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "화이트",
       "블랙"
@@ -13003,7 +13115,9 @@
       "detail": []
     },
     "mainImage": "assets/P041_01.jpg",
-    "thumbnail": "assets/P041_01.jpg"
+    "thumbnail": "assets/P041_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P042",
@@ -13019,6 +13133,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "핑크"
@@ -13100,7 +13215,9 @@
       "detail": []
     },
     "mainImage": "assets/P042_01.jpg",
-    "thumbnail": "assets/P042_01.jpg"
+    "thumbnail": "assets/P042_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P043",
@@ -13116,6 +13233,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "핑크"
@@ -13197,7 +13315,9 @@
       "detail": []
     },
     "mainImage": "assets/P043_01.jpg",
-    "thumbnail": "assets/P043_01.jpg"
+    "thumbnail": "assets/P043_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P044",
@@ -13213,6 +13333,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "화이트"
     ],
@@ -13281,7 +13402,9 @@
       "detail": []
     },
     "mainImage": "assets/P044_01.jpg",
-    "thumbnail": "assets/P044_01.jpg"
+    "thumbnail": "assets/P044_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P045",
@@ -13297,6 +13420,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "베이지핑크"
@@ -13378,7 +13502,9 @@
       "detail": []
     },
     "mainImage": "assets/P045_01.jpg",
-    "thumbnail": "assets/P045_01.jpg"
+    "thumbnail": "assets/P045_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "P001",
@@ -13394,6 +13520,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "블랙",
       "아이보리"
@@ -13413,7 +13540,9 @@
       "detail": []
     },
     "mainImage": "",
-    "thumbnail": ""
+    "thumbnail": "",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P017",
@@ -13429,6 +13558,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "미니 원피스 컬렉션",
       "MINI",
       "스카이블루"
     ],
@@ -13447,7 +13577,9 @@
       "detail": []
     },
     "mainImage": "",
-    "thumbnail": ""
+    "thumbnail": "",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "P035",
@@ -13463,6 +13595,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TWO PIECE",
       "아이보리",
       "연핑크"
@@ -13482,7 +13615,9 @@
       "detail": []
     },
     "mainImage": "",
-    "thumbnail": ""
+    "thumbnail": "",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260217",
@@ -13499,6 +13634,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -13552,7 +13688,9 @@
     "name_cn": "樱花 迷你连衣裙",
     "name_jp": "サクラ ミニワンピース",
     "mainImage": "assets/N260217_01.jpg",
-    "thumbnail": "assets/N260217_01.jpg"
+    "thumbnail": "assets/N260217_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260218",
@@ -13569,6 +13707,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "RECOMMEND",
       "TOP"
     ],
@@ -13635,7 +13774,9 @@
     "name_cn": "珠饰 翻领 无袖 针织上衣",
     "name_jp": "ビーズ カラー ノースリーブ ニットトップ",
     "mainImage": "assets/N260218_01.jpg",
-    "thumbnail": "assets/N260218_01.jpg"
+    "thumbnail": "assets/N260218_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260219",
@@ -13652,6 +13793,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -13699,7 +13841,9 @@
     "name_cn": "莫奈 印花 夏季 连衣裙",
     "name_jp": "モネ プリント サマー ワンピース",
     "mainImage": "assets/N260219_01.jpg",
-    "thumbnail": "assets/N260219_01.jpg"
+    "thumbnail": "assets/N260219_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260220",
@@ -13717,6 +13861,7 @@
       "LUXURY",
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -13765,7 +13910,9 @@
     "name_cn": "小花 刺绣 方领 连衣裙",
     "name_jp": "小花 刺繍 スクエアネック ワンピース",
     "mainImage": "assets/N260220_01.jpg",
-    "thumbnail": "assets/N260220_01.jpg"
+    "thumbnail": "assets/N260220_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260221",
@@ -13781,6 +13928,7 @@
     "price": 79000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "TOP"
     ],
     "images": [
@@ -13828,7 +13976,9 @@
     "name_cn": "Paola 修身 针织上衣",
     "name_jp": "パオラ スリム ニットトップ",
     "mainImage": "assets/N260221_01.jpg",
-    "thumbnail": "assets/N260221_01.jpg"
+    "thumbnail": "assets/N260221_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260222",
@@ -13845,6 +13995,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "RECOMMEND",
       "SKIRT"
     ],
@@ -13893,7 +14044,9 @@
     "name_cn": "蕾丝 伞摆 半身裙",
     "name_jp": "レース フレア スカート",
     "mainImage": "assets/N260222_01.jpg",
-    "thumbnail": "assets/N260222_01.jpg"
+    "thumbnail": "assets/N260222_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260223",
@@ -13910,6 +14063,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "RECOMMEND",
       "TOP"
     ],
@@ -13952,7 +14106,9 @@
     "name_cn": "光泽 罗纹 针织上衣 无袖上衣",
     "name_jp": "グロッシー リブ ニットトップ ノースリーブトップ",
     "mainImage": "assets/N260223_01.jpg",
-    "thumbnail": "assets/N260223_01.jpg"
+    "thumbnail": "assets/N260223_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260224",
@@ -13969,6 +14125,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "RECOMMEND",
       "SKIRT"
     ],
@@ -14017,7 +14174,9 @@
     "name_cn": "四层 荷叶边 迷你 半身裙",
     "name_jp": "4段 フリル ミニ スカート",
     "mainImage": "assets/N260224_01.jpg",
-    "thumbnail": "assets/N260224_01.jpg"
+    "thumbnail": "assets/N260224_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260001",
@@ -14032,6 +14191,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14082,7 +14242,9 @@
     "name_cn": "荷叶边 V领 短款 两件套",
     "name_jp": "ラッフル Vネック クロップド セットアップ",
     "mainImage": "assets/N260001_01.jpg",
-    "thumbnail": "assets/N260001_01.jpg"
+    "thumbnail": "assets/N260001_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260002",
@@ -14097,6 +14259,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14147,7 +14310,9 @@
     "name_cn": "荷叶边 V领 短款 两件套",
     "name_jp": "ラッフル Vネック クロップド セットアップ",
     "mainImage": "assets/N260002_01.jpg",
-    "thumbnail": "assets/N260002_01.jpg"
+    "thumbnail": "assets/N260002_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260003",
@@ -14162,6 +14327,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14212,7 +14378,9 @@
     "name_cn": "荷叶边 V领 短款 两件套迷你连衣裙",
     "name_jp": "ラッフル Vネック クロップド セットアップミニワンピース",
     "mainImage": "assets/N260003_01.jpg",
-    "thumbnail": "assets/N260003_01.jpg"
+    "thumbnail": "assets/N260003_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260004",
@@ -14227,6 +14395,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -14278,7 +14447,9 @@
     "name_cn": "海军风 风格 两件套",
     "name_jp": "マリン スタイル セットアップ",
     "mainImage": "assets/N260004_01.jpg",
-    "thumbnail": "assets/N260004_01.jpg"
+    "thumbnail": "assets/N260004_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260005",
@@ -14293,6 +14464,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -14344,7 +14516,9 @@
     "name_cn": "海军风 风格 两件套",
     "name_jp": "マリン スタイル セットアップ",
     "mainImage": "assets/N260005_01.jpg",
-    "thumbnail": "assets/N260005_01.jpg"
+    "thumbnail": "assets/N260005_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260006",
@@ -14359,6 +14533,7 @@
     "size": "S,M,L",
     "price": 156000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14403,7 +14578,9 @@
     "name_cn": "荷叶边 露肩 短款 两件套",
     "name_jp": "ラッフル オフショルダー クロップド セットアップ",
     "mainImage": "assets/N260006_01.jpg",
-    "thumbnail": "assets/N260006_01.jpg"
+    "thumbnail": "assets/N260006_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260007",
@@ -14418,6 +14595,7 @@
     "size": "S,M,L",
     "price": 156000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14462,7 +14640,9 @@
     "name_cn": "荷叶边 两件套",
     "name_jp": "ラッフル セットアップ",
     "mainImage": "assets/N260007_01.jpg",
-    "thumbnail": "assets/N260007_01.jpg"
+    "thumbnail": "assets/N260007_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260008",
@@ -14477,6 +14657,7 @@
     "size": "S,M,L",
     "price": 156000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14521,7 +14702,9 @@
     "name_cn": "露肩 薄纱 半身裙 两件套",
     "name_jp": "オフショルダー チュール スカート セットアップ",
     "mainImage": "assets/N260008_01.jpg",
-    "thumbnail": "assets/N260008_01.jpg"
+    "thumbnail": "assets/N260008_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260009",
@@ -14536,6 +14719,7 @@
     "size": "S,M,L",
     "price": 161000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -14581,7 +14765,9 @@
     "name_cn": "海军风 水手 两件套",
     "name_jp": "マリン セーラー セットアップ",
     "mainImage": "assets/N260009_01.jpg",
-    "thumbnail": "assets/N260009_01.jpg"
+    "thumbnail": "assets/N260009_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260010",
@@ -14596,6 +14782,7 @@
     "size": "S,M,L",
     "price": 161000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -14641,7 +14828,9 @@
     "name_cn": "海军风 水手 两件套",
     "name_jp": "マリン セーラー セットアップ",
     "mainImage": "assets/N260010_01.jpg",
-    "thumbnail": "assets/N260010_01.jpg"
+    "thumbnail": "assets/N260010_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260011",
@@ -14656,6 +14845,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14700,7 +14890,9 @@
     "name_cn": "露肩 裹身 半身裙 两件套",
     "name_jp": "オフショルダー ラップ スカート セットアップ",
     "mainImage": "assets/N260011_01.jpg",
-    "thumbnail": "assets/N260011_01.jpg"
+    "thumbnail": "assets/N260011_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260012",
@@ -14715,6 +14907,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14759,7 +14952,9 @@
     "name_cn": "露肩 裹身 半身裙 两件套",
     "name_jp": "オフショルダー ラップ スカート セットアップ",
     "mainImage": "assets/N260012_01.jpg",
-    "thumbnail": "assets/N260012_01.jpg"
+    "thumbnail": "assets/N260012_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260013",
@@ -14774,6 +14969,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -14818,7 +15014,9 @@
     "name_cn": "露肩 裹身 半身裙 两件套",
     "name_jp": "オフショルダー ラップ スカート セットアップ",
     "mainImage": "assets/N260013_01.jpg",
-    "thumbnail": "assets/N260013_01.jpg"
+    "thumbnail": "assets/N260013_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260014",
@@ -14833,6 +15031,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -14877,7 +15076,9 @@
     "name_cn": "金色纽扣 链条 修身 连衣裙",
     "name_jp": "ゴールドボタン チェーン スリム ワンピース",
     "mainImage": "assets/N260014_01.jpg",
-    "thumbnail": "assets/N260014_01.jpg"
+    "thumbnail": "assets/N260014_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260015",
@@ -14892,6 +15093,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -14936,7 +15138,9 @@
     "name_cn": "金色纽扣 链条 修身 连衣裙",
     "name_jp": "ゴールドボタン チェーン スリム ワンピース",
     "mainImage": "assets/N260015_01.jpg",
-    "thumbnail": "assets/N260015_01.jpg"
+    "thumbnail": "assets/N260015_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260016",
@@ -14951,6 +15155,7 @@
     "size": "S,M,L",
     "price": 117000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15002,7 +15207,9 @@
     "name_cn": "华丽 中长连衣裙",
     "name_jp": "グラム ミディワンピース",
     "mainImage": "assets/N260016_01.jpg",
-    "thumbnail": "assets/N260016_01.jpg"
+    "thumbnail": "assets/N260016_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260017",
@@ -15017,6 +15224,7 @@
     "size": "S,M,L",
     "price": 111000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15061,7 +15269,9 @@
     "name_cn": "Guinness 迷你连衣裙",
     "name_jp": "ギネス ミニワンピース",
     "mainImage": "assets/N260017_01.jpg",
-    "thumbnail": "assets/N260017_01.jpg"
+    "thumbnail": "assets/N260017_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260018",
@@ -15076,6 +15286,7 @@
     "size": "S,M,L",
     "price": 111000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15120,7 +15331,9 @@
     "name_cn": "Guinness 迷你连衣裙",
     "name_jp": "ギネス ミニワンピース",
     "mainImage": "assets/N260018_01.jpg",
-    "thumbnail": "assets/N260018_01.jpg"
+    "thumbnail": "assets/N260018_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260019",
@@ -15135,6 +15348,7 @@
     "size": "S,M,L",
     "price": 135000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15185,7 +15399,9 @@
     "name_cn": "La Vie 连衣裙",
     "name_jp": "ラヴィアン ワンピース",
     "mainImage": "assets/N260019_01.jpg",
-    "thumbnail": "assets/N260019_01.jpg"
+    "thumbnail": "assets/N260019_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260020",
@@ -15200,6 +15416,7 @@
     "size": "S,M,L",
     "price": 9000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15238,7 +15455,9 @@
     "name_cn": "配饰选项",
     "name_jp": "アクセサリーオプション",
     "mainImage": "assets/N260020_03.jpg",
-    "thumbnail": "assets/N260020_03.jpg"
+    "thumbnail": "assets/N260020_03.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260021",
@@ -15253,6 +15472,7 @@
     "size": "S,M,L",
     "price": 135000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15309,7 +15529,9 @@
     "name_cn": "La Vie 连衣裙",
     "name_jp": "ラヴィアン ワンピース",
     "mainImage": "assets/N260021_01.jpg",
-    "thumbnail": "assets/N260021_01.jpg"
+    "thumbnail": "assets/N260021_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260022",
@@ -15324,6 +15546,7 @@
     "size": "S,M,L",
     "price": 106000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -15368,7 +15591,9 @@
     "name_cn": "抹胸 蝴蝶结 条纹 迷你连衣裙",
     "name_jp": "チューブトップ リボン ストライプ ミニワンピース",
     "mainImage": "assets/N260022_01.jpg",
-    "thumbnail": "assets/N260022_01.jpg"
+    "thumbnail": "assets/N260022_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260023",
@@ -15383,6 +15608,7 @@
     "size": "S,M,L",
     "price": 106000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -15427,7 +15653,9 @@
     "name_cn": "抹胸 蝴蝶结 条纹 迷你连衣裙",
     "name_jp": "チューブトップ リボン ストライプ ミニワンピース",
     "mainImage": "assets/N260023_01.jpg",
-    "thumbnail": "assets/N260023_01.jpg"
+    "thumbnail": "assets/N260023_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260024",
@@ -15442,6 +15670,7 @@
     "size": "S,M,L",
     "price": 119000,
     "tags": [
+      "미니 원피스 컬렉션",
       "BEST",
       "MINI",
       "PARTY",
@@ -15491,7 +15720,9 @@
     "name_cn": "Bebe 蝴蝶结镂空迷你连衣裙",
     "name_jp": "ベベ リボンホール ミニワンピース",
     "mainImage": "assets/N260024_01.jpg",
-    "thumbnail": "assets/N260024_01.jpg"
+    "thumbnail": "assets/N260024_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260025",
@@ -15506,6 +15737,7 @@
     "size": "S,M,L",
     "price": 75000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -15550,7 +15782,9 @@
     "name_cn": "条纹 蝴蝶结 上衣 衬衫",
     "name_jp": "ストライプ リボン トップス ブラウス",
     "mainImage": "assets/N260025_01.jpg",
-    "thumbnail": "assets/N260025_01.jpg"
+    "thumbnail": "assets/N260025_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260026",
@@ -15565,6 +15799,7 @@
     "size": "S,M,L",
     "price": 75000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -15609,7 +15844,9 @@
     "name_cn": "条纹 蝴蝶结 上衣 衬衫",
     "name_jp": "ストライプ リボン トップス ブラウス",
     "mainImage": "assets/N260026_01.jpg",
-    "thumbnail": "assets/N260026_01.jpg"
+    "thumbnail": "assets/N260026_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260027",
@@ -15624,6 +15861,7 @@
     "size": "S,M,L",
     "price": 110000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15669,7 +15907,9 @@
     "name_cn": "摩登修身 灰色 修身 中长连衣裙",
     "name_jp": "モダンフィット グレー スリム ミディワンピース",
     "mainImage": "assets/N260027_01.jpg",
-    "thumbnail": "assets/N260027_01.jpg"
+    "thumbnail": "assets/N260027_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260028",
@@ -15684,6 +15924,7 @@
     "size": "S,M,L",
     "price": 110000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15729,7 +15970,9 @@
     "name_cn": "摩登修身 灰色 修身 中长连衣裙",
     "name_jp": "モダンフィット グレー スリム ミディワンピース",
     "mainImage": "assets/N260028_01.jpg",
-    "thumbnail": "assets/N260028_01.jpg"
+    "thumbnail": "assets/N260028_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260029",
@@ -15744,6 +15987,7 @@
     "size": "S,M,L",
     "price": 110000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15789,7 +16033,9 @@
     "name_cn": "摩登修身 灰色 修身 中长连衣裙",
     "name_jp": "モダンフィット グレー スリム ミディワンピース",
     "mainImage": "assets/N260029_01.jpg",
-    "thumbnail": "assets/N260029_01.jpg"
+    "thumbnail": "assets/N260029_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260030",
@@ -15804,6 +16050,7 @@
     "size": "S,M,L",
     "price": 110000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -15848,7 +16095,9 @@
     "name_cn": "垂褶 抹胸 连衣裙",
     "name_jp": "ドレープ チューブトップ ワンピース",
     "mainImage": "assets/N260030_01.jpg",
-    "thumbnail": "assets/N260030_01.jpg"
+    "thumbnail": "assets/N260030_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260031",
@@ -15863,6 +16112,7 @@
     "size": "S,M,L",
     "price": 122000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15908,7 +16158,9 @@
     "name_cn": "Lua 黑色线条 蝴蝶结 开衩 中长连衣裙",
     "name_jp": "ルア ブラックライン リボン スリット ミディワンピース",
     "mainImage": "assets/N260031_03.jpg",
-    "thumbnail": "assets/N260031_03.jpg"
+    "thumbnail": "assets/N260031_03.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260032",
@@ -15923,6 +16175,7 @@
     "size": "S,M,L",
     "price": 122000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -15968,7 +16221,9 @@
     "name_cn": "Lua 黑色线条 蝴蝶结 开衩 中长连衣裙",
     "name_jp": "ルア ブラックライン リボン スリット ミディワンピース",
     "mainImage": "assets/N260032_01.jpg",
-    "thumbnail": "assets/N260032_01.jpg"
+    "thumbnail": "assets/N260032_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260033",
@@ -15983,6 +16238,7 @@
     "size": "S,M,L",
     "price": 81000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -16027,7 +16283,9 @@
     "name_cn": "领口蝴蝶结 衬衫",
     "name_jp": "ネックリボン ブラウス",
     "mainImage": "assets/N260033_01.jpg",
-    "thumbnail": "assets/N260033_01.jpg"
+    "thumbnail": "assets/N260033_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260034",
@@ -16042,6 +16300,7 @@
     "size": "S,M,L",
     "price": 76000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -16086,7 +16345,9 @@
     "name_cn": "经典 风格 百褶 半身裙",
     "name_jp": "クラシック ムード プリーツ スカート",
     "mainImage": "assets/N260034_01.jpg",
-    "thumbnail": "assets/N260034_01.jpg"
+    "thumbnail": "assets/N260034_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260035",
@@ -16101,6 +16362,7 @@
     "size": "S,M,L",
     "price": 171000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -16145,7 +16407,9 @@
     "name_cn": "领口蝴蝶结 经典 风格 百褶 两件套",
     "name_jp": "ネックリボン クラシック ムード プリーツ セットアップ",
     "mainImage": "assets/N260035_01.jpg",
-    "thumbnail": "assets/N260035_01.jpg"
+    "thumbnail": "assets/N260035_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260036",
@@ -16160,6 +16424,7 @@
     "size": "S,M,L",
     "price": 117000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16217,7 +16482,9 @@
     "name_cn": "Glam 象牙色中长连衣裙",
     "name_jp": "グラム ミディワンピース アイボリー",
     "mainImage": "assets/N260036_01.jpg",
-    "thumbnail": "assets/N260036_01.jpg"
+    "thumbnail": "assets/N260036_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260037",
@@ -16232,6 +16499,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16278,7 +16546,9 @@
     "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
     "name_jp": "リボン タイ オフショルダー ミディワンピース",
     "mainImage": "assets/N260037_01.jpg",
-    "thumbnail": "assets/N260037_01.jpg"
+    "thumbnail": "assets/N260037_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260038",
@@ -16293,6 +16563,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16339,7 +16610,9 @@
     "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
     "name_jp": "リボン タイ オフショルダー ミディワンピース",
     "mainImage": "assets/N260038_01.jpg",
-    "thumbnail": "assets/N260038_01.jpg"
+    "thumbnail": "assets/N260038_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260039",
@@ -16354,6 +16627,7 @@
     "size": "S,M,L",
     "price": 170000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "LUXURY",
       "PARTY",
@@ -16399,7 +16673,9 @@
     "name_cn": "Bella 束身 钩扣 迷你两件套",
     "name_jp": "ベラ コルセット フック ミニセットアップ",
     "mainImage": "assets/N260039_01.jpg",
-    "thumbnail": "assets/N260039_01.jpg"
+    "thumbnail": "assets/N260039_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260040",
@@ -16414,6 +16690,7 @@
     "size": "S,M,L",
     "price": 93000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -16458,7 +16735,9 @@
     "name_cn": "Bella 束身 短款 无袖上衣 衬衫",
     "name_jp": "ベラ コルセット クロップド ノースリーブトップ ブラウス",
     "mainImage": "assets/N260040_01.jpg",
-    "thumbnail": "assets/N260040_01.jpg"
+    "thumbnail": "assets/N260040_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260041",
@@ -16473,6 +16752,7 @@
     "size": "S,M,L",
     "price": 77000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
@@ -16517,7 +16797,9 @@
     "name_cn": "Bella 钩扣 线条 半身裙",
     "name_jp": "ベラ フック ライン スカート",
     "mainImage": "assets/N260041_01.jpg",
-    "thumbnail": "assets/N260041_01.jpg"
+    "thumbnail": "assets/N260041_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260043",
@@ -16532,6 +16814,7 @@
     "size": "S,M,L",
     "price": 135000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16577,7 +16860,9 @@
     "name_cn": "La Vie 撞色 缎面 中长连衣裙",
     "name_jp": "ラヴィアン 配色 サテン ミディワンピース",
     "mainImage": "assets/N260043_01.jpg",
-    "thumbnail": "assets/N260043_01.jpg"
+    "thumbnail": "assets/N260043_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260044",
@@ -16592,6 +16877,7 @@
     "size": "S,M,L",
     "price": 135000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16637,7 +16923,9 @@
     "name_cn": "La Vie 撞色 缎面 中长连衣裙",
     "name_jp": "ラヴィアン 配色 サテン ミディワンピース",
     "mainImage": "assets/N260044_01.jpg",
-    "thumbnail": "assets/N260044_01.jpg"
+    "thumbnail": "assets/N260044_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260045",
@@ -16652,6 +16940,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -16697,7 +16986,9 @@
     "name_cn": "学院风 波点 翻领 两件套",
     "name_jp": "プレッピー ドット カラー セットアップ",
     "mainImage": "assets/N260045_01.jpg",
-    "thumbnail": "assets/N260045_01.jpg"
+    "thumbnail": "assets/N260045_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260046",
@@ -16712,6 +17003,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "BEST",
       "COSTUME",
       "PARTY",
@@ -16757,7 +17049,9 @@
     "name_cn": "学院风 波点 翻领 两件套",
     "name_jp": "プレッピー ドット カラー セットアップ",
     "mainImage": "assets/N260046_01.jpg",
-    "thumbnail": "assets/N260046_01.jpg"
+    "thumbnail": "assets/N260046_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260047",
@@ -16772,6 +17066,7 @@
     "size": "S,M,L",
     "price": 144000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LONG",
       "LUXURY",
@@ -16817,7 +17112,9 @@
     "name_cn": "透视 长款礼服",
     "name_jp": "シースルー ロングドレス",
     "mainImage": "assets/N260047_01.jpg",
-    "thumbnail": "assets/N260047_01.jpg"
+    "thumbnail": "assets/N260047_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260048",
@@ -16832,6 +17129,7 @@
     "size": "S,M,L",
     "price": 144000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LONG",
       "LUXURY",
@@ -16877,7 +17175,9 @@
     "name_cn": "A字版 长款礼服",
     "name_jp": "Aライン ロングドレス",
     "mainImage": "assets/N260048_01.jpg",
-    "thumbnail": "assets/N260048_01.jpg"
+    "thumbnail": "assets/N260048_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260049",
@@ -16892,6 +17192,7 @@
     "size": "S,M,L",
     "price": 131000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16937,7 +17238,9 @@
     "name_cn": "H版型 中长礼服",
     "name_jp": "Hライン ミディドレス",
     "mainImage": "assets/N260049_01.jpg",
-    "thumbnail": "assets/N260049_01.jpg"
+    "thumbnail": "assets/N260049_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260050",
@@ -16952,6 +17255,7 @@
     "size": "S,M,L",
     "price": 131000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "BEST",
       "LUXURY",
       "MIDI",
@@ -16997,7 +17301,9 @@
     "name_cn": "H版型 中长礼服",
     "name_jp": "Hライン ミディドレス",
     "mainImage": "assets/N260050_01.jpg",
-    "thumbnail": "assets/N260050_01.jpg"
+    "thumbnail": "assets/N260050_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260051",
@@ -17012,6 +17318,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -17055,7 +17362,9 @@
     "name_cn": "H版型 中长礼服",
     "name_jp": "Hライン ミディドレス",
     "mainImage": "assets/N260051_01.jpg",
-    "thumbnail": "assets/N260051_01.jpg"
+    "thumbnail": "assets/N260051_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260052",
@@ -17070,6 +17379,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -17113,7 +17423,9 @@
     "name_cn": "H版型 中长礼服",
     "name_jp": "Hライン ミディドレス",
     "mainImage": "assets/N260052_01.jpg",
-    "thumbnail": "assets/N260052_01.jpg"
+    "thumbnail": "assets/N260052_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260053",
@@ -17128,6 +17440,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -17171,7 +17484,9 @@
     "name_cn": "红色花朵 H版型 中长礼服",
     "name_jp": "レッドフラワー Hライン ミディドレス",
     "mainImage": "assets/N260053_01.jpg",
-    "thumbnail": "assets/N260053_01.jpg"
+    "thumbnail": "assets/N260053_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260054",
@@ -17186,6 +17501,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -17229,7 +17545,9 @@
     "name_cn": "蓝色花朵 H版型 中长礼服",
     "name_jp": "ブルーフラワー Hライン ミディドレス",
     "mainImage": "assets/N260054_01.jpg",
-    "thumbnail": "assets/N260054_01.jpg"
+    "thumbnail": "assets/N260054_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260055",
@@ -17244,6 +17562,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -17285,7 +17604,9 @@
     "name_cn": "迷你 上衣 礼服",
     "name_jp": "ミニ トップス ドレス",
     "mainImage": "assets/N260055_01.jpg",
-    "thumbnail": "assets/N260055_01.jpg"
+    "thumbnail": "assets/N260055_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260056",
@@ -17300,6 +17621,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -17341,7 +17663,9 @@
     "name_cn": "迷你 上衣 礼服",
     "name_jp": "ミニ トップス ドレス",
     "mainImage": "assets/N260056_01.jpg",
-    "thumbnail": "assets/N260056_01.jpg"
+    "thumbnail": "assets/N260056_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260057",
@@ -17356,6 +17680,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "MINI",
       "PARTY",
       "TOP"
@@ -17398,7 +17723,9 @@
     "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
     "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース",
     "mainImage": "assets/N260057_01.jpg",
-    "thumbnail": "assets/N260057_01.jpg"
+    "thumbnail": "assets/N260057_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260058",
@@ -17413,6 +17740,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "MINI",
       "PARTY",
       "TOP"
@@ -17455,7 +17783,9 @@
     "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
     "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース",
     "mainImage": "assets/N260058_01.jpg",
-    "thumbnail": "assets/N260058_01.jpg"
+    "thumbnail": "assets/N260058_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260059",
@@ -17470,6 +17800,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17511,7 +17842,9 @@
     "name_cn": "花朵 肩部 H版型 迷你礼服",
     "name_jp": "フラワー ショルダー Hライン ミニドレス",
     "mainImage": "assets/N260059_01.jpg",
-    "thumbnail": "assets/N260059_01.jpg"
+    "thumbnail": "assets/N260059_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260060",
@@ -17526,6 +17859,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17567,7 +17901,9 @@
     "name_cn": "花朵 肩部 H版型 迷你礼服",
     "name_jp": "フラワー ショルダー Hライン ミニドレス",
     "mainImage": "assets/N260060_01.jpg",
-    "thumbnail": "assets/N260060_01.jpg"
+    "thumbnail": "assets/N260060_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260061",
@@ -17582,6 +17918,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17623,7 +17960,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260061_01.jpg",
-    "thumbnail": "assets/N260061_01.jpg"
+    "thumbnail": "assets/N260061_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260062",
@@ -17638,6 +17977,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17679,7 +18019,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260062_01.jpg",
-    "thumbnail": "assets/N260062_01.jpg"
+    "thumbnail": "assets/N260062_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260063",
@@ -17694,6 +18036,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17735,7 +18078,9 @@
     "name_cn": "波点 迷你 A字版 连衣裙",
     "name_jp": "ドット ミニ Aライン ワンピース",
     "mainImage": "assets/N260063_01.jpg",
-    "thumbnail": "assets/N260063_01.jpg"
+    "thumbnail": "assets/N260063_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260064",
@@ -17750,6 +18095,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17791,7 +18137,9 @@
     "name_cn": "波点 迷你 A字版 连衣裙",
     "name_jp": "ドット ミニ Aライン ワンピース",
     "mainImage": "assets/N260064_01.jpg",
-    "thumbnail": "assets/N260064_01.jpg"
+    "thumbnail": "assets/N260064_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260065",
@@ -17806,6 +18154,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17847,7 +18196,9 @@
     "name_cn": "V形扣 百褶 迷你连衣裙",
     "name_jp": "Vバックル プリーツ ミニワンピース",
     "mainImage": "assets/N260065_01.jpg",
-    "thumbnail": "assets/N260065_01.jpg"
+    "thumbnail": "assets/N260065_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260066",
@@ -17862,6 +18213,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17903,7 +18255,9 @@
     "name_cn": "珍珠纽扣 方领 迷你连衣裙",
     "name_jp": "パールボタン スクエアネック ミニワンピース",
     "mainImage": "assets/N260066_01.jpg",
-    "thumbnail": "assets/N260066_01.jpg"
+    "thumbnail": "assets/N260066_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260067",
@@ -17918,6 +18272,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -17965,7 +18320,9 @@
     "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
     "name_jp": "ドット リボン タイ Aライン ミニドレス",
     "mainImage": "assets/N260067_01.jpg",
-    "thumbnail": "assets/N260067_01.jpg"
+    "thumbnail": "assets/N260067_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260068",
@@ -17980,6 +18337,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18021,7 +18379,9 @@
     "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
     "name_jp": "ドット リボン タイ Aライン ミニドレス",
     "mainImage": "assets/N260068_01.jpg",
-    "thumbnail": "assets/N260068_01.jpg"
+    "thumbnail": "assets/N260068_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260069",
@@ -18036,6 +18396,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18077,7 +18438,9 @@
     "name_cn": "波点 蝴蝶结 系带 A字版 迷你礼服",
     "name_jp": "ドット リボン タイ Aライン ミニドレス",
     "mainImage": "assets/N260069_01.jpg",
-    "thumbnail": "assets/N260069_01.jpg"
+    "thumbnail": "assets/N260069_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260070",
@@ -18092,6 +18455,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18133,7 +18497,9 @@
     "name_cn": "V形扣 百褶 迷你连衣裙",
     "name_jp": "Vバックル プリーツ ミニワンピース",
     "mainImage": "assets/N260070_01.jpg",
-    "thumbnail": "assets/N260070_01.jpg"
+    "thumbnail": "assets/N260070_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260071",
@@ -18148,6 +18514,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18189,7 +18556,9 @@
     "name_cn": "V形扣 百褶 迷你连衣裙",
     "name_jp": "Vバックル プリーツ ミニワンピース",
     "mainImage": "assets/N260071_01.jpg",
-    "thumbnail": "assets/N260071_01.jpg"
+    "thumbnail": "assets/N260071_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260072",
@@ -18204,6 +18573,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18245,7 +18615,9 @@
     "name_cn": "珍珠纽扣 方领 迷你连衣裙",
     "name_jp": "パールボタン スクエアネック ミニワンピース",
     "mainImage": "assets/N260072_01.jpg",
-    "thumbnail": "assets/N260072_01.jpg"
+    "thumbnail": "assets/N260072_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260073",
@@ -18260,6 +18632,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18301,7 +18674,9 @@
     "name_cn": "珍珠纽扣 方领 迷你连衣裙",
     "name_jp": "パールボタン スクエアネック ミニワンピース",
     "mainImage": "assets/N260073_01.jpg",
-    "thumbnail": "assets/N260073_01.jpg"
+    "thumbnail": "assets/N260073_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260074",
@@ -18316,6 +18691,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -18357,7 +18733,9 @@
     "name_cn": "珍珠纽扣 方领 迷你连衣裙",
     "name_jp": "パールボタン スクエアネック ミニワンピース",
     "mainImage": "assets/N260074_01.jpg",
-    "thumbnail": "assets/N260074_01.jpg"
+    "thumbnail": "assets/N260074_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260075",
@@ -18372,6 +18750,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -18413,7 +18792,9 @@
     "name_cn": "伞摆 短款 两件套",
     "name_jp": "フレア クロップド セットアップ",
     "mainImage": "assets/N260075_01.jpg",
-    "thumbnail": "assets/N260075_01.jpg"
+    "thumbnail": "assets/N260075_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260076",
@@ -18428,6 +18809,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -18481,7 +18863,9 @@
     "name_cn": "伞摆 短款 两件套",
     "name_jp": "フレア クロップド セットアップ",
     "mainImage": "assets/N260076_01.jpg",
-    "thumbnail": "assets/N260076_01.jpg"
+    "thumbnail": "assets/N260076_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260077",
@@ -18496,6 +18880,7 @@
     "size": "S,M,L",
     "price": 153000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -18537,7 +18922,9 @@
     "name_cn": "伞摆 短款 两件套",
     "name_jp": "フレア クロップド セットアップ",
     "mainImage": "assets/N260077_01.jpg",
-    "thumbnail": "assets/N260077_01.jpg"
+    "thumbnail": "assets/N260077_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260078",
@@ -18552,6 +18939,7 @@
     "size": "S,M,L",
     "price": 122000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -18595,7 +18983,9 @@
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
     "mainImage": "assets/N260078_01.jpg",
-    "thumbnail": "assets/N260078_01.jpg"
+    "thumbnail": "assets/N260078_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260079",
@@ -18610,6 +19000,7 @@
     "size": "S,M,L",
     "price": 154000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -18651,7 +19042,9 @@
     "name_cn": "抽褶 短款 上衣 和 伞摆 两件套",
     "name_jp": "シャーリング クロップド トップス と フレア セットアップ",
     "mainImage": "assets/N260079_01.jpg",
-    "thumbnail": "assets/N260079_01.jpg"
+    "thumbnail": "assets/N260079_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260080",
@@ -18666,6 +19059,7 @@
     "size": "S,M,L",
     "price": 140000,
     "tags": [
+      "미니 원피스 컬렉션",
       "LUXURY",
       "MINI",
       "PARTY",
@@ -18709,7 +19103,9 @@
     "name_cn": "透视 蕾丝 连衣裙",
     "name_jp": "シースルー レース ワンピース",
     "mainImage": "assets/N260080_01.jpg",
-    "thumbnail": "assets/N260080_01.jpg"
+    "thumbnail": "assets/N260080_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260081",
@@ -18724,6 +19120,7 @@
     "size": "S,M,L",
     "price": 140000,
     "tags": [
+      "미니 원피스 컬렉션",
       "LUXURY",
       "MINI",
       "PARTY",
@@ -18779,7 +19176,9 @@
     "name_cn": "透视 蕾丝 连衣裙",
     "name_jp": "シースルー レース ワンピース",
     "mainImage": "assets/N260081_01.jpg",
-    "thumbnail": "assets/N260081_01.jpg"
+    "thumbnail": "assets/N260081_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260082",
@@ -18794,6 +19193,7 @@
     "size": "S,M,L",
     "price": 129000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -18837,7 +19237,9 @@
     "name_cn": "束身 长款 吊带 连衣裙",
     "name_jp": "コルセット ロング スリップ ワンピース",
     "mainImage": "assets/N260082_01.jpg",
-    "thumbnail": "assets/N260082_01.jpg"
+    "thumbnail": "assets/N260082_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260083",
@@ -18852,6 +19254,7 @@
     "size": "S,M,L",
     "price": 129000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -18895,7 +19298,9 @@
     "name_cn": "束身 长款 吊带 连衣裙",
     "name_jp": "コルセット ロング スリップ ワンピース",
     "mainImage": "assets/N260083_01.jpg",
-    "thumbnail": "assets/N260083_01.jpg"
+    "thumbnail": "assets/N260083_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260084",
@@ -18910,6 +19315,7 @@
     "size": "S,M,L",
     "price": 129000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -18953,7 +19359,9 @@
     "name_cn": "束身 长款 吊带 连衣裙",
     "name_jp": "コルセット ロング スリップ ワンピース",
     "mainImage": "assets/N260084_01.jpg",
-    "thumbnail": "assets/N260084_01.jpg"
+    "thumbnail": "assets/N260084_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260085",
@@ -18968,6 +19376,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -19018,7 +19427,9 @@
     "name_cn": "立体 花朵 V领 中长连衣裙",
     "name_jp": "立体 フラワー Vネック ミディワンピース",
     "mainImage": "assets/N260085_01.jpg",
-    "thumbnail": "assets/N260085_01.jpg"
+    "thumbnail": "assets/N260085_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260086",
@@ -19033,6 +19444,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -19077,7 +19489,9 @@
     "name_cn": "立体 花朵 V领 中长连衣裙",
     "name_jp": "立体 フラワー Vネック ミディワンピース",
     "mainImage": "assets/N260086_01.jpg",
-    "thumbnail": "assets/N260086_01.jpg"
+    "thumbnail": "assets/N260086_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260087",
@@ -19092,6 +19506,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -19133,7 +19548,9 @@
     "name_cn": "荷叶边 肩部 亮片 迷你连衣裙",
     "name_jp": "フリル ショルダー スパンコール ミニワンピース",
     "mainImage": "assets/N260087_01.jpg",
-    "thumbnail": "assets/N260087_01.jpg"
+    "thumbnail": "assets/N260087_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260088",
@@ -19148,6 +19565,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -19189,7 +19607,9 @@
     "name_cn": "荷叶边 肩部 亮片 迷你连衣裙",
     "name_jp": "フリル ショルダー スパンコール ミニワンピース",
     "mainImage": "assets/N260088_01.jpg",
-    "thumbnail": "assets/N260088_01.jpg"
+    "thumbnail": "assets/N260088_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260089",
@@ -19204,6 +19624,7 @@
     "size": "S,M,L",
     "price": 191000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -19245,7 +19666,9 @@
     "name_cn": "花朵 透视 短款 两件套",
     "name_jp": "フラワー シースルー クロップド セットアップ",
     "mainImage": "assets/N260089_01.jpg",
-    "thumbnail": "assets/N260089_01.jpg"
+    "thumbnail": "assets/N260089_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260090",
@@ -19260,6 +19683,7 @@
     "size": "S,M,L",
     "price": 122000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -19303,7 +19727,9 @@
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
     "mainImage": "assets/N260090_01.jpg",
-    "thumbnail": "assets/N260090_01.jpg"
+    "thumbnail": "assets/N260090_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260091",
@@ -19318,6 +19744,7 @@
     "size": "S,M,L",
     "price": 191000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -19359,7 +19786,9 @@
     "name_cn": "花朵 透视 短款 两件套",
     "name_jp": "フラワー シースルー クロップド セットアップ",
     "mainImage": "assets/N260091_01.jpg",
-    "thumbnail": "assets/N260091_01.jpg"
+    "thumbnail": "assets/N260091_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260092",
@@ -19374,6 +19803,7 @@
     "size": "S,M,L",
     "price": 122000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LUXURY",
       "MIDI",
       "PARTY",
@@ -19417,7 +19847,9 @@
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
     "mainImage": "assets/N260092_01.jpg",
-    "thumbnail": "assets/N260092_01.jpg"
+    "thumbnail": "assets/N260092_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260093",
@@ -19432,6 +19864,7 @@
     "size": "S,M,L",
     "price": 154000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -19473,7 +19906,9 @@
     "name_cn": "抽褶 短款 伞摆 两件套",
     "name_jp": "シャーリング クロップド フレア セットアップ",
     "mainImage": "assets/N260093_01.jpg",
-    "thumbnail": "assets/N260093_01.jpg"
+    "thumbnail": "assets/N260093_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260110",
@@ -19488,6 +19923,7 @@
     "size": "S,M,L",
     "price": 32000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -19529,7 +19965,9 @@
     "name_cn": "高领 无袖 上衣",
     "name_jp": "タートルネック ノースリーブ トップス",
     "mainImage": "assets/N260110_01.jpg",
-    "thumbnail": "assets/N260110_01.jpg"
+    "thumbnail": "assets/N260110_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260111",
@@ -19544,6 +19982,7 @@
     "size": "S,M,L",
     "price": 81000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -19585,7 +20024,9 @@
     "name_cn": "翻领 短袖 开衫",
     "name_jp": "カラー 半袖 カーディガン",
     "mainImage": "assets/N260111_01.jpg",
-    "thumbnail": "assets/N260111_01.jpg"
+    "thumbnail": "assets/N260111_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260112",
@@ -19600,6 +20041,7 @@
     "size": "S,M,L",
     "price": 65000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -19643,7 +20085,9 @@
     "name_cn": "蕾丝 束身 上衣",
     "name_jp": "レース コルセット トップス",
     "mainImage": "assets/N260112_01.jpg",
-    "thumbnail": "assets/N260112_01.jpg"
+    "thumbnail": "assets/N260112_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260113",
@@ -19658,6 +20102,7 @@
     "size": "S,M,L",
     "price": 64000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -19701,7 +20146,9 @@
     "name_cn": "花朵 雪纺 无袖上衣",
     "name_jp": "フラワー シフォン ノースリーブトップ",
     "mainImage": "assets/N260113_01.jpg",
-    "thumbnail": "assets/N260113_01.jpg"
+    "thumbnail": "assets/N260113_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260114",
@@ -19716,6 +20163,7 @@
     "size": "S,M,L",
     "price": 63000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -19759,7 +20207,9 @@
     "name_cn": "蕾丝 束身 抹胸上衣",
     "name_jp": "レース コルセット ビスチェ",
     "mainImage": "assets/N260114_01.jpg",
-    "thumbnail": "assets/N260114_01.jpg"
+    "thumbnail": "assets/N260114_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260115",
@@ -19774,6 +20224,7 @@
     "size": "S,M,L",
     "price": 57000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -19817,7 +20268,9 @@
     "name_cn": "刺绣 装饰 罗纹 上衣",
     "name_jp": "刺繍 装飾 リブ トップス",
     "mainImage": "assets/N260115_01.jpg",
-    "thumbnail": "assets/N260115_01.jpg"
+    "thumbnail": "assets/N260115_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260116",
@@ -19832,6 +20285,7 @@
     "size": "S,M,L",
     "price": 25000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -19876,7 +20330,9 @@
     "name_cn": "荷叶边 长袖 开衫",
     "name_jp": "ラッフル ロングスリーブ カーディガン",
     "mainImage": "assets/N260116_01.jpg",
-    "thumbnail": "assets/N260116_01.jpg"
+    "thumbnail": "assets/N260116_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260117",
@@ -19891,6 +20347,7 @@
     "size": "S,M,L",
     "price": 86000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -19932,7 +20389,9 @@
     "name_cn": "丝巾 领带 无袖上衣",
     "name_jp": "スカーフ ネクタイ ノースリーブトップ",
     "mainImage": "assets/N260117_01.jpg",
-    "thumbnail": "assets/N260117_01.jpg"
+    "thumbnail": "assets/N260117_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260118",
@@ -19947,6 +20406,7 @@
     "size": "S,M,L",
     "price": 158000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -19990,7 +20450,9 @@
     "name_cn": "花朵 珠饰 短款 上衣",
     "name_jp": "フラワー ビーズ クロップド トップス",
     "mainImage": "assets/N260118_01.jpg",
-    "thumbnail": "assets/N260118_01.jpg"
+    "thumbnail": "assets/N260118_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260119",
@@ -20005,6 +20467,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "MINI",
       "PARTY",
@@ -20049,7 +20512,9 @@
     "name_cn": "花朵 珠饰 开衫",
     "name_jp": "フラワー ビーズ カーディガン",
     "mainImage": "assets/N260119_01.jpg",
-    "thumbnail": "assets/N260119_01.jpg"
+    "thumbnail": "assets/N260119_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260120",
@@ -20064,6 +20529,7 @@
     "size": "S,M,L",
     "price": 162000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "MINI",
       "PARTY",
       "TOP"
@@ -20106,7 +20572,9 @@
     "name_cn": "V领 针织上衣 开衫",
     "name_jp": "Vネック ニットトップ カーディガン",
     "mainImage": "assets/N260120_01.jpg",
-    "thumbnail": "assets/N260120_01.jpg"
+    "thumbnail": "assets/N260120_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260121",
@@ -20121,6 +20589,7 @@
     "size": "S,M,L",
     "price": 294000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "LUXURY",
       "PARTY",
       "RECOMMEND",
@@ -20164,7 +20633,9 @@
     "name_cn": "珠宝纽扣 短款 两件套",
     "name_jp": "ジュエルボタン クロップド セットアップ",
     "mainImage": "assets/N260121_01.jpg",
-    "thumbnail": "assets/N260121_01.jpg"
+    "thumbnail": "assets/N260121_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260122",
@@ -20179,6 +20650,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20220,7 +20692,9 @@
     "name_cn": "修身 短款 套装 两件套",
     "name_jp": "スリム クロップド セットアップ セットアップ",
     "mainImage": "assets/N260122_01.jpg",
-    "thumbnail": "assets/N260122_01.jpg"
+    "thumbnail": "assets/N260122_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260123",
@@ -20235,6 +20709,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20276,7 +20751,9 @@
     "name_cn": "修身 短款 套装 两件套",
     "name_jp": "スリム クロップド セットアップ セットアップ",
     "mainImage": "assets/N260123_01.jpg",
-    "thumbnail": "assets/N260123_01.jpg"
+    "thumbnail": "assets/N260123_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260124",
@@ -20291,6 +20768,7 @@
     "size": "S,M,L",
     "price": 126000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20332,7 +20810,9 @@
     "name_cn": "修身 短款 套装 两件套",
     "name_jp": "スリム クロップド セットアップ セットアップ",
     "mainImage": "assets/N260124_01.jpg",
-    "thumbnail": "assets/N260124_01.jpg"
+    "thumbnail": "assets/N260124_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260125",
@@ -20347,6 +20827,7 @@
     "size": "S,M,L",
     "price": 90000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20388,7 +20869,9 @@
     "name_cn": "撞色 修身 套装 两件套",
     "name_jp": "配色 スリム セットアップ セットアップ",
     "mainImage": "assets/N260125_01.jpg",
-    "thumbnail": "assets/N260125_01.jpg"
+    "thumbnail": "assets/N260125_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260126",
@@ -20403,6 +20886,7 @@
     "size": "S,M,L",
     "price": 125000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20444,7 +20928,9 @@
     "name_cn": "柔和 线条 两件套",
     "name_jp": "ソフト ライン セットアップ",
     "mainImage": "assets/N260126_01.jpg",
-    "thumbnail": "assets/N260126_01.jpg"
+    "thumbnail": "assets/N260126_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260127",
@@ -20459,6 +20945,7 @@
     "size": "S,M,L",
     "price": 125000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20500,7 +20987,9 @@
     "name_cn": "柔和 线条 两件套",
     "name_jp": "ソフト ライン セットアップ",
     "mainImage": "assets/N260127_01.jpg",
-    "thumbnail": "assets/N260127_01.jpg"
+    "thumbnail": "assets/N260127_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260128",
@@ -20515,6 +21004,7 @@
     "size": "S,M,L",
     "price": 125000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20556,7 +21046,9 @@
     "name_cn": "柔和 线条 两件套",
     "name_jp": "ソフト ライン セットアップ",
     "mainImage": "assets/N260128_01.jpg",
-    "thumbnail": "assets/N260128_01.jpg"
+    "thumbnail": "assets/N260128_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260129",
@@ -20571,6 +21063,7 @@
     "size": "S,M,L",
     "price": 104000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20612,7 +21105,9 @@
     "name_cn": "摩登 线条 两件套",
     "name_jp": "モダン ライン セットアップ",
     "mainImage": "assets/N260129_01.jpg",
-    "thumbnail": "assets/N260129_01.jpg"
+    "thumbnail": "assets/N260129_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260130",
@@ -20627,6 +21122,7 @@
     "size": "S,M,L",
     "price": 104000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20668,7 +21164,9 @@
     "name_cn": "摩登 线条 两件套",
     "name_jp": "モダン ライン セットアップ",
     "mainImage": "assets/N260130_01.jpg",
-    "thumbnail": "assets/N260130_01.jpg"
+    "thumbnail": "assets/N260130_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260131",
@@ -20683,6 +21181,7 @@
     "size": "S,M,L",
     "price": 104000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20724,7 +21223,9 @@
     "name_cn": "摩登 线条 两件套",
     "name_jp": "モダン ライン セットアップ",
     "mainImage": "assets/N260131_01.jpg",
-    "thumbnail": "assets/N260131_01.jpg"
+    "thumbnail": "assets/N260131_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260132",
@@ -20739,6 +21240,7 @@
     "size": "S,M,L",
     "price": 225000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20780,7 +21282,9 @@
     "name_cn": "三件式 套装 两件套",
     "name_jp": "スリーピース セットアップ セットアップ",
     "mainImage": "assets/N260132_01.jpg",
-    "thumbnail": "assets/N260132_01.jpg"
+    "thumbnail": "assets/N260132_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260133",
@@ -20795,6 +21299,7 @@
     "size": "S,M,L",
     "price": 108000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20836,7 +21341,9 @@
     "name_cn": "撞色 线条 两件套",
     "name_jp": "配色 ライン セットアップ",
     "mainImage": "assets/N260133_01.jpg",
-    "thumbnail": "assets/N260133_01.jpg"
+    "thumbnail": "assets/N260133_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260134",
@@ -20851,6 +21358,7 @@
     "size": "S,M,L",
     "price": 108000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20892,7 +21400,9 @@
     "name_cn": "经典 套装 两件套",
     "name_jp": "クラシック セットアップ セットアップ",
     "mainImage": "assets/N260134_01.jpg",
-    "thumbnail": "assets/N260134_01.jpg"
+    "thumbnail": "assets/N260134_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260135",
@@ -20907,6 +21417,7 @@
     "size": "S,M,L",
     "price": "",
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -20948,7 +21459,9 @@
     "name_cn": "经典 套装 两件套",
     "name_jp": "クラシック セットアップ セットアップ",
     "mainImage": "assets/N260135_01.jpg",
-    "thumbnail": "assets/N260135_01.jpg"
+    "thumbnail": "assets/N260135_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260136",
@@ -20963,6 +21476,7 @@
     "size": "S,M,L",
     "price": "",
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21004,7 +21518,9 @@
     "name_cn": "经典 套装 两件套",
     "name_jp": "クラシック セットアップ セットアップ",
     "mainImage": "assets/N260136_01.jpg",
-    "thumbnail": "assets/N260136_01.jpg"
+    "thumbnail": "assets/N260136_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260137",
@@ -21019,6 +21535,7 @@
     "size": "S,M,L",
     "price": "",
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21060,7 +21577,9 @@
     "name_cn": "经典 套装 两件套",
     "name_jp": "クラシック セットアップ セットアップ",
     "mainImage": "assets/N260137_01.jpg",
-    "thumbnail": "assets/N260137_01.jpg"
+    "thumbnail": "assets/N260137_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260138",
@@ -21075,6 +21594,7 @@
     "size": "S,M,L",
     "price": 105000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21116,7 +21636,9 @@
     "name_cn": "可调长度 短款 两件套",
     "name_jp": "丈調節 クロップド セットアップ",
     "mainImage": "assets/N260138_01.jpg",
-    "thumbnail": "assets/N260138_01.jpg"
+    "thumbnail": "assets/N260138_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260139",
@@ -21131,6 +21653,7 @@
     "size": "S,M,L",
     "price": 133000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21172,7 +21695,9 @@
     "name_cn": "柔和 亮点 两件套",
     "name_jp": "ソフト ポイント セットアップ",
     "mainImage": "assets/N260139_01.jpg",
-    "thumbnail": "assets/N260139_01.jpg"
+    "thumbnail": "assets/N260139_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260140",
@@ -21187,6 +21712,7 @@
     "size": "S,M,L",
     "price": 99000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21228,7 +21754,9 @@
     "name_cn": "柔和 亮点 两件套",
     "name_jp": "ソフト ポイント セットアップ",
     "mainImage": "assets/N260140_01.jpg",
-    "thumbnail": "assets/N260140_01.jpg"
+    "thumbnail": "assets/N260140_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260141",
@@ -21243,6 +21771,7 @@
     "size": "S,M,L",
     "price": 99000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21284,7 +21813,9 @@
     "name_cn": "柔和 亮点 两件套",
     "name_jp": "ソフト ポイント セットアップ",
     "mainImage": "assets/N260141_01.jpg",
-    "thumbnail": "assets/N260141_01.jpg"
+    "thumbnail": "assets/N260141_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260142",
@@ -21299,6 +21830,7 @@
     "size": "S,M,L",
     "price": 112000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21340,7 +21872,9 @@
     "name_cn": "简约 亮点 两件套",
     "name_jp": "ミニマル ポイント セットアップ",
     "mainImage": "assets/N260142_01.jpg",
-    "thumbnail": "assets/N260142_01.jpg"
+    "thumbnail": "assets/N260142_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260143",
@@ -21355,6 +21889,7 @@
     "size": "S,M,L",
     "price": 112000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21396,7 +21931,9 @@
     "name_cn": "简约 亮点 两件套",
     "name_jp": "ミニマル ポイント セットアップ",
     "mainImage": "assets/N260143_01.jpg",
-    "thumbnail": "assets/N260143_01.jpg"
+    "thumbnail": "assets/N260143_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260144",
@@ -21411,6 +21948,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21452,7 +21990,9 @@
     "name_cn": "简约 套装 两件套",
     "name_jp": "ミニマル セットアップ セットアップ",
     "mainImage": "assets/N260144_01.jpg",
-    "thumbnail": "assets/N260144_01.jpg"
+    "thumbnail": "assets/N260144_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260145",
@@ -21467,6 +22007,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21508,7 +22049,9 @@
     "name_cn": "简约 套装 两件套",
     "name_jp": "ミニマル セットアップ セットアップ",
     "mainImage": "assets/N260145_01.jpg",
-    "thumbnail": "assets/N260145_01.jpg"
+    "thumbnail": "assets/N260145_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260146",
@@ -21523,6 +22066,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -21564,7 +22108,9 @@
     "name_cn": "简约 套装 两件套",
     "name_jp": "ミニマル セットアップ セットアップ",
     "mainImage": "assets/N260146_01.jpg",
-    "thumbnail": "assets/N260146_01.jpg"
+    "thumbnail": "assets/N260146_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260147",
@@ -21579,6 +22125,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21620,7 +22167,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260147_01.jpg",
-    "thumbnail": "assets/N260147_01.jpg"
+    "thumbnail": "assets/N260147_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260148",
@@ -21635,6 +22184,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21676,7 +22226,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260148_01.jpg",
-    "thumbnail": "assets/N260148_01.jpg"
+    "thumbnail": "assets/N260148_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260149",
@@ -21691,6 +22243,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21732,7 +22285,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260149_01.jpg",
-    "thumbnail": "assets/N260149_01.jpg"
+    "thumbnail": "assets/N260149_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260150",
@@ -21747,6 +22302,7 @@
     "size": "S,M,L",
     "price": 84000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21788,7 +22344,9 @@
     "name_cn": "可调肩带 亮点 迷你连衣裙",
     "name_jp": "調節可能ストラップ ポイント ミニワンピース",
     "mainImage": "assets/N260150_01.jpg",
-    "thumbnail": "assets/N260150_01.jpg"
+    "thumbnail": "assets/N260150_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260151",
@@ -21803,6 +22361,7 @@
     "size": "S,M,L",
     "price": 84000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21844,7 +22403,9 @@
     "name_cn": "可调肩带 亮点 迷你连衣裙",
     "name_jp": "調節可能ストラップ ポイント ミニワンピース",
     "mainImage": "assets/N260151_01.jpg",
-    "thumbnail": "assets/N260151_01.jpg"
+    "thumbnail": "assets/N260151_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260152",
@@ -21859,6 +22420,7 @@
     "size": "S,M,L",
     "price": 84000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21900,7 +22462,9 @@
     "name_cn": "可调肩带 亮点 迷你连衣裙",
     "name_jp": "調節可能ストラップ ポイント ミニワンピース",
     "mainImage": "assets/N260152_01.jpg",
-    "thumbnail": "assets/N260152_01.jpg"
+    "thumbnail": "assets/N260152_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260153",
@@ -21915,6 +22479,7 @@
     "size": "S,M,L",
     "price": 84000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -21956,7 +22521,9 @@
     "name_cn": "可调肩带 亮点 迷你连衣裙",
     "name_jp": "調節可能ストラップ ポイント ミニワンピース",
     "mainImage": "assets/N260153_01.jpg",
-    "thumbnail": "assets/N260153_01.jpg"
+    "thumbnail": "assets/N260153_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260154",
@@ -21971,6 +22538,7 @@
     "size": "S,M,L",
     "price": 144000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22012,7 +22580,9 @@
     "name_cn": "背部罩片 可拆卸 迷你连衣裙",
     "name_jp": "バックカバー 取り外し可能 ミニワンピース",
     "mainImage": "assets/N260154_01.jpg",
-    "thumbnail": "assets/N260154_01.jpg"
+    "thumbnail": "assets/N260154_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260155",
@@ -22027,6 +22597,7 @@
     "size": "S,M,L",
     "price": 144000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22068,7 +22639,9 @@
     "name_cn": "背部罩片 可拆卸 迷你连衣裙",
     "name_jp": "バックカバー 取り外し可能 ミニワンピース",
     "mainImage": "assets/N260155_01.jpg",
-    "thumbnail": "assets/N260155_01.jpg"
+    "thumbnail": "assets/N260155_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260156",
@@ -22083,6 +22656,7 @@
     "size": "S,M,L",
     "price": 144000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22124,7 +22698,9 @@
     "name_cn": "背部罩片 可拆卸 迷你连衣裙",
     "name_jp": "バックカバー 取り外し可能 ミニワンピース",
     "mainImage": "assets/N260156_01.jpg",
-    "thumbnail": "assets/N260156_01.jpg"
+    "thumbnail": "assets/N260156_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260157",
@@ -22139,6 +22715,7 @@
     "size": "S,M,L",
     "price": 248000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22180,7 +22757,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260157_01.jpg",
-    "thumbnail": "assets/N260157_01.jpg"
+    "thumbnail": "assets/N260157_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260158",
@@ -22195,6 +22774,7 @@
     "size": "S,M,L",
     "price": 97000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22236,7 +22816,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260158_01.jpg",
-    "thumbnail": "assets/N260158_01.jpg"
+    "thumbnail": "assets/N260158_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260159",
@@ -22251,6 +22833,7 @@
     "size": "S,M,L",
     "price": 97000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22292,7 +22875,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260159_01.jpg",
-    "thumbnail": "assets/N260159_01.jpg"
+    "thumbnail": "assets/N260159_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260160",
@@ -22307,6 +22892,7 @@
     "size": "S,M,L",
     "price": 104000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -22348,7 +22934,9 @@
     "name_cn": "经典款 两件套",
     "name_jp": "シグネチャー セットアップ",
     "mainImage": "assets/N260160_01.jpg",
-    "thumbnail": "assets/N260160_01.jpg"
+    "thumbnail": "assets/N260160_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260161",
@@ -22363,6 +22951,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -22406,7 +22995,9 @@
     "name_cn": "亮点 长款礼服",
     "name_jp": "ポイント ロングドレス",
     "mainImage": "assets/N260161_01.jpg",
-    "thumbnail": "assets/N260161_01.jpg"
+    "thumbnail": "assets/N260161_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260162",
@@ -22421,6 +23012,7 @@
     "size": "S,M,L",
     "price": 72000,
     "tags": [
+      "미디 & 롱 컬렉션",
       "LONG",
       "LUXURY",
       "PARTY",
@@ -22464,7 +23056,9 @@
     "name_cn": "亮点 长款礼服",
     "name_jp": "ポイント ロングドレス",
     "mainImage": "assets/N260162_01.jpg",
-    "thumbnail": "assets/N260162_01.jpg"
+    "thumbnail": "assets/N260162_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260163",
@@ -22479,6 +23073,7 @@
     "size": "S,M,L",
     "price": 104000,
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22520,7 +23115,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260163_01.jpg",
-    "thumbnail": "assets/N260163_01.jpg"
+    "thumbnail": "assets/N260163_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260164",
@@ -22535,6 +23132,7 @@
     "size": "S,M,L",
     "price": 284000,
     "tags": [
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -22576,7 +23174,9 @@
     "name_cn": "摩登 修身 两件套",
     "name_jp": "モダン スリム セットアップ",
     "mainImage": "assets/N260164_01.jpg",
-    "thumbnail": "assets/N260164_01.jpg"
+    "thumbnail": "assets/N260164_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260165",
@@ -22591,6 +23191,7 @@
     "size": "S,M,L",
     "price": "",
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22632,7 +23233,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260165_01.jpg",
-    "thumbnail": "assets/N260165_01.jpg"
+    "thumbnail": "assets/N260165_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260166",
@@ -22647,6 +23250,7 @@
     "size": "S,M,L",
     "price": "",
     "tags": [
+      "미니 원피스 컬렉션",
       "MINI",
       "PARTY"
     ],
@@ -22688,7 +23292,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260166_01.jpg",
-    "thumbnail": "assets/N260166_01.jpg"
+    "thumbnail": "assets/N260166_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260167",
@@ -22705,6 +23311,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -22746,7 +23353,9 @@
     "name_cn": "露肩 蝴蝶结 亮点 迷你连衣裙",
     "name_jp": "オフショルダー リボン ポイント ミニワンピース",
     "mainImage": "assets/N260167_01.jpg",
-    "thumbnail": "assets/N260167_01.jpg"
+    "thumbnail": "assets/N260167_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260168",
@@ -22763,6 +23372,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -22804,7 +23414,9 @@
     "name_cn": "露肩 蝴蝶结 亮点 迷你连衣裙",
     "name_jp": "オフショルダー リボン ポイント ミニワンピース",
     "mainImage": "assets/N260168_01.jpg",
-    "thumbnail": "assets/N260168_01.jpg"
+    "thumbnail": "assets/N260168_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260169",
@@ -22821,6 +23433,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -22862,7 +23475,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260169_01.jpg",
-    "thumbnail": "assets/N260169_01.jpg"
+    "thumbnail": "assets/N260169_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260170",
@@ -22879,6 +23494,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -22920,7 +23536,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260170_01.jpg",
-    "thumbnail": "assets/N260170_01.jpg"
+    "thumbnail": "assets/N260170_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260171",
@@ -22938,6 +23556,7 @@
       "LUXURY",
       "MIDI",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TOP"
@@ -22981,7 +23600,9 @@
     "name_cn": "肩带 无袖上衣 波点 A字版 中长连衣裙",
     "name_jp": "ストラップ ノースリーブトップ ドット柄 Aライン ミディワンピース",
     "mainImage": "assets/N260171_01.jpg",
-    "thumbnail": "assets/N260171_01.jpg"
+    "thumbnail": "assets/N260171_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260172",
@@ -22998,6 +23619,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23039,7 +23661,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260172_01.jpg",
-    "thumbnail": "assets/N260172_01.jpg"
+    "thumbnail": "assets/N260172_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260173",
@@ -23056,6 +23680,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23097,7 +23722,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260173_01.jpg",
-    "thumbnail": "assets/N260173_01.jpg"
+    "thumbnail": "assets/N260173_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260174",
@@ -23114,6 +23741,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23155,7 +23783,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260174_01.jpg",
-    "thumbnail": "assets/N260174_01.jpg"
+    "thumbnail": "assets/N260174_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260175",
@@ -23172,6 +23802,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23213,7 +23844,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260175_01.jpg",
-    "thumbnail": "assets/N260175_01.jpg"
+    "thumbnail": "assets/N260175_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260176",
@@ -23230,6 +23863,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23271,7 +23905,9 @@
     "name_cn": "背部爱心 亮点 迷你连衣裙",
     "name_jp": "バックハート ポイント ミニワンピース",
     "mainImage": "assets/N260176_01.jpg",
-    "thumbnail": "assets/N260176_01.jpg"
+    "thumbnail": "assets/N260176_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260177",
@@ -23288,6 +23924,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23329,7 +23966,9 @@
     "name_cn": "背部爱心 亮点 迷你连衣裙",
     "name_jp": "バックハート ポイント ミニワンピース",
     "mainImage": "assets/N260177_01.jpg",
-    "thumbnail": "assets/N260177_01.jpg"
+    "thumbnail": "assets/N260177_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260178",
@@ -23346,6 +23985,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23387,7 +24027,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260178_01.jpg",
-    "thumbnail": "assets/N260178_01.jpg"
+    "thumbnail": "assets/N260178_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260179",
@@ -23404,6 +24046,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23445,7 +24088,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260179_01.jpg",
-    "thumbnail": "assets/N260179_01.jpg"
+    "thumbnail": "assets/N260179_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260180",
@@ -23463,6 +24108,7 @@
       "LONG",
       "LUXURY",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -23505,7 +24151,9 @@
     "name_cn": "亮点 长款礼服",
     "name_jp": "ポイント ロングドレス",
     "mainImage": "assets/N260180_01.jpg",
-    "thumbnail": "assets/N260180_01.jpg"
+    "thumbnail": "assets/N260180_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260181",
@@ -23523,6 +24171,7 @@
       "LONG",
       "LUXURY",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -23565,7 +24214,9 @@
     "name_cn": "亮点 长款礼服",
     "name_jp": "ポイント ロングドレス",
     "mainImage": "assets/N260181_01.jpg",
-    "thumbnail": "assets/N260181_01.jpg"
+    "thumbnail": "assets/N260181_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260182",
@@ -23583,6 +24234,7 @@
       "LONG",
       "LUXURY",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -23625,7 +24277,9 @@
     "name_cn": "亮点 长款礼服",
     "name_jp": "ポイント ロングドレス",
     "mainImage": "assets/N260182_01.jpg",
-    "thumbnail": "assets/N260182_01.jpg"
+    "thumbnail": "assets/N260182_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260183",
@@ -23642,6 +24296,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23683,7 +24338,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260183_01.jpg",
-    "thumbnail": "assets/N260183_01.jpg"
+    "thumbnail": "assets/N260183_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260184",
@@ -23700,6 +24357,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23741,7 +24399,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260184_01.jpg",
-    "thumbnail": "assets/N260184_01.jpg"
+    "thumbnail": "assets/N260184_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260185",
@@ -23758,6 +24418,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -23799,7 +24460,9 @@
     "name_cn": "亮点 迷你连衣裙",
     "name_jp": "ポイント ミニワンピース",
     "mainImage": "assets/N260185_01.jpg",
-    "thumbnail": "assets/N260185_01.jpg"
+    "thumbnail": "assets/N260185_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260186",
@@ -23817,6 +24480,7 @@
       "LONG",
       "LUXURY",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -23859,7 +24523,9 @@
     "name_cn": "可调肩带 长款礼服",
     "name_jp": "調節可能ストラップ ロングドレス",
     "mainImage": "assets/N260186_01.jpg",
-    "thumbnail": "assets/N260186_01.jpg"
+    "thumbnail": "assets/N260186_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260187",
@@ -23875,6 +24541,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -23917,7 +24584,9 @@
     "name_cn": "玫瑰 爱心纽扣 短款 无袖上衣 中长两件套",
     "name_jp": "ロゼ ハートボタン クロップド ノースリーブトップ ミディセットアップ",
     "mainImage": "assets/N260187_01.jpg",
-    "thumbnail": "assets/N260187_01.jpg"
+    "thumbnail": "assets/N260187_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260188",
@@ -23933,6 +24602,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -23975,7 +24645,9 @@
     "name_cn": "玫瑰 爱心纽扣 短款 无袖上衣 中长两件套",
     "name_jp": "ロゼ ハートボタン クロップド ノースリーブトップ ミディセットアップ",
     "mainImage": "assets/N260188_01.jpg",
-    "thumbnail": "assets/N260188_01.jpg"
+    "thumbnail": "assets/N260188_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260189",
@@ -23993,6 +24665,7 @@
       "LUXURY",
       "MIDI",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -24035,7 +24708,9 @@
     "name_cn": "亮点 中长礼服",
     "name_jp": "ポイント ミディドレス",
     "mainImage": "assets/N260189_01.jpg",
-    "thumbnail": "assets/N260189_01.jpg"
+    "thumbnail": "assets/N260189_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260190",
@@ -24052,6 +24727,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -24093,7 +24769,9 @@
     "name_cn": "波点 A字版 迷你连衣裙",
     "name_jp": "ドット Aライン ミニワンピース",
     "mainImage": "assets/N260190_01.jpg",
-    "thumbnail": "assets/N260190_01.jpg"
+    "thumbnail": "assets/N260190_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260191",
@@ -24110,6 +24788,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -24151,7 +24830,9 @@
     "name_cn": "波点 A字版 迷你连衣裙",
     "name_jp": "ドット Aライン ミニワンピース",
     "mainImage": "assets/N260191_01.jpg",
-    "thumbnail": "assets/N260191_01.jpg"
+    "thumbnail": "assets/N260191_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260192",
@@ -24167,6 +24848,7 @@
     "price": 81000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -24209,7 +24891,9 @@
     "name_cn": "肩章 纽扣 衬衫",
     "name_jp": "エポレット ボタン ブラウス",
     "mainImage": "assets/N260192_01.jpg",
-    "thumbnail": "assets/N260192_01.jpg"
+    "thumbnail": "assets/N260192_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260193",
@@ -24227,6 +24911,7 @@
       "LUXURY",
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -24269,7 +24954,9 @@
     "name_cn": "菱格 刺绣 连衣裙",
     "name_jp": "ダイヤ 刺繍 ワンピース",
     "mainImage": "assets/N260193_01.jpg",
-    "thumbnail": "assets/N260193_01.jpg"
+    "thumbnail": "assets/N260193_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260194",
@@ -24285,6 +24972,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -24327,7 +25015,9 @@
     "name_cn": "亮点 两件套",
     "name_jp": "ポイント セットアップ",
     "mainImage": "assets/N260194_01.jpg",
-    "thumbnail": "assets/N260194_01.jpg"
+    "thumbnail": "assets/N260194_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260195",
@@ -24345,6 +25035,7 @@
       "LUXURY",
       "MIDI",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -24387,7 +25078,9 @@
     "name_cn": "圆环 亮点 连衣裙",
     "name_jp": "リング ポイント ワンピース",
     "mainImage": "assets/N260195_01.jpg",
-    "thumbnail": "assets/N260195_01.jpg"
+    "thumbnail": "assets/N260195_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260196",
@@ -24405,6 +25098,7 @@
       "LUXURY",
       "MIDI",
       "NEW",
+      "미디 & 롱 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -24447,7 +25141,9 @@
     "name_cn": "水晶灯 连衣裙",
     "name_jp": "シャンデリア ワンピース",
     "mainImage": "assets/N260196_01.jpg",
-    "thumbnail": "assets/N260196_01.jpg"
+    "thumbnail": "assets/N260196_01.jpg",
+    "collection": "C",
+    "collectionName": "미디 & 롱 컬렉션"
   },
   {
     "code": "N260197",
@@ -24463,6 +25159,7 @@
     "price": 81000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -24505,7 +25202,9 @@
     "name_cn": "抽褶 无袖上衣",
     "name_jp": "シャーリング ノースリーブトップ",
     "mainImage": "assets/N260197_01.jpg",
-    "thumbnail": "assets/N260197_01.jpg"
+    "thumbnail": "assets/N260197_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260198",
@@ -24521,6 +25220,7 @@
     "price": "",
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -24563,7 +25263,9 @@
     "name_cn": "风琴褶 衬衫",
     "name_jp": "アコーディオン ブラウス",
     "mainImage": "assets/N260198_01.jpg",
-    "thumbnail": "assets/N260198_01.jpg"
+    "thumbnail": "assets/N260198_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260199",
@@ -24579,6 +25281,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -24621,7 +25324,9 @@
     "name_cn": "撞色 亮点 两件套",
     "name_jp": "配色 ポイント セットアップ",
     "mainImage": "assets/N260199_01.jpg",
-    "thumbnail": "assets/N260199_01.jpg"
+    "thumbnail": "assets/N260199_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260200",
@@ -24638,6 +25343,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TOP"
@@ -24681,7 +25387,9 @@
     "name_cn": "双层 蕾丝 荷叶摆 衬衫",
     "name_jp": "ダブル レース フラウンス ブラウス",
     "mainImage": "assets/N260200_01.jpg",
-    "thumbnail": "assets/N260200_01.jpg"
+    "thumbnail": "assets/N260200_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260201",
@@ -24699,6 +25407,7 @@
       "LUXURY",
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY",
       "RECOMMEND"
     ],
@@ -24741,7 +25450,9 @@
     "name_cn": "刺绣 迷你连衣裙",
     "name_jp": "刺繍 ミニワンピース",
     "mainImage": "assets/N260201_01.jpg",
-    "thumbnail": "assets/N260201_01.jpg"
+    "thumbnail": "assets/N260201_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260202",
@@ -24757,6 +25468,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -24799,7 +25511,9 @@
     "name_cn": "翻领 撞色 两件套",
     "name_jp": "カラー 配色 セットアップ",
     "mainImage": "assets/N260202_01.jpg",
-    "thumbnail": "assets/N260202_01.jpg"
+    "thumbnail": "assets/N260202_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260203",
@@ -24816,6 +25530,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -24857,7 +25572,9 @@
     "name_cn": "糖果 连衣裙",
     "name_jp": "キャンディ ワンピース",
     "mainImage": "assets/N260203_01.jpg",
-    "thumbnail": "assets/N260203_01.jpg"
+    "thumbnail": "assets/N260203_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260204",
@@ -24873,6 +25590,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -24915,7 +25633,9 @@
     "name_cn": "镂空 两件套",
     "name_jp": "カットアウト セットアップ",
     "mainImage": "assets/N260204_01.jpg",
-    "thumbnail": "assets/N260204_01.jpg"
+    "thumbnail": "assets/N260204_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260205",
@@ -24931,6 +25651,7 @@
     "price": 81000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -24973,7 +25694,9 @@
     "name_cn": "Comez 衬衫 象牙色 粉色",
     "name_jp": "コメズ ブラウス アイボリー ピンク",
     "mainImage": "assets/N260205_01.jpg",
-    "thumbnail": "assets/N260205_01.jpg"
+    "thumbnail": "assets/N260205_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260206",
@@ -24990,6 +25713,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TOP"
@@ -25033,7 +25757,9 @@
     "name_cn": "蕾丝 上衣",
     "name_jp": "レース トップス",
     "mainImage": "assets/N260206_01.jpg",
-    "thumbnail": "assets/N260206_01.jpg"
+    "thumbnail": "assets/N260206_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260207",
@@ -25049,6 +25775,7 @@
     "price": 72000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TOP"
     ],
@@ -25091,7 +25818,9 @@
     "name_cn": "Tinker 无袖上衣",
     "name_jp": "ティンカー ノースリーブトップ",
     "mainImage": "assets/N260207_01.jpg",
-    "thumbnail": "assets/N260207_01.jpg"
+    "thumbnail": "assets/N260207_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260208",
@@ -25107,6 +25836,7 @@
     "price": 162000,
     "tags": [
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -25149,7 +25879,9 @@
     "name_cn": "绒球 两件套",
     "name_jp": "ポンポン セットアップ",
     "mainImage": "assets/N260208_01.jpg",
-    "thumbnail": "assets/N260208_01.jpg"
+    "thumbnail": "assets/N260208_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260209",
@@ -25166,6 +25898,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TWO PIECE"
@@ -25209,7 +25942,9 @@
     "name_cn": "蕾丝 半身裙 两件套",
     "name_jp": "レース スカート セットアップ",
     "mainImage": "assets/N260209_01.jpg",
-    "thumbnail": "assets/N260209_01.jpg"
+    "thumbnail": "assets/N260209_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260210",
@@ -25226,6 +25961,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TWO PIECE"
@@ -25269,7 +26005,9 @@
     "name_cn": "珠宝 粗花呢 两件套",
     "name_jp": "ジュエル ツイード セットアップ",
     "mainImage": "assets/N260210_01.jpg",
-    "thumbnail": "assets/N260210_01.jpg"
+    "thumbnail": "assets/N260210_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260211",
@@ -25286,6 +26024,7 @@
     "tags": [
       "LUXURY",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
       "TWO PIECE"
@@ -25329,7 +26068,9 @@
     "name_cn": "珠宝 粗花呢 两件套",
     "name_jp": "ジュエル ツイード セットアップ",
     "mainImage": "assets/N260211_01.jpg",
-    "thumbnail": "assets/N260211_01.jpg"
+    "thumbnail": "assets/N260211_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260212",
@@ -25346,6 +26087,7 @@
     "tags": [
       "COSTUME",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -25388,7 +26130,9 @@
     "name_cn": "条纹 学院风 两件套",
     "name_jp": "ストライプ プレッピー セットアップ",
     "mainImage": "assets/N260212_01.jpg",
-    "thumbnail": "assets/N260212_01.jpg"
+    "thumbnail": "assets/N260212_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260213",
@@ -25405,6 +26149,7 @@
     "tags": [
       "COSTUME",
       "NEW",
+      "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE"
     ],
@@ -25447,7 +26192,9 @@
     "name_cn": "条纹 学院风 两件套",
     "name_jp": "ストライプ プレッピー セットアップ",
     "mainImage": "assets/N260213_01.jpg",
-    "thumbnail": "assets/N260213_01.jpg"
+    "thumbnail": "assets/N260213_01.jpg",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션"
   },
   {
     "code": "N260214",
@@ -25464,6 +26211,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -25505,7 +26253,9 @@
     "name_cn": "大蝴蝶结 纽扣 迷你礼服",
     "name_jp": "ビッグリボン ボタン ミニドレス",
     "mainImage": "assets/N260214_01.jpg",
-    "thumbnail": "assets/N260214_01.jpg"
+    "thumbnail": "assets/N260214_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260215",
@@ -25522,6 +26272,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -25563,7 +26314,9 @@
     "name_cn": "大蝴蝶结 纽扣 迷你礼服",
     "name_jp": "ビッグリボン ボタン ミニドレス",
     "mainImage": "assets/N260215_01.jpg",
-    "thumbnail": "assets/N260215_01.jpg"
+    "thumbnail": "assets/N260215_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   },
   {
     "code": "N260216",
@@ -25580,6 +26333,7 @@
     "tags": [
       "MINI",
       "NEW",
+      "미니 원피스 컬렉션",
       "PARTY"
     ],
     "images": [
@@ -25621,6 +26375,8 @@
     "name_cn": "大蝴蝶结 纽扣 迷你礼服",
     "name_jp": "ビッグリボン ボタン ミニドレス",
     "mainImage": "assets/N260216_01.jpg",
-    "thumbnail": "assets/N260216_01.jpg"
+    "thumbnail": "assets/N260216_01.jpg",
+    "collection": "A",
+    "collectionName": "미니 원피스 컬렉션"
   }
 ]

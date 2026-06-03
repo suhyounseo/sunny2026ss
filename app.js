@@ -1,14 +1,14 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match35';
-let PRODUCTS=[], FILTER='HOME', currentImages=[];
+const VERSION='match36';
+let PRODUCTS=[], FILTER='ALL', currentImages=[];
 const COLLECTIONS=[
-  {key:'A',filter:'COL_A',title:'COLLECTION A',name:'섹시 미니 컬렉션',desc:'몸매 라인을 살려주는 클럽·파티·방송룩 중심'},
-  {key:'B',filter:'COL_B',title:'COLLECTION B',name:'데일리 & 러블리 컬렉션',desc:'부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스'},
+  {key:'A',filter:'COL_A',title:'COLLECTION A',name:'미니 원피스 컬렉션',desc:'쇼룸 첫 화면에 어울리는 미니 원피스 중심'},
+  {key:'B',filter:'COL_B',title:'COLLECTION B',name:'투피스 & 상하의 컬렉션',desc:'투피스·상의·스커트처럼 세트와 단품으로 구성된 상품'},
   {key:'C',filter:'COL_C',title:'COLLECTION C',name:'미디 & 롱 컬렉션',desc:'고급스럽고 존재감 있는 파티·무대·행사용 원피스'}
 ];
-const FILTERS=['HOME','COL_A','COL_B','COL_C','NEW','BEST','SIZE_77','BUY_NOW','ALL'];
-const LABEL={HOME:'컬렉션 선택',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'✨ NEW',BEST:'🔥 BEST',SIZE_77:'77가능',BUY_NOW:'바로구매',ALL:'전체'};
+const FILTERS=['ALL','HOME','COL_A','COL_B','COL_C','NEW','BEST','SIZE_77','BUY_NOW'];
+const LABEL={ALL:'전체',HOME:'컬렉션 선택',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'✨ NEW',BEST:'🔥 BEST',SIZE_77:'77가능',BUY_NOW:'바로구매'};
 const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';
 const img=u=>u?`${u}?v=${VERSION}`:'';
 const mainImg=p=>p.mainImage||p.thumbnail||p.cardImage||(p.images&&p.images[0])||'';
