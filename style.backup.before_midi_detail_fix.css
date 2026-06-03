@@ -43,19 +43,3 @@
   .card-actions{gap:6px;margin-top:10px}
   .card-actions button,.card-actions a{height:34px;font-size:12px}
 }
-
-/* Desktop detail balance and wider description area */
-@media(min-width:901px){
-  .panel{width:min(1360px,94vw);max-height:92vh}
-  .body{grid-template-columns:minmax(0,1.08fr) minmax(420px,.92fr)}
-  .visual{padding:26px}
-  .copy{padding:34px 34px 40px;min-width:0}
-  .copy h2{font-size:36px}
-  .box p,.box li{font-size:15.5px;line-height:1.85}
-  .main{max-height:70vh}
-  .main img{max-height:70vh}
-}
-@media(min-width:1280px){
-  .panel{width:min(1480px,94vw)}
-  .body{grid-template-columns:minmax(0,1fr) minmax(480px,.95fr)}
-}

@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match46';
+const VERSION='match45';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 let PRODUCTS=[], FILTER='HOME', currentImages=[];
@@ -19,19 +19,6 @@ const mainImg=p=>p.mainImage||p.thumbnail||p.cardImage||(p.images&&p.images[0])|
 const name=p=>p.name||p.storeName||p.code;
 const norm=s=>String(s||'').toLowerCase();
 const tags=p=>p.tags||[];
-const codeOf=p=>String(p.code||'');
-const isJessicaAnk=p=>/^(JES|ANC)-/.test(codeOf(p));
-function normalizeProduct(p){
-  if(isJessicaAnk(p)){
-    p.category=p.category||'MINI';
-    if(p.category==='MINI'||tags(p).includes('MINI')||/원피스/.test(name(p))){
-      p.length='미니';
-      p.tags=[...new Set(tags(p).filter(t=>t!=='MIDI'&&t!=='미디').concat(['MINI','미니']))];
-      if(!p.collectionName)p.collectionName='미니 원피스 컬렉션';
-    }
-  }
-  return p;
-}
 const hasTag=(p,t)=>tags(p).includes(t);
 const isNew=p=>!!p.new||!!p.isNew||hasTag(p,'NEW');
 const isBest=p=>!!p.best||!!p.isPopular||hasTag(p,'BEST');
@@ -65,10 +52,8 @@ function sectionIntro(){
   return c?c.desc:'';
 }
 function match(p){
-  const rawSearch=q.value.trim();
-  const search=norm(rawSearch);
-  const searchableTags=tags(p).filter(t=>!(isJessicaAnk(p)&&/미디|MIDI/i.test(String(t))));
-  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[])].join(' '));
+  const search=norm(q.value.trim());
+  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' '));
   let ok=!search||hay.includes(search);
   let f=true;
   if(FILTER==='HOME')f=true;
@@ -79,13 +64,12 @@ function match(p){
   else if(FILTER==='NEW')f=isNew(p);
   else if(FILTER==='BEST')f=isBest(p);
   else if(FILTER==='MINI')f=p.category==='MINI'||p.length==='미니'||hasTag(p,'MINI');
-  else if(FILTER==='MIDI')f=!isJessicaAnk(p)&&(p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI'));
+  else if(FILTER==='MIDI')f=p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI');
   else if(FILTER==='LONG')f=p.category==='LONG'||p.length==='롱'||hasTag(p,'LONG');
   else if(FILTER==='TWO_PIECE')f=p.category==='TWO PIECE'||hasTag(p,'TWO PIECE');
   else if(FILTER==='SKIRT')f=p.category==='SKIRT'||hasTag(p,'SKIRT')||/스커트/.test(name(p));
   else if(FILTER==='SIZE_77')f=hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||String(p.size||'').includes('77');
   else if(FILTER==='BUY_NOW')f=isBuyNow(p);
-  if(isJessicaAnk(p)&&/미디|midi/i.test(rawSearch))ok=false;
   return ok&&f;
 }
 function badges(p){
@@ -199,4 +183,4 @@ chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;FILTER=b.dataset.
 quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;q.value=b.dataset.q;FILTER='ALL';buildChips();render()};
 q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render()};
 document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
-fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
+fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d;buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
