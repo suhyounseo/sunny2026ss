@@ -14172,7 +14172,7 @@
     "storeName": "러플 브이넥 크롭 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 171000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -14228,7 +14228,28 @@
     "mainImage": "assets/N260001_01.jpg",
     "thumbnail": "assets/N260001_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129697&cate_no=1&display_group=4",
+      "productName": "그레이스S504 (2026SS) 투피스",
+      "matchedKey": "그레이스s504",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)",
+        "77반 (+15,000원)",
+        "88(XL) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260002",
@@ -14445,7 +14466,7 @@
     "storeName": "마린 스타일 투피스",
     "category": "TWO PIECE",
     "color": "네이비",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 171000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -14502,7 +14523,28 @@
     "mainImage": "assets/N260005_01.jpg",
     "thumbnail": "assets/N260005_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129701&cate_no=1&display_group=2",
+      "productName": "그레이스S508 (2026SS) 투피스",
+      "matchedKey": "그레이스s508",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)",
+        "77반 (+15,000원)",
+        "88(XL) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260006",
@@ -14514,7 +14556,7 @@
     "storeName": "러플 오프숄더 크롭 투피스",
     "category": "TWO PIECE",
     "color": "핑크/화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 156000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -14564,7 +14606,28 @@
     "mainImage": "assets/N260006_01.jpg",
     "thumbnail": "assets/N260006_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129504&cate_no=1&display_group=2",
+      "productName": "세윤S405 (2026SS) 투피스",
+      "matchedKey": "세윤s405",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)",
+        "77반 (+15,000원)",
+        "88(XL) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260007",
@@ -14700,7 +14763,7 @@
     "storeName": "마린 세일러 투피스",
     "category": "TWO PIECE",
     "color": "화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 161000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -14751,7 +14814,28 @@
     "mainImage": "assets/N260009_01.jpg",
     "thumbnail": "assets/N260009_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129666&cate_no=1&display_group=2",
+      "productName": "세윤S473 (2026SS) 투피스",
+      "matchedKey": "세윤s473",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)",
+        "77반 (+15,000원)",
+        "88(XL) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260010",
@@ -15012,7 +15096,7 @@
     "storeName": "골드버튼 체인 슬림 원피스",
     "category": "MINI",
     "color": "핑크",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -15062,7 +15146,37 @@
     "mainImage": "assets/N260014_01.jpg",
     "thumbnail": "assets/N260014_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원) / 88반(맞춤제작) (+25,000원) / 99(XXL)(맞춤제작) (+35,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/세윤s512/114942/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "세윤S512",
+      "matchedKey": "세윤s512",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260015",
@@ -16795,7 +16909,7 @@
     "storeName": "라비앙 배색 새틴 미디원피스",
     "category": "MIDI",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -16846,7 +16960,33 @@
     "mainImage": "assets/N260043_01.jpg",
     "thumbnail": "assets/N260043_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129663&cate_no=1&display_group=2",
+      "productName": "써니S470 (2026SS)",
+      "matchedKey": "써니s470",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260044",
@@ -16858,7 +16998,7 @@
     "storeName": "라비앙 배색 새틴 미디원피스",
     "category": "MIDI",
     "color": "핑크",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -16909,7 +17049,26 @@
     "mainImage": "assets/N260044_01.jpg",
     "thumbnail": "assets/N260044_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반(맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/써니s471/114901/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "써니S471",
+      "matchedKey": "써니s471",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)"
+      ]
+    }
   },
   {
     "code": "N260045",
@@ -17236,7 +17395,7 @@
     "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 131000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -17287,7 +17446,33 @@
     "mainImage": "assets/N260050_01.jpg",
     "thumbnail": "assets/N260050_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129490&cate_no=1&display_group=4",
+      "productName": "지나S391 (2026SS)",
+      "matchedKey": "지나s391",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260051",
@@ -17360,7 +17545,7 @@
     "storeName": "H라인 미디 드레스",
     "category": "MIDI",
     "color": "소라",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -17409,7 +17594,33 @@
     "mainImage": "assets/N260052_01.jpg",
     "thumbnail": "assets/N260052_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129492&cate_no=1&display_group=4",
+      "productName": "지나S393 (2026SS)",
+      "matchedKey": "지나s393",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260053",
@@ -17421,7 +17632,7 @@
     "storeName": "레드꽃무늬 H라인 미디 드레스",
     "category": "MIDI",
     "color": "레드",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -17470,7 +17681,33 @@
     "mainImage": "assets/N260053_01.jpg",
     "thumbnail": "assets/N260053_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129493&cate_no=1&display_group=4",
+      "productName": "지나S394 (2026SS)",
+      "matchedKey": "지나s394",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260054",
@@ -17543,7 +17780,7 @@
     "storeName": "미니탑 드레스",
     "category": "TOP",
     "color": "화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -17590,7 +17827,37 @@
     "mainImage": "assets/N260055_01.jpg",
     "thumbnail": "assets/N260055_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/지나s475/114905/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "지나S475",
+      "matchedKey": "지나s475",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260056",
@@ -17602,7 +17869,7 @@
     "storeName": "미니탑 드레스",
     "category": "TOP",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -17649,7 +17916,33 @@
     "mainImage": "assets/N260056_01.jpg",
     "thumbnail": "assets/N260056_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129669&cate_no=1&display_group=4",
+      "productName": "지나S476 (2026SS)",
+      "matchedKey": "지나s476",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260057",
@@ -17661,7 +17954,7 @@
     "storeName": "끈나시 플리츠 미니 원피스",
     "category": "TOP",
     "color": "민트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -17709,7 +18002,37 @@
     "mainImage": "assets/N260057_01.jpg",
     "thumbnail": "assets/N260057_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/%EC%A7%80%EB%82%98s477/114907/category/156/display/1/",
+      "productName": "지나S477",
+      "matchedKey": "지나s477",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260058",
@@ -17721,7 +18044,7 @@
     "storeName": "끈나시 플리츠 미니 원피스",
     "category": "TOP",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -17769,7 +18092,33 @@
     "mainImage": "assets/N260058_01.jpg",
     "thumbnail": "assets/N260058_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129671&cate_no=1&display_group=2",
+      "productName": "지나S478 (2026SS)",
+      "matchedKey": "지나s478",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260059",
@@ -17781,7 +18130,7 @@
     "storeName": "플라워 숄더 H라인 미니 드레스",
     "category": "MINI",
     "color": "화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -17828,7 +18177,33 @@
     "mainImage": "assets/N260059_01.jpg",
     "thumbnail": "assets/N260059_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129707&cate_no=1&display_group=4",
+      "productName": "지나S514 (2026SS)",
+      "matchedKey": "지나s514",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260060",
@@ -17958,7 +18333,7 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -18005,7 +18380,33 @@
     "mainImage": "assets/N260062_01.jpg",
     "thumbnail": "assets/N260062_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129710&cate_no=1&display_group=4",
+      "productName": "지나S517 (2026SS)",
+      "matchedKey": "지나s517",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    },
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)"
   },
   {
     "code": "N260063",
@@ -18017,7 +18418,7 @@
     "storeName": "도트 미니 A라인 원피스",
     "category": "MINI",
     "color": "화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -18064,7 +18465,33 @@
     "mainImage": "assets/N260063_01.jpg",
     "thumbnail": "assets/N260063_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129711&cate_no=1&display_group=4",
+      "productName": "지나S518 (2026SS)",
+      "matchedKey": "지나s518",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    },
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)"
   },
   {
     "code": "N260064",
@@ -18076,7 +18503,7 @@
     "storeName": "도트 미니 A라인 원피스",
     "category": "MINI",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -18123,7 +18550,37 @@
     "mainImage": "assets/N260064_01.jpg",
     "thumbnail": "assets/N260064_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/지나s519/114949/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "지나S519",
+      "matchedKey": "지나s519",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260065",
@@ -18981,7 +19438,7 @@
     "storeName": "셔링 크롭탑과 플레어 투피스",
     "category": "TWO PIECE",
     "color": "민트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 154000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -19028,7 +19485,26 @@
     "mainImage": "assets/N260079_01.jpg",
     "thumbnail": "assets/N260079_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반(맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/지니jn6373투피스세트민트/114411/category/1/display/23/?icid=MAIN.product_listmain_22",
+      "productName": "지니JN6373<br>투피스세트(민트)",
+      "matchedKey": "지니jn6373",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)"
+      ]
+    }
   },
   {
     "code": "N260080",
@@ -19951,7 +20427,17 @@
     "mainImage": "assets/N260110_01.jpg",
     "thumbnail": "assets/N260110_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "아이보리 / 크림 / 베이지 / 연핑크 / 체리핑크 / 라벤더 / 민트 / 소라 / 블랙",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s429말랑티9color/114758/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S429<br>말랑티(9color)",
+      "matchedKey": "티아라s429",
+      "alterOptions": [
+        "FREE"
+      ]
+    }
   },
   {
     "code": "N260111",
@@ -20010,7 +20496,26 @@
     "mainImage": "assets/N260111_01.jpg",
     "thumbnail": "assets/N260111_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "블랙 / 아이보리",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/%ED%8B%B0%EC%95%84%EB%9D%BCs430%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A42color/114759/category/177/display/1/",
+      "productName": "티아라S430<br>블라우스(2color)",
+      "matchedKey": "티아라s430",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (맞춤제작) (+5,000원)",
+        "44(XS)(맞춤제작) (+5,000원)",
+        "44반 (맞춤제작) (+5,000원)",
+        "55반 (맞춤제작) (+5,000원)",
+        "66반(맞춤제작) (+10,000원)",
+        "77(L)(맞춤제작) (+10,000원)",
+        "77반(맞춤제작) (+15,000원)",
+        "88(XL)(맞춤제작) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260112",
@@ -20316,7 +20821,17 @@
     "mainImage": "assets/N260116_01.jpg",
     "thumbnail": "assets/N260116_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "화이트 / 핑크 / 라이트민트 / 베이지 / 블랙",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s438가디건5color/114767/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S438<br>가디건(5color)",
+      "matchedKey": "티아라s438",
+      "alterOptions": [
+        "FREE"
+      ]
+    }
   },
   {
     "code": "N260117",
@@ -20375,7 +20890,17 @@
     "mainImage": "assets/N260117_01.jpg",
     "thumbnail": "assets/N260117_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "베이지 / 아이보리 / 소라 / 블랙",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s439니트4color/114768/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S439<br>니트(4color)",
+      "matchedKey": "티아라s439",
+      "alterOptions": [
+        "FREE"
+      ]
+    }
   },
   {
     "code": "N260118",
@@ -20632,7 +21157,7 @@
     "category": "TWO PIECE",
     "color": "핑크",
     "size": "S,M,L",
-    "price": 126000,
+    "price": 63000,
     "tags": [
       "투피스 & 상하의 컬렉션",
       "PARTY",
@@ -20678,7 +21203,17 @@
     "mainImage": "assets/N260122_01.jpg",
     "thumbnail": "assets/N260122_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "민트 / 핑크 / 아이보리",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s444나시가디건3color/114874/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S444<br>나시+가디건(3color)",
+      "matchedKey": "티아라s444",
+      "alterOptions": [
+        "FREE"
+      ]
+    }
   },
   {
     "code": "N260123",
@@ -21516,8 +22051,8 @@
     "storeName": "클래식 셋업 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
-    "size": "S,M,L",
-    "price": "",
+    "size": "FREE",
+    "price": 150000,
     "tags": [
       "투피스 & 상하의 컬렉션",
       "PARTY",
@@ -21563,7 +22098,26 @@
     "mainImage": "assets/N260137_01.jpg",
     "thumbnail": "assets/N260137_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "FREE(프리사이즈)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129653&cate_no=1&display_group=2",
+      "productName": "티아라S459 (2026SS) 투피스",
+      "matchedKey": "티아라s459",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)"
+      ]
+    }
   },
   {
     "code": "N260138",
@@ -21694,7 +22248,7 @@
     "category": "TWO PIECE",
     "color": "소라/아이보리/베이지/핑크/민트",
     "size": "S,M,L",
-    "price": 99000,
+    "price": 36000,
     "tags": [
       "투피스 & 상하의 컬렉션",
       "PARTY",
@@ -21740,7 +22294,17 @@
     "mainImage": "assets/N260140_01.jpg",
     "thumbnail": "assets/N260140_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "소라 / 아이보리 / 베이지 / 옐로우 / 핑크 / 민트 / 퍼플",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s462가디건7color/114892/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S462<br>가디건(7color)",
+      "matchedKey": "티아라s462",
+      "alterOptions": [
+        "FREE"
+      ]
+    }
   },
   {
     "code": "N260141",
@@ -21929,7 +22493,7 @@
     "storeName": "미니멀 셋업 투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 72000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -21976,7 +22540,14 @@
     "mainImage": "assets/N260144_01.jpg",
     "thumbnail": "assets/N260144_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s479투피스세트/114909/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S479<br>투피스세트",
+      "matchedKey": "티아라s479"
+    }
   },
   {
     "code": "N260145",
@@ -22106,7 +22677,7 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "오렌지",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 72000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -22153,7 +22724,23 @@
     "mainImage": "assets/N260147_01.jpg",
     "thumbnail": "assets/N260147_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129675&cate_no=1&display_group=2",
+      "productName": "티아라S482 (2026SS)",
+      "matchedKey": "티아라s482",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)"
+      ]
+    },
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)"
   },
   {
     "code": "N260148",
@@ -22342,8 +22929,8 @@
     "storeName": "어깨끈 조절 포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
-    "size": "S,M,L",
-    "price": 84000,
+    "size": "55 / 66",
+    "price": 86000,
     "tags": [
       "미니 원피스 컬렉션",
       "MINI",
@@ -22389,7 +22976,14 @@
     "mainImage": "assets/N260151_01.jpg",
     "thumbnail": "assets/N260151_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s486/114916/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S486",
+      "matchedKey": "티아라s486"
+    }
   },
   {
     "code": "N260152",
@@ -22519,7 +23113,7 @@
     "storeName": "백커버 탈부착 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 144000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -22566,7 +23160,37 @@
     "mainImage": "assets/N260154_01.jpg",
     "thumbnail": "assets/N260154_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s489/114919/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S489",
+      "matchedKey": "티아라s489",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260155",
@@ -22755,7 +23379,7 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "민트",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 97000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -22802,7 +23426,14 @@
     "mainImage": "assets/N260158_01.jpg",
     "thumbnail": "assets/N260158_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s493/114923/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S493",
+      "matchedKey": "티아라s493"
+    }
   },
   {
     "code": "N260159",
@@ -22932,7 +23563,7 @@
     "storeName": "포인트 롱 드레스",
     "category": "LONG",
     "color": "핑크",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 72000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -22981,7 +23612,14 @@
     "mainImage": "assets/N260161_01.jpg",
     "thumbnail": "assets/N260161_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s496/114926/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S496",
+      "matchedKey": "티아라s496"
+    }
   },
   {
     "code": "N260162",
@@ -23231,8 +23869,8 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "핑크",
-    "size": "S,M,L",
-    "price": "",
+    "size": "55 / 66",
+    "price": 72000,
     "tags": [
       "미니 원피스 컬렉션",
       "MINI",
@@ -23278,7 +23916,14 @@
     "mainImage": "assets/N260166_01.jpg",
     "thumbnail": "assets/N260166_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s523/114953/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S523",
+      "matchedKey": "티아라s523"
+    }
   },
   {
     "code": "N260167",
@@ -23351,7 +23996,7 @@
     "storeName": "오프숄더 리본 포인트 미니 원피스",
     "category": "MINI",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "MINI",
@@ -23400,7 +24045,37 @@
     "mainImage": "assets/N260168_01.jpg",
     "thumbnail": "assets/N260168_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s525/114955/category/1/display/23/?icid=MAIN.product_listmain_22",
+      "productName": "티아라S525",
+      "matchedKey": "티아라s525",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260169",
@@ -23412,7 +24087,7 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 104000,
     "tags": [
       "MINI",
@@ -23461,7 +24136,14 @@
     "mainImage": "assets/N260169_01.jpg",
     "thumbnail": "assets/N260169_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s526/114956/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S526",
+      "matchedKey": "티아라s526"
+    }
   },
   {
     "code": "N260170",
@@ -23534,7 +24216,7 @@
     "storeName": "끈나시 도트무늬 A라인 미디 원피스",
     "category": "TOP",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 111000,
     "tags": [
       "LUXURY",
@@ -23586,7 +24268,14 @@
     "mainImage": "assets/N260171_01.jpg",
     "thumbnail": "assets/N260171_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s528/114958/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S528",
+      "matchedKey": "티아라s528"
+    }
   },
   {
     "code": "N260172",
@@ -23598,7 +24287,7 @@
     "storeName": "포인트 미니 원피스",
     "category": "MINI",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 72000,
     "tags": [
       "MINI",
@@ -23647,7 +24336,14 @@
     "mainImage": "assets/N260172_01.jpg",
     "thumbnail": "assets/N260172_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s529/114959/category/1/display/23/?icid=MAIN.product_listmain_22",
+      "productName": "티아라S529",
+      "matchedKey": "티아라s529"
+    }
   },
   {
     "code": "N260173",
@@ -24458,7 +25154,7 @@
     "storeName": "끈조절가능함 롱 드레스",
     "category": "LONG",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66",
     "price": 68000,
     "tags": [
       "LONG",
@@ -24509,7 +25205,14 @@
     "mainImage": "assets/N260186_01.jpg",
     "thumbnail": "assets/N260186_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/티아라s543/114973/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "티아라S543",
+      "matchedKey": "티아라s543"
+    }
   },
   {
     "code": "N260187",
@@ -24521,7 +25224,7 @@
     "storeName": "로제 하트버튼 크롭나시 미디투피스",
     "category": "TWO PIECE",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 162000,
     "tags": [
       "NEW",
@@ -24570,7 +25273,33 @@
     "mainImage": "assets/N260187_01.jpg",
     "thumbnail": "assets/N260187_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129497&cate_no=1&display_group=2",
+      "productName": "펄S398 (2026SS) 투피스",
+      "matchedKey": "펄s398",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260188",
@@ -24582,7 +25311,7 @@
     "storeName": "로제 하트버튼 크롭나시 미디투피스",
     "category": "TWO PIECE",
     "color": "네이비",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 162000,
     "tags": [
       "NEW",
@@ -24631,7 +25360,33 @@
     "mainImage": "assets/N260188_01.jpg",
     "thumbnail": "assets/N260188_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129498&cate_no=1&display_group=4",
+      "productName": "펄S399 (2026SS) 투피스",
+      "matchedKey": "펄s399",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260189",
@@ -24643,7 +25398,7 @@
     "storeName": "포인트 미디 드레스",
     "category": "MIDI",
     "color": "핑크/민트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "LUXURY",
@@ -24694,7 +25449,37 @@
     "mainImage": "assets/N260189_01.jpg",
     "thumbnail": "assets/N260189_01.jpg",
     "collection": "C",
-    "collectionName": "미디 & 롱 컬렉션"
+    "collectionName": "미디 & 롱 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원) / 88반(맞춤제작) (+25,000원) / 99(XXL)(맞춤제작) (+35,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/펄s501/114931/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "펄S501",
+      "matchedKey": "펄s501",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260190",
@@ -24767,7 +25552,7 @@
     "storeName": "도트 A라인 미니 원피스",
     "category": "MINI",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "MINI",
@@ -24816,7 +25601,33 @@
     "mainImage": "assets/N260191_01.jpg",
     "thumbnail": "assets/N260191_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원) / 88반 (+25,000원) / 99(XXL) (+35,000원)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129696&cate_no=1&display_group=4",
+      "productName": "펄S503 (2026SS)",
+      "matchedKey": "펄s503",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    },
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)"
   },
   {
     "code": "N260192",
@@ -24952,7 +25763,7 @@
     "storeName": "포인트 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/핑크",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 162000,
     "tags": [
       "NEW",
@@ -25001,7 +25812,28 @@
     "mainImage": "assets/N260194_01.jpg",
     "thumbnail": "assets/N260194_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129496&cate_no=1&display_group=4",
+      "productName": "펄S397 (2026SS) 투피스",
+      "matchedKey": "펄s397",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)",
+        "77반 (+15,000원)",
+        "88(XL) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260195",
@@ -25188,7 +26020,26 @@
     "mainImage": "assets/N260197_01.jpg",
     "thumbnail": "assets/N260197_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "화이트 / 블루",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/펄s436셔링탑2color/114765/category/1/display/32/?icid=MAIN.product_listmain_31",
+      "productName": "펄S436<br>셔링탑(2color)",
+      "matchedKey": "펄s436",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (맞춤제작) (+5,000원)",
+        "44(XS)(맞춤제작) (+5,000원)",
+        "44반 (맞춤제작) (+5,000원)",
+        "55반 (맞춤제작) (+5,000원)",
+        "66반(맞춤제작) (+10,000원)",
+        "77(L)(맞춤제작) (+10,000원)",
+        "77반(맞춤제작) (+15,000원)",
+        "88(XL)(맞춤제작) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260198",
@@ -25816,7 +26667,7 @@
     "storeName": "폼폼 투피스",
     "category": "TWO PIECE",
     "color": "아이보리/민트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 162000,
     "tags": [
       "NEW",
@@ -25865,7 +26716,33 @@
     "mainImage": "assets/N260208_01.jpg",
     "thumbnail": "assets/N260208_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129499&cate_no=1&display_group=4",
+      "productName": "펄S400 (2026SS) 투피스",
+      "matchedKey": "펄s400",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260209",
@@ -25877,8 +26754,8 @@
     "storeName": "레이스 스커트 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
-    "size": "S,M,L",
-    "price": 114000,
+    "size": "55 / 66 / 77",
+    "price": 113000,
     "tags": [
       "LUXURY",
       "NEW",
@@ -25928,7 +26805,26 @@
     "mainImage": "assets/N260209_01.jpg",
     "thumbnail": "assets/N260209_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129501&cate_no=1&display_group=4",
+      "productName": "희야S402 (2026SS) 투피스",
+      "matchedKey": "희야s402",
+      "alterOptions": [
+        "55(S)",
+        "66(M)",
+        "33반 (+5,000원)",
+        "44(XS) (+5,000원)",
+        "44반 (+5,000원)",
+        "55반 (+5,000원)",
+        "66반 (+10,000원)",
+        "77(L) (+10,000원)"
+      ]
+    }
   },
   {
     "code": "N260210",
@@ -26003,7 +26899,7 @@
     "storeName": "주얼 트위드 투피스",
     "category": "TWO PIECE",
     "color": "라벤더",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 99000,
     "tags": [
       "LUXURY",
@@ -26054,7 +26950,23 @@
     "mainImage": "assets/N260211_01.jpg",
     "thumbnail": "assets/N260211_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129503&cate_no=1&display_group=4",
+      "productName": "희야S404 (2026SS) 투피스",
+      "matchedKey": "희야s404",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)"
+      ]
+    }
   },
   {
     "code": "N260212",
@@ -26066,7 +26978,7 @@
     "storeName": "스트라이프 프레피 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 84000,
     "tags": [
       "COSTUME",
@@ -26116,7 +27028,23 @@
     "mainImage": "assets/N260212_01.jpg",
     "thumbnail": "assets/N260212_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+    "modelSize": "165cm/48kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129506&cate_no=1&display_group=2",
+      "productName": "희야S407 (2026SS) 투피스",
+      "matchedKey": "희야s407",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)"
+      ]
+    }
   },
   {
     "code": "N260213",
@@ -26128,7 +27056,7 @@
     "storeName": "스트라이프 프레피 투피스",
     "category": "TWO PIECE",
     "color": "블루/그레이",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 84000,
     "tags": [
       "COSTUME",
@@ -26178,7 +27106,14 @@
     "mainImage": "assets/N260213_01.jpg",
     "thumbnail": "assets/N260213_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션"
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 77(L)(맞춤제작) (+10,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/희야s408투피스세트/114738/category/1/display/29/?icid=MAIN.product_listmain_28",
+      "productName": "희야S408<br>투피스세트",
+      "matchedKey": "희야s408"
+    }
   },
   {
     "code": "N260214",
@@ -26190,7 +27125,7 @@
     "storeName": "빅리본 버튼 미니 드레스",
     "category": "MINI",
     "color": "핑크",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "MINI",
@@ -26239,7 +27174,33 @@
     "mainImage": "assets/N260214_01.jpg",
     "thumbnail": "assets/N260214_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원) / 88반 (+25,000원) / 99(XXL) (+35,000원)",
+    "modelSize": "167cm/50kg",
+    "wearSize": "55(S)",
+    "externalSource": {
+      "site": "bbprincess",
+      "url": "https://www.bbprincess.com/product/detail.html?product_no=129691&cate_no=1&display_group=4",
+      "productName": "희야S498 (2026SS)",
+      "matchedKey": "희야s498",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6~30cm줄임(따로기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6~10cm늘림(따로기재) (+10,000원)",
+        "11~15cm늘림(따로기재) (+15,000원)",
+        "16~20cm늘림(따로기재) (+20,000원)",
+        "21~25cm늘림(따로기재) (+25,000원)",
+        "26~30cm늘림(따로기재) (+30,000원)",
+        "31~35cm늘림(따로기재) (+35,000원)"
+      ]
+    }
   },
   {
     "code": "N260215",
@@ -26251,7 +27212,7 @@
     "storeName": "빅리본 버튼 미니 드레스",
     "category": "MINI",
     "color": "민트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 135000,
     "tags": [
       "MINI",
@@ -26300,7 +27261,37 @@
     "mainImage": "assets/N260215_01.jpg",
     "thumbnail": "assets/N260215_01.jpg",
     "collection": "A",
-    "collectionName": "미니 원피스 컬렉션"
+    "collectionName": "미니 원피스 컬렉션",
+    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원) / 88반(맞춤제작) (+25,000원) / 99(XXL)(맞춤제작) (+35,000원)",
+    "externalSource": {
+      "site": "judyshop",
+      "url": "https://www.judyshop.co.kr/product/희야s499/114929/category/1/display/23/?icid=MAIN.product_listmain_22",
+      "productName": "희야S499",
+      "matchedKey": "희야s499",
+      "alterOptions": [
+        "2cm줄임 (+5,000원)",
+        "3cm줄임 (+5,000원)",
+        "4cm줄임 (+5,000원)",
+        "5cm줄임 (+5,000원)",
+        "6cm줄임 (+5,000원)",
+        "7cm줄임 (+5,000원)",
+        "8cm줄임 (+5,000원)",
+        "9cm줄임 (+5,000원)",
+        "10cm줄임 (+5,000원)",
+        "11cm이상 줄임(배송메세지에기재) (+5,000원)",
+        "2cm늘림 (+5,000원)",
+        "3cm늘림 (+5,000원)",
+        "4cm늘림 (+5,000원)",
+        "5cm늘림 (+5,000원)",
+        "6cm늘림 (+10,000원)",
+        "7cm늘림 (+10,000원)",
+        "8cm늘림 (+10,000원)",
+        "9cm늘림 (+10,000원)",
+        "10cm늘림 (+10,000원)",
+        "11~15cm늘림(배송메세지에기재) (+15,000원)",
+        "16~20cm늘림(배송메세지에기재) (+20,000원)"
+      ]
+    }
   },
   {
     "code": "N260216",
