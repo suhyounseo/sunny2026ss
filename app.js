@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match39';
+const VERSION='match40';
 let PRODUCTS=[], FILTER='ALL', currentImages=[];
 const COLLECTIONS=[
   {key:'A',filter:'COL_A',title:'COLLECTION A',name:'미니 원피스 컬렉션',desc:'쇼룸 첫 화면에 어울리는 미니 원피스 중심'},
