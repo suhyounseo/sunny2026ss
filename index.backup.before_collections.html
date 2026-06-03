@@ -859,7 +859,7 @@
     let currentDetailCode = '';
 
     const FILTERS = [
-      'ALL','NEW','BEST','BUY_NOW','SIZE_77','COL_A','COL_B','COL_C','RECOMMEND','LUXURY','COSTUME','TWO PIECE','PARTY','MINI','MIDI','LONG','TOP','SKIRT'
+      'ALL','BEST','NEW','RECOMMEND','LUXURY','COSTUME','TWO PIECE','PARTY','MINI','MIDI','LONG','TOP','SKIRT'
     ];
 
     const I18N = {
@@ -870,7 +870,7 @@
         love: 'WHY YOU’LL LOVE IT', note: 'EDITOR’S NOTE', recommended: 'RECOMMENDED FOR',
         color: 'COLOR', size: 'SIZE', fit: 'FIT', lining: 'LINING',
         kakao: '카카오톡 문의', insta: '인스타 DM', inquiry: '문의',
-        filters: {'ALL':'전체','BEST':'🔥 BEST','NEW':'✨ NEW','BUY_NOW':'바로구매','SIZE_77':'77가능','COL_A':'COLLECTION A','COL_B':'COLLECTION B','COL_C':'COLLECTION C','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'투피스','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'상의','SKIRT':'스커트'}
+        filters: {'ALL':'전체','BEST':'🔥 BEST','NEW':'✨ NEW','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'투피스','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'상의','SKIRT':'스커트'}
       },
       en: {
         search: 'Search: name, color, category',
@@ -879,7 +879,7 @@
         love: 'WHY YOU’LL LOVE IT', note: 'EDITOR’S NOTE', recommended: 'RECOMMENDED FOR',
         color: 'COLOR', size: 'SIZE', fit: 'FIT', lining: 'LINING',
         kakao: 'KakaoTalk Inquiry', insta: 'Instagram DM', inquiry: 'Ask',
-        filters: {'ALL':'All','BEST':'BEST','NEW':'NEW','BUY_NOW':'Buy Now','SIZE_77':'77 Available','COL_A':'Collection A','COL_B':'Collection B','COL_C':'Collection C','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'Two-Piece Set','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'Top','SKIRT':'Skirt'}
+        filters: {'ALL':'All','BEST':'BEST','NEW':'NEW','RECOMMEND':'EDITOR’S PICK','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'Two-Piece Set','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'Top','SKIRT':'Skirt'}
       },
       cn: {
         search: '搜索：商品名、颜色、类别',
@@ -888,7 +888,7 @@
         love: '推荐亮点', note: '编辑推荐', recommended: '适合场景',
         color: '颜色', size: '尺码', fit: '版型', lining: '内衬',
         kakao: 'KakaoTalk 咨询', insta: 'Instagram 私信', inquiry: '咨询',
-        filters: {'ALL':'全部','BEST':'BEST','NEW':'NEW','BUY_NOW':'立即购买','SIZE_77':'77码可选','COL_A':'Collection A','COL_B':'Collection B','COL_C':'Collection C','RECOMMEND':'编辑推荐','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'两件套','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'上衣','SKIRT':'半身裙'}
+        filters: {'ALL':'全部','BEST':'BEST','NEW':'NEW','RECOMMEND':'编辑推荐','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'两件套','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'上衣','SKIRT':'半身裙'}
       },
       jp: {
         search: '検索：商品名、カラー、カテゴリー',
@@ -897,7 +897,7 @@
         love: 'おすすめポイント', note: 'エディターズノート', recommended: 'おすすめシーン',
         color: 'カラー', size: 'サイズ', fit: 'フィット', lining: '裏地',
         kakao: 'カカオトークで相談', insta: 'Instagram DM', inquiry: 'お問い合わせ',
-        filters: {'ALL':'すべて','BEST':'BEST','NEW':'NEW','BUY_NOW':'すぐ購入','SIZE_77':'77対応','COL_A':'Collection A','COL_B':'Collection B','COL_C':'Collection C','RECOMMEND':'エディターズピック','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'セットアップ','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'トップス','SKIRT':'スカート'}
+        filters: {'ALL':'すべて','BEST':'BEST','NEW':'NEW','RECOMMEND':'エディターズピック','LUXURY':'LUXURY','COSTUME':'COSTUME','TWO PIECE':'セットアップ','PARTY':'PARTY','MINI':'MINI','MIDI':'MIDI','LONG':'LONG','TOP':'トップス','SKIRT':'スカート'}
       }
     };
 
@@ -955,16 +955,6 @@
         filterOk = !!item.best || tags.includes('BEST');
       }else if(FILTER === 'NEW'){
         filterOk = !!item.new || tags.includes('NEW');
-      }else if(FILTER === 'BUY_NOW'){
-        filterOk = tags.includes('바로구매') || tags.includes('BUY_NOW') || item.stockStatus === '바로구매';
-      }else if(FILTER === 'SIZE_77'){
-        filterOk = tags.includes('77가능') || (item.sizeTags || []).includes('77') || String(item.size || '').includes('77');
-      }else if(FILTER === 'COL_A'){
-        filterOk = item.collection === 'A';
-      }else if(FILTER === 'COL_B'){
-        filterOk = item.collection === 'B';
-      }else if(FILTER === 'COL_C'){
-        filterOk = item.collection === 'C';
       }else if(FILTER === 'TWO PIECE'){
         filterOk = cat === 'TWO PIECE' || tags.includes('TWO PIECE') || /투피스|세트/.test(nameText);
       }else if(FILTER === 'MINI'){
@@ -995,7 +985,6 @@
 
     function smallMeta(item){
       const tags = [];
-      if(item.collectionName) tags.push(item.collectionName);
       if(item.category) tags.push(filterLabel(item.category));
       if(item.color) tags.push(item.color);
       if(item.size) tags.push('SIZE ' + item.size);
@@ -1016,7 +1005,6 @@
     }
 
     function sellingPoints(item){
-      if(LANG === 'kr' && Array.isArray(item.points) && item.points.length) return item.points;
       if(LANG === 'kr' && Array.isArray(item.love)) return item.love;
       if(LANG !== 'kr') return localizedSellingPoints(item);
       const pts = [];
@@ -1116,7 +1104,6 @@
       const size = item.size || 'FREE';
       const stretch = localizedValue(item.stretch || '확인 필요');
       const translatedDesc = productDesc(item);
-      if(LANG === 'kr' && item.mainCopy) return item.mainCopy + (item.desc ? ' ' + item.desc : '');
       if(LANG !== 'kr' && translatedDesc && translatedDesc !== item.desc) return translatedDesc;
       if(LANG === 'en') return `${productName(item)} has enough detail to stand on its own, so it creates a polished look without complicated styling. Available size option: ${size}. Fit feel: ${stretch}.`;
       if(LANG === 'cn') return `${productName(item)} 单穿也有足够亮点，不需要复杂搭配也能完成精致造型。尺码为 ${size}，穿着感以 ${stretch} 为准。`;
@@ -1171,7 +1158,6 @@
       if(item.best || tags.includes('BEST')) labelTags.push('BEST');
       if(item.new || tags.includes('NEW')) labelTags.push('NEW');
       if(tags.includes('RECOMMEND')) labelTags.push('RECOMMEND');
-      if(item.collectionName) labelTags.push(item.collectionName);
       if(item.category) labelTags.push(item.category);
       if(item.color) labelTags.push(item.color);
       const displayName = productName(item);
