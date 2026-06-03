@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match34';
+const VERSION='match35';
 let PRODUCTS=[], FILTER='HOME', currentImages=[];
 const COLLECTIONS=[
   {key:'A',filter:'COL_A',title:'COLLECTION A',name:'섹시 미니 컬렉션',desc:'몸매 라인을 살려주는 클럽·파티·방송룩 중심'},
