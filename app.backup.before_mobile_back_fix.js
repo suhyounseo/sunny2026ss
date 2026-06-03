@@ -1,10 +1,9 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match48';
+const VERSION='match47';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 let PRODUCTS=[], FILTER='HOME', currentImages=[];
-let modalHistoryOpen=false;
 
 const COLLECTIONS=[
   {key:'A',filter:'COL_A',title:'COLLECTION A',name:'미니 원피스 컬렉션',desc:'첫 화면에서 가장 빠르게 고를 수 있는 미니 원피스 중심'},
@@ -158,24 +157,6 @@ function instaIcon(){
     </svg>
   </span>`;
 }
-function closeDetail(fromHistory=false){
-  if(!modal.classList.contains('open'))return;
-  modal.classList.remove('open');
-  if(modalHistoryOpen&&!fromHistory){
-    modalHistoryOpen=false;
-    history.back();
-  }else if(fromHistory){
-    modalHistoryOpen=false;
-  }
-}
-function openModalHistory(code){
-  if(!modalHistoryOpen){
-    history.pushState({niceModal:true,code},'',`#${code}`);
-    modalHistoryOpen=true;
-  }else{
-    history.replaceState({niceModal:true,code},'',`#${code}`);
-  }
-}
 function openDetail(code){
   let p=PRODUCTS.find(x=>x.code===code);if(!p)return;
   currentImages=p.cuts&&p.cuts.length?p.cuts:(p.images||[]).map((u,i)=>({url:u,cut:'컷'+(i+1)}));
@@ -207,18 +188,16 @@ function openDetail(code){
     </section>
   </div>`;
   modal.classList.add('open');
-  openModalHistory(code);
   $$('.thumb',detail).forEach(b=>b.onclick=()=>{let i=Number(b.dataset.i);$('#mainImage').src=img(currentImages[i].url);$$('.thumb',detail).forEach((x,j)=>x.classList.toggle('on',i===j))});
 }
 function bindCards(){
   $$('.card').forEach(el=>el.onclick=e=>{if(e.target.closest('.card-actions'))return;openDetail(el.dataset.code)});
   $$('.card-detail').forEach(el=>el.onclick=e=>{e.stopPropagation();openDetail(el.dataset.code)});
 }
-$('#close').onclick=()=>closeDetail();
-modal.onclick=e=>{if(e.target===modal)closeDetail()};
+$('#close').onclick=()=>modal.classList.remove('open');
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};
 chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;FILTER=b.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})};
 quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;q.value=b.dataset.q;FILTER='ALL';buildChips();render()};
 q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render()};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail()});
-window.addEventListener('popstate',()=>{if(modal.classList.contains('open'))closeDetail(true)});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
 fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
