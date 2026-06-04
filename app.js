@@ -1,6 +1,6 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match50';
+const VERSION='match51';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -8,13 +8,13 @@ let PRODUCTS=[], FILTER='HOME', currentImages=[];
 let modalHistoryOpen=false;
 
 const COLLECTIONS=[
-  {key:'A',filter:'COL_A',title:'Collection A',name:'Mini Dress Edit',desc:'가볍게 예쁘고 사진이 잘 나오는 20·30 미니 원피스 라인'},
-  {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스, 상의, 스커트처럼 스타일링 완성도가 높은 셀렉션'},
-  {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'파티, 모임, 촬영, 하객룩까지 고급스럽게 보이는 미디·롱 라인'}
+  {key:'A',filter:'COL_A',title:'Collection A',name:'Mini Dress Edit',desc:'경쾌하면서도 여성스러운 미니 원피스 셀렉션'},
+  {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스와 세트 아이템으로 완성하는 스타일링'},
+  {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'특별한 순간을 위한 미디·롱 드레스 셀렉션'}
 ];
 const FILTERS=['HOME','ALL','NEW','BEST','BUY_NOW'];
 const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',BUY_NOW:'바로문의'};
-const QUICK=['미니','미디','투피스','스커트','핑크','블랙','화이트','77','바로문의'];
+const QUICK=['미니','미디','A라인','슬림핏','럭셔리핏','투피스','스커트','블라우스','블랙','화이트','77/88','당일발송'];
 const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';
 const img=u=>u?`${u}?v=${VERSION}`:'';
 const mainImg=p=>p.mainImage||p.thumbnail||p.cardImage||(p.images&&p.images[0])||'';
@@ -29,7 +29,7 @@ function normalizeProduct(p){
     if(p.category==='MINI'||tags(p).includes('MINI')||/원피스/.test(name(p))){
       p.length='미니';
       p.tags=[...new Set(tags(p).filter(t=>t!=='MIDI'&&t!=='미디').concat(['MINI','미니']))];
-      if(!p.collectionName)p.collectionName='미니 원피스 컬렉션';
+      if(!p.collectionName)p.collectionName='Mini Dress Edit';
     }
   }
   return p;
@@ -38,16 +38,32 @@ const hasTag=(p,t)=>tags(p).includes(t);
 const isNew=p=>!!p.new||!!p.isNew||hasTag(p,'NEW');
 const isBest=p=>!!p.best||!!p.isPopular||hasTag(p,'BEST');
 const isBuyNow=p=>hasTag(p,'바로구매')||hasTag(p,'BUY_NOW')||p.stockStatus==='바로구매';
+function productText(p){
+  return [p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.mainCopy,p.desc,p.description,p.recommend,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' ');
+}
+function isLuxuryFit(p){
+  return /럭셔리핏|실루엣|슬림라인|슬림핏|머메이드|H라인|라인감|바디라인/i.test(productText(p));
+}
+function isSlimFit(p){
+  return /슬림핏|슬림라인|H라인|머메이드|라인감|바디라인/i.test(productText(p));
+}
+function isWideSize(p){
+  return hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||(p.sizeTags||[]).includes('88')||/77|88/.test(String(p.size||p.sizeInfo||''));
+}
+function isSameDayCandidate(p){
+  return isBuyNow(p)||/당일발송|바로구매|입고|재고|보유 여부/i.test(productText(p));
+}
 
 function buildQuick(){
   quick.innerHTML=QUICK.map(k=>`<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
 }
 function buildChips(){
+  if(FILTER==='HOME'&&!q.value.trim()){chips.innerHTML='';return}
   chips.innerHTML=FILTERS.map(f=>`<button class="chip ${f===FILTER?'on':''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
 }
 function cCount(k){return PRODUCTS.filter(p=>p.collection===k).length}
 function sectionName(){
-  if(FILTER==='HOME')return'NICE PRIVATE EDIT';
+  if(FILTER==='HOME')return'CURATED COLLECTION';
   let c=COLLECTIONS.find(x=>x.filter===FILTER);
   if(c)return`${c.title} · ${c.name}`;
   if(FILTER==='NEW')return'NEW ARRIVAL';
@@ -62,7 +78,7 @@ function sectionName(){
   return'ALL COLLECTION';
 }
 function sectionIntro(){
-  if(FILTER==='HOME')return'동대문 NICE가 고른 2026 Summer dress edit. 과하지 않게 고급스럽고, 사진과 실제 착용 모두 예쁜 상품만 빠르게 둘러보세요.';
+  if(FILTER==='HOME')return'당신의 취향에 맞는 감각적인 룩을 제안합니다.';
   let c=COLLECTIONS.find(x=>x.filter===FILTER);
   return c?c.desc:'';
 }
@@ -70,8 +86,13 @@ function match(p){
   const rawSearch=q.value.trim();
   const search=norm(rawSearch);
   const searchableTags=tags(p).filter(t=>!(isJessicaAnk(p)&&/미디|MIDI/i.test(String(t))));
-  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[])].join(' '));
+  const derived=[isLuxuryFit(p)?'럭셔리핏':'',isSlimFit(p)?'슬림핏':'',isSameDayCandidate(p)?'당일발송':'',isWideSize(p)?'77/88':''].filter(Boolean);
+  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[]),...derived].join(' '));
   let ok=!search||hay.includes(search);
+  if(/77\s*\/\s*88|77\/88/.test(rawSearch))ok=isWideSize(p);
+  if(/당일발송|바로문의/.test(rawSearch))ok=isSameDayCandidate(p);
+  if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
+  if(/슬림핏/.test(rawSearch))ok=isSlimFit(p);
   let f=true;
   if(FILTER==='HOME')f=true;
   else if(FILTER==='ALL')f=true;
@@ -85,8 +106,8 @@ function match(p){
   else if(FILTER==='LONG')f=p.category==='LONG'||p.length==='롱'||hasTag(p,'LONG');
   else if(FILTER==='TWO_PIECE')f=!isJessicaAnk(p)&&(p.category==='TWO PIECE'||hasTag(p,'TWO PIECE'));
   else if(FILTER==='SKIRT')f=p.category==='SKIRT'||hasTag(p,'SKIRT')||/스커트/.test(name(p));
-  else if(FILTER==='SIZE_77')f=hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||String(p.size||'').includes('77');
-  else if(FILTER==='BUY_NOW')f=isBuyNow(p);
+  else if(FILTER==='SIZE_77')f=isWideSize(p);
+  else if(FILTER==='BUY_NOW')f=isSameDayCandidate(p);
   if(isJessicaAnk(p)&&/미디|midi/i.test(rawSearch))ok=false;
   if(isJessicaAnk(p)&&/투피스|two[-_ ]?piece/i.test(rawSearch))ok=false;
   if(isJessicaAnk(p)&&/미디|midi/i.test(search))ok=false;
@@ -99,7 +120,7 @@ function badges(p){
   return out.join('')||'<span class="badge">NICE</span>';
 }
 function collectionBadge(p){return p.collectionName?`<div class="info-collection">${p.collectionName}</div>`:''}
-function meta(p){return [p.length,p.color,p.size?'SIZE '+p.size:''].filter(Boolean).slice(0,3).map(x=>`<span>${x}</span>`).join('')}
+function meta(p){return [isLuxuryFit(p)?'럭셔리핏':'',p.length,p.color,p.size?'SIZE '+p.size:''].filter(Boolean).slice(0,3).map(x=>`<span>${x}</span>`).join('')}
 function productCard(p, compact=false){
   return `<article class="card ${compact?'compact':''}" data-code="${p.code}">
     <div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:''}<div class="badges">${badges(p)}</div></div>
@@ -124,29 +145,27 @@ function communityBlock(){
   return `<section class="community-panel" aria-label="NICE community">
     <div>
       <span class="community-kicker">NICE COMMUNITY</span>
-      <h3>신상 소식과 착장 상담은 SNS에서 더 빠르게</h3>
-      <p>인스타그램 DM으로 상품 문의가 가능하고, 네이버 블로그와 스마트스토어는 오픈 준비 중입니다.</p>
+      <h3>새로운 스타일과 매장 소식을 SNS에서 가장 먼저 만나보세요.</h3>
+      <p>신상품, 스타일링 팁, 입고 소식, 상담 안내를 빠르게 확인할 수 있습니다.</p>
     </div>
     <div class="community-links">
-      <a class="community-link insta" href="${INSTA_URL}" target="_blank" rel="noopener">Instagram DM</a>
+      <a class="community-link insta" href="${INSTA_URL}" target="_blank" rel="noopener">Instagram</a>
       <a class="community-link" href="${BLOG_URL}" target="_blank" rel="noopener">Naver Blog</a>
       <span class="community-link pending" aria-disabled="true">Smart Store 준비중</span>
     </div>
   </section>`;
 }
 function renderHome(){
-  title.textContent='NICE PRIVATE EDIT';count.textContent=`${PRODUCTS.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
+  title.textContent='CURATED COLLECTION';count.textContent=`${PRODUCTS.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
   const best=choose(PRODUCTS.filter(isBest),8);
   const fresh=choose(PRODUCTS.filter(isNew),10);
-  const buy=choose(PRODUCTS.filter(isBuyNow),8);
   grid.innerHTML=`
     <section class="collection-grid">
-      ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">View edit</span></article>`).join('')}
+      ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
     </section>
     ${communityBlock()}
-    ${sectionBlock("Editor's Select", '처음 방문한 고객에게 가장 먼저 보여주기 좋은 NICE 추천 상품입니다.', best.length?best:fresh.slice(0,8))}
-    ${sectionBlock('New Arrival', '새로 들어온 상품을 차분하게 훑어볼 수 있도록 정리했습니다.', fresh)}
-    ${sectionBlock('Ready To Consult', '마음에 드는 상품은 바로 카카오톡이나 인스타 DM으로 상담할 수 있습니다.', buy)}`;
+    ${sectionBlock("Editor's Select", '나이스가 먼저 추천하는 감각적인 셀렉션', best.length?best:fresh.slice(0,8))}
+    ${sectionBlock('New Arrival', '새롭게 입고된 신상품을 만나보세요', fresh)}`;
   $$('.collection-card').forEach(el=>el.onclick=()=>{FILTER=el.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})});
   bindCards();
 }
