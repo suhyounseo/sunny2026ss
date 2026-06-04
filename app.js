@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match52';
+const VERSION='match54';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -148,10 +148,6 @@ function productCard(p, compact=false){
       <div class="name">${name(p)}</div>
       <div class="meta">${meta(p)}</div>
       <div class="price">${money(p.price)}</div>
-      <div class="card-actions">
-        <button class="card-detail" type="button" data-code="${p.code}">상세</button>
-        <a class="card-talk" href="${KAKAO_URL}" target="_blank" rel="noopener" aria-label="카톡 문의">카톡</a>
-      </div>
     </div>
   </article>`;
 }
@@ -271,8 +267,7 @@ function openDetail(code){
   $$('.thumb',detail).forEach(b=>b.onclick=()=>{let i=Number(b.dataset.i);$('#mainImage').src=img(currentImages[i].url);$$('.thumb',detail).forEach((x,j)=>x.classList.toggle('on',i===j))});
 }
 function bindCards(){
-  $$('.card').forEach(el=>el.onclick=e=>{if(e.target.closest('.card-actions'))return;openDetail(el.dataset.code)});
-  $$('.card-detail').forEach(el=>el.onclick=e=>{e.stopPropagation();openDetail(el.dataset.code)});
+  $$('.card').forEach(el=>el.onclick=()=>openDetail(el.dataset.code));
 }
 function openVipModal(){
   if(!vipModal)return;

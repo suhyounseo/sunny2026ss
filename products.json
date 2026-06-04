@@ -15516,7 +15516,6 @@
     "price": 9000,
     "tags": [
       "미니 원피스 컬렉션",
-      "BEST",
       "MINI",
       "PARTY",
       "RECOMMEND"
@@ -15549,7 +15548,7 @@
     "stretch": "",
     "see": "",
     "lining": "",
-    "best": true,
+    "best": false,
     "name_en": "Accessory Option",
     "name_cn": "配饰选项",
     "name_jp": "アクセサリーオプション",
