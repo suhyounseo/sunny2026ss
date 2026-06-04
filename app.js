@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match54';
+const VERSION='match55';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -200,9 +200,21 @@ function render(){
   bindCards();
 }
 function points(p){
-  return Array.isArray(p.points)&&p.points.length
-    ? p.points.slice(0,5)
-    : [p.mainCopy,p.desc||p.description,p.fit&&p.fit+' 실루엣'].filter(Boolean).slice(0,3);
+  if(Array.isArray(p.points)&&p.points.length)return p.points.slice(0,5);
+  const text=String(p.desc||p.description||p.mainCopy||'');
+  const parts=text.replaceAll(' / ', '. ').split(/(?<=\.)\s+/).map(x=>x.trim()).filter(Boolean);
+  const picked=parts.filter(x=>!/재고|촬영 환경|방문 전|DM 문의|온라인 쇼룸용/.test(x)).slice(0,3);
+  return (picked.length?picked:[p.mainCopy,p.fit&&p.fit+' 실루엣',p.color&&p.color+' 컬러'].filter(Boolean)).slice(0,3);
+}
+function editorNote(p){
+  const text=String(p.desc||p.description||p.mainCopy||'NICE 컬렉션 상품입니다.');
+  const sentences=text
+    .replaceAll(' / ', ' ')
+    .split(/(?<=\.)\s+/)
+    .map(x=>x.trim())
+    .filter(x=>x&&!/재고|촬영 환경|방문 전|DM 문의|피팅 가능|보유 여부/.test(x));
+  const note=sentences.find(x=>!/온라인 쇼룸용/.test(x))||sentences[0]||p.mainCopy||'NICE 컬렉션 상품입니다.';
+  return note.replace(`${name(p)}은 `,'').trim();
 }
 function instaIcon(){
   return `<span class="insta-logo" aria-hidden="true">
@@ -246,7 +258,7 @@ function openDetail(code){
       <h2>${name(p)}</h2>
       <h3>${money(p.price)}</h3>
       <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x=>`<li>${x}</li>`).join('')}</ul></div>
-      <div class="box"><b>EDITOR'S NOTE</b><p>${p.desc||p.description||p.mainCopy||'NICE 컬렉션 상품입니다.'}</p></div>
+      <div class="box"><b>EDITOR'S NOTE</b><p>${editorNote(p)}</p></div>
       <div class="box"><b>RECOMMENDED FOR</b><p>${String(p.recommend||'파티 · 모임 · 데이트 · 촬영 · 하객룩').replaceAll('/',' · ')}</p></div>
       <div class="spec">
         <div class="cell"><b>COLOR</b><span>${p.color||'-'}</span></div>
