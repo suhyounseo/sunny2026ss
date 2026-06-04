@@ -47,7 +47,11 @@ function isLuxuryFit(p){
 function isSlimFit(p){
   return /슬림핏|슬림라인|H라인|머메이드|라인감|바디라인/i.test(productText(p));
 }
+function isTiara(p){
+  return /티아라|tiara/i.test([p.supplier,p.vendor,p.origin,p.zipFolder,p.code,p.productName,p.matchedKey].join(' '));
+}
 function isWideSize(p){
+  if(isTiara(p))return false;
   return hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||(p.sizeTags||[]).includes('88')||/77|88/.test(String(p.size||p.sizeInfo||''));
 }
 function isSameDayCandidate(p){
