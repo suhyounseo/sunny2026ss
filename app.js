@@ -47,6 +47,7 @@ function productText(p){
   return [p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.mainCopy,p.desc,p.description,p.recommend,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' ');
 }
 function isLuxuryFit(p){
+  if(isJessicaAnk(p))return false;
   return /럭셔리핏|실루엣|슬림라인|슬림핏|머메이드|H라인|라인감|바디라인/i.test(productText(p));
 }
 function isSlimFit(p){
@@ -167,9 +168,9 @@ function communityBlock(){
       <p>신상품, 스타일링 팁, 입고 소식, 상담 안내를 빠르게 확인할 수 있습니다.</p>
     </div>
     <div class="community-links">
-      <a class="community-link insta" href="${INSTA_URL}" target="_blank" rel="noopener">Instagram</a>
-      <a class="community-link" href="${BLOG_URL}" target="_blank" rel="noopener">Naver Blog</a>
-      <span class="community-link pending" aria-disabled="true">Smart Store 준비중</span>
+      <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
+      <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
+      <span class="community-link pending community-brand" aria-disabled="true"><span class="store-logo">S</span><span>Smart Store 준비중</span></span>
       <button class="community-link vip-open" type="button">${isVipActive()?'당일가능 보기':'VIP 인증'}</button>
       ${isVipActive()?'<button class="community-link vip-clear" type="button">인증해제</button>':''}
     </div>

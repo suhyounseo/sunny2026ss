@@ -25,7 +25,14 @@
 .community-links{display:grid;grid-template-columns:1fr;gap:10px}
 .community-link{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 16px;border-radius:999px;border:1px solid #ffffff33;color:#fff;text-decoration:none;font-size:14px;font-weight:900}
 .community-link:after{content:"↗";font-size:13px;color:#d9bc8f}
+.community-brand{justify-content:flex-start;gap:11px}
+.community-brand:after{margin-left:auto}
+.community-brand .insta-logo{width:26px;height:26px;min-width:26px;border-radius:8px}
+.community-brand .insta-logo svg{width:18px;height:18px}
 .community-link.insta{background:#fff;color:#1d1815;border-color:#fff}
+.community-link.naver{background:#f8fff8;color:#142018;border-color:#f8fff8}
+.naver-logo{width:26px;height:26px;min-width:26px;border-radius:7px;background:#03c75a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:1000;font-size:15px;line-height:1}
+.store-logo{width:26px;height:26px;min-width:26px;border-radius:7px;background:#ffffff18;color:#d7cbc0;border:1px solid #ffffff24;display:inline-flex;align-items:center;justify-content:center;font-weight:1000;font-size:14px}
 .community-link.pending{color:#d7cbc0;background:#ffffff0f}
 .community-link.pending:after{content:"Soon";font-size:11px;text-transform:uppercase}
 .community-link.vip-open{background:#d8bd8f;color:#1d1815;border-color:#d8bd8f;cursor:pointer}
