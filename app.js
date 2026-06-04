@@ -1,6 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match51';
+const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
+const VERSION='match52';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -12,9 +13,13 @@ const COLLECTIONS=[
   {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스와 세트 아이템으로 완성하는 스타일링'},
   {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'특별한 순간을 위한 미디·롱 드레스 셀렉션'}
 ];
-const FILTERS=['HOME','ALL','NEW','BEST','BUY_NOW'];
-const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',BUY_NOW:'바로문의'};
-const QUICK=['미니','미디','A라인','슬림핏','럭셔리핏','투피스','스커트','블라우스','블랙','화이트','77/88','당일발송'];
+const FILTERS_BASE=['HOME','ALL','NEW','BEST'];
+const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',SAME_DAY:'당일가능'};
+const QUICK_BASE=['미니','미디','A라인','슬림핏','럭셔리핏','투피스','스커트','블라우스','블랙','화이트','77/88'];
+const QUICK_VIP=['당일발송'];
+const VIP_STORAGE_KEY='niceVipUntil';
+const VIP_TTL_MS=12*60*60*1000;
+const VIP_CODE_CHARS=[78,73,67,69,86,73,80];
 const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';
 const img=u=>u?`${u}?v=${VERSION}`:'';
 const mainImg=p=>p.mainImage||p.thumbnail||p.cardImage||(p.images&&p.images[0])||'';
@@ -55,15 +60,24 @@ function isWideSize(p){
   return hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||(p.sizeTags||[]).includes('88')||/77|88/.test(String(p.size||p.sizeInfo||''));
 }
 function isSameDayCandidate(p){
-  return isBuyNow(p)||/당일발송|바로구매|입고|재고|보유 여부/i.test(productText(p));
+  return p.sameDayAvailable===true||isBuyNow(p)||/당일발송|바로구매|입고|재고|보유 여부/i.test(productText(p));
 }
+function vipCode(){return String.fromCharCode(...VIP_CODE_CHARS)}
+function vipUntil(){return Number(localStorage.getItem(VIP_STORAGE_KEY)||0)}
+function isVipActive(){return vipUntil()>Date.now()}
+function setVipActive(){localStorage.setItem(VIP_STORAGE_KEY,String(Date.now()+VIP_TTL_MS))}
+function clearVip(){localStorage.removeItem(VIP_STORAGE_KEY)}
+function visibleToAudience(p){return isVipActive()||p.vipOnly!==true}
+function filters(){return isVipActive()?[...FILTERS_BASE,'SAME_DAY']:FILTERS_BASE}
+function quickWords(){return isVipActive()?[...QUICK_BASE,...QUICK_VIP]:QUICK_BASE}
+function isSameDayVisible(p){return isVipActive()&&isSameDayCandidate(p)}
 
 function buildQuick(){
-  quick.innerHTML=QUICK.map(k=>`<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
+  quick.innerHTML=quickWords().map(k=>`<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
 }
 function buildChips(){
   if(FILTER==='HOME'&&!q.value.trim()){chips.innerHTML='';return}
-  chips.innerHTML=FILTERS.map(f=>`<button class="chip ${f===FILTER?'on':''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
+  chips.innerHTML=filters().map(f=>`<button class="chip ${f===FILTER?'on':''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
 }
 function cCount(k){return PRODUCTS.filter(p=>p.collection===k).length}
 function sectionName(){
@@ -78,7 +92,7 @@ function sectionName(){
   if(FILTER==='TWO_PIECE')return'TWO PIECE & SET';
   if(FILTER==='SKIRT')return'SKIRT COLLECTION';
   if(FILTER==='SIZE_77')return'77 SIZE AVAILABLE';
-  if(FILTER==='BUY_NOW')return'바로문의 가능 상품';
+  if(FILTER==='SAME_DAY')return'TODAY AVAILABLE';
   return'ALL COLLECTION';
 }
 function sectionIntro(){
@@ -90,11 +104,11 @@ function match(p){
   const rawSearch=q.value.trim();
   const search=norm(rawSearch);
   const searchableTags=tags(p).filter(t=>!(isJessicaAnk(p)&&/미디|MIDI/i.test(String(t))));
-  const derived=[isLuxuryFit(p)?'럭셔리핏':'',isSlimFit(p)?'슬림핏':'',isSameDayCandidate(p)?'당일발송':'',isWideSize(p)?'77/88':''].filter(Boolean);
+  const derived=[isLuxuryFit(p)?'럭셔리핏':'',isSlimFit(p)?'슬림핏':'',isSameDayVisible(p)?'당일발송':'',isWideSize(p)?'77/88':''].filter(Boolean);
   const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[]),...derived].join(' '));
   let ok=!search||hay.includes(search);
   if(/77\s*\/\s*88|77\/88/.test(rawSearch))ok=isWideSize(p);
-  if(/당일발송|바로문의/.test(rawSearch))ok=isSameDayCandidate(p);
+  if(/당일발송|당일가능|바로문의/.test(rawSearch))ok=isSameDayVisible(p);
   if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
   if(/슬림핏/.test(rawSearch))ok=isSlimFit(p);
   let f=true;
@@ -111,11 +125,11 @@ function match(p){
   else if(FILTER==='TWO_PIECE')f=!isJessicaAnk(p)&&(p.category==='TWO PIECE'||hasTag(p,'TWO PIECE'));
   else if(FILTER==='SKIRT')f=p.category==='SKIRT'||hasTag(p,'SKIRT')||/스커트/.test(name(p));
   else if(FILTER==='SIZE_77')f=isWideSize(p);
-  else if(FILTER==='BUY_NOW')f=isSameDayCandidate(p);
+  else if(FILTER==='SAME_DAY')f=isSameDayVisible(p);
   if(isJessicaAnk(p)&&/미디|midi/i.test(rawSearch))ok=false;
   if(isJessicaAnk(p)&&/투피스|two[-_ ]?piece/i.test(rawSearch))ok=false;
   if(isJessicaAnk(p)&&/미디|midi/i.test(search))ok=false;
-  return ok&&f;
+  return ok&&f&&visibleToAudience(p);
 }
 function badges(p){
   let out=[];
@@ -156,22 +170,28 @@ function communityBlock(){
       <a class="community-link insta" href="${INSTA_URL}" target="_blank" rel="noopener">Instagram</a>
       <a class="community-link" href="${BLOG_URL}" target="_blank" rel="noopener">Naver Blog</a>
       <span class="community-link pending" aria-disabled="true">Smart Store 준비중</span>
+      <button class="community-link vip-open" type="button">${isVipActive()?'당일가능 보기':'VIP 인증'}</button>
+      ${isVipActive()?'<button class="community-link vip-clear" type="button">인증해제</button>':''}
     </div>
   </section>`;
 }
 function renderHome(){
-  title.textContent='CURATED COLLECTION';count.textContent=`${PRODUCTS.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
-  const best=choose(PRODUCTS.filter(isBest),8);
-  const fresh=choose(PRODUCTS.filter(isNew),10);
+  const visible=PRODUCTS.filter(visibleToAudience);
+  title.textContent='CURATED COLLECTION';count.textContent=`${visible.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
+  const best=choose(visible.filter(isBest),8);
+  const fresh=choose(visible.filter(isNew),10);
+  const sameDay=choose(visible.filter(isSameDayVisible),10);
   grid.innerHTML=`
     <section class="collection-grid">
       ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
     </section>
     ${communityBlock()}
+    ${isVipActive()?sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인 가능한 상품만 모았습니다.', sameDay):''}
     ${sectionBlock("Editor's Select", '나이스가 먼저 추천하는 감각적인 셀렉션', best.length?best:fresh.slice(0,8))}
     ${sectionBlock('New Arrival', '새롭게 입고된 신상품을 만나보세요', fresh)}`;
   $$('.collection-card').forEach(el=>el.onclick=()=>{FILTER=el.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})});
   bindCards();
+  bindVipControls();
 }
 function render(){
   title.textContent=sectionName();intro.textContent=sectionIntro();
@@ -216,6 +236,7 @@ function openModalHistory(code){
 }
 function openDetail(code){
   let p=PRODUCTS.find(x=>x.code===code);if(!p)return;
+  if(!visibleToAudience(p))return;
   currentImages=p.cuts&&p.cuts.length?p.cuts:(p.images||[]).map((u,i)=>({url:u,cut:'컷'+(i+1)}));
   let labelTags=[isNew(p)?'NEW':'',isBest(p)?'BEST':'',p.collectionName,p.color,p.length].filter(Boolean);
   detail.innerHTML=`<div class="body">
@@ -252,11 +273,50 @@ function bindCards(){
   $$('.card').forEach(el=>el.onclick=e=>{if(e.target.closest('.card-actions'))return;openDetail(el.dataset.code)});
   $$('.card-detail').forEach(el=>el.onclick=e=>{e.stopPropagation();openDetail(el.dataset.code)});
 }
+function openVipModal(){
+  if(!vipModal)return;
+  vipInput.value='';
+  vipMessage.textContent='';
+  vipMessage.className='vip-message';
+  vipModal.classList.add('open');
+  setTimeout(()=>vipInput.focus(),60);
+}
+function closeVipModal(){vipModal&&vipModal.classList.remove('open')}
+function bindVipControls(){
+  $$('.vip-open').forEach(el=>el.onclick=()=>{
+    if(isVipActive()){
+      FILTER='SAME_DAY';
+      q.value='';
+      buildQuick();
+      buildChips();
+      render();
+      scrollTo({top:0,behavior:'smooth'});
+    }else openVipModal();
+  });
+  $$('.vip-clear').forEach(el=>el.onclick=()=>{clearVip();FILTER='HOME';q.value='';buildQuick();buildChips();render()});
+}
 $('#close').onclick=()=>closeDetail();
 modal.onclick=e=>{if(e.target===modal)closeDetail()};
 chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;FILTER=b.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})};
 quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;q.value=b.dataset.q;FILTER='ALL';buildChips();render()};
 q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render()};
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDetail()});
+if(vipModal){
+  $('#vipClose').onclick=closeVipModal;
+  $('#vipCancel').onclick=closeVipModal;
+  $('#vipSubmit').onclick=()=>{
+    if(vipInput.value.trim().toUpperCase()===vipCode()){
+      setVipActive();
+      vipMessage.textContent='VIP 인증이 완료되었습니다.';
+      vipMessage.className='vip-message ok';
+      setTimeout(()=>{closeVipModal();FILTER='HOME';q.value='';buildQuick();buildChips();render()},500);
+    }else{
+      vipMessage.textContent='인증코드가 올바르지 않습니다.';
+      vipMessage.className='vip-message error';
+    }
+  };
+  vipModal.onclick=e=>{if(e.target===vipModal)closeVipModal()};
+  vipInput.onkeydown=e=>{if(e.key==='Enter')$('#vipSubmit').click()};
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDetail();closeVipModal()}});
 window.addEventListener('popstate',()=>{if(modal.classList.contains('open'))closeDetail(true)});
 fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});

@@ -1,0 +1,8 @@
+private_inventory_photos/
+internal_photos/
+photos/inventory/
+photos/evidence/
+inventory_photos/
+photo_evidence_raw/
+*.heic
+outputs/internal_inventory_linking/
