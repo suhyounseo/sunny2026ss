@@ -1,18 +1,19 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const VERSION='match49';
+const VERSION='match50';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
+const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
 let PRODUCTS=[], FILTER='HOME', currentImages=[];
 let modalHistoryOpen=false;
 
 const COLLECTIONS=[
-  {key:'A',filter:'COL_A',title:'COLLECTION A',name:'미니 원피스 컬렉션',desc:'첫 화면에서 가장 빠르게 고를 수 있는 미니 원피스 중심'},
-  {key:'B',filter:'COL_B',title:'COLLECTION B',name:'투피스 & 상하의 컬렉션',desc:'투피스·상의·스커트처럼 세트와 단품으로 구성된 상품'},
-  {key:'C',filter:'COL_C',title:'COLLECTION C',name:'미디 & 롱 컬렉션',desc:'고급스럽고 존재감 있는 파티·무대·행사용 원피스'}
+  {key:'A',filter:'COL_A',title:'Collection A',name:'Mini Dress Edit',desc:'가볍게 예쁘고 사진이 잘 나오는 20·30 미니 원피스 라인'},
+  {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스, 상의, 스커트처럼 스타일링 완성도가 높은 셀렉션'},
+  {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'파티, 모임, 촬영, 하객룩까지 고급스럽게 보이는 미디·롱 라인'}
 ];
-const FILTERS=['HOME','ALL','COL_A','COL_B','COL_C','NEW','BEST','MINI','MIDI','LONG','TWO_PIECE','SKIRT','SIZE_77','BUY_NOW'];
-const LABEL={HOME:'추천 홈',ALL:'전체',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'✨ NEW',BEST:'🔥 BEST',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',BUY_NOW:'바로문의'};
+const FILTERS=['HOME','ALL','NEW','BEST','BUY_NOW'];
+const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',BUY_NOW:'바로문의'};
 const QUICK=['미니','미디','투피스','스커트','핑크','블랙','화이트','77','바로문의'];
 const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';
 const img=u=>u?`${u}?v=${VERSION}`:'';
@@ -46,7 +47,7 @@ function buildChips(){
 }
 function cCount(k){return PRODUCTS.filter(p=>p.collection===k).length}
 function sectionName(){
-  if(FILTER==='HOME')return'NICE SHOWROOM';
+  if(FILTER==='HOME')return'NICE PRIVATE EDIT';
   let c=COLLECTIONS.find(x=>x.filter===FILTER);
   if(c)return`${c.title} · ${c.name}`;
   if(FILTER==='NEW')return'NEW ARRIVAL';
@@ -61,7 +62,7 @@ function sectionName(){
   return'ALL COLLECTION';
 }
 function sectionIntro(){
-  if(FILTER==='HOME')return'추천 키워드와 컬렉션으로 빠르게 고르고, 마음에 드는 상품은 바로 상담할 수 있습니다.';
+  if(FILTER==='HOME')return'동대문 NICE가 고른 2026 Summer dress edit. 과하지 않게 고급스럽고, 사진과 실제 착용 모두 예쁜 상품만 빠르게 둘러보세요.';
   let c=COLLECTIONS.find(x=>x.filter===FILTER);
   return c?c.desc:'';
 }
@@ -119,20 +120,33 @@ function sectionBlock(label, desc, items){
   if(!items.length)return'';
   return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p=>productCard(p,true)).join('')}</div></section>`;
 }
+function communityBlock(){
+  return `<section class="community-panel" aria-label="NICE community">
+    <div>
+      <span class="community-kicker">NICE COMMUNITY</span>
+      <h3>신상 소식과 착장 상담은 SNS에서 더 빠르게</h3>
+      <p>인스타그램 DM으로 상품 문의가 가능하고, 네이버 블로그와 스마트스토어는 오픈 준비 중입니다.</p>
+    </div>
+    <div class="community-links">
+      <a class="community-link insta" href="${INSTA_URL}" target="_blank" rel="noopener">Instagram DM</a>
+      <a class="community-link" href="${BLOG_URL}" target="_blank" rel="noopener">Naver Blog</a>
+      <span class="community-link pending" aria-disabled="true">Smart Store 준비중</span>
+    </div>
+  </section>`;
+}
 function renderHome(){
-  title.textContent='NICE SHOWROOM';count.textContent=`${PRODUCTS.length} items`;intro.textContent=sectionIntro();grid.className='home';
+  title.textContent='NICE PRIVATE EDIT';count.textContent=`${PRODUCTS.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
   const best=choose(PRODUCTS.filter(isBest),8);
   const fresh=choose(PRODUCTS.filter(isNew),10);
   const buy=choose(PRODUCTS.filter(isBuyNow),8);
-  const mini=choose(PRODUCTS.filter(p=>p.collection==='A'),8);
   grid.innerHTML=`
     <section class="collection-grid">
-      ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p></article>`).join('')}
+      ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">View edit</span></article>`).join('')}
     </section>
-    ${sectionBlock('오늘 추천', '먼저 보여주기 좋은 인기/추천 상품입니다.', best.length?best:fresh.slice(0,8))}
-    ${sectionBlock('신상 먼저 보기', '최근 추가된 상품을 빠르게 확인하세요.', fresh)}
-    ${sectionBlock('미니 원피스 셀렉션', '문의가 많은 미니 라인만 모았습니다.', mini)}
-    ${sectionBlock('바로 상담하기 좋은 상품', '바로문의 태그가 있는 상품입니다.', buy)}`;
+    ${communityBlock()}
+    ${sectionBlock("Editor's Select", '처음 방문한 고객에게 가장 먼저 보여주기 좋은 NICE 추천 상품입니다.', best.length?best:fresh.slice(0,8))}
+    ${sectionBlock('New Arrival', '새로 들어온 상품을 차분하게 훑어볼 수 있도록 정리했습니다.', fresh)}
+    ${sectionBlock('Ready To Consult', '마음에 드는 상품은 바로 카카오톡이나 인스타 DM으로 상담할 수 있습니다.', buy)}`;
   $$('.collection-card').forEach(el=>el.onclick=()=>{FILTER=el.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})});
   bindCards();
 }
