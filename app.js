@@ -46,6 +46,9 @@ const isBuyNow=p=>hasTag(p,'바로구매')||hasTag(p,'BUY_NOW')||p.stockStatus==
 function productText(p){
   return [p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.mainCopy,p.desc,p.description,p.recommend,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' ');
 }
+function focusedProductText(p){
+  return [p.code,p.name,p.storeName,p.productName,p.origin,p.folder,p.color,p.category,p.length,p.fit,p.size,p.fabric,...tags(p),...(p.styleTags||[])].join(' ');
+}
 function isLuxuryFit(p){
   if(isJessicaAnk(p))return false;
   return /럭셔리핏|실루엣|슬림라인|슬림핏|머메이드|H라인|라인감|바디라인/i.test(productText(p));
@@ -112,6 +115,8 @@ function match(p){
   if(/당일발송|당일가능|바로문의/.test(rawSearch))ok=isSameDayVisible(p);
   if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
   if(/슬림핏/.test(rawSearch))ok=isSlimFit(p);
+  if(/블라우스/.test(rawSearch))ok=(p.category==='TOP'||hasTag(p,'TOP'))&&/블라우스/i.test(focusedProductText(p));
+  if(/스커트/.test(rawSearch))ok=p.category==='SKIRT'||hasTag(p,'SKIRT');
   let f=true;
   if(FILTER==='HOME')f=true;
   else if(FILTER==='ALL')f=true;
