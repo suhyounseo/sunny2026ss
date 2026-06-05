@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match55';
+const VERSION='match56';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -13,6 +13,7 @@ const COLLECTIONS=[
   {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스와 세트 아이템으로 완성하는 스타일링'},
   {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'특별한 순간을 위한 미디·롱 드레스 셀렉션'}
 ];
+const JESSICA_NEW_ARRIVAL_CODES=['JES-310','JES-309','JES-319','JES-324','JES-306','JES-315','JES-304','JES-311','JES-321','JES-323'];
 const FILTERS_BASE=['HOME','ALL','NEW','BEST'];
 const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',SAME_DAY:'당일가능'};
 const QUICK_BASE=['미니','미디','A라인','슬림핏','럭셔리핏','투피스','스커트','블라우스','블랙','화이트','77/88'];
@@ -179,6 +180,10 @@ function productCard(p, compact=false){
   </article>`;
 }
 function choose(list, limit){return list.filter(p=>mainImg(p)).slice(0,limit)}
+function chooseCodes(codes, source){
+  const byCode=new Map(source.map(p=>[p.code,p]));
+  return codes.map(code=>byCode.get(code)).filter(p=>p&&mainImg(p)&&visibleToAudience(p));
+}
 function sectionBlock(label, desc, items){
   if(!items.length)return'';
   return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p=>productCard(p,true)).join('')}</div></section>`;
@@ -204,6 +209,7 @@ function renderHome(){
   title.textContent='CURATED COLLECTION';count.textContent=`${visible.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
   const best=choose(sortProducts(visible.filter(isBest)),8);
   const fresh=choose(sortProducts(visible.filter(isNew)),10);
+  const jessicaFresh=chooseCodes(JESSICA_NEW_ARRIVAL_CODES, visible);
   const sameDay=choose(sortProducts(visible.filter(isSameDayVisible)),10);
   grid.innerHTML=`
     <section class="collection-grid">
@@ -212,7 +218,7 @@ function renderHome(){
     ${communityBlock()}
     ${isVipActive()?sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인 가능한 상품만 모았습니다.', sameDay):''}
     ${sectionBlock("Editor's Select", '나이스가 먼저 추천하는 감각적인 셀렉션', best.length?best:fresh.slice(0,8))}
-    ${sectionBlock('New Arrival', '새롭게 입고된 신상품을 만나보세요', fresh)}`;
+    ${sectionBlock('New Arrival', '체크한 제시카 신상 중 예쁜 라인만 골랐습니다.', jessicaFresh.length?jessicaFresh:fresh)}`;
   $$('.collection-card').forEach(el=>el.onclick=()=>applyView(el.dataset.f,{push:true,scroll:true}));
   bindCards();
   bindVipControls();
