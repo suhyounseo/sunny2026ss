@@ -1,0 +1,95 @@
+[
+  {
+    "code": "ANC-4001",
+    "originalImage": "assets/products/ank/original/ANC-4001-original.jpg",
+    "generatedImages": {
+      "main": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+      "full": "assets/products/ank/generated/ANC-4001/ANC-4001-full.jpg",
+      "front": "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
+      "backAI": "assets/products/ank/generated/ANC-4001/ANC-4001-back-ai.jpg",
+      "upper": "assets/products/ank/generated/ANC-4001/ANC-4001-upper.jpg",
+      "lower": "assets/products/ank/generated/ANC-4001/ANC-4001-lower.jpg",
+      "product": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
+    },
+    "useMainAsPrimary": true,
+    "backAIReviewRequired": true,
+    "backAIIsPlaceholder": true,
+    "reviewStatus": "확인필요",
+    "detailImages": [
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-board.jpg"
+    ],
+    "detailReviewNote": "참고 상세페이지 스타일을 반영한 검수용 확대컷입니다. 동일 반복컷처럼 보이지 않도록 포인트별 크롭을 분리했습니다.",
+    "backImage": null,
+    "backImagePublishSafe": false,
+    "backImageNote": "??? ?? ?? ???? ?? ?? ?? ???? ??????."
+  },
+  {
+    "code": "ANC-4003",
+    "originalImage": "assets/products/ank/original/ANC-4003-original.jpg",
+    "generatedImages": {
+      "main": "assets/products/ank/generated/ANC-4003/ANC-4003-main.jpg",
+      "full": "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg",
+      "front": "assets/products/ank/generated/ANC-4003/ANC-4003-front.jpg",
+      "backAI": "assets/products/ank/generated/ANC-4003/ANC-4003-back-ai.jpg",
+      "upper": "assets/products/ank/generated/ANC-4003/ANC-4003-upper.jpg",
+      "lower": "assets/products/ank/generated/ANC-4003/ANC-4003-lower.jpg",
+      "product": "assets/products/ank/generated/ANC-4003/ANC-4003-product.jpg"
+    },
+    "useMainAsPrimary": true,
+    "backAIReviewRequired": true,
+    "backAIIsPlaceholder": true,
+    "reviewStatus": "확인필요",
+    "detailImages": [
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-board.jpg"
+    ],
+    "detailReviewNote": "참고 상세페이지 스타일을 반영한 검수용 확대컷입니다. 동일 반복컷처럼 보이지 않도록 포인트별 크롭을 분리했습니다.",
+    "mainImage": "assets/products/ank/generated/ANC-4003/ANC-4003-main.jpg",
+    "mainImageNote": "?? ????? ??? ?? ??? ??? ??? ?? ?? ??? ??????. BEST ??, ??? ??, ??, ??? ??? ???? ?????.",
+    "mainImageClean": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
+    "publishSafe": true,
+    "productImage": "assets/products/ank/generated/ANC-4003/ANC-4003-product.jpg",
+    "productImageSource": "AI hanger product cut generated from model-worn reference image",
+    "productImageReviewNote": "???/?? ?? ??? ???? ?? ???? ???? ??? AI ??????. ?? ? ??? ?? ??? ?????.",
+    "productImagePublishSafe": false,
+    "backImage": null,
+    "backImagePublishSafe": false,
+    "backImageNote": "??? ?? ?? ???? ?? ?? ?? ???? ??????.",
+    "productImageLarge": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
+  },
+  {
+    "code": "ANC-4020",
+    "originalImage": "assets/products/ank/original/ANC-4020-original.jpg",
+    "generatedImages": {
+      "main": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+      "full": "assets/products/ank/generated/ANC-4020/ANC-4020-full.jpg",
+      "front": "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
+      "backAI": "assets/products/ank/generated/ANC-4020/ANC-4020-back-ai.jpg",
+      "upper": "assets/products/ank/generated/ANC-4020/ANC-4020-upper.jpg",
+      "lower": "assets/products/ank/generated/ANC-4020/ANC-4020-lower.jpg",
+      "product": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
+    },
+    "useMainAsPrimary": true,
+    "backAIReviewRequired": true,
+    "backAIIsPlaceholder": true,
+    "reviewStatus": "확인필요",
+    "detailImages": [
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-board.jpg"
+    ],
+    "detailReviewNote": "참고 상세페이지 스타일을 반영한 검수용 확대컷입니다. 동일 반복컷처럼 보이지 않도록 포인트별 크롭을 분리했습니다.",
+    "backImage": null,
+    "backImagePublishSafe": false,
+    "backImageNote": "??? ?? ?? ???? ?? ?? ?? ???? ??????."
+  }
+]
