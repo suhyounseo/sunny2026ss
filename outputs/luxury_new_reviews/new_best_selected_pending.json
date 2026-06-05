@@ -1,0 +1,104 @@
+[
+  {
+    "code": "N260002",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  },
+  {
+    "code": "P010",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  },
+  {
+    "code": "P031",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  },
+  {
+    "code": "P030",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  },
+  {
+    "code": "P014",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  },
+  {
+    "code": "P026",
+    "addTags": [
+      "NEW",
+      "BEST",
+      "추천",
+      "메인노출",
+      "럭셔리픽"
+    ],
+    "isNew": true,
+    "isBest": true,
+    "newArrival": true,
+    "bestItem": true,
+    "featured": true,
+    "mainDisplay": true,
+    "priority": 100
+  }
+]

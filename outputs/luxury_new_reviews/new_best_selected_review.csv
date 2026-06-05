@@ -1,0 +1,7 @@
+﻿선택순번,매칭된상품코드,현재상품명,현재카테고리,현재색상,대표이미지,첨부이미지,현재NEW여부,현재BEST여부,현재메인노출여부,수정제안_NEW,수정제안_BEST,수정제안_featured,수정제안_mainDisplay,수정제안_priority,매칭신뢰도,확인필요사항,검수상태
+대상 1,N260002,러플 브이넥 크롭 투피스,TWO PIECE,핑크,assets/N260002_01.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131_05.jpg,N,Y,N,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요
+대상 2,P010,아리아 플라워 슬림 미디원피스,MIDI,스카이블루 / 민트핑크,assets/P010_01.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131_06.jpg,Y,N,N,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요
+대상 3,P031,로아 배색라인 크롭 투피스,TWO PIECE,아이보리 / 네이비,assets/P031_01.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131_04.jpg,Y,N,N,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요
+대상 4,P030,로아 트위드 크롭 투피스,TWO PIECE,핑크 / 스카이블루,assets/P030_01.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131_03.jpg,Y,N,N,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요
+대상 5,P014,로미 리본스트랩 플레어 미니원피스,MINI,화이트,assets/P014_05.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131_02.jpg,Y,Y,Y,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요
+대상 6,P026,엘라 새틴리본 미니원피스,MINI,핑크 / 블랙,assets/P026_01.jpg,C:/Users/UserK/Desktop/KakaoTalk_20260605_093251131.jpg,Y,N,N,True,True,True,True,100,높음: 사용자 지정/이미지 매칭,최종 반영 후 쇼룸 확인,확인필요

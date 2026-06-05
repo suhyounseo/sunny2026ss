@@ -41,8 +41,22 @@ function normalizeProduct(p){
 }
 const hasTag=(p,t)=>tags(p).includes(t);
 const isNew=p=>!!p.new||!!p.isNew||hasTag(p,'NEW');
-const isBest=p=>!!p.best||!!p.isPopular||hasTag(p,'BEST');
+const isBest=p=>!!p.best||!!p.isBest||!!p.bestItem||!!p.isPopular||hasTag(p,'BEST');
 const isBuyNow=p=>hasTag(p,'바로구매')||hasTag(p,'BUY_NOW')||p.stockStatus==='바로구매';
+function rankProduct(p){
+  const priority=Number(p.priority||0);
+  let score=priority;
+  if(p.mainDisplay)score+=10000;
+  if(p.featured)score+=7000;
+  if(isNew(p)&&isBest(p))score+=5000;
+  else if(isNew(p))score+=2500;
+  else if(isBest(p))score+=1200;
+  score+=mainImg(p)?200:-400;
+  return score;
+}
+function sortProducts(list){
+  return [...list].sort((a,b)=>rankProduct(b)-rankProduct(a)||String(a.code||'').localeCompare(String(b.code||''),'ko'));
+}
 function productText(p){
   return [p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.mainCopy,p.desc,p.description,p.recommend,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' ');
 }
@@ -82,6 +96,14 @@ function buildQuick(){
 function buildChips(){
   if(FILTER==='HOME'&&!q.value.trim()){chips.innerHTML='';return}
   chips.innerHTML=filters().map(f=>`<button class="chip ${f===FILTER?'on':''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
+}
+function applyView(nextFilter,{search=q.value,push=false,scroll=false}={}){
+  FILTER=nextFilter;
+  q.value=search||'';
+  buildChips();
+  render();
+  if(scroll)scrollTo({top:0,behavior:'smooth'});
+  if(push)history.pushState({niceView:true,filter:FILTER,search:q.value},'',FILTER==='HOME'&&!q.value.trim()?location.pathname:`#view-${FILTER.toLowerCase()}`);
 }
 function cCount(k){return PRODUCTS.filter(p=>p.collection===k).length}
 function sectionName(){
@@ -147,7 +169,7 @@ function collectionBadge(p){return p.collectionName?`<div class="info-collection
 function meta(p){return [isLuxuryFit(p)?'럭셔리핏':'',p.length,p.color,p.size?'SIZE '+p.size:''].filter(Boolean).slice(0,3).map(x=>`<span>${x}</span>`).join('')}
 function productCard(p, compact=false){
   return `<article class="card ${compact?'compact':''}" data-code="${p.code}">
-    <div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:''}<div class="badges">${badges(p)}</div></div>
+    <div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:`<div class="no-photo"><b>NICE</b><span>${p.stockStatus||'생산중'}</span></div>`}<div class="badges">${badges(p)}</div></div>
     <div class="info">
       <div class="code">${p.code}</div>${collectionBadge(p)}
       <div class="name">${name(p)}</div>
@@ -180,9 +202,9 @@ function communityBlock(){
 function renderHome(){
   const visible=PRODUCTS.filter(visibleToAudience);
   title.textContent='CURATED COLLECTION';count.textContent=`${visible.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
-  const best=choose(visible.filter(isBest),8);
-  const fresh=choose(visible.filter(isNew),10);
-  const sameDay=choose(visible.filter(isSameDayVisible),10);
+  const best=choose(sortProducts(visible.filter(isBest)),8);
+  const fresh=choose(sortProducts(visible.filter(isNew)),10);
+  const sameDay=choose(sortProducts(visible.filter(isSameDayVisible)),10);
   grid.innerHTML=`
     <section class="collection-grid">
       ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
@@ -191,7 +213,7 @@ function renderHome(){
     ${isVipActive()?sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인 가능한 상품만 모았습니다.', sameDay):''}
     ${sectionBlock("Editor's Select", '나이스가 먼저 추천하는 감각적인 셀렉션', best.length?best:fresh.slice(0,8))}
     ${sectionBlock('New Arrival', '새롭게 입고된 신상품을 만나보세요', fresh)}`;
-  $$('.collection-card').forEach(el=>el.onclick=()=>{FILTER=el.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})});
+  $$('.collection-card').forEach(el=>el.onclick=()=>applyView(el.dataset.f,{push:true,scroll:true}));
   bindCards();
   bindVipControls();
 }
@@ -199,7 +221,7 @@ function render(){
   title.textContent=sectionName();intro.textContent=sectionIntro();
   if(FILTER==='HOME'&&!q.value.trim())return renderHome();
   grid.className='grid';
-  let list=PRODUCTS.filter(match);count.textContent=`${list.length} items`;
+  let list=sortProducts(PRODUCTS.filter(match));count.textContent=`${list.length} items`;
   if(!list.length){grid.innerHTML='<div class="empty">조건에 맞는 상품이 없습니다.</div>';return}
   grid.innerHTML=list.map(p=>productCard(p)).join('');
   bindCards();
@@ -310,9 +332,9 @@ function bindVipControls(){
 }
 $('#close').onclick=()=>closeDetail();
 modal.onclick=e=>{if(e.target===modal)closeDetail()};
-chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;FILTER=b.dataset.f;buildChips();render();scrollTo({top:0,behavior:'smooth'})};
-quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;q.value=b.dataset.q;FILTER='ALL';buildChips();render()};
-q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render()};
+chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;applyView(b.dataset.f,{push:true,scroll:true})};
+quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;applyView('ALL',{search:b.dataset.q,push:true})};
+q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render();history.replaceState({niceView:true,filter:FILTER,search:q.value},'',q.value.trim()?`#view-${FILTER.toLowerCase()}`:location.pathname)};
 if(vipModal){
   $('#vipClose').onclick=closeVipModal;
   $('#vipCancel').onclick=closeVipModal;
@@ -331,5 +353,12 @@ if(vipModal){
   vipInput.onkeydown=e=>{if(e.key==='Enter')$('#vipSubmit').click()};
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDetail();closeVipModal()}});
-window.addEventListener('popstate',()=>{if(modal.classList.contains('open'))closeDetail(true)});
-fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
+window.addEventListener('popstate',e=>{
+  if(modal.classList.contains('open')){closeDetail(true);return}
+  const state=e.state&&e.state.niceView?e.state:{filter:'HOME',search:''};
+  FILTER=state.filter||'HOME';
+  q.value=state.search||'';
+  buildChips();
+  render();
+});
+fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);history.replaceState({niceView:true,filter:FILTER,search:q.value},'',location.href);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
