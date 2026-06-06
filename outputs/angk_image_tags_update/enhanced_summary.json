@@ -1,0 +1,24 @@
+{
+  "target_count": 98,
+  "sample10_count": 10,
+  "exception_candidate_count": 83,
+  "a_line_recheck_count": 26,
+  "slimfit_recheck_count": 57,
+  "real_compare_needed_count": 80,
+  "cut_order_fix_needed_count": 3,
+  "search_check_columns_added": [
+    "A라인 검색노출확인",
+    "슬림핏 검색노출확인",
+    "추천키워드연결확인"
+  ],
+  "review_columns_added": [
+    "승인여부",
+    "검수결과",
+    "수정필요사항",
+    "실물대조필요",
+    "우선검수순번",
+    "대표컷적합여부",
+    "A라인검수",
+    "슬림핏검수"
+  ]
+}

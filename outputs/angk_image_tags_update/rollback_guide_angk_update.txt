@@ -1,0 +1,15 @@
+앙크 이미지/태그 업데이트 롤백 가이드 (20260606)
+
+현재 단계: 검수표/백업 생성 단계이며 products.json 본반영은 하지 않았습니다.
+
+백업 파일:
+- backup/products_before_angk_image_update_20260606.json
+- backup/app_before_angk_image_update_20260606.js
+- backup/index_before_angk_image_update_20260606.html
+- backup/angk_image_map_before_20260606.csv
+
+롤백 절차:
+1. 쇼룸 반영 후 문제가 있으면 products.json을 backup/products_before_angk_image_update_20260606.json 내용으로 되돌립니다.
+2. 표시 로직 문제가 있으면 app.js/index.html을 위 백업 파일로 되돌립니다.
+3. 이미지 파일은 삭제하지 않고 매핑표 기준으로 기존 경로를 재연결합니다.
+4. 로컬에서 A라인/슬림핏 검색 및 상세페이지 썸네일을 재확인합니다.

@@ -1,0 +1,23 @@
+{
+  "target_count": 98,
+  "image_replace_candidates": 95,
+  "already_generated_connected": 3,
+  "a_line_yes": 98,
+  "slimfit_yes": 98,
+  "exceptions": 0,
+  "review_needed": 3,
+  "files": [
+    "outputs/angk_image_tags_update/angk_before_after_contactsheet.jpg",
+    "outputs/angk_image_tags_update/angk_before_after_review.csv",
+    "outputs/angk_image_tags_update/angk_before_after_review.xlsx",
+    "outputs/angk_image_tags_update/angk_image_replace_map.csv",
+    "outputs/angk_image_tags_update/angk_image_replace_map.xlsx",
+    "outputs/angk_image_tags_update/angk_products_update_plan.csv",
+    "outputs/angk_image_tags_update/angk_products_update_plan.xlsx",
+    "outputs/angk_image_tags_update/angk_search_tag_review.csv",
+    "outputs/angk_image_tags_update/angk_search_tag_review.xlsx",
+    "outputs/angk_image_tags_update/angk_target_list.csv",
+    "outputs/angk_image_tags_update/angk_target_list.xlsx",
+    "outputs/angk_image_tags_update/rollback_guide_angk_update.txt"
+  ]
+}

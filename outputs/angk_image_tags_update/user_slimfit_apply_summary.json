@@ -1,0 +1,24 @@
+{
+  "changed_codes": [
+    "ANC-4007",
+    "ANC-4013",
+    "ANC-4017",
+    "ANC-4023",
+    "ANC-4027",
+    "ANC-4041",
+    "ANC-4043",
+    "ANC-4046",
+    "ANC-4047",
+    "ANC-4080",
+    "ANC-4083",
+    "ANC-4085",
+    "ANC-4089"
+  ],
+  "count": 13,
+  "version": "match64",
+  "backup": [
+    "backup/products_before_user_slimfit_apply_20260606.json",
+    "backup/app_before_user_slimfit_apply_20260606.js",
+    "backup/index_before_user_slimfit_apply_20260606.html"
+  ]
+}

@@ -1,0 +1,5 @@
+code,상품명,후보이미지,생성상태,검수상태,products_json_반영,비고
+ANC-4002,배색스퀘어 플레어 원피스,assets/products/ank/generated/ANC-4002-ai-review/ANC-4002-ai-main-candidate-01.png,생성완료,검수필요,미반영,화이트 레이스 상의와 블랙 A라인 스커트 대표컷 후보
+ANC-4004,세일러카라 플레어 원피스,assets/products/ank/generated/ANC-4004-ai-review/ANC-4004-ai-main-candidate-01.png,생성완료,검수필요,미반영,블루 세일러카라 미니 A라인 대표컷 후보
+ANC-4005,오프숄더 러플 원피스,assets/products/ank/generated/ANC-4005-ai-review/ANC-4005-ai-main-candidate-01.png,생성완료,검수필요,미반영,레드 오프숄더 리본/드레이프 대표컷 후보
+ANC-4006,레이스숄더 플레어 원피스,assets/products/ank/generated/ANC-4006-ai-review/ANC-4006-ai-main-candidate-01.png,생성완료,검수필요,미반영,블랙 레이스와 화이트 네크라인 대표컷 후보

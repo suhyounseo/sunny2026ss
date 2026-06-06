@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NICE COLLECTION</title>
+  <link rel="stylesheet" href="style.css?v=match63" />
+</head>
+<body>
+  <header class="hero">
+    <h1>NICE</h1>
+    <p>Luxury Evening Edit</p>
+  </header>
+
+  <main class="wrap">
+    <div class="sticky-tools">
+      <div class="top">
+        <input id="q" class="search" placeholder="검색: 상품명, 컬러, 카테고리" />
+      </div>
+      <div id="quick" class="quick"></div>
+      <div id="chips" class="chips"></div>
+    </div>
+
+    <div class="head">
+      <h2 id="title">NICE COLLECTION</h2>
+      <div id="count" class="count"></div>
+    </div>
+
+    <p id="intro" class="intro"></p>
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="panel">
+      <div class="modal-top">
+        <div class="brand">NICE COLLECTION</div>
+        <button id="close" class="close" type="button">×</button>
+      </div>
+      <div id="detail"></div>
+    </div>
+  </div>
+
+  <div id="vipModal" class="vip-modal">
+    <div class="vip-panel">
+      <div class="vip-top">
+        <div>
+          <span>VIP ONLY</span>
+          <h2>VIP 인증</h2>
+        </div>
+        <button id="vipClose" class="close" type="button">×</button>
+      </div>
+      <p>VIP 고객님께만 특별한 혜택을 드립니다.</p>
+      <input id="vipCode" class="vip-input" type="password" autocomplete="one-time-code" placeholder="인증코드를 입력해 주세요." />
+      <div id="vipMessage" class="vip-message"></div>
+      <div class="vip-actions">
+        <button id="vipCancel" type="button">취소</button>
+        <button id="vipSubmit" type="button">인증하기</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=match63"></script>
+</body>
+</html>
