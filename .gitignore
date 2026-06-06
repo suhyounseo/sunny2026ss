@@ -6,3 +6,14 @@ inventory_photos/
 photo_evidence_raw/
 *.heic
 outputs/internal_inventory_linking/
+outputs/detail_enrichment_review/
+competitor_research/
+internal_competitor_reference.xlsx
+competitor_match_review.xlsx
+showroom_detail_enrichment_review.xlsx
+products_detail_update_plan.csv
+competitor_match_review.csv
+showroom_detail_enrichment_review.csv
+internal/
+private/
+node_modules/
