@@ -2719,7 +2719,7 @@
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
-      "assets/ANC-4003_01.jpg"
+      "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
     ],
     "cuts": [
       {
@@ -2758,9 +2758,9 @@
         "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg"
       },
       {
-        "url": "assets/ANC-4003_01.jpg",
-        "cut": "원본컷",
-        "source": "assets/ANC-4003_01.jpg"
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
+        "cut": "상품컷",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
       }
     ],
     "mainCopy": "프릴 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2792,7 +2792,7 @@
     "imageUpgrade": {
       "status": "generated-images-applied",
       "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
-      "note": "Removed duplicate representative/front images and replaced upper/lower crops with the detail board. AI back-view placeholders and review-only files remain excluded."
+      "note": "Removed duplicate original/model reference from the public image carousel and replaced it with the generated product cut. AI back-view placeholders and review-only files remain excluded."
     },
     "backImagePublishSafe": false,
     "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
