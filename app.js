@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match61';
+const VERSION='match62';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -191,9 +191,8 @@ function sectionBlock(label, desc, items){
 function communityBlock(){
   return `<section class="community-panel" aria-label="NICE community">
     <div>
-      <span class="community-kicker">NICE COMMUNITY</span>
-      <h3>새로운 스타일과 매장 소식을 SNS에서 가장 먼저 만나보세요.</h3>
-      <p>신상품, 스타일링 팁, 입고 소식, 상담 안내를 빠르게 확인할 수 있습니다.</p>
+      <h2 class="community-title">NICE COMMUNITY</h2>
+      <p class="community-copy">새로운 스타일과 매장 소식을<br>SNS에서 가장 먼저 만나보세요.</p>
     </div>
     <div class="community-links">
       <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
