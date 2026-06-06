@@ -27,8 +27,8 @@
 .home{display:block}
 .home .collection-grid{margin-bottom:28px}
 .community-panel{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:22px;align-items:center;margin:28px 0 36px;padding:28px;border:1px solid #d9cfc5;border-radius:8px;background:#191514;color:#fff;box-shadow:var(--shadow)}
-.community-title{margin:0 0 14px;color:#d9bc8f;font-family:Georgia,serif;font-size:42px;line-height:1;font-weight:900;letter-spacing:.08em}
-.community-copy{margin:0;color:#fff;font-family:Georgia,'Noto Serif KR',serif;font-size:30px;line-height:1.3;font-weight:900;letter-spacing:0;word-break:keep-all}
+.community-title{margin:0 0 18px;color:#d9bc8f;font-family:Georgia,serif;font-size:50px;line-height:1;font-weight:900;letter-spacing:.08em}
+.community-copy{margin:0;color:#fff;font-family:Georgia,'Noto Serif KR',serif;font-size:34px;line-height:1.28;font-weight:900;letter-spacing:0;word-break:keep-all}
 .community-links{display:grid;grid-template-columns:1fr;gap:10px}
 .community-link{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 16px;border-radius:999px;border:1px solid #ffffff33;color:#fff;text-decoration:none;font-size:14px;font-weight:900}
 .community-link:after{content:"↗";font-size:13px;color:#d9bc8f}
