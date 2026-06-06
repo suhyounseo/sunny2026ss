@@ -2482,12 +2482,78 @@
     "isNew": true,
     "isPopular": false,
     "images": [
+      "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-full.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-upper.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-lower.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-detail-board.jpg",
       "assets/ANC-4001_01.jpg"
     ],
     "cuts": [
       {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+        "cut": "대표 쇼룸컷",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-full.jpg",
+        "cut": "전신컷",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-full.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
+        "cut": "앞모습",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-upper.jpg",
+        "cut": "상반신",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-upper.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-lower.jpg",
+        "cut": "하반신",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-lower.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
+        "cut": "상품컷",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-neckline.jpg",
+        "cut": "네크라인 확대",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-neckline.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-waist.jpg",
+        "cut": "허리/라인 확대",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-waist.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-hem.jpg",
+        "cut": "밑단 확대",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-hem.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-fabric.jpg",
+        "cut": "원단 확대",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-fabric.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-board.jpg",
+        "cut": "디테일 보드",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-detail-board.jpg"
+      },
+      {
         "url": "assets/ANC-4001_01.jpg",
-        "cut": "대표",
+        "cut": "원본컷",
         "source": "assets/ANC-4001_01.jpg"
       }
     ],
@@ -2508,14 +2574,22 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/ANC-4001_01.jpg",
-    "thumbnail": "assets/ANC-4001_01.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "cardImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+    "imageUpgrade": {
+      "status": "generated-images-applied",
+      "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
+      "note": "AI back-view placeholders and review-only files are intentionally excluded from public showroom images."
+    },
+    "backImagePublishSafe": false,
+    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
   },
   {
     "code": "ANC-4002",
@@ -2638,12 +2712,54 @@
     "isNew": true,
     "isPopular": false,
     "images": [
+      "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-board.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
       "assets/ANC-4003_01.jpg"
     ],
     "cuts": [
       {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
+        "cut": "대표 쇼룸컷",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg",
+        "cut": "전신컷",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-board.jpg",
+        "cut": "상·하의 디테일 보드",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-board.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-neckline.jpg",
+        "cut": "네크라인 확대",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-neckline.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg",
+        "cut": "허리/라인 확대",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg",
+        "cut": "밑단 확대",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
+        "cut": "원단 확대",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg"
+      },
+      {
         "url": "assets/ANC-4003_01.jpg",
-        "cut": "대표",
+        "cut": "원본컷",
         "source": "assets/ANC-4003_01.jpg"
       }
     ],
@@ -2664,14 +2780,22 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/ANC-4003_01.jpg",
-    "thumbnail": "assets/ANC-4003_01.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "라인을 선명하게 보여주는 배색 포인트",
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일"
     ],
-    "editorsNote": "프릴과 배색 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "프릴과 배색 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "cardImage": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
+    "imageUpgrade": {
+      "status": "generated-images-applied",
+      "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
+      "note": "Removed duplicate representative/front images and replaced upper/lower crops with the detail board. AI back-view placeholders and review-only files remain excluded."
+    },
+    "backImagePublishSafe": false,
+    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
   },
   {
     "code": "ANC-4004",
@@ -3964,12 +4088,78 @@
     "isNew": true,
     "isPopular": false,
     "images": [
+      "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-full.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-upper.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-lower.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-neckline.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-waist.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-hem.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-detail-board.jpg",
       "assets/ANC-4020_01.jpg"
     ],
     "cuts": [
       {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+        "cut": "대표 쇼룸컷",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-full.jpg",
+        "cut": "전신컷",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-full.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
+        "cut": "앞모습",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-upper.jpg",
+        "cut": "상반신",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-upper.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-lower.jpg",
+        "cut": "하반신",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-lower.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg",
+        "cut": "상품컷",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-neckline.jpg",
+        "cut": "네크라인 확대",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-neckline.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-waist.jpg",
+        "cut": "허리/라인 확대",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-waist.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-hem.jpg",
+        "cut": "밑단 확대",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-hem.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-fabric.jpg",
+        "cut": "원단 확대",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-fabric.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-board.jpg",
+        "cut": "디테일 보드",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-detail-board.jpg"
+      },
+      {
         "url": "assets/ANC-4020_01.jpg",
-        "cut": "대표",
+        "cut": "원본컷",
         "source": "assets/ANC-4020_01.jpg"
       }
     ],
@@ -3990,14 +4180,22 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/ANC-4020_01.jpg",
-    "thumbnail": "assets/ANC-4020_01.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
     "whyYoullLoveIt": [
       "라인을 선명하게 보여주는 배색 포인트",
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 배색 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "플레어와 배색 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "cardImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+    "imageUpgrade": {
+      "status": "generated-images-applied",
+      "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
+      "note": "AI back-view placeholders and review-only files are intentionally excluded from public showroom images."
+    },
+    "backImagePublishSafe": false,
+    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
   },
   {
     "code": "ANC-4021",

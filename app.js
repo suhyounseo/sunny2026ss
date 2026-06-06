@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match58';
+const VERSION='match60';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
