@@ -1,0 +1,148 @@
+{
+  "source_xlsx": "C:/Users/UserK/Downloads/angk_exception_candidates.xlsx",
+  "rule": "??? ???: ?? 13?? A?? ??? ?? ?? ???. ?? A?? ?? ??, ???/??? ??, ANC-4046 ???? ??.",
+  "target_codes": [
+    "ANC-4007",
+    "ANC-4013",
+    "ANC-4017",
+    "ANC-4023",
+    "ANC-4027",
+    "ANC-4041",
+    "ANC-4043",
+    "ANC-4046",
+    "ANC-4047",
+    "ANC-4080",
+    "ANC-4083",
+    "ANC-4085",
+    "ANC-4089"
+  ],
+  "not_in_exception_candidates_xlsx": [
+    "ANC-4007",
+    "ANC-4013",
+    "ANC-4017",
+    "ANC-4023",
+    "ANC-4027",
+    "ANC-4041",
+    "ANC-4043",
+    "ANC-4046",
+    "ANC-4047",
+    "ANC-4080",
+    "ANC-4083",
+    "ANC-4085",
+    "ANC-4089"
+  ],
+  "missing_codes": [],
+  "changed": {
+    "ANC-4007": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4013": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4017": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4023": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4027": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4041": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4043": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4046": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4047": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4080": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4083": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4085": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    },
+    "ANC-4089": {
+      "removed_Aline_from_tags": false,
+      "removed_Aline_from_styleTags": false,
+      "kept": [
+        "???",
+        "???"
+      ]
+    }
+  },
+  "backup": "backup/products_before_angk_slimfit_only_fix_20260607_125220.json",
+  "verification": {
+    "aline_remaining_count": 0,
+    "slimfit_linegam_ok_count": 13,
+    "garbage_remaining_count": 0,
+    "anc4046_unbalance_preserved": true
+  }
+}
