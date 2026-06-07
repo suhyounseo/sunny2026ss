@@ -1,7 +1,7 @@
 const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
 const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
 const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match66';
+const VERSION='match67';
 const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
 const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
@@ -140,8 +140,9 @@ function match(p){
   if(isMidiSearch)ok=!isJessicaAnk(p)&&(p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI'));
   if(/77\s*\/\s*88|77\/88/.test(rawSearch))ok=isWideSize(p);
   if(/당일발송|당일가능|바로문의/.test(rawSearch))ok=isSameDayVisible(p);
+  if(/A라인|에이라인|a라인/i.test(rawSearch))ok=hasTag(p,'A라인')||/A라인/i.test(focusedProductText(p));
   if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
-  if(/슬림핏/.test(rawSearch))ok=isSlimFit(p);
+  if(/슬림핏/.test(rawSearch))ok=isSlimFit(p)||hasTag(p,'슬림핏');
   if(/블라우스/.test(rawSearch))ok=(p.category==='TOP'||hasTag(p,'TOP'))&&/블라우스/i.test(focusedProductText(p));
   if(/스커트/.test(rawSearch))ok=p.category==='SKIRT'||hasTag(p,'SKIRT');
   let f=true;
