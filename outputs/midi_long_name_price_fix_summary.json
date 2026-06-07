@@ -1,0 +1,186 @@
+{
+  "backup": "backup/products_before_midi_long_name_price_fixes_20260607_122147.json",
+  "changed": {
+    "N260189": {
+      "type": "midi_classification_or_name"
+    },
+    "N260016": {
+      "type": "midi_classification_or_name"
+    },
+    "N260027": {
+      "type": "midi_classification_or_name"
+    },
+    "N260028": {
+      "type": "midi_classification_or_name"
+    },
+    "N260029": {
+      "type": "midi_classification_or_name"
+    },
+    "N260031": {
+      "type": "midi_classification_or_name"
+    },
+    "N260032": {
+      "type": "midi_classification_or_name"
+    },
+    "N260036": {
+      "type": "midi_classification_or_name"
+    },
+    "N260043": {
+      "type": "midi_classification_or_name"
+    },
+    "N260044": {
+      "type": "midi_classification_or_name"
+    },
+    "N260049": {
+      "type": "midi_classification_or_name",
+      "nameFix": "화이트 H라인 미디드레스"
+    },
+    "N260050": {
+      "type": "midi_classification_or_name",
+      "nameFix": "블랙 H라인 미디드레스"
+    },
+    "N260051": {
+      "type": "midi_classification_or_name",
+      "nameFix": "화이트 H라인 미디드레스"
+    },
+    "N260052": {
+      "type": "midi_classification_or_name",
+      "nameFix": "소라 화이트 H라인 미디드레스"
+    },
+    "N260053": {
+      "type": "midi_classification_or_name",
+      "nameFix": "레드꽃무늬 H라인 미디드레스"
+    },
+    "N260054": {
+      "type": "midi_classification_or_name",
+      "nameFix": "블루꽃무늬 H라인 미디드레스"
+    },
+    "N260078": {
+      "type": "midi_classification_or_name"
+    },
+    "N260082": {
+      "type": "midi_classification_or_name",
+      "nameFix": "코르셋 미디 슬립 원피스"
+    },
+    "N260083": {
+      "type": "midi_classification_or_name",
+      "nameFix": "코르셋 미디 슬립 원피스"
+    },
+    "N260084": {
+      "type": "midi_classification_or_name",
+      "nameFix": "코르셋 미디 슬립 원피스"
+    },
+    "N260090": {
+      "type": "midi_classification_or_name"
+    },
+    "N260092": {
+      "type": "midi_classification_or_name"
+    },
+    "N260116": {
+      "type": "top_not_long"
+    },
+    "N260161": {
+      "nameFix": "핑크 포인트 롱 드레스",
+      "priceCheck": "needs_source_check"
+    },
+    "N260162": {
+      "nameFix": "그레이 포인트 롱 드레스",
+      "priceCheck": "confirmed"
+    },
+    "N260186": {
+      "nameFix": "아이보리 끈조절 롱 드레스",
+      "priceCheck": "confirmed"
+    },
+    "P010": {
+      "priceCheck": "needs_source_check"
+    },
+    "P014": {
+      "priceCheck": "needs_source_check"
+    },
+    "P026": {
+      "priceCheck": "needs_source_check"
+    },
+    "P030": {
+      "priceCheck": "needs_source_check"
+    }
+  },
+  "midi_codes": [
+    "N260189",
+    "N260016",
+    "N260027",
+    "N260028",
+    "N260029",
+    "N260031",
+    "N260032",
+    "N260036",
+    "N260043",
+    "N260044",
+    "N260049",
+    "N260050",
+    "N260051",
+    "N260052",
+    "N260053",
+    "N260054",
+    "N260078",
+    "N260082",
+    "N260083",
+    "N260084",
+    "N260090",
+    "N260092"
+  ],
+  "top_codes": [
+    "N260116"
+  ],
+  "name_fixes": {
+    "N260049": "화이트 H라인 미디드레스",
+    "N260050": "블랙 H라인 미디드레스",
+    "N260051": "화이트 H라인 미디드레스",
+    "N260052": "소라 화이트 H라인 미디드레스",
+    "N260053": "레드꽃무늬 H라인 미디드레스",
+    "N260054": "블루꽃무늬 H라인 미디드레스",
+    "N260082": "코르셋 미디 슬립 원피스",
+    "N260083": "코르셋 미디 슬립 원피스",
+    "N260084": "코르셋 미디 슬립 원피스",
+    "N260161": "핑크 포인트 롱 드레스",
+    "N260162": "그레이 포인트 롱 드레스",
+    "N260186": "아이보리 끈조절 롱 드레스"
+  },
+  "price_checks": {
+    "N260186": {
+      "status": "confirmed",
+      "price": 68000,
+      "source": "judyshop ???S543 category listing, crawled 2 weeks ago"
+    },
+    "N260162": {
+      "status": "confirmed",
+      "price": 72000,
+      "source": "judyshop ???S497 listing, crawled 5 days ago"
+    },
+    "N260161": {
+      "status": "needs_source_check",
+      "currentPrice": 72000,
+      "source": "local externalSource only; web search did not surface S496 price"
+    },
+    "P010": {
+      "status": "needs_source_check",
+      "currentPrice": "",
+      "source": "no external price source in products.json"
+    },
+    "P014": {
+      "status": "needs_source_check",
+      "currentPrice": "",
+      "source": "no external price source in products.json"
+    },
+    "P026": {
+      "status": "needs_source_check",
+      "currentPrice": "",
+      "source": "no external price source in products.json"
+    },
+    "P030": {
+      "status": "needs_source_check",
+      "currentPrice": "",
+      "source": "no external price source in products.json"
+    }
+  },
+  "note": "? ?? ??? app.js?? category/tag LONG ???? ??. P010/P014/P026/P030 ??? ?? ??? ?? ?? ???? ??."
+}

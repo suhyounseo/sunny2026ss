@@ -130,10 +130,14 @@ function sectionIntro(){
 function match(p){
   const rawSearch=q.value.trim();
   const search=norm(rawSearch);
+  const isLongSearch=/^(롱|long)$/i.test(rawSearch);
+  const isMidiSearch=/^(미디|midi)$/i.test(rawSearch);
   const searchableTags=tags(p).filter(t=>!(isJessicaAnk(p)&&/미디|MIDI/i.test(String(t))));
   const derived=[isLuxuryFit(p)?'럭셔리핏':'',isSlimFit(p)?'슬림핏':'',isSameDayVisible(p)?'당일발송':'',isWideSize(p)?'77/88':''].filter(Boolean);
   const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[]),...derived].join(' '));
   let ok=!search||hay.includes(search);
+  if(isLongSearch)ok=p.category==='LONG'||p.length==='롱'||hasTag(p,'LONG');
+  if(isMidiSearch)ok=!isJessicaAnk(p)&&(p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI'));
   if(/77\s*\/\s*88|77\/88/.test(rawSearch))ok=isWideSize(p);
   if(/당일발송|당일가능|바로문의/.test(rawSearch))ok=isSameDayVisible(p);
   if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
