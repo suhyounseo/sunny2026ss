@@ -131,3 +131,33 @@
   .cta a{width:100%;min-width:0;font-size:16px;white-space:normal}
   .thumbs{max-width:100%;overflow-x:auto}
 }
+
+/* Sales conversion refinements */
+.price-inquiry{display:flex;flex-direction:column;gap:4px;font-size:20px;line-height:1.25}
+.price-inquiry strong{font-size:24px}
+.price-inquiry span{color:#7b685b;font-size:13px;font-weight:850;word-break:keep-all}
+.card-kakao{width:100%;min-height:44px;margin-top:13px;border:1px solid rgba(60,30,30,.12);border-radius:999px;background:#fee500;color:#221d00;font-weight:950;cursor:pointer}
+.card-kakao:hover{filter:brightness(.98)}
+.community-guide{margin:16px 0 0;color:#f3e6d7;font-size:15px;line-height:1.7;font-weight:750;word-break:keep-all}
+.community-link.kakao{background:#fee500!important;color:#221d00!important;border-color:#fee500}
+.community-link.subtle{background:#ffffff12;color:#eadfce;border-color:#ffffff26}
+.detail-price-note{margin:-10px 0 16px;color:#756358;font-weight:850}
+.purchase-guide{margin-top:16px;padding:17px 18px;border-radius:18px;background:#191514;color:#fff;border:1px solid #d8bd8f33}
+.purchase-guide b{display:block;margin-bottom:8px;color:#d9bc8f;font-size:13px;letter-spacing:.12em}
+.purchase-guide p{margin:0;line-height:1.75;word-break:keep-all}
+.detail-cta{grid-template-columns:1.15fr 1fr 1fr}
+.detail-cta button,.detail-cta a{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 12px;border-radius:18px;font-weight:950;text-decoration:none;font-size:16px;cursor:pointer;text-align:center;line-height:1.25}
+.detail-cta button{border:1px solid #d9c8b8}
+.detail-cta .kakao{border-color:rgba(60,30,30,.12)}
+.home .collection-grid{margin:42px 0 34px}
+.show-section+.collection-grid{margin-top:42px}
+@media(max-width:720px){
+  .price-inquiry{font-size:17px}
+  .price-inquiry strong{font-size:20px}
+  .price-inquiry span{font-size:12px}
+  .card-kakao{min-height:40px;margin-top:10px;font-size:13px}
+  .community-guide{font-size:13.5px;line-height:1.65}
+  .detail-cta{grid-template-columns:1fr;position:sticky;bottom:0;background:#fbf7f1;padding:10px 0 4px}
+  .detail-cta button,.detail-cta a{width:100%;font-size:15px;min-height:46px}
+  .purchase-guide{padding:15px 14px}
+}

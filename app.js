@@ -1,259 +1,288 @@
-const $=(s,e=document)=>e.querySelector(s), $$=(s,e=document)=>[...e.querySelectorAll(s)];
-const q=$('#q'), quick=$('#quick'), chips=$('#chips'), grid=$('#grid'), title=$('#title'), count=$('#count'), intro=$('#intro'), modal=$('#modal'), detail=$('#detail');
-const vipModal=$('#vipModal'), vipInput=$('#vipCode'), vipMessage=$('#vipMessage');
-const VERSION='match69';
-const KAKAO_URL='http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
-const INSTA_URL=['https://www.instagram.com','dongdaemun_helloapm_nice'].join('/')+'/';
-const BLOG_URL='https://blog.naver.com/dongdaemun_nice';
-let PRODUCTS=[], FILTER='HOME', currentImages=[];
-let modalHistoryOpen=false;
+const $ = (s, e = document) => e.querySelector(s);
+const $$ = (s, e = document) => [...e.querySelectorAll(s)];
 
-const COLLECTIONS=[
-  {key:'A',filter:'COL_A',title:'Collection A',name:'Mini Dress Edit',desc:'경쾌하면서도 여성스러운 미니 원피스 셀렉션'},
-  {key:'B',filter:'COL_B',title:'Collection B',name:'Set-up & Styling Edit',desc:'투피스와 세트 아이템으로 완성하는 스타일링'},
-  {key:'C',filter:'COL_C',title:'Collection C',name:'Evening & Long Edit',desc:'특별한 순간을 위한 미디·롱 드레스 셀렉션'}
+const q = $('#q');
+const quick = $('#quick');
+const chips = $('#chips');
+const grid = $('#grid');
+const title = $('#title');
+const count = $('#count');
+const intro = $('#intro');
+const modal = $('#modal');
+const detail = $('#detail');
+const vipModal = $('#vipModal');
+const vipInput = $('#vipCode');
+const vipMessage = $('#vipMessage');
+
+const VERSION = 'match70';
+const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
+const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
+const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
+const VIP_STORAGE_KEY = 'niceVipUntil';
+const VIP_TTL_MS = 12 * 60 * 60 * 1000;
+const VIP_CODE_CHARS = [78, 73, 67, 69, 86, 73, 80];
+
+let PRODUCTS = [];
+let FILTER = 'HOME';
+let currentImages = [];
+let modalHistoryOpen = false;
+
+const COLLECTIONS = [
+  { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'Mini Dress Edit', desc: '가볍게 입기 좋은 미니 원피스 셀렉션' },
+  { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
+  { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
 ];
-const JESSICA_NEW_ARRIVAL_CODES=['JES-310','JES-309','JES-319','JES-324','JES-306','JES-315','JES-304','JES-311','JES-321','JES-323'];
-const FILTERS_BASE=['HOME','ALL','NEW','BEST'];
-const LABEL={HOME:'HOME',ALL:'ALL',COL_A:'COLLECTION A',COL_B:'COLLECTION B',COL_C:'COLLECTION C',NEW:'NEW ARRIVAL',BEST:'BEST PICK',MINI:'미니',MIDI:'미디',LONG:'롱',TWO_PIECE:'투피스',SKIRT:'스커트',SIZE_77:'77가능',SAME_DAY:'당일가능'};
-const QUICK_BASE=['미니','미디','A라인','슬림핏','럭셔리핏','투피스','스커트','블라우스','블랙','화이트','77/88'];
-const QUICK_VIP=['당일발송'];
-const VIP_STORAGE_KEY='niceVipUntil';
-const VIP_TTL_MS=12*60*60*1000;
-const VIP_CODE_CHARS=[78,73,67,69,86,73,80];
-const money=n=>n?'₩'+Number(n).toLocaleString('ko-KR'):'문의';
-const img=u=>u?`${u}?v=${VERSION}`:'';
-const mainImg=p=>p.mainImage||p.thumbnail||p.cardImage||(p.images&&p.images[0])||'';
-const name=p=>p.name||p.storeName||p.code;
-const norm=s=>String(s||'').toLowerCase();
-const tags=p=>p.tags||[];
-const codeOf=p=>String(p.code||'');
-const isJessicaAnk=p=>/^(JES|ANC)-/.test(codeOf(p));
-function normalizeProduct(p){
-  if(isJessicaAnk(p)){
-    p.category=p.category||'MINI';
-    if(p.category==='MINI'||tags(p).includes('MINI')||/원피스/.test(name(p))){
-      p.length='미니';
-      p.tags=[...new Set(tags(p).filter(t=>t!=='MIDI'&&t!=='미디').concat(['MINI','미니']))];
-      if(!p.collectionName)p.collectionName='Mini Dress Edit';
-    }
-  }
-  return p;
+
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
+const LABEL = {
+  HOME: 'HOME',
+  ALL: 'ALL',
+  BEST: 'BEST PICK',
+  NEW: 'NEW ARRIVAL',
+  COSTUME: 'Costume',
+  COL_A: 'COLLECTION A',
+  COL_B: 'COLLECTION B',
+  COL_C: 'COLLECTION C',
+  SAME_DAY: '당일문의'
+};
+const QUICK_BASE = ['파티룩', '클럽룩', '무대의상', '원피스', '투피스', '77/88'];
+const QUICK_VIP = ['당일문의'];
+
+const COSTUME_STRONG = [
+  '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
+  '스쿨룩', '스쿨', '교복룩', '교복', '유니폼룩', '유니폼', '파티코스튬',
+  'costume', 'cosplay', 'sailor', 'school', 'uniform', '체크', '플리츠'
+];
+const COSTUME_SOFT = ['이벤트룩', '이벤트', '촬영룩', '촬영', '공연룩', '공연', '방송룩', '방송', 'event', 'stage'];
+const INTERNAL_WORDS = [
+  '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
+  '거래처', '공장', 'supplier', 'vendor', 'origin'
+];
+
+const norm = s => String(s || '').toLowerCase();
+const tags = p => Array.isArray(p.tags) ? p.tags : [];
+const codeOf = p => String(p.code || '');
+const mainImg = p => p.mainImage || p.thumbnail || p.cardImage || (Array.isArray(p.images) && p.images[0]) || '';
+const img = u => u ? `${u}?v=${VERSION}` : '';
+const hasTag = (p, t) => tags(p).some(x => norm(x) === norm(t));
+const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isBest = p => !!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured;
+const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
+const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
+const isVipActive = () => vipUntil() > Date.now();
+const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now() + VIP_TTL_MS));
+const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
+const visibleToAudience = p => isVipActive() || p.vipOnly !== true;
+
+function cleanText(value, fallback = '') {
+  let text = String(value || fallback || '').trim();
+  INTERNAL_WORDS.forEach(word => {
+    text = text.replace(new RegExp(word, 'gi'), 'NICE');
+  });
+  text = text
+    .replace(/NICE\s*2026\s*봄\s*라인\s*/gi, '새 시즌 ')
+    .replace(/NICE\s*2026\s*봄\s*생산중\s*신상/gi, '입고 예정 신상')
+    .replace(/NICE\s*신상/gi, '신상')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  return text || fallback;
 }
-const hasTag=(p,t)=>tags(p).includes(t);
-const isNew=p=>!!p.new||!!p.isNew||hasTag(p,'NEW');
-const isBest=p=>!!p.best||!!p.isBest||!!p.bestItem||!!p.isPopular||hasTag(p,'BEST');
-const isBuyNow=p=>hasTag(p,'바로구매')||hasTag(p,'BUY_NOW')||p.stockStatus==='바로구매';
-function rankProduct(p){
-  const priority=Number(p.priority||0);
-  let score=priority;
-  if(p.mainDisplay)score+=10000;
-  if(p.featured)score+=7000;
-  if(isNew(p)&&isBest(p))score+=5000;
-  else if(isNew(p))score+=2500;
-  else if(isBest(p))score+=1200;
-  score+=mainImg(p)?200:-400;
+
+function displayName(p) {
+  return cleanText(p.name || p.storeName || p.productName || p.code, p.code);
+}
+
+function displayCode(p) {
+  return cleanText(p.customerCode || p.code || '');
+}
+
+function money(n) {
+  return n ? '₩' + Number(n).toLocaleString('ko-KR') : '가격문의';
+}
+
+function productText(p) {
+  return [
+    p.code, p.customerCode, p.name, p.storeName, p.productName, p.color, p.category, p.length,
+    p.fit, p.size, p.sizeInfo, p.fabric, p.mainCopy, p.desc, p.description, p.recommend,
+    ...(p.points || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
+  ].join(' ');
+}
+
+function focusedProductText(p) {
+  return [
+    p.name, p.storeName, p.productName, p.color, p.category, p.length, p.fit, p.size,
+    p.fabric, ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
+  ].join(' ');
+}
+
+function isWideSize(p) {
+  return (p.sizeTags || []).some(x => ['77', '88'].includes(String(x))) || /77|88/.test(String(p.size || p.sizeInfo || ''));
+}
+
+function isFittingAvailable(p) {
+  return p.fittingAvailable === true || /피팅|매장/.test(productText(p));
+}
+
+function isSameDayCandidate(p) {
+  return p.sameDayAvailable === true || p.stockStatus === '바로구매' || /당일|바로|입고|재고|보유/.test(productText(p));
+}
+
+function isSameDayVisible(p) {
+  return isVipActive() && isSameDayCandidate(p);
+}
+
+function isCostume(p) {
+  const hay = norm(focusedProductText(p));
+  if (COSTUME_STRONG.some(k => hay.includes(norm(k)))) return true;
+  const softHits = COSTUME_SOFT.filter(k => hay.includes(norm(k))).length;
+  const hasStyleAnchor = /리본|빅리본|카라|스트라이프|체크|플리츠|세트|투피스|미니드레스|망사|레이스/.test(focusedProductText(p));
+  return softHits >= 2 && hasStyleAnchor;
+}
+
+function rankProduct(p) {
+  let score = Number(p.priority || 0);
+  if (p.mainDisplay) score += 10000;
+  if (p.featured) score += 7000;
+  if (isBest(p)) score += 3600;
+  if (isNew(p)) score += 2500;
+  if (isWideSize(p)) score += 250;
+  if (mainImg(p)) score += 200;
   return score;
 }
-function sortProducts(list){
-  return [...list].sort((a,b)=>rankProduct(b)-rankProduct(a)||String(a.code||'').localeCompare(String(b.code||''),'ko'));
-}
-function productText(p){
-  return [p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,p.mainCopy,p.desc,p.description,p.recommend,...tags(p),...(p.styleTags||[]),...(p.sceneTags||[])].join(' ');
-}
-function focusedProductText(p){
-  return [p.code,p.name,p.storeName,p.productName,p.origin,p.folder,p.color,p.category,p.length,p.fit,p.size,p.fabric,...tags(p),...(p.styleTags||[])].join(' ');
-}
-function isLuxuryFit(p){
-  if(isJessicaAnk(p))return false;
-  return /럭셔리핏|실루엣|슬림라인|슬림핏|머메이드|H라인|라인감|바디라인/i.test(productText(p));
-}
-function isSlimFit(p){
-  return /슬림핏|슬림라인|H라인|머메이드|라인감|바디라인/i.test(productText(p));
-}
-function isTiara(p){
-  return /티아라|tiara/i.test([p.supplier,p.vendor,p.origin,p.zipFolder,p.code,p.productName,p.matchedKey].join(' '));
-}
-function isWideSize(p){
-  if(isTiara(p))return false;
-  return hasTag(p,'77가능')||(p.sizeTags||[]).includes('77')||(p.sizeTags||[]).includes('88')||/77|88/.test(String(p.size||p.sizeInfo||''));
-}
-function isSameDayCandidate(p){
-  return p.sameDayAvailable===true||isBuyNow(p)||/당일발송|바로구매|입고|재고|보유 여부/i.test(productText(p));
-}
-function vipCode(){return String.fromCharCode(...VIP_CODE_CHARS)}
-function vipUntil(){return Number(localStorage.getItem(VIP_STORAGE_KEY)||0)}
-function isVipActive(){return vipUntil()>Date.now()}
-function setVipActive(){localStorage.setItem(VIP_STORAGE_KEY,String(Date.now()+VIP_TTL_MS))}
-function clearVip(){localStorage.removeItem(VIP_STORAGE_KEY)}
-function visibleToAudience(p){return isVipActive()||p.vipOnly!==true}
-function filters(){return isVipActive()?[...FILTERS_BASE,'SAME_DAY']:FILTERS_BASE}
-function quickWords(){return isVipActive()?[...QUICK_BASE,...QUICK_VIP]:QUICK_BASE}
-function isSameDayVisible(p){return isVipActive()&&isSameDayCandidate(p)}
 
-function buildQuick(){
-  quick.innerHTML=quickWords().map(k=>`<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
+function sortProducts(list) {
+  return [...list].sort((a, b) => rankProduct(b) - rankProduct(a) || codeOf(a).localeCompare(codeOf(b), 'ko'));
 }
-function buildChips(){
-  if(FILTER==='HOME'&&!q.value.trim()){chips.innerHTML='';return}
-  chips.innerHTML=filters().map(f=>`<button class="chip ${f===FILTER?'on':''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
+
+function normalizeProduct(p) {
+  if (!p.collection && p.category === 'MINI') p.collection = 'A';
+  return p;
 }
-function applyView(nextFilter,{search=q.value,push=false,scroll=false}={}){
-  FILTER=nextFilter;
-  q.value=search||'';
+
+function filters() {
+  return isVipActive() ? [...FILTERS_BASE, 'SAME_DAY'] : FILTERS_BASE;
+}
+
+function quickWords() {
+  return isVipActive() ? [...QUICK_BASE, ...QUICK_VIP] : QUICK_BASE;
+}
+
+function buildQuick() {
+  quick.innerHTML = quickWords().map(k => `<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
+}
+
+function buildChips() {
+  chips.innerHTML = filters().map(f => `<button class="chip ${f === FILTER ? 'on' : ''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
+}
+
+function applyView(nextFilter, { search = '', push = false, scroll = false } = {}) {
+  FILTER = nextFilter;
+  q.value = search || '';
   buildChips();
   render();
-  if(scroll)scrollTo({top:0,behavior:'smooth'});
-  if(push)history.pushState({niceView:true,filter:FILTER,search:q.value},'',FILTER==='HOME'&&!q.value.trim()?location.pathname:`#view-${FILTER.toLowerCase()}`);
+  if (scroll) scrollTo({ top: 0, behavior: 'smooth' });
+  if (push) history.pushState({ niceView: true, filter: FILTER, search: q.value }, '', FILTER === 'HOME' && !q.value.trim() ? location.pathname : `#view-${FILTER.toLowerCase()}`);
 }
-function cCount(k){return PRODUCTS.filter(p=>p.collection===k).length}
-function sectionName(){
-  if(FILTER==='HOME')return'CURATED COLLECTION';
-  let c=COLLECTIONS.find(x=>x.filter===FILTER);
-  if(c)return`${c.title} · ${c.name}`;
-  if(FILTER==='NEW')return'NEW ARRIVAL';
-  if(FILTER==='BEST')return'BEST ITEM';
-  if(FILTER==='MINI')return'MINI COLLECTION';
-  if(FILTER==='MIDI')return'MIDI COLLECTION';
-  if(FILTER==='LONG')return'LONG COLLECTION';
-  if(FILTER==='TWO_PIECE')return'TWO PIECE & SET';
-  if(FILTER==='SKIRT')return'SKIRT COLLECTION';
-  if(FILTER==='SIZE_77')return'77 SIZE AVAILABLE';
-  if(FILTER==='SAME_DAY')return'TODAY AVAILABLE';
-  return'ALL COLLECTION';
+
+function cCount(k) {
+  return PRODUCTS.filter(p => p.collection === k && visibleToAudience(p)).length;
 }
-function sectionIntro(){
-  if(FILTER==='HOME')return'당신의 취향에 맞는 감각적인 룩을 제안합니다.';
-  let c=COLLECTIONS.find(x=>x.filter===FILTER);
-  return c?c.desc:'';
+
+function sectionName() {
+  if (FILTER === 'HOME') return 'ONLINE SHOWROOM';
+  const c = COLLECTIONS.find(x => x.filter === FILTER);
+  if (c) return c.title;
+  if (FILTER === 'NEW') return 'NEW ARRIVAL';
+  if (FILTER === 'BEST') return 'BEST PICK';
+  if (FILTER === 'COSTUME') return 'COSTUME';
+  if (FILTER === 'SAME_DAY') return 'TODAY AVAILABLE';
+  return 'ALL COLLECTION';
 }
-function match(p){
-  const rawSearch=q.value.trim();
-  const search=norm(rawSearch);
-  const isLongSearch=/^(롱|long)$/i.test(rawSearch);
-  const isMidiSearch=/^(미디|midi)$/i.test(rawSearch);
-  const searchableTags=tags(p).filter(t=>!(isJessicaAnk(p)&&/미디|MIDI/i.test(String(t))));
-  const derived=[isLuxuryFit(p)?'럭셔리핏':'',isSlimFit(p)?'슬림핏':'',isSameDayVisible(p)?'당일발송':'',isWideSize(p)?'77/88':''].filter(Boolean);
-  const hay=norm([p.code,p.name,p.storeName,p.color,p.category,p.length,p.fit,p.size,p.fabric,...searchableTags,...(p.styleTags||[]),...(p.sceneTags||[]),...derived].join(' '));
-  let ok=!search||hay.includes(search);
-  if(isLongSearch)ok=p.category==='LONG'||p.length==='롱'||hasTag(p,'LONG');
-  if(isMidiSearch)ok=!isJessicaAnk(p)&&(p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI'));
-  if(/77\s*\/\s*88|77\/88/.test(rawSearch))ok=isWideSize(p);
-  if(/당일발송|당일가능|바로문의/.test(rawSearch))ok=isSameDayVisible(p);
-  if(/A라인|에이라인|a라인/i.test(rawSearch))ok=hasTag(p,'A라인')||/A라인/i.test(focusedProductText(p));
-  if(/럭셔리핏/.test(rawSearch))ok=isLuxuryFit(p);
-  if(/슬림핏/.test(rawSearch))ok=isSlimFit(p)||hasTag(p,'슬림핏');
-  if(/블라우스/.test(rawSearch))ok=(p.category==='TOP'||hasTag(p,'TOP'))&&/블라우스/i.test(focusedProductText(p));
-  if(/스커트/.test(rawSearch))ok=p.category==='SKIRT'||hasTag(p,'SKIRT');
-  let f=true;
-  if(FILTER==='HOME')f=true;
-  else if(FILTER==='ALL')f=true;
-  else if(FILTER==='COL_A')f=p.collection==='A';
-  else if(FILTER==='COL_B')f=p.collection==='B';
-  else if(FILTER==='COL_C')f=p.collection==='C';
-  else if(FILTER==='NEW')f=isNew(p);
-  else if(FILTER==='BEST')f=isBest(p);
-  else if(FILTER==='MINI')f=p.category==='MINI'||p.length==='미니'||hasTag(p,'MINI');
-  else if(FILTER==='MIDI')f=!isJessicaAnk(p)&&(p.category==='MIDI'||p.length==='미디'||hasTag(p,'MIDI'));
-  else if(FILTER==='LONG')f=p.category==='LONG'||p.length==='롱'||hasTag(p,'LONG');
-  else if(FILTER==='TWO_PIECE')f=!isJessicaAnk(p)&&(p.category==='TWO PIECE'||hasTag(p,'TWO PIECE'));
-  else if(FILTER==='SKIRT')f=p.category==='SKIRT'||hasTag(p,'SKIRT')||/스커트/.test(name(p));
-  else if(FILTER==='SIZE_77')f=isWideSize(p);
-  else if(FILTER==='SAME_DAY')f=isSameDayVisible(p);
-  if(isJessicaAnk(p)&&/미디|midi/i.test(rawSearch))ok=false;
-  if(isJessicaAnk(p)&&/투피스|two[-_ ]?piece/i.test(rawSearch))ok=false;
-  if(isJessicaAnk(p)&&/미디|midi/i.test(search))ok=false;
-  return ok&&f&&visibleToAudience(p);
+
+function sectionIntro() {
+  if (FILTER === 'HOME') return '고객님께 어울리는 스타일을 편하게 둘러보고, 재고와 사이즈는 카카오톡으로 바로 확인해주세요.';
+  if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
+  if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
+  if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
+  const c = COLLECTIONS.find(x => x.filter === FILTER);
+  return c ? c.desc : '';
 }
-function badges(p){
-  let out=[];
-  if(isBest(p))out.push('<span class="badge">BEST</span>');
-  if(isNew(p))out.push('<span class="badge gold">NEW</span>');
-  return out.join('')||'<span class="badge">NICE</span>';
+
+function matchesSearch(p, rawSearch) {
+  const search = norm(rawSearch);
+  if (!search) return true;
+  if (/^costume$/i.test(rawSearch)) return isCostume(p);
+  if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
+  const hay = norm([focusedProductText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
+  return hay.includes(search);
 }
-function collectionBadge(p){return p.collectionName?`<div class="info-collection">${p.collectionName}</div>`:''}
-function meta(p){return [isLuxuryFit(p)?'럭셔리핏':'',p.length,p.color,p.size?'SIZE '+p.size:''].filter(Boolean).slice(0,3).map(x=>`<span>${x}</span>`).join('')}
-function productCard(p, compact=false){
-  return `<article class="card ${compact?'compact':''}" data-code="${p.code}">
-    <div class="photo">${mainImg(p)?`<img loading="lazy" src="${img(mainImg(p))}" alt="${name(p)}">`:`<div class="no-photo"><b>NICE</b><span>${p.stockStatus||'생산중'}</span></div>`}<div class="badges">${badges(p)}</div></div>
+
+function match(p) {
+  const rawSearch = q.value.trim();
+  let f = true;
+  if (FILTER === 'COL_A') f = p.collection === 'A';
+  else if (FILTER === 'COL_B') f = p.collection === 'B';
+  else if (FILTER === 'COL_C') f = p.collection === 'C';
+  else if (FILTER === 'NEW') f = isNew(p);
+  else if (FILTER === 'BEST') f = isBest(p);
+  else if (FILTER === 'COSTUME') f = isCostume(p);
+  else if (FILTER === 'SAME_DAY') f = isSameDayVisible(p);
+  return f && matchesSearch(p, rawSearch) && visibleToAudience(p);
+}
+
+function badges(p) {
+  const out = [];
+  if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
+  if (isBest(p)) out.push('<span class="badge">BEST</span>');
+  if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
+  if (out.length < 3 && isWideSize(p)) out.push('<span class="badge light">77/88가능</span>');
+  if (out.length < 3 && isSameDayCandidate(p)) out.push('<span class="badge light">당일문의</span>');
+  return out.slice(0, 3).join('') || '<span class="badge">NICE</span>';
+}
+
+function meta(p) {
+  return [p.length, p.color, p.size ? 'SIZE ' + p.size : '', isWideSize(p) ? '77/88' : '']
+    .filter(Boolean)
+    .slice(0, 3)
+    .map(x => `<span>${cleanText(x)}</span>`)
+    .join('');
+}
+
+function priceBlock(p) {
+  if (p.price) return `<div class="price">${money(p.price)}</div>`;
+  return `<div class="price price-inquiry"><strong>가격문의</strong><span>카카오톡으로 재고/가격 확인</span></div>`;
+}
+
+function productCard(p, compact = false) {
+  const image = mainImg(p);
+  return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
+    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}<div class="badges">${badges(p)}</div></div>
     <div class="info">
-      <div class="code">${p.code}</div>${collectionBadge(p)}
-      <div class="name">${name(p)}</div>
+      <div class="code">상품코드 ${displayCode(p)}</div>
+      <div class="name">${displayName(p)}</div>
       <div class="meta">${meta(p)}</div>
-      <div class="price">${money(p.price)}</div>
+      ${priceBlock(p)}
+      <button class="card-kakao" type="button" data-code="${codeOf(p)}">카카오톡 문의</button>
     </div>
   </article>`;
 }
-function choose(list, limit){return list.filter(p=>mainImg(p)).slice(0,limit)}
-function chooseCodes(codes, source){
-  const byCode=new Map(source.map(p=>[p.code,p]));
-  return codes.map(code=>byCode.get(code)).filter(p=>p&&mainImg(p)&&visibleToAudience(p));
+
+function choose(list, limit) {
+  return list.filter(p => mainImg(p)).slice(0, limit);
 }
-function sectionBlock(label, desc, items){
-  if(!items.length)return'';
-  return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p=>productCard(p,true)).join('')}</div></section>`;
+
+function sectionBlock(label, desc, items) {
+  if (!items.length) return '';
+  return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
 }
-function communityBlock(){
-  return `<section class="community-panel" aria-label="NICE community">
-    <div>
-      <h2 class="community-title">NICE COMMUNITY</h2>
-      <p class="community-copy">새로운 스타일과 매장 소식을<br>SNS에서 가장 먼저 만나보세요.</p>
-    </div>
-    <div class="community-links">
-      <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
-      <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
-      <span class="community-link pending community-brand" aria-disabled="true"><span class="store-logo">S</span><span>Smart Store 준비중</span></span>
-      <button class="community-link vip-open" type="button">${isVipActive()?'당일가능 보기':'VIP 인증'}</button>
-      ${isVipActive()?'<button class="community-link vip-clear" type="button">인증해제</button>':''}
-    </div>
+
+function collectionBlock() {
+  return `<section class="collection-grid">
+    ${COLLECTIONS.map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
   </section>`;
 }
-function renderHome(){
-  const visible=PRODUCTS.filter(visibleToAudience);
-  title.textContent='CURATED COLLECTION';count.textContent=`${visible.length} curated items`;intro.textContent=sectionIntro();grid.className='home';
-  const best=choose(sortProducts(visible.filter(isBest)),8);
-  const fresh=choose(sortProducts(visible.filter(isNew)),10);
-  const jessicaFresh=chooseCodes(JESSICA_NEW_ARRIVAL_CODES, visible);
-  const sameDay=choose(sortProducts(visible.filter(isSameDayVisible)),10);
-  grid.innerHTML=`
-    <section class="collection-grid">
-      ${COLLECTIONS.map(c=>`<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
-    </section>
-    ${communityBlock()}
-    ${isVipActive()?sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인 가능한 상품만 모았습니다.', sameDay):''}
-    ${sectionBlock("Editor's Select", '나이스가 먼저 추천하는 감각적인 셀렉션', best.length?best:fresh.slice(0,8))}
-    ${sectionBlock('New Arrival', '체크한 제시카 신상 중 예쁜 라인만 골랐습니다.', jessicaFresh.length?jessicaFresh:fresh)}`;
-  $$('.collection-card').forEach(el=>el.onclick=()=>applyView(el.dataset.f,{push:true,scroll:true}));
-  bindCards();
-  bindVipControls();
-}
-function render(){
-  title.textContent=sectionName();intro.textContent=sectionIntro();
-  if(FILTER==='HOME'&&!q.value.trim())return renderHome();
-  grid.className='grid';
-  let list=sortProducts(PRODUCTS.filter(match));count.textContent=`${list.length} items`;
-  if(!list.length){grid.innerHTML='<div class="empty">조건에 맞는 상품이 없습니다.</div>';return}
-  grid.innerHTML=list.map(p=>productCard(p)).join('');
-  bindCards();
-}
-function points(p){
-  if(Array.isArray(p.points)&&p.points.length)return p.points.slice(0,5);
-  const text=String(p.desc||p.description||p.mainCopy||'');
-  const parts=text.replaceAll(' / ', '. ').split(/(?<=\.)\s+/).map(x=>x.trim()).filter(Boolean);
-  const picked=parts.filter(x=>!/재고|촬영 환경|방문 전|DM 문의|온라인 쇼룸용/.test(x)).slice(0,3);
-  return (picked.length?picked:[p.mainCopy,p.fit&&p.fit+' 실루엣',p.color&&p.color+' 컬러'].filter(Boolean)).slice(0,3);
-}
-function editorNote(p){
-  const text=String(p.desc||p.description||p.mainCopy||'NICE 컬렉션 상품입니다.');
-  const sentences=text
-    .replaceAll(' / ', ' ')
-    .split(/(?<=\.)\s+/)
-    .map(x=>x.trim())
-    .filter(x=>x&&!/재고|촬영 환경|방문 전|DM 문의|피팅 가능|보유 여부/.test(x));
-  const note=sentences.find(x=>!/온라인 쇼룸용/.test(x))||sentences[0]||p.mainCopy||'NICE 컬렉션 상품입니다.';
-  return note.replace(`${name(p)}은 `,'').trim();
-}
-function instaIcon(){
+
+function instaIcon() {
   return `<span class="insta-logo" aria-hidden="true">
     <svg viewBox="0 0 24 24" fill="none">
       <rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="2"></rect>
@@ -262,113 +291,282 @@ function instaIcon(){
     </svg>
   </span>`;
 }
-function closeDetail(fromHistory=false){
-  if(!modal.classList.contains('open'))return;
+
+function communityBlock() {
+  return `<section class="community-panel" aria-label="NICE community">
+    <div>
+      <h2 class="community-title">NICE COMMUNITY</h2>
+      <p class="community-copy">동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문</p>
+      <p class="community-guide">매장 피팅 가능 / 당일 구매 가능 / 택배 발송 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.</p>
+    </div>
+    <div class="community-links">
+      <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>카카오톡 문의</span></a>
+      <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
+      <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
+      <button class="community-link vip-open subtle" type="button">${isVipActive() ? '당일문의 상품 보기' : 'VIP 인증'}</button>
+      ${isVipActive() ? '<button class="community-link vip-clear subtle" type="button">인증해제</button>' : ''}
+    </div>
+  </section>`;
+}
+
+function renderHome() {
+  const visible = PRODUCTS.filter(visibleToAudience);
+  const best = choose(sortProducts(visible.filter(isBest)), 8);
+  const fresh = choose(sortProducts(visible.filter(isNew)), 10);
+  const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
+  title.textContent = 'ONLINE SHOWROOM';
+  count.textContent = `${visible.length} items`;
+  intro.textContent = sectionIntro();
+  grid.className = 'home';
+  grid.innerHTML = `
+    ${sectionBlock("Editor's Select", '쇼룸에서 먼저 추천드리는 인기 스타일입니다. 마음에 드는 상품은 카카오톡으로 재고와 사이즈를 확인해주세요.', best.length ? best : fresh.slice(0, 8))}
+    ${sectionBlock('New Arrival', '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.', fresh)}
+    ${collectionBlock()}
+    ${communityBlock()}
+    ${isVipActive() ? sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인하기 좋은 상품입니다.', sameDay) : ''}`;
+  $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
+  bindCards();
+  bindVipControls();
+}
+
+function render() {
+  title.textContent = sectionName();
+  intro.textContent = sectionIntro();
+  if (FILTER === 'HOME' && !q.value.trim()) return renderHome();
+  grid.className = 'grid';
+  const list = sortProducts(PRODUCTS.filter(match));
+  count.textContent = `${list.length} items`;
+  if (!list.length) {
+    grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.</div>';
+    return;
+  }
+  grid.innerHTML = list.map(p => productCard(p)).join('');
+  bindCards();
+}
+
+function points(p) {
+  if (Array.isArray(p.points) && p.points.length) return p.points.map(x => cleanText(x)).slice(0, 4);
+  const text = cleanText(p.desc || p.description || p.mainCopy || '');
+  const parts = text.replaceAll(' / ', '. ').split(/(?<=\.)\s+/).map(x => x.trim()).filter(Boolean);
+  const picked = parts.filter(x => !/재고|촬영 환경|방문 전|DM 문의|온라인 쇼룸용/.test(x)).slice(0, 3);
+  return picked.length ? picked : ['매장 피팅과 사이즈 확인 후 구매 가능합니다.', '카카오톡으로 재고와 가격을 빠르게 안내드립니다.'];
+}
+
+function editorNote(p) {
+  return cleanText(p.editorsNote || p.desc || p.description || p.mainCopy || 'NICE 쇼룸 추천 상품입니다.');
+}
+
+function contactText(p, mode = 'product') {
+  const prefix = mode === 'similar' ? '비슷한 스타일 추천 받고 싶어요.' : '상품 문의드립니다.';
+  return `${prefix}\n상품명: ${displayName(p)}\n상품코드: ${displayCode(p)}\n재고/사이즈/가격 안내 부탁드립니다.`;
+}
+
+function copyContact(p, mode) {
+  const text = contactText(p, mode);
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
+  } else {
+    fallbackCopy(text);
+  }
+}
+
+function fallbackCopy(text) {
+  const area = document.createElement('textarea');
+  area.value = text;
+  area.setAttribute('readonly', '');
+  area.style.position = 'fixed';
+  area.style.left = '-9999px';
+  document.body.appendChild(area);
+  area.select();
+  try {
+    document.execCommand('copy');
+  } catch (err) {
+    // Link navigation still works if browser copy is unavailable.
+  }
+  area.remove();
+}
+
+function contactProduct(p, mode = 'product') {
+  copyContact(p, mode);
+  window.open(KAKAO_URL, '_blank', 'noopener');
+}
+
+function closeDetail(fromHistory = false) {
+  if (!modal.classList.contains('open')) return;
   modal.classList.remove('open');
-  if(modalHistoryOpen&&!fromHistory){
-    modalHistoryOpen=false;
+  if (modalHistoryOpen && !fromHistory) {
+    modalHistoryOpen = false;
     history.back();
-  }else if(fromHistory){
-    modalHistoryOpen=false;
+  } else if (fromHistory) {
+    modalHistoryOpen = false;
   }
 }
-function openModalHistory(code){
-  if(!modalHistoryOpen){
-    history.pushState({niceModal:true,code},'',`#${code}`);
-    modalHistoryOpen=true;
-  }else{
-    history.replaceState({niceModal:true,code},'',`#${code}`);
+
+function openModalHistory(code) {
+  if (!modalHistoryOpen) {
+    history.pushState({ niceModal: true, code }, '', `#${code}`);
+    modalHistoryOpen = true;
+  } else {
+    history.replaceState({ niceModal: true, code }, '', `#${code}`);
   }
 }
-function openDetail(code){
-  let p=PRODUCTS.find(x=>x.code===code);if(!p)return;
-  if(!visibleToAudience(p))return;
-  currentImages=p.cuts&&p.cuts.length?p.cuts:(p.images||[]).map((u,i)=>({url:u,cut:'컷'+(i+1)}));
-  let labelTags=[isNew(p)?'NEW':'',isBest(p)?'BEST':'',p.collectionName,p.color,p.length].filter(Boolean);
-  detail.innerHTML=`<div class="body">
+
+function openDetail(code) {
+  const p = PRODUCTS.find(x => codeOf(x) === code);
+  if (!p || !visibleToAudience(p)) return;
+  currentImages = p.cuts && p.cuts.length ? p.cuts : (p.images || []).map((u, i) => ({ url: u, cut: '상세 ' + (i + 1) }));
+  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
+  detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main">${currentImages[0]?`<img id="mainImage" src="${img(currentImages[0].url)}" alt="${name(p)}">`:'NO IMAGE'}</div>
-      <div class="thumbs">${currentImages.map((im,i)=>`<button class="thumb ${i===0?'on':''}" data-i="${i}"><img src="${img(im.url)}" alt="${name(p)} ${i+1}"></button>`).join('')}</div>
+      <div class="main">${currentImages[0] ? `<img id="mainImage" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
+      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
-      <div class="tags">${labelTags.map(t=>`<span>${t}</span>`).join('')}</div>
-      <h2>${name(p)}</h2>
+      <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
+      <h2>${displayName(p)}</h2>
       <h3>${money(p.price)}</h3>
-      <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x=>`<li>${x}</li>`).join('')}</ul></div>
+      ${!p.price ? '<p class="detail-price-note">카카오톡으로 현재 재고와 가격을 바로 확인해주세요.</p>' : ''}
+      <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x => `<li>${cleanText(x)}</li>`).join('')}</ul></div>
       <div class="box"><b>EDITOR'S NOTE</b><p>${editorNote(p)}</p></div>
-      <div class="box"><b>RECOMMENDED FOR</b><p>${String(p.recommend||'파티 · 모임 · 데이트 · 촬영 · 하객룩').replaceAll('/',' · ')}</p></div>
+      <div class="box"><b>RECOMMENDED FOR</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
       <div class="spec">
-        <div class="cell"><b>COLOR</b><span>${p.color||'-'}</span></div>
-        <div class="cell"><b>SIZE</b><span>${p.size||p.sizeInfo||'-'}</span></div>
-        ${p.modelSize?`<div class="cell"><b>MODEL</b><span>${p.modelSize}</span></div>`:''}
-        ${p.wearSize?`<div class="cell"><b>WEAR</b><span>${p.wearSize}</span></div>`:''}
-        <div class="cell"><b>FABRIC</b><span>${p.fabric||'확인필요'}</span></div>
-        <div class="cell"><b>DETAIL</b><span>${p.wearInfo||p.lining||'-'}</span></div>
+        <div class="cell"><b>COLOR</b><span>${cleanText(p.color || '-')}</span></div>
+        <div class="cell"><b>SIZE</b><span>${cleanText(p.size || p.sizeInfo || '-')}</span></div>
+        ${p.modelSize ? `<div class="cell"><b>MODEL</b><span>${cleanText(p.modelSize)}</span></div>` : ''}
+        ${p.wearSize ? `<div class="cell"><b>WEAR</b><span>${cleanText(p.wearSize)}</span></div>` : ''}
+        <div class="cell"><b>FABRIC</b><span>${cleanText(p.fabric || '확인필요')}</span></div>
+        <div class="cell"><b>DETAIL</b><span>${cleanText(p.wearInfo || p.lining || '-')}</span></div>
       </div>
-      <div class="cta">
-        <a class="kakao" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>카카오톡 문의</span></a>
-        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>인스타 DM</span></a>
+      <div class="purchase-guide">
+        <b>구매 안내</b>
+        <p>이 상품은 매장 재고와 사이즈 확인 후 구매 가능합니다. 카카오톡으로 상품 코드 또는 캡처 이미지를 보내주시면 빠르게 안내드립니다.</p>
+      </div>
+      <div class="cta detail-cta">
+        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>카카오톡으로 이 상품 문의</span></button>
+        <button class="insta similar-contact" type="button" data-mode="similar"><span>비슷한 스타일 추천받기</span></button>
+        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>인스타 DM 문의</span></a>
       </div>
     </section>
   </div>`;
   modal.classList.add('open');
   openModalHistory(code);
-  $$('.thumb',detail).forEach(b=>b.onclick=()=>{let i=Number(b.dataset.i);$('#mainImage').src=img(currentImages[i].url);$$('.thumb',detail).forEach((x,j)=>x.classList.toggle('on',i===j))});
-}
-function bindCards(){
-  $$('.card').forEach(el=>el.onclick=()=>openDetail(el.dataset.code));
-}
-function openVipModal(){
-  if(!vipModal)return;
-  vipInput.value='';
-  vipMessage.textContent='';
-  vipMessage.className='vip-message';
-  vipModal.classList.add('open');
-  setTimeout(()=>vipInput.focus(),60);
-}
-function closeVipModal(){vipModal&&vipModal.classList.remove('open')}
-function bindVipControls(){
-  $$('.vip-open').forEach(el=>el.onclick=()=>{
-    if(isVipActive()){
-      FILTER='SAME_DAY';
-      q.value='';
-      buildQuick();
-      buildChips();
-      render();
-      scrollTo({top:0,behavior:'smooth'});
-    }else openVipModal();
+  $$('.thumb', detail).forEach(b => b.onclick = () => {
+    const i = Number(b.dataset.i);
+    $('#mainImage').src = img(currentImages[i].url);
+    $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', i === j));
   });
-  $$('.vip-clear').forEach(el=>el.onclick=()=>{clearVip();FILTER='HOME';q.value='';buildQuick();buildChips();render()});
+  $$('.detail-contact,.similar-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
 }
-$('#close').onclick=()=>closeDetail();
-modal.onclick=e=>{if(e.target===modal)closeDetail()};
-chips.onclick=e=>{let b=e.target.closest('.chip');if(!b)return;applyView(b.dataset.f,{push:true,scroll:true})};
-quick.onclick=e=>{let b=e.target.closest('.quick-chip');if(!b)return;applyView('ALL',{search:b.dataset.q,push:true})};
-q.oninput=()=>{if(q.value.trim()&&FILTER==='HOME')FILTER='ALL';buildChips();render();history.replaceState({niceView:true,filter:FILTER,search:q.value},'',q.value.trim()?`#view-${FILTER.toLowerCase()}`:location.pathname)};
-if(vipModal){
-  $('#vipClose').onclick=closeVipModal;
-  $('#vipCancel').onclick=closeVipModal;
-  $('#vipSubmit').onclick=()=>{
-    if(vipInput.value.trim().toUpperCase()===vipCode()){
+
+function bindCards() {
+  $$('.card').forEach(el => el.onclick = () => openDetail(el.dataset.code));
+  $$('.card-kakao').forEach(btn => btn.onclick = e => {
+    e.stopPropagation();
+    const p = PRODUCTS.find(x => codeOf(x) === btn.dataset.code);
+    if (p) contactProduct(p);
+  });
+}
+
+function openVipModal() {
+  if (!vipModal) return;
+  vipInput.value = '';
+  vipMessage.textContent = '';
+  vipMessage.className = 'vip-message';
+  vipModal.classList.add('open');
+  setTimeout(() => vipInput.focus(), 60);
+}
+
+function closeVipModal() {
+  if (vipModal) vipModal.classList.remove('open');
+}
+
+function bindVipControls() {
+  $$('.vip-open').forEach(el => el.onclick = () => {
+    if (isVipActive()) applyView('SAME_DAY', { push: true, scroll: true });
+    else openVipModal();
+  });
+  $$('.vip-clear').forEach(el => el.onclick = () => {
+    clearVip();
+    FILTER = 'HOME';
+    q.value = '';
+    buildQuick();
+    buildChips();
+    render();
+  });
+}
+
+$('#close').onclick = () => closeDetail();
+modal.onclick = e => { if (e.target === modal) closeDetail(); };
+chips.onclick = e => {
+  const b = e.target.closest('.chip');
+  if (!b) return;
+  applyView(b.dataset.f, { push: true, scroll: true });
+};
+quick.onclick = e => {
+  const b = e.target.closest('.quick-chip');
+  if (!b) return;
+  applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
+};
+q.oninput = () => {
+  if (q.value.trim() && FILTER === 'HOME') FILTER = 'ALL';
+  buildChips();
+  render();
+  history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', q.value.trim() ? `#view-${FILTER.toLowerCase()}` : location.pathname);
+};
+
+if (vipModal) {
+  $('#vipClose').onclick = closeVipModal;
+  $('#vipCancel').onclick = closeVipModal;
+  $('#vipSubmit').onclick = () => {
+    if (vipInput.value.trim().toUpperCase() === vipCode()) {
       setVipActive();
-      vipMessage.textContent='VIP 인증이 완료되었습니다.';
-      vipMessage.className='vip-message ok';
-      setTimeout(()=>{closeVipModal();FILTER='HOME';q.value='';buildQuick();buildChips();render()},500);
-    }else{
-      vipMessage.textContent='인증코드가 올바르지 않습니다.';
-      vipMessage.className='vip-message error';
+      vipMessage.textContent = 'VIP 인증이 완료되었습니다.';
+      vipMessage.className = 'vip-message ok';
+      setTimeout(() => {
+        closeVipModal();
+        FILTER = 'HOME';
+        q.value = '';
+        buildQuick();
+        buildChips();
+        render();
+      }, 500);
+    } else {
+      vipMessage.textContent = '인증코드가 올바르지 않습니다.';
+      vipMessage.className = 'vip-message error';
     }
   };
-  vipModal.onclick=e=>{if(e.target===vipModal)closeVipModal()};
-  vipInput.onkeydown=e=>{if(e.key==='Enter')$('#vipSubmit').click()};
+  vipModal.onclick = e => { if (e.target === vipModal) closeVipModal(); };
+  vipInput.onkeydown = e => { if (e.key === 'Enter') $('#vipSubmit').click(); };
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDetail();closeVipModal()}});
-window.addEventListener('popstate',e=>{
-  if(modal.classList.contains('open')){closeDetail(true);return}
-  const state=e.state&&e.state.niceView?e.state:{filter:'HOME',search:''};
-  FILTER=state.filter||'HOME';
-  q.value=state.search||'';
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeDetail();
+    closeVipModal();
+  }
+});
+
+window.addEventListener('popstate', e => {
+  if (modal.classList.contains('open')) {
+    closeDetail(true);
+    return;
+  }
+  const state = e.state && e.state.niceView ? e.state : { filter: 'HOME', search: '' };
+  FILTER = state.filter || 'HOME';
+  q.value = state.search || '';
   buildChips();
   render();
 });
-fetch('./products.json?v='+VERSION).then(r=>r.json()).then(d=>{PRODUCTS=d.map(normalizeProduct);history.replaceState({niceView:true,filter:FILTER,search:q.value},'',location.href);buildQuick();buildChips();render()}).catch(()=>{grid.innerHTML='<div class="empty">상품 데이터를 불러오지 못했습니다.</div>'});
+
+fetch('./products.json?v=' + VERSION)
+  .then(r => r.json())
+  .then(d => {
+    PRODUCTS = d.map(normalizeProduct);
+    history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.href);
+    buildQuick();
+    buildChips();
+    render();
+  })
+  .catch(() => {
+    grid.innerHTML = '<div class="empty">상품 데이터를 불러오지 못했습니다.</div>';
+  });
