@@ -2616,7 +2616,7 @@
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-fabric.jpg",
       "assets/ANC-4002_01.jpg",
-      "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
+      "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png"
     ],
     "cuts": [
       {
@@ -2650,9 +2650,9 @@
         "source": "assets/ANC-4002_01.jpg"
       },
       {
-        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg",
+        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png",
         "cut": "제품 단독컷",
-        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
+        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
