@@ -2487,7 +2487,6 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
-      "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-full.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-upper.jpg",
@@ -2496,18 +2495,14 @@
       "assets/products/ank/generated/ANC-4001/ANC-4001-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-detail-fabric.jpg",
-      "assets/ANC-4001_01.jpg"
+      "assets/ANC-4001_01.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
@@ -2553,6 +2548,11 @@
         "url": "assets/ANC-4001_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4001_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
       }
     ],
     "mainCopy": "버튼 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -2635,23 +2635,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
-      "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-fabric.jpg",
-      "assets/ANC-4002_01.jpg"
+      "assets/ANC-4002_01.jpg",
+      "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-neckline.jpg",
@@ -2677,6 +2672,11 @@
         "url": "assets/ANC-4002_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4002_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2754,23 +2754,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
-      "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-hem.jpg",
-      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg"
+      "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
+      "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4003/ANC-4003-full.jpg",
@@ -2796,6 +2791,11 @@
         "url": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg",
         "cut": "원단 확대",
         "source": "assets/products/ank/generated/ANC-4003/ANC-4003-detail-fabric.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
       }
     ],
     "mainCopy": "프릴 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2878,23 +2878,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
-      "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-detail-fabric.jpg",
-      "assets/ANC-4004_01.jpg"
+      "assets/ANC-4004_01.jpg",
+      "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4004/ANC-4004-detail-neckline.jpg",
@@ -2920,6 +2915,11 @@
         "url": "assets/ANC-4004_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4004_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg"
       }
     ],
     "mainCopy": "카라 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2997,23 +2997,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
-      "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-detail-fabric.jpg",
-      "assets/ANC-4005_01.jpg"
+      "assets/ANC-4005_01.jpg",
+      "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4005/ANC-4005-detail-neckline.jpg",
@@ -3039,6 +3034,11 @@
         "url": "assets/ANC-4005_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4005_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -3114,23 +3114,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
-      "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-detail-fabric.jpg",
-      "assets/ANC-4006_01.jpg"
+      "assets/ANC-4006_01.jpg",
+      "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4006/ANC-4006-detail-neckline.jpg",
@@ -3156,6 +3151,11 @@
         "url": "assets/ANC-4006_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4006_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -3242,23 +3242,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
-      "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-detail-fabric.jpg",
-      "assets/ANC-4007_01.jpg"
+      "assets/ANC-4007_01.jpg",
+      "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4007/ANC-4007-detail-neckline.jpg",
@@ -3284,6 +3279,11 @@
         "url": "assets/ANC-4007_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4007_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -3359,23 +3359,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
-      "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-detail-fabric.jpg",
-      "assets/ANC-4008_01.jpg"
+      "assets/ANC-4008_01.jpg",
+      "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4008/ANC-4008-detail-neckline.jpg",
@@ -3401,6 +3396,11 @@
         "url": "assets/ANC-4008_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4008_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -3478,23 +3478,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
-      "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-detail-fabric.jpg",
-      "assets/ANC-4009_01.jpg"
+      "assets/ANC-4009_01.jpg",
+      "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4009/ANC-4009-detail-neckline.jpg",
@@ -3520,6 +3515,11 @@
         "url": "assets/ANC-4009_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4009_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -3595,23 +3595,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
-      "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-detail-fabric.jpg",
-      "assets/ANC-4010_01.jpg"
+      "assets/ANC-4010_01.jpg",
+      "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4010/ANC-4010-detail-neckline.jpg",
@@ -3637,6 +3632,11 @@
         "url": "assets/ANC-4010_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4010_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -3714,23 +3714,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
-      "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-detail-fabric.jpg",
-      "assets/ANC-4011_01.jpg"
+      "assets/ANC-4011_01.jpg",
+      "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4011/ANC-4011-detail-neckline.jpg",
@@ -3756,6 +3751,11 @@
         "url": "assets/ANC-4011_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4011_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -3831,23 +3831,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
-      "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-detail-fabric.jpg",
-      "assets/ANC-4012_01.jpg"
+      "assets/ANC-4012_01.jpg",
+      "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4012/ANC-4012-detail-neckline.jpg",
@@ -3873,6 +3868,11 @@
         "url": "assets/ANC-4012_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4012_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -3959,23 +3959,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
-      "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-detail-fabric.jpg",
-      "assets/ANC-4013_01.jpg"
+      "assets/ANC-4013_01.jpg",
+      "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4013/ANC-4013-detail-neckline.jpg",
@@ -4001,6 +3996,11 @@
         "url": "assets/ANC-4013_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4013_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4076,23 +4076,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
-      "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-detail-fabric.jpg",
-      "assets/ANC-4014_01.jpg"
+      "assets/ANC-4014_01.jpg",
+      "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4014/ANC-4014-detail-neckline.jpg",
@@ -4118,6 +4113,11 @@
         "url": "assets/ANC-4014_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4014_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4195,23 +4195,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
-      "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-detail-fabric.jpg",
-      "assets/ANC-4015_01.jpg"
+      "assets/ANC-4015_01.jpg",
+      "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4015/ANC-4015-detail-neckline.jpg",
@@ -4237,6 +4232,11 @@
         "url": "assets/ANC-4015_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4015_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg"
       }
     ],
     "mainCopy": "카라 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -4312,23 +4312,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
-      "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-detail-fabric.jpg",
-      "assets/ANC-4016_01.jpg"
+      "assets/ANC-4016_01.jpg",
+      "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4016/ANC-4016-detail-neckline.jpg",
@@ -4354,6 +4349,11 @@
         "url": "assets/ANC-4016_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4016_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4440,23 +4440,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
-      "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-detail-fabric.jpg",
-      "assets/ANC-4017_01.jpg"
+      "assets/ANC-4017_01.jpg",
+      "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4017/ANC-4017-detail-neckline.jpg",
@@ -4482,6 +4477,11 @@
         "url": "assets/ANC-4017_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4017_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4557,23 +4557,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
-      "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-detail-fabric.jpg",
-      "assets/ANC-4018_01.jpg"
+      "assets/ANC-4018_01.jpg",
+      "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4018/ANC-4018-detail-neckline.jpg",
@@ -4599,6 +4594,11 @@
         "url": "assets/ANC-4018_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4018_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4676,23 +4676,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
-      "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-detail-fabric.jpg",
-      "assets/ANC-4019_01.jpg"
+      "assets/ANC-4019_01.jpg",
+      "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4019/ANC-4019-detail-neckline.jpg",
@@ -4718,6 +4713,11 @@
         "url": "assets/ANC-4019_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4019_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -4793,7 +4793,6 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
-      "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-full.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-upper.jpg",
@@ -4802,18 +4801,14 @@
       "assets/products/ank/generated/ANC-4020/ANC-4020-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-detail-fabric.jpg",
-      "assets/ANC-4020_01.jpg"
+      "assets/ANC-4020_01.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
@@ -4859,6 +4854,11 @@
         "url": "assets/ANC-4020_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4020_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -4943,23 +4943,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
-      "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-detail-fabric.jpg",
-      "assets/ANC-4021_01.jpg"
+      "assets/ANC-4021_01.jpg",
+      "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4021/ANC-4021-detail-neckline.jpg",
@@ -4985,6 +4980,11 @@
         "url": "assets/ANC-4021_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4021_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -5060,23 +5060,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
-      "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-detail-fabric.jpg",
-      "assets/ANC-4022_01.jpg"
+      "assets/ANC-4022_01.jpg",
+      "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4022/ANC-4022-detail-neckline.jpg",
@@ -5102,6 +5097,11 @@
         "url": "assets/ANC-4022_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4022_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg"
       }
     ],
     "mainCopy": "스퀘어넥 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5188,23 +5188,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
-      "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-detail-fabric.jpg",
-      "assets/ANC-4023_01.jpg"
+      "assets/ANC-4023_01.jpg",
+      "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4023/ANC-4023-detail-neckline.jpg",
@@ -5230,6 +5225,11 @@
         "url": "assets/ANC-4023_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4023_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg"
       }
     ],
     "mainCopy": "러플 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5305,23 +5305,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
-      "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-detail-fabric.jpg",
-      "assets/ANC-4024_01.jpg"
+      "assets/ANC-4024_01.jpg",
+      "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4024/ANC-4024-detail-neckline.jpg",
@@ -5347,6 +5342,11 @@
         "url": "assets/ANC-4024_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4024_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5424,23 +5424,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
-      "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-detail-fabric.jpg",
-      "assets/ANC-4025_01.jpg"
+      "assets/ANC-4025_01.jpg",
+      "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4025/ANC-4025-detail-neckline.jpg",
@@ -5466,6 +5461,11 @@
         "url": "assets/ANC-4025_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4025_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg"
       }
     ],
     "mainCopy": "카라 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -5541,23 +5541,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
-      "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-detail-fabric.jpg",
-      "assets/ANC-4026_01.jpg"
+      "assets/ANC-4026_01.jpg",
+      "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4026/ANC-4026-detail-neckline.jpg",
@@ -5583,6 +5578,11 @@
         "url": "assets/ANC-4026_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4026_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5671,23 +5671,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
-      "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-detail-fabric.jpg",
-      "assets/ANC-4027_01.jpg"
+      "assets/ANC-4027_01.jpg",
+      "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4027/ANC-4027-detail-neckline.jpg",
@@ -5713,6 +5708,11 @@
         "url": "assets/ANC-4027_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4027_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg"
       }
     ],
     "mainCopy": "프릴 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5788,23 +5788,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
-      "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-detail-fabric.jpg",
-      "assets/ANC-4028_01.jpg"
+      "assets/ANC-4028_01.jpg",
+      "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4028/ANC-4028-detail-neckline.jpg",
@@ -5830,6 +5825,11 @@
         "url": "assets/ANC-4028_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4028_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -5907,23 +5907,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
-      "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-detail-fabric.jpg",
-      "assets/ANC-4029_01.jpg"
+      "assets/ANC-4029_01.jpg",
+      "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4029/ANC-4029-detail-neckline.jpg",
@@ -5949,6 +5944,11 @@
         "url": "assets/ANC-4029_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4029_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6024,23 +6024,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
-      "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-detail-fabric.jpg",
-      "assets/ANC-4030_01.jpg"
+      "assets/ANC-4030_01.jpg",
+      "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4030/ANC-4030-detail-neckline.jpg",
@@ -6066,6 +6061,11 @@
         "url": "assets/ANC-4030_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4030_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6143,23 +6143,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
-      "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-detail-fabric.jpg",
-      "assets/ANC-4031_01.jpg"
+      "assets/ANC-4031_01.jpg",
+      "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4031/ANC-4031-detail-neckline.jpg",
@@ -6185,6 +6180,11 @@
         "url": "assets/ANC-4031_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4031_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg"
       }
     ],
     "mainCopy": "드레이프 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -6260,23 +6260,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
-      "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-detail-fabric.jpg",
-      "assets/ANC-4032_01.jpg"
+      "assets/ANC-4032_01.jpg",
+      "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4032/ANC-4032-detail-neckline.jpg",
@@ -6302,6 +6297,11 @@
         "url": "assets/ANC-4032_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4032_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6377,23 +6377,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
-      "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-detail-fabric.jpg",
-      "assets/ANC-4033_01.jpg"
+      "assets/ANC-4033_01.jpg",
+      "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4033/ANC-4033-detail-neckline.jpg",
@@ -6419,6 +6414,11 @@
         "url": "assets/ANC-4033_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4033_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg"
       }
     ],
     "mainCopy": "스퀘어넥 포인트로 깔끔하면서도 여성스러운 분위기를 살린 원피스",
@@ -6494,23 +6494,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
-      "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-detail-fabric.jpg",
-      "assets/ANC-4034_01.jpg"
+      "assets/ANC-4034_01.jpg",
+      "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4034/ANC-4034-detail-neckline.jpg",
@@ -6536,6 +6531,11 @@
         "url": "assets/ANC-4034_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4034_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg"
       }
     ],
     "mainCopy": "프릴 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6613,23 +6613,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
-      "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-detail-fabric.jpg",
-      "assets/ANC-4035_01.jpg"
+      "assets/ANC-4035_01.jpg",
+      "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4035/ANC-4035-detail-neckline.jpg",
@@ -6655,6 +6650,11 @@
         "url": "assets/ANC-4035_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4035_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6730,23 +6730,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
-      "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-detail-fabric.jpg",
-      "assets/ANC-4036_01.jpg"
+      "assets/ANC-4036_01.jpg",
+      "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4036/ANC-4036-detail-neckline.jpg",
@@ -6772,6 +6767,11 @@
         "url": "assets/ANC-4036_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4036_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg"
       }
     ],
     "mainCopy": "카라 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6849,23 +6849,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
-      "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-detail-fabric.jpg",
-      "assets/ANC-4037_01.jpg"
+      "assets/ANC-4037_01.jpg",
+      "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4037/ANC-4037-detail-neckline.jpg",
@@ -6891,6 +6886,11 @@
         "url": "assets/ANC-4037_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4037_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -6966,23 +6966,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
-      "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-detail-fabric.jpg",
-      "assets/ANC-4038_01.jpg"
+      "assets/ANC-4038_01.jpg",
+      "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4038/ANC-4038-detail-neckline.jpg",
@@ -7008,6 +7003,11 @@
         "url": "assets/ANC-4038_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4038_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg"
       }
     ],
     "mainCopy": "버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7083,23 +7083,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
-      "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-detail-fabric.jpg",
-      "assets/ANC-4039_01.jpg"
+      "assets/ANC-4039_01.jpg",
+      "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4039/ANC-4039-detail-neckline.jpg",
@@ -7125,6 +7120,11 @@
         "url": "assets/ANC-4039_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4039_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7202,23 +7202,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
-      "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-detail-fabric.jpg",
-      "assets/ANC-4040_01.jpg"
+      "assets/ANC-4040_01.jpg",
+      "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4040/ANC-4040-detail-neckline.jpg",
@@ -7244,6 +7239,11 @@
         "url": "assets/ANC-4040_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4040_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -7330,23 +7330,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
-      "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-detail-fabric.jpg",
-      "assets/ANC-4041_01.jpg"
+      "assets/ANC-4041_01.jpg",
+      "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4041/ANC-4041-detail-neckline.jpg",
@@ -7372,6 +7367,11 @@
         "url": "assets/ANC-4041_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4041_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7447,23 +7447,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
-      "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-detail-fabric.jpg",
-      "assets/ANC-4042_01.jpg"
+      "assets/ANC-4042_01.jpg",
+      "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4042/ANC-4042-detail-neckline.jpg",
@@ -7489,6 +7484,11 @@
         "url": "assets/ANC-4042_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4042_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg"
       }
     ],
     "mainCopy": "카라 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7575,23 +7575,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4043/ANC-4043-main.jpg",
-      "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg",
       "assets/products/ank/generated/ANC-4043/ANC-4043-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4043/ANC-4043-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4043/ANC-4043-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4043/ANC-4043-detail-fabric.jpg",
-      "assets/ANC-4043_01.jpg"
+      "assets/ANC-4043_01.jpg",
+      "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4043/ANC-4043-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4043/ANC-4043-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4043/ANC-4043-detail-neckline.jpg",
@@ -7617,6 +7612,11 @@
         "url": "assets/ANC-4043_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4043_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4043/ANC-4043-product.jpg"
       }
     ],
     "mainCopy": "브이넥 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7692,23 +7692,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
-      "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-detail-fabric.jpg",
-      "assets/ANC-4044_01.jpg"
+      "assets/ANC-4044_01.jpg",
+      "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4044/ANC-4044-detail-neckline.jpg",
@@ -7734,6 +7729,11 @@
         "url": "assets/ANC-4044_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4044_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -7811,23 +7811,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
-      "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-detail-fabric.jpg",
-      "assets/ANC-4045_01.jpg"
+      "assets/ANC-4045_01.jpg",
+      "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4045/ANC-4045-detail-neckline.jpg",
@@ -7853,6 +7848,11 @@
         "url": "assets/ANC-4045_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4045_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg"
       }
     ],
     "mainCopy": "드레이프 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -7941,23 +7941,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4046/ANC-4046-main.jpg",
-      "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-detail-fabric.jpg",
-      "assets/ANC-4046_01.jpg"
+      "assets/ANC-4046_01.jpg",
+      "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4046/ANC-4046-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4046/ANC-4046-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4046/ANC-4046-detail-neckline.jpg",
@@ -7983,6 +7978,11 @@
         "url": "assets/ANC-4046_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4046_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4046/ANC-4046-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -8069,23 +8069,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
-      "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-detail-fabric.jpg",
-      "assets/ANC-4047_01.jpg"
+      "assets/ANC-4047_01.jpg",
+      "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4047/ANC-4047-detail-neckline.jpg",
@@ -8111,6 +8106,11 @@
         "url": "assets/ANC-4047_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4047_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -8188,23 +8188,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
-      "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-detail-fabric.jpg",
-      "assets/ANC-4048_01.jpg"
+      "assets/ANC-4048_01.jpg",
+      "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4048/ANC-4048-detail-neckline.jpg",
@@ -8230,6 +8225,11 @@
         "url": "assets/ANC-4048_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4048_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg"
       }
     ],
     "mainCopy": "카라 포인트로 깔끔하면서도 여성스러운 분위기를 살린 원피스",
@@ -8307,23 +8307,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
-      "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-detail-fabric.jpg",
-      "assets/ANC-4049_01.jpg"
+      "assets/ANC-4049_01.jpg",
+      "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4049/ANC-4049-detail-neckline.jpg",
@@ -8349,6 +8344,11 @@
         "url": "assets/ANC-4049_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4049_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -8424,23 +8424,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
-      "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-detail-fabric.jpg",
-      "assets/ANC-4050_01.jpg"
+      "assets/ANC-4050_01.jpg",
+      "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4050/ANC-4050-detail-neckline.jpg",
@@ -8466,6 +8461,11 @@
         "url": "assets/ANC-4050_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4050_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -8543,23 +8543,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
-      "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-detail-fabric.jpg",
-      "assets/ANC-4051_01.jpg"
+      "assets/ANC-4051_01.jpg",
+      "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4051/ANC-4051-detail-neckline.jpg",
@@ -8585,6 +8580,11 @@
         "url": "assets/ANC-4051_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4051_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg"
       }
     ],
     "mainCopy": "스퀘어넥 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -8660,23 +8660,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
-      "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-detail-fabric.jpg",
-      "assets/ANC-4052_01.jpg"
+      "assets/ANC-4052_01.jpg",
+      "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4052/ANC-4052-detail-neckline.jpg",
@@ -8702,6 +8697,11 @@
         "url": "assets/ANC-4052_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4052_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -8779,23 +8779,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
-      "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-detail-fabric.jpg",
-      "assets/ANC-4053_01.jpg"
+      "assets/ANC-4053_01.jpg",
+      "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4053/ANC-4053-detail-neckline.jpg",
@@ -8821,6 +8816,11 @@
         "url": "assets/ANC-4053_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4053_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg"
       }
     ],
     "mainCopy": "러플 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -8896,23 +8896,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
-      "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-detail-fabric.jpg",
-      "assets/ANC-4054_01.jpg"
+      "assets/ANC-4054_01.jpg",
+      "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4054/ANC-4054-detail-neckline.jpg",
@@ -8938,6 +8933,11 @@
         "url": "assets/ANC-4054_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4054_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -9015,23 +9015,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
-      "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-detail-fabric.jpg",
-      "assets/ANC-4055_01.jpg"
+      "assets/ANC-4055_01.jpg",
+      "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4055/ANC-4055-detail-neckline.jpg",
@@ -9057,6 +9052,11 @@
         "url": "assets/ANC-4055_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4055_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -9132,23 +9132,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
-      "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-detail-fabric.jpg",
-      "assets/ANC-4056_01.jpg"
+      "assets/ANC-4056_01.jpg",
+      "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4056/ANC-4056-detail-neckline.jpg",
@@ -9174,6 +9169,11 @@
         "url": "assets/ANC-4056_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4056_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -9251,23 +9251,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
-      "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-detail-fabric.jpg",
-      "assets/ANC-4057_01.jpg"
+      "assets/ANC-4057_01.jpg",
+      "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4057/ANC-4057-detail-neckline.jpg",
@@ -9293,6 +9288,11 @@
         "url": "assets/ANC-4057_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4057_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -9368,23 +9368,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
-      "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-detail-fabric.jpg",
-      "assets/ANC-4058_01.jpg"
+      "assets/ANC-4058_01.jpg",
+      "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4058/ANC-4058-detail-neckline.jpg",
@@ -9410,6 +9405,11 @@
         "url": "assets/ANC-4058_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4058_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -9487,23 +9487,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
-      "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-detail-fabric.jpg",
-      "assets/ANC-4059_01.jpg"
+      "assets/ANC-4059_01.jpg",
+      "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4059/ANC-4059-detail-neckline.jpg",
@@ -9529,6 +9524,11 @@
         "url": "assets/ANC-4059_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4059_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -9604,23 +9604,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
-      "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-detail-fabric.jpg",
-      "assets/ANC-4060_01.jpg"
+      "assets/ANC-4060_01.jpg",
+      "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4060/ANC-4060-detail-neckline.jpg",
@@ -9646,6 +9641,11 @@
         "url": "assets/ANC-4060_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4060_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -9723,23 +9723,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
-      "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-detail-fabric.jpg",
-      "assets/ANC-4061_01.jpg"
+      "assets/ANC-4061_01.jpg",
+      "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4061/ANC-4061-detail-neckline.jpg",
@@ -9765,6 +9760,11 @@
         "url": "assets/ANC-4061_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4061_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -9840,23 +9840,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
-      "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-detail-fabric.jpg",
-      "assets/ANC-4062_01.jpg"
+      "assets/ANC-4062_01.jpg",
+      "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4062/ANC-4062-detail-neckline.jpg",
@@ -9882,6 +9877,11 @@
         "url": "assets/ANC-4062_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4062_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg"
       }
     ],
     "mainCopy": "브이넥 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -9959,23 +9959,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
-      "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-detail-fabric.jpg",
-      "assets/ANC-4063_01.jpg"
+      "assets/ANC-4063_01.jpg",
+      "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4063/ANC-4063-detail-neckline.jpg",
@@ -10001,6 +9996,11 @@
         "url": "assets/ANC-4063_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4063_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg"
       }
     ],
     "mainCopy": "카라 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -10076,23 +10076,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
-      "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-detail-fabric.jpg",
-      "assets/ANC-4064_01.jpg"
+      "assets/ANC-4064_01.jpg",
+      "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4064/ANC-4064-detail-neckline.jpg",
@@ -10118,6 +10113,11 @@
         "url": "assets/ANC-4064_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4064_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg"
       }
     ],
     "mainCopy": "버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10195,23 +10195,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4065/ANC-4065-main.jpg",
-      "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-detail-fabric.jpg",
-      "assets/ANC-4065_01.jpg"
+      "assets/ANC-4065_01.jpg",
+      "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4065/ANC-4065-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4065/ANC-4065-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4065/ANC-4065-detail-neckline.jpg",
@@ -10237,6 +10232,11 @@
         "url": "assets/ANC-4065_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4065_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4065/ANC-4065-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10312,23 +10312,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
-      "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-detail-fabric.jpg",
-      "assets/ANC-4066_01.jpg"
+      "assets/ANC-4066_01.jpg",
+      "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4066/ANC-4066-detail-neckline.jpg",
@@ -10354,6 +10349,11 @@
         "url": "assets/ANC-4066_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4066_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10427,23 +10427,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
-      "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-detail-fabric.jpg",
-      "assets/ANC-4067_01.jpg"
+      "assets/ANC-4067_01.jpg",
+      "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4067/ANC-4067-detail-neckline.jpg",
@@ -10469,6 +10464,11 @@
         "url": "assets/ANC-4067_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4067_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10542,23 +10542,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
-      "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-detail-fabric.jpg",
-      "assets/ANC-4068_01.jpg"
+      "assets/ANC-4068_01.jpg",
+      "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4068/ANC-4068-detail-neckline.jpg",
@@ -10584,6 +10579,11 @@
         "url": "assets/ANC-4068_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4068_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10661,23 +10661,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
-      "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-detail-fabric.jpg",
-      "assets/ANC-4069_01.jpg"
+      "assets/ANC-4069_01.jpg",
+      "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4069/ANC-4069-detail-neckline.jpg",
@@ -10703,6 +10698,11 @@
         "url": "assets/ANC-4069_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4069_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -10778,23 +10778,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
-      "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-detail-fabric.jpg",
-      "assets/ANC-4070_01.jpg"
+      "assets/ANC-4070_01.jpg",
+      "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4070/ANC-4070-detail-neckline.jpg",
@@ -10820,6 +10815,11 @@
         "url": "assets/ANC-4070_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4070_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -10897,23 +10897,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
-      "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-detail-fabric.jpg",
-      "assets/ANC-4071_01.jpg"
+      "assets/ANC-4071_01.jpg",
+      "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4071/ANC-4071-detail-neckline.jpg",
@@ -10939,6 +10934,11 @@
         "url": "assets/ANC-4071_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4071_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg"
       }
     ],
     "mainCopy": "카라 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -11014,23 +11014,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
-      "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-detail-fabric.jpg",
-      "assets/ANC-4072_01.jpg"
+      "assets/ANC-4072_01.jpg",
+      "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4072/ANC-4072-detail-neckline.jpg",
@@ -11056,6 +11051,11 @@
         "url": "assets/ANC-4072_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4072_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -11133,23 +11133,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
-      "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-detail-fabric.jpg",
-      "assets/ANC-4073_01.jpg"
+      "assets/ANC-4073_01.jpg",
+      "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4073/ANC-4073-detail-neckline.jpg",
@@ -11175,6 +11170,11 @@
         "url": "assets/ANC-4073_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4073_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -11250,23 +11250,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
-      "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-detail-fabric.jpg",
-      "assets/ANC-4074_01.jpg"
+      "assets/ANC-4074_01.jpg",
+      "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4074/ANC-4074-detail-neckline.jpg",
@@ -11292,6 +11287,11 @@
         "url": "assets/ANC-4074_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4074_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -11367,23 +11367,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
-      "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-detail-fabric.jpg",
-      "assets/ANC-4075_01.jpg"
+      "assets/ANC-4075_01.jpg",
+      "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4075/ANC-4075-detail-neckline.jpg",
@@ -11409,6 +11404,11 @@
         "url": "assets/ANC-4075_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4075_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg"
       }
     ],
     "mainCopy": "오프숄더 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -11484,23 +11484,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
-      "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-detail-fabric.jpg",
-      "assets/ANC-4076_01.jpg"
+      "assets/ANC-4076_01.jpg",
+      "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4076/ANC-4076-detail-neckline.jpg",
@@ -11526,6 +11521,11 @@
         "url": "assets/ANC-4076_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4076_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg"
       }
     ],
     "mainCopy": "스퀘어넥 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -11603,23 +11603,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
-      "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-detail-fabric.jpg",
-      "assets/ANC-4077_01.jpg"
+      "assets/ANC-4077_01.jpg",
+      "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4077/ANC-4077-detail-neckline.jpg",
@@ -11645,6 +11640,11 @@
         "url": "assets/ANC-4077_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4077_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -11720,23 +11720,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
-      "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-detail-fabric.jpg",
-      "assets/ANC-4078_01.jpg"
+      "assets/ANC-4078_01.jpg",
+      "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4078/ANC-4078-detail-neckline.jpg",
@@ -11762,6 +11757,11 @@
         "url": "assets/ANC-4078_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4078_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -11839,23 +11839,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
-      "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-detail-fabric.jpg",
-      "assets/ANC-4079_01.jpg"
+      "assets/ANC-4079_01.jpg",
+      "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4079/ANC-4079-detail-neckline.jpg",
@@ -11881,6 +11876,11 @@
         "url": "assets/ANC-4079_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4079_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg"
       }
     ],
     "mainCopy": "버튼 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -11967,23 +11967,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4080/ANC-4080-main.jpg",
-      "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg",
       "assets/products/ank/generated/ANC-4080/ANC-4080-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4080/ANC-4080-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4080/ANC-4080-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4080/ANC-4080-detail-fabric.jpg",
-      "assets/ANC-4080_01.jpg"
+      "assets/ANC-4080_01.jpg",
+      "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4080/ANC-4080-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4080/ANC-4080-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4080/ANC-4080-detail-neckline.jpg",
@@ -12009,6 +12004,11 @@
         "url": "assets/ANC-4080_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4080_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4080/ANC-4080-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12086,23 +12086,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
-      "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-detail-fabric.jpg",
-      "assets/ANC-4081_01.jpg"
+      "assets/ANC-4081_01.jpg",
+      "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4081/ANC-4081-detail-neckline.jpg",
@@ -12128,6 +12123,11 @@
         "url": "assets/ANC-4081_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4081_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg"
       }
     ],
     "mainCopy": "버튼 포인트로 깔끔하면서도 여성스러운 분위기를 살린 원피스",
@@ -12203,23 +12203,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
-      "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-detail-fabric.jpg",
-      "assets/ANC-4082_01.jpg"
+      "assets/ANC-4082_01.jpg",
+      "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4082/ANC-4082-detail-neckline.jpg",
@@ -12245,6 +12240,11 @@
         "url": "assets/ANC-4082_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4082_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg"
       }
     ],
     "mainCopy": "더블버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12331,23 +12331,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
-      "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-detail-fabric.jpg",
-      "assets/ANC-4083_01.jpg"
+      "assets/ANC-4083_01.jpg",
+      "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4083/ANC-4083-detail-neckline.jpg",
@@ -12373,6 +12368,11 @@
         "url": "assets/ANC-4083_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4083_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg"
       }
     ],
     "mainCopy": "러플 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12448,23 +12448,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
-      "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-detail-fabric.jpg",
-      "assets/ANC-4084_01.jpg"
+      "assets/ANC-4084_01.jpg",
+      "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4084/ANC-4084-detail-neckline.jpg",
@@ -12490,6 +12485,11 @@
         "url": "assets/ANC-4084_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4084_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12576,23 +12576,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
-      "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-detail-fabric.jpg",
-      "assets/ANC-4085_01.jpg"
+      "assets/ANC-4085_01.jpg",
+      "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4085/ANC-4085-detail-neckline.jpg",
@@ -12618,6 +12613,11 @@
         "url": "assets/ANC-4085_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4085_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12693,23 +12693,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
-      "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-detail-fabric.jpg",
-      "assets/ANC-4086_01.jpg"
+      "assets/ANC-4086_01.jpg",
+      "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4086/ANC-4086-detail-neckline.jpg",
@@ -12735,6 +12730,11 @@
         "url": "assets/ANC-4086_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4086_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -12812,23 +12812,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
-      "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-detail-fabric.jpg",
-      "assets/ANC-4087_01.jpg"
+      "assets/ANC-4087_01.jpg",
+      "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4087/ANC-4087-detail-neckline.jpg",
@@ -12854,6 +12849,11 @@
         "url": "assets/ANC-4087_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4087_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg"
       }
     ],
     "mainCopy": "카라 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -12929,23 +12929,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
-      "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-detail-fabric.jpg",
-      "assets/ANC-4088_01.jpg"
+      "assets/ANC-4088_01.jpg",
+      "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4088/ANC-4088-detail-neckline.jpg",
@@ -12971,6 +12966,11 @@
         "url": "assets/ANC-4088_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4088_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg"
       }
     ],
     "mainCopy": "퍼프소매 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13057,23 +13057,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
-      "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-detail-fabric.jpg",
-      "assets/ANC-4089_01.jpg"
+      "assets/ANC-4089_01.jpg",
+      "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4089/ANC-4089-detail-neckline.jpg",
@@ -13099,6 +13094,11 @@
         "url": "assets/ANC-4089_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4089_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg"
       }
     ],
     "mainCopy": "레이스 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13174,23 +13174,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4090/ANC-4090-main.jpg",
-      "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg",
       "assets/products/ank/generated/ANC-4090/ANC-4090-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4090/ANC-4090-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4090/ANC-4090-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4090/ANC-4090-detail-fabric.jpg",
-      "assets/ANC-4090_01.jpg"
+      "assets/ANC-4090_01.jpg",
+      "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4090/ANC-4090-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4090/ANC-4090-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4090/ANC-4090-detail-neckline.jpg",
@@ -13216,6 +13211,11 @@
         "url": "assets/ANC-4090_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4090_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4090/ANC-4090-product.jpg"
       }
     ],
     "mainCopy": "리본 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13293,23 +13293,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
-      "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-detail-fabric.jpg",
-      "assets/ANC-4091_01.jpg"
+      "assets/ANC-4091_01.jpg",
+      "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4091/ANC-4091-detail-neckline.jpg",
@@ -13335,6 +13330,11 @@
         "url": "assets/ANC-4091_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4091_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg"
       }
     ],
     "mainCopy": "버튼 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -13410,23 +13410,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
-      "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-detail-fabric.jpg",
-      "assets/ANC-4092_01.jpg"
+      "assets/ANC-4092_01.jpg",
+      "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4092/ANC-4092-detail-neckline.jpg",
@@ -13452,6 +13447,11 @@
         "url": "assets/ANC-4092_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4092_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13527,23 +13527,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
-      "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-detail-fabric.jpg",
-      "assets/ANC-4093_01.jpg"
+      "assets/ANC-4093_01.jpg",
+      "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4093/ANC-4093-detail-neckline.jpg",
@@ -13569,6 +13564,11 @@
         "url": "assets/ANC-4093_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4093_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg"
       }
     ],
     "mainCopy": "스퀘어넥 포인트로 깔끔하면서도 여성스러운 분위기를 살린 원피스",
@@ -13644,23 +13644,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
-      "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-detail-fabric.jpg",
-      "assets/ANC-4094_01.jpg"
+      "assets/ANC-4094_01.jpg",
+      "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4094/ANC-4094-detail-neckline.jpg",
@@ -13686,6 +13681,11 @@
         "url": "assets/ANC-4094_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4094_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg"
       }
     ],
     "mainCopy": "버튼 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13763,23 +13763,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
-      "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-detail-fabric.jpg",
-      "assets/ANC-4095_01.jpg"
+      "assets/ANC-4095_01.jpg",
+      "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4095/ANC-4095-detail-neckline.jpg",
@@ -13805,6 +13800,11 @@
         "url": "assets/ANC-4095_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4095_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg"
       }
     ],
     "mainCopy": "셔링 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -13880,23 +13880,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
-      "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-detail-fabric.jpg",
-      "assets/ANC-4096_01.jpg"
+      "assets/ANC-4096_01.jpg",
+      "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4096/ANC-4096-detail-neckline.jpg",
@@ -13922,6 +13917,11 @@
         "url": "assets/ANC-4096_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4096_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg"
       }
     ],
     "mainCopy": "카라 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -13999,23 +13999,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
-      "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-detail-fabric.jpg",
-      "assets/ANC-4097_01.jpg"
+      "assets/ANC-4097_01.jpg",
+      "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4097/ANC-4097-detail-neckline.jpg",
@@ -14041,6 +14036,11 @@
         "url": "assets/ANC-4097_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4097_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg"
       }
     ],
     "mainCopy": "스트라이프 포인트로 깔끔하면서도 여성스러운 분위기를 살린 원피스",
@@ -14116,23 +14116,18 @@
     "isPopular": false,
     "images": [
       "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
-      "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-detail-waist.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-detail-fabric.jpg",
-      "assets/ANC-4098_01.jpg"
+      "assets/ANC-4098_01.jpg",
+      "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
         "cut": "대표 쇼룸컷",
         "source": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg",
-        "cut": "상품컷",
-        "source": "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4098/ANC-4098-detail-neckline.jpg",
@@ -14158,6 +14153,11 @@
         "url": "assets/ANC-4098_01.jpg",
         "cut": "원본 참고컷",
         "source": "assets/ANC-4098_01.jpg"
+      },
+      {
+        "url": "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg",
+        "cut": "제품 단독컷",
+        "source": "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg"
       }
     ],
     "mainCopy": "퍼프소매 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
