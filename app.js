@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match70';
+const VERSION = 'match71';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -33,19 +33,23 @@ const COLLECTIONS = [
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
 ];
 
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME', 'MINI', 'MIDI', 'TWO_PIECE', 'LONG'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
   BEST: 'BEST PICK',
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
+  MINI: '미니',
+  MIDI: '미디',
+  TWO_PIECE: '투피스',
+  LONG: '롱',
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일문의'
 };
-const QUICK_BASE = ['파티룩', '클럽룩', '무대의상', '원피스', '투피스', '77/88'];
+const QUICK_BASE = ['미니', '미디', '투피스', '롱', '파티룩', '클럽룩', '무대의상', '77/88'];
 const QUICK_VIP = ['당일문의'];
 
 const COSTUME_STRONG = [
@@ -54,6 +58,13 @@ const COSTUME_STRONG = [
   'costume', 'cosplay', 'sailor', 'school', 'uniform', '체크', '플리츠'
 ];
 const COSTUME_SOFT = ['이벤트룩', '이벤트', '촬영룩', '촬영', '공연룩', '공연', '방송룩', '방송', 'event', 'stage'];
+const SCENE_SEARCH = {
+  '파티룩': ['파티', 'party', '행사', '모임', '브라이덜'],
+  '클럽룩': ['클럽', 'club', '섹시', '슬림', '바디라인'],
+  '무대의상': ['무대', '공연', '방송', '촬영', '행사', 'stage', '존재감', '조명'],
+  '방송룩': ['방송', '촬영', '무대', 'stage', '존재감'],
+  '촬영룩': ['촬영', '방송', '무대', '조명', '존재감']
+};
 const INTERNAL_WORDS = [
   '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
   '거래처', '공장', 'supplier', 'vendor', 'origin'
@@ -195,6 +206,10 @@ function sectionName() {
   if (FILTER === 'NEW') return 'NEW ARRIVAL';
   if (FILTER === 'BEST') return 'BEST PICK';
   if (FILTER === 'COSTUME') return 'COSTUME';
+  if (FILTER === 'MINI') return 'MINI DRESS';
+  if (FILTER === 'MIDI') return 'MIDI DRESS';
+  if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
+  if (FILTER === 'LONG') return 'LONG DRESS';
   if (FILTER === 'SAME_DAY') return 'TODAY AVAILABLE';
   return 'ALL COLLECTION';
 }
@@ -204,6 +219,10 @@ function sectionIntro() {
   if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
   if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
   if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
+  if (FILTER === 'MINI') return '파티, 클럽, 촬영에 활용하기 좋은 미니 원피스 라인입니다.';
+  if (FILTER === 'MIDI') return '조금 더 차분하고 고급스러운 무드의 미디 드레스 라인입니다.';
+  if (FILTER === 'TWO_PIECE') return '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.';
+  if (FILTER === 'LONG') return '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.';
   const c = COLLECTIONS.find(x => x.filter === FILTER);
   return c ? c.desc : '';
 }
@@ -212,8 +231,18 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
+  const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
+  const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
+  if (sceneWords) {
+    const hay = norm(productText(p));
+    return sceneWords.some(word => hay.includes(norm(word)));
+  }
+  if (/^(미니|mini)$/i.test(rawSearch)) return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
+  if (/^(미디|midi)$/i.test(rawSearch)) return p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
+  if (/^(롱|long)$/i.test(rawSearch)) return p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG');
+  if (/^(투피스|two[-_ ]?piece)$/i.test(rawSearch)) return p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
   if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
-  const hay = norm([focusedProductText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
+  const hay = norm([productText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
   return hay.includes(search);
 }
 
@@ -226,6 +255,10 @@ function match(p) {
   else if (FILTER === 'NEW') f = isNew(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
+  else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
+  else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
+  else if (FILTER === 'TWO_PIECE') f = p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
+  else if (FILTER === 'LONG') f = p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG');
   else if (FILTER === 'SAME_DAY') f = isSameDayVisible(p);
   return f && matchesSearch(p, rawSearch) && visibleToAudience(p);
 }
@@ -262,7 +295,7 @@ function productCard(p, compact = false) {
       <div class="name">${displayName(p)}</div>
       <div class="meta">${meta(p)}</div>
       ${priceBlock(p)}
-      <button class="card-kakao" type="button" data-code="${codeOf(p)}">카카오톡 문의</button>
+      <button class="card-similar" type="button" data-code="${codeOf(p)}">비슷한 옷 보기</button>
     </div>
   </article>`;
 }
@@ -311,15 +344,18 @@ function communityBlock() {
 
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const best = choose(sortProducts(visible.filter(isBest)), 8);
-  const fresh = choose(sortProducts(visible.filter(isNew)), 10);
+  const editor = choose(sortProducts(visible.filter(p => isBest(p) && !isNew(p))), 8);
+  const editorFallback = choose(sortProducts(visible.filter(isBest)), 8);
+  const editorItems = editor.length ? editor : editorFallback;
+  const editorCodes = new Set(editorItems.map(codeOf));
+  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
   const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
   title.textContent = 'ONLINE SHOWROOM';
   count.textContent = `${visible.length} items`;
   intro.textContent = sectionIntro();
   grid.className = 'home';
   grid.innerHTML = `
-    ${sectionBlock("Editor's Select", '쇼룸에서 먼저 추천드리는 인기 스타일입니다. 마음에 드는 상품은 카카오톡으로 재고와 사이즈를 확인해주세요.', best.length ? best : fresh.slice(0, 8))}
+    ${sectionBlock("Editor's Select", '신상과 겹치지 않게, 지금 쇼룸에서 안정적으로 추천드리기 좋은 스타일을 모았습니다.', editorItems)}
     ${sectionBlock('New Arrival', '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.', fresh)}
     ${collectionBlock()}
     ${communityBlock()}
@@ -391,6 +427,19 @@ function contactProduct(p, mode = 'product') {
   window.open(KAKAO_URL, '_blank', 'noopener');
 }
 
+function similarFilterFor(p) {
+  if (isCostume(p)) return 'COSTUME';
+  if (p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE')) return 'TWO_PIECE';
+  if (p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG')) return 'LONG';
+  if (p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI')) return 'MIDI';
+  if (p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI')) return 'MINI';
+  return 'ALL';
+}
+
+function showSimilar(p) {
+  applyView(similarFilterFor(p), { push: true, scroll: true });
+}
+
 function closeDetail(fromHistory = false) {
   if (!modal.classList.contains('open')) return;
   modal.classList.remove('open');
@@ -460,10 +509,10 @@ function openDetail(code) {
 
 function bindCards() {
   $$('.card').forEach(el => el.onclick = () => openDetail(el.dataset.code));
-  $$('.card-kakao').forEach(btn => btn.onclick = e => {
+  $$('.card-similar').forEach(btn => btn.onclick = e => {
     e.stopPropagation();
     const p = PRODUCTS.find(x => codeOf(x) === btn.dataset.code);
-    if (p) contactProduct(p);
+    if (p) showSimilar(p);
   });
 }
 

@@ -136,8 +136,8 @@
 .price-inquiry{display:flex;flex-direction:column;gap:4px;font-size:20px;line-height:1.25}
 .price-inquiry strong{font-size:24px}
 .price-inquiry span{color:#7b685b;font-size:13px;font-weight:850;word-break:keep-all}
-.card-kakao{width:100%;min-height:44px;margin-top:13px;border:1px solid rgba(60,30,30,.12);border-radius:999px;background:#fee500;color:#221d00;font-weight:950;cursor:pointer}
-.card-kakao:hover{filter:brightness(.98)}
+.card-similar{width:100%;min-height:44px;margin-top:13px;border:1px solid #d7c8b8;border-radius:999px;background:#171413;color:#fff;font-weight:950;cursor:pointer}
+.card-similar:hover{background:#2a211d}
 .community-guide{margin:16px 0 0;color:#f3e6d7;font-size:15px;line-height:1.7;font-weight:750;word-break:keep-all}
 .community-link.kakao{background:#fee500!important;color:#221d00!important;border-color:#fee500}
 .community-link.subtle{background:#ffffff12;color:#eadfce;border-color:#ffffff26}
@@ -155,7 +155,7 @@
   .price-inquiry{font-size:17px}
   .price-inquiry strong{font-size:20px}
   .price-inquiry span{font-size:12px}
-  .card-kakao{min-height:40px;margin-top:10px;font-size:13px}
+  .card-similar{min-height:40px;margin-top:10px;font-size:13px}
   .community-guide{font-size:13.5px;line-height:1.65}
   .detail-cta{grid-template-columns:1fr;position:sticky;bottom:0;background:#fbf7f1;padding:10px 0 4px}
   .detail-cta button,.detail-cta a{width:100%;font-size:15px;min-height:46px}
