@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match71';
+const VERSION = 'match72';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -49,7 +49,7 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일문의'
 };
-const QUICK_BASE = ['미니', '미디', '투피스', '롱', '파티룩', '클럽룩', '무대의상', '77/88'];
+const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
 const QUICK_VIP = ['당일문의'];
 
 const COSTUME_STRONG = [
@@ -231,6 +231,9 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
+  if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
+  if (/^슬림핏$/i.test(rawSearch)) return /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
+  if (/^럭셔리$/i.test(rawSearch)) return /럭셔리|고급|프리미엄|우아|드레스|이브닝/i.test(productText(p));
   const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
   const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
   if (sceneWords) {
@@ -393,7 +396,7 @@ function editorNote(p) {
 }
 
 function contactText(p, mode = 'product') {
-  const prefix = mode === 'similar' ? '비슷한 스타일 추천 받고 싶어요.' : '상품 문의드립니다.';
+  const prefix = '상품 문의드립니다.';
   return `${prefix}\n상품명: ${displayName(p)}\n상품코드: ${displayCode(p)}\n재고/사이즈/가격 안내 부탁드립니다.`;
 }
 
@@ -491,8 +494,7 @@ function openDetail(code) {
         <p>이 상품은 매장 재고와 사이즈 확인 후 구매 가능합니다. 카카오톡으로 상품 코드 또는 캡처 이미지를 보내주시면 빠르게 안내드립니다.</p>
       </div>
       <div class="cta detail-cta">
-        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>카카오톡으로 이 상품 문의</span></button>
-        <button class="insta similar-contact" type="button" data-mode="similar"><span>비슷한 스타일 추천받기</span></button>
+        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
         <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>인스타 DM 문의</span></a>
       </div>
     </section>
@@ -504,7 +506,7 @@ function openDetail(code) {
     $('#mainImage').src = img(currentImages[i].url);
     $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', i === j));
   });
-  $$('.detail-contact,.similar-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
+  $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
 }
 
 function bindCards() {
