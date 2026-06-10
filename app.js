@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match72';
+const VERSION = 'match74';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -26,6 +26,7 @@ let PRODUCTS = [];
 let FILTER = 'HOME';
 let currentImages = [];
 let modalHistoryOpen = false;
+let SIMILAR_CODE = '';
 
 const COLLECTIONS = [
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'Mini Dress Edit', desc: '가볍게 입기 좋은 미니 원피스 셀렉션' },
@@ -69,6 +70,7 @@ const INTERNAL_WORDS = [
   '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
   '거래처', '공장', 'supplier', 'vendor', 'origin'
 ];
+const WIDE_SIZE_SUPPLIERS = ['앙크최', '지니', '세윤', '펄', '임마누엘', '지나', '그레이스', '실루엣', '희야'];
 
 const norm = s => String(s || '').toLowerCase();
 const tags = p => Array.isArray(p.tags) ? p.tags : [];
@@ -126,8 +128,26 @@ function focusedProductText(p) {
   ].join(' ');
 }
 
+function supplierText(p) {
+  return [p.code, p.origin, p.supplier, p.vendor, p.folder, p.zipFolder, p.supplierProductNo].join(' ');
+}
+
+function isJessicaProduct(p) {
+  return /^JES-/.test(codeOf(p)) || /제시카|Jessica/i.test(supplierText(p));
+}
+
+function isWideSizeSupplier(p) {
+  const text = supplierText(p);
+  return /^ANC-/.test(codeOf(p)) || WIDE_SIZE_SUPPLIERS.some(name => text.includes(name));
+}
+
 function isWideSize(p) {
-  return (p.sizeTags || []).some(x => ['77', '88'].includes(String(x))) || /77|88/.test(String(p.size || p.sizeInfo || ''));
+  if (isJessicaProduct(p)) return false;
+  return isWideSizeSupplier(p) || (p.sizeTags || []).some(x => ['77', '88'].includes(String(x))) || /77|88|99/.test(String(p.size || p.sizeInfo || ''));
+}
+
+function hasExtendedSizeLeadTime(p) {
+  return isWideSizeSupplier(p);
 }
 
 function isFittingAvailable(p) {
@@ -312,6 +332,66 @@ function sectionBlock(label, desc, items) {
   return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
 }
 
+function styleProfile(p) {
+  const text = productText(p);
+  return [
+    p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI') ? '미니' : '',
+    p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI') ? '미디' : '',
+    p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG') ? '롱' : '',
+    p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE') ? '투피스' : '',
+    /A라인|에이라인|a-line|aline/i.test(text) ? 'A라인' : '',
+    /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(text) ? '슬림핏' : '',
+    /럭셔리|고급|프리미엄|우아|드레스|이브닝/i.test(text) ? '럭셔리' : '',
+    isCostume(p) ? 'Costume' : '',
+    isWideSize(p) ? '77/88' : ''
+  ].filter(Boolean);
+}
+
+function similarScore(source, candidate) {
+  const sourceProfile = styleProfile(source);
+  const candidateProfile = styleProfile(candidate);
+  let score = 0;
+  sourceProfile.forEach(tag => {
+    if (candidateProfile.includes(tag)) score += tag === 'A라인' || tag === '슬림핏' || tag === '미디' ? 120 : 80;
+  });
+  if (source.category && source.category === candidate.category) score += 55;
+  if (source.length && source.length === candidate.length) score += 45;
+  if (source.collection && source.collection === candidate.collection) score += 20;
+  if (source.color && candidate.color && source.color === candidate.color) score += 12;
+  if (isBest(candidate)) score += 8;
+  if (isNew(candidate)) score += 5;
+  if (!mainImg(candidate)) score -= 80;
+  return score;
+}
+
+function similarItemsFor(source, limit = 12) {
+  return PRODUCTS
+    .filter(p => visibleToAudience(p) && codeOf(p) !== codeOf(source) && mainImg(p))
+    .map(p => ({ p, score: similarScore(source, p) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score || rankProduct(b.p) - rankProduct(a.p))
+    .slice(0, limit)
+    .map(x => x.p);
+}
+
+function similarShelfBlock() {
+  const source = PRODUCTS.find(p => codeOf(p) === SIMILAR_CODE);
+  if (!source) return '';
+  const items = similarItemsFor(source);
+  if (!items.length) return '';
+  const profile = styleProfile(source).slice(0, 4).join(' · ');
+  return `<section class="similar-shelf" aria-live="polite">
+    <div class="section-head similar-head">
+      <div>
+        <h3>비슷한 상품</h3>
+        <p>${displayName(source)} 기준 ${profile ? profile + ' ' : ''}스타일을 모았습니다.</p>
+      </div>
+      <button class="similar-close" type="button" aria-label="비슷한 상품 닫기">닫기</button>
+    </div>
+    <div class="rail">${items.map(p => productCard(p, true)).join('')}</div>
+  </section>`;
+}
+
 function collectionBlock() {
   return `<section class="collection-grid">
     ${COLLECTIONS.map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
@@ -358,6 +438,7 @@ function renderHome() {
   intro.textContent = sectionIntro();
   grid.className = 'home';
   grid.innerHTML = `
+    ${similarShelfBlock()}
     ${sectionBlock("Editor's Select", '신상과 겹치지 않게, 지금 쇼룸에서 안정적으로 추천드리기 좋은 스타일을 모았습니다.', editorItems)}
     ${sectionBlock('New Arrival', '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.', fresh)}
     ${collectionBlock()}
@@ -379,7 +460,7 @@ function render() {
     grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.</div>';
     return;
   }
-  grid.innerHTML = list.map(p => productCard(p)).join('');
+  grid.innerHTML = `${similarShelfBlock()}${list.map(p => productCard(p)).join('')}`;
   bindCards();
 }
 
@@ -430,17 +511,13 @@ function contactProduct(p, mode = 'product') {
   window.open(KAKAO_URL, '_blank', 'noopener');
 }
 
-function similarFilterFor(p) {
-  if (isCostume(p)) return 'COSTUME';
-  if (p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE')) return 'TWO_PIECE';
-  if (p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG')) return 'LONG';
-  if (p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI')) return 'MIDI';
-  if (p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI')) return 'MINI';
-  return 'ALL';
-}
-
 function showSimilar(p) {
-  applyView(similarFilterFor(p), { push: true, scroll: true });
+  SIMILAR_CODE = codeOf(p);
+  render();
+  requestAnimationFrame(() => {
+    const shelf = $('.similar-shelf');
+    if (shelf) shelf.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 }
 
 function closeDetail(fromHistory = false) {
@@ -491,7 +568,7 @@ function openDetail(code) {
       </div>
       <div class="purchase-guide">
         <b>구매 안내</b>
-        <p>이 상품은 매장 재고와 사이즈 확인 후 구매 가능합니다. 카카오톡으로 상품 코드 또는 캡처 이미지를 보내주시면 빠르게 안내드립니다.</p>
+        <p>이 상품은 매장 재고와 사이즈 확인 후 구매 가능합니다. 카카오톡으로 상품 코드 또는 캡처 이미지를 보내주시면 빠르게 안내드립니다.${hasExtendedSizeLeadTime(p) ? '<br>77/88 및 일부 99 사이즈는 제작 문의가 가능하며, 보통 1~2주 정도 소요됩니다. 지연 시 한 달 이상 걸릴 수 있습니다.' : ''}</p>
       </div>
       <div class="cta detail-cta">
         <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
@@ -515,6 +592,10 @@ function bindCards() {
     e.stopPropagation();
     const p = PRODUCTS.find(x => codeOf(x) === btn.dataset.code);
     if (p) showSimilar(p);
+  });
+  $$('.similar-close').forEach(btn => btn.onclick = () => {
+    SIMILAR_CODE = '';
+    render();
   });
 }
 

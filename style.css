@@ -151,6 +151,12 @@
 .detail-cta .kakao{border-color:rgba(60,30,30,.12)}
 .home .collection-grid{margin:42px 0 34px}
 .show-section+.collection-grid{margin-top:42px}
+.similar-shelf{grid-column:1/-1;margin:4px 0 34px;padding:20px 18px 8px;border:1px solid #d8c9ba;border-radius:10px;background:#fffdf9;box-shadow:0 16px 38px rgba(30,25,22,.08)}
+.home .similar-shelf{margin:0 0 38px}
+.similar-head{margin:0 2px 14px}
+.similar-head h3{font-size:32px}
+.similar-close{flex:0 0 auto;height:36px;padding:0 14px;border:1px solid #d8c9ba;border-radius:999px;background:#fff;color:#5f5046;font-size:12px;font-weight:950;cursor:pointer}
+.similar-close:hover{border-color:#171413;color:#171413}
 @media(max-width:720px){
   .price-inquiry{font-size:17px}
   .price-inquiry strong{font-size:20px}
@@ -160,4 +166,7 @@
   .detail-cta{grid-template-columns:1fr;position:sticky;bottom:0;background:#fbf7f1;padding:10px 0 4px}
   .detail-cta button,.detail-cta a{width:100%;font-size:15px;min-height:46px}
   .purchase-guide{padding:15px 14px}
+  .similar-shelf{margin:0 0 24px;padding:16px 12px 4px;border-radius:8px}
+  .similar-head h3{font-size:24px}
+  .similar-close{height:34px;padding:0 12px}
 }
