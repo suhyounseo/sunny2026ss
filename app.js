@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match74';
+const VERSION = 'match75';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -291,13 +291,12 @@ function badges(p) {
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
-  if (out.length < 3 && isWideSize(p)) out.push('<span class="badge light">77/88가능</span>');
   if (out.length < 3 && isSameDayCandidate(p)) out.push('<span class="badge light">당일문의</span>');
   return out.slice(0, 3).join('') || '<span class="badge">NICE</span>';
 }
 
 function meta(p) {
-  return [p.length, p.color, p.size ? 'SIZE ' + p.size : '', isWideSize(p) ? '77/88' : '']
+  return [p.length, p.color, p.size ? 'SIZE ' + p.size : '', isWideSize(p) ? '77/88가능' : '']
     .filter(Boolean)
     .slice(0, 3)
     .map(x => `<span>${cleanText(x)}</span>`)
