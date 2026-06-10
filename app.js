@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match83';
+const VERSION = 'match84';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -86,6 +86,7 @@ const isVipActive = () => vipUntil() > Date.now();
 const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now() + VIP_TTL_MS));
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => isVipActive() || p.vipOnly !== true;
+const isAnkProduct = p => /^ANC-/.test(codeOf(p));
 
 function cleanText(value, fallback = '') {
   let text = String(value || fallback || '').trim();
@@ -138,7 +139,7 @@ function isJessicaProduct(p) {
 
 function isWideSizeSupplier(p) {
   const text = supplierText(p);
-  return /^ANC-/.test(codeOf(p)) || WIDE_SIZE_SUPPLIERS.some(name => text.includes(name));
+  return isAnkProduct(p) || WIDE_SIZE_SUPPLIERS.some(name => text.includes(name));
 }
 
 function isWideSize(p) {
@@ -151,6 +152,7 @@ function hasExtendedSizeLeadTime(p) {
 }
 
 function isFittingAvailable(p) {
+  if (isAnkProduct(p)) return false;
   return p.fittingAvailable === true || /피팅|매장/.test(productText(p));
 }
 
