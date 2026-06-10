@@ -2613,7 +2613,6 @@
       "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-neckline.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-waist.jpg",
-      "assets/products/ank/generated/ANC-4002/ANC-4002-detail-hem.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-fabric.jpg",
       "assets/ANC-4002_01.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png"
@@ -2633,11 +2632,6 @@
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-waist.jpg",
         "cut": "허리/라인 확대",
         "source": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-waist.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-hem.jpg",
-        "cut": "밑단 확대",
-        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-hem.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-detail-fabric.jpg",
