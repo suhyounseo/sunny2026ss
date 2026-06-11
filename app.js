@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match88';
+const VERSION = 'match89';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -52,6 +52,11 @@ const LABEL = {
 };
 const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
 const QUICK_VIP = ['당일발송'];
+const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260006'];
+const EDITOR_SELECT_PINNED_CODES = [
+  'ANC-4002', 'ANC-4016', 'ANC-4020', 'ANC-4026',
+  'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
+];
 
 const COSTUME_STRONG = [
   '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
@@ -185,6 +190,16 @@ function rankProduct(p) {
 
 function sortProducts(list) {
   return [...list].sort((a, b) => rankProduct(b) - rankProduct(a) || codeOf(a).localeCompare(codeOf(b), 'ko'));
+}
+
+function editorSelectItems(visible) {
+  const excluded = new Set(EDITOR_SELECT_EXCLUDED_CODES);
+  const pinned = EDITOR_SELECT_PINNED_CODES
+    .map(code => visible.find(p => codeOf(p) === code))
+    .filter(p => p && mainImg(p));
+  const pinnedCodes = new Set(pinned.map(codeOf));
+  const fallback = choose(sortProducts(visible.filter(p => isBest(p) && !excluded.has(codeOf(p)) && !pinnedCodes.has(codeOf(p)))), 8 - pinned.length);
+  return [...pinned, ...fallback].slice(0, 8);
 }
 
 function normalizeProduct(p) {
@@ -430,9 +445,7 @@ function communityBlock() {
 
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const editor = choose(sortProducts(visible.filter(p => isBest(p) && !isNew(p))), 8);
-  const editorFallback = choose(sortProducts(visible.filter(isBest)), 8);
-  const editorItems = editor.length ? editor : editorFallback;
+  const editorItems = editorSelectItems(visible);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
   const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
