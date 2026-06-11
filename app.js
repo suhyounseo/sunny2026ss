@@ -52,8 +52,10 @@ const LABEL = {
 };
 const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
 const QUICK_VIP = ['당일발송'];
-const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260006'];
+const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
+const EDITOR_SELECT_LIMIT = 12;
 const EDITOR_SELECT_PINNED_CODES = [
+  'N260001', 'N260005', 'N260006', 'N260008',
   'ANC-4002', 'ANC-4016', 'ANC-4020', 'ANC-4026',
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
 ];
@@ -197,9 +199,20 @@ function editorSelectItems(visible) {
   const pinned = EDITOR_SELECT_PINNED_CODES
     .map(code => visible.find(p => codeOf(p) === code))
     .filter(p => p && mainImg(p));
+
   const pinnedCodes = new Set(pinned.map(codeOf));
-  const fallback = choose(sortProducts(visible.filter(p => isBest(p) && !excluded.has(codeOf(p)) && !pinnedCodes.has(codeOf(p)))), 8 - pinned.length);
-  return [...pinned, ...fallback].slice(0, 8);
+  const need = Math.max(0, EDITOR_SELECT_LIMIT - pinned.length);
+
+  const fallback = choose(
+    sortProducts(
+      visible.filter(p =>
+        isBest(p) &&
+        !excluded.has(codeOf(p)) &&
+        !pinnedCodes.has(codeOf(p))
+      )
+    ),
+    need
+  );
 }
 
 function normalizeProduct(p) {
