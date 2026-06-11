@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match85';
+const VERSION = 'match86';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -48,10 +48,10 @@ const LABEL = {
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
   COL_C: 'COLLECTION C',
-  SAME_DAY: '당일문의'
+  SAME_DAY: '당일발송'
 };
 const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
-const QUICK_VIP = ['당일문의'];
+const QUICK_VIP = ['당일발송'];
 
 const COSTUME_STRONG = [
   '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
@@ -293,8 +293,8 @@ function badges(p) {
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
-  if (out.length < 3 && isSameDayCandidate(p)) out.push('<span class="badge light">당일문의</span>');
-  return out.slice(0, 3).join('') || '<span class="badge">NICE</span>';
+  if (out.length < 3 && isSameDayCandidate(p)) out.push('<span class="badge light">당일발송</span>');
+  return out.slice(0, 3).join('');
 }
 
 function meta(p) {
@@ -312,13 +312,15 @@ function priceBlock(p) {
 
 function productCard(p, compact = false) {
   const image = mainImg(p);
+  const cardBadges = badges(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}<div class="badges">${badges(p)}</div></div>
+    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
     <div class="info">
       <div class="code">상품코드 ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
       <div class="meta">${meta(p)}</div>
       ${priceBlock(p)}
+      ${cardBadges ? `<div class="card-badges">${cardBadges}</div>` : ''}
       <button class="card-similar" type="button" data-code="${codeOf(p)}">비슷한 옷 보기</button>
     </div>
   </article>`;
@@ -420,7 +422,7 @@ function communityBlock() {
       <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>카카오톡 문의</span></a>
       <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
       <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
-      <button class="community-link vip-open subtle" type="button">${isVipActive() ? '당일문의 상품 보기' : 'VIP 인증'}</button>
+      <button class="community-link vip-open subtle" type="button">${isVipActive() ? '당일발송 상품 보기' : 'VIP 인증'}</button>
       ${isVipActive() ? '<button class="community-link vip-clear subtle" type="button">인증해제</button>' : ''}
     </div>
   </section>`;
