@@ -2486,18 +2486,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+      "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
       "assets/products/ank/generated/ANC-4001/ANC-4001-detail-board.jpg",
-      "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
-      "assets/products/ank/generated/ANC-4001/ANC-4001-original-left.jpg",
-      "assets/products/ank/generated/ANC-4001/ANC-4001-original-right.jpg"
+      "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4001/ANC-4001-front.jpg",
@@ -2513,16 +2511,6 @@
         "url": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg",
         "cut": "제품 단독컷",
         "source": "assets/products/ank/generated/ANC-4001/ANC-4001-product.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-original-left.jpg",
-        "cut": "원본 분리컷",
-        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-original-left.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4001/ANC-4001-original-right.jpg",
-        "cut": "원본 분리컷",
-        "source": "assets/products/ank/generated/ANC-4001/ANC-4001-original-right.jpg"
       }
     ],
     "mainCopy": "버튼 디테일로 바디 라인을 자연스럽게 잡아주는 원피스",
@@ -2542,15 +2530,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4001/ANC-4001-main-clean.jpg",
     "imageUpgrade": {
       "status": "generated-images-applied",
       "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
@@ -2606,17 +2594,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
+      "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-full.jpg",
       "assets/products/ank/generated/ANC-4002/ANC-4002-detail-board.jpg",
-      "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png",
-      "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
+      "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-full.jpg",
@@ -2632,11 +2619,6 @@
         "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png",
         "cut": "제품 단독컷",
         "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product-ai-hanger.png"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg",
-        "cut": "제품 단독컷",
-        "source": "assets/products/ank/generated/ANC-4002/ANC-4002-product.jpg"
       }
     ],
     "mainCopy": "플레어 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2656,15 +2638,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg",
     "whyYoullLoveIt": [
       "라인을 선명하게 보여주는 배색 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 배색 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4002/ANC-4002-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4002/ANC-4002-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -2719,14 +2701,12 @@
       "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-front.jpg",
       "assets/products/ank/generated/ANC-4003/ANC-4003-detail-board.jpg",
-      "assets/products/ank/generated/ANC-4003/ANC-4003-product-ai-hanger.png",
-      "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
-      "assets/products/ank/generated/ANC-4003/ANC-4003-product.jpg"
+      "assets/products/ank/generated/ANC-4003/ANC-4003-product-ai-hanger.png"
     ],
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "대표 확대컷",
         "source": "assets/products/ank/generated/ANC-4003/ANC-4003-main-clean.jpg"
       },
       {
@@ -2743,16 +2723,6 @@
         "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product-ai-hanger.png",
         "cut": "제품 단독컷",
         "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product-ai-hanger.png"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg",
-        "cut": "제품 단독컷",
-        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product-large.jpg"
-      },
-      {
-        "url": "assets/products/ank/generated/ANC-4003/ANC-4003-product.jpg",
-        "cut": "제품 단독컷",
-        "source": "assets/products/ank/generated/ANC-4003/ANC-4003-product.jpg"
       }
     ],
     "mainCopy": "프릴 포인트로 사랑스럽고 단정한 분위기를 더한 원피스",
@@ -2834,16 +2804,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
+      "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-full.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-detail-board.jpg",
       "assets/products/ank/generated/ANC-4004/ANC-4004-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4004/ANC-4004-full.jpg",
@@ -2878,15 +2848,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정한 인상을 더해주는 카라넥"
     ],
     "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4004/ANC-4004-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4004/ANC-4004-main-clean.jpg"
   },
   {
     "code": "ANC-4005",
@@ -2935,16 +2905,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
+      "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-full.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-detail-board.jpg",
       "assets/products/ank/generated/ANC-4005/ANC-4005-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4005/ANC-4005-full.jpg",
@@ -2979,15 +2949,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg",
     "whyYoullLoveIt": [
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "오프숄더와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4005/ANC-4005-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4005/ANC-4005-main-clean.jpg"
   },
   {
     "code": "ANC-4006",
@@ -3035,16 +3005,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
+      "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-full.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-detail-board.jpg",
       "assets/products/ank/generated/ANC-4006/ANC-4006-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4006/ANC-4006-full.jpg",
@@ -3079,15 +3049,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4006/ANC-4006-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4006/ANC-4006-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -3146,16 +3116,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
+      "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-full.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-detail-board.jpg",
       "assets/products/ank/generated/ANC-4007/ANC-4007-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4007/ANC-4007-full.jpg",
@@ -3190,15 +3160,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4007/ANC-4007-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4007/ANC-4007-main-clean.jpg"
   },
   {
     "code": "ANC-4008",
@@ -3246,16 +3216,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
+      "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-full.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-detail-board.jpg",
       "assets/products/ank/generated/ANC-4008/ANC-4008-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4008/ANC-4008-full.jpg",
@@ -3290,15 +3260,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4008/ANC-4008-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4008/ANC-4008-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -3348,16 +3318,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
+      "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-full.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-detail-board.jpg",
       "assets/products/ank/generated/ANC-4009/ANC-4009-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4009/ANC-4009-full.jpg",
@@ -3392,15 +3362,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4009/ANC-4009-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4009/ANC-4009-main-clean.jpg"
   },
   {
     "code": "ANC-4010",
@@ -3448,16 +3418,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
+      "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-full.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-detail-board.jpg",
       "assets/products/ank/generated/ANC-4010/ANC-4010-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4010/ANC-4010-full.jpg",
@@ -3492,15 +3462,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4010/ANC-4010-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4010/ANC-4010-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -3550,16 +3520,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
+      "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-full.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-detail-board.jpg",
       "assets/products/ank/generated/ANC-4011/ANC-4011-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4011/ANC-4011-full.jpg",
@@ -3594,15 +3564,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "드레이프와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4011/ANC-4011-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4011/ANC-4011-main-clean.jpg"
   },
   {
     "code": "ANC-4012",
@@ -3649,16 +3619,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
+      "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-full.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-detail-board.jpg",
       "assets/products/ank/generated/ANC-4012/ANC-4012-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4012/ANC-4012-full.jpg",
@@ -3693,15 +3663,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "클래식한 무드를 더하는 더블버튼 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "더블버튼과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4012/ANC-4012-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4012/ANC-4012-main-clean.jpg"
   },
   {
     "code": "ANC-4013",
@@ -3759,16 +3729,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
+      "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-full.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-detail-board.jpg",
       "assets/products/ank/generated/ANC-4013/ANC-4013-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4013/ANC-4013-full.jpg",
@@ -3803,15 +3773,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "리본과 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4013/ANC-4013-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4013/ANC-4013-main-clean.jpg"
   },
   {
     "code": "ANC-4014",
@@ -3859,16 +3829,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
+      "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-full.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-detail-board.jpg",
       "assets/products/ank/generated/ANC-4014/ANC-4014-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4014/ANC-4014-full.jpg",
@@ -3903,15 +3873,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg",
     "whyYoullLoveIt": [
       "클래식한 무드를 더하는 더블버튼 디테일",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "더블버튼과 레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4014/ANC-4014-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4014/ANC-4014-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -3961,16 +3931,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
+      "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-full.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-detail-board.jpg",
       "assets/products/ank/generated/ANC-4015/ANC-4015-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4015/ANC-4015-full.jpg",
@@ -4005,15 +3975,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
     "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4015/ANC-4015-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4015/ANC-4015-main-clean.jpg"
   },
   {
     "code": "ANC-4016",
@@ -4062,16 +4032,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
+      "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-full.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-detail-board.jpg",
       "assets/products/ank/generated/ANC-4016/ANC-4016-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4016/ANC-4016-full.jpg",
@@ -4106,15 +4076,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4016/ANC-4016-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4016/ANC-4016-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -4175,16 +4145,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
+      "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-full.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-detail-board.jpg",
       "assets/products/ank/generated/ANC-4017/ANC-4017-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4017/ANC-4017-full.jpg",
@@ -4219,15 +4189,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "가볍고 섹시한 분위기를 더하는 시스루 포인트"
     ],
     "editorsNote": "레이스와 시스루 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4017/ANC-4017-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4017/ANC-4017-main-clean.jpg"
   },
   {
     "code": "ANC-4018",
@@ -4275,16 +4245,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
+      "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-full.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-detail-board.jpg",
       "assets/products/ank/generated/ANC-4018/ANC-4018-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4018/ANC-4018-full.jpg",
@@ -4319,15 +4289,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4018/ANC-4018-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4018/ANC-4018-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -4377,16 +4347,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
+      "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-full.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-detail-board.jpg",
       "assets/products/ank/generated/ANC-4019/ANC-4019-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4019/ANC-4019-full.jpg",
@@ -4421,15 +4391,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4019/ANC-4019-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4019/ANC-4019-main-clean.jpg"
   },
   {
     "code": "ANC-4020",
@@ -4478,16 +4448,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+      "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-detail-board.jpg",
       "assets/products/ank/generated/ANC-4020/ANC-4020-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4020/ANC-4020-front.jpg",
@@ -4522,15 +4492,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg",
     "whyYoullLoveIt": [
       "라인을 선명하게 보여주는 배색 포인트",
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 배색 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4020/ANC-4020-main-clean.jpg",
     "imageUpgrade": {
       "status": "generated-images-applied",
       "source": "outputs/ank_single_image_cut_system/ank_single_image_cut_review.csv",
@@ -4589,16 +4559,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
+      "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-full.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-detail-board.jpg",
       "assets/products/ank/generated/ANC-4021/ANC-4021-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4021/ANC-4021-full.jpg",
@@ -4633,15 +4603,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4021/ANC-4021-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4021/ANC-4021-main-clean.jpg"
   },
   {
     "code": "ANC-4022",
@@ -4688,16 +4658,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
+      "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-full.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-detail-board.jpg",
       "assets/products/ank/generated/ANC-4022/ANC-4022-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4022/ANC-4022-full.jpg",
@@ -4732,15 +4702,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4022/ANC-4022-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4022/ANC-4022-main-clean.jpg"
   },
   {
     "code": "ANC-4023",
@@ -4798,16 +4768,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
+      "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-full.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-detail-board.jpg",
       "assets/products/ank/generated/ANC-4023/ANC-4023-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4023/ANC-4023-full.jpg",
@@ -4842,15 +4812,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4023/ANC-4023-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4023/ANC-4023-main-clean.jpg"
   },
   {
     "code": "ANC-4024",
@@ -4897,16 +4867,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
+      "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-full.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-detail-board.jpg",
       "assets/products/ank/generated/ANC-4024/ANC-4024-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4024/ANC-4024-full.jpg",
@@ -4941,15 +4911,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "빅리본과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4024/ANC-4024-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4024/ANC-4024-main-clean.jpg"
   },
   {
     "code": "ANC-4025",
@@ -4998,16 +4968,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
+      "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-full.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-detail-board.jpg",
       "assets/products/ank/generated/ANC-4025/ANC-4025-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4025/ANC-4025-full.jpg",
@@ -5042,15 +5012,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정한 인상을 더해주는 카라넥",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
     "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4025/ANC-4025-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4025/ANC-4025-main-clean.jpg"
   },
   {
     "code": "ANC-4026",
@@ -5099,16 +5069,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
+      "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-full.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-detail-board.jpg",
       "assets/products/ank/generated/ANC-4026/ANC-4026-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4026/ANC-4026-full.jpg",
@@ -5143,15 +5113,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg",
     "whyYoullLoveIt": [
       "클래식한 무드를 더하는 더블버튼 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "더블버튼과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4026/ANC-4026-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4026/ANC-4026-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -5214,16 +5184,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
+      "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-full.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-detail-board.jpg",
       "assets/products/ank/generated/ANC-4027/ANC-4027-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4027/ANC-4027-full.jpg",
@@ -5258,15 +5228,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일"
     ],
     "editorsNote": "프릴과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4027/ANC-4027-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4027/ANC-4027-main-clean.jpg"
   },
   {
     "code": "ANC-4028",
@@ -5313,16 +5283,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
+      "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-full.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-detail-board.jpg",
       "assets/products/ank/generated/ANC-4028/ANC-4028-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4028/ANC-4028-full.jpg",
@@ -5357,15 +5327,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
     "editorsNote": "플레어와 배색 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4028/ANC-4028-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4028/ANC-4028-main-clean.jpg"
   },
   {
     "code": "ANC-4029",
@@ -5414,16 +5384,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
+      "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-full.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-detail-board.jpg",
       "assets/products/ank/generated/ANC-4029/ANC-4029-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4029/ANC-4029-full.jpg",
@@ -5458,15 +5428,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg",
     "whyYoullLoveIt": [
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "리본과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4029/ANC-4029-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4029/ANC-4029-main-clean.jpg"
   },
   {
     "code": "ANC-4030",
@@ -5513,16 +5483,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
+      "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-full.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-detail-board.jpg",
       "assets/products/ank/generated/ANC-4030/ANC-4030-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4030/ANC-4030-full.jpg",
@@ -5557,15 +5527,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4030/ANC-4030-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4030/ANC-4030-main-clean.jpg"
   },
   {
     "code": "ANC-4031",
@@ -5614,16 +5584,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
+      "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-full.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-detail-board.jpg",
       "assets/products/ank/generated/ANC-4031/ANC-4031-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4031/ANC-4031-full.jpg",
@@ -5658,15 +5628,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "드레이프와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4031/ANC-4031-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4031/ANC-4031-main-clean.jpg"
   },
   {
     "code": "ANC-4032",
@@ -5713,16 +5683,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
+      "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-full.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-detail-board.jpg",
       "assets/products/ank/generated/ANC-4032/ANC-4032-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4032/ANC-4032-full.jpg",
@@ -5757,15 +5727,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4032/ANC-4032-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4032/ANC-4032-main-clean.jpg"
   },
   {
     "code": "ANC-4033",
@@ -5812,16 +5782,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
+      "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-full.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-detail-board.jpg",
       "assets/products/ank/generated/ANC-4033/ANC-4033-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4033/ANC-4033-full.jpg",
@@ -5856,15 +5826,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg",
     "whyYoullLoveIt": [
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4033/ANC-4033-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4033/ANC-4033-main-clean.jpg"
   },
   {
     "code": "ANC-4034",
@@ -5911,16 +5881,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
+      "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-full.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-detail-board.jpg",
       "assets/products/ank/generated/ANC-4034/ANC-4034-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4034/ANC-4034-full.jpg",
@@ -5955,15 +5925,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일"
     ],
     "editorsNote": "플레어와 프릴 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4034/ANC-4034-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4034/ANC-4034-main-clean.jpg"
   },
   {
     "code": "ANC-4035",
@@ -6012,16 +5982,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
+      "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-full.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-detail-board.jpg",
       "assets/products/ank/generated/ANC-4035/ANC-4035-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4035/ANC-4035-full.jpg",
@@ -6056,15 +6026,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg",
     "whyYoullLoveIt": [
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
     "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4035/ANC-4035-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4035/ANC-4035-main-clean.jpg"
   },
   {
     "code": "ANC-4036",
@@ -6111,16 +6081,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
+      "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-full.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-detail-board.jpg",
       "assets/products/ank/generated/ANC-4036/ANC-4036-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4036/ANC-4036-full.jpg",
@@ -6155,15 +6125,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg",
     "whyYoullLoveIt": [
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "단정한 인상을 더해주는 카라넥",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4036/ANC-4036-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4036/ANC-4036-main-clean.jpg"
   },
   {
     "code": "ANC-4037",
@@ -6212,16 +6182,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
+      "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-full.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-detail-board.jpg",
       "assets/products/ank/generated/ANC-4037/ANC-4037-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4037/ANC-4037-full.jpg",
@@ -6256,15 +6226,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg",
     "whyYoullLoveIt": [
       "라인을 선명하게 보여주는 배색 포인트",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "리본과 배색 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4037/ANC-4037-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4037/ANC-4037-main-clean.jpg"
   },
   {
     "code": "ANC-4038",
@@ -6311,16 +6281,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
+      "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-full.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-detail-board.jpg",
       "assets/products/ank/generated/ANC-4038/ANC-4038-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4038/ANC-4038-full.jpg",
@@ -6355,15 +6325,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg",
     "whyYoullLoveIt": [
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4038/ANC-4038-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4038/ANC-4038-main-clean.jpg"
   },
   {
     "code": "ANC-4039",
@@ -6410,16 +6380,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
+      "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-full.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-detail-board.jpg",
       "assets/products/ank/generated/ANC-4039/ANC-4039-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4039/ANC-4039-full.jpg",
@@ -6454,15 +6424,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리 대비가 살아나는 플레어 실루엣",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
     "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4039/ANC-4039-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4039/ANC-4039-main-clean.jpg"
   },
   {
     "code": "ANC-4040",
@@ -6511,16 +6481,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
+      "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-full.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-detail-board.jpg",
       "assets/products/ank/generated/ANC-4040/ANC-4040-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4040/ANC-4040-full.jpg",
@@ -6555,15 +6525,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
     "editorsNote": "오프숄더와 드레이프 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4040/ANC-4040-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4040/ANC-4040-main-clean.jpg"
   },
   {
     "code": "ANC-4041",
@@ -6621,16 +6591,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
+      "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-full.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-detail-board.jpg",
       "assets/products/ank/generated/ANC-4041/ANC-4041-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4041/ANC-4041-full.jpg",
@@ -6665,15 +6635,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4041/ANC-4041-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4041/ANC-4041-main-clean.jpg"
   },
   {
     "code": "ANC-4042",
@@ -6721,16 +6691,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
+      "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-full.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-detail-board.jpg",
       "assets/products/ank/generated/ANC-4042/ANC-4042-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4042/ANC-4042-full.jpg",
@@ -6765,15 +6735,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정한 인상을 더해주는 카라넥",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 블라우스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4042/ANC-4042-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4042/ANC-4042-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -6840,7 +6810,7 @@
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4043/ANC-4043-main-clean.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "대표 확대컷",
         "source": "assets/products/ank/generated/ANC-4043/ANC-4043-main-clean.jpg"
       },
       {
@@ -6931,16 +6901,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
+      "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-full.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-detail-board.jpg",
       "assets/products/ank/generated/ANC-4044/ANC-4044-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4044/ANC-4044-full.jpg",
@@ -6975,15 +6945,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4044/ANC-4044-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4044/ANC-4044-main-clean.jpg"
   },
   {
     "code": "ANC-4045",
@@ -7032,16 +7002,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
+      "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-full.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-detail-board.jpg",
       "assets/products/ank/generated/ANC-4045/ANC-4045-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4045/ANC-4045-full.jpg",
@@ -7076,15 +7046,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "드레이프와 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4045/ANC-4045-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4045/ANC-4045-main-clean.jpg"
   },
   {
     "code": "ANC-4046",
@@ -7144,6 +7114,7 @@
     "isNew": true,
     "isPopular": false,
     "images": [
+      "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-back.jpg",
       "assets/products/ank/generated/ANC-4046/ANC-4046-detail-board.jpg",
@@ -7151,8 +7122,13 @@
     ],
     "cuts": [
       {
+        "url": "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg"
+      },
+      {
         "url": "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "전면컷",
         "source": "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg"
       },
       {
@@ -7188,15 +7164,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
     "editorsNote": "레이스와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4046/ANC-4046-front.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4046/ANC-4046-main-clean.jpg"
   },
   {
     "code": "ANC-4047",
@@ -7254,16 +7230,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
+      "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-full.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-detail-board.jpg",
       "assets/products/ank/generated/ANC-4047/ANC-4047-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4047/ANC-4047-full.jpg",
@@ -7298,15 +7274,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg",
     "whyYoullLoveIt": [
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "허리 대비가 살아나는 플레어 실루엣",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
     "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4047/ANC-4047-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4047/ANC-4047-main-clean.jpg"
   },
   {
     "code": "ANC-4048",
@@ -7355,16 +7331,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
+      "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-full.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-detail-board.jpg",
       "assets/products/ank/generated/ANC-4048/ANC-4048-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4048/ANC-4048-full.jpg",
@@ -7399,15 +7375,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg",
     "whyYoullLoveIt": [
       "움직일 때 은근한 섹시미를 더하는 트임 디테일",
       "단정한 인상을 더해주는 카라넥",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
     "editorsNote": "카라와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4048/ANC-4048-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4048/ANC-4048-main-clean.jpg"
   },
   {
     "code": "ANC-4049",
@@ -7456,16 +7432,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
+      "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-full.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-detail-board.jpg",
       "assets/products/ank/generated/ANC-4049/ANC-4049-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4049/ANC-4049-full.jpg",
@@ -7500,15 +7476,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4049/ANC-4049-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4049/ANC-4049-main-clean.jpg"
   },
   {
     "code": "ANC-4050",
@@ -7555,16 +7531,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
+      "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-full.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-detail-board.jpg",
       "assets/products/ank/generated/ANC-4050/ANC-4050-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4050/ANC-4050-full.jpg",
@@ -7599,15 +7575,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4050/ANC-4050-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4050/ANC-4050-main-clean.jpg"
   },
   {
     "code": "ANC-4051",
@@ -7656,16 +7632,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
+      "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-full.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-detail-board.jpg",
       "assets/products/ank/generated/ANC-4051/ANC-4051-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4051/ANC-4051-full.jpg",
@@ -7700,15 +7676,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4051/ANC-4051-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4051/ANC-4051-main-clean.jpg"
   },
   {
     "code": "ANC-4052",
@@ -7755,16 +7731,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
+      "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-full.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-detail-board.jpg",
       "assets/products/ank/generated/ANC-4052/ANC-4052-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4052/ANC-4052-full.jpg",
@@ -7799,15 +7775,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
     "editorsNote": "레이스와 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4052/ANC-4052-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4052/ANC-4052-main-clean.jpg"
   },
   {
     "code": "ANC-4053",
@@ -7856,16 +7832,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
+      "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-full.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-detail-board.jpg",
       "assets/products/ank/generated/ANC-4053/ANC-4053-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4053/ANC-4053-full.jpg",
@@ -7900,15 +7876,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg",
     "whyYoullLoveIt": [
       "러플 포인트로 룩에 개성을 더해주는 디자인",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4053/ANC-4053-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4053/ANC-4053-main-clean.jpg"
   },
   {
     "code": "ANC-4054",
@@ -7957,16 +7933,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
+      "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-full.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-detail-board.jpg",
       "assets/products/ank/generated/ANC-4054/ANC-4054-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4054/ANC-4054-full.jpg",
@@ -8001,15 +7977,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "클래식한 무드를 더하는 더블버튼 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "더블버튼과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4054/ANC-4054-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4054/ANC-4054-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -8062,16 +8038,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
+      "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-full.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-detail-board.jpg",
       "assets/products/ank/generated/ANC-4055/ANC-4055-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4055/ANC-4055-full.jpg",
@@ -8106,15 +8082,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "오프숄더와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4055/ANC-4055-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4055/ANC-4055-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -8162,16 +8138,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
+      "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-full.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-detail-board.jpg",
       "assets/products/ank/generated/ANC-4056/ANC-4056-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4056/ANC-4056-full.jpg",
@@ -8206,15 +8182,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg",
     "whyYoullLoveIt": [
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "빅리본과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4056/ANC-4056-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4056/ANC-4056-main-clean.jpg"
   },
   {
     "code": "ANC-4057",
@@ -8263,16 +8239,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
+      "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-full.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-detail-board.jpg",
       "assets/products/ank/generated/ANC-4057/ANC-4057-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4057/ANC-4057-full.jpg",
@@ -8307,15 +8283,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4057/ANC-4057-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4057/ANC-4057-main-clean.jpg"
   },
   {
     "code": "ANC-4058",
@@ -8362,16 +8338,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
+      "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-full.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-detail-board.jpg",
       "assets/products/ank/generated/ANC-4058/ANC-4058-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4058/ANC-4058-full.jpg",
@@ -8406,15 +8382,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "클래식한 무드를 더하는 더블버튼 디테일"
     ],
     "editorsNote": "더블버튼과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4058/ANC-4058-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4058/ANC-4058-main-clean.jpg"
   },
   {
     "code": "ANC-4059",
@@ -8463,16 +8439,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
+      "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-full.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-detail-board.jpg",
       "assets/products/ank/generated/ANC-4059/ANC-4059-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4059/ANC-4059-full.jpg",
@@ -8507,15 +8483,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg",
     "whyYoullLoveIt": [
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "오프숄더와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4059/ANC-4059-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4059/ANC-4059-main-clean.jpg"
   },
   {
     "code": "ANC-4060",
@@ -8564,16 +8540,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
+      "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-full.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-detail-board.jpg",
       "assets/products/ank/generated/ANC-4060/ANC-4060-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4060/ANC-4060-full.jpg",
@@ -8608,15 +8584,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4060/ANC-4060-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4060/ANC-4060-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -8668,16 +8644,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
+      "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-full.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-detail-board.jpg",
       "assets/products/ank/generated/ANC-4061/ANC-4061-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4061/ANC-4061-full.jpg",
@@ -8712,15 +8688,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4061/ANC-4061-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4061/ANC-4061-main-clean.jpg"
   },
   {
     "code": "ANC-4062",
@@ -8767,16 +8743,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
+      "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-full.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-detail-board.jpg",
       "assets/products/ank/generated/ANC-4062/ANC-4062-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4062/ANC-4062-full.jpg",
@@ -8811,15 +8787,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg",
     "whyYoullLoveIt": [
       "목선을 길고 여리하게 보여주는 브이넥",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "브이넥과 레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4062/ANC-4062-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4062/ANC-4062-main-clean.jpg"
   },
   {
     "code": "ANC-4063",
@@ -8868,16 +8844,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
+      "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-full.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-detail-board.jpg",
       "assets/products/ank/generated/ANC-4063/ANC-4063-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4063/ANC-4063-full.jpg",
@@ -8912,15 +8888,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
     "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4063/ANC-4063-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4063/ANC-4063-main-clean.jpg"
   },
   {
     "code": "ANC-4064",
@@ -8967,16 +8943,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
+      "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-full.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-detail-board.jpg",
       "assets/products/ank/generated/ANC-4064/ANC-4064-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4064/ANC-4064-full.jpg",
@@ -9011,15 +8987,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
     "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4064/ANC-4064-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4064/ANC-4064-main-clean.jpg"
   },
   {
     "code": "ANC-4065",
@@ -9068,6 +9044,7 @@
     "isNew": true,
     "isPopular": false,
     "images": [
+      "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-back.jpg",
       "assets/products/ank/generated/ANC-4065/ANC-4065-detail-board.jpg",
@@ -9075,8 +9052,13 @@
     ],
     "cuts": [
       {
+        "url": "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg"
+      },
+      {
         "url": "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "전면컷",
         "source": "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg"
       },
       {
@@ -9112,15 +9094,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "레이스와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4065/ANC-4065-front.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4065/ANC-4065-main-clean.jpg"
   },
   {
     "code": "ANC-4066",
@@ -9167,16 +9149,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
+      "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-full.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-detail-board.jpg",
       "assets/products/ank/generated/ANC-4066/ANC-4066-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4066/ANC-4066-full.jpg",
@@ -9211,15 +9193,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "라인을 선명하게 보여주는 배색 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4066/ANC-4066-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4066/ANC-4066-main-clean.jpg"
   },
   {
     "code": "ANC-4067",
@@ -9265,16 +9247,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
+      "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-full.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-detail-board.jpg",
       "assets/products/ank/generated/ANC-4067/ANC-4067-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4067/ANC-4067-full.jpg",
@@ -9309,15 +9291,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "빅리본과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4067/ANC-4067-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4067/ANC-4067-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -9363,16 +9345,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
+      "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-full.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-detail-board.jpg",
       "assets/products/ank/generated/ANC-4068/ANC-4068-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4068/ANC-4068-full.jpg",
@@ -9407,15 +9389,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg",
     "whyYoullLoveIt": [
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4068/ANC-4068-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4068/ANC-4068-main-clean.jpg"
   },
   {
     "code": "ANC-4069",
@@ -9464,16 +9446,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
+      "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-full.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-detail-board.jpg",
       "assets/products/ank/generated/ANC-4069/ANC-4069-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4069/ANC-4069-full.jpg",
@@ -9508,15 +9490,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg",
     "whyYoullLoveIt": [
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "셔링과 라인 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4069/ANC-4069-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4069/ANC-4069-main-clean.jpg"
   },
   {
     "code": "ANC-4070",
@@ -9563,16 +9545,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
+      "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-full.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-detail-board.jpg",
       "assets/products/ank/generated/ANC-4070/ANC-4070-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4070/ANC-4070-full.jpg",
@@ -9607,15 +9589,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4070/ANC-4070-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4070/ANC-4070-main-clean.jpg"
   },
   {
     "code": "ANC-4071",
@@ -9664,16 +9646,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
+      "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-full.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-detail-board.jpg",
       "assets/products/ank/generated/ANC-4071/ANC-4071-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4071/ANC-4071-full.jpg",
@@ -9708,15 +9690,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg",
     "whyYoullLoveIt": [
       "단정한 인상을 더해주는 카라넥",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
     "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4071/ANC-4071-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4071/ANC-4071-main-clean.jpg"
   },
   {
     "code": "ANC-4072",
@@ -9763,16 +9745,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
+      "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-full.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-detail-board.jpg",
       "assets/products/ank/generated/ANC-4072/ANC-4072-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4072/ANC-4072-full.jpg",
@@ -9807,15 +9789,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4072/ANC-4072-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4072/ANC-4072-main-clean.jpg"
   },
   {
     "code": "ANC-4073",
@@ -9864,16 +9846,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
+      "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-full.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-detail-board.jpg",
       "assets/products/ank/generated/ANC-4073/ANC-4073-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4073/ANC-4073-full.jpg",
@@ -9908,15 +9890,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4073/ANC-4073-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4073/ANC-4073-main-clean.jpg"
   },
   {
     "code": "ANC-4074",
@@ -9963,16 +9945,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
+      "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-full.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-detail-board.jpg",
       "assets/products/ank/generated/ANC-4074/ANC-4074-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4074/ANC-4074-full.jpg",
@@ -10007,15 +9989,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4074/ANC-4074-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4074/ANC-4074-main-clean.jpg"
   },
   {
     "code": "ANC-4075",
@@ -10062,16 +10044,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
+      "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-full.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-detail-board.jpg",
       "assets/products/ank/generated/ANC-4075/ANC-4075-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4075/ANC-4075-full.jpg",
@@ -10106,15 +10088,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg",
     "whyYoullLoveIt": [
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "허리 대비가 살아나는 플레어 실루엣",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
     "editorsNote": "오프숄더와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4075/ANC-4075-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4075/ANC-4075-main-clean.jpg"
   },
   {
     "code": "ANC-4076",
@@ -10161,16 +10143,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
+      "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-full.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-detail-board.jpg",
       "assets/products/ank/generated/ANC-4076/ANC-4076-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4076/ANC-4076-full.jpg",
@@ -10205,15 +10187,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4076/ANC-4076-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4076/ANC-4076-main-clean.jpg"
   },
   {
     "code": "ANC-4077",
@@ -10262,16 +10244,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
+      "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-full.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-detail-board.jpg",
       "assets/products/ank/generated/ANC-4077/ANC-4077-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4077/ANC-4077-full.jpg",
@@ -10306,15 +10288,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg",
     "whyYoullLoveIt": [
       "클래식한 무드를 더하는 더블버튼 디테일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "더블버튼과 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4077/ANC-4077-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4077/ANC-4077-main-clean.jpg"
   },
   {
     "code": "ANC-4078",
@@ -10361,16 +10343,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
+      "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-full.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-detail-board.jpg",
       "assets/products/ank/generated/ANC-4078/ANC-4078-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4078/ANC-4078-full.jpg",
@@ -10405,15 +10387,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "라인을 선명하게 보여주는 배색 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4078/ANC-4078-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4078/ANC-4078-main-clean.jpg"
   },
   {
     "code": "ANC-4079",
@@ -10462,16 +10444,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
+      "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-full.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-detail-board.jpg",
       "assets/products/ank/generated/ANC-4079/ANC-4079-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4079/ANC-4079-full.jpg",
@@ -10506,15 +10488,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4079/ANC-4079-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4079/ANC-4079-main-clean.jpg"
   },
   {
     "code": "ANC-4080",
@@ -10580,7 +10562,7 @@
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4080/ANC-4080-main-clean.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "대표 확대컷",
         "source": "assets/products/ank/generated/ANC-4080/ANC-4080-main-clean.jpg"
       },
       {
@@ -10673,16 +10655,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
+      "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-full.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-detail-board.jpg",
       "assets/products/ank/generated/ANC-4081/ANC-4081-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4081/ANC-4081-full.jpg",
@@ -10717,15 +10699,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg",
     "whyYoullLoveIt": [
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
     "editorsNote": "버튼과 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4081/ANC-4081-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4081/ANC-4081-main-clean.jpg"
   },
   {
     "code": "ANC-4082",
@@ -10774,16 +10756,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
+      "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-full.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-detail-board.jpg",
       "assets/products/ank/generated/ANC-4082/ANC-4082-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4082/ANC-4082-full.jpg",
@@ -10818,15 +10800,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "클래식한 무드를 더하는 더블버튼 디테일"
     ],
     "editorsNote": "더블버튼과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4082/ANC-4082-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4082/ANC-4082-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -10887,16 +10869,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
+      "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-full.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-detail-board.jpg",
       "assets/products/ank/generated/ANC-4083/ANC-4083-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4083/ANC-4083-full.jpg",
@@ -10931,15 +10913,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4083/ANC-4083-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4083/ANC-4083-main-clean.jpg"
   },
   {
     "code": "ANC-4084",
@@ -10988,16 +10970,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
+      "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-full.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-detail-board.jpg",
       "assets/products/ank/generated/ANC-4084/ANC-4084-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4084/ANC-4084-full.jpg",
@@ -11032,15 +11014,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리선을 또렷하게 잡아주는 벨트 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 벨트 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4084/ANC-4084-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4084/ANC-4084-main-clean.jpg",
     "sameDayAvailable": true,
     "best": true,
     "bestItem": true
@@ -11101,16 +11083,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
+      "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-full.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-detail-board.jpg",
       "assets/products/ank/generated/ANC-4085/ANC-4085-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4085/ANC-4085-full.jpg",
@@ -11145,15 +11127,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4085/ANC-4085-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4085/ANC-4085-main-clean.jpg"
   },
   {
     "code": "ANC-4086",
@@ -11201,16 +11183,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
+      "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-full.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-detail-board.jpg",
       "assets/products/ank/generated/ANC-4086/ANC-4086-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4086/ANC-4086-full.jpg",
@@ -11245,15 +11227,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg",
     "whyYoullLoveIt": [
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "빅리본과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4086/ANC-4086-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4086/ANC-4086-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -11303,16 +11285,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
+      "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-full.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-detail-board.jpg",
       "assets/products/ank/generated/ANC-4087/ANC-4087-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4087/ANC-4087-full.jpg",
@@ -11347,15 +11329,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
     "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4087/ANC-4087-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4087/ANC-4087-main-clean.jpg"
   },
   {
     "code": "ANC-4088",
@@ -11402,16 +11384,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
+      "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-full.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-detail-board.jpg",
       "assets/products/ank/generated/ANC-4088/ANC-4088-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4088/ANC-4088-full.jpg",
@@ -11446,15 +11428,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "어깨 라인을 사랑스럽게 잡아주는 퍼프 소매",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
     "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4088/ANC-4088-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4088/ANC-4088-main-clean.jpg"
   },
   {
     "code": "ANC-4089",
@@ -11512,16 +11494,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
+      "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-full.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-detail-board.jpg",
       "assets/products/ank/generated/ANC-4089/ANC-4089-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4089/ANC-4089-full.jpg",
@@ -11556,15 +11538,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg",
     "whyYoullLoveIt": [
       "우아한 섹시미를 살려주는 레이스 디테일",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4089/ANC-4089-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4089/ANC-4089-main-clean.jpg"
   },
   {
     "code": "ANC-4090",
@@ -11619,7 +11601,7 @@
     "cuts": [
       {
         "url": "assets/products/ank/generated/ANC-4090/ANC-4090-main-clean.jpg",
-        "cut": "대표 쇼룸컷",
+        "cut": "대표 확대컷",
         "source": "assets/products/ank/generated/ANC-4090/ANC-4090-main-clean.jpg"
       },
       {
@@ -11712,16 +11694,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
+      "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-full.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-detail-board.jpg",
       "assets/products/ank/generated/ANC-4091/ANC-4091-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4091/ANC-4091-full.jpg",
@@ -11756,15 +11738,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg",
     "whyYoullLoveIt": [
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4091/ANC-4091-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4091/ANC-4091-main-clean.jpg"
   },
   {
     "code": "ANC-4092",
@@ -11812,16 +11794,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
+      "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-full.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-detail-board.jpg",
       "assets/products/ank/generated/ANC-4092/ANC-4092-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4092/ANC-4092-full.jpg",
@@ -11856,15 +11838,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4092/ANC-4092-main.jpg",
+    "cardImage": "assets/products/ank/generated/ANC-4092/ANC-4092-main-clean.jpg",
     "sameDayAvailable": true
   },
   {
@@ -11912,16 +11894,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
+      "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-full.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-detail-board.jpg",
       "assets/products/ank/generated/ANC-4093/ANC-4093-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4093/ANC-4093-full.jpg",
@@ -11956,15 +11938,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg",
     "whyYoullLoveIt": [
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4093/ANC-4093-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4093/ANC-4093-main-clean.jpg"
   },
   {
     "code": "ANC-4094",
@@ -12011,16 +11993,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
+      "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-full.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-detail-board.jpg",
       "assets/products/ank/generated/ANC-4094/ANC-4094-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4094/ANC-4094-full.jpg",
@@ -12055,15 +12037,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg",
     "whyYoullLoveIt": [
       "허리 대비가 살아나는 플레어 실루엣",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
     "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4094/ANC-4094-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4094/ANC-4094-main-clean.jpg"
   },
   {
     "code": "ANC-4095",
@@ -12112,16 +12094,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
+      "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-full.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-detail-board.jpg",
       "assets/products/ank/generated/ANC-4095/ANC-4095-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4095/ANC-4095-full.jpg",
@@ -12156,15 +12138,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4095/ANC-4095-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4095/ANC-4095-main-clean.jpg"
   },
   {
     "code": "ANC-4096",
@@ -12211,16 +12193,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
+      "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-full.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-detail-board.jpg",
       "assets/products/ank/generated/ANC-4096/ANC-4096-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4096/ANC-4096-full.jpg",
@@ -12255,15 +12237,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg",
     "whyYoullLoveIt": [
       "라인을 선명하게 보여주는 배색 포인트",
       "단정한 인상을 더해주는 카라넥",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4096/ANC-4096-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4096/ANC-4096-main-clean.jpg"
   },
   {
     "code": "ANC-4097",
@@ -12312,16 +12294,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
+      "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-full.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-detail-board.jpg",
       "assets/products/ank/generated/ANC-4097/ANC-4097-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4097/ANC-4097-full.jpg",
@@ -12356,15 +12338,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg",
     "whyYoullLoveIt": [
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디를 부드럽게 감싸주는 니트 텍스처",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
     "editorsNote": "라인과 니트 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4097/ANC-4097-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4097/ANC-4097-main-clean.jpg"
   },
   {
     "code": "ANC-4098",
@@ -12411,16 +12393,16 @@
     "isNew": true,
     "isPopular": false,
     "images": [
-      "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
+      "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-full.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-detail-board.jpg",
       "assets/products/ank/generated/ANC-4098/ANC-4098-product.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
-        "cut": "대표 쇼룸컷",
-        "source": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg"
+        "url": "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg",
+        "cut": "대표 확대컷",
+        "source": "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg"
       },
       {
         "url": "assets/products/ank/generated/ANC-4098/ANC-4098-full.jpg",
@@ -12455,15 +12437,15 @@
     "new": true,
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
-    "thumbnail": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg",
+    "mainImage": "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg",
+    "thumbnail": "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg",
     "whyYoullLoveIt": [
       "어깨 라인을 사랑스럽게 잡아주는 퍼프 소매",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 퍼프 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "cardImage": "assets/products/ank/generated/ANC-4098/ANC-4098-main.jpg"
+    "cardImage": "assets/products/ank/generated/ANC-4098/ANC-4098-main-clean.jpg"
   },
   {
     "code": "P002",
