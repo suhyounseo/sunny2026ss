@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match86';
+const VERSION = 'match88';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -232,7 +232,7 @@ function sectionName() {
   if (FILTER === 'MIDI') return 'MIDI DRESS';
   if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
   if (FILTER === 'LONG') return 'LONG DRESS';
-  if (FILTER === 'SAME_DAY') return 'TODAY AVAILABLE';
+  if (FILTER === 'SAME_DAY') return '당일발송';
   return 'ALL COLLECTION';
 }
 
@@ -446,7 +446,7 @@ function renderHome() {
     ${sectionBlock('New Arrival', '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.', fresh)}
     ${collectionBlock()}
     ${communityBlock()}
-    ${isVipActive() ? sectionBlock('TODAY AVAILABLE', '오늘 매장에서 바로 확인하기 좋은 상품입니다.', sameDay) : ''}`;
+    ${isVipActive() ? sectionBlock('당일발송', '오늘 바로 발송되는 상품입니다.', sameDay) : ''}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
   bindVipControls();
