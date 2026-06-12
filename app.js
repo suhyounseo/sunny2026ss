@@ -548,7 +548,7 @@ function render() {
     grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.</div>';
     return;
   }
-  grid.innerHTML = `${similarShelfBlock()}${list.map(p => productCard(p)).join('')}`;
+  grid.innerHTML = `${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
   bindCards();
 }
 
