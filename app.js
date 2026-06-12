@@ -213,6 +213,8 @@ function editorSelectItems(visible) {
     ),
     need
   );
+
+  return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 
 function normalizeProduct(p) {
