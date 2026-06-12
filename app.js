@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match90';
+const VERSION = 'match91';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -50,7 +50,7 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
+const QUICK_BASE = ['대표핏', '미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
 const QUICK_VIP = ['당일발송'];
 const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
 const EDITOR_SELECT_LIMIT = 12;
@@ -267,7 +267,7 @@ function sectionName() {
 }
 
 function sectionIntro() {
-  if (FILTER === 'HOME') return '고객님께 어울리는 스타일을 편하게 둘러보고, 재고와 사이즈는 카카오톡으로 바로 확인해주세요.';
+  if (FILTER === 'HOME') return '대표 사진은 핏을 먼저 보고, 상세 사진은 소재와 길이를 확인하는 방식으로 정리했습니다. 마음에 드는 상품은 코드와 함께 카카오톡으로 재고와 사이즈를 확인해주세요.';
   if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
   if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
   if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
@@ -282,6 +282,7 @@ function sectionIntro() {
 function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
+  if (rawSearch === '대표핏') return mainImg(p) && /미니|미디|롱|A라인|슬림|투피스|드레스|원피스/i.test(productText(p));
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
   if (/^슬림핏$/i.test(rawSearch)) return /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
@@ -320,6 +321,7 @@ function match(p) {
 
 function badges(p) {
   const out = [];
+  out.push('<span class="badge showroom">대표핏</span>');
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
@@ -343,8 +345,9 @@ function priceBlock(p) {
 function productCard(p, compact = false) {
   const image = mainImg(p);
   const cardBadges = badges(p);
+  const photoHint = photoRole(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
+    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}<span class="photo-role">${photoHint}</span></div>
     <div class="info">
       <div class="code">상품코드 ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
@@ -363,6 +366,47 @@ function choose(list, limit) {
 function sectionBlock(label, desc, items) {
   if (!items.length) return '';
   return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
+}
+
+function photoRole(p) {
+  if (p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE')) return 'SET LOOK';
+  if (p.length === '롱' || p.category === 'LONG') return 'LONG FIT';
+  if (p.length === '미디' || p.category === 'MIDI') return 'MIDI FIT';
+  if (isCostume(p)) return 'CONCEPT';
+  if (/슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p))) return 'SLIM FIT';
+  return 'MAIN FIT';
+}
+
+function imageListFor(p) {
+  const cuts = Array.isArray(p.cuts) ? p.cuts.filter(im => im && im.url) : [];
+  const images = Array.isArray(p.images) ? p.images.filter(Boolean).map((url, i) => ({ url, cut: `사진 ${i + 1}` })) : [];
+  const seen = new Set();
+  return [...cuts, ...images].filter(im => {
+    if (seen.has(im.url)) return false;
+    seen.add(im.url);
+    return true;
+  });
+}
+
+function detailPhotoGuide(images) {
+  const labels = ['대표 핏', '전신/길이', '상반신 포인트', '소재/디테일'];
+  const steps = labels.slice(0, Math.min(labels.length, Math.max(images.length, 1)));
+  return `<div class="photo-guide">${steps.map((label, i) => `<span>${i + 1}. ${label}</span>`).join('')}</div>`;
+}
+
+function showroomRulesBlock() {
+  const rules = [
+    ['대표컷', '목록에서는 옷의 전체 핏과 분위기가 바로 보이는 사진을 우선으로 보여줍니다.'],
+    ['상세컷', '구매 전에 궁금한 길이, 색감, 소재, 포인트를 확인하는 순서로 봅니다.'],
+    ['상담컷', '마음에 드는 사진은 캡처하거나 상품코드를 보내면 재고와 사이즈를 빠르게 확인합니다.']
+  ];
+  return `<section class="rules-panel" aria-label="NICE 쇼룸 사진 규칙">
+    <div>
+      <p class="rules-kicker">OUR PHOTO RULE</p>
+      <h3>쇼룸은 사진을 예쁘게만 올리지 않고, 고르기 쉽게 정리합니다.</h3>
+    </div>
+    <div class="rules-grid">${rules.map(([title, copy]) => `<article><b>${title}</b><p>${copy}</p></article>`).join('')}</div>
+  </section>`;
 }
 
 function styleProfile(p) {
@@ -520,6 +564,8 @@ function renderHome() {
   const editorItems = editorSelectItems(visible);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
+  const costume = choose(sortProducts(visible.filter(p => isCostume(p) && !editorCodes.has(codeOf(p)))), 10);
+  const wideSize = choose(sortProducts(visible.filter(p => isWideSize(p) && !editorCodes.has(codeOf(p)))), 10);
   const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
   title.textContent = 'SHOWROOM';
   count.textContent = `${visible.length} items`;
@@ -527,8 +573,11 @@ function renderHome() {
   grid.className = 'home';
   grid.innerHTML = `
     ${similarShelfBlock()}
-    ${sectionBlock("Editor's Select", '신상과 겹치지 않게, 지금 쇼룸에서 안정적으로 추천드리기 좋은 스타일을 모았습니다.', editorItems)}
-    ${sectionBlock('New Arrival', '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.', fresh)}
+    ${showroomRulesBlock()}
+    ${sectionBlock("Showroom Pick", '첫 화면에서는 사진이 안정적이고, 핏을 판단하기 좋은 상품부터 보여드립니다.', editorItems)}
+    ${sectionBlock('New Arrival', '신상은 빠르게 보되, 대표 사진에서 길이와 분위기가 보이는 상품을 우선으로 정리했습니다.', fresh)}
+    ${sectionBlock('Concept & Stage', '촬영, 공연, 이벤트처럼 목적이 분명한 옷은 따로 모아 빠르게 찾을 수 있게 했습니다.', costume)}
+    ${sectionBlock('Size Comfort', '77/88 가능 또는 사이즈 상담이 필요한 상품은 상담 전 확인하기 쉽게 따로 묶었습니다.', wideSize)}
     ${collectionBlock()}
     ${communityBlock()}
     ${isVipActive() ? sectionBlock('당일발송', '오늘 바로 발송되는 상품입니다.', sameDay) : ''}`;
@@ -631,11 +680,12 @@ function openModalHistory(code) {
 function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
-  currentImages = p.cuts && p.cuts.length ? p.cuts : (p.images || []).map((u, i) => ({ url: u, cut: '상세 ' + (i + 1) }));
-  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
+  currentImages = imageListFor(p);
+  const labelTags = [photoRole(p), isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
   detail.innerHTML = `<div class="body">
     <section class="visual">
       <div class="main">${currentImages[0] ? `<img id="mainImage" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
+      ${detailPhotoGuide(currentImages)}
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
@@ -643,8 +693,9 @@ function openDetail(code) {
       <h2>${displayName(p)}</h2>
       <h3>${money(p.price)}</h3>
       ${!p.price ? '<p class="detail-price-note">카카오톡으로 현재 재고와 가격을 바로 확인해주세요.</p>' : ''}
+      <div class="box"><b>PHOTO CHECK</b><ul><li>첫 사진으로 전체 핏과 분위기를 확인하세요.</li><li>썸네일을 넘기며 길이, 상반신 포인트, 소재 디테일을 순서대로 보세요.</li></ul></div>
       <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x => `<li>${cleanText(x)}</li>`).join('')}</ul></div>
-      <div class="box"><b>EDITOR'S NOTE</b><p>${editorNote(p)}</p></div>
+      <div class="box"><b>SHOWROOM NOTE</b><p>${editorNote(p)}</p></div>
       <div class="box"><b>RECOMMENDED FOR</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
       <div class="spec">
         <div class="cell"><b>COLOR</b><span>${cleanText(p.color || '-')}</span></div>
