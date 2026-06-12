@@ -252,7 +252,7 @@ function cCount(k) {
 }
 
 function sectionName() {
-  if (FILTER === 'HOME') return 'ONLINE SHOWROOM';
+  if (FILTER === 'HOME') return 'SHOWROOM';
   const c = COLLECTIONS.find(x => x.filter === FILTER);
   if (c) return c.title;
   if (FILTER === 'NEW') return 'NEW ARRIVAL';
@@ -351,7 +351,7 @@ function productCard(p, compact = false) {
       <div class="meta">${meta(p)}</div>
       ${priceBlock(p)}
       ${cardBadges ? `<div class="card-badges">${cardBadges}</div>` : ''}
-      <button class="card-similar" type="button" data-code="${codeOf(p)}">비슷한 옷 보기</button>
+      <button class="card-similar" type="button" data-code="${codeOf(p)}">비슷한 옷 검색</button>
     </div>
   </article>`;
 }
@@ -380,17 +380,70 @@ function styleProfile(p) {
   ].filter(Boolean);
 }
 
+function unique(list) {
+  return [...new Set(list.filter(Boolean).map(x => String(x).trim()).filter(Boolean))];
+}
+
+function colorGroup(value) {
+  const text = norm(value);
+  if (!text) return '';
+  const groups = [
+    ['black', ['블랙', '검정', 'black']],
+    ['white', ['화이트', '아이보리', '크림', '백색', 'white', 'ivory', 'cream']],
+    ['beige', ['베이지', '누드', '샴페인', 'beige', 'nude', 'champagne']],
+    ['pink', ['핑크', '로즈', '코랄', 'pink', 'rose', 'coral']],
+    ['red', ['레드', '버건디', '와인', 'red', 'burgundy', 'wine']],
+    ['blue', ['블루', '네이비', '소라', 'blue', 'navy']],
+    ['green', ['그린', '카키', '민트', 'green', 'khaki', 'mint']],
+    ['gray', ['그레이', '실버', 'gray', 'grey', 'silver']]
+  ];
+  const found = groups.find(([, words]) => words.some(word => text.includes(word)));
+  return found ? found[0] : text;
+}
+
+function fieldTokens(p) {
+  const styleTags = Array.isArray(p.styleTags) ? p.styleTags : [];
+  const sceneTags = Array.isArray(p.sceneTags) ? p.sceneTags : [];
+  const source = [
+    p.name, p.productName, p.storeName, p.color, p.category, p.length, p.fit, p.fabric,
+    ...tags(p), ...styleTags, ...sceneTags
+  ].join(' ');
+  return unique(source
+    .replace(/[()[\],/·|+]/g, ' ')
+    .split(/\s+/)
+    .map(x => cleanText(x))
+    .filter(x => x.length > 1 && !/상품|드레스|원피스|가능|문의|NICE/i.test(x))
+  );
+}
+
+function overlapCount(a, b) {
+  const right = new Set(b);
+  return a.filter(x => right.has(x)).length;
+}
+
 function similarScore(source, candidate) {
   const sourceProfile = styleProfile(source);
   const candidateProfile = styleProfile(candidate);
+  const sourceTokens = fieldTokens(source);
+  const candidateTokens = fieldTokens(candidate);
   let score = 0;
+
   sourceProfile.forEach(tag => {
-    if (candidateProfile.includes(tag)) score += tag === 'A라인' || tag === '슬림핏' || tag === '미디' ? 120 : 80;
+    if (candidateProfile.includes(tag)) score += tag === 'A라인' || tag === '슬림핏' || tag === '미디' ? 140 : 90;
   });
-  if (source.category && source.category === candidate.category) score += 55;
-  if (source.length && source.length === candidate.length) score += 45;
-  if (source.collection && source.collection === candidate.collection) score += 20;
-  if (source.color && candidate.color && source.color === candidate.color) score += 12;
+
+  if (source.category && source.category === candidate.category) score += 110;
+  if (source.length && source.length === candidate.length) score += 95;
+  if (source.fit && candidate.fit && source.fit === candidate.fit) score += 55;
+  if (source.collection && source.collection === candidate.collection) score += 35;
+  if (source.color && candidate.color && source.color === candidate.color) score += 60;
+  else if (colorGroup(source.color) && colorGroup(source.color) === colorGroup(candidate.color)) score += 32;
+
+  score += overlapCount(tags(source), tags(candidate)) * 26;
+  score += overlapCount(Array.isArray(source.styleTags) ? source.styleTags : [], Array.isArray(candidate.styleTags) ? candidate.styleTags : []) * 34;
+  score += overlapCount(Array.isArray(source.sceneTags) ? source.sceneTags : [], Array.isArray(candidate.sceneTags) ? candidate.sceneTags : []) * 42;
+  score += Math.min(overlapCount(sourceTokens, candidateTokens), 5) * 18;
+
   if (isBest(candidate)) score += 8;
   if (isNew(candidate)) score += 5;
   if (!mainImg(candidate)) score -= 80;
@@ -398,11 +451,15 @@ function similarScore(source, candidate) {
 }
 
 function similarItemsFor(source, limit = 12) {
-  return PRODUCTS
+  const ranked = PRODUCTS
     .filter(p => visibleToAudience(p) && codeOf(p) !== codeOf(source) && mainImg(p))
     .map(p => ({ p, score: similarScore(source, p) }))
     .filter(x => x.score > 0)
-    .sort((a, b) => b.score - a.score || rankProduct(b.p) - rankProduct(a.p))
+    .sort((a, b) => b.score - a.score || rankProduct(b.p) - rankProduct(a.p));
+
+  const strong = ranked.filter(x => x.score >= 45);
+  const fallback = ranked.filter(x => x.score < 45);
+  return [...strong, ...fallback]
     .slice(0, limit)
     .map(x => x.p);
 }
@@ -416,7 +473,7 @@ function similarShelfBlock() {
   return `<section class="similar-shelf" aria-live="polite">
     <div class="section-head similar-head">
       <div>
-        <h3>비슷한 상품</h3>
+        <h3>비슷한 옷 추천</h3>
         <p>${displayName(source)} 기준 ${profile ? profile + ' ' : ''}스타일을 모았습니다.</p>
       </div>
       <button class="similar-close" type="button" aria-label="비슷한 상품 닫기">닫기</button>
@@ -464,7 +521,7 @@ function renderHome() {
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
   const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
-  title.textContent = 'ONLINE SHOWROOM';
+  title.textContent = 'SHOWROOM';
   count.textContent = `${visible.length} items`;
   intro.textContent = sectionIntro();
   grid.className = 'home';
