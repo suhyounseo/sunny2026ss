@@ -202,3 +202,15 @@
   .photo-guide{gap:6px}
   .photo-guide span{min-height:30px;font-size:11px}
 }
+
+/* Simple showroom header override */
+.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:26px 16px 22px;border-bottom:1px solid #d8c2a333}
+.hero:before{display:none}
+.hero h1{margin:0;font-family:Georgia,serif;font-size:42px;letter-spacing:.18em}
+.hero p{margin:8px 0 0;color:#d9c9bb;font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+.hero-copy,.hero-kicker,.hero-points{display:none}
+@media(max-width:720px){
+  .hero{padding:22px 14px 18px}
+  .hero h1{font-size:34px}
+  .hero p{font-size:11px}
+}

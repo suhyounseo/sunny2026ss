@@ -561,13 +561,22 @@ function communityBlock() {
 
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const list = sortProducts(visible);
+  const editorItems = editorSelectItems(visible);
+  const editorCodes = new Set(editorItems.map(codeOf));
+  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
   title.textContent = 'SHOWROOM';
-  count.textContent = `${list.length} items`;
+  count.textContent = `${visible.length} items`;
   intro.textContent = sectionIntro();
-  grid.className = 'grid';
-  grid.innerHTML = `${SIMILAR_CODE ? similarShelfBlock() : ''}${list.map(p => productCard(p)).join('')}`;
+  grid.className = 'home';
+  grid.innerHTML = `
+    ${SIMILAR_CODE ? similarShelfBlock() : ''}
+    ${sectionBlock("Editor's Pick", '지금 쇼룸에서 먼저 보여드리고 싶은 원피스예요.', editorItems)}
+    ${sectionBlock('New Arrival', '새로 들어온 원피스를 모았어요.', fresh)}
+    ${collectionBlock()}
+    ${communityBlock()}`;
+  $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
+  bindVipControls();
 }
 
 function render() {
