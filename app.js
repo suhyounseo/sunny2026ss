@@ -117,6 +117,20 @@ function displayCode(p) {
   return cleanText(p.customerCode || p.code || '');
 }
 
+function sizeSummary(p) {
+  const info = cleanText(p.sizeInfo || '');
+  if (info === '확인 필요') return '확인 필요';
+  return cleanText(p.size || info || '');
+}
+
+function sizeDetail(p) {
+  const size = cleanText(p.size || '');
+  const info = cleanText(p.sizeInfo || '');
+  if (info === '확인 필요') return '확인 필요';
+  if (size && info && size !== info) return `${size} / ${info}`;
+  return size || info || '-';
+}
+
 function money(n) {
   return n ? '₩' + Number(n).toLocaleString('ko-KR') : '가격문의';
 }
@@ -160,6 +174,7 @@ function hasExtendedSizeLeadTime(p) {
 
 function isFittingAvailable(p) {
   if (isAnkProduct(p)) return false;
+  if (p.fittingAvailable === false) return false;
   return p.fittingAvailable === true || /피팅|매장/.test(productText(p));
 }
 
@@ -330,7 +345,8 @@ function badges(p) {
 }
 
 function meta(p) {
-  return [p.length, p.color, p.size ? 'SIZE ' + p.size : '', isWideSize(p) ? '77/88가능' : '']
+  const size = sizeSummary(p);
+  return [p.length, p.color, size ? 'SIZE ' + size : '', isWideSize(p) ? '77/88가능' : '']
     .filter(Boolean)
     .slice(0, 3)
     .map(x => `<span>${cleanText(x)}</span>`)
@@ -689,7 +705,7 @@ function openDetail(code) {
       <div class="box"><b>추천 상황</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
       <div class="spec">
         <div class="cell"><b>컬러</b><span>${cleanText(p.color || '-')}</span></div>
-        <div class="cell"><b>사이즈</b><span>${cleanText(p.size || p.sizeInfo || '-')}</span></div>
+        <div class="cell"><b>사이즈</b><span>${sizeDetail(p)}</span></div>
         ${p.modelSize ? `<div class="cell"><b>모델</b><span>${cleanText(p.modelSize)}</span></div>` : ''}
         ${p.wearSize ? `<div class="cell"><b>착용</b><span>${cleanText(p.wearSize)}</span></div>` : ''}
         <div class="cell"><b>소재</b><span>${cleanText(p.fabric || '확인필요')}</span></div>
