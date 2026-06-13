@@ -204,14 +204,14 @@
 }
 
 /* Simple showroom header override */
-.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:26px 16px 22px;border-bottom:1px solid #d8c2a333}
+.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:34px 16px 28px;border-bottom:1px solid #d8c2a333}
 .hero:before{display:none}
-.hero h1{margin:0;font-family:Georgia,serif;font-size:42px;letter-spacing:.18em}
+.hero h1{margin:0;font-family:Georgia,serif;font-size:64px;letter-spacing:.18em}
 .hero p{display:none}
 .hero-copy{position:relative;z-index:1;max-width:900px;margin:0 auto}
 .hero-kicker,.hero-points{display:none}
 @media(max-width:720px){
-  .hero{padding:22px 14px 18px}
-  .hero h1{font-size:34px}
+  .hero{padding:28px 14px 22px}
+  .hero h1{font-size:48px}
   .hero p{font-size:11px}
 }
