@@ -267,7 +267,7 @@ function sectionName() {
 }
 
 function sectionIntro() {
-  if (FILTER === 'HOME') return '대표 사진은 핏을 먼저 보고, 상세 사진은 소재와 길이를 확인하는 방식으로 정리했습니다. 마음에 드는 상품은 코드와 함께 카카오톡으로 재고와 사이즈를 확인해주세요.';
+  if (FILTER === 'HOME') return '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 원피스는 상품 코드로 재고와 사이즈를 바로 확인해드립니다.';
   if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
   if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
   if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
@@ -561,29 +561,13 @@ function communityBlock() {
 
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const editorItems = editorSelectItems(visible);
-  const editorCodes = new Set(editorItems.map(codeOf));
-  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
-  const costume = choose(sortProducts(visible.filter(p => isCostume(p) && !editorCodes.has(codeOf(p)))), 10);
-  const wideSize = choose(sortProducts(visible.filter(p => isWideSize(p) && !editorCodes.has(codeOf(p)))), 10);
-  const sameDay = choose(sortProducts(visible.filter(isSameDayVisible)), 10);
+  const list = sortProducts(visible);
   title.textContent = 'SHOWROOM';
-  count.textContent = `${visible.length} items`;
+  count.textContent = `${list.length} items`;
   intro.textContent = sectionIntro();
-  grid.className = 'home';
-  grid.innerHTML = `
-    ${similarShelfBlock()}
-    ${showroomRulesBlock()}
-    ${sectionBlock("Showroom Pick", '첫 화면에서는 사진이 안정적이고, 핏을 판단하기 좋은 상품부터 보여드립니다.', editorItems)}
-    ${sectionBlock('New Arrival', '신상은 빠르게 보되, 대표 사진에서 길이와 분위기가 보이는 상품을 우선으로 정리했습니다.', fresh)}
-    ${sectionBlock('Concept & Stage', '촬영, 공연, 이벤트처럼 목적이 분명한 옷은 따로 모아 빠르게 찾을 수 있게 했습니다.', costume)}
-    ${sectionBlock('Size Comfort', '77/88 가능 또는 사이즈 상담이 필요한 상품은 상담 전 확인하기 쉽게 따로 묶었습니다.', wideSize)}
-    ${collectionBlock()}
-    ${communityBlock()}
-    ${isVipActive() ? sectionBlock('당일발송', '오늘 바로 발송되는 상품입니다.', sameDay) : ''}`;
-  $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
+  grid.className = 'grid';
+  grid.innerHTML = `${SIMILAR_CODE ? similarShelfBlock() : ''}${list.map(p => productCard(p)).join('')}`;
   bindCards();
-  bindVipControls();
 }
 
 function render() {
@@ -685,29 +669,22 @@ function openDetail(code) {
   detail.innerHTML = `<div class="body">
     <section class="visual">
       <div class="main">${currentImages[0] ? `<img id="mainImage" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
-      ${detailPhotoGuide(currentImages)}
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
       <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
       <h2>${displayName(p)}</h2>
       <h3>${money(p.price)}</h3>
-      ${!p.price ? '<p class="detail-price-note">카카오톡으로 현재 재고와 가격을 바로 확인해주세요.</p>' : ''}
-      <div class="box"><b>PHOTO CHECK</b><ul><li>첫 사진으로 전체 핏과 분위기를 확인하세요.</li><li>썸네일을 넘기며 길이, 상반신 포인트, 소재 디테일을 순서대로 보세요.</li></ul></div>
-      <div class="box"><b>WHY YOU'LL LOVE IT</b><ul>${points(p).map(x => `<li>${cleanText(x)}</li>`).join('')}</ul></div>
-      <div class="box"><b>SHOWROOM NOTE</b><p>${editorNote(p)}</p></div>
-      <div class="box"><b>RECOMMENDED FOR</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
+      ${!p.price ? '<p class="detail-price-note">재고와 가격은 카카오톡으로 바로 확인해드립니다.</p>' : ''}
+      <div class="box"><b>스타일 포인트</b><ul>${points(p).map(x => `<li>${cleanText(x)}</li>`).join('')}</ul></div>
+      <div class="box"><b>추천 상황</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
       <div class="spec">
-        <div class="cell"><b>COLOR</b><span>${cleanText(p.color || '-')}</span></div>
-        <div class="cell"><b>SIZE</b><span>${cleanText(p.size || p.sizeInfo || '-')}</span></div>
-        ${p.modelSize ? `<div class="cell"><b>MODEL</b><span>${cleanText(p.modelSize)}</span></div>` : ''}
-        ${p.wearSize ? `<div class="cell"><b>WEAR</b><span>${cleanText(p.wearSize)}</span></div>` : ''}
-        <div class="cell"><b>FABRIC</b><span>${cleanText(p.fabric || '확인필요')}</span></div>
-        <div class="cell"><b>DETAIL</b><span>${cleanText(p.wearInfo || p.lining || '-')}</span></div>
-      </div>
-      <div class="purchase-guide">
-        <b>구매 안내</b>
-        <p>이 상품은 매장 재고와 사이즈 확인 후 구매 가능합니다. 카카오톡으로 상품 코드 또는 캡처 이미지를 보내주시면 빠르게 안내드립니다.${hasExtendedSizeLeadTime(p) ? '<br>77/88 및 일부 99 사이즈는 제작 문의가 가능하며, 보통 1~2주 정도 소요됩니다. 지연 시 한 달 이상 걸릴 수 있습니다.' : ''}</p>
+        <div class="cell"><b>컬러</b><span>${cleanText(p.color || '-')}</span></div>
+        <div class="cell"><b>사이즈</b><span>${cleanText(p.size || p.sizeInfo || '-')}</span></div>
+        ${p.modelSize ? `<div class="cell"><b>모델</b><span>${cleanText(p.modelSize)}</span></div>` : ''}
+        ${p.wearSize ? `<div class="cell"><b>착용</b><span>${cleanText(p.wearSize)}</span></div>` : ''}
+        <div class="cell"><b>소재</b><span>${cleanText(p.fabric || '확인필요')}</span></div>
+        <div class="cell"><b>상세</b><span>${cleanText(p.wearInfo || p.lining || '-')}</span></div>
       </div>
       <div class="cta detail-cta">
         <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
