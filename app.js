@@ -34,7 +34,7 @@ const COLLECTIONS = [
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
 ];
 
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME', 'MINI', 'MIDI', 'TWO_PIECE', 'LONG'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
@@ -50,7 +50,7 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['대표핏', '미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '파티룩', '클럽룩', '무대의상', '77/88'];
+const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '스커트', '블라우스', '77/88'];
 const QUICK_VIP = ['당일발송'];
 const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
 const EDITOR_SELECT_LIMIT = 12;
@@ -133,6 +133,110 @@ function sizeDetail(p) {
 
 function money(n) {
   return n ? '₩' + Number(n).toLocaleString('ko-KR') : '가격문의';
+}
+
+function safeText(value) {
+  const text = cleanText(value || '');
+  if (!text || /확인\s*필요|확인필요|추정\s*금지|거래처|입고표|상품택|확정/i.test(text)) return '';
+  return text;
+}
+
+function detailPriceBlock(p) {
+  if (p.price) return `<div class="detail-price">${money(p.price)}</div>`;
+  return '<div class="detail-price price-inquiry"><strong>가격문의</strong><span>카카오톡으로 재고/가격 확인</span></div>';
+}
+
+function simpleSize(p) {
+  const size = safeText(p.size);
+  if (size) return size;
+  const info = safeText(p.sizeInfo);
+  if (!info) return '문의';
+  return info.split('/')[0].trim() || '문의';
+}
+
+function publicPoints(p) {
+  const seen = new Set();
+  const base = Array.isArray(p.points) && p.points.length
+    ? p.points
+    : [p.mainCopy, p.desc, p.description, `${p.color || ''} ${p.length || ''} ${p.fit || ''}`];
+  return base
+    .map(x => safeText(x))
+    .map(x => x.replace(/매장 피팅 후[^.。]*[.。]?/g, '').replace(/\s{2,}/g, ' ').trim())
+    .filter(Boolean)
+    .filter(x => {
+      const key = norm(x);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, 3);
+}
+
+function recommendLine(p) {
+  const text = safeText(p.recommend)
+    || `${p.length || ''} ${p.category || '원피스'}를 데이트, 모임, 촬영룩으로 활용하기 좋습니다.`;
+  return text.split(/[.!。]/)[0].replace(/추천$/, '추천').trim() + '.';
+}
+
+function shortDescription(p) {
+  const source = safeText(p.desc || p.description || p.mainCopy)
+    || `${safeText(p.color) || 'NICE 셀렉션'} 컬러와 ${safeText(p.fit) || '깔끔한'} 라인이 돋보이는 상품입니다.`;
+  const cleaned = source
+    .replace(/매장 피팅 후[^.。]*[.。]?/g, '')
+    .replace(/카카오톡으로[^.。]*[.。]?/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  const sentences = cleaned.split(/(?<=[.!?。])\s+/).filter(Boolean).slice(0, 2);
+  return sentences.length ? sentences.join(' ') : cleaned;
+}
+
+function specCells(p) {
+  const items = [
+    ['컬러', safeText(p.color) || '문의'],
+    ['사이즈', simpleSize(p)],
+    ['소재', safeText(p.fabric)],
+    ['안감', safeText(p.lining)],
+    ['신축성', safeText(p.stretch)],
+    ['비침', safeText(p.see)],
+    ['두께', safeText(p.thickness)],
+    ['지퍼', safeText(p.zipper)]
+  ].filter(([, value]) => value);
+  return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${value}</span></div>`).join('');
+}
+
+function sizeGuideRows(groupText) {
+  const rows = [];
+  const rowRe = /([A-Z]{1,2}|FREE|55|66|77|88)\(([^)]*)\)/gi;
+  let match;
+  const sleeve = (groupText.match(/소매\s*:?\s*([\d.]+)/) || [])[1] || '';
+  const length = (groupText.match(/기장\s*:?\s*([\d.]+)/) || [])[1] || '';
+  while ((match = rowRe.exec(groupText))) {
+    const body = match[2];
+    rows.push({
+      size: match[1],
+      chest: (body.match(/가\s*:?\s*([\d.]+)/) || [])[1] || '-',
+      waist: (body.match(/허\s*:?\s*([\d.]+)/) || [])[1] || '-',
+      hip: (body.match(/힙\s*:?\s*([\d.]+)/) || [])[1] || '-',
+      sleeve: (body.match(/소매\s*:?\s*([\d.]+)/) || [])[1] || sleeve || '-',
+      length: (body.match(/기장\s*:?\s*([\d.]+)/) || [])[1] || length || '-'
+    });
+  }
+  return rows;
+}
+
+function sizeGuideBlock(p) {
+  const info = safeText(p.sizeInfo);
+  if (!info || !/[A-Z]{1,2}\(/i.test(info)) {
+    return '<div class="box size-guide"><b>사이즈 가이드</b><p>상세 사이즈는 카카오톡으로 문의해 주세요.</p></div>';
+  }
+  const groups = info.split('|').map(x => x.trim()).filter(Boolean).slice(0, 2);
+  const tables = groups.map(group => {
+    const rows = sizeGuideRows(group);
+    if (!rows.length) return '';
+    const title = group.includes('하의') ? '하의' : group.includes('상의') ? '상의/원피스' : '실측';
+    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>사이즈</th><th>가슴</th><th>허리</th><th>힙</th><th>소매</th><th>총장</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
+  }).filter(Boolean).join('');
+  return `<div class="box size-guide"><b>사이즈 가이드</b>${tables || '<p>상세 사이즈는 카카오톡으로 문의해 주세요.</p>'}</div>`;
 }
 
 function productText(p) {
@@ -394,12 +498,14 @@ function photoRole(p) {
 }
 
 function imageListFor(p) {
+  const main = mainImg(p) ? [{ url: mainImg(p), cut: '대표' }] : [];
   const cuts = Array.isArray(p.cuts) ? p.cuts.filter(im => im && im.url) : [];
   const images = Array.isArray(p.images) ? p.images.filter(Boolean).map((url, i) => ({ url, cut: `사진 ${i + 1}` })) : [];
   const seen = new Set();
-  return [...cuts, ...images].filter(im => {
-    if (seen.has(im.url)) return false;
-    seen.add(im.url);
+  return [...main, ...cuts, ...images].filter(im => {
+    const key = String(im.url || '').split('?')[0].replace(/\\/g, '/').toLowerCase();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
     return true;
   });
 }
@@ -691,6 +797,7 @@ function openDetail(code) {
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
   const labelTags = [photoRole(p), isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
+  const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
       <div class="main">${currentImages[0] ? `<img id="mainImage" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
@@ -699,18 +806,16 @@ function openDetail(code) {
     <section class="copy">
       <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
       <h2>${displayName(p)}</h2>
-      <h3>${money(p.price)}</h3>
+      ${detailPriceBlock(p)}
       ${!p.price ? '<p class="detail-price-note">재고와 가격은 카카오톡으로 바로 확인해드립니다.</p>' : ''}
-      <div class="box"><b>스타일 포인트</b><ul>${points(p).map(x => `<li>${cleanText(x)}</li>`).join('')}</ul></div>
-      <div class="box"><b>추천 상황</b><p>${cleanText(p.recommend || '파티 · 클럽 · 무대 · 촬영 · 모임').replaceAll('/', ' · ')}</p></div>
+      ${pointItems.length ? `<div class="box detail-points"><b>스타일 포인트</b><ul>${pointItems.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+      <div class="box compact-box"><b>추천 상황</b><p>${recommendLine(p)}</p></div>
+      <div class="box compact-box"><b>상세 설명</b><p>${shortDescription(p)}</p></div>
       <div class="spec">
-        <div class="cell"><b>컬러</b><span>${cleanText(p.color || '-')}</span></div>
-        <div class="cell"><b>사이즈</b><span>${sizeDetail(p)}</span></div>
-        ${p.modelSize ? `<div class="cell"><b>모델</b><span>${cleanText(p.modelSize)}</span></div>` : ''}
-        ${p.wearSize ? `<div class="cell"><b>착용</b><span>${cleanText(p.wearSize)}</span></div>` : ''}
-        <div class="cell"><b>소재</b><span>${cleanText(p.fabric || '확인필요')}</span></div>
-        <div class="cell"><b>상세</b><span>${cleanText(p.wearInfo || p.lining || '-')}</span></div>
+        ${specCells(p)}
       </div>
+      ${sizeGuideBlock(p)}
+      <p class="common-note">재고, 실측, 피팅 상담은 상품코드와 함께 카카오톡으로 문의해 주세요.</p>
       <div class="cta detail-cta">
         <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
         <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>인스타 DM 문의</span></a>

@@ -215,3 +215,31 @@
   .hero h1{font-size:48px}
   .hero p{font-size:11px}
 }
+
+/* Detail readability cleanup */
+.detail-price{margin:4px 0 18px;font-size:32px;font-weight:950;line-height:1.1;text-decoration:none}
+.copy h3,.price,.detail-price{text-decoration:none}
+.box.compact-box{padding:16px 18px}
+.detail-points ul{margin:0;padding-left:20px}
+.detail-points li{margin:4px 0}
+.spec{grid-template-columns:repeat(2,minmax(0,1fr))}
+.cell{min-height:76px}
+.cell span{display:block;line-height:1.35;overflow-wrap:anywhere}
+.size-guide{padding:16px 18px}
+.size-guide p{margin:0;color:#5d4e44;font-weight:800}
+.size-table-wrap{overflow-x:auto;margin-top:8px}
+.size-table-wrap+p,.size-table-wrap+.size-table-wrap{margin-top:12px}
+.size-table-wrap>p{margin:0 0 6px;color:#6f5b4c;font-size:13px;font-weight:950}
+.size-table{width:100%;border-collapse:collapse;min-width:480px;background:#fff}
+.size-table th,.size-table td{padding:9px 8px;border:1px solid #e1d0bf;text-align:center;font-size:13px}
+.size-table th{background:#f2e8dc;color:#6c584b;font-weight:950}
+.size-table td{color:#2d241f;font-weight:850}
+.common-note{margin:14px 0 0;color:#756358;font-size:13px;font-weight:850;line-height:1.55}
+@media(max-width:720px){
+  .detail-price{font-size:25px;margin-bottom:14px}
+  .box.compact-box,.size-guide{padding:14px}
+  .spec{grid-template-columns:1fr 1fr;gap:8px}
+  .cell{min-height:68px}
+  .size-table{min-width:420px}
+  .size-table th,.size-table td{padding:8px 6px;font-size:12px}
+}
