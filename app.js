@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match92';
+const VERSION = 'match94';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -82,7 +82,7 @@ const WIDE_SIZE_SUPPLIERS = ['앙크최', '지니', '세윤', '펄', '임마누�
 const norm = s => String(s || '').toLowerCase();
 const tags = p => Array.isArray(p.tags) ? p.tags : [];
 const codeOf = p => String(p.code || '');
-const mainImg = p => p.mainImage || p.thumbnail || p.cardImage || (Array.isArray(p.images) && p.images[0]) || '';
+const mainImg = p => p.mainImage || p.thumbnail || p.cardImage || (Array.isArray(p.images) && p.images[0]) || (Array.isArray(p.cuts) && p.cuts[0] && p.cuts[0].url) || '';
 const img = u => u ? `${u}?v=${VERSION}` : '';
 const hasTag = (p, t) => tags(p).some(x => norm(x) === norm(t));
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
@@ -92,7 +92,7 @@ const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
 const isVipActive = () => vipUntil() > Date.now();
 const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now() + VIP_TTL_MS));
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
-const visibleToAudience = p => isVipActive() || p.vipOnly !== true;
+const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
 
 function cleanText(value, fallback = '') {
@@ -394,7 +394,7 @@ function sectionName() {
 }
 
 function sectionIntro() {
-  if (FILTER === 'HOME') return '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 원피스는 상품 코드로 재고와 사이즈를 바로 확인해드립니다.';
+  if (FILTER === 'HOME') return '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 제품은 상품 코드로 재고와 사이즈를 바로 확인해드립니다.';
   if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
   if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
   if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
@@ -409,7 +409,6 @@ function sectionIntro() {
 function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
-  if (rawSearch === '대표핏') return mainImg(p) && /미니|미디|롱|A라인|슬림|투피스|드레스|원피스/i.test(productText(p));
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
   if (/^슬림핏$/i.test(rawSearch)) return /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
@@ -453,7 +452,6 @@ function match(p) {
 
 function badges(p) {
   const out = [];
-  out.push('<span class="badge showroom">대표핏</span>');
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
@@ -478,9 +476,8 @@ function priceBlock(p) {
 function productCard(p, compact = false) {
   const image = mainImg(p);
   const cardBadges = badges(p);
-  const photoHint = photoRole(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}<span class="photo-role">${photoHint}</span></div>
+    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
     <div class="info">
       <div class="code">상품코드 ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
@@ -499,15 +496,6 @@ function choose(list, limit) {
 function sectionBlock(label, desc, items) {
   if (!items.length) return '';
   return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
-}
-
-function photoRole(p) {
-  if (p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE')) return 'SET LOOK';
-  if (p.length === '롱' || p.category === 'LONG') return 'LONG FIT';
-  if (p.length === '미디' || p.category === 'MIDI') return 'MIDI FIT';
-  if (isCostume(p)) return 'CONCEPT';
-  if (/슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p))) return 'SLIM FIT';
-  return 'MAIN FIT';
 }
 
 function imageListFor(p) {
@@ -705,8 +693,8 @@ function renderHome() {
   grid.className = 'home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock("Editor's Pick", '지금 쇼룸에서 먼저 보여드리고 싶은 원피스예요.', editorItems)}
-    ${sectionBlock('New Arrival', '새로 들어온 원피스를 모았어요.', fresh)}
+    ${sectionBlock("Editor's Pick", '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.', editorItems)}
+    ${sectionBlock('New Arrival', '새로 들어온 제품을 모았습니다.', fresh)}
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
@@ -809,7 +797,7 @@ function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
-  const labelTags = [photoRole(p), isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
+  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
