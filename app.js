@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match91';
+const VERSION = 'match92';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -130,7 +130,7 @@ function sizeDetail(p) {
 }
 
 function money(n) {
-  return n ? '₩' + Number(n).toLocaleString('ko-KR') : '가격문의';
+  return n ? Number(n).toLocaleString('ko-KR') + '원' : '가격문의';
 }
 
 function safeText(value) {
@@ -159,7 +159,13 @@ function publicPoints(p) {
     : [p.mainCopy, p.desc, p.description, `${p.color || ''} ${p.length || ''} ${p.fit || ''}`];
   return base
     .map(x => safeText(x))
-    .map(x => x.replace(/매장 피팅 후[^.。]*[.。]?/g, '').replace(/\s{2,}/g, ' ').trim())
+    .map(x => x
+      .replace(/매장 피팅 후[^.。]*[.。]?/g, '')
+      .replace(/피팅\s*상담\s*권장/g, '')
+      .replace(/사이즈\s*상담\s*권장/g, '')
+      .replace(/\s{2,}/g, ' ')
+      .trim())
+    .filter(x => !/피팅|상담|권장/.test(x))
     .filter(Boolean)
     .filter(x => {
       const key = norm(x);
@@ -181,8 +187,12 @@ function shortDescription(p) {
     || `${safeText(p.color) || 'NICE 셀렉션'} 컬러와 ${safeText(p.fit) || '깔끔한'} 라인이 돋보이는 상품입니다.`;
   const cleaned = source
     .replace(/매장 피팅 후[^.。]*[.。]?/g, '')
+    .replace(/과하지 않은 포인트로 사진발과 착용 분위기를 함께 살려주며[,]?/g, '')
+    .replace(/피팅\s*상담\s*권장/g, '')
+    .replace(/사이즈\s*상담\s*권장/g, '')
     .replace(/카카오톡으로[^.。]*[.。]?/g, '')
     .replace(/\s{2,}/g, ' ')
+    .replace(/[,\s]+$/g, '')
     .trim();
   const sentences = cleaned.split(/(?<=[.!?。])\s+/).filter(Boolean).slice(0, 2);
   return sentences.length ? sentences.join(' ') : cleaned;
