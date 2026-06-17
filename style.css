@@ -204,16 +204,21 @@
 }
 
 /* Simple showroom header override */
-.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:34px 16px 28px;border-bottom:1px solid #d8c2a333}
+.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:42px 16px 34px;border-bottom:1px solid #d8c2a333}
 .hero:before{display:none}
 .hero h1{margin:0;font-family:Georgia,serif;font-size:64px;letter-spacing:.18em}
-.hero p{display:none}
+.hero p{display:block;margin:12px 0 0;color:#efe2d3;font-size:15px;font-weight:850;letter-spacing:.05em;text-transform:none}
 .hero-copy{position:relative;z-index:1;max-width:900px;margin:0 auto}
-.hero-kicker,.hero-points{display:none}
+.hero-kicker{display:inline-flex;margin-bottom:10px;color:#d8bd8f;font-size:12px;font-weight:950;letter-spacing:.16em}
+.hero-points{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:18px}
+.hero-points span{display:inline-flex;align-items:center;min-height:34px;padding:0 13px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);color:#f6ecdf;font-size:12.5px;font-weight:850;letter-spacing:0}
 @media(max-width:720px){
-  .hero{padding:28px 14px 22px}
+  .hero{padding:30px 14px 24px}
   .hero h1{font-size:48px}
-  .hero p{font-size:11px}
+  .hero p{font-size:13px;line-height:1.5}
+  .hero-kicker{font-size:10.5px}
+  .hero-points{gap:6px;margin-top:14px}
+  .hero-points span{min-height:30px;padding:0 10px;font-size:11px}
 }
 
 /* Detail readability cleanup */

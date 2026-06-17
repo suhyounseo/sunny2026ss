@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match94';
+const VERSION = 'match96';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -50,8 +50,8 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['미니', '미디', '투피스', '롱', 'A라인', '슬림핏', '럭셔리', '스커트', '블라우스', '77/88'];
-const QUICK_VIP = ['당일발송'];
+const QUICK_BASE = ['미니', '미디', 'A라인', '슬림핏', '럭셔리', '투피스', '스커트', '블라우스', '77/88', '당일발송'];
+const QUICK_VIP = [];
 const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
 const EDITOR_SELECT_LIMIT = 12;
 const EDITOR_SELECT_PINNED_CODES = [
@@ -83,6 +83,7 @@ const norm = s => String(s || '').toLowerCase();
 const tags = p => Array.isArray(p.tags) ? p.tags : [];
 const codeOf = p => String(p.code || '');
 const mainImg = p => p.mainImage || p.thumbnail || p.cardImage || (Array.isArray(p.images) && p.images[0]) || (Array.isArray(p.cuts) && p.cuts[0] && p.cuts[0].url) || '';
+const cardImg = p => p.thumbImage || p.cardImage || p.mainImage || p.thumbnail || (Array.isArray(p.images) && p.images[0]) || (Array.isArray(p.cuts) && p.cuts[0] && p.cuts[0].url) || '';
 const img = u => u ? `${u}?v=${VERSION}` : '';
 const hasTag = (p, t) => tags(p).some(x => norm(x) === norm(t));
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
@@ -428,6 +429,7 @@ function matchesSearch(p, rawSearch) {
     const label = [p.name, p.storeName, p.productName, p.seoName, ...(p.tags || [])].join(' ');
     return (p.category === 'TOP' || hasTag(p, 'TOP')) && /블라우스|blouse/i.test(label);
   }
+  if (/^당일발송$/i.test(rawSearch)) return isSameDayCandidate(p);
   if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
   const hay = norm([productText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
   return hay.includes(search);
@@ -474,10 +476,10 @@ function priceBlock(p) {
 }
 
 function productCard(p, compact = false) {
-  const image = mainImg(p);
+  const image = cardImg(p);
   const cardBadges = badges(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
+    <div class="photo">${image ? `<img loading="lazy" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
     <div class="info">
       <div class="code">상품코드 ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
@@ -503,7 +505,13 @@ function imageListFor(p) {
   const cuts = Array.isArray(p.cuts) ? p.cuts.filter(im => im && im.url) : [];
   const images = Array.isArray(p.images) ? p.images.filter(Boolean).map((url, i) => ({ url, cut: `사진 ${i + 1}` })) : [];
   const seen = new Set();
-  return [...main, ...cuts, ...images].filter(im => {
+  const productCutWords = /product|item|hanger|real|detail|제품|실물|행거|컷/i;
+  const ordered = [...main, ...cuts, ...images].sort((a, b) => {
+    if (a.cut === '대표') return -1;
+    if (b.cut === '대표') return 1;
+    return Number(productCutWords.test([a.cut, a.url].join(' '))) - Number(productCutWords.test([b.cut, b.url].join(' ')));
+  });
+  return ordered.filter(im => {
     const key = String(im.url || '').split('?')[0].replace(/\\/g, '/').toLowerCase();
     if (!key || seen.has(key)) return false;
     seen.add(key);
@@ -686,7 +694,7 @@ function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
   const editorItems = editorSelectItems(visible);
   const editorCodes = new Set(editorItems.map(codeOf));
-  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 10);
+  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 8);
   title.textContent = 'SHOWROOM';
   count.textContent = `${visible.length} items`;
   intro.textContent = sectionIntro();
@@ -801,8 +809,8 @@ function openDetail(code) {
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main">${currentImages[0] ? `<img id="mainImage" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
-      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
+      <div class="main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
+      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
       <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>

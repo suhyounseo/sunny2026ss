@@ -87,7 +87,8 @@
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
       "클래식한 무드를 더하는 더블버튼 디테일"
     ],
-    "editorsNote": "스퀘어넥과 더블버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "스퀘어넥과 더블버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/JES-301-JES-301_02.webp"
   },
   {
     "code": "JES-302",
@@ -177,7 +178,8 @@
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/JES-302-JES-302_02.webp"
   },
   {
     "code": "JES-303",
@@ -262,7 +264,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/JES-303-JES-303_02.webp"
   },
   {
     "code": "JES-304",
@@ -352,7 +355,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-304-JES-304_02.webp"
   },
   {
     "code": "JES-305",
@@ -439,7 +443,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "버튼과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "버튼과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/JES-305-JES-305_02.webp"
   },
   {
     "code": "JES-306",
@@ -542,7 +547,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-306-JES-306_02.webp"
   },
   {
     "code": "JES-307",
@@ -627,7 +633,8 @@
       "어깨 라인을 사랑스럽게 잡아주는 퍼프 소매",
       "캐주얼하면서도 유니크한 데님 무드"
     ],
-    "editorsNote": "스모크와 퍼프 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "스모크와 퍼프 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/JES-307-JES-307_02.webp"
   },
   {
     "code": "JES-308",
@@ -720,7 +727,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-308-JES-308_02.webp"
   },
   {
     "code": "JES-309",
@@ -818,7 +826,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-309-JES-309_02.webp"
   },
   {
     "code": "JES-310",
@@ -903,7 +912,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-310-JES-310_02.webp"
   },
   {
     "code": "JES-311",
@@ -988,7 +998,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-311-JES-311_02.webp"
   },
   {
     "code": "JES-312",
@@ -1081,7 +1092,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-312-JES-312_02.webp"
   },
   {
     "code": "JES-313",
@@ -1169,7 +1181,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-313-JES-313_02.webp"
   },
   {
     "code": "JES-314",
@@ -1254,7 +1267,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "골드버튼과 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "골드버튼과 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/JES-314-JES-314_02.webp"
   },
   {
     "code": "JES-315",
@@ -1347,7 +1361,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-315-JES-315_02.webp"
   },
   {
     "code": "JES-316",
@@ -1445,7 +1460,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-316-JES-316_02.webp"
   },
   {
     "code": "JES-317",
@@ -1540,7 +1556,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-317-JES-317_02.webp"
   },
   {
     "code": "JES-318",
@@ -1625,7 +1642,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-318-JES-318_02.webp"
   },
   {
     "code": "JES-319",
@@ -1723,7 +1741,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-319-JES-319_02.webp"
   },
   {
     "code": "JES-320",
@@ -1816,7 +1835,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-320-JES-320_02.webp"
   },
   {
     "code": "JES-321",
@@ -1906,7 +1926,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-321-JES-321_02.webp"
   },
   {
     "code": "JES-322",
@@ -1988,7 +2009,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/JES-322-JES-322_02.webp"
   },
   {
     "code": "JES-323",
@@ -2086,7 +2108,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-323-JES-323_02.webp"
   },
   {
     "code": "JES-324",
@@ -2169,7 +2192,8 @@
     "mainDisplay": true,
     "priority": 10,
     "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv"
+    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
+    "thumbImage": "assets/thumbs/JES-324-JES-324_01.webp"
   },
   {
     "code": "ANC-4001",
@@ -2255,7 +2279,8 @@
       "note": "AI back-view placeholders and review-only files are intentionally excluded from public showroom images."
     },
     "backImagePublishSafe": false,
-    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
+    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다.",
+    "thumbImage": "assets/thumbs/ANC-4001-ANC-4001-main-clean.webp"
   },
   {
     "code": "ANC-4002",
@@ -2337,7 +2362,8 @@
     "editorsNote": "플레어와 배색 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4002-ANC-4002-main-clean.webp"
   },
   {
     "code": "ANC-4003",
@@ -2423,7 +2449,8 @@
       "note": "Removed duplicate original/model reference from the public image carousel and replaced it with the generated product cut. AI back-view placeholders and review-only files remain excluded."
     },
     "backImagePublishSafe": false,
-    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다."
+    "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다.",
+    "thumbImage": "assets/thumbs/ANC-4003-ANC-4003-main-clean.webp"
   },
   {
     "code": "ANC-4004",
@@ -2500,7 +2527,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정한 인상을 더해주는 카라넥"
     ],
-    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/ANC-4004-ANC-4004-main-clean.webp"
   },
   {
     "code": "ANC-4005",
@@ -2579,7 +2607,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "오프숄더와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4005-ANC-4005-main-clean.webp"
   },
   {
     "code": "ANC-4006",
@@ -2658,7 +2687,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4006-ANC-4006-main-clean.webp"
   },
   {
     "code": "ANC-4007",
@@ -2746,7 +2776,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4007-ANC-4007-main-clean.webp"
   },
   {
     "code": "ANC-4008",
@@ -2825,7 +2856,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4008-ANC-4008-main-clean.webp"
   },
   {
     "code": "ANC-4009",
@@ -2904,7 +2936,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4009-ANC-4009-main-clean.webp"
   },
   {
     "code": "ANC-4010",
@@ -2983,7 +3016,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4010-ANC-4010-main-clean.webp"
   },
   {
     "code": "ANC-4011",
@@ -3062,7 +3096,8 @@
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "드레이프와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "드레이프와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4011-ANC-4011-main-clean.webp"
   },
   {
     "code": "ANC-4012",
@@ -3139,7 +3174,8 @@
       "클래식한 무드를 더하는 더블버튼 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "더블버튼과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "더블버튼과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4012-ANC-4012-main-clean.webp"
   },
   {
     "code": "ANC-4013",
@@ -3227,7 +3263,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "리본과 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "리본과 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4013-ANC-4013-main-clean.webp"
   },
   {
     "code": "ANC-4014",
@@ -3306,7 +3343,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "더블버튼과 레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4014-ANC-4014-main-clean.webp"
   },
   {
     "code": "ANC-4015",
@@ -3385,7 +3423,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
-    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4015-ANC-4015-main-clean.webp"
   },
   {
     "code": "ANC-4016",
@@ -3467,7 +3506,8 @@
     "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4016-ANC-4016-main-clean.webp"
   },
   {
     "code": "ANC-4017",
@@ -3555,7 +3595,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "가볍고 섹시한 분위기를 더하는 시스루 포인트"
     ],
-    "editorsNote": "레이스와 시스루 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 시스루 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4017-ANC-4017-main-clean.webp"
   },
   {
     "code": "ANC-4018",
@@ -3634,7 +3675,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4018-ANC-4018-main-clean.webp"
   },
   {
     "code": "ANC-4019",
@@ -3713,7 +3755,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4019-ANC-4019-main-clean.webp"
   },
   {
     "code": "ANC-4020",
@@ -3802,7 +3845,8 @@
     "backImageNote": "뒤컷은 실제 상품 후면 검수 전까지 쇼룸에 게시하지 않습니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4020-ANC-4020-main-clean.webp"
   },
   {
     "code": "ANC-4021",
@@ -3881,7 +3925,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4021-ANC-4021-main-clean.webp"
   },
   {
     "code": "ANC-4022",
@@ -3958,7 +4003,8 @@
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4022-ANC-4022-main-clean.webp"
   },
   {
     "code": "ANC-4023",
@@ -4046,7 +4092,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4023-ANC-4023-main-clean.webp"
   },
   {
     "code": "ANC-4024",
@@ -4123,7 +4170,8 @@
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "빅리본과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "빅리본과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4024-ANC-4024-main-clean.webp"
   },
   {
     "code": "ANC-4025",
@@ -4202,7 +4250,8 @@
       "단정한 인상을 더해주는 카라넥",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
-    "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4025-ANC-4025-main-clean.webp"
   },
   {
     "code": "ANC-4026",
@@ -4284,7 +4333,8 @@
     "editorsNote": "더블버튼과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4026-ANC-4026-main-clean.webp"
   },
   {
     "code": "ANC-4027",
@@ -4374,7 +4424,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일"
     ],
-    "editorsNote": "프릴과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "프릴과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4027-ANC-4027-main-clean.webp"
   },
   {
     "code": "ANC-4028",
@@ -4451,7 +4502,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
-    "editorsNote": "플레어와 배색 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 배색 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4028-ANC-4028-main-clean.webp"
   },
   {
     "code": "ANC-4029",
@@ -4530,7 +4582,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "리본과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "리본과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4029-ANC-4029-main-clean.webp"
   },
   {
     "code": "ANC-4030",
@@ -4607,7 +4660,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4030-ANC-4030-main-clean.webp"
   },
   {
     "code": "ANC-4031",
@@ -4686,7 +4740,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "드레이프와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "드레이프와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4031-ANC-4031-main-clean.webp"
   },
   {
     "code": "ANC-4032",
@@ -4763,7 +4818,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4032-ANC-4032-main-clean.webp"
   },
   {
     "code": "ANC-4033",
@@ -4840,7 +4896,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4033-ANC-4033-main-clean.webp"
   },
   {
     "code": "ANC-4034",
@@ -4917,7 +4974,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일"
     ],
-    "editorsNote": "플레어와 프릴 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 프릴 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4034-ANC-4034-main-clean.webp"
   },
   {
     "code": "ANC-4035",
@@ -4996,7 +5054,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4035-ANC-4035-main-clean.webp"
   },
   {
     "code": "ANC-4036",
@@ -5073,7 +5132,8 @@
       "단정한 인상을 더해주는 카라넥",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/ANC-4036-ANC-4036-main-clean.webp"
   },
   {
     "code": "ANC-4037",
@@ -5152,7 +5212,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "리본과 배색 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "리본과 배색 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4037-ANC-4037-main-clean.webp"
   },
   {
     "code": "ANC-4038",
@@ -5229,7 +5290,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4038-ANC-4038-main-clean.webp"
   },
   {
     "code": "ANC-4039",
@@ -5306,7 +5368,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
-    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4039-ANC-4039-main-clean.webp"
   },
   {
     "code": "ANC-4040",
@@ -5385,7 +5448,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
-    "editorsNote": "오프숄더와 드레이프 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "오프숄더와 드레이프 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4040-ANC-4040-main-clean.webp"
   },
   {
     "code": "ANC-4041",
@@ -5473,7 +5537,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4041-ANC-4041-main-clean.webp"
   },
   {
     "code": "ANC-4042",
@@ -5552,7 +5617,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 블라우스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4042-ANC-4042-main-clean.webp"
   },
   {
     "code": "ANC-4043",
@@ -5640,7 +5706,8 @@
       "목선을 길고 여리하게 보여주는 브이넥",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "브이넥과 레이스 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "브이넥과 레이스 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4043-ANC-4043-main-clean.webp"
   },
   {
     "code": "ANC-4044",
@@ -5717,7 +5784,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4044-ANC-4044-main-clean.webp"
   },
   {
     "code": "ANC-4045",
@@ -5796,7 +5864,8 @@
       "우아하게 흐르는 실루엣을 만드는 드레이프",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "드레이프와 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "드레이프와 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4045-ANC-4045-main-clean.webp"
   },
   {
     "code": "ANC-4046",
@@ -5886,7 +5955,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4046-ANC-4046-main-clean.webp"
   },
   {
     "code": "ANC-4047",
@@ -5974,7 +6044,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
-    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4047-ANC-4047-main-clean.webp"
   },
   {
     "code": "ANC-4048",
@@ -6053,7 +6124,8 @@
       "단정한 인상을 더해주는 카라넥",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
-    "editorsNote": "카라와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "카라와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4048-ANC-4048-main-clean.webp"
   },
   {
     "code": "ANC-4049",
@@ -6132,7 +6204,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4049-ANC-4049-main-clean.webp"
   },
   {
     "code": "ANC-4050",
@@ -6209,7 +6282,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4050-ANC-4050-main-clean.webp"
   },
   {
     "code": "ANC-4051",
@@ -6288,7 +6362,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 셔링 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4051-ANC-4051-main-clean.webp"
   },
   {
     "code": "ANC-4052",
@@ -6365,7 +6440,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4052-ANC-4052-main-clean.webp"
   },
   {
     "code": "ANC-4053",
@@ -6444,7 +6520,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4053-ANC-4053-main-clean.webp"
   },
   {
     "code": "ANC-4054",
@@ -6526,7 +6603,8 @@
     "editorsNote": "더블버튼과 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4054-ANC-4054-main-clean.webp"
   },
   {
     "code": "ANC-4055",
@@ -6607,7 +6685,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "오프숄더와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4055-ANC-4055-main-clean.webp"
   },
   {
     "code": "ANC-4056",
@@ -6684,7 +6763,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "빅리본과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "빅리본과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4056-ANC-4056-main-clean.webp"
   },
   {
     "code": "ANC-4057",
@@ -6763,7 +6843,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "셔링과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4057-ANC-4057-main-clean.webp"
   },
   {
     "code": "ANC-4058",
@@ -6840,7 +6921,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "클래식한 무드를 더하는 더블버튼 디테일"
     ],
-    "editorsNote": "더블버튼과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "더블버튼과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4058-ANC-4058-main-clean.webp"
   },
   {
     "code": "ANC-4059",
@@ -6919,7 +7001,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "오프숄더와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4059-ANC-4059-main-clean.webp"
   },
   {
     "code": "ANC-4060",
@@ -7001,7 +7084,8 @@
     "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4060-ANC-4060-main-clean.webp"
   },
   {
     "code": "ANC-4061",
@@ -7080,7 +7164,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "셔링과 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4061-ANC-4061-main-clean.webp"
   },
   {
     "code": "ANC-4062",
@@ -7157,7 +7242,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "브이넥과 레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "브이넥과 레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4062-ANC-4062-main-clean.webp"
   },
   {
     "code": "ANC-4063",
@@ -7236,7 +7322,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
-    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4063-ANC-4063-main-clean.webp"
   },
   {
     "code": "ANC-4064",
@@ -7313,7 +7400,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4064-ANC-4064-main-clean.webp"
   },
   {
     "code": "ANC-4065",
@@ -7392,7 +7480,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4065-ANC-4065-main-clean.webp"
   },
   {
     "code": "ANC-4066",
@@ -7469,7 +7558,8 @@
       "라인을 선명하게 보여주는 배색 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4066-ANC-4066-main-clean.webp"
   },
   {
     "code": "ANC-4067",
@@ -7546,7 +7636,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "빅리본과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4067-ANC-4067-main-clean.webp"
   },
   {
     "code": "ANC-4068",
@@ -7621,7 +7712,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4068-ANC-4068-main-clean.webp"
   },
   {
     "code": "ANC-4069",
@@ -7700,7 +7792,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "셔링과 라인 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "셔링과 라인 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4069-ANC-4069-main-clean.webp"
   },
   {
     "code": "ANC-4070",
@@ -7777,7 +7870,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 라인 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4070-ANC-4070-main-clean.webp"
   },
   {
     "code": "ANC-4071",
@@ -7856,7 +7950,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
-    "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라와 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4071-ANC-4071-main-clean.webp"
   },
   {
     "code": "ANC-4072",
@@ -7933,7 +8028,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4072-ANC-4072-main-clean.webp"
   },
   {
     "code": "ANC-4073",
@@ -8012,7 +8108,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "드레이프와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4073-ANC-4073-main-clean.webp"
   },
   {
     "code": "ANC-4074",
@@ -8089,7 +8186,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4074-ANC-4074-main-clean.webp"
   },
   {
     "code": "ANC-4075",
@@ -8166,7 +8264,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
-    "editorsNote": "오프숄더와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "오프숄더와 플레어 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4075-ANC-4075-main-clean.webp"
   },
   {
     "code": "ANC-4076",
@@ -8243,7 +8342,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "스퀘어넥과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4076-ANC-4076-main-clean.webp"
   },
   {
     "code": "ANC-4077",
@@ -8322,7 +8422,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "더블버튼과 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "더블버튼과 셔링 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4077-ANC-4077-main-clean.webp"
   },
   {
     "code": "ANC-4078",
@@ -8399,7 +8500,8 @@
       "라인을 선명하게 보여주는 배색 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4078-ANC-4078-main-clean.webp"
   },
   {
     "code": "ANC-4079",
@@ -8478,7 +8580,8 @@
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4079-ANC-4079-main-clean.webp"
   },
   {
     "code": "ANC-4080",
@@ -8566,7 +8669,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
-    "editorsNote": "레이스와 셔링 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "레이스와 셔링 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4080-ANC-4080-main-clean.webp"
   },
   {
     "code": "ANC-4081",
@@ -8645,7 +8749,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "버튼과 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "버튼과 라인 포인트가 단정함과 여성스러움을 함께 살려주는 블라우스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4081-ANC-4081-main-clean.webp"
   },
   {
     "code": "ANC-4082",
@@ -8727,7 +8832,8 @@
     "editorsNote": "더블버튼과 플레어 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4082-ANC-4082-main-clean.webp"
   },
   {
     "code": "ANC-4083",
@@ -8815,7 +8921,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4083-ANC-4083-main-clean.webp"
   },
   {
     "code": "ANC-4084",
@@ -8897,7 +9004,8 @@
     "editorsNote": "플레어와 벨트 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "sameDayAvailable": true,
     "best": true,
-    "bestItem": true
+    "bestItem": true,
+    "thumbImage": "assets/thumbs/ANC-4084-ANC-4084-main-clean.webp"
   },
   {
     "code": "ANC-4085",
@@ -8985,7 +9093,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4085-ANC-4085-main-clean.webp"
   },
   {
     "code": "ANC-4086",
@@ -9064,7 +9173,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "빅리본과 플레어 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4086-ANC-4086-main-clean.webp"
   },
   {
     "code": "ANC-4087",
@@ -9143,7 +9253,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "단정한 인상을 더해주는 카라넥"
     ],
-    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라와 셔링 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4087-ANC-4087-main-clean.webp"
   },
   {
     "code": "ANC-4088",
@@ -9220,7 +9331,8 @@
       "어깨 라인을 사랑스럽게 잡아주는 퍼프 소매",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4088-ANC-4088-main-clean.webp"
   },
   {
     "code": "ANC-4089",
@@ -9308,7 +9420,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "레이스와 셔링 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4089-ANC-4089-main-clean.webp"
   },
   {
     "code": "ANC-4090",
@@ -9385,7 +9498,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4090-ANC-4090-main-clean.webp"
   },
   {
     "code": "ANC-4091",
@@ -9464,7 +9578,8 @@
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "버튼과 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4091-ANC-4091-main-clean.webp"
   },
   {
     "code": "ANC-4092",
@@ -9543,7 +9658,8 @@
       "허리 대비가 살아나는 플레어 실루엣"
     ],
     "editorsNote": "플레어와 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "sameDayAvailable": true
+    "sameDayAvailable": true,
+    "thumbImage": "assets/thumbs/ANC-4092-ANC-4092-main-clean.webp"
   },
   {
     "code": "ANC-4093",
@@ -9620,7 +9736,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/ANC-4093-ANC-4093-main-clean.webp"
   },
   {
     "code": "ANC-4094",
@@ -9697,7 +9814,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4094-ANC-4094-main-clean.webp"
   },
   {
     "code": "ANC-4095",
@@ -9776,7 +9894,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "셔링과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4095-ANC-4095-main-clean.webp"
   },
   {
     "code": "ANC-4096",
@@ -9853,7 +9972,8 @@
       "단정한 인상을 더해주는 카라넥",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "플레어와 카라 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/ANC-4096-ANC-4096-main-clean.webp"
   },
   {
     "code": "ANC-4097",
@@ -9932,7 +10052,8 @@
       "바디를 부드럽게 감싸주는 니트 텍스처",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "라인과 니트 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "라인과 니트 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/ANC-4097-ANC-4097-main-clean.webp"
   },
   {
     "code": "ANC-4098",
@@ -10009,7 +10130,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "허리 대비가 살아나는 플레어 실루엣"
     ],
-    "editorsNote": "플레어와 퍼프 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 퍼프 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/ANC-4098-ANC-4098-main-clean.webp"
   },
   {
     "code": "P002",
@@ -10108,7 +10230,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘린 리본홀터 플레어 미니원피스"
+    "seoName": "엘린 리본홀터 플레어 미니원피스",
+    "thumbImage": "assets/thumbs/P002-P002_03.webp"
   },
   {
     "code": "P003",
@@ -10207,7 +10330,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "seoName": "세린 초커넥 플리츠 미니원피스"
+    "seoName": "세린 초커넥 플리츠 미니원피스",
+    "thumbImage": "assets/thumbs/P003-P003_03.webp"
   },
   {
     "code": "P004",
@@ -10301,7 +10425,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로제 트위드 슬림 미니원피스"
+    "seoName": "로제 트위드 슬림 미니원피스",
+    "thumbImage": "assets/thumbs/P004-P004_02.webp"
   },
   {
     "code": "P005",
@@ -10400,7 +10525,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "도트 리본벨트 플레어 미니원피스"
+    "seoName": "도트 리본벨트 플레어 미니원피스",
+    "thumbImage": "assets/thumbs/P005-P005_03.webp"
   },
   {
     "code": "P006",
@@ -10500,7 +10626,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로제 플라워 카라 플레어 미니원피스"
+    "seoName": "로제 플라워 카라 플레어 미니원피스",
+    "thumbImage": "assets/thumbs/P006-P006_02.webp"
   },
   {
     "code": "P007",
@@ -10599,7 +10726,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "블랑 큐빅넥 레이어드 미니원피스"
+    "seoName": "블랑 큐빅넥 레이어드 미니원피스",
+    "thumbImage": "assets/thumbs/P007-P007_03.webp"
   },
   {
     "code": "P008",
@@ -10693,7 +10821,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "블랑 리본레이스 원숄더 미디원피스"
+    "seoName": "블랑 리본레이스 원숄더 미디원피스",
+    "thumbImage": "assets/thumbs/P008-P008_04.webp"
   },
   {
     "code": "P009",
@@ -10782,7 +10911,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "옆지퍼",
-    "seoName": "엘레나 홀터넥 셔링 롱원피스"
+    "seoName": "엘레나 홀터넥 셔링 롱원피스",
+    "thumbImage": "assets/thumbs/P009-P009_01.webp"
   },
   {
     "code": "P010",
@@ -10893,7 +11023,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "아리아 플라워 슬림 미디원피스"
+    "seoName": "아리아 플라워 슬림 미디원피스",
+    "thumbImage": "assets/thumbs/P010-P010_01.webp"
   },
   {
     "code": "P011",
@@ -10991,7 +11122,8 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "cap": "확인 필요",
     "thickness": "두께감 확인 필요",
-    "seoName": "엘리 큐빅홀터 리본 미니원피스"
+    "seoName": "엘리 큐빅홀터 리본 미니원피스",
+    "thumbImage": "assets/thumbs/P011-P011_03.webp"
   },
   {
     "code": "P012",
@@ -11090,7 +11222,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로아 러플 오프숄더 미니원피스"
+    "seoName": "로아 러플 오프숄더 미니원피스",
+    "thumbImage": "assets/thumbs/P012-P012_03.webp"
   },
   {
     "code": "P013",
@@ -11189,7 +11322,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘라 비즈스트랩 미니원피스"
+    "seoName": "엘라 비즈스트랩 미니원피스",
+    "thumbImage": "assets/thumbs/P013-P013_01.webp"
   },
   {
     "code": "P014",
@@ -11299,7 +11433,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로미 리본스트랩 플레어 미니원피스"
+    "seoName": "로미 리본스트랩 플레어 미니원피스",
+    "thumbImage": "assets/thumbs/P014-P014_05.webp"
   },
   {
     "code": "P015",
@@ -11383,7 +11518,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "로라 체크타이 크롭 투피스"
+    "seoName": "로라 체크타이 크롭 투피스",
+    "thumbImage": "assets/thumbs/P015-P015_08.webp"
   },
   {
     "code": "P016",
@@ -11477,7 +11613,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘린 쉬폰셔링 플레어 미니원피스"
+    "seoName": "엘린 쉬폰셔링 플레어 미니원피스",
+    "thumbImage": "assets/thumbs/P016-P016_02.webp"
   },
   {
     "code": "P018",
@@ -11569,7 +11706,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "엘라 셔링홀터 미니 투피스"
+    "seoName": "엘라 셔링홀터 미니 투피스",
+    "thumbImage": "assets/thumbs/P018-P018_05.webp"
   },
   {
     "code": "P019",
@@ -11663,7 +11801,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "라인을 길고 정돈되게 보여주는 드레스룩. 행사, 무대, 촬영, 격식 있는 모임 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "셀린 홀터넥 머메이드 롱드레스"
+    "seoName": "셀린 홀터넥 머메이드 롱드레스",
+    "thumbImage": "assets/thumbs/P019-P019_04.webp"
   },
   {
     "code": "P020",
@@ -11745,7 +11884,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "로엘 트위드 샤스커트 투피스"
+    "seoName": "로엘 트위드 샤스커트 투피스",
+    "thumbImage": "assets/thumbs/P020-P020_09.webp"
   },
   {
     "code": "P021",
@@ -11850,7 +11990,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "seoName": "셀린 셔링 오프숄더 롱드레스"
+    "seoName": "셀린 셔링 오프숄더 롱드레스",
+    "thumbImage": "assets/thumbs/P021-P021_01.webp"
   },
   {
     "code": "P022",
@@ -11948,7 +12089,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "엘리 큐빅넥 프릴 미니원피스"
+    "seoName": "엘리 큐빅넥 프릴 미니원피스",
+    "thumbImage": "assets/thumbs/P022-P022_04.webp"
   },
   {
     "code": "P023",
@@ -12042,7 +12184,8 @@
     "cap": "있읍",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로제 레이스카라 미니원피스"
+    "seoName": "로제 레이스카라 미니원피스",
+    "thumbImage": "assets/thumbs/P023-P023_02.webp"
   },
   {
     "code": "P024",
@@ -12145,7 +12288,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "로아 빅리본 오프숄더 미니원피스"
+    "seoName": "로아 빅리본 오프숄더 미니원피스",
+    "thumbImage": "assets/thumbs/P024-P024_02.webp"
   },
   {
     "code": "P025",
@@ -12250,7 +12394,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로제 리본플라워 오프숄더 미니원피스"
+    "seoName": "로제 리본플라워 오프숄더 미니원피스",
+    "thumbImage": "assets/thumbs/P025-P025_01.webp"
   },
   {
     "code": "P026",
@@ -12371,7 +12516,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘라 새틴리본 미니원피스"
+    "seoName": "엘라 새틴리본 미니원피스",
+    "thumbImage": "assets/thumbs/P026-P026_01.webp"
   },
   {
     "code": "P027",
@@ -12476,7 +12622,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘린 리본스퀘어 미니원피스"
+    "seoName": "엘린 리본스퀘어 미니원피스",
+    "thumbImage": "assets/thumbs/P027-P027_01.webp"
   },
   {
     "code": "P028",
@@ -12581,7 +12728,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로아 리본라인 미니 투피스"
+    "seoName": "로아 리본라인 미니 투피스",
+    "thumbImage": "assets/thumbs/P028-P028_01.webp"
   },
   {
     "code": "P029",
@@ -12685,7 +12833,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘린 튤레이어드 롱원피스"
+    "seoName": "엘린 튤레이어드 롱원피스",
+    "thumbImage": "assets/thumbs/P029-P029_01.webp"
   },
   {
     "code": "P030",
@@ -12806,7 +12955,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로아 트위드 크롭 투피스"
+    "seoName": "로아 트위드 크롭 투피스",
+    "thumbImage": "assets/thumbs/P030-P030_01.webp"
   },
   {
     "code": "P031",
@@ -12920,7 +13070,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "로아 배색라인 크롭 투피스"
+    "seoName": "로아 배색라인 크롭 투피스",
+    "thumbImage": "assets/thumbs/P031-P031_01.webp"
   },
   {
     "code": "P032",
@@ -13025,7 +13176,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "엘린 플라워쉬폰 미니원피스"
+    "seoName": "엘린 플라워쉬폰 미니원피스",
+    "thumbImage": "assets/thumbs/P032-P032_01.webp"
   },
   {
     "code": "P033",
@@ -13130,7 +13282,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로아 플라워퍼프 미니원피스"
+    "seoName": "로아 플라워퍼프 미니원피스",
+    "thumbImage": "assets/thumbs/P033-P033_01.webp"
   },
   {
     "code": "P034",
@@ -13235,7 +13388,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "로아 레이스퍼프 미니원피스"
+    "seoName": "로아 레이스퍼프 미니원피스",
+    "thumbImage": "assets/thumbs/P034-P034_01.webp"
   },
   {
     "code": "P036",
@@ -13327,7 +13481,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "세린 카라 트위드 투피스"
+    "seoName": "세린 카라 트위드 투피스",
+    "thumbImage": "assets/thumbs/P036-P036_01.webp"
   },
   {
     "code": "P037",
@@ -13431,7 +13586,8 @@
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "세린 쉬폰레이어드 롱투피스"
+    "seoName": "세린 쉬폰레이어드 롱투피스",
+    "thumbImage": "assets/thumbs/P037-P037_02.webp"
   },
   {
     "code": "P038",
@@ -13538,7 +13694,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "세린 레이스슬립 미니원피스"
+    "seoName": "세린 레이스슬립 미니원피스",
+    "thumbImage": "assets/thumbs/P038-P038_01.webp"
   },
   {
     "code": "P039",
@@ -13634,7 +13791,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "세린 셔링 미니원피스"
+    "seoName": "세린 셔링 미니원피스",
+    "thumbImage": "assets/thumbs/P039-P039_02.webp"
   },
   {
     "code": "P040",
@@ -13739,7 +13897,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "세린 홀터플레어 롱투피스"
+    "seoName": "세린 홀터플레어 롱투피스",
+    "thumbImage": "assets/thumbs/P040-P040_01.webp"
   },
   {
     "code": "P041",
@@ -13842,7 +14001,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "로아 레이스캉캉 미니 투피스"
+    "seoName": "로아 레이스캉캉 미니 투피스",
+    "thumbImage": "assets/thumbs/P041-P041_01.webp"
   },
   {
     "code": "P042",
@@ -13948,7 +14108,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "로아 리본블라우스 플라워 미니 투피스"
+    "seoName": "로아 리본블라우스 플라워 미니 투피스",
+    "thumbImage": "assets/thumbs/P042-P042_01.webp"
   },
   {
     "code": "P043",
@@ -14051,7 +14212,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "엘라 레이스홀터 미니 투피스"
+    "seoName": "엘라 레이스홀터 미니 투피스",
+    "thumbImage": "assets/thumbs/P043-P043_01.webp"
   },
   {
     "code": "P044",
@@ -14143,7 +14305,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "로아 리본프릴 미니원피스"
+    "seoName": "로아 리본프릴 미니원피스",
+    "thumbImage": "assets/thumbs/P044-P044_01.webp"
   },
   {
     "code": "P045",
@@ -14252,7 +14415,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "상:없음 하:옆지퍼",
-    "seoName": "세린 드레이프 비즈 롱세트"
+    "seoName": "세린 드레이프 비즈 롱세트",
+    "thumbImage": "assets/thumbs/P045-P045_03.webp"
   },
   {
     "code": "P001",
@@ -14331,7 +14495,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "베베 리본홀 A라인 미니원피스"
+    "seoName": "베베 리본홀 A라인 미니원피스",
+    "thumbImage": "assets/thumbs/P001-N260024_01.webp"
   },
   {
     "code": "P017",
@@ -14426,7 +14591,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "루아 리본레이스 A라인 미니원피스"
+    "seoName": "루아 리본레이스 A라인 미니원피스",
+    "thumbImage": "assets/thumbs/P017-P017_01.webp"
   },
   {
     "code": "P035",
@@ -14559,7 +14725,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "엘린 니트캉캉 미니 투피스"
+    "seoName": "엘린 니트캉캉 미니 투피스",
+    "thumbImage": "assets/thumbs/P035-P035_15.webp"
   },
   {
     "code": "N260217",
@@ -14644,7 +14811,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "사쿠라 미니 원피스"
+    "seoName": "사쿠라 미니 원피스",
+    "thumbImage": "assets/thumbs/N260217-N260217_01.webp"
   },
   {
     "code": "N260218",
@@ -14726,7 +14894,8 @@
       "단정한 인상을 더해주는 카라넥",
       "조명 아래에서 화려하게 살아나는 비즈 포인트"
     ],
-    "editorsNote": "카라와 라인 포인트가 조명 아래에서 존재감을 살려주는 아이템입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "카라와 라인 포인트가 조명 아래에서 존재감을 살려주는 아이템입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260218-N260218_01.webp"
   },
   {
     "code": "N260219",
@@ -14792,7 +14961,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "한 벌만으로도 스타일이 완성되는 실루엣"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260219-N260219_01.webp"
   },
   {
     "code": "N260220",
@@ -14860,7 +15030,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
-    "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260220-N260220_01.webp"
   },
   {
     "code": "N260221",
@@ -14925,7 +15096,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏",
       "상체 라인을 가볍게 살려주는 탑 디자인"
     ],
-    "editorsNote": "니트와 슬림 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "니트와 슬림 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260221-N260221_01.webp"
   },
   {
     "code": "N260222",
@@ -14992,7 +15164,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "레이스와 플레어 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "레이스와 플레어 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260222-N260222_01.webp"
   },
   {
     "code": "N260223",
@@ -15054,7 +15227,8 @@
       "바디를 부드럽게 감싸주는 니트 텍스처",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "라인과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "라인과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260223-N260223_01.webp"
   },
   {
     "code": "N260224",
@@ -15121,7 +15295,8 @@
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "프릴과 니트 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "프릴과 니트 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260224-N260224_01.webp"
   },
   {
     "code": "N260001",
@@ -15209,7 +15384,8 @@
       "가볍고 여리한 분위기를 더하는 쉬폰 소재감",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "브이넥과 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "브이넥과 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260001-N260001_01.webp"
   },
   {
     "code": "N260002",
@@ -15287,7 +15463,8 @@
     "bestItem": true,
     "featured": true,
     "mainDisplay": true,
-    "priority": 100
+    "priority": 100,
+    "thumbImage": "assets/thumbs/N260002-N260002_01.webp"
   },
   {
     "code": "N260003",
@@ -15354,7 +15531,8 @@
       "가볍고 여리한 분위기를 더하는 쉬폰 소재감",
       "목선을 길고 여리하게 보여주는 브이넥"
     ],
-    "editorsNote": "브이넥과 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "브이넥과 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260003-N260003_01.webp"
   },
   {
     "code": "N260004",
@@ -15422,7 +15600,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260004-N260004_01.webp"
   },
   {
     "code": "N260005",
@@ -15511,7 +15690,8 @@
       "마린 포인트로 룩에 개성을 더해주는 디자인",
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
-    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260005-N260005_01.webp"
   },
   {
     "code": "N260006",
@@ -15594,7 +15774,8 @@
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "오프숄더와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "오프숄더와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260006-N260006_01.webp"
   },
   {
     "code": "N260007",
@@ -15656,7 +15837,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260007-N260007_01.webp"
   },
   {
     "code": "N260008",
@@ -15718,7 +15900,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
-    "editorsNote": "오프숄더 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "오프숄더 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260008-N260008_01.webp"
   },
   {
     "code": "N260009",
@@ -15802,7 +15985,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "마린 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260009-N260009_01.webp"
   },
   {
     "code": "N260010",
@@ -15865,7 +16049,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260010-N260010_01.webp"
   },
   {
     "code": "N260011",
@@ -15927,7 +16112,8 @@
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
-    "editorsNote": "오프숄더와 랩 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "오프숄더와 랩 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260011-N260011_01.webp"
   },
   {
     "code": "N260012",
@@ -15989,7 +16175,8 @@
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "오프숄더와 랩 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "오프숄더와 랩 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260012-N260012_01.webp"
   },
   {
     "code": "N260013",
@@ -16051,7 +16238,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리 라인을 슬림하게 정리해주는 랩 디자인"
     ],
-    "editorsNote": "오프숄더와 랩 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 랩 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260013-N260013_01.webp"
   },
   {
     "code": "N260014",
@@ -16143,7 +16331,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏",
       "룩의 완성도를 높여주는 골드 버튼 포인트"
     ],
-    "editorsNote": "골드버튼과 슬림 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "골드버튼과 슬림 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260014-N260014_01.webp"
   },
   {
     "code": "N260015",
@@ -16205,7 +16394,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "룩의 완성도를 높여주는 골드 버튼 포인트"
     ],
-    "editorsNote": "골드버튼과 슬림 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "골드버튼과 슬림 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260015-N260015_01.webp"
   },
   {
     "code": "N260016",
@@ -16274,7 +16464,8 @@
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일"
     ],
     "editorsNote": "미디 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260016-N260016_01.webp"
   },
   {
     "code": "N260017",
@@ -16336,7 +16527,8 @@
       "기네스미니원피스 포인트로 룩에 개성을 더해주는 디자인",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260017-N260017_01.webp"
   },
   {
     "code": "N260018",
@@ -16398,7 +16590,8 @@
       "기네스미니원피스 포인트로 룩에 개성을 더해주는 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260018-N260018_01.webp"
   },
   {
     "code": "N260019",
@@ -16465,7 +16658,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감"
     ],
-    "editorsNote": "새틴 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "새틴 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260019-N260019_01.webp"
   },
   {
     "code": "N260020",
@@ -16534,7 +16728,8 @@
     "seoName": "액세서리 옵션",
     "checkedReview": false,
     "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요",
-    "zipper": ""
+    "zipper": "",
+    "thumbImage": "assets/thumbs/N260020-N260020_03.webp"
   },
   {
     "code": "N260021",
@@ -16606,7 +16801,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "라비앙원피스 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "새틴 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "새틴 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260021-N260021_01.webp"
   },
   {
     "code": "N260022",
@@ -16668,7 +16864,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "튜브탑과 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "튜브탑과 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260022-N260022_01.webp"
   },
   {
     "code": "N260023",
@@ -16730,7 +16927,8 @@
       "상체 라인을 과감하게 살려주는 튜브탑 무드",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "튜브탑과 리본 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "튜브탑과 리본 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260023-N260023_01.webp"
   },
   {
     "code": "N260024",
@@ -16797,7 +16995,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "리본과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "리본과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260024-N260024_01.webp"
   },
   {
     "code": "N260025",
@@ -16859,7 +17058,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "스커트나 팬츠와 매치하기 쉬운 포인트 블라우스"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 블라우스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 블라우스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260025-N260025_01.webp"
   },
   {
     "code": "N260026",
@@ -16921,7 +17121,8 @@
       "스커트나 팬츠와 매치하기 쉬운 포인트 블라우스",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "리본과 탑 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "리본과 탑 포인트가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260026-N260026_01.webp"
   },
   {
     "code": "N260027",
@@ -16985,7 +17186,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏"
     ],
     "editorsNote": "라인과 슬림 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260027-N260027_01.webp"
   },
   {
     "code": "N260028",
@@ -17049,7 +17251,8 @@
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일"
     ],
     "editorsNote": "라인과 슬림 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260028-N260028_01.webp"
   },
   {
     "code": "N260029",
@@ -17113,7 +17316,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "라인과 슬림 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260029-N260029_01.webp"
   },
   {
     "code": "N260030",
@@ -17175,7 +17379,8 @@
       "상체 라인을 과감하게 살려주는 튜브탑 무드",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "튜브탑과 라인 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "튜브탑과 라인 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260030-N260030_01.webp"
   },
   {
     "code": "N260031",
@@ -17239,7 +17444,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "리본과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260031-N260031_03.webp"
   },
   {
     "code": "N260032",
@@ -17303,7 +17509,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
     "editorsNote": "리본과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260032-N260032_01.webp"
   },
   {
     "code": "N260033",
@@ -17365,7 +17572,8 @@
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "리본 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "리본 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260033-N260033_01.webp"
   },
   {
     "code": "N260034",
@@ -17427,7 +17635,8 @@
       "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣",
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일"
     ],
-    "editorsNote": "플리츠 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "플리츠 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260034-N260034_01.webp"
   },
   {
     "code": "N260035",
@@ -17489,7 +17698,8 @@
       "움직임이 예쁜 플리츠 디테일",
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
-    "editorsNote": "플리츠와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플리츠와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260035-N260035_01.webp"
   },
   {
     "code": "N260036",
@@ -17563,7 +17773,8 @@
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일"
     ],
     "editorsNote": "니트와 미디 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260036-N260036_01.webp"
   },
   {
     "code": "N260037",
@@ -17627,7 +17838,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "바디라인을 세련되게 정리해주는 슬림핏"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260037-N260037_01.webp"
   },
   {
     "code": "N260038",
@@ -17691,7 +17903,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏",
       "어깨선을 여성스럽게 드러내는 오프숄더"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "오프숄더와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260038-N260038_01.webp"
   },
   {
     "code": "N260039",
@@ -17754,7 +17967,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "크롭과 라인 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "크롭과 라인 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260039-N260039_01.webp"
   },
   {
     "code": "N260040",
@@ -17816,7 +18030,8 @@
       "허리선이 높아 보여 비율을 살려주는 크롭 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "크롭과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 블라우스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "크롭과 라인 포인트가 과하지 않게 글램한 무드를 만들어주는 블라우스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260040-N260040_01.webp"
   },
   {
     "code": "N260041",
@@ -17878,7 +18093,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "라인과 슬림 포인트가 단독으로도 충분히 매력적인 스커트입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "라인과 슬림 포인트가 단독으로도 충분히 매력적인 스커트입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260041-N260041_01.webp"
   },
   {
     "code": "N260043",
@@ -17968,7 +18184,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
     "editorsNote": "배색과 미디 포인트가 조명 아래에서 존재감을 살려주는 원피스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260043-N260043_01.webp"
   },
   {
     "code": "N260044",
@@ -18051,7 +18268,8 @@
       "라인을 선명하게 보여주는 배색 포인트"
     ],
     "editorsNote": "배색과 미디 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260044-N260044_01.webp"
   },
   {
     "code": "N260045",
@@ -18114,7 +18332,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "단정한 인상을 더해주는 카라넥"
     ],
-    "editorsNote": "카라 포인트가 단정함과 여성스러움을 함께 살려주는 투피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "카라 포인트가 단정함과 여성스러움을 함께 살려주는 투피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260045-N260045_01.webp"
   },
   {
     "code": "N260046",
@@ -18190,7 +18409,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "상:없음 하:뒷지퍼",
-    "seoName": "프레피 도트 카라 투피스"
+    "seoName": "프레피 도트 카라 투피스",
+    "thumbImage": "assets/thumbs/N260046-N260046_01.webp"
   },
   {
     "code": "N260047",
@@ -18264,7 +18484,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "라인을 길고 정돈되게 보여주는 드레스룩. 행사, 무대, 촬영, 격식 있는 모임 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "시스루 롱 드레스"
+    "seoName": "시스루 롱 드레스",
+    "thumbImage": "assets/thumbs/N260047-N260047_01.webp"
   },
   {
     "code": "N260048",
@@ -18338,7 +18559,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "라인을 길고 정돈되게 보여주는 드레스룩. 행사, 무대, 촬영, 격식 있는 모임 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "A라인 롱 드레스"
+    "seoName": "A라인 롱 드레스",
+    "thumbImage": "assets/thumbs/N260048-N260048_01.webp"
   },
   {
     "code": "N260049",
@@ -18402,7 +18624,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
     "editorsNote": "H라인과 미디 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260049-N260049_01.webp"
   },
   {
     "code": "N260050",
@@ -18492,7 +18715,8 @@
       "슬림하고 단정하게 떨어지는 H라인"
     ],
     "editorsNote": "H라인과 미디 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260050-N260050_01.webp"
   },
   {
     "code": "N260051",
@@ -18554,7 +18778,8 @@
       "고급스럽고 안정감 있는 미디 기장"
     ],
     "editorsNote": "H라인과 미디 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260051-N260051_01.webp"
   },
   {
     "code": "N260052",
@@ -18642,7 +18867,8 @@
       "고급스럽고 안정감 있는 미디 기장"
     ],
     "editorsNote": "H라인과 미디 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260052-N260052_01.webp"
   },
   {
     "code": "N260053",
@@ -18730,7 +18956,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
     "editorsNote": "H라인과 미디 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260053-N260053_01.webp"
   },
   {
     "code": "N260054",
@@ -18792,7 +19019,8 @@
       "슬림하고 단정하게 떨어지는 H라인"
     ],
     "editorsNote": "H라인과 미디 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260054-N260054_01.webp"
   },
   {
     "code": "N260055",
@@ -18881,7 +19109,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
-    "editorsNote": "미니와 탑 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "미니와 탑 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260055-N260055_01.webp"
   },
   {
     "code": "N260056",
@@ -18966,7 +19195,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "미니와 탑 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "미니와 탑 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260056-N260056_01.webp"
   },
   {
     "code": "N260057",
@@ -19056,7 +19286,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "움직임이 예쁜 플리츠 디테일"
     ],
-    "editorsNote": "플리츠와 미니 포인트가 조명 아래에서 존재감을 살려주는 탑입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "플리츠와 미니 포인트가 조명 아래에서 존재감을 살려주는 탑입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260057-N260057_01.webp"
   },
   {
     "code": "N260058",
@@ -19142,7 +19373,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일",
       "움직임이 예쁜 플리츠 디테일"
     ],
-    "editorsNote": "플리츠와 미니 포인트가 한 벌만으로 시선을 잡아주는 탑입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "플리츠와 미니 포인트가 한 벌만으로 시선을 잡아주는 탑입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260058-N260058_01.webp"
   },
   {
     "code": "N260059",
@@ -19237,7 +19469,8 @@
     "sizeGuide": "현재 표기: 55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원). 55/66/77 착용 가능 여부와 상세 실측(가슴, 허리, 총장)을 확인해 주세요.",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "플라워 숄더 H라인 미니 드레스"
+    "seoName": "플라워 숄더 H라인 미니 드레스",
+    "thumbImage": "assets/thumbs/N260059-N260059_01.webp"
   },
   {
     "code": "N260060",
@@ -19306,7 +19539,8 @@
     "sizeGuide": "한 사이즈 차이는 단면 .25CM 입니다. 실측사이즈는 단면의 길이를 기준으로합니다. 측정방법에 의해 1~2cm 오차가 있을수 있음",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "플라워 숄더 H라인 미니 드레스"
+    "seoName": "플라워 숄더 H라인 미니 드레스",
+    "thumbImage": "assets/thumbs/N260060-N260060_01.webp"
   },
   {
     "code": "N260061",
@@ -19378,7 +19612,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260061-N260061_01.webp"
   },
   {
     "code": "N260062",
@@ -19475,7 +19710,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260062-N260062_01.webp"
   },
   {
     "code": "N260063",
@@ -19560,7 +19796,8 @@
       "하체 라인을 부담 없이 커버하는 A라인 실루엣",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "A라인과 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "A라인과 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260063-N260063_01.webp"
   },
   {
     "code": "N260064",
@@ -19649,7 +19886,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "A라인과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "A라인과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260064-N260064_01.webp"
   },
   {
     "code": "N260065",
@@ -19708,7 +19946,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "플리츠와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플리츠와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260065-N260065_01.webp"
   },
   {
     "code": "N260066",
@@ -19767,7 +20006,8 @@
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260066-N260066_01.webp"
   },
   {
     "code": "N260067",
@@ -19831,7 +20071,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "A라인과 리본 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "A라인과 리본 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260067-N260067_01.webp"
   },
   {
     "code": "N260068",
@@ -19890,7 +20131,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "하체 라인을 부담 없이 커버하는 A라인 실루엣"
     ],
-    "editorsNote": "A라인과 리본 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "A라인과 리본 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260068-N260068_01.webp"
   },
   {
     "code": "N260069",
@@ -19949,7 +20191,8 @@
       "하체 라인을 부담 없이 커버하는 A라인 실루엣",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "A라인과 리본 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "A라인과 리본 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260069-N260069_01.webp"
   },
   {
     "code": "N260070",
@@ -20008,7 +20251,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "움직임이 예쁜 플리츠 디테일"
     ],
-    "editorsNote": "플리츠와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플리츠와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260070-N260070_01.webp"
   },
   {
     "code": "N260071",
@@ -20067,7 +20311,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "플리츠와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플리츠와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260071-N260071_01.webp"
   },
   {
     "code": "N260072",
@@ -20126,7 +20371,8 @@
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260072-N260072_01.webp"
   },
   {
     "code": "N260073",
@@ -20180,7 +20426,8 @@
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260073-N260073_01.webp"
   },
   {
     "code": "N260074",
@@ -20239,7 +20486,8 @@
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "스퀘어넥과 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260074-N260074_01.webp"
   },
   {
     "code": "N260075",
@@ -20298,7 +20546,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "플레어와 크롭 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 크롭 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260075-N260075_01.webp"
   },
   {
     "code": "N260076",
@@ -20367,7 +20616,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260076-N260076_01.webp"
   },
   {
     "code": "N260077",
@@ -20426,7 +20676,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "플레어와 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "플레어와 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260077-N260077_01.webp"
   },
   {
     "code": "N260078",
@@ -20488,7 +20739,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
     "editorsNote": "셔링과 라인 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260078-N260078_01.webp"
   },
   {
     "code": "N260079",
@@ -20566,7 +20818,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260079-N260079_01.webp"
   },
   {
     "code": "N260080",
@@ -20627,7 +20880,8 @@
       "가볍고 섹시한 분위기를 더하는 시스루 포인트",
       "한 벌만으로도 스타일이 완성되는 실루엣"
     ],
-    "editorsNote": "레이스와 시스루 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 시스루 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260080-N260080_01.webp"
   },
   {
     "code": "N260081",
@@ -20698,7 +20952,8 @@
       "한 벌만으로도 스타일이 완성되는 실루엣",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 시스루 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 시스루 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260081-N260081_01.webp"
   },
   {
     "code": "N260082",
@@ -20760,7 +21015,8 @@
       "우아한 분위기를 완성하는 롱 기장"
     ],
     "editorsNote": "새틴과 롱 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260082-N260082_01.webp"
   },
   {
     "code": "N260083",
@@ -20822,7 +21078,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
     "editorsNote": "새틴과 롱 포인트가 조명 아래에서 존재감을 살려주는 원피스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260083-N260083_01.webp"
   },
   {
     "code": "N260084",
@@ -20884,7 +21141,8 @@
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감"
     ],
     "editorsNote": "새틴과 롱 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260084-N260084_01.webp"
   },
   {
     "code": "N260085",
@@ -20951,7 +21209,8 @@
       "목선을 길고 여리하게 보여주는 브이넥",
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일"
     ],
-    "editorsNote": "V넥과 미디 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "V넥과 미디 포인트가 단정함과 여성스러움을 함께 살려주는 원피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260085-N260085_01.webp"
   },
   {
     "code": "N260086",
@@ -21013,7 +21272,8 @@
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일",
       "고급스럽고 안정감 있는 미디 기장"
     ],
-    "editorsNote": "V넥과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "V넥과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/N260086-N260086_01.webp"
   },
   {
     "code": "N260087",
@@ -21072,7 +21332,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "무대와 파티에서 존재감을 주는 스팽글 포인트"
     ],
-    "editorsNote": "스팽글과 프릴 포인트가 조명 아래에서 존재감을 살려주는 원피스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "스팽글과 프릴 포인트가 조명 아래에서 존재감을 살려주는 원피스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260087-N260087_01.webp"
   },
   {
     "code": "N260088",
@@ -21126,7 +21387,8 @@
       "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일",
       "무대와 파티에서 존재감을 주는 스팽글 포인트"
     ],
-    "editorsNote": "스팽글과 프릴 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "스팽글과 프릴 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260088-N260088_01.webp"
   },
   {
     "code": "N260089",
@@ -21185,7 +21447,8 @@
       "허리선이 높아 보여 비율을 살려주는 크롭 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "시스루와 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "시스루와 크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260089-N260089_01.webp"
   },
   {
     "code": "N260090",
@@ -21247,7 +21510,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260090-N260090_01.webp"
   },
   {
     "code": "N260091",
@@ -21306,7 +21570,8 @@
       "가볍고 섹시한 분위기를 더하는 시스루 포인트",
       "유니크한 분위기를 살리는 망사 포인트"
     ],
-    "editorsNote": "시스루와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "시스루와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260091-N260091_01.webp"
   },
   {
     "code": "N260092",
@@ -21368,7 +21633,8 @@
       "바디라인을 자연스럽게 보정해주는 셔링 디테일"
     ],
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260092-N260092_01.webp"
   },
   {
     "code": "N260093",
@@ -21427,7 +21693,8 @@
       "허리 대비가 살아나는 플레어 실루엣",
       "상체 라인을 가볍게 살려주는 탑 디자인"
     ],
-    "editorsNote": "플레어와 크롭 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "플레어와 크롭 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260093-N260093_01.webp"
   },
   {
     "code": "N260110",
@@ -21496,7 +21763,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "상체 라인을 가볍게 살려주는 탑 디자인"
     ],
-    "editorsNote": "탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260110-N260110_01.webp"
   },
   {
     "code": "N260111",
@@ -21587,7 +21855,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "seoName": "카라 반소매 가디건"
+    "seoName": "카라 반소매 가디건",
+    "thumbImage": "assets/thumbs/N260111-N260111_01.webp"
   },
   {
     "code": "N260112",
@@ -21648,7 +21917,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "단독이나 이너로도 포인트 주기 좋은 상의 디자인"
     ],
-    "editorsNote": "레이스와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260112-N260112_01.webp"
   },
   {
     "code": "N260113",
@@ -21709,7 +21979,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "쉬폰과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "쉬폰과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260113-N260113_01.webp"
   },
   {
     "code": "N260114",
@@ -21782,7 +22053,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "레이스 코르셋 뷔스티에"
+    "seoName": "레이스 코르셋 뷔스티에",
+    "thumbImage": "assets/thumbs/N260114-N260114_01.webp"
   },
   {
     "code": "N260115",
@@ -21843,7 +22115,8 @@
       "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
       "디테일이 살아있는 자수 포인트"
     ],
-    "editorsNote": "자수와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "자수와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260115-N260115_01.webp"
   },
   {
     "code": "N260116",
@@ -21930,7 +22203,8 @@
     "zipper": "없음",
     "seoName": "러플 롱슬리브 가디건",
     "checkedReview": false,
-    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요"
+    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요",
+    "thumbImage": "assets/thumbs/N260116-N260116_01.webp"
   },
   {
     "code": "N260117",
@@ -21999,7 +22273,8 @@
       "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "탑 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "탑 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260117-N260117_01.webp"
   },
   {
     "code": "N260118",
@@ -22060,7 +22335,8 @@
       "조명 아래에서 화려하게 살아나는 비즈 포인트",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "크롭과 비즈 포인트가 한 벌만으로 시선을 잡아주는 탑입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "크롭과 비즈 포인트가 한 벌만으로 시선을 잡아주는 탑입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260118-N260118_01.webp"
   },
   {
     "code": "N260119",
@@ -22122,7 +22398,8 @@
       "조명 아래에서 화려하게 살아나는 비즈 포인트",
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
-    "editorsNote": "비즈 포인트가 조명 아래에서 존재감을 살려주는 아우터입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "비즈 포인트가 조명 아래에서 존재감을 살려주는 아우터입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260119-N260119_01.webp"
   },
   {
     "code": "N260120",
@@ -22182,7 +22459,8 @@
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "브이넥과 니트 포인트가 단독으로도 충분히 매력적인 아우터입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "브이넥과 니트 포인트가 단독으로도 충분히 매력적인 아우터입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260120-N260120_01.webp"
   },
   {
     "code": "N260121",
@@ -22254,7 +22532,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "주얼버튼 크롭 투피스"
+    "seoName": "주얼버튼 크롭 투피스",
+    "thumbImage": "assets/thumbs/N260121-N260121_01.webp"
   },
   {
     "code": "N260122",
@@ -22323,7 +22602,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "크롭과 니트 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "크롭과 니트 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260122-N260122_01.webp"
   },
   {
     "code": "N260123",
@@ -22382,7 +22662,8 @@
       "허리선이 높아 보여 비율을 살려주는 크롭 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "크롭과 니트 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "크롭과 니트 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260123-N260123_01.webp"
   },
   {
     "code": "N260124",
@@ -22441,7 +22722,8 @@
       "바디를 부드럽게 감싸주는 니트 텍스처",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "크롭과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "크롭과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260124-N260124_01.webp"
   },
   {
     "code": "N260125",
@@ -22500,7 +22782,8 @@
       "바디라인을 세련되게 정리해주는 슬림핏",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "배색과 슬림 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "배색과 슬림 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260125-N260125_01.webp"
   },
   {
     "code": "N260126",
@@ -22559,7 +22842,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
-    "editorsNote": "라인과 니트 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "라인과 니트 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260126-N260126_01.webp"
   },
   {
     "code": "N260127",
@@ -22618,7 +22902,8 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "라인과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "라인과 니트 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260127-N260127_01.webp"
   },
   {
     "code": "N260128",
@@ -22677,7 +22962,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "라인과 니트 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "라인과 니트 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260128-N260128_01.webp"
   },
   {
     "code": "N260129",
@@ -22751,7 +23037,8 @@
     "zipper": "상:없음 하: 뒷지퍼",
     "seoName": "모던 라인 투피스",
     "checkedReview": false,
-    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요"
+    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요",
+    "thumbImage": "assets/thumbs/N260129-N260129_01.webp"
   },
   {
     "code": "N260130",
@@ -22825,7 +23112,8 @@
     "zipper": "상:없음 하: 뒷지퍼",
     "seoName": "모던 라인 투피스",
     "checkedReview": false,
-    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요"
+    "reviewHoldReason": "자동 반영 제외: 가격/상품유형 확인 필요",
+    "thumbImage": "assets/thumbs/N260130-N260130_01.webp"
   },
   {
     "code": "N260131",
@@ -22895,7 +23183,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "모던 라인 투피스"
+    "seoName": "모던 라인 투피스",
+    "thumbImage": "assets/thumbs/N260131-N260131_01.webp"
   },
   {
     "code": "N260132",
@@ -22968,7 +23257,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "쓰리피스 셋업 투피스"
+    "seoName": "쓰리피스 셋업 투피스",
+    "thumbImage": "assets/thumbs/N260132-N260132_01.webp"
   },
   {
     "code": "N260133",
@@ -23027,7 +23317,8 @@
       "라인을 선명하게 보여주는 배색 포인트",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260133-N260133_01.webp"
   },
   {
     "code": "N260134",
@@ -23086,7 +23377,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 쉬폰 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 쉬폰 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260134-N260134_01.webp"
   },
   {
     "code": "N260135",
@@ -23145,7 +23437,8 @@
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스와 새틴 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 새틴 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260135-N260135_01.webp"
   },
   {
     "code": "N260136",
@@ -23204,7 +23497,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감"
     ],
-    "editorsNote": "레이스와 새틴 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 새틴 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260136-N260136_01.webp"
   },
   {
     "code": "N260137",
@@ -23282,7 +23576,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스와 새틴 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 새틴 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260137-N260137_01.webp"
   },
   {
     "code": "N260138",
@@ -23341,7 +23636,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "허리선이 높아 보여 비율을 살려주는 크롭 기장"
     ],
-    "editorsNote": "크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "크롭 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260138-N260138_01.webp"
   },
   {
     "code": "N260139",
@@ -23400,7 +23696,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "BL:72 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260139-N260139_01.webp"
   },
   {
     "code": "N260140",
@@ -23469,7 +23766,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "상:프리사이즈(36 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260140-N260140_01.webp"
   },
   {
     "code": "N260141",
@@ -23528,7 +23826,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260141-N260141_01.webp"
   },
   {
     "code": "N260142",
@@ -23587,7 +23886,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "바디를 부드럽게 감싸주는 니트 텍스처"
     ],
-    "editorsNote": "니트와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "니트와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260142-N260142_01.webp"
   },
   {
     "code": "N260143",
@@ -23646,7 +23946,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "니트와 미니 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "니트와 미니 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260143-N260143_01.webp"
   },
   {
     "code": "N260144",
@@ -23712,7 +24013,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260144-N260144_01.webp"
   },
   {
     "code": "N260145",
@@ -23771,7 +24073,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "S480 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260145-N260145_01.webp"
   },
   {
     "code": "N260146",
@@ -23830,7 +24133,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "S481 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260146-N260146_01.webp"
   },
   {
     "code": "N260147",
@@ -23905,7 +24209,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260147-N260147_01.webp"
   },
   {
     "code": "N260148",
@@ -23964,7 +24269,8 @@
       "유니크한 분위기를 살리는 망사 포인트",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "망사와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "망사와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260148-N260148_01.webp"
   },
   {
     "code": "N260149",
@@ -24023,7 +24329,8 @@
       "유니크한 분위기를 살리는 망사 포인트",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "망사와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "망사와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260149-N260149_01.webp"
   },
   {
     "code": "N260150",
@@ -24082,7 +24389,8 @@
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260150-N260150_01.webp"
   },
   {
     "code": "N260151",
@@ -24148,7 +24456,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "유니크한 분위기를 살리는 망사 포인트"
     ],
-    "editorsNote": "망사와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "망사와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260151-N260151_01.webp"
   },
   {
     "code": "N260152",
@@ -24207,7 +24516,8 @@
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감",
       "유니크한 분위기를 살리는 망사 포인트"
     ],
-    "editorsNote": "망사와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "망사와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260152-N260152_01.webp"
   },
   {
     "code": "N260153",
@@ -24266,7 +24576,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "은은한 광택으로 고급스러운 분위기를 주는 새틴 소재감"
     ],
-    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "망사와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260153-N260153_01.webp"
   },
   {
     "code": "N260154",
@@ -24355,7 +24666,8 @@
       "뒷커버 포인트로 룩에 개성을 더해주는 디자인",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260154-N260154_01.webp"
   },
   {
     "code": "N260155",
@@ -24414,7 +24726,8 @@
       "뒷커버 포인트로 룩에 개성을 더해주는 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260155-N260155_01.webp"
   },
   {
     "code": "N260156",
@@ -24473,7 +24786,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260156-N260156_01.webp"
   },
   {
     "code": "N260157",
@@ -24543,7 +24857,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260157-N260157_01.webp"
   },
   {
     "code": "N260158",
@@ -24609,7 +24924,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "S493 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260158-N260158_01.webp"
   },
   {
     "code": "N260159",
@@ -24668,7 +24984,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260159-N260159_01.webp"
   },
   {
     "code": "N260160",
@@ -24738,7 +25055,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "시그니처 투피스"
+    "seoName": "시그니처 투피스",
+    "thumbImage": "assets/thumbs/N260160-N260160_01.webp"
   },
   {
     "code": "N260161",
@@ -24823,7 +25141,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 롱 드레스"
+    "seoName": "포인트 롱 드레스",
+    "thumbImage": "assets/thumbs/N260161-N260161_01.webp"
   },
   {
     "code": "N260162",
@@ -24902,7 +25221,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 롱 드레스"
+    "seoName": "포인트 롱 드레스",
+    "thumbImage": "assets/thumbs/N260162-N260162_01.webp"
   },
   {
     "code": "N260163",
@@ -24974,7 +25294,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260163-N260163_01.webp"
   },
   {
     "code": "N260164",
@@ -25044,7 +25365,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "상·하의 구성과 허리/스커트 핏을 분리해 안내. 모임, 촬영, 세미 파티룩 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "모던 슬림 투피스"
+    "seoName": "모던 슬림 투피스",
+    "thumbImage": "assets/thumbs/N260164-N260164_01.webp"
   },
   {
     "code": "N260165",
@@ -25115,7 +25437,8 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "보통",
     "zipper": "옆지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260165-N260165_01.webp"
   },
   {
     "code": "N260166",
@@ -25193,7 +25516,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "엽지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260166-N260166_01.webp"
   },
   {
     "code": "N260167",
@@ -25254,7 +25578,8 @@
       "어깨선을 여성스럽게 드러내는 오프숄더",
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "오프숄더와 리본 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260167-N260167_01.webp"
   },
   {
     "code": "N260168",
@@ -25345,7 +25670,8 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260168-N260168_01.webp"
   },
   {
     "code": "N260169",
@@ -25425,7 +25751,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260169-N260169_01.webp"
   },
   {
     "code": "N260170",
@@ -25498,7 +25825,8 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260170-N260170_01.webp"
   },
   {
     "code": "N260171",
@@ -25569,7 +25897,8 @@
       "하체 라인을 부담 없이 커버하는 A라인 실루엣",
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일"
     ],
-    "editorsNote": "A라인과 미디 포인트가 단정함과 여성스러움을 함께 살려주는 탑입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "A라인과 미디 포인트가 단정함과 여성스러움을 함께 살려주는 탑입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260171-N260171_01.webp"
   },
   {
     "code": "N260172",
@@ -25647,7 +25976,8 @@
     "sizeGuide": "현재 표기: 55(S) / 66(M). 옵션별 실측과 신축성에 따라 추천 사이즈 문구 보강 필요.",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260172-N260172_01.webp"
   },
   {
     "code": "N260173",
@@ -25719,7 +26049,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260173-N260173_01.webp"
   },
   {
     "code": "N260174",
@@ -25792,7 +26123,8 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "보통",
     "zipper": "없음",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260174-N260174_01.webp"
   },
   {
     "code": "N260175",
@@ -25865,7 +26197,8 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "보통",
     "zipper": "없음",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260175-N260175_01.webp"
   },
   {
     "code": "N260176",
@@ -25937,7 +26270,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "백하트 포인트 미니 원피스"
+    "seoName": "백하트 포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260176-N260176_01.webp"
   },
   {
     "code": "N260177",
@@ -26009,7 +26343,8 @@
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
-    "seoName": "백하트 포인트 미니 원피스"
+    "seoName": "백하트 포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260177-N260177_01.webp"
   },
   {
     "code": "N260178",
@@ -26070,7 +26405,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "레이스와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260178-N260178_01.webp"
   },
   {
     "code": "N260179",
@@ -26131,7 +26467,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260179-N260179_01.webp"
   },
   {
     "code": "N260180",
@@ -26194,7 +26531,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일",
       "우아한 분위기를 완성하는 롱 기장"
     ],
-    "editorsNote": "망사와 롱 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "망사와 롱 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260180-N260180_01.webp"
   },
   {
     "code": "N260181",
@@ -26257,7 +26595,8 @@
       "우아한 분위기를 완성하는 롱 기장",
       "유니크한 분위기를 살리는 망사 포인트"
     ],
-    "editorsNote": "망사와 롱 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "망사와 롱 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260181-N260181_01.webp"
   },
   {
     "code": "N260182",
@@ -26320,7 +26659,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일",
       "유니크한 분위기를 살리는 망사 포인트"
     ],
-    "editorsNote": "망사와 롱 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "망사와 롱 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260182-N260182_01.webp"
   },
   {
     "code": "N260183",
@@ -26381,7 +26721,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "레이스와 미니 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260183-N260183_01.webp"
   },
   {
     "code": "N260184",
@@ -26442,7 +26783,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "레이스와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "레이스와 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260184-N260184_01.webp"
   },
   {
     "code": "N260185",
@@ -26516,7 +26858,8 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "포인트 미니 원피스"
+    "seoName": "포인트 미니 원피스",
+    "thumbImage": "assets/thumbs/N260185-N260185_01.webp"
   },
   {
     "code": "N260186",
@@ -26591,7 +26934,8 @@
       "status": "confirmed",
       "price": 68000,
       "source": "judyshop ???S543 category listing, crawled 2 weeks ago"
-    }
+    },
+    "thumbImage": "assets/thumbs/N260186-N260186_01.webp"
   },
   {
     "code": "N260187",
@@ -26678,7 +27022,8 @@
       "허리선이 높아 보여 비율을 살려주는 크롭 기장",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "크롭과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "크롭과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260187-N260187_01.webp"
   },
   {
     "code": "N260188",
@@ -26765,7 +27110,8 @@
       "고급스럽고 안정감 있는 미디 기장",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "크롭과 버튼 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "크롭과 버튼 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260188-N260188_01.webp"
   },
   {
     "code": "N260189",
@@ -26859,7 +27205,8 @@
       "무대·방송·촬영처럼 조명 받는 자리에서 존재감 있는 스타일"
     ],
     "editorsNote": "미디 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "length": "미디"
+    "length": "미디",
+    "thumbImage": "assets/thumbs/N260189-N260189_01.webp"
   },
   {
     "code": "N260190",
@@ -26920,7 +27267,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "하체 라인을 부담 없이 커버하는 A라인 실루엣"
     ],
-    "editorsNote": "A라인과 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "A라인과 미니 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260190-N260190_01.webp"
   },
   {
     "code": "N260191",
@@ -27007,7 +27355,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "A라인과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "A라인과 미니 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260191-N260191_01.webp"
   },
   {
     "code": "N260192",
@@ -27068,7 +27417,8 @@
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "스커트나 팬츠와 매치하기 쉬운 포인트 블라우스"
     ],
-    "editorsNote": "버튼 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "버튼 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260192-N260192_01.webp"
   },
   {
     "code": "N260193",
@@ -27132,7 +27482,8 @@
       "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣",
       "디테일이 살아있는 자수 포인트"
     ],
-    "editorsNote": "자수 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "자수 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260193-N260193_01.webp"
   },
   {
     "code": "N260194",
@@ -27214,7 +27565,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "상:81 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260194-N260194_01.webp"
   },
   {
     "code": "N260195",
@@ -27277,7 +27629,8 @@
       "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣",
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260195-N260195_01.webp"
   },
   {
     "code": "N260196",
@@ -27340,7 +27693,8 @@
       "샹드리에SK아이핑크 포인트로 룩에 개성을 더해주는 디자인",
       "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣"
     ],
-    "editorsNote": "깔끔한 실루엣가 단독으로도 충분히 매력적인 스커트입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "깔끔한 실루엣가 단독으로도 충분히 매력적인 스커트입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260196-N260196_01.webp"
   },
   {
     "code": "N260197",
@@ -27420,7 +27774,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "셔링과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "셔링과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260197-N260197_01.webp"
   },
   {
     "code": "N260198",
@@ -27493,7 +27848,8 @@
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "seoName": "아코디언 블라우스"
+    "seoName": "아코디언 블라우스",
+    "thumbImage": "assets/thumbs/N260198-N260198_01.webp"
   },
   {
     "code": "N260199",
@@ -27554,7 +27910,8 @@
       "라인을 선명하게 보여주는 배색 포인트",
       "오투3아이 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "배색 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "배색 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260199-N260199_01.webp"
   },
   {
     "code": "N260200",
@@ -27617,7 +27974,8 @@
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다."
+    "editorsNote": "레이스 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "thumbImage": "assets/thumbs/N260200-N260200_01.webp"
   },
   {
     "code": "N260201",
@@ -27681,7 +28039,8 @@
       "다리 라인을 경쾌하게 살려주는 미니 기장",
       "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일"
     ],
-    "editorsNote": "자수와 미니 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "자수와 미니 포인트가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260201-N260201_01.webp"
   },
   {
     "code": "N260202",
@@ -27742,7 +28101,8 @@
       "단정한 인상을 더해주는 카라넥",
       "라인을 선명하게 보여주는 배색 포인트"
     ],
-    "editorsNote": "카라와 배색 포인트가 세련된 분위기를 만들어주는 투피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "카라와 배색 포인트가 세련된 분위기를 만들어주는 투피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/N260202-N260202_01.webp"
   },
   {
     "code": "N260203",
@@ -27803,7 +28163,8 @@
       "캔디원피스민트크림 포인트로 룩에 개성을 더해주는 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260203-N260203_01.webp"
   },
   {
     "code": "N260204",
@@ -27864,7 +28225,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260204-N260204_01.webp"
   },
   {
     "code": "N260205",
@@ -27925,7 +28287,8 @@
       "스커트나 팬츠와 매치하기 쉬운 포인트 블라우스",
       "코메즈 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 부담 없이 포인트를 더해주는 블라우스입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260205-N260205_01.webp"
   },
   {
     "code": "N260206",
@@ -27988,7 +28351,8 @@
       "상체 라인을 가볍게 살려주는 탑 디자인",
       "우아한 섹시미를 살려주는 레이스 디테일"
     ],
-    "editorsNote": "레이스와 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스와 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260206-N260206_01.webp"
   },
   {
     "code": "N260207",
@@ -28049,7 +28413,8 @@
       "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260207-N260207_01.webp"
   },
   {
     "code": "N260208",
@@ -28136,7 +28501,8 @@
       "폼폼투피스 포인트로 룩에 개성을 더해주는 디자인",
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
-    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다."
+    "editorsNote": "깔끔한 실루엣가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "assets/thumbs/N260208-N260208_01.webp"
   },
   {
     "code": "N260209",
@@ -28218,7 +28584,8 @@
       "우아한 섹시미를 살려주는 레이스 디테일",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "레이스 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "레이스 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260209-N260209_01.webp"
   },
   {
     "code": "N260210",
@@ -28281,7 +28648,8 @@
       "하객룩·모임룩처럼 단정하면서도 여성스러운 자리에 어울리는 스타일",
       "단정하면서도 고급스러운 트위드 무드"
     ],
-    "editorsNote": "트위드 포인트가 세련된 분위기를 만들어주는 투피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다."
+    "editorsNote": "트위드 포인트가 세련된 분위기를 만들어주는 투피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
+    "thumbImage": "assets/thumbs/N260210-N260210_01.webp"
   },
   {
     "code": "N260211",
@@ -28360,7 +28728,8 @@
       "단정하면서도 고급스러운 트위드 무드",
       "라벤더 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "트위드 포인트가 단정함과 여성스러움을 함께 살려주는 투피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다."
+    "editorsNote": "트위드 포인트가 단정함과 여성스러움을 함께 살려주는 투피스입니다. 모임이나 특별한 약속에서 과하지 않게 고급스러운 인상을 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260211-N260211_01.webp"
   },
   {
     "code": "N260212",
@@ -28438,7 +28807,8 @@
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
       "스트라이프 포인트로 룩에 개성을 더해주는 디자인"
     ],
-    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다."
+    "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260212-N260212_01.webp"
   },
   {
     "code": "N260213",
@@ -28507,7 +28877,8 @@
       "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성",
       "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
     ],
-    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다."
+    "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260213-N260213_01.webp"
   },
   {
     "code": "N260214",
@@ -28594,7 +28965,8 @@
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "빅리본과 버튼 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "빅리본과 버튼 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260214-N260214_01.webp"
   },
   {
     "code": "N260215",
@@ -28685,7 +29057,8 @@
       "시선을 확실하게 잡아주는 빅리본 포인트",
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트"
     ],
-    "editorsNote": "빅리본과 버튼 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다."
+    "editorsNote": "빅리본과 버튼 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
+    "thumbImage": "assets/thumbs/N260215-N260215_01.webp"
   },
   {
     "code": "N260216",
@@ -28746,7 +29119,8 @@
       "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
       "다리 라인을 경쾌하게 살려주는 미니 기장"
     ],
-    "editorsNote": "빅리본과 버튼 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다."
+    "editorsNote": "빅리본과 버튼 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
+    "thumbImage": "assets/thumbs/N260216-N260216_01.webp"
   },
   {
     "code": "JES-325",
