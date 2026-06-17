@@ -204,21 +204,23 @@
 }
 
 /* Simple showroom header override */
-.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:42px 16px 34px;border-bottom:1px solid #d8c2a333}
+.hero{position:relative;overflow:hidden;background:#171311;color:#fff;text-align:center;padding:54px 16px 42px;border-bottom:1px solid #d8c2a333}
 .hero:before{display:none}
-.hero h1{margin:0;font-family:Georgia,serif;font-size:64px;letter-spacing:.18em}
-.hero p{display:block;margin:12px 0 0;color:#efe2d3;font-size:15px;font-weight:850;letter-spacing:.05em;text-transform:none}
+.hero h1{margin:0;font-family:Georgia,serif;font-size:78px;letter-spacing:.2em}
+.hero p{display:block;margin:0;text-transform:none}
 .hero-copy{position:relative;z-index:1;max-width:900px;margin:0 auto}
-.hero-kicker{display:inline-flex;margin-bottom:10px;color:#d8bd8f;font-size:12px;font-weight:950;letter-spacing:.16em}
-.hero-points{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:18px}
-.hero-points span{display:inline-flex;align-items:center;min-height:34px;padding:0 13px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);color:#f6ecdf;font-size:12.5px;font-weight:850;letter-spacing:0}
+.hero-kicker,.hero-points{display:none}
+.hero-category{margin-top:18px!important;color:#f4eadf;font-size:16px;font-weight:850;line-height:1.75;letter-spacing:.04em}
+.hero-category span{color:#d8bd8f;font-family:Georgia,serif;font-size:18px;font-weight:700;letter-spacing:.08em}
+.hero-service{margin-top:16px!important;color:#cdbbaa;font-size:13px;font-weight:850;letter-spacing:.12em}
+.search-note{margin:8px 4px 0;color:#846f60;font-size:13px;font-weight:850;line-height:1.45;text-align:center}
 @media(max-width:720px){
-  .hero{padding:30px 14px 24px}
-  .hero h1{font-size:48px}
-  .hero p{font-size:13px;line-height:1.5}
-  .hero-kicker{font-size:10.5px}
-  .hero-points{gap:6px;margin-top:14px}
-  .hero-points span{min-height:30px;padding:0 10px;font-size:11px}
+  .hero{padding:40px 14px 30px}
+  .hero h1{font-size:54px}
+  .hero-category{font-size:13px;line-height:1.7}
+  .hero-category span{font-size:15px}
+  .hero-service{font-size:11.5px;letter-spacing:.08em}
+  .search-note{font-size:12px}
 }
 
 /* Detail readability cleanup */
