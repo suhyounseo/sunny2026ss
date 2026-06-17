@@ -146,7 +146,7 @@
 .purchase-guide b{display:block;margin-bottom:8px;color:#d9bc8f;font-size:13px;letter-spacing:.12em}
 .purchase-guide p{margin:0;line-height:1.75;word-break:keep-all}
 .detail-cta{grid-template-columns:1fr 1fr}
-.detail-cta button,.detail-cta a{display:flex;align-items:center;justify-content:center;gap:10px;padding:15px 12px;border-radius:18px;font-weight:950;text-decoration:none;font-size:16px;cursor:pointer;text-align:center;line-height:1.25}
+.detail-cta button,.detail-cta a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:16px 14px;border-radius:18px;font-weight:950;text-decoration:none;font-size:17px;cursor:pointer;text-align:center;line-height:1.25}
 .detail-cta button{border:1px solid #d9c8b8}
 .detail-cta .kakao{border-color:rgba(60,30,30,.12)}
 .home .collection-grid{margin:42px 0 34px}
@@ -164,7 +164,7 @@
   .card-similar{min-height:40px;margin-top:10px;font-size:13px}
   .community-guide{font-size:13.5px;line-height:1.65}
   .detail-cta{grid-template-columns:1fr;position:sticky;bottom:0;background:#fbf7f1;padding:10px 0 4px}
-  .detail-cta button,.detail-cta a{width:100%;font-size:15px;min-height:46px}
+  .detail-cta button,.detail-cta a{width:100%;font-size:16px;min-height:54px}
   .purchase-guide{padding:15px 14px}
   .similar-shelf{margin:0 0 24px;padding:16px 12px 4px;border-radius:8px}
   .similar-head h3{font-size:24px}

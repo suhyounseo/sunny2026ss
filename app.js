@@ -118,15 +118,13 @@ function displayCode(p) {
 }
 
 function sizeSummary(p) {
-  const info = cleanText(p.sizeInfo || '');
-  if (info === '확인 필요') return '확인 필요';
-  return cleanText(p.size || info || '');
+  return simpleSize(p);
 }
 
 function sizeDetail(p) {
   const size = cleanText(p.size || '');
   const info = cleanText(p.sizeInfo || '');
-  if (info === '확인 필요') return '확인 필요';
+  if (!safeText(info)) return safeText(size) || '문의';
   if (size && info && size !== info) return `${size} / ${info}`;
   return size || info || '-';
 }
@@ -137,7 +135,7 @@ function money(n) {
 
 function safeText(value) {
   const text = cleanText(value || '');
-  if (!text || /확인\s*필요|확인필요|추정\s*금지|거래처|입고표|상품택|확정/i.test(text)) return '';
+  if (!text || /확인\s*필요|확인필요|검수\s*필요|검수필요|추정|사진\s*기준|거래처|입고표|상품택|확정|경쟁사\s*참고|경쟁사/i.test(text)) return '';
   return text;
 }
 
@@ -416,6 +414,11 @@ function matchesSearch(p, rawSearch) {
   if (/^(미디|midi)$/i.test(rawSearch)) return p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   if (/^(롱|long)$/i.test(rawSearch)) return p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG');
   if (/^(투피스|two[-_ ]?piece)$/i.test(rawSearch)) return p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
+  if (/^(스커트|skirt)$/i.test(rawSearch)) return p.category === 'SKIRT' || hasTag(p, 'SKIRT');
+  if (/^(블라우스|blouse)$/i.test(rawSearch)) {
+    const label = [p.name, p.storeName, p.productName, p.seoName, ...(p.tags || [])].join(' ');
+    return (p.category === 'TOP' || hasTag(p, 'TOP')) && /블라우스|blouse/i.test(label);
+  }
   if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
   const hay = norm([productText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
   return hay.includes(search);
