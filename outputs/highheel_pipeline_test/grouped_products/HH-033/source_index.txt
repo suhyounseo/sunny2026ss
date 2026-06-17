@@ -1,0 +1,21 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 애니ops
+source_folder: 하이힐\애니ops
+source_files:
+하이힐\애니ops\애니ops04.jpg
+하이힐\애니ops\애니ops05.jpg
+하이힐\애니ops\애니ops06.jpg
+하이힐\애니ops\애니ops07.jpg
+하이힐\애니ops\애니ops08.jpg
+하이힐\애니ops\애니ops09.jpg
+하이힐\애니ops\애니ops10.jpg
+하이힐\애니ops\애니ops11.jpg
+하이힐\애니ops\애니ops12.jpg
+하이힐\애니ops\애니ops13.jpg
+하이힐\애니ops\애니ops14.jpg
+하이힐\애니ops\애니ops15.jpg
+하이힐\애니ops\애니ops16.jpg
+하이힐\애니ops\애니ops17.jpg
+하이힐\애니ops\애니ops18.jpg
+하이힐\애니ops\애니ops19.jpg
+하이힐\애니ops\애니ops20.jpg

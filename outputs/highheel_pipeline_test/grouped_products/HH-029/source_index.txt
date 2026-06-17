@@ -1,0 +1,16 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 셔링탑ops
+source_folder: 하이힐\셔링탑ops
+source_files:
+하이힐\셔링탑ops\img_l (1).jpg
+하이힐\셔링탑ops\img_l (10).jpg
+하이힐\셔링탑ops\img_l (11).jpg
+하이힐\셔링탑ops\img_l (2).jpg
+하이힐\셔링탑ops\img_l (3).jpg
+하이힐\셔링탑ops\img_l (4).jpg
+하이힐\셔링탑ops\img_l (5).jpg
+하이힐\셔링탑ops\img_l (6).jpg
+하이힐\셔링탑ops\img_l (7).jpg
+하이힐\셔링탑ops\img_l (8).jpg
+하이힐\셔링탑ops\img_l (9).jpg
+하이힐\셔링탑ops\img_l.jpg

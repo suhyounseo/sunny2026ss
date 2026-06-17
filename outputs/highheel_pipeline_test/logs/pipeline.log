@@ -1,0 +1,41 @@
+2026-06-16 12:14:20,968 [INFO] Pipeline started
+2026-06-16 12:14:20,968 [INFO] Zip path: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:14:20,968 [INFO] Output dir: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test
+2026-06-16 12:14:20,968 [INFO] Extracting zip: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:14:22,715 [INFO] Extraction complete: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\_extracted
+2026-06-16 12:14:22,818 [INFO] Scanned image files: 731
+2026-06-16 12:14:22,938 [INFO] Grouped products: 55
+2026-06-16 12:14:26,537 [INFO] Wrote CSV: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.csv
+2026-06-16 12:14:26,538 [INFO] Wrote JSON: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.json
+2026-06-16 12:14:26,670 [INFO] Wrote grouped product indexes: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\grouped_products
+2026-06-16 12:14:27,181 [INFO] Wrote contact sheet: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\previews\sample_contact_sheet.jpg
+2026-06-16 12:14:27,184 [INFO] Wrote summary: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\summary.md
+2026-06-16 12:14:27,184 [INFO] Pipeline finished successfully
+2026-06-16 12:17:31,673 [INFO] Pipeline started
+2026-06-16 12:17:31,674 [INFO] Zip path: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:17:31,674 [INFO] Output dir: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test
+2026-06-16 12:17:31,674 [INFO] Removing previous extraction directory: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\_extracted
+2026-06-16 12:17:31,913 [INFO] Extracting zip: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:17:33,873 [INFO] Extraction complete: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\_extracted
+2026-06-16 12:17:33,956 [INFO] Scanned image files: 731
+2026-06-16 12:17:34,055 [INFO] Grouped products: 55
+2026-06-16 12:17:37,480 [INFO] Wrote CSV: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.csv
+2026-06-16 12:17:37,480 [INFO] Wrote JSON: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.json
+2026-06-16 12:17:37,579 [INFO] Wrote grouped product indexes: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\grouped_products
+2026-06-16 12:17:38,074 [INFO] Wrote contact sheet: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\previews\sample_contact_sheet.jpg
+2026-06-16 12:17:38,076 [INFO] Wrote summary: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\summary.md
+2026-06-16 12:17:38,076 [INFO] Pipeline finished successfully
+2026-06-16 12:19:29,284 [INFO] Pipeline started
+2026-06-16 12:19:29,284 [INFO] Zip path: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:19:29,284 [INFO] Output dir: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test
+2026-06-16 12:19:29,285 [INFO] Removing previous extraction directory: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\_extracted
+2026-06-16 12:19:29,523 [INFO] Extracting zip: C:\Users\UserK\Downloads\하이힐.zip
+2026-06-16 12:19:31,246 [INFO] Extraction complete: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\_extracted
+2026-06-16 12:19:31,333 [INFO] Scanned image files: 731
+2026-06-16 12:19:31,434 [INFO] Grouped products: 55
+2026-06-16 12:19:34,017 [INFO] Wrote CSV: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.csv
+2026-06-16 12:19:34,017 [INFO] Wrote JSON: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\products_master.json
+2026-06-16 12:19:34,101 [INFO] Wrote grouped product indexes: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\grouped_products
+2026-06-16 12:19:34,635 [INFO] Wrote contact sheet: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\previews\sample_contact_sheet.jpg
+2026-06-16 12:19:34,638 [INFO] Wrote summary: C:\Users\UserK\Documents\GitHub\sunny2026ss\outputs\highheel_pipeline_test\summary.md
+2026-06-16 12:19:34,638 [INFO] Pipeline finished successfully

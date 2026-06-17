@@ -1,0 +1,11 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 델핀bl W
+source_folder: 하이힐\델핀bl W
+source_files:
+하이힐\델핀bl W\델핀bl W04.jpg
+하이힐\델핀bl W\델핀bl W05.jpg
+하이힐\델핀bl W\델핀bl W06.jpg
+하이힐\델핀bl W\델핀bl W07.jpg
+하이힐\델핀bl W\델핀bl W08.jpg
+하이힐\델핀bl W\델핀bl W09.jpg
+하이힐\델핀bl W\델핀bl W10.jpg

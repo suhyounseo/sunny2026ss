@@ -1,0 +1,20 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 생로랑ops
+source_folder: 하이힐\생로랑ops
+source_files:
+하이힐\생로랑ops\생로랑ops04.jpg
+하이힐\생로랑ops\생로랑ops05.jpg
+하이힐\생로랑ops\생로랑ops06.jpg
+하이힐\생로랑ops\생로랑ops07.jpg
+하이힐\생로랑ops\생로랑ops08.jpg
+하이힐\생로랑ops\생로랑ops09.jpg
+하이힐\생로랑ops\생로랑ops10.jpg
+하이힐\생로랑ops\생로랑ops11.jpg
+하이힐\생로랑ops\생로랑ops12.jpg
+하이힐\생로랑ops\생로랑ops13.jpg
+하이힐\생로랑ops\생로랑ops14.jpg
+하이힐\생로랑ops\생로랑ops15.jpg
+하이힐\생로랑ops\생로랑ops16.jpg
+하이힐\생로랑ops\생로랑ops17.jpg
+하이힐\생로랑ops\생로랑ops18.jpg
+하이힐\생로랑ops\생로랑ops19.jpg

@@ -1,0 +1,12 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 코나bl B
+source_folder: 하이힐\코나bl B
+source_files:
+하이힐\코나bl B\코나bl04.jpg
+하이힐\코나bl B\코나bl05.jpg
+하이힐\코나bl B\코나bl06.jpg
+하이힐\코나bl B\코나bl07.jpg
+하이힐\코나bl B\코나bl08.jpg
+하이힐\코나bl B\코나bl09.jpg
+하이힐\코나bl B\코나bl10.jpg
+하이힐\코나bl B\코나bl11.jpg

@@ -1,0 +1,17 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 릴리bl
+source_folder: 하이힐\릴리bl
+source_files:
+하이힐\릴리bl\img_l (38).jpg
+하이힐\릴리bl\img_l (39).jpg
+하이힐\릴리bl\img_l (40).jpg
+하이힐\릴리bl\img_l (41).jpg
+하이힐\릴리bl\img_l (42).jpg
+하이힐\릴리bl\img_l (43).jpg
+하이힐\릴리bl\img_l (44).jpg
+하이힐\릴리bl\img_l (45).jpg
+하이힐\릴리bl\img_l (46).jpg
+하이힐\릴리bl\img_l (47).jpg
+하이힐\릴리bl\img_l (48).jpg
+하이힐\릴리bl\img_l (49).jpg
+하이힐\릴리bl\img_l (50).jpg

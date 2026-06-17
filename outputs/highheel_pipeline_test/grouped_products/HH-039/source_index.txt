@@ -1,0 +1,22 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 제니BL
+source_folder: 하이힐\제니BL
+source_files:
+하이힐\제니BL\제니BL01.jpg
+하이힐\제니BL\제니BL02.jpg
+하이힐\제니BL\제니BL03.jpg
+하이힐\제니BL\제니BL04.jpg
+하이힐\제니BL\제니BL05.jpg
+하이힐\제니BL\제니BL06.jpg
+하이힐\제니BL\제니BL07.jpg
+하이힐\제니BL\제니BL08.jpg
+하이힐\제니BL\제니BL09.jpg
+하이힐\제니BL\제니BL1.jpg
+하이힐\제니BL\제니BL10.jpg
+하이힐\제니BL\제니BL11.jpg
+하이힐\제니BL\제니BL12.jpg
+하이힐\제니BL\제니BL13.jpg
+하이힐\제니BL\제니BL14.jpg
+하이힐\제니BL\제니BL15.jpg
+하이힐\제니BL\제니BL16.jpg
+하이힐\제니BL\제니BL17.jpg

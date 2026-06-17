@@ -1,0 +1,15 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 헤라sk
+source_folder: 하이힐\헤라sk
+source_files:
+하이힐\헤라sk\헤라sk01.jpg
+하이힐\헤라sk\헤라sk02.jpg
+하이힐\헤라sk\헤라sk03.jpg
+하이힐\헤라sk\헤라sk04.jpg
+하이힐\헤라sk\헤라sk05.jpg
+하이힐\헤라sk\헤라sk06.jpg
+하이힐\헤라sk\헤라sk07.jpg
+하이힐\헤라sk\헤라sk08.jpg
+하이힐\헤라sk\헤라sk09.jpg
+하이힐\헤라sk\헤라sk10.jpg
+하이힐\헤라sk\헤라sk11.jpg

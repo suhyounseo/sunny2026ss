@@ -1,0 +1,14 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 트리오페bl
+source_folder: 하이힐\트리오페bl
+source_files:
+하이힐\트리오페bl\트리오페bl01.jpg
+하이힐\트리오페bl\트리오페bl02.jpg
+하이힐\트리오페bl\트리오페bl03.jpg
+하이힐\트리오페bl\트리오페bl04.jpg
+하이힐\트리오페bl\트리오페bl05.jpg
+하이힐\트리오페bl\트리오페bl06.jpg
+하이힐\트리오페bl\트리오페bl07.jpg
+하이힐\트리오페bl\트리오페bl08.jpg
+하이힐\트리오페bl\트리오페bl09.jpg
+하이힐\트리오페bl\트리오페bl10.jpg

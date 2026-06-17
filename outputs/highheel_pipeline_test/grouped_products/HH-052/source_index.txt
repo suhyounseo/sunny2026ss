@@ -1,0 +1,14 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 하니top
+source_folder: 하이힐\하니top
+source_files:
+하이힐\하니top\하니top01.jpg
+하이힐\하니top\하니top02.jpg
+하이힐\하니top\하니top03.jpg
+하이힐\하니top\하니top04.jpg
+하이힐\하니top\하니top05.jpg
+하이힐\하니top\하니top06.jpg
+하이힐\하니top\하니top07.jpg
+하이힐\하니top\하니top08.jpg
+하이힐\하니top\하니top09.jpg
+하이힐\하니top\하니top10.jpg

@@ -1,0 +1,19 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 릴리bl 나나sk
+source_folder: 하이힐\릴리bl 나나sk
+source_files:
+하이힐\릴리bl 나나sk\릴리bl 나나sk01.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk02.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk03.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk04.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk05.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk06.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk07.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk08.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk09.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk10.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk11.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk12.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk13.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk14.jpg
+하이힐\릴리bl 나나sk\릴리bl 나나sk15.jpg

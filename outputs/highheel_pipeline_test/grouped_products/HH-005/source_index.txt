@@ -1,0 +1,14 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 레니리본bl
+source_folder: 하이힐\레니리본bl
+source_files:
+하이힐\레니리본bl\레니리본bl04.jpg
+하이힐\레니리본bl\레니리본bl05.jpg
+하이힐\레니리본bl\레니리본bl06.jpg
+하이힐\레니리본bl\레니리본bl07.jpg
+하이힐\레니리본bl\레니리본bl08.jpg
+하이힐\레니리본bl\레니리본bl09.jpg
+하이힐\레니리본bl\레니리본bl10.jpg
+하이힐\레니리본bl\레니리본bl11.jpg
+하이힐\레니리본bl\레니리본bl12.jpg
+하이힐\레니리본bl\레니리본bl13.jpg

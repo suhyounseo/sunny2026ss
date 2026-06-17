@@ -1,0 +1,12 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 코나bl sk 2
+source_folder: 하이힐\코나bl sk 2
+source_files:
+하이힐\코나bl sk 2\코나bl sk 204.jpg
+하이힐\코나bl sk 2\코나bl sk 205.jpg
+하이힐\코나bl sk 2\코나bl sk 206.jpg
+하이힐\코나bl sk 2\코나bl sk 207.jpg
+하이힐\코나bl sk 2\코나bl sk 208.jpg
+하이힐\코나bl sk 2\코나bl sk 209.jpg
+하이힐\코나bl sk 2\코나bl sk 210.jpg
+하이힐\코나bl sk 2\코나bl sk 211.jpg

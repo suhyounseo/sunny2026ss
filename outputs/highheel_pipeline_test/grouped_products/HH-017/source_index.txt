@@ -1,0 +1,16 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 미우롱sk
+source_folder: 하이힐\미우롱sk
+source_files:
+하이힐\미우롱sk\미우롱sk04.jpg
+하이힐\미우롱sk\미우롱sk05.jpg
+하이힐\미우롱sk\미우롱sk06.jpg
+하이힐\미우롱sk\미우롱sk07.jpg
+하이힐\미우롱sk\미우롱sk08.jpg
+하이힐\미우롱sk\미우롱sk09.jpg
+하이힐\미우롱sk\미우롱sk10.jpg
+하이힐\미우롱sk\미우롱sk11.jpg
+하이힐\미우롱sk\미우롱sk12.jpg
+하이힐\미우롱sk\미우롱sk13.jpg
+하이힐\미우롱sk\미우롱sk14.jpg
+하이힐\미우롱sk\미우롱sk15.jpg

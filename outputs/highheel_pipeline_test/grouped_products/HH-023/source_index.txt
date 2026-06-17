@@ -1,0 +1,24 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 생로랑bl
+source_folder: 하이힐\생로랑bl
+source_files:
+하이힐\생로랑bl\생로랑bl04.jpg
+하이힐\생로랑bl\생로랑bl05.jpg
+하이힐\생로랑bl\생로랑bl06.jpg
+하이힐\생로랑bl\생로랑bl07.jpg
+하이힐\생로랑bl\생로랑bl08.jpg
+하이힐\생로랑bl\생로랑bl09.jpg
+하이힐\생로랑bl\생로랑bl1.jpg
+하이힐\생로랑bl\생로랑bl10.jpg
+하이힐\생로랑bl\생로랑bl11.jpg
+하이힐\생로랑bl\생로랑bl12.jpg
+하이힐\생로랑bl\생로랑bl13.jpg
+하이힐\생로랑bl\생로랑bl14.jpg
+하이힐\생로랑bl\생로랑bl2.jpg
+하이힐\생로랑bl\생로랑bl3.jpg
+하이힐\생로랑bl\생로랑bl4.jpg
+하이힐\생로랑bl\생로랑bl5.jpg
+하이힐\생로랑bl\생로랑bl6.jpg
+하이힐\생로랑bl\생로랑bl7.jpg
+하이힐\생로랑bl\생로랑bl8.jpg
+하이힐\생로랑bl\생로랑bl9.jpg

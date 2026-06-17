@@ -1,0 +1,14 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 샤넬ops
+source_folder: 하이힐\샤넬ops
+source_files:
+하이힐\샤넬ops\샤넬ops04.jpg
+하이힐\샤넬ops\샤넬ops05.jpg
+하이힐\샤넬ops\샤넬ops06.jpg
+하이힐\샤넬ops\샤넬ops07.jpg
+하이힐\샤넬ops\샤넬ops08.jpg
+하이힐\샤넬ops\샤넬ops09.jpg
+하이힐\샤넬ops\샤넬ops10.jpg
+하이힐\샤넬ops\샤넬ops11.jpg
+하이힐\샤넬ops\샤넬ops12.jpg
+하이힐\샤넬ops\샤넬ops13.jpg

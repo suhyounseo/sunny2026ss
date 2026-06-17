@@ -1,0 +1,12 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 엔끌루ops
+source_folder: 하이힐\엔끌루ops
+source_files:
+하이힐\엔끌루ops\엔끌루ops04.jpg
+하이힐\엔끌루ops\엔끌루ops05.jpg
+하이힐\엔끌루ops\엔끌루ops06.jpg
+하이힐\엔끌루ops\엔끌루ops07.jpg
+하이힐\엔끌루ops\엔끌루ops08.jpg
+하이힐\엔끌루ops\엔끌루ops09.jpg
+하이힐\엔끌루ops\엔끌루ops10.jpg
+하이힐\엔끌루ops\엔끌루ops11.jpg

@@ -1,0 +1,11 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 발렌티노ops 2
+source_folder: 하이힐\발렌티노ops 2
+source_files:
+하이힐\발렌티노ops 2\발렌티노ops 204.jpg
+하이힐\발렌티노ops 2\발렌티노ops 205.jpg
+하이힐\발렌티노ops 2\발렌티노ops 206.jpg
+하이힐\발렌티노ops 2\발렌티노ops 207.jpg
+하이힐\발렌티노ops 2\발렌티노ops 208.jpg
+하이힐\발렌티노ops 2\발렌티노ops 209.jpg
+하이힐\발렌티노ops 2\발렌티노ops 210.jpg

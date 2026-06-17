@@ -1,0 +1,24 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 발렌티노ops
+source_folder: 하이힐\발렌티노ops
+source_files:
+하이힐\발렌티노ops\img_l (12).jpg
+하이힐\발렌티노ops\img_l (13).jpg
+하이힐\발렌티노ops\img_l (14).jpg
+하이힐\발렌티노ops\img_l (15).jpg
+하이힐\발렌티노ops\img_l (16).jpg
+하이힐\발렌티노ops\img_l (17).jpg
+하이힐\발렌티노ops\img_l (18).jpg
+하이힐\발렌티노ops\img_l (19).jpg
+하이힐\발렌티노ops\img_l (20).jpg
+하이힐\발렌티노ops\img_l (21).jpg
+하이힐\발렌티노ops\img_l (22).jpg
+하이힐\발렌티노ops\img_l (23).jpg
+하이힐\발렌티노ops\img_l (24).jpg
+하이힐\발렌티노ops\img_l (25).jpg
+하이힐\발렌티노ops\img_l (26).jpg
+하이힐\발렌티노ops\img_l (27).jpg
+하이힐\발렌티노ops\img_l (28).jpg
+하이힐\발렌티노ops\img_l (29).jpg
+하이힐\발렌티노ops\img_l (30).jpg
+하이힐\발렌티노ops\img_l (31).jpg

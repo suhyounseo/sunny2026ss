@@ -1,0 +1,16 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 리엔ops
+source_folder: 하이힐\리엔ops
+source_files:
+하이힐\리엔ops\리엔ops01.jpg
+하이힐\리엔ops\리엔ops02.jpg
+하이힐\리엔ops\리엔ops03.jpg
+하이힐\리엔ops\리엔ops04.jpg
+하이힐\리엔ops\리엔ops05.jpg
+하이힐\리엔ops\리엔ops06.jpg
+하이힐\리엔ops\리엔ops07.jpg
+하이힐\리엔ops\리엔ops08.jpg
+하이힐\리엔ops\리엔ops09.jpg
+하이힐\리엔ops\리엔ops10.jpg
+하이힐\리엔ops\리엔ops11.jpg
+하이힐\리엔ops\리엔ops12.jpg

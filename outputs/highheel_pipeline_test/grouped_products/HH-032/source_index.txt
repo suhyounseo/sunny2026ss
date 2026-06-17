@@ -1,0 +1,8 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 알마BL
+source_folder: 하이힐\알마BL
+source_files:
+하이힐\알마BL\알마BL1.jpg
+하이힐\알마BL\알마BL2.jpg
+하이힐\알마BL\알마BL3.jpg
+하이힐\알마BL\알마BL4.jpg

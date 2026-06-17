@@ -1,0 +1,52 @@
+[
+  {
+    "site_key": "judyshop",
+    "site_name": "쥬디샵",
+    "url": "https://www.judyshop.co.kr/"
+  },
+  {
+    "site_key": "ongirl",
+    "site_name": "온걸",
+    "url": "https://ongirl.co.kr/"
+  },
+  {
+    "site_key": "bbprincess",
+    "site_name": "비비공주",
+    "url": "https://www.bbprincess.com/"
+  },
+  {
+    "site_key": "tomissmall",
+    "site_name": "투미쓰몰",
+    "url": "https://www.tomissmall.com/"
+  },
+  {
+    "site_key": "tnani",
+    "site_name": "티나니",
+    "url": "https://www.t-nani.co.kr/"
+  },
+  {
+    "site_key": "kjoli",
+    "site_name": "깜장오리",
+    "url": "https://kjoli.com/"
+  },
+  {
+    "site_key": "danbe",
+    "site_name": "단비",
+    "url": "https://www.danbe.co.kr/"
+  },
+  {
+    "site_key": "jungmadam",
+    "site_name": "정마담",
+    "url": "https://www.jungmadam.co.kr/"
+  },
+  {
+    "site_key": "hidiva",
+    "site_name": "하이디바",
+    "url": "https://hi-diva.com/"
+  },
+  {
+    "site_key": "cocoshop",
+    "site_name": "코코몰",
+    "url": "https://www.thecocoshop.co.kr/"
+  }
+]

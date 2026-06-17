@@ -1,0 +1,21 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 샤넬top 샤넬레이스sk
+source_folder: 하이힐\샤넬top 샤넬레이스sk
+source_files:
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk04.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk05.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk06.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk07.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk08.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk09.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk10.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk11.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk12.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk13.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk14.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk15.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk16.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk17.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk18.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk19.jpg
+하이힐\샤넬top 샤넬레이스sk\샤넬top 샤넬레이스sk20.jpg

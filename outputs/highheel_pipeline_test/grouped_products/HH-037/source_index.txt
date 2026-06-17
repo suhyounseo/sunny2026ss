@@ -1,0 +1,25 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 오프코튼bl
+source_folder: 하이힐\오프코튼bl
+source_files:
+하이힐\오프코튼bl\오프코튼bl01.jpg
+하이힐\오프코튼bl\오프코튼bl02.jpg
+하이힐\오프코튼bl\오프코튼bl03.jpg
+하이힐\오프코튼bl\오프코튼bl04.jpg
+하이힐\오프코튼bl\오프코튼bl05.jpg
+하이힐\오프코튼bl\오프코튼bl06.jpg
+하이힐\오프코튼bl\오프코튼bl07.jpg
+하이힐\오프코튼bl\오프코튼bl08.jpg
+하이힐\오프코튼bl\오프코튼bl09.jpg
+하이힐\오프코튼bl\오프코튼bl1.jpg
+하이힐\오프코튼bl\오프코튼bl10.jpg
+하이힐\오프코튼bl\오프코튼bl11.jpg
+하이힐\오프코튼bl\오프코튼bl12.jpg
+하이힐\오프코튼bl\오프코튼bl13.jpg
+하이힐\오프코튼bl\오프코튼bl2.jpg
+하이힐\오프코튼bl\오프코튼bl3.jpg
+하이힐\오프코튼bl\오프코튼bl4.jpg
+하이힐\오프코튼bl\오프코튼bl5.jpg
+하이힐\오프코튼bl\오프코튼bl6.jpg
+하이힐\오프코튼bl\오프코튼bl7.jpg
+하이힐\오프코튼bl\오프코튼bl8.jpg

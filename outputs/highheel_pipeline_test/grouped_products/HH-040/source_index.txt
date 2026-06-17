@@ -1,0 +1,25 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 지젤top
+source_folder: 하이힐\지젤top
+source_files:
+하이힐\지젤top\지젤top04.jpg
+하이힐\지젤top\지젤top05.jpg
+하이힐\지젤top\지젤top06.jpg
+하이힐\지젤top\지젤top07.jpg
+하이힐\지젤top\지젤top08.jpg
+하이힐\지젤top\지젤top09.jpg
+하이힐\지젤top\지젤top10.jpg
+하이힐\지젤top\지젤top11.jpg
+하이힐\지젤top\지젤top12.jpg
+하이힐\지젤top\지젤top13.jpg
+하이힐\지젤top\지젤top14.jpg
+하이힐\지젤top\지젤top15.jpg
+하이힐\지젤top\지젤top16.jpg
+하이힐\지젤top\지젤top17.jpg
+하이힐\지젤top\지젤top18.jpg
+하이힐\지젤top\지젤top4.jpg
+하이힐\지젤top\지젤top5.jpg
+하이힐\지젤top\지젤top6.jpg
+하이힐\지젤top\지젤top7.jpg
+하이힐\지젤top\지젤top8.jpg
+하이힐\지젤top\지젤top9.jpg

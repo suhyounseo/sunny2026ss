@@ -1,0 +1,10 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 델핀bl 블랙
+source_folder: 하이힐\델핀bl 블랙
+source_files:
+하이힐\델핀bl 블랙\델핀bl 블랙1.jpg
+하이힐\델핀bl 블랙\델핀bl 블랙2.jpg
+하이힐\델핀bl 블랙\델핀bl 블랙3.jpg
+하이힐\델핀bl 블랙\델핀bl 블랙4.jpg
+하이힐\델핀bl 블랙\델핀bl 블랙5.jpg
+하이힐\델핀bl 블랙\델핀bl 블랙6.jpg

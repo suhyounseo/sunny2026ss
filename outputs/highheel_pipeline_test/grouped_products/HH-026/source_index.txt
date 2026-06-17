@@ -1,0 +1,10 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 샤넬top 베이지
+source_folder: 하이힐\샤넬top 베이지
+source_files:
+하이힐\샤넬top 베이지\샤넬top 베이지4.jpg
+하이힐\샤넬top 베이지\샤넬top 베이지5.jpg
+하이힐\샤넬top 베이지\샤넬top 베이지6.jpg
+하이힐\샤넬top 베이지\샤넬top 베이지7.jpg
+하이힐\샤넬top 베이지\샤넬top 베이지8.jpg
+하이힐\샤넬top 베이지\샤넬top 베이지9.jpg

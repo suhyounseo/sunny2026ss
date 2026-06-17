@@ -1,0 +1,21 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 시크릿ops
+source_folder: 하이힐\시크릿ops
+source_files:
+하이힐\시크릿ops\시크릿ops04.jpg
+하이힐\시크릿ops\시크릿ops05.jpg
+하이힐\시크릿ops\시크릿ops06 (1).jpg
+하이힐\시크릿ops\시크릿ops06.jpg
+하이힐\시크릿ops\시크릿ops07.jpg
+하이힐\시크릿ops\시크릿ops08.jpg
+하이힐\시크릿ops\시크릿ops09.jpg
+하이힐\시크릿ops\시크릿ops10.jpg
+하이힐\시크릿ops\시크릿ops11.jpg
+하이힐\시크릿ops\시크릿ops12.jpg
+하이힐\시크릿ops\시크릿ops13.jpg
+하이힐\시크릿ops\시크릿ops14.jpg
+하이힐\시크릿ops\시크릿ops15.jpg
+하이힐\시크릿ops\시크릿ops16.jpg
+하이힐\시크릿ops\시크릿ops17.jpg
+하이힐\시크릿ops\시크릿ops18.jpg
+하이힐\시크릿ops\시크릿ops19.jpg

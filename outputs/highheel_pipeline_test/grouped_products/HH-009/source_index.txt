@@ -1,0 +1,14 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 로에베opsB
+source_folder: 하이힐\로에베opsB
+source_files:
+하이힐\로에베opsB\로에베opsB01.jpg
+하이힐\로에베opsB\로에베opsB02.jpg
+하이힐\로에베opsB\로에베opsB03.jpg
+하이힐\로에베opsB\로에베opsB04.jpg
+하이힐\로에베opsB\로에베opsB05.jpg
+하이힐\로에베opsB\로에베opsB06.jpg
+하이힐\로에베opsB\로에베opsB07.jpg
+하이힐\로에베opsB\로에베opsB08.jpg
+하이힐\로에베opsB\로에베opsB09.jpg
+하이힐\로에베opsB\로에베opsB10.jpg

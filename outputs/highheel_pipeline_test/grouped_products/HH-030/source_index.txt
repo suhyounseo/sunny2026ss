@@ -1,0 +1,19 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 스카프슬립ops
+source_folder: 하이힐\스카프슬립ops
+source_files:
+하이힐\스카프슬립ops\스카프슬립ops04.jpg
+하이힐\스카프슬립ops\스카프슬립ops05.jpg
+하이힐\스카프슬립ops\스카프슬립ops06.jpg
+하이힐\스카프슬립ops\스카프슬립ops07.jpg
+하이힐\스카프슬립ops\스카프슬립ops08.jpg
+하이힐\스카프슬립ops\스카프슬립ops09.jpg
+하이힐\스카프슬립ops\스카프슬립ops10.jpg
+하이힐\스카프슬립ops\스카프슬립ops11.jpg
+하이힐\스카프슬립ops\스카프슬립ops12.jpg
+하이힐\스카프슬립ops\스카프슬립ops13.jpg
+하이힐\스카프슬립ops\스카프슬립ops14.jpg
+하이힐\스카프슬립ops\스카프슬립ops15.jpg
+하이힐\스카프슬립ops\스카프슬립ops16.jpg
+하이힐\스카프슬립ops\스카프슬립ops17.jpg
+하이힐\스카프슬립ops\스카프슬립ops18.jpg

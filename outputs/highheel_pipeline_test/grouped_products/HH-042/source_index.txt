@@ -1,0 +1,7 @@
+원본 이미지는 분석 참고용입니다. 이 폴더에는 원본 이미지를 복사하지 않습니다.
+original_name: 체크top 사틴sk
+source_folder: 하이힐\체크top 사틴sk
+source_files:
+하이힐\체크top 사틴sk\체크top 사틴sk1.jpg
+하이힐\체크top 사틴sk\체크top 사틴sk2.jpg
+하이힐\체크top 사틴sk\체크top 사틴sk3.jpg
