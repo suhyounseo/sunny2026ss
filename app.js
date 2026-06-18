@@ -4,6 +4,7 @@ const $$ = (s, e = document) => [...e.querySelectorAll(s)];
 const q = $('#q');
 const quick = $('#quick');
 const chips = $('#chips');
+const styleToggle = $('#styleToggle');
 const grid = $('#grid');
 const title = $('#title');
 const count = $('#count');
@@ -14,7 +15,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match97';
+const VERSION = 'match98';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -360,6 +361,13 @@ function quickWords() {
 
 function buildQuick() {
   quick.innerHTML = quickWords().map(k => `<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
+}
+
+function setStyleFilterOpen(open) {
+  if (!styleToggle || !quick) return;
+  quick.classList.toggle('open', open);
+  styleToggle.classList.toggle('on', open);
+  styleToggle.setAttribute('aria-expanded', String(open));
 }
 
 function buildChips() {
@@ -894,6 +902,10 @@ quick.onclick = e => {
   if (!b) return;
   applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
 };
+
+if (styleToggle) {
+  styleToggle.onclick = () => setStyleFilterOpen(!quick.classList.contains('open'));
+}
 q.oninput = () => {
   if (q.value.trim() && FILTER === 'HOME') FILTER = 'ALL';
   buildChips();
