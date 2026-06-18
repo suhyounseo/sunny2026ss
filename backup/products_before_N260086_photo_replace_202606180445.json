@@ -21181,28 +21181,18 @@
     "cuts": [
       {
         "url": "assets/N260086_02.jpg",
-        "cut": "전신",
-        "source": "지니/장미나시원피스 핑크/N260086_02.jpg"
+        "cut": "후면",
+        "source": "장미나시원피스 핑크/img_xl_2_xjbz3y.jpg"
       },
       {
         "url": "assets/N260086_03.jpg",
-        "cut": "상의확대",
-        "source": "지니/장미나시원피스 핑크/N260086_03.jpg"
+        "cut": "측면",
+        "source": "장미나시원피스 핑크/img_xl_u2xvys.jpg"
       },
       {
         "url": "assets/N260086_04.jpg",
         "cut": "확대/디테일",
-        "source": "지니/장미나시원피스 핑크/N260086_04.jpg"
-      },
-      {
-        "url": "assets/N260086_05.jpg",
-        "cut": "확대/디테일",
-        "source": "지니/장미나시원피스 핑크/N260086_05.jpg"
-      },
-      {
-        "url": "assets/N260086_06.jpg",
-        "cut": "제품컷",
-        "source": "지니/장미나시원피스 핑크/N260086_06.jpg"
+        "source": "장미나시원피스 핑크/img_xl_3_jgtcti.jpg"
       }
     ],
     "desc": "입체 플라워 V넥 미디 원피스 상품입니다.",
@@ -21228,7 +21218,7 @@
       "고급스럽고 안정감 있는 미디 기장"
     ],
     "editorsNote": "V넥과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
-    "thumbImage": "assets/N260086_01.jpg"
+    "thumbImage": "assets/N260086_04.jpg"
   },
   {
     "code": "N260087",
