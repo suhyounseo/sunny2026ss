@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match109';
+const VERSION = 'match110';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -29,7 +29,7 @@ let modalHistoryOpen = false;
 let SIMILAR_CODE = '';
 
 const COLLECTIONS = [
-  { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'Mini Dress Edit', desc: '가볍게 입기 좋은 미니 원피스 셀렉션' },
+  { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
   { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
 ];
@@ -95,6 +95,7 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
+const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p));
 const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
 const isLuxuryCandidate = p => {
   if (isAnkProduct(p) || isJessicaProduct(p)) return false;
@@ -317,6 +318,7 @@ function rankProduct(p) {
   let score = Number(p.priority || 0);
   if (p.mainDisplay) score += 10000;
   if (p.featured) score += 7000;
+  if (isJuneFinalNewProduct(p)) score += 4500;
   if (isBest(p)) score += 3600;
   if (isNew(p)) score += 2500;
   if (isWideSize(p)) score += 250;
@@ -382,7 +384,7 @@ function applyView(nextFilter, { search = '', push = false, scroll = false } = {
 }
 
 function cCount(k) {
-  return PRODUCTS.filter(p => p.collection === k && visibleToAudience(p)).length;
+  return PRODUCTS.filter(p => (k === 'A' ? isJuneFinalNewProduct(p) : p.collection === k) && visibleToAudience(p)).length;
 }
 
 function sectionName() {
@@ -444,7 +446,7 @@ function matchesSearch(p, rawSearch) {
 function match(p) {
   const rawSearch = q.value.trim();
   let f = true;
-  if (FILTER === 'COL_A') f = p.collection === 'A';
+  if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'NEW') f = isNew(p);
