@@ -14988,28 +14988,23 @@
     "cuts": [
       {
         "url": "assets/N260220_02.jpg",
-        "cut": "전신 소라",
-        "source": "S675/N260220_02.jpg"
+        "cut": "전면",
+        "source": "N260220_original_04.jpg"
       },
       {
         "url": "assets/N260220_03.jpg",
-        "cut": "전신 민트",
-        "source": "S675/N260220_03.jpg"
+        "cut": "상세",
+        "source": "N260220_original_05.jpg"
       },
       {
         "url": "assets/N260220_04.jpg",
-        "cut": "확대/디테일",
-        "source": "S675/N260220_04.jpg"
+        "cut": "디테일",
+        "source": "N260220_original_06.jpg"
       },
       {
         "url": "assets/N260220_05.jpg",
-        "cut": "전후면 모음",
-        "source": "S675/N260220_05.jpg"
-      },
-      {
-        "url": "assets/N260220_06.jpg",
-        "cut": "제품컷",
-        "source": "S675/N260220_06.jpg"
+        "cut": "색상",
+        "source": "N260220_original_02.jpg"
       }
     ],
     "desc": "잔꽃 자수 스퀘어넥 원피스입니다.",
@@ -15036,7 +15031,7 @@
       "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
     ],
     "editorsNote": "스퀘어넥과 라인 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260220_01.jpg"
+    "thumbImage": "assets/N260220_04.jpg"
   },
   {
     "code": "N260221",

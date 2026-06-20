@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match106';
+const VERSION = 'match107';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -95,6 +95,12 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
+const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
+const isLuxuryCandidate = p => {
+  if (isAnkProduct(p) || isJessicaProduct(p)) return false;
+  if (isOnepieceProduct(p) && Number(p.price || 0) > 0 && Number(p.price || 0) <= 80000) return false;
+  return hasTag(p, 'LUXURY') || /럭셔리|고급|프리미엄|우아|드레스|이브닝/i.test(productText(p));
+};
 
 function cleanText(value, fallback = '') {
   let text = String(value || fallback || '').trim();
@@ -413,7 +419,7 @@ function matchesSearch(p, rawSearch) {
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
   if (/^슬림핏$/i.test(rawSearch)) return /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
-  if (/^럭셔리$/i.test(rawSearch)) return /럭셔리|고급|프리미엄|우아|드레스|이브닝/i.test(productText(p));
+  if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
   const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
   const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
   if (sceneWords) {
