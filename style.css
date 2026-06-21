@@ -265,7 +265,7 @@
 .show-section{margin-top:30px}
 @media(max-width:720px){
   .wrap{padding-top:10px}
-  .sticky-tools{margin:0 -4px 12px;padding:7px 8px 8px;border-radius:16px}
+  .sticky-tools{position:sticky;top:0;z-index:30;margin:0 -12px 12px;padding:7px 12px 8px;border-radius:0 0 16px 16px;border-top:0;border-left:0;border-right:0;box-shadow:0 10px 24px rgba(28,22,18,.10);transform:translateZ(0)}
   .search{height:46px;padding:0 16px;font-size:15px;border-radius:16px}
   .sticky-tools .chips{overflow-x:auto;flex-wrap:nowrap}
   .chip{height:32px;padding:0 12px;font-size:12px}

@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match110';
+const VERSION = 'match111';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -58,6 +58,10 @@ const EDITOR_SELECT_PINNED_CODES = [
   'N260001', 'N260005', 'N260006', 'N260008',
   'ANC-4002', 'ANC-4016', 'ANC-4020', 'ANC-4026',
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
+];
+const NEW_ARRIVAL_PINNED_CODES = [
+  'S735', 'S693', 'S719', 'S723',
+  'S727', 'S731', 'S750', 'S752'
 ];
 
 const COSTUME_STRONG = [
@@ -351,6 +355,24 @@ function editorSelectItems(visible) {
   );
 
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
+}
+
+function newArrivalItems(visible, editorCodes) {
+  const pinned = NEW_ARRIVAL_PINNED_CODES
+    .map(code => visible.find(p => codeOf(p) === code))
+    .filter(p => p && mainImg(p) && !editorCodes.has(codeOf(p)));
+  const pinnedCodes = new Set(pinned.map(codeOf));
+  const fallback = choose(
+    sortProducts(
+      visible.filter(p =>
+        isNew(p) &&
+        !editorCodes.has(codeOf(p)) &&
+        !pinnedCodes.has(codeOf(p))
+      )
+    ),
+    Math.max(0, 8 - pinned.length)
+  );
+  return [...pinned, ...fallback].slice(0, 8);
 }
 
 function normalizeProduct(p) {
@@ -702,7 +724,7 @@ function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
   const editorItems = editorSelectItems(visible);
   const editorCodes = new Set(editorItems.map(codeOf));
-  const fresh = choose(sortProducts(visible.filter(p => isNew(p) && !editorCodes.has(codeOf(p)))), 8);
+  const fresh = newArrivalItems(visible, editorCodes);
   title.textContent = 'SHOWROOM';
   count.textContent = `${visible.length} items`;
   intro.textContent = sectionIntro();
