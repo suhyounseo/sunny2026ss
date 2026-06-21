@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match111';
+const VERSION = 'match112';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -303,6 +303,7 @@ function isFittingAvailable(p) {
 }
 
 function isSameDayCandidate(p) {
+  if (isJuneFinalNewProduct(p) && p.sameDayAvailable !== true) return false;
   return p.sameDayAvailable === true || p.stockStatus === '바로구매' || /당일|바로|입고|재고|보유/.test(productText(p));
 }
 

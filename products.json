@@ -30065,8 +30065,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30191,7 +30191,8 @@
       "촬영룩",
       "무대의상",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S663",
@@ -30205,8 +30206,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30312,7 +30313,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S664",
@@ -30326,8 +30328,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30433,7 +30435,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S665",
@@ -30447,8 +30450,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30555,7 +30558,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S667",
@@ -30569,8 +30573,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "옐로우",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30677,7 +30681,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S668",
@@ -30691,8 +30696,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "보라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30799,7 +30804,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S669",
@@ -30813,8 +30819,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "브라운",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -30921,7 +30927,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S670",
@@ -30935,8 +30942,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31034,7 +31041,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S671",
@@ -31048,8 +31056,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "그레이",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31147,7 +31155,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S672",
@@ -31161,8 +31170,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31260,7 +31269,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S673",
@@ -31274,8 +31284,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "문의",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31376,7 +31386,8 @@
       "촬영룩",
       "무대의상",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S676",
@@ -31390,8 +31401,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31489,7 +31500,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S677",
@@ -31503,8 +31515,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31608,7 +31620,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S678",
@@ -31622,8 +31635,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31725,7 +31738,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S679",
@@ -31739,8 +31753,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31842,7 +31856,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S680",
@@ -31856,8 +31871,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -31959,7 +31974,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S681",
@@ -31973,8 +31989,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32075,7 +32091,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S682",
@@ -32089,8 +32106,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "스카이블루",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32191,7 +32208,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S683",
@@ -32205,8 +32223,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32306,7 +32324,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S684",
@@ -32320,8 +32339,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32421,7 +32440,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S685",
@@ -32435,8 +32455,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32534,7 +32554,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S686",
@@ -32548,8 +32569,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32647,7 +32668,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S687",
@@ -32661,18 +32683,17 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "그린",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
-    "mainImage": "assets/S687_01.jpg",
-    "thumbnail": "assets/S687_01.jpg",
-    "thumbImage": "assets/S687_01.jpg",
+    "mainImage": "assets/S687_02.jpg",
+    "thumbnail": "assets/S687_02.jpg",
+    "thumbImage": "assets/S687_02.jpg",
     "images": [
-      "assets/S687_01.jpg",
       "assets/S687_02.jpg",
       "assets/S687_03.jpg",
       "assets/S687_04.jpg",
@@ -32766,7 +32787,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S688",
@@ -32780,8 +32802,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32879,7 +32901,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S689",
@@ -32893,8 +32916,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -32996,7 +33019,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S690",
@@ -33010,8 +33034,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33113,7 +33137,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S691",
@@ -33127,8 +33152,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33228,7 +33253,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S692",
@@ -33242,8 +33268,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33343,7 +33369,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S693",
@@ -33357,8 +33384,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33456,7 +33483,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S694",
@@ -33470,8 +33498,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33569,7 +33597,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S695",
@@ -33583,8 +33612,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "옐로우",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33686,7 +33715,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S696",
@@ -33700,8 +33730,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33803,7 +33833,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S697",
@@ -33817,8 +33848,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리/소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -33924,7 +33955,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S698",
@@ -33938,8 +33970,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크/블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34045,7 +34077,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S699",
@@ -34059,8 +34092,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34161,7 +34194,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S700",
@@ -34175,8 +34209,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34271,7 +34305,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S701",
@@ -34285,8 +34320,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34386,7 +34421,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S702",
@@ -34400,8 +34436,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34501,7 +34537,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S703",
@@ -34515,8 +34552,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "옐로우",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34616,7 +34653,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S704",
@@ -34630,8 +34668,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34731,7 +34769,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S705",
@@ -34745,8 +34784,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34846,7 +34885,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S706",
@@ -34860,8 +34900,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -34966,7 +35006,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S707",
@@ -34980,25 +35021,25 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블루",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
-    "mainImage": "assets/S707_01.jpg",
-    "thumbnail": "assets/S707_01.jpg",
-    "thumbImage": "assets/S707_01.jpg",
+    "mainImage": "assets/S707_08.jpg",
+    "thumbnail": "assets/S707_08.jpg",
+    "thumbImage": "assets/S707_08.jpg",
     "images": [
-      "assets/S707_01.jpg",
+      "assets/S707_08.jpg",
       "assets/S707_02.jpg",
       "assets/S707_03.jpg",
       "assets/S707_04.jpg",
       "assets/S707_05.jpg",
       "assets/S707_06.jpg",
       "assets/S707_07.jpg",
-      "assets/S707_08.jpg"
+      "assets/S707_01.jpg"
     ],
     "cuts": [
       {
@@ -35086,7 +35127,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S708",
@@ -35100,8 +35142,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "그린",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35206,7 +35248,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S709",
@@ -35220,8 +35263,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "옐로우",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35321,7 +35364,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S710",
@@ -35335,8 +35379,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "스카이블루",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35436,7 +35480,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S711",
@@ -35450,8 +35495,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35553,7 +35598,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S712",
@@ -35567,8 +35613,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35670,7 +35716,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S713",
@@ -35684,8 +35731,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35789,7 +35836,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S714",
@@ -35803,8 +35851,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -35908,7 +35956,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S715",
@@ -35922,8 +35971,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36027,7 +36076,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S716",
@@ -36041,8 +36091,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36146,7 +36196,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S717",
@@ -36160,8 +36211,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "그린",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36264,7 +36315,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S718",
@@ -36278,8 +36330,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36382,7 +36434,8 @@
       "촬영룩",
       "무대의상",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S719",
@@ -36396,8 +36449,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36497,7 +36550,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S720",
@@ -36511,8 +36565,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "스카이블루",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36612,7 +36666,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S721",
@@ -36626,8 +36681,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36729,7 +36784,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S722",
@@ -36743,8 +36799,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36846,7 +36902,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S723",
@@ -36860,8 +36917,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "레드",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -36965,7 +37022,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S724",
@@ -36979,8 +37037,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37084,7 +37142,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S725",
@@ -37098,8 +37157,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "문의",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37201,7 +37260,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S726",
@@ -37215,8 +37275,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "문의",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37316,7 +37376,9 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false,
+    "fittingAvailable": true
   },
   {
     "code": "S727",
@@ -37330,8 +37392,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37431,7 +37493,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S728",
@@ -37445,8 +37508,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "그린",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37540,7 +37603,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S729",
@@ -37554,8 +37618,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37661,7 +37725,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S730",
@@ -37675,8 +37740,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37776,7 +37841,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S731",
@@ -37790,8 +37856,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -37893,7 +37959,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S732",
@@ -37907,8 +37974,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38010,7 +38077,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S733",
@@ -38024,8 +38092,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38125,7 +38193,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S734",
@@ -38139,8 +38208,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "네이비",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38240,7 +38309,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S735",
@@ -38254,8 +38324,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38355,7 +38425,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S736",
@@ -38369,8 +38440,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38470,7 +38541,8 @@
       "방송룩",
       "촬영룩",
       "원피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S737",
@@ -38484,8 +38556,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38591,7 +38663,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S738",
@@ -38605,8 +38678,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38712,7 +38785,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S739",
@@ -38726,8 +38800,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38835,7 +38909,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S740",
@@ -38849,8 +38924,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -38958,7 +39033,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S741",
@@ -38972,8 +39048,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39079,7 +39155,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S742",
@@ -39093,8 +39170,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39194,7 +39271,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S743",
@@ -39208,8 +39286,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39309,7 +39387,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S744",
@@ -39323,8 +39402,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39430,7 +39509,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S745",
@@ -39444,8 +39524,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39553,7 +39633,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S746",
@@ -39567,8 +39648,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39676,7 +39757,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S747",
@@ -39690,8 +39772,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39797,7 +39879,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S748",
@@ -39811,8 +39894,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -39918,7 +40001,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S749",
@@ -39932,8 +40016,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40039,7 +40123,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S750",
@@ -40053,8 +40138,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40160,7 +40245,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S751",
@@ -40174,8 +40260,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40281,7 +40367,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S752",
@@ -40295,8 +40382,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "화이트",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40402,7 +40489,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S753",
@@ -40416,8 +40504,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40517,7 +40605,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S754",
@@ -40531,8 +40620,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40638,7 +40727,8 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   },
   {
     "code": "S755",
@@ -40652,8 +40742,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "문의",
-    "size": "FREE",
-    "sizeInfo": "확인필요",
+    "size": "S,M,L",
+    "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -40759,6 +40849,7 @@
       "방송룩",
       "촬영룩",
       "투피스"
-    ]
+    ],
+    "sameDayAvailable": false
   }
 ]
