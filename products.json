@@ -14444,24 +14444,29 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/N260024_01.jpg",
-        "cut": "아이보리 전면",
-        "source": "베베OPS/베베원피스_노블 SML1.jpg"
+        "url": "assets/P001_01.jpg",
+        "cut": "아이보리 메인",
+        "source": "실루엣/베베 리본홀 A라인 미니원피스 아검메인.jpg"
       },
       {
-        "url": "assets/N260024_02.jpg",
-        "cut": "아이보리 착용",
-        "source": "베베OPS/베베원피스_노블 SML3.jpg"
-      },
-      {
-        "url": "assets/N260024_03.jpg",
+        "url": "assets/P001_02.jpg",
         "cut": "블랙 착용",
-        "source": "베베OPS/베베원피스_노블 SML4.jpg"
+        "source": "실루엣/베베 리본홀 A라인 미니원피스 아검22.jpg"
       },
       {
-        "url": "assets/N260024_04.jpg",
-        "cut": "블랙 전면",
-        "source": "베베OPS/베베원피스_노블 SML2.jpg"
+        "url": "assets/P001_03.jpg",
+        "cut": "전후 착용컷",
+        "source": "실루엣/베베 리본홀 A라인 미니원피스 아검05앞뒤.jpg"
+      },
+      {
+        "url": "assets/P001_04.jpg",
+        "cut": "디테일 확대",
+        "source": "실루엣/베베 리본홀 A라인 미니원피스 아검 확대모음.jpg"
+      },
+      {
+        "url": "assets/P001_05.jpg",
+        "cut": "제품컷",
+        "source": "실루엣/베베 리본홀 A라인 미니원피스 아검29.jpg"
       }
     ],
     "desc": "블랙 / 아이보리 컬러가 전체 라인을 깔끔하게 정돈해 주는 NICE 셀렉션 상품입니다.",
@@ -14476,8 +14481,8 @@
       "hanger": [],
       "detail": []
     },
-    "mainImage": "",
-    "thumbnail": "",
+    "mainImage": "assets/P001_01.jpg",
+    "thumbnail": "assets/P001_01.jpg",
     "collection": "A",
     "collectionName": "미니 원피스 컬렉션",
     "whyYoullLoveIt": [
@@ -14496,7 +14501,7 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
     "seoName": "베베 리본홀 A라인 미니원피스",
-    "thumbImage": "assets/N260024_01.jpg"
+    "thumbImage": "assets/P001_01.jpg"
   },
   {
     "code": "P017",
@@ -23666,7 +23671,7 @@
     "category": "TWO PIECE",
     "color": "소라/아이보리/베이지/핑크/민트",
     "size": "S,M,L",
-    "price": 36000,
+    "price": 99000,
     "tags": [
       "투피스 & 상하의 컬렉션",
       "PARTY",
