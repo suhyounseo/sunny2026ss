@@ -40868,7 +40868,7 @@
     "category": "TOP",
     "collection": "B",
     "collectionName": "Set-up & Styling Edit",
-    "color": "아이보리/핑크",
+    "color": "아이보리 / 핑크",
     "size": "문의",
     "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
     "price": null,
@@ -40968,7 +40968,14 @@
     "editorsNote": "브이넥 라인과 단추 포인트가 여성스럽게 어우러지는 앙상블 니트탑입니다. 스커트와 함께 단정한 모임룩으로 연출하기 좋습니다.",
     "name_en": "Ensemble V-Neck Knit Top",
     "name_cn": "开衫套装 V领 针织上衣",
-    "name_jp": "アンサンブル Vネック ニットトップ"
+    "name_jp": "アンサンブル Vネック ニットトップ",
+    "coordinatedWith": [
+      {
+        "code": "N260226",
+        "label": "함께 코디한 스커트",
+        "name": "비쥬플라워 미니스커트"
+      }
+    ]
   },
   {
     "code": "N260226",
@@ -40981,7 +40988,7 @@
     "category": "SKIRT",
     "collection": "B",
     "collectionName": "Set-up & Styling Edit",
-    "color": "아이보리/블랙",
+    "color": "아이보리 / 블랙",
     "size": "문의",
     "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
     "price": null,
@@ -41084,6 +41091,13 @@
     "editorsNote": "입체 플라워 비쥬 장식이 단정한 미니 실루엣에 고급스러운 포인트를 더해주는 스커트입니다. 심플한 상의와도 완성도 있게 연출됩니다.",
     "name_en": "Bijou Flower Mini Skirt",
     "name_cn": "立体 花朵 珠饰 迷你 半身裙",
-    "name_jp": "ビジュー フラワー ミニ スカート"
+    "name_jp": "ビジュー フラワー ミニ スカート",
+    "coordinatedWith": [
+      {
+        "code": "N260225",
+        "label": "함께 코디한 상의",
+        "name": "앙상블 브이넥 니트탑"
+      }
+    ]
   }
 ]

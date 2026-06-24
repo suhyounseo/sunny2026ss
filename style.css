@@ -242,6 +242,11 @@
 .size-table th{background:#f2e8dc;color:#6c584b;font-weight:950}
 .size-table td{color:#2d241f;font-weight:850}
 .common-note{margin:14px 0 0;color:#756358;font-size:13px;font-weight:850;line-height:1.55}
+.coord-box{padding:14px 16px}
+.coord-link{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;border:0;background:transparent;padding:4px 0;color:#1d1511;text-align:left;cursor:pointer}
+.coord-link span{color:#8a7058;font-size:13px;font-weight:850}
+.coord-link b{font-size:16px;word-break:keep-all}
+.coord-link:hover b{text-decoration:underline}
 @media(max-width:720px){
   .detail-price{font-size:25px;margin-bottom:14px}
   .box.compact-box,.size-guide{padding:14px}

@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match116';
+const VERSION = 'match117';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -803,6 +803,22 @@ function contactProduct(p, mode = 'product') {
   window.open(KAKAO_URL, '_blank', 'noopener');
 }
 
+
+function coordinatedBlock(p) {
+  const links = Array.isArray(p.coordinatedWith) ? p.coordinatedWith : [];
+  const rows = links
+    .map(item => {
+      const target = PRODUCTS.find(x => codeOf(x) === item.code);
+      if (!target || !visibleToAudience(target)) return '';
+      const label = cleanText(item.label || '?? ??? ??');
+      const name = cleanText(item.name || displayName(target));
+      return '<button class="coord-link" type="button" data-code="' + codeOf(target) + '"><span>' + label + '</span><b>' + name + '</b></button>';
+    })
+    .filter(Boolean);
+  if (!rows.length) return '';
+  return '<div class="box coord-box">' + rows.join('') + '</div>';
+}
+
 function showSimilar(p) {
   SIMILAR_CODE = codeOf(p);
   render();
@@ -855,6 +871,7 @@ function openDetail(code) {
         ${specCells(p)}
       </div>
       ${sizeGuideBlock(p)}
+      ${coordinatedBlock(p)}
       <p class="common-note">재고, 실측, 피팅 상담은 상품코드와 함께 카카오톡으로 문의해 주세요.</p>
       <div class="cta detail-cta">
         <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
@@ -870,6 +887,7 @@ function openDetail(code) {
     $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', i === j));
   });
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
+  $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
 }
 
 function bindCards() {
