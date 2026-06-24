@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match117';
+const VERSION = 'match118';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -812,11 +812,16 @@ function coordinatedBlock(p) {
       if (!target || !visibleToAudience(target)) return '';
       const label = cleanText(item.label || '?? ??? ??');
       const name = cleanText(item.name || displayName(target));
-      return '<button class="coord-link" type="button" data-code="' + codeOf(target) + '"><span>' + label + '</span><b>' + name + '</b></button>';
+      const image = mainImg(target) || cardImg(target);
+      return '<button class="coord-link" type="button" data-code="' + codeOf(target) + '">' +
+        (image ? '<img class="coord-thumb" loading="lazy" decoding="async" src="' + img(image) + '" alt="' + name + '">' : '') +
+        '<span class="coord-copy"><em>' + label + '</em><b>' + name + '</b></span>' +
+        '<strong>상품 보기</strong>' +
+      '</button>';
     })
     .filter(Boolean);
   if (!rows.length) return '';
-  return '<div class="box coord-box">' + rows.join('') + '</div>';
+  return '<div class="box coord-box"><div class="coord-title">COORDINATED LOOK</div>' + rows.join('') + '</div>';
 }
 
 function showSimilar(p) {

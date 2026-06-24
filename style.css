@@ -242,11 +242,15 @@
 .size-table th{background:#f2e8dc;color:#6c584b;font-weight:950}
 .size-table td{color:#2d241f;font-weight:850}
 .common-note{margin:14px 0 0;color:#756358;font-size:13px;font-weight:850;line-height:1.55}
-.coord-box{padding:14px 16px}
-.coord-link{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;border:0;background:transparent;padding:4px 0;color:#1d1511;text-align:left;cursor:pointer}
-.coord-link span{color:#8a7058;font-size:13px;font-weight:850}
-.coord-link b{font-size:16px;word-break:keep-all}
-.coord-link:hover b{text-decoration:underline}
+.coord-box{padding:16px;background:#fffaf4;border-color:#dcc8b6}
+.coord-title{margin-bottom:10px;color:#8a7058;font-size:12px;font-weight:950;letter-spacing:.08em}
+.coord-link{width:100%;display:grid;grid-template-columns:64px minmax(0,1fr) auto;align-items:center;gap:13px;border:1px solid #d9c5b3;background:#fff;border-radius:16px;padding:10px;color:#1d1511;text-align:left;cursor:pointer;box-shadow:0 10px 22px rgba(58,38,24,.07);transition:.16s}
+.coord-link:hover{border-color:#1b120f;transform:translateY(-1px)}
+.coord-thumb{width:64px;height:82px;border-radius:12px;object-fit:cover;background:#efe4d8}
+.coord-copy{display:flex;min-width:0;flex-direction:column;gap:4px}
+.coord-copy em{color:#8a7058;font-size:13px;font-style:normal;font-weight:850}
+.coord-copy b{font-size:17px;line-height:1.35;word-break:keep-all}
+.coord-link strong{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 15px;border-radius:999px;background:#17110e;color:#fff;font-size:13px;font-weight:950;white-space:nowrap}
 @media(max-width:720px){
   .detail-price{font-size:25px;margin-bottom:14px}
   .box.compact-box,.size-guide{padding:14px}
@@ -254,6 +258,9 @@
   .cell{min-height:68px}
   .size-table{min-width:420px}
   .size-table th,.size-table td{padding:8px 6px;font-size:12px}
+  .coord-link{grid-template-columns:56px minmax(0,1fr);gap:11px}
+  .coord-thumb{width:56px;height:74px}
+  .coord-link strong{grid-column:2;margin-top:3px;width:max-content;min-height:34px;padding:0 13px}
 }
 
 /* Compact search/filter bar */
