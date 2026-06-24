@@ -40856,5 +40856,118 @@
       "투피스"
     ],
     "sameDayAvailable": false
+  },
+  {
+    "code": "N260225",
+    "origin": "앙상블 브이넥 니트탑",
+    "folder": "앙상블 브이넥 니트탑-실루엣",
+    "supplier": "실루엣",
+    "zipFolder": "실루엣/앙상블 브이넥 니트탑",
+    "name": "앙상블 브이넥 니트탑",
+    "storeName": "앙상블 브이넥 니트탑",
+    "category": "TOP",
+    "collection": "B",
+    "collectionName": "Set-up & Styling Edit",
+    "color": "아이보리/핑크",
+    "size": "문의",
+    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
+    "price": null,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainImage": "assets/N260225_01.jpg",
+    "thumbnail": "assets/N260225_01.jpg",
+    "thumbImage": "assets/N260225_01.jpg",
+    "images": [
+      "assets/N260225_01.jpg",
+      "assets/N260225_02.png",
+      "assets/N260225_03.png",
+      "assets/N260225_04.jpg",
+      "assets/N260225_05.jpg",
+      "assets/N260225_06.jpg",
+      "assets/N260225_07.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260225_02.png",
+        "cut": "컬러 착용컷",
+        "source": "아이핑크콜라주.png"
+      },
+      {
+        "url": "assets/N260225_03.png",
+        "cut": "측면/후면컷",
+        "source": "측뒤콜라주.png"
+      },
+      {
+        "url": "assets/N260225_04.jpg",
+        "cut": "아이보리 착용컷",
+        "source": "앙상볼T아이 비쥬SK 블랙04.jpg"
+      },
+      {
+        "url": "assets/N260225_05.jpg",
+        "cut": "핑크 착용컷",
+        "source": "앙상볼T핑크 비쥬SK 아이04.jpg"
+      },
+      {
+        "url": "assets/N260225_06.jpg",
+        "cut": "아이보리 확대컷",
+        "source": "앙상볼T아이 비쥬SK 블랙16.jpg"
+      },
+      {
+        "url": "assets/N260225_07.jpg",
+        "cut": "제품컷",
+        "source": "앙상볼T아이 비쥬SK 블랙상품컷.jpg"
+      }
+    ],
+    "mainCopy": "여리한 브이넥 라인과 가벼운 앙상블 무드가 여성스럽고 세련된 분위기를 완성해주는 니트탑입니다.",
+    "desc": "얇고 부드러운 니트 소재로 가볍게 착용하기 좋은 앙상블 스타일 상의입니다. 브이넥 라인이 목선을 여리하게 보여주고, 단추 디테일이 단정한 포인트를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 데이트룩, 모임룩, 출근룩까지 활용하기 좋습니다.",
+    "description": "얇고 부드러운 니트 소재로 가볍게 착용하기 좋은 앙상블 스타일 상의입니다. 브이넥 라인이 목선을 여리하게 보여주고, 단추 디테일이 단정한 포인트를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 데이트룩, 모임룩, 출근룩까지 활용하기 좋습니다.",
+    "points": [
+      "여리한 브이넥 라인",
+      "가벼운 앙상블 니트 무드",
+      "단독/레이어드 활용 가능"
+    ],
+    "whyYoullLoveIt": [
+      "여리한 브이넥 라인",
+      "가벼운 앙상블 니트 무드",
+      "단독/레이어드 활용 가능"
+    ],
+    "recommend": "데이트, 모임, 출근룩으로 활용하기 좋은 니트탑입니다.",
+    "fabric": "얇은 니트",
+    "contactType": "kakao",
+    "tags": [
+      "NEW",
+      "TOP",
+      "BLOUSE",
+      "블라우스",
+      "니트",
+      "니트탑",
+      "앙상블니트",
+      "브이넥니트",
+      "가디건",
+      "상의",
+      "여성스러운룩",
+      "데이트룩",
+      "모임룩",
+      "출근룩",
+      "스커트 코디"
+    ],
+    "styleTags": [
+      "블라우스",
+      "니트",
+      "가디건",
+      "브이넥",
+      "앙상블",
+      "여성스러운룩"
+    ],
+    "sceneTags": [
+      "데이트룩",
+      "모임룩",
+      "출근룩"
+    ],
+    "editorsNote": "브이넥 라인과 단추 포인트가 여성스럽게 어우러지는 앙상블 니트탑입니다. 스커트와 함께 단정한 모임룩으로 연출하기 좋습니다.",
+    "name_en": "Ensemble V-Neck Knit Top",
+    "name_cn": "开衫套装 V领 针织上衣",
+    "name_jp": "アンサンブル Vネック ニットトップ"
   }
 ]
