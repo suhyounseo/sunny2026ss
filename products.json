@@ -40969,5 +40969,121 @@
     "name_en": "Ensemble V-Neck Knit Top",
     "name_cn": "开衫套装 V领 针织上衣",
     "name_jp": "アンサンブル Vネック ニットトップ"
+  },
+  {
+    "code": "N260226",
+    "origin": "비쥬플라워 미니스커트",
+    "folder": "비쥬플라워 미니스커트-실루엣",
+    "supplier": "실루엣",
+    "zipFolder": "실루엣/비쥬플라워 미니스커트",
+    "name": "비쥬플라워 미니스커트",
+    "storeName": "비쥬플라워 미니스커트",
+    "category": "SKIRT",
+    "collection": "B",
+    "collectionName": "Set-up & Styling Edit",
+    "color": "아이보리/블랙",
+    "size": "문의",
+    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
+    "price": null,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainImage": "assets/N260226_01.jpg",
+    "thumbnail": "assets/N260226_01.jpg",
+    "thumbImage": "assets/N260226_01.jpg",
+    "images": [
+      "assets/N260226_01.jpg",
+      "assets/N260226_02.png",
+      "assets/N260226_03.png",
+      "assets/N260226_04.png",
+      "assets/N260226_05.jpg",
+      "assets/N260226_06.jpg",
+      "assets/N260226_07.jpg",
+      "assets/N260226_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260226_02.png",
+        "cut": "컬러 디테일컷",
+        "source": "collage.png"
+      },
+      {
+        "url": "assets/N260226_03.png",
+        "cut": "착용/확대컷",
+        "source": "collage2.png"
+      },
+      {
+        "url": "assets/N260226_04.png",
+        "cut": "디테일 확대컷",
+        "source": "확대collage.png"
+      },
+      {
+        "url": "assets/N260226_05.jpg",
+        "cut": "블랙 착용컷",
+        "source": "앙상볼T아이 비쥬SK 블랙2.jpg"
+      },
+      {
+        "url": "assets/N260226_06.jpg",
+        "cut": "아이보리 착용컷",
+        "source": "앙상볼T핑크 비쥬SK 아이3.jpg"
+      },
+      {
+        "url": "assets/N260226_07.jpg",
+        "cut": "아이보리 확대 착용컷",
+        "source": "앙상볼T핑크 비쥬SK 아이4.jpg"
+      },
+      {
+        "url": "assets/N260226_08.jpg",
+        "cut": "제품컷",
+        "source": "앙상볼T아이 비쥬SK 블랙상품컷5.jpg"
+      }
+    ],
+    "mainCopy": "입체적인 비쥬 플라워 장식이 고급스럽게 포인트 되는 여성스러운 미니스커트입니다.",
+    "desc": "깔끔하게 떨어지는 미니 실루엣에 입체적인 플라워 비쥬 장식을 더한 스커트입니다. 허리와 힙 라인을 안정감 있게 잡아주며, 심플한 상의와 매치해도 고급스러운 분위기를 만들어줍니다. 니트탑, 블라우스, 크롭 상의와 코디하면 데이트룩, 모임룩, 파티룩까지 활용하기 좋습니다.",
+    "description": "깔끔하게 떨어지는 미니 실루엣에 입체적인 플라워 비쥬 장식을 더한 스커트입니다. 허리와 힙 라인을 안정감 있게 잡아주며, 심플한 상의와 매치해도 고급스러운 분위기를 만들어줍니다. 니트탑, 블라우스, 크롭 상의와 코디하면 데이트룩, 모임룩, 파티룩까지 활용하기 좋습니다.",
+    "points": [
+      "입체 비쥬 플라워 장식",
+      "깔끔한 미니 실루엣",
+      "니트/블라우스 코디 추천"
+    ],
+    "whyYoullLoveIt": [
+      "입체 비쥬 플라워 장식",
+      "깔끔한 미니 실루엣",
+      "니트/블라우스 코디 추천"
+    ],
+    "recommend": "데이트, 모임, 파티룩으로 활용하기 좋은 미니스커트입니다.",
+    "fabric": "폴리혼방",
+    "contactType": "kakao",
+    "tags": [
+      "NEW",
+      "SKIRT",
+      "스커트",
+      "미니스커트",
+      "비쥬스커트",
+      "플라워포인트",
+      "비쥬",
+      "플라워",
+      "데이트룩",
+      "모임룩",
+      "파티룩",
+      "블라우스 코디",
+      "니트 코디"
+    ],
+    "styleTags": [
+      "스커트",
+      "미니스커트",
+      "비쥬",
+      "플라워포인트",
+      "여성스러운룩"
+    ],
+    "sceneTags": [
+      "데이트룩",
+      "모임룩",
+      "파티룩"
+    ],
+    "editorsNote": "입체 플라워 비쥬 장식이 단정한 미니 실루엣에 고급스러운 포인트를 더해주는 스커트입니다. 심플한 상의와도 완성도 있게 연출됩니다.",
+    "name_en": "Bijou Flower Mini Skirt",
+    "name_cn": "立体 花朵 珠饰 迷你 半身裙",
+    "name_jp": "ビジュー フラワー ミニ スカート"
   }
 ]
