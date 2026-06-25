@@ -40869,9 +40869,9 @@
     "collection": "B",
     "collectionName": "Set-up & Styling Edit",
     "color": "아이보리 / 핑크",
-    "size": "문의",
-    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
-    "price": null,
+    "size": "FREE",
+    "sizeInfo": "상의/니트 FREE(가:38 허:31 소매:56 총장:49)",
+    "price": 68000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -40933,7 +40933,7 @@
       "단독/레이어드 활용 가능"
     ],
     "recommend": "데이트, 모임, 출근룩으로 활용하기 좋은 니트탑입니다.",
-    "fabric": "얇은 니트",
+    "fabric": "니트",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -40975,7 +40975,13 @@
         "label": "함께 코디한 스커트",
         "name": "비쥬플라워 미니스커트"
       }
-    ]
+    ],
+    "stretch": "좋음",
+    "cap": "없음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "보통",
+    "zipper": "없음"
   },
   {
     "code": "N260226",
@@ -40990,8 +40996,8 @@
     "collectionName": "Set-up & Styling Edit",
     "color": "아이보리 / 블랙",
     "size": "문의",
-    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
-    "price": null,
+    "sizeInfo": "상세 사이즈는 추후 업데이트 예정",
+    "price": 63000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -41112,9 +41118,9 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "문의",
-    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
-    "price": null,
+    "size": "S,M,L",
+    "sizeInfo": "원피스 S(가:38 허:31 힙:40) / M(가:40.5 허:33.5 힙:42.5) / L(가:43 허:36 힙:45)",
+    "price": 113000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -41204,7 +41210,13 @@
     "editorsNote": "스퀘어넥과 세로 스티치 라인이 바디 실루엣을 깔끔하게 살려주는 슬림 원피스입니다. 단정하지만 세련된 무드가 필요한 날 추천드립니다.",
     "name_en": "Stitch Line Slim Mini Dress",
     "name_cn": "方领 车线 修身 迷你连衣裙",
-    "name_jp": "ステッチライン スリム ミニワンピース"
+    "name_jp": "ステッチライン スリム ミニワンピース",
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼"
   },
   {
     "code": "N260228",
@@ -41218,9 +41230,9 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "문의",
-    "sizeInfo": "상세 사이즈는 카카오톡으로 문의",
-    "price": null,
+    "size": "S,M,L",
+    "sizeInfo": "원피스 S(가:38 허:31 힙:40) / M(가:40.5 허:33.5 힙:42.5) / L(가:43 허:36 힙:45)",
+    "price": 113000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -41304,7 +41316,13 @@
     "editorsNote": "스퀘어넥과 세로 스티치 라인이 바디 실루엣을 깔끔하게 살려주는 슬림 원피스입니다. 단정하지만 세련된 무드가 필요한 날 추천드립니다.",
     "name_en": "Stitch Line Slim Mini Dress",
     "name_cn": "方领 车线 修身 迷你连衣裙",
-    "name_jp": "ステッチライン スリム ミニワンピース"
+    "name_jp": "ステッチライン スリム ミニワンピース",
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼"
   },
   {
     "code": "N260229",

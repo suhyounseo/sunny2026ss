@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match122';
+const VERSION = 'match123';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -220,6 +220,7 @@ function specCells(p) {
     ['소재', safeText(p.fabric)],
     ['안감', safeText(p.lining)],
     ['신축성', safeText(p.stretch)],
+    ['캡', safeText(p.cap)],
     ['비침', safeText(p.see)],
     ['두께', safeText(p.thickness)],
     ['지퍼', safeText(p.zipper)]
@@ -231,17 +232,22 @@ function sizeGuideRows(groupText) {
   const rows = [];
   const rowRe = /([A-Z]{1,2}|FREE|55|66|77|88)\(([^)]*)\)/gi;
   let match;
-  const sleeve = (groupText.match(/소매\s*:?\s*([\d.]+)/) || [])[1] || '';
-  const length = (groupText.match(/기장\s*:?\s*([\d.]+)/) || [])[1] || '';
+  const pick = (text, labels) => {
+    const label = labels.join('|');
+    const found = text.match(new RegExp(`(?:${label})\\s*:?\\s*([\\d.]+)`, 'i'));
+    return found ? found[1] : '';
+  };
+  const sleeve = pick(groupText, ['소매', '팔']);
+  const length = pick(groupText, ['총장', '총길이', '기장', '길이']);
   while ((match = rowRe.exec(groupText))) {
     const body = match[2];
     rows.push({
       size: match[1],
-      chest: (body.match(/가\s*:?\s*([\d.]+)/) || [])[1] || '-',
-      waist: (body.match(/허\s*:?\s*([\d.]+)/) || [])[1] || '-',
-      hip: (body.match(/힙\s*:?\s*([\d.]+)/) || [])[1] || '-',
-      sleeve: (body.match(/소매\s*:?\s*([\d.]+)/) || [])[1] || sleeve || '-',
-      length: (body.match(/기장\s*:?\s*([\d.]+)/) || [])[1] || length || '-'
+      chest: pick(body, ['가슴', '가']) || '-',
+      waist: pick(body, ['허리', '허']) || '-',
+      hip: pick(body, ['힙']) || '-',
+      sleeve: pick(body, ['소매', '팔']) || sleeve || '-',
+      length: pick(body, ['총장', '총길이', '기장', '길이']) || length || '-'
     });
   }
   return rows;
