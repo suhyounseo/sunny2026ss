@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match121';
+const VERSION = 'match122';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -60,9 +60,12 @@ const EDITOR_SELECT_PINNED_CODES = [
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
+  'N260229', 'N260228', 'N260227', 'N260226',
+  'N260225',
   'S735', 'S693', 'S719', 'S723',
   'S727', 'S731', 'S750', 'S752'
 ];
+const COLLECTION_A_EXTRA_CODES = ['N260229', 'N260228', 'N260227', 'N260226', 'N260225'];
 
 const COSTUME_STRONG = [
   '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
@@ -99,7 +102,7 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
-const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p));
+const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p)) || COLLECTION_A_EXTRA_CODES.includes(codeOf(p));
 const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
 const isLuxuryCandidate = p => {
   if (isAnkProduct(p) || isJessicaProduct(p)) return false;
