@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match123';
+const VERSION = 'match125';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -60,12 +60,11 @@ const EDITOR_SELECT_PINNED_CODES = [
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
-  'N260229', 'N260228', 'N260227', 'N260226',
-  'N260225',
+  'N260228', 'N260227', 'N260226', 'N260225',
   'S735', 'S693', 'S719', 'S723',
   'S727', 'S731', 'S750', 'S752'
 ];
-const COLLECTION_A_EXTRA_CODES = ['N260229', 'N260228', 'N260227', 'N260226', 'N260225'];
+const COLLECTION_A_EXTRA_CODES = ['N260228', 'N260227', 'N260226', 'N260225'];
 
 const COSTUME_STRONG = [
   '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
@@ -845,6 +844,7 @@ function showSimilar(p) {
 function closeDetail(fromHistory = false) {
   if (!modal.classList.contains('open')) return;
   modal.classList.remove('open');
+  document.body.classList.remove('detail-open');
   if (modalHistoryOpen && !fromHistory) {
     modalHistoryOpen = false;
     history.back();
@@ -894,6 +894,7 @@ function openDetail(code) {
     </section>
   </div>`;
   modal.classList.add('open');
+  document.body.classList.add('detail-open');
   openModalHistory(code);
   $$('.thumb', detail).forEach(b => b.onclick = () => {
     const i = Number(b.dataset.i);
