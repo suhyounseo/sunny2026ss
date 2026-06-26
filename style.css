@@ -294,6 +294,6 @@
 .hero-copy{display:none}
 @media(max-width:720px){
   .hero{padding:0}
-  .hero-image{height:120px;object-fit:cover;object-position:42% center}
+  .hero-image{height:120px;object-fit:contain;object-position:center;background:#050505}
   body.detail-open .sticky-tools{display:none}
 }
