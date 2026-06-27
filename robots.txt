@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suhyounseo.github.io/sunny2026ss/sitemap.xml

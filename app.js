@@ -14,7 +14,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match129';
+const VERSION = 'match130';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -65,6 +65,12 @@ const NEW_ARRIVAL_PINNED_CODES = [
   'S727', 'S731', 'S750', 'S752'
 ];
 const COLLECTION_A_EXTRA_CODES = ['N260228', 'N260227', 'N260226', 'N260225'];
+const SLIMFIT_EXCLUDED_CODES = new Set([
+  'JES-308', 'JES-316', 'JES-323',
+  'N260225', 'N260011', 'N260012', 'N260013',
+  'ANC-4047', 'ANC-4068',
+  'N260122', 'N260123', 'N260124', 'N260125', 'N260164'
+]);
 
 const COSTUME_STRONG = [
   '코스튬', '코스튬룩', '콘셉트룩', '컨셉룩', '마린룩', '마린', '세일러룩', '세일러',
@@ -451,7 +457,7 @@ function matchesSearch(p, rawSearch) {
   if (!search) return true;
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
-  if (/^슬림핏$/i.test(rawSearch)) return /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
+  if (/^슬림핏$/i.test(rawSearch)) return !SLIMFIT_EXCLUDED_CODES.has(codeOf(p)) && /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
   if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
   const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
   const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
