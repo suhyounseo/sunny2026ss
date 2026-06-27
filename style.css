@@ -22,6 +22,9 @@
 .quick::-webkit-scrollbar{display:none}
 .quick-chip{flex:0 0 auto;border:1px solid #dfd3c8;background:#fff;color:#5a4c43;border-radius:999px;padding:9px 13px;cursor:pointer;font-size:13px;font-weight:850}
 .quick-chip:hover{border-color:var(--gold);background:#fffaf6}
+.lang-switcher{display:flex;justify-content:flex-end;gap:6px;margin:0 4px 8px}
+.lang-chip{height:30px;padding:0 11px;border:1px solid #dfd3c8;border-radius:999px;background:#fffdf9;color:#5d5148;cursor:pointer;font-size:12px;font-weight:900}
+.lang-chip.on{background:#171413;color:#fff;border-color:#171413}
 .sticky-tools .chips{margin:8px 0 0;padding:0 4px;border-bottom:0}
 .sticky-tools .chips:empty{display:none}
 .home{display:block}
@@ -75,6 +78,9 @@
   .sticky-tools .top{margin-bottom:8px}
   .quick{padding:0 2px}
   .quick-chip{font-size:12px;padding:8px 11px}
+  .lang-switcher{justify-content:flex-start;overflow-x:auto;margin-bottom:7px;padding:0 2px}
+  .lang-switcher::-webkit-scrollbar{display:none}
+  .lang-chip{height:28px;font-size:11px;padding:0 9px;white-space:nowrap}
   .sticky-tools .chips{padding:0 2px;margin-top:8px}
   .chip{height:34px;font-size:12px;padding:0 13px}
   .community-panel{grid-template-columns:1fr;margin:24px 0 30px;padding:22px 18px}

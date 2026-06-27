@@ -2,6 +2,7 @@ const $ = (s, e = document) => e.querySelector(s);
 const $$ = (s, e = document) => [...e.querySelectorAll(s)];
 
 const q = $('#q');
+const langSwitcher = $('#langSwitcher');
 const quick = $('#quick');
 const chips = $('#chips');
 const grid = $('#grid');
@@ -14,19 +15,166 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match130';
+const VERSION = 'match131';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
 const VIP_STORAGE_KEY = 'niceVipUntil';
+const LANG_STORAGE_KEY = 'niceLang';
 const VIP_TTL_MS = 12 * 60 * 60 * 1000;
 const VIP_CODE_CHARS = [78, 73, 67, 69, 86, 73, 80];
+const LANGS = [
+  { code: 'ko', label: '한국어' },
+  { code: 'en', label: 'EN' },
+  { code: 'zh', label: '中文' },
+  { code: 'ja', label: '日本語' }
+];
+const I18N = {
+  ko: {
+    searchPlaceholder: '미니, 슬림핏, 파티룩, 무대의상 검색',
+    item: 'items',
+    picks: 'picks',
+    productCode: '상품코드',
+    similarSearch: '비슷한 옷 검색',
+    noPhoto: '문의 가능',
+    priceInquiry: '가격문의',
+    priceInquiryNote: '카카오톡으로 재고/가격 확인',
+    detailPriceNote: '재고와 가격은 카카오톡으로 바로 확인해드립니다.',
+    stylePoint: '스타일 포인트',
+    recommendFor: '추천 상황',
+    detailDesc: '상세 설명',
+    sizeGuide: '사이즈 가이드',
+    sizeAsk: '상세 사이즈는 카카오톡으로 문의해 주세요.',
+    topBottom: '하의',
+    topDress: '상의/원피스',
+    actualSize: '실측',
+    size: '사이즈',
+    chest: '가슴',
+    waist: '허리',
+    hip: '힙',
+    sleeve: '소매',
+    totalLength: '총장',
+    color: '컬러',
+    fabric: '소재',
+    lining: '안감',
+    stretch: '신축성',
+    cap: '캡',
+    sheer: '비침',
+    thickness: '두께',
+    zipper: '지퍼',
+    ask: '문의',
+    commonNote: '재고, 실측, 피팅 상담은 상품코드와 함께 카카오톡으로 문의해 주세요.',
+    productAsk: '상품 문의',
+    instaAsk: '인스타 DM 문의',
+    similarTitle: '비슷한 옷 추천',
+    similarDesc: '{name} 기준 {profile}스타일을 모았습니다.',
+    close: '닫기',
+    empty: '조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.',
+    dataFail: '상품 데이터를 불러오지 못했습니다.',
+    communityCopy: '동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문',
+    communityGuide: '매장 피팅 가능 / 당일 구매 가능 / 택배 발송 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.',
+    kakaoAsk: '카카오톡 문의',
+    vipAuth: 'VIP 인증',
+    vipViewSameDay: '당일발송 상품 보기',
+    vipClear: '인증해제',
+    vipTitle: 'VIP 인증',
+    vipDesc: 'VIP 고객에게만 공개되는 셀렉션을 보여드립니다.',
+    vipPlaceholder: '인증코드를 입력해 주세요',
+    cancel: '취소',
+    verify: '인증하기',
+    vipOk: 'VIP 인증이 완료되었습니다.',
+    vipError: '인증코드가 올바르지 않습니다.',
+    fittingAvailable: '피팅가능',
+    sameDay: '당일발송',
+    showroomIntro: '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 상품은 상품 코드로 재고와 사이즈를 바로 확인해드립니다.',
+    newIntro: '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.',
+    bestIntro: '쇼룸에서 먼저 추천드리는 인기 스타일입니다.',
+    costumeIntro: '마린룩, 세일러룩, 스쿨룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.',
+    miniIntro: '파티, 클럽, 촬영에 활용하기 좋은 미니 원피스 라인입니다.',
+    midiIntro: '조금 더 차분하고 고급스러운 무드의 미디 드레스 라인입니다.',
+    twoPieceIntro: '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.',
+    longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
+    editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
+    newDesc: '새로 들어온 제품을 모았습니다.',
+    collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
+    collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
+    collectionC: '특별한 순간을 위한 미디·롱 드레스 셀렉션'
+  },
+  en: {
+    searchPlaceholder: 'Search mini, slim fit, party look, stage outfit',
+    item: 'items', picks: 'picks', productCode: 'Code', similarSearch: 'Find similar styles', noPhoto: 'Ask us',
+    priceInquiry: 'Ask for price', priceInquiryNote: 'Check stock/price via KakaoTalk', detailPriceNote: 'Stock and price are confirmed quickly via KakaoTalk.',
+    stylePoint: 'Style Points', recommendFor: 'Recommended For', detailDesc: 'Details', sizeGuide: 'Size Guide', sizeAsk: 'Ask us on KakaoTalk for detailed measurements.',
+    topBottom: 'Bottom', topDress: 'Top/Dress', actualSize: 'Measurements', size: 'Size', chest: 'Chest', waist: 'Waist', hip: 'Hip', sleeve: 'Sleeve', totalLength: 'Length',
+    color: 'Color', fabric: 'Fabric', lining: 'Lining', stretch: 'Stretch', cap: 'Cup', sheer: 'Sheer', thickness: 'Thickness', zipper: 'Zipper', ask: 'Ask',
+    commonNote: 'For stock, measurements, and fitting advice, send us the product code on KakaoTalk.',
+    productAsk: 'Product Inquiry', instaAsk: 'Instagram DM', similarTitle: 'Similar Styles', similarDesc: 'Based on {name}, we gathered {profile}styles.', close: 'Close',
+    empty: 'No matching products. Send your preferred style on KakaoTalk and we will recommend similar items.', dataFail: 'Product data could not be loaded.',
+    communityCopy: 'Dongdaemun Migliore NICE<br>Party Look · Stage Outfit · Club Look · Broadcast Outfit',
+    communityGuide: 'In-store fitting / same-day purchase / delivery available<br>Stock and sizes vary by item, so please ask on KakaoTalk before visiting.',
+    kakaoAsk: 'KakaoTalk Inquiry', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
+    vipDesc: 'View selections available only to VIP customers.', vipPlaceholder: 'Enter VIP code', cancel: 'Cancel', verify: 'Verify', vipOk: 'VIP access confirmed.', vipError: 'Invalid VIP code.',
+    fittingAvailable: 'Fitting available', sameDay: 'Same-day',
+    showroomIntro: 'Search by mood or length. Send us the product code to quickly check stock and size.',
+    newIntro: 'Recently arrived styles. Ask on KakaoTalk for fitting availability and stock.', bestIntro: 'Popular styles recommended by the showroom.',
+    costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
+    midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
+    editorDesc: 'Products we want to show first in the showroom.', newDesc: 'Newly arrived products.',
+    collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
+  },
+  zh: {
+    searchPlaceholder: '搜索迷你、修身、派对风、舞台服',
+    item: '件', picks: '款', productCode: '商品代码', similarSearch: '查找相似款', noPhoto: '可咨询',
+    priceInquiry: '价格咨询', priceInquiryNote: '通过 KakaoTalk 确认库存/价格', detailPriceNote: '库存和价格可通过 KakaoTalk 快速确认。',
+    stylePoint: '风格亮点', recommendFor: '推荐场合', detailDesc: '详细说明', sizeGuide: '尺码指南', sizeAsk: '详细尺码请通过 KakaoTalk 咨询。',
+    topBottom: '下装', topDress: '上衣/连衣裙', actualSize: '实测', size: '尺码', chest: '胸围', waist: '腰围', hip: '臀围', sleeve: '袖长', totalLength: '衣长',
+    color: '颜色', fabric: '面料', lining: '内衬', stretch: '弹性', cap: '胸垫', sheer: '透视', thickness: '厚度', zipper: '拉链', ask: '咨询',
+    commonNote: '库存、实测和试穿建议请带商品代码通过 KakaoTalk 咨询。',
+    productAsk: '商品咨询', instaAsk: 'Instagram 私信', similarTitle: '相似款推荐', similarDesc: '以 {name} 为参考，为您整理了 {profile}风格。', close: '关闭',
+    empty: '没有符合条件的商品。请通过 KakaoTalk 发送想要的风格，我们会推荐相似款。', dataFail: '无法加载商品数据。',
+    communityCopy: '东大门 Migliore NICE<br>派对风 · 舞台服 · 夜店风 · 방송服装',
+    communityGuide: '可到店试穿 / 当日购买 / 可快递<br>库存和尺码因商品而异，建议到店前先通过 KakaoTalk 咨询。',
+    kakaoAsk: 'KakaoTalk 咨询', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
+    vipDesc: '显示仅 VIP 顾客可见的精选商品。', vipPlaceholder: '请输入认证码', cancel: '取消', verify: '认证', vipOk: 'VIP 认证完成。', vipError: '认证码不正确。',
+    fittingAvailable: '可试穿', sameDay: '当日发货',
+    showroomIntro: '可按氛围或长度搜索。喜欢的商品请用商品代码咨询库存和尺码。',
+    newIntro: '最近新入库的款式。试穿和库存请通过 KakaoTalk 确认。', bestIntro: 'NICE 쇼룸 推荐的人气款式。',
+    costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
+    midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
+    editorDesc: 'NICE 쇼룸 想优先展示的商品。', newDesc: '新入库商品。',
+    collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
+  },
+  ja: {
+    searchPlaceholder: 'ミニ、スリム、パーティールック、ステージ衣装を検索',
+    item: '点', picks: '点', productCode: '商品コード', similarSearch: '似た服を探す', noPhoto: 'お問い合わせ可',
+    priceInquiry: '価格問い合わせ', priceInquiryNote: 'KakaoTalkで在庫/価格を確認', detailPriceNote: '在庫と価格はKakaoTalkで確認できます。',
+    stylePoint: 'スタイルポイント', recommendFor: 'おすすめシーン', detailDesc: '詳細説明', sizeGuide: 'サイズガイド', sizeAsk: '詳細サイズはKakaoTalkでお問い合わせください。',
+    topBottom: 'ボトム', topDress: 'トップス/ワンピース', actualSize: '実寸', size: 'サイズ', chest: 'バスト', waist: 'ウエスト', hip: 'ヒップ', sleeve: '袖丈', totalLength: '総丈',
+    color: 'カラー', fabric: '素材', lining: '裏地', stretch: '伸縮性', cap: 'カップ', sheer: '透け感', thickness: '厚み', zipper: 'ファスナー', ask: '問い合わせ',
+    commonNote: '在庫、実寸、フィッティング相談は商品コードと一緒にKakaoTalkでお問い合わせください。',
+    productAsk: '商品問い合わせ', instaAsk: 'Instagram DM', similarTitle: '似た服のおすすめ', similarDesc: '{name}を基準に{profile}スタイルを集めました。', close: '閉じる',
+    empty: '条件に合う商品がありません。希望スタイルをKakaoTalkで送っていただければ似た商品をご提案します。', dataFail: '商品データを読み込めませんでした。',
+    communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 방송衣装',
+    communityGuide: '店頭フィッティング可 / 当日購入可 / 配送可<br>在庫とサイズは商品ごとに異なるため、来店前にKakaoTalkでのお問い合わせをおすすめします。',
+    kakaoAsk: 'KakaoTalk問い合わせ', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
+    vipDesc: 'VIPのお客様限定のセレクションを表示します。', vipPlaceholder: '認証コードを入力してください', cancel: 'キャンセル', verify: '認証', vipOk: 'VIP認証が完了しました。', vipError: '認証コードが正しくありません。',
+    fittingAvailable: '試着可', sameDay: '当日発送',
+    showroomIntro: '雰囲気や丈で検索できます。気になる商品は商品コードで在庫とサイズを確認できます。',
+    newIntro: '最近入荷した新作ラインです。試着可否と在庫はKakaoTalkで確認できます。', bestIntro: 'ショールームおすすめの人気スタイルです。',
+    costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
+    midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
+    editorDesc: '今ショールームで先にお見せしたい商品です。', newDesc: '新しく入荷した商品です。',
+    collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
+  }
+};
 
 let PRODUCTS = [];
 let FILTER = 'HOME';
 let currentImages = [];
 let modalHistoryOpen = false;
 let SIMILAR_CODE = '';
+let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
+if (!I18N[LANG]) LANG = 'ko';
 
 const COLLECTIONS = [
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
@@ -52,6 +200,18 @@ const LABEL = {
 };
 const QUICK_BASE = ['미니', '미디', 'A라인', '슬림핏', '럭셔리', '투피스', '스커트', '블라우스', '77/88', '당일발송'];
 const QUICK_VIP = [];
+const QUICK_LABELS = {
+  ko: {},
+  en: { '미니': 'Mini', '미디': 'Midi', 'A라인': 'A-line', '슬림핏': 'Slim fit', '럭셔리': 'Luxury', '투피스': 'Two-piece', '스커트': 'Skirt', '블라우스': 'Blouse', '당일발송': 'Same-day' },
+  zh: { '미니': '迷你', '미디': '中长款', 'A라인': 'A字版', '슬림핏': '修身', '럭셔리': '高级感', '투피스': '套装', '스커트': '半身裙', '블라우스': '衬衫', '당일발송': '当日发货' },
+  ja: { '미니': 'ミニ', '미디': 'ミディ', 'A라인': 'Aライン', '슬림핏': 'スリム', '럭셔리': 'ラグジュアリー', '투피스': 'ツーピース', '스커트': 'スカート', '블라우스': 'ブラウス', '당일발송': '当日発送' }
+};
+const FILTER_LABELS = {
+  ko: {},
+  en: { BEST: 'BEST PICK', NEW: 'NEW ARRIVAL', COSTUME: 'COSTUME', SAME_DAY: 'SAME-DAY' },
+  zh: { HOME: '首页', ALL: '全部', BEST: '精选', NEW: '新品', COSTUME: '造型服', SAME_DAY: '当日发货' },
+  ja: { HOME: 'ホーム', ALL: 'すべて', BEST: 'おすすめ', NEW: '新作', COSTUME: 'コスチューム', SAME_DAY: '当日発送' }
+};
 const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
 const EDITOR_SELECT_LIMIT = 12;
 const EDITOR_SELECT_PINNED_CODES = [
@@ -159,9 +319,57 @@ function safeText(value) {
   return text;
 }
 
+function t(key, vars = {}) {
+  const text = (I18N[LANG] && I18N[LANG][key]) || I18N.ko[key] || key;
+  return Object.entries(vars).reduce((out, [k, v]) => out.replaceAll(`{${k}}`, v || ''), text);
+}
+
+function filterLabel(key) {
+  return (FILTER_LABELS[LANG] && FILTER_LABELS[LANG][key]) || LABEL[key] || key;
+}
+
+function quickLabel(key) {
+  return (QUICK_LABELS[LANG] && QUICK_LABELS[LANG][key]) || key;
+}
+
+function localizedCollection(c) {
+  const descKey = c.key === 'A' ? 'collectionA' : c.key === 'B' ? 'collectionB' : 'collectionC';
+  return { ...c, desc: t(descKey) };
+}
+
+function setLanguage(nextLang) {
+  if (!I18N[nextLang]) return;
+  LANG = nextLang;
+  localStorage.setItem(LANG_STORAGE_KEY, LANG);
+  updateStaticLanguage();
+  buildLangSwitcher();
+  buildQuick();
+  buildChips();
+  render();
+}
+
+function buildLangSwitcher() {
+  if (!langSwitcher) return;
+  langSwitcher.innerHTML = LANGS.map(lang => `<button class="lang-chip ${lang.code === LANG ? 'on' : ''}" type="button" data-lang="${lang.code}">${lang.label}</button>`).join('');
+}
+
+function updateStaticLanguage() {
+  document.documentElement.lang = LANG === 'zh' ? 'zh-Hans' : LANG;
+  if (q) q.placeholder = t('searchPlaceholder');
+  const vipTitle = $('.vip-top h2');
+  const vipDesc = $('.vip-panel > p');
+  const vipCancel = $('#vipCancel');
+  const vipSubmit = $('#vipSubmit');
+  if (vipTitle) vipTitle.textContent = t('vipTitle');
+  if (vipDesc) vipDesc.textContent = t('vipDesc');
+  if (vipInput) vipInput.placeholder = t('vipPlaceholder');
+  if (vipCancel) vipCancel.textContent = t('cancel');
+  if (vipSubmit) vipSubmit.textContent = t('verify');
+}
+
 function detailPriceBlock(p) {
   if (p.price) return `<div class="detail-price">${money(p.price)}</div>`;
-  return '<div class="detail-price price-inquiry"><strong>가격문의</strong><span>카카오톡으로 재고/가격 확인</span></div>';
+  return `<div class="detail-price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 
 function simpleSize(p) {
@@ -220,15 +428,15 @@ function shortDescription(p) {
 
 function specCells(p) {
   const items = [
-    ['컬러', safeText(p.color) || '문의'],
-    ['사이즈', simpleSize(p)],
-    ['소재', safeText(p.fabric)],
-    ['안감', safeText(p.lining)],
-    ['신축성', safeText(p.stretch)],
-    ['캡', safeText(p.cap)],
-    ['비침', safeText(p.see)],
-    ['두께', safeText(p.thickness)],
-    ['지퍼', safeText(p.zipper)]
+    [t('color'), safeText(p.color) || t('ask')],
+    [t('size'), simpleSize(p)],
+    [t('fabric'), safeText(p.fabric)],
+    [t('lining'), safeText(p.lining)],
+    [t('stretch'), safeText(p.stretch)],
+    [t('cap'), safeText(p.cap)],
+    [t('sheer'), safeText(p.see)],
+    [t('thickness'), safeText(p.thickness)],
+    [t('zipper'), safeText(p.zipper)]
   ].filter(([, value]) => value);
   return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${value}</span></div>`).join('');
 }
@@ -261,16 +469,16 @@ function sizeGuideRows(groupText) {
 function sizeGuideBlock(p) {
   const info = safeText(p.sizeInfo);
   if (!info || !/[A-Z]{1,2}\(/i.test(info)) {
-    return '<div class="box size-guide"><b>사이즈 가이드</b><p>상세 사이즈는 카카오톡으로 문의해 주세요.</p></div>';
+    return `<div class="box size-guide"><b>${t('sizeGuide')}</b><p>${t('sizeAsk')}</p></div>`;
   }
   const groups = info.split('|').map(x => x.trim()).filter(Boolean).slice(0, 2);
   const tables = groups.map(group => {
     const rows = sizeGuideRows(group);
     if (!rows.length) return '';
-    const title = group.includes('하의') ? '하의' : group.includes('상의') ? '상의/원피스' : '실측';
-    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>사이즈</th><th>가슴</th><th>허리</th><th>힙</th><th>소매</th><th>총장</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
+    const title = group.includes('하의') ? t('topBottom') : group.includes('상의') ? t('topDress') : t('actualSize');
+    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>${t('chest')}</th><th>${t('waist')}</th><th>${t('hip')}</th><th>${t('sleeve')}</th><th>${t('totalLength')}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
   }).filter(Boolean).join('');
-  return `<div class="box size-guide"><b>사이즈 가이드</b>${tables || '<p>상세 사이즈는 카카오톡으로 문의해 주세요.</p>'}</div>`;
+  return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
 
 function productText(p) {
@@ -404,11 +612,11 @@ function quickWords() {
 }
 
 function buildQuick() {
-  quick.innerHTML = quickWords().map(k => `<button class="quick-chip" type="button" data-q="${k}">${k}</button>`).join('');
+  quick.innerHTML = quickWords().map(k => `<button class="quick-chip" type="button" data-q="${k}">${quickLabel(k)}</button>`).join('');
 }
 
 function buildChips() {
-  chips.innerHTML = filters().map(f => `<button class="chip ${f === FILTER ? 'on' : ''}" type="button" data-f="${f}">${LABEL[f]}</button>`).join('');
+  chips.innerHTML = filters().map(f => `<button class="chip ${f === FILTER ? 'on' : ''}" type="button" data-f="${f}">${filterLabel(f)}</button>`).join('');
 }
 
 function applyView(nextFilter, { search = '', push = false, scroll = false } = {}) {
@@ -426,29 +634,29 @@ function cCount(k) {
 
 function sectionName() {
   if (FILTER === 'HOME') return 'SHOWROOM';
-  const c = COLLECTIONS.find(x => x.filter === FILTER);
+  const c = COLLECTIONS.map(localizedCollection).find(x => x.filter === FILTER);
   if (c) return c.title;
-  if (FILTER === 'NEW') return 'NEW ARRIVAL';
-  if (FILTER === 'BEST') return 'BEST PICK';
-  if (FILTER === 'COSTUME') return 'COSTUME';
+  if (FILTER === 'NEW') return filterLabel('NEW');
+  if (FILTER === 'BEST') return filterLabel('BEST');
+  if (FILTER === 'COSTUME') return filterLabel('COSTUME');
   if (FILTER === 'MINI') return 'MINI DRESS';
   if (FILTER === 'MIDI') return 'MIDI DRESS';
   if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
   if (FILTER === 'LONG') return 'LONG DRESS';
-  if (FILTER === 'SAME_DAY') return '당일발송';
+  if (FILTER === 'SAME_DAY') return filterLabel('SAME_DAY');
   return 'ALL COLLECTION';
 }
 
 function sectionIntro() {
-  if (FILTER === 'HOME') return '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 제품은 상품 코드로 재고와 사이즈를 바로 확인해드립니다.';
-  if (FILTER === 'NEW') return '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.';
-  if (FILTER === 'BEST') return '쇼룸에서 먼저 추천드리는 인기 스타일입니다.';
-  if (FILTER === 'COSTUME') return '마린룩, 세일러룩, 스쿨룩, 교복룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.';
-  if (FILTER === 'MINI') return '파티, 클럽, 촬영에 활용하기 좋은 미니 원피스 라인입니다.';
-  if (FILTER === 'MIDI') return '조금 더 차분하고 고급스러운 무드의 미디 드레스 라인입니다.';
-  if (FILTER === 'TWO_PIECE') return '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.';
-  if (FILTER === 'LONG') return '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.';
-  const c = COLLECTIONS.find(x => x.filter === FILTER);
+  if (FILTER === 'HOME') return t('showroomIntro');
+  if (FILTER === 'NEW') return t('newIntro');
+  if (FILTER === 'BEST') return t('bestIntro');
+  if (FILTER === 'COSTUME') return t('costumeIntro');
+  if (FILTER === 'MINI') return t('miniIntro');
+  if (FILTER === 'MIDI') return t('midiIntro');
+  if (FILTER === 'TWO_PIECE') return t('twoPieceIntro');
+  if (FILTER === 'LONG') return t('longIntro');
+  const c = COLLECTIONS.map(localizedCollection).find(x => x.filter === FILTER);
   return c ? c.desc : '';
 }
 
@@ -501,8 +709,8 @@ function badges(p) {
   const out = [];
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
-  if (isFittingAvailable(p)) out.push('<span class="badge light">피팅가능</span>');
-  if (out.length < 3 && isSameDayCandidate(p)) out.push('<span class="badge light">당일발송</span>');
+  if (isFittingAvailable(p)) out.push(`<span class="badge light">${t('fittingAvailable')}</span>`);
+  if (out.length < 3 && isSameDayCandidate(p)) out.push(`<span class="badge light">${t('sameDay')}</span>`);
   return out.slice(0, 3).join('');
 }
 
@@ -517,21 +725,21 @@ function meta(p) {
 
 function priceBlock(p) {
   if (p.price) return `<div class="price">${money(p.price)}</div>`;
-  return `<div class="price price-inquiry"><strong>가격문의</strong><span>카카오톡으로 재고/가격 확인</span></div>`;
+  return `<div class="price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 
 function productCard(p, compact = false) {
   const image = cardImg(p);
   const cardBadges = badges(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>문의 가능</span></div>`}</div>
+    <div class="photo">${image ? `<img loading="lazy" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>${t('noPhoto')}</span></div>`}</div>
     <div class="info">
-      <div class="code">상품코드 ${displayCode(p)}</div>
+      <div class="code">${t('productCode')} ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
       <div class="meta">${meta(p)}</div>
       ${priceBlock(p)}
       ${cardBadges ? `<div class="card-badges">${cardBadges}</div>` : ''}
-      <button class="card-similar" type="button" data-code="${codeOf(p)}">비슷한 옷 검색</button>
+      <button class="card-similar" type="button" data-code="${codeOf(p)}">${t('similarSearch')}</button>
     </div>
   </article>`;
 }
@@ -542,7 +750,7 @@ function choose(list, limit) {
 
 function sectionBlock(label, desc, items) {
   if (!items.length) return '';
-  return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} picks</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
+  return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} ${t('picks')}</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
 }
 
 function imageListFor(p) {
@@ -693,10 +901,10 @@ function similarShelfBlock() {
   return `<section class="similar-shelf" aria-live="polite">
     <div class="section-head similar-head">
       <div>
-        <h3>비슷한 옷 추천</h3>
-        <p>${displayName(source)} 기준 ${profile ? profile + ' ' : ''}스타일을 모았습니다.</p>
+        <h3>${t('similarTitle')}</h3>
+        <p>${t('similarDesc', { name: displayName(source), profile: profile ? profile + ' ' : '' })}</p>
       </div>
-      <button class="similar-close" type="button" aria-label="비슷한 상품 닫기">닫기</button>
+      <button class="similar-close" type="button" aria-label="${t('close')}">${t('close')}</button>
     </div>
     <div class="rail">${items.map(p => productCard(p, true)).join('')}</div>
   </section>`;
@@ -704,7 +912,7 @@ function similarShelfBlock() {
 
 function collectionBlock() {
   return `<section class="collection-grid">
-    ${COLLECTIONS.map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} items</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
+    ${COLLECTIONS.map(localizedCollection).map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} ${t('item')}</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
   </section>`;
 }
 
@@ -722,15 +930,15 @@ function communityBlock() {
   return `<section class="community-panel" aria-label="NICE community">
     <div>
       <h2 class="community-title">NICE COMMUNITY</h2>
-      <p class="community-copy">동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문</p>
-      <p class="community-guide">매장 피팅 가능 / 당일 구매 가능 / 택배 발송 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.</p>
+      <p class="community-copy">${t('communityCopy')}</p>
+      <p class="community-guide">${t('communityGuide')}</p>
     </div>
     <div class="community-links">
-      <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>카카오톡 문의</span></a>
+      <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>${t('kakaoAsk')}</span></a>
       <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
       <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
-      <button class="community-link vip-open subtle" type="button">${isVipActive() ? '당일발송 상품 보기' : 'VIP 인증'}</button>
-      ${isVipActive() ? '<button class="community-link vip-clear subtle" type="button">인증해제</button>' : ''}
+      <button class="community-link vip-open subtle" type="button">${isVipActive() ? t('vipViewSameDay') : t('vipAuth')}</button>
+      ${isVipActive() ? `<button class="community-link vip-clear subtle" type="button">${t('vipClear')}</button>` : ''}
     </div>
   </section>`;
 }
@@ -741,13 +949,13 @@ function renderHome() {
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
   title.textContent = 'SHOWROOM';
-  count.textContent = `${visible.length} items`;
+  count.textContent = `${visible.length} ${t('item')}`;
   intro.textContent = sectionIntro();
   grid.className = 'home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock("Editor's Pick", '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.', editorItems)}
-    ${sectionBlock('New Arrival', '새로 들어온 제품을 모았습니다.', fresh)}
+    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems)}
+    ${sectionBlock('New Arrival', t('newDesc'), fresh)}
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
@@ -761,9 +969,9 @@ function render() {
   if (FILTER === 'HOME' && !q.value.trim()) return renderHome();
   grid.className = 'grid';
   const list = sortProducts(PRODUCTS.filter(match));
-  count.textContent = `${list.length} items`;
+  count.textContent = `${list.length} ${t('item')}`;
   if (!list.length) {
-    grid.innerHTML = '<div class="empty">조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.</div>';
+    grid.innerHTML = `<div class="empty">${t('empty')}</div>`;
     return;
   }
   grid.innerHTML = `${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
@@ -872,7 +1080,7 @@ function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
-  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? '피팅가능' : '', isWideSize(p) ? '77/88가능' : ''].filter(Boolean).slice(0, 4);
+  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isWideSize(p) ? '77/88' : ''].filter(Boolean).slice(0, 4);
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
@@ -883,19 +1091,19 @@ function openDetail(code) {
       <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
       <h2>${displayName(p)}</h2>
       ${detailPriceBlock(p)}
-      ${!p.price ? '<p class="detail-price-note">재고와 가격은 카카오톡으로 바로 확인해드립니다.</p>' : ''}
-      ${pointItems.length ? `<div class="box detail-points"><b>스타일 포인트</b><ul>${pointItems.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
-      <div class="box compact-box"><b>추천 상황</b><p>${recommendLine(p)}</p></div>
-      <div class="box compact-box"><b>상세 설명</b><p>${shortDescription(p)}</p></div>
+      ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
+      ${pointItems.length ? `<div class="box detail-points"><b>${t('stylePoint')}</b><ul>${pointItems.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
+      <div class="box compact-box"><b>${t('recommendFor')}</b><p>${recommendLine(p)}</p></div>
+      <div class="box compact-box"><b>${t('detailDesc')}</b><p>${shortDescription(p)}</p></div>
       <div class="spec">
         ${specCells(p)}
       </div>
       ${sizeGuideBlock(p)}
       ${coordinatedBlock(p)}
-      <p class="common-note">재고, 실측, 피팅 상담은 상품코드와 함께 카카오톡으로 문의해 주세요.</p>
+      <p class="common-note">${t('commonNote')}</p>
       <div class="cta detail-cta">
-        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>상품 문의</span></button>
-        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>인스타 DM 문의</span></a>
+        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>${t('productAsk')}</span></button>
+        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>${t('instaAsk')}</span></a>
       </div>
     </section>
   </div>`;
@@ -965,6 +1173,14 @@ quick.onclick = e => {
   applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
 };
 
+if (langSwitcher) {
+  langSwitcher.onclick = e => {
+    const b = e.target.closest('.lang-chip');
+    if (!b) return;
+    setLanguage(b.dataset.lang);
+  };
+}
+
 q.oninput = () => {
   if (q.value.trim() && FILTER === 'HOME') FILTER = 'ALL';
   buildChips();
@@ -978,7 +1194,7 @@ if (vipModal) {
   $('#vipSubmit').onclick = () => {
     if (vipInput.value.trim().toUpperCase() === vipCode()) {
       setVipActive();
-      vipMessage.textContent = 'VIP 인증이 완료되었습니다.';
+      vipMessage.textContent = t('vipOk');
       vipMessage.className = 'vip-message ok';
       setTimeout(() => {
         closeVipModal();
@@ -989,7 +1205,7 @@ if (vipModal) {
         render();
       }, 500);
     } else {
-      vipMessage.textContent = '인증코드가 올바르지 않습니다.';
+      vipMessage.textContent = t('vipError');
       vipMessage.className = 'vip-message error';
     }
   };
@@ -1021,10 +1237,12 @@ fetch('./products.json?v=' + VERSION)
   .then(d => {
     PRODUCTS = d.map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.href);
+    updateStaticLanguage();
+    buildLangSwitcher();
     buildQuick();
     buildChips();
     render();
   })
   .catch(() => {
-    grid.innerHTML = '<div class="empty">상품 데이터를 불러오지 못했습니다.</div>';
+    grid.innerHTML = `<div class="empty">${t('dataFail')}</div>`;
   });
