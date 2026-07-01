@@ -15,7 +15,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match131';
+const VERSION = 'match132';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -220,6 +220,10 @@ const EDITOR_SELECT_PINNED_CODES = [
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
+  'GINI-6374-GRAY', 'GINI-6374-RED', 'GINI-6376-PINK', 'GINI-6377-SORA',
+  'GINI-6378-IVORY', 'GINI-6379-IVORY', 'GINI-6380-PINK', 'GINI-6381-MINT',
+  'GINI-6382-BLACK', 'GINI-6383-IVORY', 'GINI-6384-PINK', 'GINI-6385-BEIGE',
+  'GINI-6385-SORA', 'GINI-6388-MINT', 'GINI-6388-BLACK', 'GINI-6388-IVORY',
   'N260228', 'N260227', 'N260226', 'N260225',
   'S735', 'S693', 'S719', 'S723',
   'S727', 'S731', 'S750', 'S752'
@@ -267,7 +271,7 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
-const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p)) || COLLECTION_A_EXTRA_CODES.includes(codeOf(p));
+const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p)) || /^GINI-/.test(codeOf(p)) || COLLECTION_A_EXTRA_CODES.includes(codeOf(p));
 const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
 const isLuxuryCandidate = p => {
   if (isAnkProduct(p) || isJessicaProduct(p)) return false;
