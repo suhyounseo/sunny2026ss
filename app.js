@@ -15,7 +15,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match134';
+const VERSION = 'match135';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -192,19 +192,19 @@ const LABEL = {
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
-  LONG: '롱',
+  LONG: '롱드레스',
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['미니', '미디', 'A라인', '슬림핏', '럭셔리', '투피스', '스커트', '블라우스', '77/88', '당일발송'];
+const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', '투피스', '파티룩', '방송룩', '무대의상', '촬영룩', '브라이덜샤워'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
-  en: { '미니': 'Mini', '미디': 'Midi', 'A라인': 'A-line', '슬림핏': 'Slim fit', '럭셔리': 'Luxury', '투피스': 'Two-piece', '스커트': 'Skirt', '블라우스': 'Blouse', '당일발송': 'Same-day' },
-  zh: { '미니': '迷你', '미디': '中长款', 'A라인': 'A字版', '슬림핏': '修身', '럭셔리': '高级感', '투피스': '套装', '스커트': '半身裙', '블라우스': '衬衫', '당일발송': '当日发货' },
-  ja: { '미니': 'ミニ', '미디': 'ミディ', 'A라인': 'Aライン', '슬림핏': 'スリム', '럭셔리': 'ラグジュアリー', '투피스': 'ツーピース', '스커트': 'スカート', '블라우스': 'ブラウス', '당일발송': '当日発送' }
+  en: { '전체': 'All', '미니원피스': 'Mini dress', '미디원피스': 'Midi dress', '롱드레스': 'Long dress', '투피스': 'Two-piece', '파티룩': 'Party look', '방송룩': 'Broadcast', '무대의상': 'Stage', '촬영룩': 'Shooting', '브라이덜샤워': 'Bridal shower' },
+  zh: { '전체': '全部', '미니원피스': '迷你连衣裙', '미디원피스': '中长连衣裙', '롱드레스': '长礼服', '투피스': '套装', '파티룩': '派对装', '방송룩': '拍摄/直播', '무대의상': '舞台服', '촬영룩': '拍摄装', '브라이덜샤워': '新娘派对' },
+  ja: { '전체': 'すべて', '미니원피스': 'ミニドレス', '미디원피스': 'ミディドレス', '롱드레스': 'ロングドレス', '투피스': 'ツーピース', '파티룩': 'パーティー', '방송룩': '撮影/配信', '무대의상': 'ステージ', '촬영룩': '撮影ルック', '브라이덜샤워': 'ブライダルシャワー' }
 };
 const FILTER_LABELS = {
   ko: {},
@@ -525,18 +525,23 @@ function hasExtendedSizeLeadTime(p) {
 }
 
 function isFittingAvailable(p) {
-  if (isAnkProduct(p)) return false;
-  if (p.fittingAvailable === false) return false;
-  return p.fittingAvailable === true || /피팅|매장/.test(productText(p));
+  return p.isFittingAvailable === true;
 }
 
 function isSameDayCandidate(p) {
-  if (isJuneFinalNewProduct(p) && p.sameDayAvailable !== true) return false;
-  return p.sameDayAvailable === true || p.stockStatus === '바로구매' || /당일|바로|입고|재고|보유/.test(productText(p));
+  return p.isSameDayDelivery === true;
 }
 
 function isSameDayVisible(p) {
   return isVipActive() && isSameDayCandidate(p);
+}
+
+function isLongDressProduct(p) {
+  const label = [p.category, p.length, p.name, p.storeName, p.productName, p.seoName, ...(p.tags || []), ...(p.styleTags || []), ...(p.sceneTags || [])].join(' ');
+  return p.category === '롱드레스'
+    || p.category === '롱투피스'
+    || p.category === 'LONG'
+    || /롱드레스|롱원피스|머메이드|롱투피스/i.test(label);
 }
 
 function isCostume(p) {
@@ -669,19 +674,20 @@ function sectionIntro() {
 function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
+  if (/^(전체|all)$/i.test(rawSearch)) return true;
   if (/^costume$/i.test(rawSearch)) return isCostume(p);
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
   if (/^슬림핏$/i.test(rawSearch)) return !SLIMFIT_EXCLUDED_CODES.has(codeOf(p)) && /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
   if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
+  if (/^(롱|long|롱드레스|롱원피스|머메이드|이브닝룩|파티드레스|무대의상|롱투피스)$/i.test(rawSearch)) return isLongDressProduct(p);
   const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
   const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
   if (sceneWords) {
     const hay = norm(productText(p));
     return sceneWords.some(word => hay.includes(norm(word)));
   }
-  if (/^(미니|mini)$/i.test(rawSearch)) return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
-  if (/^(미디|midi)$/i.test(rawSearch)) return p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
-  if (/^(롱|long)$/i.test(rawSearch)) return p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG');
+  if (/^(미니|미니원피스|mini)$/i.test(rawSearch)) return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
+  if (/^(미디|미디원피스|midi)$/i.test(rawSearch)) return p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   if (/^(투피스|two[-_ ]?piece)$/i.test(rawSearch)) return p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
   if (/^(스커트|skirt)$/i.test(rawSearch)) return p.category === 'SKIRT' || hasTag(p, 'SKIRT');
   if (/^(블라우스|blouse)$/i.test(rawSearch)) {
@@ -706,7 +712,7 @@ function match(p) {
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   else if (FILTER === 'TWO_PIECE') f = p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
-  else if (FILTER === 'LONG') f = p.category === 'LONG' || p.length === '롱' || hasTag(p, 'LONG');
+  else if (FILTER === 'LONG') f = isLongDressProduct(p);
   else if (FILTER === 'SAME_DAY') f = isSameDayVisible(p);
   return f && matchesSearch(p, rawSearch) && visibleToAudience(p);
 }
@@ -949,6 +955,14 @@ function communityBlock() {
   </section>`;
 }
 
+function dmGuideBlock() {
+  return `<section class="dm-guide" aria-label="DM 문의 안내">
+    <strong>마음에 드는 상품은 캡처해서 DM 주세요.</strong>
+    <span>현재 재고와 피팅 가능 여부를 안내해드립니다.</span>
+    <span>일부 상품은 당일 구매/택배 가능하며, 방문 전 DM 확인을 추천드립니다.</span>
+  </section>`;
+}
+
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
   const editorItems = editorSelectItems(visible);
@@ -960,6 +974,7 @@ function renderHome() {
   grid.className = 'home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
+    ${dmGuideBlock()}
     ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems)}
     ${sectionBlock('New Arrival', t('newDesc'), fresh)}
     ${collectionBlock()}
@@ -977,10 +992,10 @@ function render() {
   const list = sortProducts(PRODUCTS.filter(match));
   count.textContent = `${list.length} ${t('item')}`;
   if (!list.length) {
-    grid.innerHTML = `<div class="empty">${t('empty')}</div>`;
+    grid.innerHTML = `${dmGuideBlock()}<div class="empty">${t('empty')}</div>`;
     return;
   }
-  grid.innerHTML = `${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
+  grid.innerHTML = `${dmGuideBlock()}${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
   bindCards();
 }
 
@@ -1176,6 +1191,10 @@ chips.onclick = e => {
 quick.onclick = e => {
   const b = e.target.closest('.quick-chip');
   if (!b) return;
+  if (b.dataset.q === '전체') {
+    applyView('ALL', { search: '', push: true, scroll: true });
+    return;
+  }
   applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
 };
 

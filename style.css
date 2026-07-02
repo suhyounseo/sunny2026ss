@@ -303,3 +303,79 @@
   .hero-image{content:url("assets/hero-nice-collection-mobile.jpg");height:120px;object-fit:contain;object-position:center;background:#050505}
   body.detail-open .sticky-tools{display:none}
 }
+
+/* Search tags and DM guide */
+.sticky-tools{
+  background:#fff7fb;
+  border-color:#f9cfe3;
+}
+.quick{
+  flex-wrap:wrap;
+  gap:9px;
+  overflow:visible;
+  white-space:normal;
+}
+.quick-chip{
+  background:#fce7f3;
+  color:#831843;
+  border-color:#f9a8d4;
+  border-radius:999px;
+  font-size:14px;
+  padding:10px 16px;
+}
+.quick-chip:hover{
+  background:#fbcfe8;
+  border-color:#db2777;
+}
+.chip{
+  background:#fff;
+  color:#831843;
+  border-color:#f9a8d4;
+}
+.chip.on{
+  background:#db2777;
+  color:#fff;
+  border-color:#db2777;
+}
+.dm-guide{
+  grid-column:1/-1;
+  margin:0 0 22px;
+  padding:18px 20px;
+  border:1px solid #f9a8d4;
+  border-radius:18px;
+  background:#fff1f6;
+  color:#4b5563;
+  line-height:1.65;
+  word-break:keep-all;
+  box-shadow:0 12px 28px rgba(190,24,93,.08);
+}
+.dm-guide strong{
+  display:block;
+  margin-bottom:4px;
+  color:#be185d;
+  font-size:16px;
+}
+.dm-guide span{
+  display:block;
+}
+@media(max-width:720px){
+  .quick{
+    flex-wrap:wrap;
+    overflow:visible;
+    gap:8px;
+  }
+  .quick-chip{
+    font-size:13px;
+    padding:9px 13px;
+  }
+  .sticky-tools .chips{
+    flex-wrap:wrap;
+    overflow:visible;
+  }
+  .dm-guide{
+    margin-bottom:16px;
+    padding:15px 16px;
+    border-radius:16px;
+    font-size:14px;
+  }
+}
