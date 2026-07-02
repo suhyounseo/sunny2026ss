@@ -15,7 +15,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match133';
+const VERSION = 'match134';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -95,7 +95,7 @@ const I18N = {
     twoPieceIntro: '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.',
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
-    newDesc: '새로 들어온 제품을 모았습니다.',
+    newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
     collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
     collectionC: '특별한 순간을 위한 미디·롱 드레스 셀렉션'
@@ -119,7 +119,7 @@ const I18N = {
     newIntro: 'Recently arrived styles. Ask on KakaoTalk for fitting availability and stock.', bestIntro: 'Popular styles recommended by the showroom.',
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
-    editorDesc: 'Products we want to show first in the showroom.', newDesc: 'Newly arrived products.',
+    editorDesc: 'Products we want to show first in the showroom.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
     collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
@@ -141,7 +141,7 @@ const I18N = {
     newIntro: '最近新入库的款式。试穿和库存请通过 KakaoTalk 确认。', bestIntro: 'NICE 쇼룸 推荐的人气款式。',
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
-    editorDesc: 'NICE 쇼룸 想优先展示的商品。', newDesc: '新入库商品。',
+    editorDesc: 'NICE 쇼룸 想优先展示的商品。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
     collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
@@ -163,7 +163,7 @@ const I18N = {
     newIntro: '最近入荷した新作ラインです。試着可否と在庫はKakaoTalkで確認できます。', bestIntro: 'ショールームおすすめの人気スタイルです。',
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
-    editorDesc: '今ショールームで先にお見せしたい商品です。', newDesc: '新しく入荷した商品です。',
+    editorDesc: '今ショールームで先にお見せしたい商品です。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
     collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
@@ -220,13 +220,10 @@ const EDITOR_SELECT_PINNED_CODES = [
   'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
-  'GINI-6374-GRAY', 'GINI-6374-RED', 'GINI-6376-PINK', 'GINI-6377-SORA',
-  'GINI-6378-IVORY', 'GINI-6379-IVORY', 'GINI-6380-PINK', 'GINI-6381-MINT',
-  'GINI-6382-BLACK', 'GINI-6383-IVORY', 'GINI-6384-PINK', 'GINI-6385-BEIGE',
-  'GINI-6385-SORA', 'GINI-6388-MINT', 'GINI-6388-BLACK', 'GINI-6388-IVORY',
-  'N260228', 'N260227', 'N260226', 'N260225',
-  'S735', 'S693', 'S719', 'S723',
-  'S727', 'S731', 'S750', 'S752'
+  'GINI-6374-GRAY', 'GINI-6376-PINK', 'S665', 'N260227',
+  'GINI-6384-PINK', 'GINI-6379-IVORY', 'GINI-6382-BLACK', 'S681',
+  'N260226', 'N260225', 'S727', 'S731',
+  'S750', 'S752', 'GINI-6388-MINT', 'S693'
 ];
 const COLLECTION_A_EXTRA_CODES = ['N260228', 'N260227', 'N260226', 'N260225'];
 const SLIMFIT_EXCLUDED_CODES = new Set([
@@ -303,6 +300,11 @@ function displayCode(p) {
 
 function sizeSummary(p) {
   return simpleSize(p);
+}
+
+function displayColors(p) {
+  const colors = Array.isArray(p.colors) ? p.colors.map(cleanText).filter(Boolean) : [];
+  return colors.length ? colors.join(' / ') : safeText(p.color);
 }
 
 function sizeDetail(p) {
@@ -432,7 +434,7 @@ function shortDescription(p) {
 
 function specCells(p) {
   const items = [
-    [t('color'), safeText(p.color) || t('ask')],
+    [t('color'), displayColors(p) || t('ask')],
     [t('size'), simpleSize(p)],
     [t('fabric'), safeText(p.fabric)],
     [t('lining'), safeText(p.lining)],
@@ -489,14 +491,14 @@ function productText(p) {
   return [
     p.code, p.customerCode, p.name, p.storeName, p.productName, p.color, p.category, p.length,
     p.fit, p.size, p.sizeInfo, p.fabric, p.mainCopy, p.desc, p.description, p.recommend,
-    ...(p.points || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
+    ...(p.colors || []), ...(p.options || []), ...(p.points || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
   ].join(' ');
 }
 
 function focusedProductText(p) {
   return [
     p.name, p.storeName, p.productName, p.color, p.category, p.length, p.fit, p.size,
-    p.fabric, ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
+    p.fabric, ...(p.colors || []), ...(p.options || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
   ].join(' ');
 }
 
@@ -720,7 +722,7 @@ function badges(p) {
 
 function meta(p) {
   const size = sizeSummary(p);
-  return [p.length, p.color, size ? 'SIZE ' + size : '', isWideSize(p) ? '77/88가능' : '']
+  return [p.length, displayColors(p), size ? 'SIZE ' + size : '', isWideSize(p) ? '77/88가능' : '']
     .filter(Boolean)
     .slice(0, 3)
     .map(x => `<span>${cleanText(x)}</span>`)
