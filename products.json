@@ -434,6 +434,12 @@
     ],
     "badges": [
       "77가능"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -997,7 +1003,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 롱드레스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-310",
@@ -1322,7 +1339,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 롱드레스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-313",
@@ -1430,7 +1458,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-314",
@@ -1535,7 +1574,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-315",
@@ -1988,7 +2038,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-319",
@@ -2105,7 +2166,18 @@
     ],
     "badges": [
       "77가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 롱드레스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "JES-320",
@@ -2328,6 +2400,12 @@
     ],
     "badges": [
       "77가능"
+    ],
+    "manualSearchExclude": [
+      "블랙룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 블랙/블랙룩 검색 제외"
     ]
   },
   {
@@ -2976,6 +3054,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -3175,7 +3259,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외",
+      "사용자 검수: 미니원피스 기준 노출"
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "ANC-4006",
@@ -3387,6 +3482,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -4003,6 +4104,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -4421,6 +4528,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -5046,6 +5159,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -5465,6 +5584,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -5665,6 +5790,16 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인",
+      "화이트룩",
+      "블랙룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외",
+      "사용자 검수: 화이트룩 검색 제외",
+      "사용자 검수: 블랙/블랙룩 검색 제외"
     ]
   },
   {
@@ -6059,7 +6194,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외",
+      "사용자 검수: 미니원피스 기준 노출"
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "ANC-4034",
@@ -6259,6 +6405,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -6461,6 +6613,14 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인",
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외",
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -6870,6 +7030,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -7082,6 +7248,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -7392,6 +7564,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -8097,6 +8275,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -9305,6 +9489,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -9504,6 +9694,12 @@
     "badges": [
       "당일배송",
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -10806,6 +11002,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -10908,6 +11110,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -11123,6 +11331,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -11341,6 +11555,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -11754,6 +11974,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -12152,6 +12378,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -12549,6 +12781,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외"
     ]
   },
   {
@@ -14192,6 +14430,12 @@
     "badges": [
       "77가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -17783,7 +18027,13 @@
       "전체",
       "화이트룩"
     ],
-    "badges": []
+    "badges": [],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
+    ]
   },
   {
     "code": "P017",
@@ -18518,7 +18768,17 @@
       "티아라",
       "화이트룩"
     ],
-    "badges": []
+    "badges": [],
+    "manualSearchInclude": [
+      "블라우스"
+    ],
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 슬림핏 제외, 블라우스 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "블라우스"
   },
   {
     "code": "N260222",
@@ -18602,7 +18862,19 @@
       "투피스",
       "티아라"
     ],
-    "badges": []
+    "badges": [],
+    "manualSearchExclude": [
+      "A라인",
+      "미니원피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: A라인 검색 제외",
+      "사용자 검수: 스커트 기준 노출"
+    ],
+    "manualSearchInclude": [
+      "스커트"
+    ],
+    "manualPrimarySearchCategory": "스커트"
   },
   {
     "code": "N260223",
@@ -18681,7 +18953,13 @@
       "티아라",
       "화이트룩"
     ],
-    "badges": []
+    "badges": [],
+    "manualSearchExclude": [
+      "블랙룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 블랙/블랙룩 검색 제외"
+    ]
   },
   {
     "code": "N260224",
@@ -20286,6 +20564,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -20812,7 +21096,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "N260023",
@@ -20899,7 +21194,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "N260024",
@@ -20989,6 +21295,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -21431,7 +21743,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미니/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "N260031",
@@ -22041,7 +22364,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미디/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미디원피스"
   },
   {
     "code": "N260038",
@@ -22127,7 +22461,18 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 투피스 제외, 미디/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미디원피스"
   },
   {
     "code": "N260039",
@@ -24801,7 +25146,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
-    ]
+    ],
+    "manualReviewNotes": [
+      "추후 이미지 교체 필요: 경쟁사 사진 사용 가능성 검수"
+    ],
+    "imageNeedsReview": true,
+    "imageReviewNote": "추후 경쟁사 사진 가능성 때문에 이미지 교체 필요"
   },
   {
     "code": "N260067",
@@ -34509,6 +34859,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -34593,6 +34949,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -34694,7 +35056,17 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "블라우스"
+    ],
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 슬림핏 제외, 블라우스 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "블라우스"
   },
   {
     "code": "N260198",
@@ -35208,6 +35580,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -45323,7 +45701,17 @@
     "badges": [
       "77/88가능",
       "럭셔리"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ],
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 슬림핏 제외, 미니원피스 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미니원피스"
   },
   {
     "code": "GINI-6376-PINK",
@@ -45468,7 +45856,21 @@
     ],
     "badges": [
       "77/88가능"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미디원피스"
+    ],
+    "manualSearchExclude": [
+      "미니원피스",
+      "투피스",
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 미니원피스 검색 제외, 미디원피스 검색 포함",
+      "사용자 검수: 투피스가 아니라 미디원피스 기준으로 노출",
+      "사용자 검수: 화이트룩 검색 제외"
+    ],
+    "manualPrimarySearchCategory": "미디원피스"
   },
   {
     "code": "GINI-6379-IVORY",
@@ -45743,6 +46145,12 @@
     "badges": [
       "77/88가능",
       "럭셔리"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   },
   {
@@ -45882,7 +46290,20 @@
     "badges": [
       "77/88가능",
       "럭셔리"
-    ]
+    ],
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "미니원피스",
+      "투피스"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 미니원피스 검색 제외, 미디원피스 검색 포함",
+      "사용자 검수: 투피스 제외, 미디/슬림 기준 노출"
+    ],
+    "manualPrimarySearchCategory": "미디원피스"
   },
   {
     "code": "GINI-6388-MINT",
@@ -46021,6 +46442,12 @@
     ],
     "badges": [
       "77/88가능"
+    ],
+    "manualSearchExclude": [
+      "화이트룩"
+    ],
+    "manualReviewNotes": [
+      "사용자 검수: 화이트룩 검색 제외"
     ]
   }
 ]
