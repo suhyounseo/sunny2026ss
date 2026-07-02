@@ -15,7 +15,7 @@ const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 
-const VERSION = 'match135';
+const VERSION = 'match136-manual';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -31,7 +31,7 @@ const LANGS = [
 ];
 const I18N = {
   ko: {
-    searchPlaceholder: '미니, 슬림핏, 파티룩, 무대의상 검색',
+    searchPlaceholder: '미니, A라인, 롱드레스, 앙크 검색',
     item: 'items',
     picks: 'picks',
     productCode: '상품코드',
@@ -72,7 +72,7 @@ const I18N = {
     empty: '조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.',
     dataFail: '상품 데이터를 불러오지 못했습니다.',
     communityCopy: '동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문',
-    communityGuide: '매장 피팅 가능 / 당일 구매 가능 / 택배 발송 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.',
+    communityGuide: '일부 상품은 당일 구매/택배 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.',
     kakaoAsk: '카카오톡 문의',
     vipAuth: 'VIP 인증',
     vipViewSameDay: '당일발송 상품 보기',
@@ -86,7 +86,7 @@ const I18N = {
     vipError: '인증코드가 올바르지 않습니다.',
     fittingAvailable: '피팅가능',
     sameDay: '당일발송',
-    showroomIntro: '원하는 분위기나 기장을 검색해 보세요. 마음에 드는 상품은 상품 코드로 재고와 사이즈를 바로 확인해드립니다.',
+    showroomIntro: '원하는 스타일을 검색하고, 마음에 드는 상품은 캡처해서 DM 주세요.',
     newIntro: '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.',
     bestIntro: '쇼룸에서 먼저 추천드리는 인기 스타일입니다.',
     costumeIntro: '마린룩, 세일러룩, 스쿨룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.',
@@ -198,13 +198,13 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', '투피스', '파티룩', '방송룩', '무대의상', '촬영룩', '브라이덜샤워'];
+const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77가능', '88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
-  en: { '전체': 'All', '미니원피스': 'Mini dress', '미디원피스': 'Midi dress', '롱드레스': 'Long dress', '투피스': 'Two-piece', '파티룩': 'Party look', '방송룩': 'Broadcast', '무대의상': 'Stage', '촬영룩': 'Shooting', '브라이덜샤워': 'Bridal shower' },
-  zh: { '전체': '全部', '미니원피스': '迷你连衣裙', '미디원피스': '中长连衣裙', '롱드레스': '长礼服', '투피스': '套装', '파티룩': '派对装', '방송룩': '拍摄/直播', '무대의상': '舞台服', '촬영룩': '拍摄装', '브라이덜샤워': '新娘派对' },
-  ja: { '전체': 'すべて', '미니원피스': 'ミニドレス', '미디원피스': 'ミディドレス', '롱드레스': 'ロングドレス', '투피스': 'ツーピース', '파티룩': 'パーティー', '방송룩': '撮影/配信', '무대의상': 'ステージ', '촬영룩': '撮影ルック', '브라이덜샤워': 'ブライダルシャワー' }
+  en: { '전체': 'All', '미니원피스': 'Mini dress', '미디원피스': 'Midi dress', '롱드레스': 'Long dress', 'A라인': 'A-line', '슬림핏': 'Slim fit', '럭셔리': 'Luxury', '투피스': 'Two-piece', '코스튬': 'Costume', '화이트룩': 'White look', '당일배송': 'Same-day', '77가능': '77 size', '88가능': '88 size' },
+  zh: { '전체': '全部', '미니원피스': '迷你连衣裙', '미디원피스': '中长连衣裙', '롱드레스': '长礼服', 'A라인': 'A字版', '슬림핏': '修身', '럭셔리': '高级', '투피스': '套装', '코스튬': '主题服', '화이트룩': '白色系', '당일배송': '当日发货', '77가능': '77可做', '88가능': '88可做' },
+  ja: { '전체': 'すべて', '미니원피스': 'ミニドレス', '미디원피스': 'ミディドレス', '롱드레스': 'ロングドレス', 'A라인': 'Aライン', '슬림핏': 'スリム', '럭셔리': 'ラグジュアリー', '투피스': 'ツーピース', '코스튬': 'コスチューム', '화이트룩': 'ホワイト', '당일배송': '当日発送', '77가능': '77対応', '88가능': '88対応' }
 };
 const FILTER_LABELS = {
   ko: {},
@@ -250,7 +250,7 @@ const INTERNAL_WORDS = [
   '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
   '거래처', '공장', 'supplier', 'vendor', 'origin'
 ];
-const WIDE_SIZE_SUPPLIERS = ['앙크최', '지니', '세윤', '펄', '임마누엘', '지나', '그레이스', '실루엣', '희야'];
+const WIDE_SIZE_SUPPLIERS = ['앙크최', '앙크', '지니', '세윤', '펄', '희야', '햅번', '지나', '그레이스', '실루엣'];
 
 const norm = s => String(s || '').toLowerCase();
 const tags = p => Array.isArray(p.tags) ? p.tags : [];
@@ -491,7 +491,8 @@ function productText(p) {
   return [
     p.code, p.customerCode, p.name, p.storeName, p.productName, p.color, p.category, p.length,
     p.fit, p.size, p.sizeInfo, p.fabric, p.mainCopy, p.desc, p.description, p.recommend,
-    ...(p.colors || []), ...(p.options || []), ...(p.points || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || [])
+    p.origin, p.supplier, p.vendor, p.brand, p.lineName, p.folder, p.zipFolder,
+    ...(p.colors || []), ...(p.options || []), ...(p.points || []), ...tags(p), ...(p.styleTags || []), ...(p.sceneTags || []), ...(p.searchKeywords || []), ...(p.badges || [])
   ].join(' ');
 }
 
@@ -503,11 +504,15 @@ function focusedProductText(p) {
 }
 
 function supplierText(p) {
-  return [p.code, p.origin, p.supplier, p.vendor, p.folder, p.zipFolder, p.supplierProductNo].join(' ');
+  return [p.code, p.origin, p.supplier, p.vendor, p.brand, p.lineName, p.folder, p.zipFolder, p.supplierProductNo].join(' ');
 }
 
 function isJessicaProduct(p) {
   return /^JES-/.test(codeOf(p)) || /제시카|Jessica/i.test(supplierText(p));
+}
+
+function isTiaraProduct(p) {
+  return /티아라|Tiara/i.test(supplierText(p));
 }
 
 function isWideSizeSupplier(p) {
@@ -515,9 +520,30 @@ function isWideSizeSupplier(p) {
   return isAnkProduct(p) || WIDE_SIZE_SUPPLIERS.some(name => text.includes(name));
 }
 
+function isSize77Available(p) {
+  if (p.size77Available === true) return true;
+  if (isWideSizeSupplier(p)) return true;
+  return (p.sizeTags || []).some(x => String(x) === '77') || /(^|[^0-9])77([^0-9]|$)/.test(String(p.size || p.sizeInfo || ''));
+}
+
+function isSize88Available(p) {
+  if (p.size88Available === true) return true;
+  if (isJessicaProduct(p) || isTiaraProduct(p)) return false;
+  if (isWideSizeSupplier(p)) return true;
+  return (p.sizeTags || []).some(x => String(x) === '88') || /(^|[^0-9])88([^0-9]|$)/.test(String(p.size || p.sizeInfo || ''));
+}
+
+function sizeBadgeText(p) {
+  const s77 = isSize77Available(p);
+  const s88 = isSize88Available(p);
+  if (s77 && s88) return '77/88가능';
+  if (s77) return '77가능';
+  if (s88) return '88가능';
+  return '';
+}
+
 function isWideSize(p) {
-  if (isJessicaProduct(p)) return false;
-  return isWideSizeSupplier(p) || (p.sizeTags || []).some(x => ['77', '88'].includes(String(x))) || /77|88|99/.test(String(p.size || p.sizeInfo || ''));
+  return isSize77Available(p) && isSize88Available(p);
 }
 
 function hasExtendedSizeLeadTime(p) {
@@ -675,28 +701,47 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
-  if (/^costume$/i.test(rawSearch)) return isCostume(p);
-  if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline/i.test(productText(p));
-  if (/^슬림핏$/i.test(rawSearch)) return !SLIMFIT_EXCLUDED_CODES.has(codeOf(p)) && /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(productText(p));
-  if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
-  if (/^(롱|long|롱드레스|롱원피스|머메이드|이브닝룩|파티드레스|무대의상|롱투피스)$/i.test(rawSearch)) return isLongDressProduct(p);
-  const sceneKey = Object.keys(SCENE_SEARCH).find(key => rawSearch === key || rawSearch.includes(key.replace('룩', '')) || key.includes(rawSearch));
-  const sceneWords = sceneKey ? SCENE_SEARCH[sceneKey] : null;
-  if (sceneWords) {
-    const hay = norm(productText(p));
-    return sceneWords.some(word => hay.includes(norm(word)));
+
+  const supplierAlias = {
+    '앙크': ['앙크', '앙크최', 'anc', 'ank'],
+    '앙크최': ['앙크', '앙크최', 'anc', 'ank'],
+    '제시카': ['제시카', 'jes', 'jessica'],
+    '티아라': ['티아라', 'tiara'],
+    '지니': ['지니', 'gini'],
+    '세윤': ['세윤'],
+    '펄': ['펄'],
+    '희야': ['희야'],
+    '햅번': ['햅번'],
+    '지나': ['지나'],
+    '그레이스': ['그레이스'],
+    '실루엣': ['실루엣']
+  };
+  const aliasKey = Object.keys(supplierAlias).find(key => rawSearch.includes(key));
+  if (aliasKey) {
+    const hay = norm([supplierText(p), productText(p)].join(' '));
+    return supplierAlias[aliasKey].some(word => hay.includes(norm(word)));
   }
+
+  if (/^costume$/i.test(rawSearch) || /^코스튬$/i.test(rawSearch)) return isCostume(p);
+  if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline|플레어|플레어핏/i.test(productText(p));
+  if (/^슬림핏$/i.test(rawSearch)) return !SLIMFIT_EXCLUDED_CODES.has(codeOf(p)) && /슬림핏|슬림|H라인|머메이드|타이트|바디라인|라인감/i.test(productText(p));
+  if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
+  if (/^(화이트룩|화이트|white)$/i.test(rawSearch)) return /화이트|아이보리|크림|크림베이지|white|ivory|cream/i.test(productText(p));
+  if (/^(당일배송|당일발송|same[-_ ]?day)$/i.test(rawSearch)) return isSameDayCandidate(p);
+  if (/^77가능$/i.test(rawSearch)) return isSize77Available(p);
+  if (/^88가능$/i.test(rawSearch)) return isSize88Available(p);
+  if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
+  if (/^(롱|long|롱드레스|롱원피스|머메이드|이브닝룩|파티드레스|무대의상|롱투피스)$/i.test(rawSearch)) return isLongDressProduct(p);
   if (/^(미니|미니원피스|mini)$/i.test(rawSearch)) return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   if (/^(미디|미디원피스|midi)$/i.test(rawSearch)) return p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
-  if (/^(투피스|two[-_ ]?piece)$/i.test(rawSearch)) return p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
+  if (/^(투피스|two[-_ ]?piece)$/i.test(rawSearch)) return p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE') || /투피스|세트|two[-_ ]?piece/i.test(productText(p));
   if (/^(스커트|skirt)$/i.test(rawSearch)) return p.category === 'SKIRT' || hasTag(p, 'SKIRT');
   if (/^(블라우스|blouse)$/i.test(rawSearch)) {
     const label = [p.name, p.storeName, p.productName, p.seoName, ...(p.tags || [])].join(' ');
     return (p.category === 'TOP' || hasTag(p, 'TOP')) && /블라우스|blouse/i.test(label);
   }
-  if (/^당일발송$/i.test(rawSearch)) return isSameDayCandidate(p);
-  if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isWideSize(p);
-  const hay = norm([productText(p), isWideSize(p) ? '77/88' : '', isFittingAvailable(p) ? '피팅가능' : ''].join(' '));
+
+  const hay = norm([productText(p), sizeBadgeText(p), isFittingAvailable(p) ? '피팅가능' : '', isSameDayCandidate(p) ? '당일배송 당일발송' : ''].join(' '));
   return hay.includes(search);
 }
 
@@ -722,13 +767,16 @@ function badges(p) {
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push(`<span class="badge light">${t('fittingAvailable')}</span>`);
-  if (out.length < 3 && isSameDayCandidate(p)) out.push(`<span class="badge light">${t('sameDay')}</span>`);
-  return out.slice(0, 3).join('');
+  if (isSameDayCandidate(p)) out.push(`<span class="badge light">${t('sameDay')}</span>`);
+  const sizeBadge = sizeBadgeText(p);
+  if (sizeBadge) out.push(`<span class="badge light">${sizeBadge}</span>`);
+  if (isLuxuryCandidate(p)) out.push('<span class="badge light">럭셔리</span>');
+  return out.slice(0, 4).join('');
 }
 
 function meta(p) {
   const size = sizeSummary(p);
-  return [p.length, displayColors(p), size ? 'SIZE ' + size : '', isWideSize(p) ? '77/88가능' : '']
+  return [p.length, displayColors(p), size ? 'SIZE ' + size : '', sizeBadgeText(p)]
     .filter(Boolean)
     .slice(0, 3)
     .map(x => `<span>${cleanText(x)}</span>`)
@@ -814,9 +862,9 @@ function styleProfile(p) {
     p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE') ? '투피스' : '',
     /A라인|에이라인|a-line|aline/i.test(text) ? 'A라인' : '',
     /슬림핏|슬림|H라인|머메이드|바디라인|라인감/i.test(text) ? '슬림핏' : '',
-    /럭셔리|고급|프리미엄|우아|드레스|이브닝/i.test(text) ? '럭셔리' : '',
+    isLuxuryCandidate(p) ? '럭셔리' : '',
     isCostume(p) ? 'Costume' : '',
-    isWideSize(p) ? '77/88' : ''
+    sizeBadgeText(p)
   ].filter(Boolean);
 }
 
@@ -958,8 +1006,8 @@ function communityBlock() {
 function dmGuideBlock() {
   return `<section class="dm-guide" aria-label="DM 문의 안내">
     <strong>마음에 드는 상품은 캡처해서 DM 주세요.</strong>
-    <span>현재 재고와 피팅 가능 여부를 안내해드립니다.</span>
-    <span>일부 상품은 당일 구매/택배 가능하며, 방문 전 DM 확인을 추천드립니다.</span>
+    <span>재고와 피팅 가능 여부를 안내해드립니다.</span>
+    <span class="dm-extra">일부 상품은 당일 구매/택배 가능하며, 방문 전 DM 확인을 추천드립니다.</span>
   </section>`;
 }
 
@@ -1101,7 +1149,7 @@ function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
-  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isWideSize(p) ? '77/88' : ''].filter(Boolean).slice(0, 4);
+  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
