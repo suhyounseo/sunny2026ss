@@ -358,6 +358,34 @@
 .dm-guide span{
   display:block;
 }
+.color-options-box{
+  padding:16px;
+}
+.color-options{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.color-option{
+  min-height:36px;
+  padding:0 14px;
+  border:1px solid #f9a8d4;
+  border-radius:999px;
+  background:#fce7f3;
+  color:#831843;
+  font-size:13px;
+  font-weight:900;
+  cursor:pointer;
+}
+.color-option.on{
+  background:#db2777;
+  border-color:#db2777;
+  color:#fff;
+}
+.color-option:not(.on):hover{
+  background:#fbcfe8;
+  border-color:#db2777;
+}
 @media(max-width:720px){
   .quick{
     flex-wrap:wrap;
