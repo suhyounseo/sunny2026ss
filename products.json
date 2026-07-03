@@ -45765,7 +45765,7 @@
       "러플 포인트 디테일",
       "러블리한 플레어 실루엣"
     ],
-    "fit": "플레어",
+    "fit": "플레어/슬림핏",
     "length": "미니",
     "tags": [
       "NEW",
@@ -45778,7 +45778,8 @@
       "러플",
       "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "sceneTags": [
       "데이트룩",
@@ -45790,7 +45791,8 @@
       "러플",
       "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/sy3YqQde",
@@ -45808,7 +45810,13 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-210cc41d",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "manualSearchInclude": [
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "GINI-6381-MINT",
@@ -45858,7 +45866,7 @@
       "러플 포인트 디테일",
       "러블리한 플레어 실루엣"
     ],
-    "fit": "플레어",
+    "fit": "플레어/슬림핏",
     "length": "미니",
     "tags": [
       "NEW",
@@ -45871,7 +45879,8 @@
       "러플",
       "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "sceneTags": [
       "데이트룩",
@@ -45883,7 +45892,8 @@
       "러플",
       "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/sy3YqQde",
@@ -45901,7 +45911,13 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-210cc41d",
-    "variantColor": "민트"
+    "variantColor": "민트",
+    "manualSearchInclude": [
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "GINI-6382-BLACK",
