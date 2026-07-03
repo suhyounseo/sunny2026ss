@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'match137';
+const VERSION = 'match139';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -193,7 +193,7 @@ const LABEL = {
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77/88가능'];
+const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77가능', '88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -244,7 +244,7 @@ const INTERNAL_WORDS = [
   '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
   '거래처', '공장', 'supplier', 'vendor', 'origin'
 ];
-const WIDE_SIZE_SUPPLIERS = ['\uc559\ud06c\ucd5c', '\uc9c0\ub2c8', '\uc138\uc724', '\ud384', '\ud76c\uc57c', '\ud585\ubc88', '\uc9c0\ub098', '\uadf8\ub808\uc774\uc2a4', '\uc2e4\ub8e8\uc5e3'];
+const WIDE_SIZE_SUPPLIERS = ['앙크최', '지니', '세윤', '펄', '희야', '햅번', '지나', '그레이스', '실루엣'];
 const norm = s => String(s || '').toLowerCase();
 const tags = p => Array.isArray(p.tags) ? p.tags : [];
 const codeOf = p => String(p.code || '');
@@ -267,7 +267,9 @@ function queryKey(raw) {
   if (/^(화이트룩|화이트|white|whitelook)$/.test(s)) return '화이트룩';
   if (/^(블랙룩|블랙|black|blacklook)$/.test(s)) return '블랙룩';
   if (/^(당일배송|당일발송|sameday|same-day)$/.test(s)) return '당일배송';
-  if (/^(77\/88가능|7788가능|77가능|88가능)$/.test(s)) return '77/88가능';
+  if (/^(77가능|77size)$/.test(s)) return '77가능';
+  if (/^(88가능|88size)$/.test(s)) return '88가능';
+  if (/^(77\/88가능|7788가능)$/.test(s)) return '77/88가능';
   if (/^(블라우스|blouse|top)$/.test(s)) return '블라우스';
   if (/^(스커트|치마|skirt)$/.test(s)) return '스커트';
   return '';
@@ -704,7 +706,8 @@ function matchesSearch(p, rawSearch) {
   if (/^(화이트룩|화이트|white)$/i.test(rawSearch)) return /화이트|아이보리|크림|크림베이지|white|ivory|cream/i.test(productText(p));
   if (/^(블랙룩|블랙|black)$/i.test(rawSearch)) return /블랙|검정|black/i.test(productText(p));
   if (/^(당일배송|당일발송|same[-_ ]?day)$/i.test(rawSearch)) return isSameDayCandidate(p);
-  if (/^(77가능|88가능)$/i.test(rawSearch)) return isSize77Available(p) || isSize88Available(p);
+  if (/^77가능$/i.test(rawSearch)) return isSize77Available(p);
+  if (/^88가능$/i.test(rawSearch)) return isSize88Available(p);
   if (/77\s*\/\s*88|77\/88/.test(rawSearch)) return isSize77Available(p) || isSize88Available(p);
   if (/^(롱|long|롱드레스|롱원피스|이브닝룩|파티드레스|무대의상|롱투피스)$/i.test(rawSearch)) return isLongDressProduct(p);
   if (/^(미니|미니원피스|mini)$/i.test(rawSearch)) return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');

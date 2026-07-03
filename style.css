@@ -457,3 +457,30 @@
   .rail{grid-auto-columns:minmax(150px,64vw);gap:10px;padding-bottom:12px}
   .photo{aspect-ratio:3/4}
 }
+
+
+/* Manual update v3: final mobile tag + color option safety */
+.quick,
+.sticky-tools .chips{
+  flex-wrap:nowrap !important;
+  overflow-x:auto !important;
+  overflow-y:hidden !important;
+  white-space:nowrap !important;
+  -webkit-overflow-scrolling:touch;
+}
+.quick::-webkit-scrollbar,
+.sticky-tools .chips::-webkit-scrollbar{display:none}
+@media(max-width:720px){
+  .quick,
+  .sticky-tools .chips{
+    flex-wrap:nowrap !important;
+    overflow-x:auto !important;
+    overflow-y:hidden !important;
+    white-space:nowrap !important;
+  }
+  .dm-guide span:nth-of-type(2){display:none}
+}
+.color-options-box{background:#fffafc;border-color:#f9a8d4}
+.color-options{display:flex;flex-wrap:wrap;gap:8px}
+.color-option{min-height:36px;padding:0 14px;border:1px solid #f9a8d4;border-radius:999px;background:#fce7f3;color:#831843;font-size:13px;font-weight:900;cursor:pointer}
+.color-option.on{background:#db2777;border-color:#db2777;color:#fff}

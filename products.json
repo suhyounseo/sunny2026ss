@@ -93,7 +93,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -190,7 +190,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -282,7 +282,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -379,8 +379,11 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "JES-305",
@@ -473,7 +476,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -583,7 +586,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -675,7 +678,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -774,7 +777,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -879,8 +882,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-310",
@@ -971,7 +981,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -1063,7 +1073,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -1163,8 +1173,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-313",
@@ -1258,8 +1275,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-314",
@@ -1350,8 +1374,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-315",
@@ -1450,7 +1481,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -1554,7 +1585,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -1656,7 +1687,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -1748,8 +1779,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-319",
@@ -1853,8 +1891,15 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "롱드레스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "JES-320",
@@ -1953,7 +1998,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -2050,8 +2095,11 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
-    "size88Available": false
+    "size77Available": true,
+    "size88Available": false,
+    "manualSearchExclude": [
+      "블랙룩"
+    ]
   },
   {
     "code": "JES-322",
@@ -2139,7 +2187,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -2243,7 +2291,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -2333,7 +2381,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -2611,7 +2659,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4004",
@@ -2781,7 +2832,13 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ]
   },
   {
     "code": "ANC-4006",
@@ -2964,7 +3021,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4008",
@@ -3489,7 +3549,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4014",
@@ -3847,7 +3910,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4018",
@@ -4382,7 +4448,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4024",
@@ -4740,7 +4809,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4028",
@@ -4910,7 +4982,12 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인",
+      "화이트룩",
+      "블랙룩"
+    ]
   },
   {
     "code": "ANC-4030",
@@ -5196,12 +5273,10 @@
       "데일리",
       "러블리",
       "플레어",
-      "원피스 스퀘어넥 버튼 데일리페미닌",
-      "A라인"
+      "원피스 스퀘어넥 버튼 데일리페미닌"
     ],
     "styleTags": [
-      "원피스 스퀘어넥 버튼 데일리페미닌",
-      "A라인"
+      "원피스 스퀘어넥 버튼 데일리페미닌"
     ],
     "sceneTags": [],
     "sizeTags": [
@@ -5250,7 +5325,13 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ]
   },
   {
     "code": "ANC-4034",
@@ -5420,7 +5501,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4036",
@@ -5590,7 +5674,11 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인",
+      "화이트룩"
+    ]
   },
   {
     "code": "ANC-4038",
@@ -5941,7 +6029,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-e5bdc19e",
-    "variantColor": "네이비"
+    "variantColor": "네이비",
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4042",
@@ -6122,7 +6213,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4044",
@@ -6389,7 +6483,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4047",
@@ -6994,7 +7091,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4054",
@@ -8034,7 +8134,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4066",
@@ -8204,7 +8307,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4068",
@@ -9323,7 +9429,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4081",
@@ -9409,7 +9518,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4082",
@@ -9595,7 +9707,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4084",
@@ -9781,7 +9896,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-e5bdc19e",
-    "variantColor": "베이지+레드"
+    "variantColor": "베이지+레드",
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4086",
@@ -10138,7 +10256,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-e5bdc19e",
-    "variantColor": "옐로우+핑크"
+    "variantColor": "옐로우+핑크",
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4090",
@@ -10424,12 +10545,10 @@
       "데일리",
       "러블리",
       "플레어",
-      "원피스 스퀘어넥 데일리페미닌",
-      "A라인"
+      "원피스 스퀘어넥 데일리페미닌"
     ],
     "styleTags": [
-      "원피스 스퀘어넥 데일리페미닌",
-      "A라인"
+      "원피스 스퀘어넥 데일리페미닌"
     ],
     "sceneTags": [],
     "sizeTags": [
@@ -10478,7 +10597,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4094",
@@ -10818,7 +10940,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "A라인"
+    ]
   },
   {
     "code": "ANC-4098",
@@ -12296,7 +12421,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "P015",
@@ -15573,7 +15701,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "manualSearchInclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "P017",
@@ -15909,7 +16040,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -16173,7 +16304,8 @@
     "tags": [
       "NEW",
       "투피스 & 상하의 컬렉션",
-      "TOP"
+      "TOP",
+      "블라우스"
     ],
     "images": [],
     "cuts": [
@@ -16229,7 +16361,13 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualSearchInclude": [
+      "블라우스"
+    ]
   },
   {
     "code": "N260222",
@@ -16304,7 +16442,14 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "manualSearchExclude": [
+      "A라인",
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "스커트"
+    ]
   },
   {
     "code": "N260223",
@@ -16374,7 +16519,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "manualSearchExclude": [
+      "블랙룩"
+    ]
   },
   {
     "code": "N260224",
@@ -17730,7 +17878,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchInclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "N260017",
@@ -18112,7 +18263,7 @@
     "zipFolder": "실루엣/리본끈 탑원피스(그레이)",
     "name": "튜브탑 리본 스트라이프 미니 원피스",
     "storeName": "튜브탑 리본 스트라이프 미니 원피스",
-    "category": "TOP",
+    "category": "MINI",
     "color": "그레이",
     "size": "S,M,L",
     "price": 106000,
@@ -18172,7 +18323,15 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "length": "미니",
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "N260023",
@@ -18182,7 +18341,7 @@
     "zipFolder": "실루엣/리본끈 탑원피스(화이트)",
     "name": "튜브탑 리본 스트라이프 미니 원피스",
     "storeName": "튜브탑 리본 스트라이프 미니 원피스",
-    "category": "TOP",
+    "category": "MINI",
     "color": "화이트",
     "size": "S,M,L",
     "price": 106000,
@@ -18244,7 +18403,15 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "length": "미니",
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "N260024",
@@ -18319,7 +18486,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchInclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "N260025",
@@ -18497,26 +18667,6 @@
         "url": "assets/N260027_04.jpg",
         "cut": "확대/디테일",
         "source": "에비뉴OPS/img_xl_4_bgh9gw.jpg"
-      },
-      {
-        "url": "assets/N260028_01.jpg",
-        "cut": "N260028 이동컷",
-        "source": "assets/N260028_01.jpg"
-      },
-      {
-        "url": "assets/N260028_02.jpg",
-        "cut": "N260028 이동컷",
-        "source": "assets/N260028_02.jpg"
-      },
-      {
-        "url": "assets/N260028_03.jpg",
-        "cut": "N260028 이동컷",
-        "source": "assets/N260028_03.jpg"
-      },
-      {
-        "url": "assets/N260028_04.jpg",
-        "cut": "N260028 이동컷",
-        "source": "assets/N260028_04.jpg"
       }
     ],
     "desc": "허리라인을 돋보이게해주는 미디원피스 상품입니다.",
@@ -18637,7 +18787,7 @@
     "zipFolder": "실루엣/카시아2OPS",
     "name": "드레이핑 튜브탑 원피스",
     "storeName": "드레이핑 튜브탑 원피스",
-    "category": "TOP",
+    "category": "MINI",
     "color": "화이트/핑크",
     "size": "S,M,L",
     "price": 110000,
@@ -18697,7 +18847,15 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "length": "미니",
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미니원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "N260031",
@@ -19143,7 +19301,7 @@
     "zipFolder": "실루엣/프라다탑OPS 그레이",
     "name": "리본 타이 오프숄더 미디 원피스",
     "storeName": "리본 타이 오프숄더 미디 원피스",
-    "category": "TOP",
+    "category": "MIDI",
     "color": "그레이",
     "size": "S,M,L",
     "price": 126000,
@@ -19205,7 +19363,15 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "length": "미디",
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "N260038",
@@ -19215,7 +19381,7 @@
     "zipFolder": "실루엣/프라다탑OPS 아이",
     "name": "리본 타이 오프숄더 미디 원피스",
     "storeName": "리본 타이 오프숄더 미디 원피스",
-    "category": "TOP",
+    "category": "MIDI",
     "color": "그레이",
     "size": "S,M,L",
     "price": 126000,
@@ -19277,7 +19443,15 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "length": "미디",
+    "manualSearchExclude": [
+      "투피스"
+    ],
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ]
   },
   {
     "code": "N260039",
@@ -21572,7 +21746,12 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-b125e001",
-    "variantColor": "핑크/화이트/블랙"
+    "variantColor": "핑크/화이트/블랙",
+    "needsImageReplacement": true,
+    "imageNote": "추후 경쟁사 사진 가능성 때문에 이미지 교체 필요",
+    "internalNotes": [
+      "사진 교체 필요"
+    ]
   },
   {
     "code": "N260067",
@@ -26245,7 +26424,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -26755,7 +26934,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -27861,7 +28040,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false
   },
   {
@@ -27949,7 +28128,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-nice-ccd20809",
     "variantColor": "아이보리"
@@ -28032,7 +28211,7 @@
     "vendor": "",
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-nice-b2031a28",
     "variantColor": "핑크"
@@ -28045,18 +28224,19 @@
     "zipFolder": "티아라/S528",
     "name": "끈나시 도트무늬 A라인 미디 원피스",
     "storeName": "끈나시 도트무늬 A라인 미디 원피스",
-    "category": "TOP",
+    "category": "LONG",
     "color": "아이보리",
     "size": "55 / 66",
     "price": 111000,
     "tags": [
       "LUXURY",
-      "MIDI",
       "NEW",
-      "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
-      "TOP"
+      "LONG",
+      "롱",
+      "롱드레스",
+      "롱원피스"
     ],
     "images": [],
     "cuts": [
@@ -28087,8 +28267,8 @@
     "name_cn": "肩带 无袖上衣 波点 A字版 中长连衣裙",
     "name_jp": "ストラップ ノースリーブトップ ドット柄 Aライン ミディワンピース",
     "mainImage": "assets/N260171_01.jpg",
-    "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collection": "C",
+    "collectionName": "롱드레스 컬렉션",
     "sizeInfo": "55(S) / 66(M)",
     "externalSource": {
       "site": "judyshop",
@@ -28114,7 +28294,18 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "length": "롱",
+    "collectionDescription": "특별한 순간을 위한 미디·롱 드레스 셀렉션",
+    "manualSearchInclude": [
+      "롱드레스"
+    ],
+    "manualSearchExclude": [
+      "투피스",
+      "미디원피스",
+      "블라우스"
+    ],
+    "correctionNote": "검색 오류 수정: 롱드레스 포함, 투피스 제외"
   },
   {
     "code": "N260172",
@@ -30018,7 +30209,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "N260196",
@@ -30089,7 +30283,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "N260197",
@@ -30107,7 +30304,8 @@
       "NEW",
       "투피스 & 상하의 컬렉션",
       "PARTY",
-      "TOP"
+      "TOP",
+      "블라우스"
     ],
     "images": [],
     "cuts": [
@@ -30177,7 +30375,13 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualSearchInclude": [
+      "블라우스"
+    ]
   },
   {
     "code": "N260198",
@@ -30608,7 +30812,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "N260204",
@@ -31735,7 +31942,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -31818,7 +32025,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -31901,7 +32108,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -31984,7 +32191,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32067,7 +32274,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32150,7 +32357,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32233,7 +32440,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32316,7 +32523,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32399,7 +32606,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32482,7 +32689,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32565,7 +32772,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32648,7 +32855,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -32731,7 +32938,7 @@
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
-    "size77Available": false,
+    "size77Available": true,
     "size88Available": false,
     "designGroupId": "mini-2026-ae527f65",
     "variantColor": "확인필요"
@@ -45044,7 +45251,13 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-fab7efd1",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "manualSearchExclude": [
+      "슬림핏"
+    ],
+    "manualSearchInclude": [
+      "미니원피스"
+    ]
   },
   {
     "code": "GINI-6374-RED",
@@ -45140,7 +45353,7 @@
     "supplier": "지니",
     "name": "리본라인 슬림 투피스",
     "storeName": "리본라인 슬림 투피스",
-    "category": "TWO PIECE",
+    "category": "MIDI",
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
@@ -45181,19 +45394,19 @@
       "슬림하게 떨어지는 스커트 라인"
     ],
     "fit": "슬림",
-    "length": "미니",
+    "length": "미디",
     "tags": [
       "NEW",
       "지니",
       "7월신상",
       "Collection A",
-      "TWO PIECE",
       "핑크",
-      "투피스",
       "브이넥",
       "리본라인",
       "슬림핏",
-      "데이트룩"
+      "데이트룩",
+      "MIDI",
+      "미디"
     ],
     "sceneTags": [
       "데이트룩",
@@ -45201,7 +45414,6 @@
       "파티룩"
     ],
     "styleTags": [
-      "투피스",
       "브이넥",
       "리본라인",
       "슬림핏",
@@ -45223,7 +45435,15 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-eed020fc",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "manualSearchInclude": [
+      "미디원피스"
+    ],
+    "manualSearchExclude": [
+      "미니원피스",
+      "투피스",
+      "화이트룩"
+    ]
   },
   {
     "code": "GINI-6377-SORA",
@@ -45447,7 +45667,7 @@
       "러플 포인트 디테일",
       "러블리한 플레어 실루엣"
     ],
-    "fit": "플레어",
+    "fit": "슬림핏",
     "length": "미니",
     "tags": [
       "NEW",
@@ -45458,9 +45678,9 @@
       "아이보리",
       "로즈자수",
       "러플",
-      "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "sceneTags": [
       "데이트룩",
@@ -45470,9 +45690,9 @@
     "styleTags": [
       "로즈자수",
       "러플",
-      "플레어",
       "미니",
-      "러블리"
+      "러블리",
+      "슬림핏"
     ],
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/sy3YqQde",
@@ -45490,7 +45710,14 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-210cc41d",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "manualSearchInclude": [
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "A라인"
+    ],
+    "correctionNote": "검색 오류 수정: 슬림핏 포함, A라인 제외"
   },
   {
     "code": "GINI-6380-PINK",
@@ -45763,7 +45990,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-41630b6f",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "GINI-6383-IVORY",
@@ -45861,7 +46091,7 @@
     "supplier": "지니",
     "name": "비즈라인 시스루 원피스",
     "storeName": "비즈라인 시스루 원피스",
-    "category": "MINI",
+    "category": "MIDI",
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
@@ -45904,19 +46134,19 @@
       "슬림한 바디 실루엣"
     ],
     "fit": "슬림",
-    "length": "미니",
+    "length": "미디",
     "tags": [
       "NEW",
       "지니",
       "7월신상",
       "Collection A",
-      "MINI",
       "핑크",
       "시스루",
       "비즈라인",
       "슬림핏",
-      "미니",
-      "파티룩"
+      "파티룩",
+      "MIDI",
+      "미디"
     ],
     "sceneTags": [
       "데이트룩",
@@ -45927,7 +46157,6 @@
       "시스루",
       "비즈라인",
       "슬림핏",
-      "미니",
       "파티룩"
     ],
     "contactType": "kakao",
@@ -45946,7 +46175,15 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-c22c6c0c",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "manualSearchInclude": [
+      "미디원피스",
+      "슬림핏"
+    ],
+    "manualSearchExclude": [
+      "미니원피스",
+      "투피스"
+    ]
   },
   {
     "code": "GINI-6385-BEIGE",
@@ -46203,7 +46440,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-29a02389",
-    "variantColor": "민트"
+    "variantColor": "민트",
+    "manualSearchExclude": [
+      "화이트룩"
+    ]
   },
   {
     "code": "GINI-6388-BLACK",
