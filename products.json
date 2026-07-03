@@ -21011,7 +21011,7 @@
     "name_en": "Strap Sleeveless Top Pleated Mini Dress",
     "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
     "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース",
-    "mainImage": "assets/N260058_01.jpg",
+    "mainImage": "assets/N260058_04.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
@@ -21058,7 +21058,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "adminNotes": [
+      "2026-07 수동수정: 메인컷을 기존 3번째 사진(N260058_04)으로 변경"
+    ]
   },
   {
     "code": "N260059",
@@ -21109,7 +21112,7 @@
     "name_en": "Flower Shoulder H-Line Mini Dress",
     "name_cn": "花朵 肩部 H版型 迷你礼服",
     "name_jp": "フラワー ショルダー Hライン ミニドレス",
-    "mainImage": "assets/N260059_01.jpg",
+    "mainImage": "assets/N260059_04.jpg",
     "collection": "A",
     "collectionName": "미니 원피스 컬렉션",
     "sizeInfo": "확인 필요",
@@ -21161,7 +21164,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "adminNotes": [
+      "2026-07 수동수정: 메인컷을 기존 3번째 사진(N260059_04)으로 변경"
+    ]
   },
   {
     "code": "N260060",
@@ -21683,75 +21689,6 @@
     "size88Available": true,
     "designGroupId": "v-mini-v-e3e56796",
     "variantColor": "브라운"
-  },
-  {
-    "code": "N260066",
-    "origin": "골지_미니_원피스_핑크",
-    "folder": "골지 미니 원피스 핑크",
-    "supplier": "지니",
-    "zipFolder": "지니/골지 미니 원피스 핑크",
-    "name": "진주 버튼 스퀘어넥 미니 원피스",
-    "storeName": "진주 버튼 스퀘어넥 미니 원피스",
-    "category": "MINI",
-    "color": "핑크/화이트/블랙",
-    "size": "S,M,L",
-    "price": 126000,
-    "tags": [
-      "미니 원피스 컬렉션",
-      "MINI",
-      "PARTY"
-    ],
-    "images": [],
-    "cuts": [
-      {
-        "url": "assets/N260066_02.jpg",
-        "cut": "후면",
-        "source": "골지 미니 원피스 핑크/img_xl_18_wv2gaj.jpg"
-      },
-      {
-        "url": "assets/N260066_03.jpg",
-        "cut": "측면",
-        "source": "골지 미니 원피스 핑크/img_xl_19_l6jgnm.jpg"
-      }
-    ],
-    "desc": "진주 버튼 스퀘어넥 미니 원피스 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "있음",
-    "see": "없음",
-    "lining": "있음",
-    "name_en": "Pearl Button Square Neck Mini Dress",
-    "name_cn": "珍珠纽扣 方领 迷你连衣裙",
-    "name_jp": "パールボタン スクエアネック ミニワンピース",
-    "mainImage": "assets/N260066_01.jpg",
-    "collection": "A",
-    "collectionName": "미니 원피스 컬렉션",
-    "whyYoullLoveIt": [
-      "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
-      "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
-      "다리 라인을 경쾌하게 살려주는 미니 기장"
-    ],
-    "points": [
-      "단정하면서 고급스러운 분위기를 주는 버튼 포인트",
-      "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥",
-      "다리 라인을 경쾌하게 살려주는 미니 기장"
-    ],
-    "editorsNote": "스퀘어넥과 버튼 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260066_01.jpg",
-    "isSameDayDelivery": false,
-    "isFittingAvailable": false,
-    "vendor": "",
-    "brand": "",
-    "lineName": "",
-    "size77Available": true,
-    "size88Available": true,
-    "designGroupId": "mini-b125e001",
-    "variantColor": "핑크/화이트/블랙",
-    "needsImageReplacement": true,
-    "imageNote": "추후 경쟁사 사진 가능성 때문에 이미지 교체 필요",
-    "internalNotes": [
-      "사진 교체 필요"
-    ]
   },
   {
     "code": "N260067",
@@ -22527,17 +22464,17 @@
       {
         "url": "assets/N260078_02.jpg",
         "cut": "후면",
-        "source": "JN6316(소라)/img_xl_2_jid1c2.jpg"
+        "source": "기존 N260078_02"
       },
       {
-        "url": "assets/N260078_03.jpg",
-        "cut": "측면",
-        "source": "JN6316(소라)/img_xl_3_ldbfk3.jpg"
+        "url": "assets/custom/N260078-full.jpg",
+        "cut": "전신컷",
+        "source": "user-upload 2026-07 N260078 전신컷"
       },
       {
-        "url": "assets/N260078_04.jpg",
-        "cut": "확대/디테일",
-        "source": "JN6316(소라)/img_xl_4_nhwznj.jpg"
+        "url": "assets/custom/N260078-main.jpg",
+        "cut": "상반신/메인컷",
+        "source": "user-upload 2026-07 N260078 메인컷"
       }
     ],
     "desc": "입체적이 셔링 디테일, 가슴 라인의 핀컥으로 핏을 살려주는 미디 원피스 상품입니다.",
@@ -22549,7 +22486,7 @@
     "name_en": "Shirring Pintuck Midi Dress",
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
-    "mainImage": "assets/N260078_01.jpg",
+    "mainImage": "assets/custom/N260078-main.jpg",
     "collection": "C",
     "collectionName": "미디 & 롱 컬렉션",
     "whyYoullLoveIt": [
@@ -22564,14 +22501,19 @@
     ],
     "editorsNote": "셔링과 라인 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
-    "thumbImage": "assets/N260078_03.jpg",
+    "thumbImage": "assets/custom/N260078-main.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "designGroupId": "midi-36167bd6",
+    "variantColor": "소라",
+    "adminNotes": [
+      "2026-07 수동수정: 업로드 이미지로 3번째/4번째 사진 교체, 메인컷 교체"
+    ]
   },
   {
     "code": "N260079",
@@ -23528,19 +23470,19 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/N260092_02.jpg",
-        "cut": "후면",
-        "source": "화이트미디원피스/img_xl_2_fmtwou.jpg"
+        "url": "assets/custom/N260092-full.jpg",
+        "cut": "전신컷",
+        "source": "user-upload 2026-07 N260092 전신컷"
       },
       {
-        "url": "assets/N260092_03.jpg",
-        "cut": "측면",
-        "source": "화이트미디원피스/img_xl_3_tck380.jpg"
+        "url": "assets/custom/N260092-detail-collage.png",
+        "cut": "디테일 콜라주",
+        "source": "user-upload 2026-07 N260092 확대collage"
       },
       {
-        "url": "assets/N260092_04.jpg",
+        "url": "assets/custom/N260092-detail.jpg",
         "cut": "확대/디테일",
-        "source": "화이트미디원피스/img_xl_4_wuwwfn.jpg"
+        "source": "user-upload 2026-07 N260092 확대"
       }
     ],
     "desc": "입체적인 셔링 디테일과 핀턱이 몸매를 잡아주는 미디 원피스 상품입니다.",
@@ -23552,7 +23494,7 @@
     "name_en": "Shirring Pintuck Midi Dress",
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
-    "mainImage": "assets/N260092_01.jpg",
+    "mainImage": "assets/custom/N260092-main.jpg",
     "collection": "C",
     "collectionName": "미디 & 롱 컬렉션",
     "whyYoullLoveIt": [
@@ -23567,7 +23509,7 @@
     ],
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
-    "thumbImage": "assets/N260092_04.jpg",
+    "thumbImage": "assets/custom/N260092-main.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -23576,7 +23518,10 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-36167bd6",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "adminNotes": [
+      "2026-07 수동수정: 2번째/4번째 사진 제거 후 업로드 이미지로 메인컷/전신컷/디테일 교체"
+    ]
   },
   {
     "code": "N260093",
