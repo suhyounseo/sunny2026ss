@@ -46332,7 +46332,7 @@
     "sizeInfo": "문의",
     "fabric": "문의",
     "wearInfo": "문의",
-    "price": null,
+    "price": 135000,
     "stockStatus": "문의",
     "isNew": true,
     "new": true,
@@ -46377,7 +46377,8 @@
       "프릴",
       "A라인",
       "미니",
-      "러블리"
+      "러블리",
+      "럭셔리"
     ],
     "sceneTags": [
       "데이트룩",
@@ -46404,7 +46405,9 @@
     "variantColor": "민트",
     "manualSearchExclude": [
       "화이트룩"
-    ]
+    ],
+    "isLuxury": true,
+    "luxuryReason": "원피스 판매가 10만원 이상"
   },
   {
     "code": "GINI-6388-BLACK",
@@ -46421,7 +46424,7 @@
     "sizeInfo": "문의",
     "fabric": "문의",
     "wearInfo": "문의",
-    "price": null,
+    "price": 135000,
     "stockStatus": "문의",
     "isNew": true,
     "new": true,
@@ -46464,7 +46467,8 @@
       "프릴",
       "A라인",
       "미니",
-      "러블리"
+      "러블리",
+      "럭셔리"
     ],
     "sceneTags": [
       "데이트룩",
@@ -46488,7 +46492,9 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-29a02389",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "isLuxury": true,
+    "luxuryReason": "원피스 판매가 10만원 이상"
   },
   {
     "code": "GINI-6388-IVORY",
@@ -46505,7 +46511,7 @@
     "sizeInfo": "문의",
     "fabric": "문의",
     "wearInfo": "문의",
-    "price": null,
+    "price": 135000,
     "stockStatus": "문의",
     "isNew": true,
     "new": true,
@@ -46548,7 +46554,8 @@
       "프릴",
       "A라인",
       "미니",
-      "러블리"
+      "러블리",
+      "럭셔리"
     ],
     "sceneTags": [
       "데이트룩",
@@ -46572,6 +46579,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-29a02389",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "isLuxury": true,
+    "luxuryReason": "원피스 판매가 10만원 이상"
   }
 ]
