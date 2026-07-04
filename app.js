@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'match139';
+const VERSION = 'match140';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -740,6 +740,7 @@ function match(p) {
 function badges(p) {
   const out = [];
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
+  if (p.steady || hasTag(p, 'STEADY')) out.push('<span class="badge">STEADY</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push(`<span class="badge light">${t('fittingAvailable')}</span>`);
   if (isSameDayCandidate(p)) out.push(`<span class="badge light">${t('sameDay')}</span>`);
@@ -1098,7 +1099,7 @@ function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
-  const labelTags = [isNew(p) ? 'NEW' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
+  const labelTags = [isNew(p) ? 'NEW' : '', (p.steady || hasTag(p, 'STEADY')) ? 'STEADY' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
