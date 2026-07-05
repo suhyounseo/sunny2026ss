@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'match142';
+const VERSION = 'match143';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1055,6 +1055,29 @@ function coordinatedBlock(p) {
   if (!rows.length) return '';
   return '<div class="box coord-box"><div class="coord-title">COORDINATED LOOK</div>' + rows.join('') + '</div>';
 }
+function optionColorValue(name) {
+  const text = String(name || '').toLowerCase();
+  const map = [
+    ['아이보리', '#fff6e6'], ['화이트', '#ffffff'], ['크림베이지', '#f3e4cc'], ['베이지', '#d6b98c'],
+    ['블랙', '#111111'], ['네이비', '#102044'], ['블루', '#4f8fd8'], ['스카이블루', '#9fd1f5'], ['소라', '#a9d8f7'],
+    ['핑크베이지', '#e8b9ad'], ['연핑크', '#f7cddd'], ['핑크', '#f4a7bf'], ['로즈', '#d85b79'], ['레드', '#d82632'], ['와인', '#7b1f35'],
+    ['민트', '#a8e0cf'], ['세이지', '#a8bfa3'], ['그린', '#257a4a'], ['라임', '#cce85a'],
+    ['옐로우', '#f3d34a'], ['엘로우', '#f3d34a'], ['오렌지', '#f28a3a'], ['브라운', '#7a4f32'],
+    ['라벤더', '#c7b4e8'], ['연보라', '#c9b6ee'], ['보라', '#8f60c7'], ['그레이', '#9ca3af'], ['실버', '#cfd4dc']
+  ];
+  const hits = [];
+  map.forEach(([key, value]) => {
+    if (text.includes(key.toLowerCase()) && !hits.includes(value)) hits.push(value);
+  });
+  if (!hits.length) return '#fce7f3';
+  if (hits.length === 1) return hits[0];
+  const step = 100 / hits.length;
+  return 'linear-gradient(135deg, ' + hits.map((color, i) => `${color} ${Math.round(i * step)}%, ${color} ${Math.round((i + 1) * step)}%`).join(', ') + ')';
+}
+function colorOptionStyle(label) {
+  const swatch = optionColorValue(label);
+  return `style="--option-color:${swatch};"`;
+}
 function colorOptionsBlock(p) {
   if (!p.designGroupId) return '';
   const variants = PRODUCTS
@@ -1064,7 +1087,7 @@ function colorOptionsBlock(p) {
   const buttons = variants.map(item => {
     const selected = codeOf(item) === codeOf(p);
     const label = cleanText(item.variantColor || item.color || displayName(item));
-    return `<button class="color-option ${selected ? 'on' : ''}" type="button" data-code="${codeOf(item)}" aria-pressed="${selected}">${label}</button>`;
+    return `<button class="color-option ${selected ? 'on' : ''}" type="button" data-code="${codeOf(item)}" aria-pressed="${selected}" ${colorOptionStyle(label)}><span class="color-swatch" aria-hidden="true"></span><span>${label}</span></button>`;
   }).join('');
   return `<div class="box color-options-box"><b>같은 디자인 다른 컬러</b><div class="color-options">${buttons}</div></div>`;
 }
