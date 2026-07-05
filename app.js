@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'match143';
+const VERSION = 'match144';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -986,7 +986,17 @@ function render() {
   intro.textContent = sectionIntro();
   if (FILTER === 'HOME' && !q.value.trim()) return renderHome();
   grid.className = 'grid';
-  const list = sortProducts(PRODUCTS.filter(match));
+  const searchActive = !!q.value.trim();
+  const visible = PRODUCTS.filter(visibleToAudience);
+  let list;
+  if (!searchActive && FILTER === 'BEST') {
+    list = editorSelectItems(visible);
+  } else if (!searchActive && FILTER === 'NEW') {
+    const editorCodes = new Set(editorSelectItems(visible).map(codeOf));
+    list = newArrivalItems(visible, editorCodes);
+  } else {
+    list = sortProducts(PRODUCTS.filter(match));
+  }
   count.textContent = `${list.length} ${t('item')}`;
   if (!list.length) {
     grid.innerHTML = `${dmGuideBlock()}<div class="empty">${t('empty')}</div>`;
