@@ -11051,7 +11051,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P002_01.jpg",
+      "assets/P002_02.jpg",
+      "assets/P002_03.jpg",
+      "assets/P002_04.jpg",
+      "assets/P002_05.jpg",
+      "assets/P002_06.jpg",
+      "assets/P002_07.jpg",
+      "assets/P002_08.jpg",
+      "assets/P002_09.jpg",
+      "assets/P002_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P002_04.jpg",
@@ -11134,7 +11145,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P002_05.jpg"
   },
   {
     "code": "P003",
@@ -11158,7 +11170,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P003_01.jpg",
+      "assets/P003_02.jpg",
+      "assets/P003_03.jpg",
+      "assets/P003_04.jpg",
+      "assets/P003_05.jpg",
+      "assets/P003_06.jpg",
+      "assets/P003_07.jpg",
+      "assets/P003_08.jpg",
+      "assets/P003_09.jpg",
+      "assets/P003_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P003_04.jpg",
@@ -11241,7 +11264,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P003_04.jpg"
   },
   {
     "code": "P004",
@@ -11265,7 +11289,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P004_01.jpg",
+      "assets/P004_02.jpg",
+      "assets/P004_03.jpg",
+      "assets/P004_04.jpg",
+      "assets/P004_05.jpg",
+      "assets/P004_06.jpg",
+      "assets/P004_07.jpg",
+      "assets/P004_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P004_03.jpg",
@@ -11343,7 +11376,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P004_02.jpg"
   },
   {
     "code": "P005",
@@ -11367,7 +11401,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P005_01.jpg",
+      "assets/P005_02.jpg",
+      "assets/P005_03.jpg",
+      "assets/P005_04.jpg",
+      "assets/P005_05.jpg",
+      "assets/P005_06.jpg",
+      "assets/P005_07.jpg",
+      "assets/P005_08.jpg",
+      "assets/P005_09.jpg",
+      "assets/P005_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P005_04.jpg",
@@ -11450,7 +11495,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P005_03.jpg"
   },
   {
     "code": "P006",
@@ -11475,7 +11521,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P006_01.jpg",
+      "assets/P006_02.jpg",
+      "assets/P006_03.jpg",
+      "assets/P006_04.jpg",
+      "assets/P006_05.jpg",
+      "assets/P006_06.jpg",
+      "assets/P006_07.jpg",
+      "assets/P006_08.jpg",
+      "assets/P006_09.jpg",
+      "assets/P006_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P006_03.jpg",
@@ -11558,7 +11615,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P006_10.jpg"
   },
   {
     "code": "P007",
@@ -11582,7 +11640,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P007_01.jpg",
+      "assets/P007_02.jpg",
+      "assets/P007_03.jpg",
+      "assets/P007_04.jpg",
+      "assets/P007_05.jpg",
+      "assets/P007_06.jpg",
+      "assets/P007_07.jpg",
+      "assets/P007_08.jpg",
+      "assets/P007_09.jpg",
+      "assets/P007_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P007_06.jpg",
@@ -11665,7 +11734,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P007_03.jpg"
   },
   {
     "code": "P008",
@@ -11689,7 +11759,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P008_01.jpg",
+      "assets/P008_02.jpg",
+      "assets/P008_03.jpg",
+      "assets/P008_04.jpg",
+      "assets/P008_05.jpg",
+      "assets/P008_06.jpg",
+      "assets/P008_07.jpg",
+      "assets/P008_08.jpg",
+      "assets/P008_09.jpg",
+      "assets/P008_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P008_05.jpg",
@@ -11767,7 +11848,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P008_06.jpg"
   },
   {
     "code": "P009",
@@ -11791,7 +11873,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P009_01.jpg",
+      "assets/P009_02.jpg",
+      "assets/P009_03.jpg",
+      "assets/P009_04.jpg",
+      "assets/P009_05.jpg",
+      "assets/P009_06.jpg",
+      "assets/P009_07.jpg",
+      "assets/P009_08.jpg",
+      "assets/P009_09.jpg",
+      "assets/P009_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P009_09.jpg",
@@ -11864,7 +11957,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P009_10.jpg"
   },
   {
     "code": "P010",
@@ -11893,7 +11987,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P010_01.jpg",
+      "assets/P010_02.jpg",
+      "assets/P010_03.jpg",
+      "assets/P010_04.jpg",
+      "assets/P010_05.jpg",
+      "assets/P010_06.jpg",
+      "assets/P010_07.jpg",
+      "assets/P010_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P010_02.jpg",
@@ -11983,7 +12086,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P010_01.jpg"
   },
   {
     "code": "P011",
@@ -12007,7 +12111,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P011_01.jpg",
+      "assets/P011_02.jpg",
+      "assets/P011_03.jpg",
+      "assets/P011_04.jpg",
+      "assets/P011_05.jpg",
+      "assets/P011_06.jpg",
+      "assets/P011_07.jpg",
+      "assets/P011_08.jpg",
+      "assets/P011_09.jpg",
+      "assets/P011_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P011_07.jpg",
@@ -12089,7 +12204,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P011_03.jpg"
   },
   {
     "code": "P012",
@@ -12113,7 +12229,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P012_01.jpg",
+      "assets/P012_02.jpg",
+      "assets/P012_03.jpg",
+      "assets/P012_04.jpg",
+      "assets/P012_05.jpg",
+      "assets/P012_06.jpg",
+      "assets/P012_07.jpg",
+      "assets/P012_08.jpg",
+      "assets/P012_09.jpg",
+      "assets/P012_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P012_04.jpg",
@@ -12196,7 +12323,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P012_03.jpg"
   },
   {
     "code": "P013",
@@ -12220,7 +12348,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P013_01.jpg",
+      "assets/P013_02.jpg",
+      "assets/P013_03.jpg",
+      "assets/P013_04.jpg",
+      "assets/P013_05.jpg",
+      "assets/P013_06.jpg",
+      "assets/P013_07.jpg",
+      "assets/P013_08.jpg",
+      "assets/P013_09.jpg",
+      "assets/P013_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P013_02.jpg",
@@ -12303,7 +12442,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P013_01.jpg"
   },
   {
     "code": "P014",
@@ -12331,7 +12471,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P014_01.jpg",
+      "assets/P014_02.jpg",
+      "assets/P014_03.jpg",
+      "assets/P014_04.jpg",
+      "assets/P014_05.jpg",
+      "assets/P014_06.jpg",
+      "assets/P014_07.jpg",
+      "assets/P014_08.jpg",
+      "assets/P014_09.jpg",
+      "assets/P014_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P014_06.jpg",
@@ -12424,7 +12575,8 @@
     "size88Available": false,
     "manualSearchExclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/P014_05.jpg"
   },
   {
     "code": "P015",
@@ -12448,7 +12600,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P015_01.jpg",
+      "assets/P015_02.jpg",
+      "assets/P015_03.jpg",
+      "assets/P015_04.jpg",
+      "assets/P015_05.jpg",
+      "assets/P015_06.jpg",
+      "assets/P015_07.jpg",
+      "assets/P015_08.jpg",
+      "assets/P015_09.jpg",
+      "assets/P015_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P015_09.jpg",
@@ -12516,7 +12679,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P015_07.jpg"
   },
   {
     "code": "P016",
@@ -12540,7 +12704,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P016_01.jpg",
+      "assets/P016_02.jpg",
+      "assets/P016_03.jpg",
+      "assets/P016_04.jpg",
+      "assets/P016_05.jpg",
+      "assets/P016_06.jpg",
+      "assets/P016_07.jpg",
+      "assets/P016_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P016_03.jpg",
@@ -12618,7 +12791,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P016_08.jpg"
   },
   {
     "code": "P018",
@@ -12645,7 +12819,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P018_01.jpg",
+      "assets/P018_02.jpg",
+      "assets/P018_03.jpg",
+      "assets/P018_04.jpg",
+      "assets/P018_05.jpg",
+      "assets/P018_06.jpg",
+      "assets/P018_07.jpg",
+      "assets/P018_08.jpg",
+      "assets/P018_09.jpg",
+      "assets/P018_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P018_06.jpg",
@@ -12718,7 +12903,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P018_05.jpg"
   },
   {
     "code": "P019",
@@ -12744,7 +12930,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P019_01.jpg",
+      "assets/P019_02.jpg",
+      "assets/P019_03.jpg",
+      "assets/P019_04.jpg",
+      "assets/P019_05.jpg",
+      "assets/P019_06.jpg",
+      "assets/P019_07.jpg",
+      "assets/P019_08.jpg",
+      "assets/P019_09.jpg",
+      "assets/P019_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P019_05.jpg",
@@ -12820,7 +13017,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P019_10.jpg"
   },
   {
     "code": "P020",
@@ -12849,7 +13047,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P020_01.jpg",
+      "assets/P020_02.jpg",
+      "assets/P020_03.jpg",
+      "assets/P020_04.jpg",
+      "assets/P020_05.jpg",
+      "assets/P020_06.jpg",
+      "assets/P020_07.jpg",
+      "assets/P020_08.jpg",
+      "assets/P020_09.jpg",
+      "assets/P020_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P020_07.jpg",
@@ -12910,7 +13119,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P020_08.jpg"
   },
   {
     "code": "P021",
@@ -12935,7 +13145,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P021_01.jpg",
+      "assets/P021_02.jpg",
+      "assets/P021_03.jpg",
+      "assets/P021_04.jpg",
+      "assets/P021_05.jpg",
+      "assets/P021_06.jpg",
+      "assets/P021_07.jpg",
+      "assets/P021_08.jpg",
+      "assets/P021_09.jpg",
+      "assets/P021_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P021_02.jpg",
@@ -13023,7 +13244,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P021_03.jpg"
   },
   {
     "code": "P022",
@@ -13048,7 +13270,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P022_01.jpg",
+      "assets/P022_02.jpg",
+      "assets/P022_03.jpg",
+      "assets/P022_04.jpg",
+      "assets/P022_05.jpg",
+      "assets/P022_06.jpg",
+      "assets/P022_07.jpg",
+      "assets/P022_08.jpg",
+      "assets/P022_09.jpg",
+      "assets/P022_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P022_05.jpg",
@@ -13129,7 +13362,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P022_04.jpg"
   },
   {
     "code": "P023",
@@ -13153,7 +13387,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P023_01.jpg",
+      "assets/P023_02.jpg",
+      "assets/P023_03.jpg",
+      "assets/P023_04.jpg",
+      "assets/P023_05.jpg",
+      "assets/P023_06.jpg",
+      "assets/P023_07.jpg",
+      "assets/P023_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P023_03.jpg",
@@ -13231,7 +13474,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P023_01.jpg"
   },
   {
     "code": "P024",
@@ -13256,7 +13500,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P024_01.jpg",
+      "assets/P024_02.jpg",
+      "assets/P024_03.jpg",
+      "assets/P024_04.jpg",
+      "assets/P024_05.jpg",
+      "assets/P024_06.jpg",
+      "assets/P024_07.jpg",
+      "assets/P024_08.jpg",
+      "assets/P024_09.jpg",
+      "assets/P024_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P024_03.jpg",
@@ -13342,7 +13597,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P024_01.jpg"
   },
   {
     "code": "P025",
@@ -13367,7 +13623,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P025_01.jpg",
+      "assets/P025_02.jpg",
+      "assets/P025_03.jpg",
+      "assets/P025_04.jpg",
+      "assets/P025_05.jpg",
+      "assets/P025_06.jpg",
+      "assets/P025_07.jpg",
+      "assets/P025_08.jpg",
+      "assets/P025_09.jpg",
+      "assets/P025_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P025_02.jpg",
@@ -13455,7 +13722,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P025_01.jpg"
   },
   {
     "code": "P026",
@@ -13484,7 +13752,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P026_01.jpg",
+      "assets/P026_02.jpg",
+      "assets/P026_03.jpg",
+      "assets/P026_04.jpg",
+      "assets/P026_05.jpg",
+      "assets/P026_06.jpg",
+      "assets/P026_07.jpg",
+      "assets/P026_08.jpg",
+      "assets/P026_09.jpg",
+      "assets/P026_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P026_02.jpg",
@@ -13584,7 +13863,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P026_01.jpg"
   },
   {
     "code": "P027",
@@ -13609,7 +13889,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P027_01.jpg",
+      "assets/P027_02.jpg",
+      "assets/P027_03.jpg",
+      "assets/P027_04.jpg",
+      "assets/P027_05.jpg",
+      "assets/P027_06.jpg",
+      "assets/P027_07.jpg",
+      "assets/P027_08.jpg",
+      "assets/P027_09.jpg",
+      "assets/P027_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P027_02.jpg",
@@ -13697,7 +13988,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P027_01.jpg"
   },
   {
     "code": "P028",
@@ -13722,7 +14014,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P028_01.jpg",
+      "assets/P028_02.jpg",
+      "assets/P028_03.jpg",
+      "assets/P028_04.jpg",
+      "assets/P028_05.jpg",
+      "assets/P028_06.jpg",
+      "assets/P028_07.jpg",
+      "assets/P028_08.jpg",
+      "assets/P028_09.jpg",
+      "assets/P028_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P028_02.jpg",
@@ -13810,7 +14113,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P028_01.jpg"
   },
   {
     "code": "P029",
@@ -13834,7 +14138,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P029_01.jpg",
+      "assets/P029_02.jpg",
+      "assets/P029_03.jpg",
+      "assets/P029_04.jpg",
+      "assets/P029_05.jpg",
+      "assets/P029_06.jpg",
+      "assets/P029_07.jpg",
+      "assets/P029_08.jpg",
+      "assets/P029_09.jpg",
+      "assets/P029_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P029_02.jpg",
@@ -13922,7 +14237,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P029_10.jpg"
   },
   {
     "code": "P030",
@@ -13951,7 +14267,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P030_01.jpg",
+      "assets/P030_02.jpg",
+      "assets/P030_03.jpg",
+      "assets/P030_04.jpg",
+      "assets/P030_05.jpg",
+      "assets/P030_06.jpg",
+      "assets/P030_07.jpg",
+      "assets/P030_08.jpg",
+      "assets/P030_09.jpg",
+      "assets/P030_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P030_02.jpg",
@@ -14051,7 +14378,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P030_01.jpg"
   },
   {
     "code": "P031",
@@ -14080,7 +14408,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P031_01.jpg",
+      "assets/P031_02.jpg",
+      "assets/P031_03.jpg",
+      "assets/P031_04.jpg",
+      "assets/P031_05.jpg",
+      "assets/P031_06.jpg",
+      "assets/P031_07.jpg",
+      "assets/P031_08.jpg",
+      "assets/P031_09.jpg",
+      "assets/P031_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P031_02.jpg",
@@ -14173,7 +14512,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P031_01.jpg"
   },
   {
     "code": "P032",
@@ -14198,7 +14538,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P032_01.jpg",
+      "assets/P032_02.jpg",
+      "assets/P032_03.jpg",
+      "assets/P032_04.jpg",
+      "assets/P032_05.jpg",
+      "assets/P032_06.jpg",
+      "assets/P032_07.jpg",
+      "assets/P032_08.jpg",
+      "assets/P032_09.jpg",
+      "assets/P032_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P032_02.jpg",
@@ -14286,7 +14637,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P032_01.jpg"
   },
   {
     "code": "P033",
@@ -14311,7 +14663,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P033_01.jpg",
+      "assets/P033_02.jpg",
+      "assets/P033_03.jpg",
+      "assets/P033_04.jpg",
+      "assets/P033_05.jpg",
+      "assets/P033_06.jpg",
+      "assets/P033_07.jpg",
+      "assets/P033_08.jpg",
+      "assets/P033_09.jpg",
+      "assets/P033_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P033_02.jpg",
@@ -14399,7 +14762,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P033_01.jpg"
   },
   {
     "code": "P034",
@@ -14424,7 +14788,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P034_01.jpg",
+      "assets/P034_02.jpg",
+      "assets/P034_03.jpg",
+      "assets/P034_04.jpg",
+      "assets/P034_05.jpg",
+      "assets/P034_06.jpg",
+      "assets/P034_07.jpg",
+      "assets/P034_08.jpg",
+      "assets/P034_09.jpg",
+      "assets/P034_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P034_02.jpg",
@@ -14512,7 +14887,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P034_01.jpg"
   },
   {
     "code": "P036",
@@ -14536,7 +14912,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P036_01.jpg",
+      "assets/P036_02.jpg",
+      "assets/P036_03.jpg",
+      "assets/P036_04.jpg",
+      "assets/P036_05.jpg",
+      "assets/P036_06.jpg",
+      "assets/P036_07.jpg",
+      "assets/P036_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P036_02.jpg",
@@ -14612,7 +14997,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P036_01.jpg"
   },
   {
     "code": "P037",
@@ -14637,7 +15023,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P037_01.jpg",
+      "assets/P037_02.jpg",
+      "assets/P037_03.jpg",
+      "assets/P037_04.jpg",
+      "assets/P037_05.jpg",
+      "assets/P037_06.jpg",
+      "assets/P037_07.jpg",
+      "assets/P037_08.jpg",
+      "assets/P037_09.jpg",
+      "assets/P037_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P037_03.jpg",
@@ -14724,7 +15121,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P037_01.jpg"
   },
   {
     "code": "P038",
@@ -14751,7 +15149,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P038_01.jpg",
+      "assets/P038_02.jpg",
+      "assets/P038_03.jpg",
+      "assets/P038_04.jpg",
+      "assets/P038_05.jpg",
+      "assets/P038_06.jpg",
+      "assets/P038_07.jpg",
+      "assets/P038_08.jpg",
+      "assets/P038_09.jpg",
+      "assets/P038_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P038_02.jpg",
@@ -14839,7 +15248,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P038_10.jpg"
   },
   {
     "code": "P039",
@@ -14865,7 +15275,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P039_01.jpg",
+      "assets/P039_02.jpg",
+      "assets/P039_03.jpg",
+      "assets/P039_04.jpg",
+      "assets/P039_05.jpg",
+      "assets/P039_06.jpg",
+      "assets/P039_07.jpg",
+      "assets/P039_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P039_03.jpg",
@@ -14943,7 +15362,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P039_01.jpg"
   },
   {
     "code": "P040",
@@ -14970,7 +15390,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P040_01.jpg",
+      "assets/P040_02.jpg",
+      "assets/P040_03.jpg",
+      "assets/P040_04.jpg",
+      "assets/P040_05.jpg",
+      "assets/P040_06.jpg",
+      "assets/P040_07.jpg",
+      "assets/P040_08.jpg",
+      "assets/P040_09.jpg",
+      "assets/P040_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P040_02.jpg",
@@ -15056,7 +15487,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P040_05.jpg"
   },
   {
     "code": "P041",
@@ -15081,7 +15513,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P041_01.jpg",
+      "assets/P041_02.jpg",
+      "assets/P041_03.jpg",
+      "assets/P041_04.jpg",
+      "assets/P041_05.jpg",
+      "assets/P041_06.jpg",
+      "assets/P041_07.jpg",
+      "assets/P041_08.jpg",
+      "assets/P041_09.jpg",
+      "assets/P041_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P041_02.jpg",
@@ -15167,7 +15610,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P041_01.jpg"
   },
   {
     "code": "P042",
@@ -15193,7 +15637,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P042_01.jpg",
+      "assets/P042_02.jpg",
+      "assets/P042_03.jpg",
+      "assets/P042_04.jpg",
+      "assets/P042_05.jpg",
+      "assets/P042_06.jpg",
+      "assets/P042_07.jpg",
+      "assets/P042_08.jpg",
+      "assets/P042_09.jpg",
+      "assets/P042_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P042_02.jpg",
@@ -15281,7 +15736,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P042_10.jpg"
   },
   {
     "code": "P043",
@@ -15306,7 +15762,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P043_01.jpg",
+      "assets/P043_02.jpg",
+      "assets/P043_03.jpg",
+      "assets/P043_04.jpg",
+      "assets/P043_05.jpg",
+      "assets/P043_06.jpg",
+      "assets/P043_07.jpg",
+      "assets/P043_08.jpg",
+      "assets/P043_09.jpg",
+      "assets/P043_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P043_02.jpg",
@@ -15392,7 +15859,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P043_01.jpg"
   },
   {
     "code": "P044",
@@ -15416,7 +15884,16 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P044_01.jpg",
+      "assets/P044_02.jpg",
+      "assets/P044_03.jpg",
+      "assets/P044_04.jpg",
+      "assets/P044_05.jpg",
+      "assets/P044_06.jpg",
+      "assets/P044_07.jpg",
+      "assets/P044_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P044_02.jpg",
@@ -15492,7 +15969,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P044_01.jpg"
   },
   {
     "code": "P045",
@@ -15520,7 +15998,18 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P045_01.jpg",
+      "assets/P045_02.jpg",
+      "assets/P045_03.jpg",
+      "assets/P045_04.jpg",
+      "assets/P045_05.jpg",
+      "assets/P045_06.jpg",
+      "assets/P045_07.jpg",
+      "assets/P045_08.jpg",
+      "assets/P045_09.jpg",
+      "assets/P045_10.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P045_02.jpg",
@@ -15609,7 +16098,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P045_01.jpg"
   },
   {
     "code": "P001",
@@ -15634,7 +16124,13 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P001_01.jpg",
+      "assets/P001_02.jpg",
+      "assets/P001_03.jpg",
+      "assets/P001_04.jpg",
+      "assets/P001_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P001_01.jpg",
@@ -15728,7 +16224,15 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P017_01.jpg",
+      "assets/P017_02.jpg",
+      "assets/P017_03.jpg",
+      "assets/P017_04.jpg",
+      "assets/P017_05.jpg",
+      "assets/P017_06.jpg",
+      "assets/P017_07.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P017_01.jpg",
@@ -15778,8 +16282,8 @@
       "hanger": [],
       "detail": []
     },
-    "mainImage": "",
-    "thumbnail": "",
+    "mainImage": "assets/P017_01.jpg",
+    "thumbnail": "assets/P017_01.jpg",
     "collection": "A",
     "collectionName": "미니 원피스 컬렉션",
     "whyYoullLoveIt": [
@@ -15834,7 +16338,23 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/P035_01.jpg",
+      "assets/P035_02.jpg",
+      "assets/P035_03.jpg",
+      "assets/P035_04.jpg",
+      "assets/P035_05.jpg",
+      "assets/P035_06.jpg",
+      "assets/P035_07.jpg",
+      "assets/P035_08.jpg",
+      "assets/P035_09.jpg",
+      "assets/P035_10.jpg",
+      "assets/P035_11.jpg",
+      "assets/P035_12.jpg",
+      "assets/P035_13.jpg",
+      "assets/P035_14.jpg",
+      "assets/P035_15.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/P035_01.jpg",
@@ -15948,7 +16468,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/P035_15.jpg"
   },
   {
     "code": "N260217",
@@ -15974,7 +16495,14 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260217_01.jpg",
+      "assets/N260217_02.jpg",
+      "assets/N260217_03.jpg",
+      "assets/N260217_04.jpg",
+      "assets/N260217_05.jpg",
+      "assets/N260217_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260217_02.jpg",
@@ -16041,7 +16569,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260217_04.jpg"
   },
   {
     "code": "N260218",
@@ -16062,7 +16591,16 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260218_01.jpg",
+      "assets/N260218_02.jpg",
+      "assets/N260218_03.jpg",
+      "assets/N260218_04.jpg",
+      "assets/N260218_05.jpg",
+      "assets/N260218_06.jpg",
+      "assets/N260218_07.jpg",
+      "assets/N260218_08.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260218_02.jpg",
@@ -16131,7 +16669,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260218_06.jpg"
   },
   {
     "code": "N260219",
@@ -16151,7 +16690,13 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260219_01.jpg",
+      "assets/N260219_02.jpg",
+      "assets/N260219_03.jpg",
+      "assets/N260219_04.jpg",
+      "assets/N260219_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260219_02.jpg",
@@ -16205,7 +16750,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260219_04.jpg"
   },
   {
     "code": "N260220",
@@ -16228,7 +16774,14 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260220_01.jpg",
+      "assets/N260220_02.jpg",
+      "assets/N260220_03.jpg",
+      "assets/N260220_04.jpg",
+      "assets/N260220_05.jpg",
+      "assets/N260220_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260220_02.jpg",
@@ -16287,7 +16840,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260220_01.jpg"
   },
   {
     "code": "N260221",
@@ -16307,7 +16861,13 @@
       "TOP",
       "블라우스"
     ],
-    "images": [],
+    "images": [
+      "assets/N260221_01.jpg",
+      "assets/N260221_02.jpg",
+      "assets/N260221_03.jpg",
+      "assets/N260221_04.jpg",
+      "assets/N260221_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260221_02.jpg",
@@ -16367,7 +16927,8 @@
     ],
     "manualSearchInclude": [
       "블라우스"
-    ]
+    ],
+    "thumbnail": "assets/N260221_04.jpg"
   },
   {
     "code": "N260222",
@@ -16388,7 +16949,13 @@
       "RECOMMEND",
       "SKIRT"
     ],
-    "images": [],
+    "images": [
+      "assets/N260222_01.jpg",
+      "assets/N260222_02.jpg",
+      "assets/N260222_03.jpg",
+      "assets/N260222_04.jpg",
+      "assets/N260222_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260222_02.jpg",
@@ -16449,7 +17016,8 @@
     ],
     "manualSearchInclude": [
       "스커트"
-    ]
+    ],
+    "thumbnail": "assets/N260222_04.jpg"
   },
   {
     "code": "N260223",
@@ -16470,7 +17038,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260223_01.jpg",
+      "assets/N260223_02.jpg",
+      "assets/N260223_03.jpg",
+      "assets/N260223_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260223_02.jpg",
@@ -16522,7 +17095,8 @@
     "size88Available": false,
     "manualSearchExclude": [
       "블랙룩"
-    ]
+    ],
+    "thumbnail": "assets/N260223_04.jpg"
   },
   {
     "code": "N260224",
@@ -16543,7 +17117,13 @@
       "RECOMMEND",
       "SKIRT"
     ],
-    "images": [],
+    "images": [
+      "assets/N260224_01.jpg",
+      "assets/N260224_02.jpg",
+      "assets/N260224_03.jpg",
+      "assets/N260224_04.jpg",
+      "assets/N260224_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260224_02.jpg",
@@ -16597,7 +17177,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260224_04.jpg"
   },
   {
     "code": "N260001",
@@ -16618,7 +17199,13 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260001_01.jpg",
+      "assets/N260001_02.jpg",
+      "assets/N260001_03.jpg",
+      "assets/N260001_04.jpg",
+      "assets/N260001_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260001_02.jpg",
@@ -16693,7 +17280,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260001_05.jpg",
+    "designGroupId": "np-color-ribbon-crop-two-piece",
+    "variantColor": "화이트"
   },
   {
     "code": "N260002",
@@ -16718,7 +17308,13 @@
       "메인노출",
       "럭셔리픽"
     ],
-    "images": [],
+    "images": [
+      "assets/N260002_01.jpg",
+      "assets/N260002_02.jpg",
+      "assets/N260002_03.jpg",
+      "assets/N260002_04.jpg",
+      "assets/N260002_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260002_02.jpg",
@@ -16779,7 +17375,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260002_05.jpg",
+    "designGroupId": "np-color-ribbon-crop-two-piece",
+    "variantColor": "핑크"
   },
   {
     "code": "N260003",
@@ -16800,7 +17399,13 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260003_01.jpg",
+      "assets/N260003_02.jpg",
+      "assets/N260003_03.jpg",
+      "assets/N260003_04.jpg",
+      "assets/N260003_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260003_02.jpg",
@@ -16854,7 +17459,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260003_05.jpg",
+    "designGroupId": "np-color-ribbon-crop-two-piece",
+    "variantColor": "블랙"
   },
   {
     "code": "N260004",
@@ -16876,7 +17484,13 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260004_01.jpg",
+      "assets/N260004_02.jpg",
+      "assets/N260004_03.jpg",
+      "assets/N260004_04.jpg",
+      "assets/N260004_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260004_02.jpg",
@@ -16930,7 +17544,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260004_05.jpg",
+    "designGroupId": "np-color-bcbd8812",
+    "variantColor": "화이트"
   },
   {
     "code": "N260005",
@@ -16952,7 +17569,13 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260005_01.jpg",
+      "assets/N260005_02.jpg",
+      "assets/N260005_03.jpg",
+      "assets/N260005_04.jpg",
+      "assets/N260005_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260005_02.jpg",
@@ -17027,7 +17650,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260005_05.jpg",
+    "designGroupId": "np-color-bcbd8812",
+    "variantColor": "네이비"
   },
   {
     "code": "N260006",
@@ -17048,7 +17674,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260006_01.jpg",
+      "assets/N260006_02.jpg",
+      "assets/N260006_03.jpg",
+      "assets/N260006_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260006_02.jpg",
@@ -17118,7 +17749,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260006_04.jpg"
   },
   {
     "code": "N260007",
@@ -17139,7 +17771,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260007_01.jpg",
+      "assets/N260007_02.jpg",
+      "assets/N260007_03.jpg",
+      "assets/N260007_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260007_02.jpg",
@@ -17188,7 +17825,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260007_03.jpg"
   },
   {
     "code": "N260008",
@@ -17209,7 +17847,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260008_01.jpg",
+      "assets/N260008_02.jpg",
+      "assets/N260008_03.jpg",
+      "assets/N260008_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260008_02.jpg",
@@ -17258,7 +17901,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260008_01.jpg"
   },
   {
     "code": "N260009",
@@ -17280,7 +17924,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260009_01.jpg",
+      "assets/N260009_02.jpg",
+      "assets/N260009_03.jpg",
+      "assets/N260009_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260009_02.jpg",
@@ -17350,7 +17999,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260009_04.jpg",
+    "designGroupId": "np-color-5a7787bf",
+    "variantColor": "화이트"
   },
   {
     "code": "N260010",
@@ -17372,7 +18024,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260010_01.jpg",
+      "assets/N260010_02.jpg",
+      "assets/N260010_03.jpg",
+      "assets/N260010_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260010_02.jpg",
@@ -17421,7 +18078,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260010_04.jpg",
+    "designGroupId": "np-color-5a7787bf",
+    "variantColor": "블랙"
   },
   {
     "code": "N260011",
@@ -17442,7 +18102,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260011_01.jpg",
+      "assets/N260011_02.jpg",
+      "assets/N260011_03.jpg",
+      "assets/N260011_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260011_02.jpg",
@@ -17491,7 +18156,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260011_04.jpg",
+    "designGroupId": "np-color-ad91f063",
+    "variantColor": "화이트/블랙"
   },
   {
     "code": "N260012",
@@ -17512,7 +18180,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260012_01.jpg",
+      "assets/N260012_02.jpg",
+      "assets/N260012_03.jpg",
+      "assets/N260012_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260012_02.jpg",
@@ -17561,7 +18234,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260012_04.jpg",
+    "designGroupId": "np-color-ad91f063",
+    "variantColor": "핑크/화이트"
   },
   {
     "code": "N260013",
@@ -17582,7 +18258,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260013_01.jpg",
+      "assets/N260013_02.jpg",
+      "assets/N260013_03.jpg",
+      "assets/N260013_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260013_02.jpg",
@@ -17631,7 +18312,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260013_04.jpg",
+    "designGroupId": "np-color-ad91f063",
+    "variantColor": "블랙/화이트"
   },
   {
     "code": "N260014",
@@ -17652,7 +18336,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260014_01.jpg",
+      "assets/N260014_02.jpg",
+      "assets/N260014_03.jpg",
+      "assets/N260014_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260014_02.jpg",
@@ -17731,7 +18420,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260014_04.jpg",
+    "designGroupId": "np-color-4db83c65",
+    "variantColor": "핑크"
   },
   {
     "code": "N260015",
@@ -17752,7 +18444,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260015_01.jpg",
+      "assets/N260015_02.jpg",
+      "assets/N260015_03.jpg",
+      "assets/N260015_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260015_02.jpg",
@@ -17801,7 +18498,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260015_04.jpg",
+    "designGroupId": "np-color-4db83c65",
+    "variantColor": "소라"
   },
   {
     "code": "N260016",
@@ -17823,7 +18523,13 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260016_01.jpg",
+      "assets/N260016_02.jpg",
+      "assets/N260016_03.jpg",
+      "assets/N260016_04.jpg",
+      "assets/N260016_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260016_02.jpg",
@@ -17881,7 +18587,8 @@
     "size88Available": true,
     "manualSearchInclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/N260016_03.jpg"
   },
   {
     "code": "N260017",
@@ -17902,7 +18609,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260017_01.jpg",
+      "assets/N260017_02.jpg",
+      "assets/N260017_03.jpg",
+      "assets/N260017_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260017_02.jpg",
@@ -17951,7 +18663,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260017_01.jpg",
+    "designGroupId": "np-color-2909ba4a",
+    "variantColor": "블랙"
   },
   {
     "code": "N260018",
@@ -17972,7 +18687,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260018_01.jpg",
+      "assets/N260018_02.jpg",
+      "assets/N260018_03.jpg",
+      "assets/N260018_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260018_02.jpg",
@@ -18021,7 +18741,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260018_04.jpg",
+    "designGroupId": "np-color-2909ba4a",
+    "variantColor": "화이트"
   },
   {
     "code": "N260019",
@@ -18042,7 +18765,13 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260019_01.jpg",
+      "assets/N260019_02.jpg",
+      "assets/N260019_03.jpg",
+      "assets/N260019_04.jpg",
+      "assets/N260019_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260019_02.jpg",
@@ -18096,7 +18825,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260019_05.jpg",
+    "designGroupId": "np-color-8a6e2eff",
+    "variantColor": "베이지"
   },
   {
     "code": "N260020",
@@ -18120,7 +18852,11 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260020_01.jpg",
+      "assets/N260020_02.jpg",
+      "assets/N260020_03.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260020_01.jpg",
@@ -18173,7 +18909,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260020_01.jpg"
   },
   {
     "code": "N260021",
@@ -18194,7 +18931,14 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260021_01.jpg",
+      "assets/N260021_02.jpg",
+      "assets/N260021_03.jpg",
+      "assets/N260021_04.jpg",
+      "assets/N260021_05.jpg",
+      "assets/N260021_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260021_02.jpg",
@@ -18253,7 +18997,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260021_03.jpg",
+    "designGroupId": "np-color-8a6e2eff",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260022",
@@ -18274,7 +19021,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260022_01.jpg",
+      "assets/N260022_02.jpg",
+      "assets/N260022_03.jpg",
+      "assets/N260022_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260022_02.jpg",
@@ -18331,7 +19083,10 @@
     "manualSearchInclude": [
       "미니원피스",
       "슬림핏"
-    ]
+    ],
+    "thumbnail": "assets/N260022_01.jpg",
+    "designGroupId": "np-color-3e1b903b",
+    "variantColor": "그레이"
   },
   {
     "code": "N260023",
@@ -18352,7 +19107,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260023_01.jpg",
+      "assets/N260023_02.jpg",
+      "assets/N260023_03.jpg",
+      "assets/N260023_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260023_02.jpg",
@@ -18411,7 +19171,9 @@
     "manualSearchInclude": [
       "미니원피스",
       "슬림핏"
-    ]
+    ],
+    "designGroupId": "np-color-3e1b903b",
+    "variantColor": "화이트"
   },
   {
     "code": "N260024",
@@ -18432,7 +19194,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260024_01.jpg",
+      "assets/N260024_02.jpg",
+      "assets/N260024_03.jpg",
+      "assets/N260024_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260024_02.jpg",
@@ -18489,7 +19256,8 @@
     "size88Available": true,
     "manualSearchInclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/N260024_01.jpg"
   },
   {
     "code": "N260025",
@@ -18510,7 +19278,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260025_01.jpg",
+      "assets/N260025_02.jpg",
+      "assets/N260025_03.jpg",
+      "assets/N260025_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260025_02.jpg",
@@ -18559,7 +19332,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260025_01.jpg",
+    "designGroupId": "np-color-bfe15318",
+    "variantColor": "그레이"
   },
   {
     "code": "N260026",
@@ -18580,7 +19356,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260026_01.jpg",
+      "assets/N260026_02.jpg",
+      "assets/N260026_03.jpg",
+      "assets/N260026_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260026_02.jpg",
@@ -18629,7 +19410,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260026_01.jpg",
+    "designGroupId": "np-color-bfe15318",
+    "variantColor": "핑크"
   },
   {
     "code": "N260027",
@@ -18651,7 +19435,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260027_01.jpg",
+      "assets/N260027_02.jpg",
+      "assets/N260027_03.jpg",
+      "assets/N260027_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260027_02.jpg",
@@ -18703,7 +19492,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-22a01a5d",
-    "variantColor": ""
+    "variantColor": "N260027",
+    "thumbnail": "assets/N260027_01.jpg"
   },
   {
     "code": "N260029",
@@ -18725,7 +19515,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260029_01.jpg",
+      "assets/N260029_02.jpg",
+      "assets/N260029_03.jpg",
+      "assets/N260029_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260029_02.jpg",
@@ -18777,7 +19572,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-22a01a5d",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "thumbnail": "assets/N260029_04.jpg"
   },
   {
     "code": "N260030",
@@ -18798,7 +19594,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260030_01.jpg",
+      "assets/N260030_02.jpg",
+      "assets/N260030_03.jpg",
+      "assets/N260030_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260030_02.jpg",
@@ -18855,7 +19656,8 @@
     "manualSearchInclude": [
       "미니원피스",
       "슬림핏"
-    ]
+    ],
+    "thumbnail": "assets/N260030_01.jpg"
   },
   {
     "code": "N260031",
@@ -18877,7 +19679,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260031_01.jpg",
+      "assets/N260031_02.jpg",
+      "assets/N260031_03.jpg",
+      "assets/N260031_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260031_02.jpg",
@@ -18927,7 +19734,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260031_04.jpg",
+    "designGroupId": "np-color-645de66a",
+    "variantColor": "화이트"
   },
   {
     "code": "N260032",
@@ -18949,7 +19759,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260032_01.jpg",
+      "assets/N260032_02.jpg",
+      "assets/N260032_03.jpg",
+      "assets/N260032_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260032_02.jpg",
@@ -18999,7 +19814,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260032_04.jpg",
+    "designGroupId": "np-color-645de66a",
+    "variantColor": "핑크"
   },
   {
     "code": "N260033",
@@ -19020,7 +19838,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260033_01.jpg",
+      "assets/N260033_02.jpg",
+      "assets/N260033_03.jpg",
+      "assets/N260033_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260033_02.jpg",
@@ -19069,7 +19892,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260033_04.jpg"
   },
   {
     "code": "N260034",
@@ -19090,7 +19914,12 @@
       "RECOMMEND",
       "SKIRT"
     ],
-    "images": [],
+    "images": [
+      "assets/N260034_01.jpg",
+      "assets/N260034_02.jpg",
+      "assets/N260034_03.jpg",
+      "assets/N260034_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260034_02.jpg",
@@ -19139,7 +19968,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260034_04.jpg"
   },
   {
     "code": "N260035",
@@ -19160,7 +19990,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260035_01.jpg",
+      "assets/N260035_02.jpg",
+      "assets/N260035_03.jpg",
+      "assets/N260035_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260035_02.jpg",
@@ -19209,7 +20044,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260035_04.jpg"
   },
   {
     "code": "N260036",
@@ -19231,7 +20067,14 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260036_01.jpg",
+      "assets/N260036_02.jpg",
+      "assets/N260036_03.jpg",
+      "assets/N260036_04.jpg",
+      "assets/N260036_05.jpg",
+      "assets/N260036_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260036_02.jpg",
@@ -19291,7 +20134,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260036_05.jpg"
   },
   {
     "code": "N260037",
@@ -19314,7 +20158,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260037_01.jpg",
+      "assets/N260037_02.jpg",
+      "assets/N260037_03.jpg",
+      "assets/N260037_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260037_02.jpg",
@@ -19371,7 +20220,8 @@
     "manualSearchInclude": [
       "미디원피스",
       "슬림핏"
-    ]
+    ],
+    "thumbnail": "assets/N260037_04.jpg"
   },
   {
     "code": "N260038",
@@ -19394,7 +20244,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260038_01.jpg",
+      "assets/N260038_02.jpg",
+      "assets/N260038_03.jpg",
+      "assets/N260038_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260038_02.jpg",
@@ -19451,7 +20306,8 @@
     "manualSearchInclude": [
       "미디원피스",
       "슬림핏"
-    ]
+    ],
+    "thumbnail": "assets/N260038_04.jpg"
   },
   {
     "code": "N260039",
@@ -19473,7 +20329,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260039_01.jpg",
+      "assets/N260039_02.jpg",
+      "assets/N260039_03.jpg",
+      "assets/N260039_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260039_02.jpg",
@@ -19522,7 +20383,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260039_01.jpg"
   },
   {
     "code": "N260040",
@@ -19543,7 +20405,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260040_01.jpg",
+      "assets/N260040_02.jpg",
+      "assets/N260040_03.jpg",
+      "assets/N260040_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260040_02.jpg",
@@ -19592,7 +20459,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260040_04.jpg"
   },
   {
     "code": "N260041",
@@ -19613,7 +20481,12 @@
       "RECOMMEND",
       "SKIRT"
     ],
-    "images": [],
+    "images": [
+      "assets/N260041_01.jpg",
+      "assets/N260041_02.jpg",
+      "assets/N260041_03.jpg",
+      "assets/N260041_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260041_02.jpg",
@@ -19662,7 +20535,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260041_01.jpg"
   },
   {
     "code": "N260043",
@@ -19684,7 +20558,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260043_01.jpg",
+      "assets/N260043_02.jpg",
+      "assets/N260043_03.jpg",
+      "assets/N260043_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260043_02.jpg",
@@ -19760,7 +20639,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260043_04.jpg",
+    "designGroupId": "np-color-c5733bbb",
+    "variantColor": "블랙"
   },
   {
     "code": "N260044",
@@ -19782,7 +20664,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260044_01.jpg",
+      "assets/N260044_02.jpg",
+      "assets/N260044_03.jpg",
+      "assets/N260044_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260044_02.jpg",
@@ -19851,7 +20738,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260044_04.jpg",
+    "designGroupId": "np-color-c5733bbb",
+    "variantColor": "핑크"
   },
   {
     "code": "N260045",
@@ -19873,7 +20763,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260045_01.jpg",
+      "assets/N260045_02.jpg",
+      "assets/N260045_03.jpg",
+      "assets/N260045_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260045_02.jpg",
@@ -19922,7 +20817,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260045_04.jpg",
+    "designGroupId": "np-color-c65c4bb9",
+    "variantColor": "베이지"
   },
   {
     "code": "N260046",
@@ -19949,7 +20847,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260046_01.jpg",
+      "assets/N260046_02.jpg",
+      "assets/N260046_03.jpg",
+      "assets/N260046_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260046_02.jpg",
@@ -20006,7 +20909,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260046_04.jpg",
+    "designGroupId": "np-color-c65c4bb9",
+    "variantColor": "핑크"
   },
   {
     "code": "N260047",
@@ -20033,7 +20939,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260047_01.jpg",
+      "assets/N260047_02.jpg",
+      "assets/N260047_03.jpg",
+      "assets/N260047_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260047_02.jpg",
@@ -20088,7 +20999,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260047_04.jpg"
   },
   {
     "code": "N260048",
@@ -20115,7 +21027,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260048_01.jpg",
+      "assets/N260048_02.jpg",
+      "assets/N260048_03.jpg",
+      "assets/N260048_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260048_02.jpg",
@@ -20170,7 +21087,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260048_04.jpg"
   },
   {
     "code": "N260049",
@@ -20192,7 +21110,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260049_01.jpg",
+      "assets/N260049_02.jpg",
+      "assets/N260049_03.jpg",
+      "assets/N260049_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260049_02.jpg",
@@ -20244,7 +21167,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "h-midi-h-h-4ccbe2d9",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "thumbnail": "assets/N260049_04.jpg"
   },
   {
     "code": "N260050",
@@ -20266,7 +21190,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260050_01.jpg",
+      "assets/N260050_02.jpg",
+      "assets/N260050_03.jpg",
+      "assets/N260050_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260050_02.jpg",
@@ -20342,7 +21271,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260050_04.jpg"
   },
   {
     "code": "N260051",
@@ -20363,7 +21293,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260051_01.jpg",
+      "assets/N260051_02.jpg",
+      "assets/N260051_03.jpg",
+      "assets/N260051_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260051_02.jpg",
@@ -20414,7 +21349,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "h-midi-h-h-4ccbe2d9",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "thumbnail": "assets/N260051_04.jpg"
   },
   {
     "code": "N260052",
@@ -20435,7 +21371,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260052_01.jpg",
+      "assets/N260052_02.jpg",
+      "assets/N260052_03.jpg",
+      "assets/N260052_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260052_02.jpg",
@@ -20510,7 +21451,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260052_04.jpg"
   },
   {
     "code": "N260053",
@@ -20531,7 +21473,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260053_01.jpg",
+      "assets/N260053_02.jpg",
+      "assets/N260053_03.jpg",
+      "assets/N260053_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260053_02.jpg",
@@ -20606,7 +21553,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260053_04.jpg"
   },
   {
     "code": "N260054",
@@ -20627,7 +21575,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260054_01.jpg",
+      "assets/N260054_02.jpg",
+      "assets/N260054_03.jpg",
+      "assets/N260054_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260054_02.jpg",
@@ -20676,7 +21629,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260054_04.jpg"
   },
   {
     "code": "N260055",
@@ -20695,7 +21649,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260055_01.jpg",
+      "assets/N260055_02.jpg",
+      "assets/N260055_03.jpg",
+      "assets/N260055_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260055_02.jpg",
@@ -20773,7 +21732,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260055_04.jpg",
+    "designGroupId": "np-color-a7f62554",
+    "variantColor": "화이트"
   },
   {
     "code": "N260056",
@@ -20792,7 +21754,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260056_01.jpg",
+      "assets/N260056_02.jpg",
+      "assets/N260056_03.jpg",
+      "assets/N260056_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260056_02.jpg",
@@ -20866,7 +21833,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260056_04.jpg",
+    "designGroupId": "np-color-a7f62554",
+    "variantColor": "블랙"
   },
   {
     "code": "N260057",
@@ -20886,7 +21856,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260057_01.jpg",
+      "assets/N260057_02.jpg",
+      "assets/N260057_03.jpg",
+      "assets/N260057_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260057_02.jpg",
@@ -20964,7 +21939,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260057_04.jpg",
+    "designGroupId": "np-color-strap-pleats-mini",
+    "variantColor": "민트"
   },
   {
     "code": "N260058",
@@ -20984,7 +21962,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260058_01.jpg",
+      "assets/N260058_02.jpg",
+      "assets/N260058_03.jpg",
+      "assets/N260058_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260058_02.jpg",
@@ -21011,7 +21994,7 @@
     "name_en": "Strap Sleeveless Top Pleated Mini Dress",
     "name_cn": "肩带 无袖上衣 百褶 迷你连衣裙",
     "name_jp": "ストラップ ノースリーブトップ プリーツ ミニワンピース",
-    "mainImage": "assets/N260058_04.jpg",
+    "mainImage": "assets/N260058_01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
@@ -21051,7 +22034,7 @@
       "움직임이 예쁜 플리츠 디테일"
     ],
     "editorsNote": "플리츠와 미니 포인트가 한 벌만으로 시선을 잡아주는 탑입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "thumbImage": "assets/N260058_04.jpg",
+    "thumbImage": "assets/N260058_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -21061,7 +22044,10 @@
     "size88Available": true,
     "adminNotes": [
       "2026-07 수동수정: 메인컷을 기존 3번째 사진(N260058_04)으로 변경"
-    ]
+    ],
+    "thumbnail": "assets/N260058_01.jpg",
+    "designGroupId": "np-color-strap-pleats-mini",
+    "variantColor": "블랙"
   },
   {
     "code": "N260059",
@@ -21085,7 +22071,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260059_01.jpg",
+      "assets/N260059_02.jpg",
+      "assets/N260059_03.jpg",
+      "assets/N260059_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260059_02.jpg",
@@ -21112,7 +22103,7 @@
     "name_en": "Flower Shoulder H-Line Mini Dress",
     "name_cn": "花朵 肩部 H版型 迷你礼服",
     "name_jp": "フラワー ショルダー Hライン ミニドレス",
-    "mainImage": "assets/N260059_04.jpg",
+    "mainImage": "assets/N260059_01.jpg",
     "collection": "A",
     "collectionName": "미니 원피스 컬렉션",
     "sizeInfo": "확인 필요",
@@ -21157,7 +22148,7 @@
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
     "thickness": "두께감 확인 필요",
     "seoName": "플라워 숄더 H라인 미니 드레스",
-    "thumbImage": "assets/N260059_04.jpg",
+    "thumbImage": "assets/N260059_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -21167,7 +22158,10 @@
     "size88Available": true,
     "adminNotes": [
       "2026-07 수동수정: 메인컷을 기존 3번째 사진(N260059_04)으로 변경"
-    ]
+    ],
+    "thumbnail": "assets/N260059_01.jpg",
+    "designGroupId": "np-color-flower-shoulder-h-mini",
+    "variantColor": "화이트"
   },
   {
     "code": "N260060",
@@ -21191,7 +22185,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260060_01.jpg",
+      "assets/N260060_02.jpg",
+      "assets/N260060_03.jpg",
+      "assets/N260060_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260060_02.jpg",
@@ -21244,7 +22243,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260060_04.jpg",
+    "designGroupId": "np-color-flower-shoulder-h-mini",
+    "variantColor": "블랙"
   },
   {
     "code": "N260061",
@@ -21268,7 +22270,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260061_01.jpg",
+      "assets/N260061_02.jpg",
+      "assets/N260061_03.jpg",
+      "assets/N260061_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260061_02.jpg",
@@ -21324,7 +22331,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260061_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "화이트"
   },
   {
     "code": "N260062",
@@ -21348,7 +22358,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260062_01.jpg",
+      "assets/N260062_02.jpg",
+      "assets/N260062_03.jpg",
+      "assets/N260062_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260062_02.jpg",
@@ -21429,7 +22444,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260062_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "핑크"
   },
   {
     "code": "N260063",
@@ -21448,7 +22466,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260063_01.jpg",
+      "assets/N260063_02.jpg",
+      "assets/N260063_03.jpg",
+      "assets/N260063_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260063_02.jpg",
@@ -21522,7 +22545,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260063_04.jpg",
+    "designGroupId": "np-color-b5380845",
+    "variantColor": "화이트"
   },
   {
     "code": "N260064",
@@ -21541,7 +22567,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260064_01.jpg",
+      "assets/N260064_02.jpg",
+      "assets/N260064_03.jpg",
+      "assets/N260064_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260064_02.jpg",
@@ -21619,7 +22650,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260064_04.jpg",
+    "designGroupId": "np-color-b5380845",
+    "variantColor": "블랙"
   },
   {
     "code": "N260065",
@@ -21638,7 +22672,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260065_01.jpg",
+      "assets/N260065_02.jpg",
+      "assets/N260065_03.jpg",
+      "assets/N260065_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260065_02.jpg",
@@ -21688,7 +22727,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "v-mini-v-e3e56796",
-    "variantColor": "브라운"
+    "variantColor": "브라운",
+    "thumbnail": "assets/N260065_03.jpg"
   },
   {
     "code": "N260067",
@@ -21707,7 +22747,13 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260067_01.jpg",
+      "assets/N260067_02.jpg",
+      "assets/N260067_03.jpg",
+      "assets/N260067_04.jpg",
+      "assets/N260067_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260067_02.jpg",
@@ -21762,7 +22808,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "a-mini-a-a-7c4cb5e0",
-    "variantColor": "연보라/옐로우/민트"
+    "variantColor": "연보라/옐로우/민트",
+    "thumbnail": "assets/N260067_02.jpg"
   },
   {
     "code": "N260068",
@@ -21773,7 +22820,7 @@
     "name": "도트 리본 타이 A라인 미니 드레스",
     "storeName": "도트 리본 타이 A라인 미니 드레스",
     "category": "MINI",
-    "color": "엘로우",
+    "color": "옐로우",
     "size": "S,M,L",
     "price": 126000,
     "tags": [
@@ -21781,7 +22828,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260068_01.jpg",
+      "assets/N260068_02.jpg",
+      "assets/N260068_03.jpg",
+      "assets/N260068_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260068_02.jpg",
@@ -21822,14 +22874,17 @@
       "하체 라인을 부담 없이 커버하는 A라인 실루엣"
     ],
     "editorsNote": "A라인과 리본 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
-    "thumbImage": "assets/N260068_04.jpg",
+    "thumbImage": "assets/N260068_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260068_01.jpg",
+    "designGroupId": "a-mini-a-a-7c4cb5e0",
+    "variantColor": "옐로우"
   },
   {
     "code": "N260069",
@@ -21848,7 +22903,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260069_01.jpg",
+      "assets/N260069_02.jpg",
+      "assets/N260069_03.jpg",
+      "assets/N260069_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260069_02.jpg",
@@ -21889,7 +22949,7 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
     "editorsNote": "A라인과 리본 포인트가 조명 아래에서 존재감을 살려주는 드레스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
-    "thumbImage": "assets/N260069_04.jpg",
+    "thumbImage": "assets/N260069_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -21898,7 +22958,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "a-mini-a-a-7c4cb5e0",
-    "variantColor": "연보라"
+    "variantColor": "연보라",
+    "thumbnail": "assets/N260069_01.jpg"
   },
   {
     "code": "N260070",
@@ -21917,7 +22978,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260070_01.jpg",
+      "assets/N260070_02.jpg",
+      "assets/N260070_03.jpg",
+      "assets/N260070_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260070_02.jpg",
@@ -21965,7 +23031,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260070_03.jpg",
+    "designGroupId": "v-mini-v-e3e56796",
+    "variantColor": "베이지"
   },
   {
     "code": "N260071",
@@ -21984,7 +23053,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260071_01.jpg",
+      "assets/N260071_02.jpg",
+      "assets/N260071_03.jpg",
+      "assets/N260071_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260071_02.jpg",
@@ -22029,7 +23103,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "v-mini-v-e3e56796",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260071_02.jpg"
   },
   {
     "code": "N260072",
@@ -22048,7 +23123,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260072_01.jpg",
+      "assets/N260072_02.jpg",
+      "assets/N260072_03.jpg",
+      "assets/N260072_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260072_02.jpg",
@@ -22098,7 +23178,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-b125e001",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260072_04.jpg"
   },
   {
     "code": "N260073",
@@ -22117,7 +23198,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260073_01.jpg",
+      "assets/N260073_02.jpg",
+      "assets/N260073_03.jpg",
+      "assets/N260073_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260073_02.jpg",
@@ -22160,7 +23246,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260073_02.jpg",
+    "designGroupId": "mini-b125e001",
+    "variantColor": "화이트"
   },
   {
     "code": "N260074",
@@ -22179,7 +23268,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260074_01.jpg",
+      "assets/N260074_02.jpg",
+      "assets/N260074_03.jpg",
+      "assets/N260074_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260074_02.jpg",
@@ -22227,7 +23321,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260074_01.jpg",
+    "designGroupId": "mini-b125e001",
+    "variantColor": "블랙"
   },
   {
     "code": "N260075",
@@ -22246,7 +23343,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260075_01.jpg",
+      "assets/N260075_02.jpg",
+      "assets/N260075_03.jpg",
+      "assets/N260075_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260075_02.jpg",
@@ -22294,7 +23396,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260075_01.jpg",
+    "designGroupId": "np-color-5d15886f",
+    "variantColor": "소라"
   },
   {
     "code": "N260076",
@@ -22313,7 +23418,14 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260076_01.jpg",
+      "assets/N260076_02.jpg",
+      "assets/N260076_03.jpg",
+      "assets/N260076_04.jpg",
+      "assets/N260076_05.jpg",
+      "assets/N260076_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260076_02.jpg",
@@ -22371,7 +23483,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260076_01.jpg",
+    "designGroupId": "np-color-5d15886f",
+    "variantColor": "핑크"
   },
   {
     "code": "N260077",
@@ -22390,7 +23505,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260077_01.jpg",
+      "assets/N260077_02.jpg",
+      "assets/N260077_03.jpg",
+      "assets/N260077_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260077_02.jpg",
@@ -22438,7 +23558,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260077_02.jpg",
+    "designGroupId": "np-color-5d15886f",
+    "variantColor": "화이트"
   },
   {
     "code": "N260078",
@@ -22459,7 +23582,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260078_01.jpg",
+      "assets/N260078_02.jpg",
+      "assets/N260078_03.jpg",
+      "assets/N260078_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260078_02.jpg",
@@ -22486,7 +23614,7 @@
     "name_en": "Shirring Pintuck Midi Dress",
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
-    "mainImage": "assets/custom/N260078-main.jpg",
+    "mainImage": "assets/N260078_01.jpg",
     "collection": "C",
     "collectionName": "미디 & 롱 컬렉션",
     "whyYoullLoveIt": [
@@ -22501,7 +23629,7 @@
     ],
     "editorsNote": "셔링과 라인 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
-    "thumbImage": "assets/custom/N260078-main.jpg",
+    "thumbImage": "assets/N260078_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -22513,7 +23641,8 @@
     "variantColor": "소라",
     "adminNotes": [
       "2026-07 수동수정: 업로드 이미지로 3번째/4번째 사진 교체, 메인컷 교체"
-    ]
+    ],
+    "thumbnail": "assets/N260078_01.jpg"
   },
   {
     "code": "N260079",
@@ -22532,7 +23661,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260079_01.jpg",
+      "assets/N260079_02.jpg",
+      "assets/N260079_03.jpg",
+      "assets/N260079_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260079_02.jpg",
@@ -22599,7 +23733,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260079_04.jpg"
   },
   {
     "code": "N260080",
@@ -22620,7 +23755,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260080_01.jpg",
+      "assets/N260080_02.jpg",
+      "assets/N260080_03.jpg",
+      "assets/N260080_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260080_02.jpg",
@@ -22668,7 +23808,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260080_02.jpg",
+    "designGroupId": "np-color-7275e2bf",
+    "variantColor": "블랙"
   },
   {
     "code": "N260081",
@@ -22689,7 +23832,14 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260081_01.jpg",
+      "assets/N260081_02.jpg",
+      "assets/N260081_03.jpg",
+      "assets/N260081_04.jpg",
+      "assets/N260081_05.jpg",
+      "assets/N260081_06.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260081_02.jpg",
@@ -22747,7 +23897,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260081_04.jpg",
+    "designGroupId": "np-color-7275e2bf",
+    "variantColor": "화이트"
   },
   {
     "code": "N260082",
@@ -22768,7 +23921,12 @@
       "RECOMMEND",
       "MIDI"
     ],
-    "images": [],
+    "images": [
+      "assets/N260082_01.jpg",
+      "assets/N260082_02.jpg",
+      "assets/N260082_03.jpg",
+      "assets/N260082_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260082_02.jpg",
@@ -22819,7 +23977,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-304f5ea9",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "thumbnail": "assets/N260082_01.jpg"
   },
   {
     "code": "N260083",
@@ -22840,7 +23999,12 @@
       "RECOMMEND",
       "MIDI"
     ],
-    "images": [],
+    "images": [
+      "assets/N260083_01.jpg",
+      "assets/N260083_02.jpg",
+      "assets/N260083_03.jpg",
+      "assets/N260083_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260083_02.jpg",
@@ -22889,7 +24053,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260083_04.jpg",
+    "designGroupId": "midi-304f5ea9",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260084",
@@ -22910,7 +24077,12 @@
       "RECOMMEND",
       "MIDI"
     ],
-    "images": [],
+    "images": [
+      "assets/N260084_01.jpg",
+      "assets/N260084_02.jpg",
+      "assets/N260084_03.jpg",
+      "assets/N260084_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260084_02.jpg",
@@ -22961,7 +24133,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-304f5ea9",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260084_03.jpg"
   },
   {
     "code": "N260085",
@@ -22983,7 +24156,13 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260085_01.jpg",
+      "assets/N260085_02.jpg",
+      "assets/N260085_03.jpg",
+      "assets/N260085_04.jpg",
+      "assets/N260085_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260085_02.jpg",
@@ -23036,7 +24215,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260085_04.jpg",
+    "designGroupId": "np-color-2530fa22",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260086",
@@ -23058,7 +24240,13 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260086_01.jpg",
+      "assets/N260086_02.jpg",
+      "assets/N260086_03.jpg",
+      "assets/N260086_04.jpg",
+      "assets/N260086_05.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260086_02.jpg",
@@ -23111,7 +24299,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260086_01.jpg",
+    "designGroupId": "np-color-2530fa22",
+    "variantColor": "핑크"
   },
   {
     "code": "N260087",
@@ -23130,7 +24321,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260087_01.jpg",
+      "assets/N260087_02.jpg",
+      "assets/N260087_03.jpg",
+      "assets/N260087_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260087_02.jpg",
@@ -23178,7 +24374,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260087_04.jpg",
+    "designGroupId": "np-color-973d139b",
+    "variantColor": "블랙"
   },
   {
     "code": "N260088",
@@ -23197,7 +24396,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260088_01.jpg",
+      "assets/N260088_02.jpg",
+      "assets/N260088_03.jpg",
+      "assets/N260088_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260088_02.jpg",
@@ -23240,7 +24444,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260088_01.jpg",
+    "designGroupId": "np-color-973d139b",
+    "variantColor": "핑크"
   },
   {
     "code": "N260089",
@@ -23259,7 +24466,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260089_01.jpg",
+      "assets/N260089_02.jpg",
+      "assets/N260089_03.jpg",
+      "assets/N260089_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260089_02.jpg",
@@ -23307,7 +24519,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260089_04.jpg",
+    "designGroupId": "np-color-d27c015c",
+    "variantColor": "핑크/아이보리"
   },
   {
     "code": "N260090",
@@ -23328,7 +24543,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260090_01.jpg",
+      "assets/N260090_02.jpg",
+      "assets/N260090_03.jpg",
+      "assets/N260090_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260090_02.jpg",
@@ -23379,7 +24599,8 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "midi-36167bd6",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260090_04.jpg"
   },
   {
     "code": "N260091",
@@ -23398,7 +24619,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260091_01.jpg",
+      "assets/N260091_02.jpg",
+      "assets/N260091_03.jpg",
+      "assets/N260091_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260091_02.jpg",
@@ -23446,7 +24672,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260091_04.jpg",
+    "designGroupId": "np-color-d27c015c",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260092",
@@ -23467,7 +24696,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260092_01.jpg",
+      "assets/N260092_02.jpg",
+      "assets/N260092_03.jpg",
+      "assets/N260092_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/custom/N260092-full.jpg",
@@ -23494,7 +24728,7 @@
     "name_en": "Shirring Pintuck Midi Dress",
     "name_cn": "抽褶 捏褶 中长连衣裙",
     "name_jp": "シャーリング ピンタック ミディワンピース",
-    "mainImage": "assets/custom/N260092-main.jpg",
+    "mainImage": "assets/N260092_01.jpg",
     "collection": "C",
     "collectionName": "미디 & 롱 컬렉션",
     "whyYoullLoveIt": [
@@ -23509,7 +24743,7 @@
     ],
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
-    "thumbImage": "assets/custom/N260092-main.jpg",
+    "thumbImage": "assets/N260092_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -23521,7 +24755,8 @@
     "variantColor": "화이트",
     "adminNotes": [
       "2026-07 수동수정: 2번째/4번째 사진 제거 후 업로드 이미지로 메인컷/전신컷/디테일 교체"
-    ]
+    ],
+    "thumbnail": "assets/N260092_01.jpg"
   },
   {
     "code": "N260093",
@@ -23540,7 +24775,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260093_01.jpg",
+      "assets/N260093_02.jpg",
+      "assets/N260093_03.jpg",
+      "assets/N260093_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260093_02.jpg",
@@ -23588,7 +24828,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260093_04.jpg"
   },
   {
     "code": "N260110",
@@ -23607,7 +24848,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260110_01.jpg",
+      "assets/N260110_02.jpg",
+      "assets/N260110_03.jpg",
+      "assets/N260110_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260110_02.jpg",
@@ -23665,7 +24911,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260110_04.jpg"
   },
   {
     "code": "N260111",
@@ -23690,7 +24937,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260111_01.jpg",
+      "assets/N260111_02.jpg",
+      "assets/N260111_03.jpg",
+      "assets/N260111_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260111_02.jpg",
@@ -23764,7 +25016,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260111_04.jpg"
   },
   {
     "code": "N260112",
@@ -23785,7 +25038,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260112_01.jpg",
+      "assets/N260112_02.jpg",
+      "assets/N260112_03.jpg",
+      "assets/N260112_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260112_02.jpg",
@@ -23833,7 +25091,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260112_04.jpg"
   },
   {
     "code": "N260113",
@@ -23854,7 +25113,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260113_01.jpg",
+      "assets/N260113_02.jpg",
+      "assets/N260113_03.jpg",
+      "assets/N260113_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260113_02.jpg",
@@ -23902,7 +25166,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260113_03.jpg"
   },
   {
     "code": "N260114",
@@ -23929,7 +25194,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260114_01.jpg",
+      "assets/N260114_02.jpg",
+      "assets/N260114_03.jpg",
+      "assets/N260114_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260114_02.jpg",
@@ -23983,7 +25253,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260114_04.jpg"
   },
   {
     "code": "N260115",
@@ -24004,7 +25275,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260115_01.jpg",
+      "assets/N260115_02.jpg",
+      "assets/N260115_03.jpg",
+      "assets/N260115_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260115_02.jpg",
@@ -24052,7 +25328,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260115_04.jpg"
   },
   {
     "code": "N260116",
@@ -24079,7 +25356,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260116_01.jpg",
+      "assets/N260116_02.jpg",
+      "assets/N260116_03.jpg",
+      "assets/N260116_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260116_02.jpg",
@@ -24147,7 +25429,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260116_04.jpg"
   },
   {
     "code": "N260117",
@@ -24166,7 +25449,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260117_01.jpg",
+      "assets/N260117_02.jpg",
+      "assets/N260117_03.jpg",
+      "assets/N260117_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260117_02.jpg",
@@ -24224,7 +25512,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260117_01.jpg"
   },
   {
     "code": "N260118",
@@ -24245,7 +25534,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260118_01.jpg",
+      "assets/N260118_02.jpg",
+      "assets/N260118_03.jpg",
+      "assets/N260118_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260118_02.jpg",
@@ -24293,7 +25587,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260118_04.jpg"
   },
   {
     "code": "N260119",
@@ -24315,7 +25610,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260119_01.jpg",
+      "assets/N260119_02.jpg",
+      "assets/N260119_03.jpg",
+      "assets/N260119_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260119_02.jpg",
@@ -24363,7 +25663,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260119_04.jpg"
   },
   {
     "code": "N260120",
@@ -24383,7 +25684,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260120_01.jpg",
+      "assets/N260120_02.jpg",
+      "assets/N260120_03.jpg",
+      "assets/N260120_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260120_02.jpg",
@@ -24431,7 +25737,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260120_04.jpg"
   },
   {
     "code": "N260121",
@@ -24457,7 +25764,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260121_01.jpg",
+      "assets/N260121_02.jpg",
+      "assets/N260121_03.jpg",
+      "assets/N260121_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260121_02.jpg",
@@ -24511,7 +25823,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260121_04.jpg"
   },
   {
     "code": "N260122",
@@ -24530,7 +25843,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260122_01.jpg",
+      "assets/N260122_02.jpg",
+      "assets/N260122_03.jpg",
+      "assets/N260122_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260122_02.jpg",
@@ -24588,7 +25906,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260122_03.jpg",
+    "designGroupId": "np-color-479bb5d0",
+    "variantColor": "핑크"
   },
   {
     "code": "N260123",
@@ -24607,7 +25928,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260123_01.jpg",
+      "assets/N260123_02.jpg",
+      "assets/N260123_03.jpg",
+      "assets/N260123_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260123_02.jpg",
@@ -24655,7 +25981,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260123_02.jpg",
+    "designGroupId": "np-color-479bb5d0",
+    "variantColor": "민트"
   },
   {
     "code": "N260124",
@@ -24674,7 +26003,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260124_01.jpg",
+      "assets/N260124_02.jpg",
+      "assets/N260124_03.jpg",
+      "assets/N260124_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260124_02.jpg",
@@ -24722,7 +26056,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260124_02.jpg",
+    "designGroupId": "np-color-479bb5d0",
+    "variantColor": "화이트"
   },
   {
     "code": "N260125",
@@ -24741,7 +26078,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260125_01.jpg",
+      "assets/N260125_02.jpg",
+      "assets/N260125_03.jpg",
+      "assets/N260125_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260125_02.jpg",
@@ -24789,7 +26131,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260125_01.jpg"
   },
   {
     "code": "N260126",
@@ -24808,7 +26151,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260126_01.jpg",
+      "assets/N260126_02.jpg",
+      "assets/N260126_03.jpg",
+      "assets/N260126_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260126_02.jpg",
@@ -24856,7 +26204,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260126_01.jpg",
+    "designGroupId": "np-color-98e4b9f1",
+    "variantColor": "화이트"
   },
   {
     "code": "N260127",
@@ -24875,7 +26226,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260127_01.jpg",
+      "assets/N260127_02.jpg",
+      "assets/N260127_03.jpg",
+      "assets/N260127_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260127_02.jpg",
@@ -24923,7 +26279,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260127_04.jpg",
+    "designGroupId": "np-color-98e4b9f1",
+    "variantColor": "핑크"
   },
   {
     "code": "N260128",
@@ -24942,7 +26301,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260128_01.jpg",
+      "assets/N260128_02.jpg",
+      "assets/N260128_03.jpg",
+      "assets/N260128_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260128_02.jpg",
@@ -24990,7 +26354,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260128_04.jpg",
+    "designGroupId": "np-color-98e4b9f1",
+    "variantColor": "블랙"
   },
   {
     "code": "N260129",
@@ -25014,7 +26381,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260129_01.jpg",
+      "assets/N260129_02.jpg",
+      "assets/N260129_03.jpg",
+      "assets/N260129_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260129_02.jpg",
@@ -25072,7 +26444,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260129_04.jpg",
+    "designGroupId": "np-color-8dfe860e",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260130",
@@ -25096,7 +26471,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260130_01.jpg",
+      "assets/N260130_02.jpg",
+      "assets/N260130_03.jpg",
+      "assets/N260130_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260130_02.jpg",
@@ -25154,7 +26534,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260130_01.jpg",
+    "designGroupId": "np-color-8dfe860e",
+    "variantColor": "핑크"
   },
   {
     "code": "N260131",
@@ -25178,7 +26561,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260131_01.jpg",
+      "assets/N260131_02.jpg",
+      "assets/N260131_03.jpg",
+      "assets/N260131_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260131_02.jpg",
@@ -25232,7 +26620,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260131_04.jpg",
+    "designGroupId": "np-color-8dfe860e",
+    "variantColor": "블랙"
   },
   {
     "code": "N260132",
@@ -25259,7 +26650,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260132_01.jpg",
+      "assets/N260132_02.jpg",
+      "assets/N260132_03.jpg",
+      "assets/N260132_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260132_02.jpg",
@@ -25313,7 +26709,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260132_04.jpg"
   },
   {
     "code": "N260133",
@@ -25332,7 +26729,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260133_01.jpg",
+      "assets/N260133_02.jpg",
+      "assets/N260133_03.jpg",
+      "assets/N260133_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260133_02.jpg",
@@ -25380,7 +26782,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260133_03.jpg"
   },
   {
     "code": "N260134",
@@ -25399,7 +26802,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260134_01.jpg",
+      "assets/N260134_02.jpg",
+      "assets/N260134_03.jpg",
+      "assets/N260134_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260134_02.jpg",
@@ -25447,7 +26855,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260134_04.jpg"
   },
   {
     "code": "N260135",
@@ -25466,7 +26875,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260135_01.jpg",
+      "assets/N260135_02.jpg",
+      "assets/N260135_03.jpg",
+      "assets/N260135_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260135_02.jpg",
@@ -25514,7 +26928,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260135_04.jpg"
   },
   {
     "code": "N260136",
@@ -25533,7 +26948,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260136_01.jpg",
+      "assets/N260136_02.jpg",
+      "assets/N260136_03.jpg",
+      "assets/N260136_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260136_02.jpg",
@@ -25581,7 +27001,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260136_03.jpg"
   },
   {
     "code": "N260137",
@@ -25600,7 +27021,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260137_01.jpg",
+      "assets/N260137_02.jpg",
+      "assets/N260137_03.jpg",
+      "assets/N260137_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260137_02.jpg",
@@ -25667,7 +27093,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260137_04.jpg"
   },
   {
     "code": "N260138",
@@ -25686,7 +27113,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260138_01.jpg",
+      "assets/N260138_02.jpg",
+      "assets/N260138_03.jpg",
+      "assets/N260138_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260138_02.jpg",
@@ -25734,7 +27166,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260138_04.jpg"
   },
   {
     "code": "N260139",
@@ -25753,7 +27186,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260139_01.jpg",
+      "assets/N260139_02.jpg",
+      "assets/N260139_03.jpg",
+      "assets/N260139_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260139_02.jpg",
@@ -25801,7 +27239,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260139_04.jpg"
   },
   {
     "code": "N260140",
@@ -25820,7 +27259,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260140_01.jpg",
+      "assets/N260140_02.jpg",
+      "assets/N260140_03.jpg",
+      "assets/N260140_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260140_02.jpg",
@@ -25878,7 +27322,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260140_04.jpg"
   },
   {
     "code": "N260141",
@@ -25897,7 +27342,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260141_01.jpg",
+      "assets/N260141_02.jpg",
+      "assets/N260141_03.jpg",
+      "assets/N260141_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260141_02.jpg",
@@ -25945,7 +27395,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260141_04.jpg"
   },
   {
     "code": "N260142",
@@ -25964,7 +27415,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260142_01.jpg",
+      "assets/N260142_02.jpg",
+      "assets/N260142_03.jpg",
+      "assets/N260142_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260142_02.jpg",
@@ -26012,7 +27468,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260142_04.jpg",
+    "designGroupId": "np-color-72491e29",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260143",
@@ -26031,7 +27490,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260143_01.jpg",
+      "assets/N260143_02.jpg",
+      "assets/N260143_03.jpg",
+      "assets/N260143_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260143_02.jpg",
@@ -26079,7 +27543,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260143_04.jpg",
+    "designGroupId": "np-color-72491e29",
+    "variantColor": "블랙"
   },
   {
     "code": "N260144",
@@ -26098,7 +27565,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260144_01.jpg",
+      "assets/N260144_02.jpg",
+      "assets/N260144_03.jpg",
+      "assets/N260144_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260144_02.jpg",
@@ -26153,7 +27625,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260144_01.jpg",
+    "designGroupId": "np-color-d8b39672",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260145",
@@ -26172,7 +27647,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260145_01.jpg",
+      "assets/N260145_02.jpg",
+      "assets/N260145_03.jpg",
+      "assets/N260145_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260145_02.jpg",
@@ -26220,7 +27700,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260145_01.jpg",
+    "designGroupId": "np-color-d8b39672",
+    "variantColor": "핑크"
   },
   {
     "code": "N260146",
@@ -26239,7 +27722,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260146_01.jpg",
+      "assets/N260146_02.jpg",
+      "assets/N260146_03.jpg",
+      "assets/N260146_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260146_02.jpg",
@@ -26287,7 +27775,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260146_04.jpg",
+    "designGroupId": "np-color-d8b39672",
+    "variantColor": "그레이"
   },
   {
     "code": "N260147",
@@ -26306,7 +27797,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260147_01.jpg",
+      "assets/N260147_02.jpg",
+      "assets/N260147_03.jpg",
+      "assets/N260147_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260147_02.jpg",
@@ -26370,7 +27866,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260147_01.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "오렌지"
   },
   {
     "code": "N260148",
@@ -26389,7 +27888,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260148_01.jpg",
+      "assets/N260148_02.jpg",
+      "assets/N260148_03.jpg",
+      "assets/N260148_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260148_02.jpg",
@@ -26437,7 +27941,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260148_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "와인"
   },
   {
     "code": "N260149",
@@ -26456,7 +27963,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260149_01.jpg",
+      "assets/N260149_02.jpg",
+      "assets/N260149_03.jpg",
+      "assets/N260149_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260149_02.jpg",
@@ -26504,7 +28016,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260149_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "블랙"
   },
   {
     "code": "N260150",
@@ -26523,7 +28038,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260150_01.jpg",
+      "assets/N260150_02.jpg",
+      "assets/N260150_03.jpg",
+      "assets/N260150_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260150_02.jpg",
@@ -26573,7 +28093,8 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "mini-74130d67",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "thumbnail": "assets/N260150_04.jpg"
   },
   {
     "code": "N260151",
@@ -26592,7 +28113,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260151_01.jpg",
+      "assets/N260151_02.jpg",
+      "assets/N260151_03.jpg",
+      "assets/N260151_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260151_02.jpg",
@@ -26647,7 +28173,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260151_04.jpg",
+    "designGroupId": "mini-74130d67",
+    "variantColor": "핑크"
   },
   {
     "code": "N260152",
@@ -26666,7 +28195,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260152_01.jpg",
+      "assets/N260152_02.jpg",
+      "assets/N260152_03.jpg",
+      "assets/N260152_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260152_02.jpg",
@@ -26714,7 +28248,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260152_04.jpg",
+    "designGroupId": "mini-74130d67",
+    "variantColor": "그레이"
   },
   {
     "code": "N260153",
@@ -26733,7 +28270,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260153_01.jpg",
+      "assets/N260153_02.jpg",
+      "assets/N260153_03.jpg",
+      "assets/N260153_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260153_02.jpg",
@@ -26783,7 +28325,8 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "mini-74130d67",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "thumbnail": "assets/N260153_04.jpg"
   },
   {
     "code": "N260154",
@@ -26802,7 +28345,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260154_01.jpg",
+      "assets/N260154_02.jpg",
+      "assets/N260154_03.jpg",
+      "assets/N260154_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260154_02.jpg",
@@ -26880,7 +28428,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260154_02.jpg",
+    "designGroupId": "np-color-0433aa03",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260155",
@@ -26899,7 +28450,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260155_01.jpg",
+      "assets/N260155_02.jpg",
+      "assets/N260155_03.jpg",
+      "assets/N260155_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260155_02.jpg",
@@ -26947,7 +28503,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260155_01.jpg",
+    "designGroupId": "np-color-0433aa03",
+    "variantColor": "핑크"
   },
   {
     "code": "N260156",
@@ -26966,7 +28525,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260156_01.jpg",
+      "assets/N260156_02.jpg",
+      "assets/N260156_03.jpg",
+      "assets/N260156_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260156_02.jpg",
@@ -27014,7 +28578,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260156_01.jpg",
+    "designGroupId": "np-color-0433aa03",
+    "variantColor": "블랙"
   },
   {
     "code": "N260157",
@@ -27038,7 +28605,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260157_01.jpg",
+      "assets/N260157_02.jpg",
+      "assets/N260157_03.jpg",
+      "assets/N260157_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260157_02.jpg",
@@ -27094,7 +28666,8 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "mini-nice-eeb88b25",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260157_04.jpg"
   },
   {
     "code": "N260158",
@@ -27113,7 +28686,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260158_01.jpg",
+      "assets/N260158_02.jpg",
+      "assets/N260158_03.jpg",
+      "assets/N260158_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260158_02.jpg",
@@ -27168,7 +28746,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260158_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "민트"
   },
   {
     "code": "N260159",
@@ -27187,7 +28768,12 @@
       "MINI",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260159_01.jpg",
+      "assets/N260159_02.jpg",
+      "assets/N260159_03.jpg",
+      "assets/N260159_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260159_02.jpg",
@@ -27235,7 +28821,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260159_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "핑크"
   },
   {
     "code": "N260160",
@@ -27259,7 +28848,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260160_01.jpg",
+      "assets/N260160_02.jpg",
+      "assets/N260160_03.jpg",
+      "assets/N260160_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260160_02.jpg",
@@ -27313,7 +28907,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260160_04.jpg"
   },
   {
     "code": "N260161",
@@ -27339,7 +28934,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260161_01.jpg",
+      "assets/N260161_02.jpg",
+      "assets/N260161_03.jpg",
+      "assets/N260161_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260161_02.jpg",
@@ -27406,7 +29006,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260161_04.jpg"
   },
   {
     "code": "N260162",
@@ -27432,7 +29033,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260162_01.jpg",
+      "assets/N260162_02.jpg",
+      "assets/N260162_03.jpg",
+      "assets/N260162_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260162_02.jpg",
@@ -27493,7 +29099,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260162_04.jpg"
   },
   {
     "code": "N260163",
@@ -27517,7 +29124,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260163_01.jpg",
+      "assets/N260163_02.jpg",
+      "assets/N260163_03.jpg",
+      "assets/N260163_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260163_02.jpg",
@@ -27573,7 +29185,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260163_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "화이트"
   },
   {
     "code": "N260164",
@@ -27597,7 +29212,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260164_01.jpg",
+      "assets/N260164_02.jpg",
+      "assets/N260164_03.jpg",
+      "assets/N260164_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260164_02.jpg",
@@ -27651,7 +29271,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260164_04.jpg"
   },
   {
     "code": "N260165",
@@ -27675,7 +29296,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260165_01.jpg",
+      "assets/N260165_02.jpg",
+      "assets/N260165_03.jpg",
+      "assets/N260165_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260165_02.jpg",
@@ -27730,7 +29356,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260165_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260166",
@@ -27754,7 +29383,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260166_01.jpg",
+      "assets/N260166_02.jpg",
+      "assets/N260166_03.jpg",
+      "assets/N260166_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260166_02.jpg",
@@ -27818,7 +29452,8 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "mini-nice-eeb88b25",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260166_04.jpg"
   },
   {
     "code": "N260167",
@@ -27838,7 +29473,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260167_01.jpg",
+      "assets/N260167_02.jpg",
+      "assets/N260167_03.jpg",
+      "assets/N260167_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260167_02.jpg",
@@ -27887,7 +29527,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260167_04.jpg",
+    "designGroupId": "np-color-9da465c4",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260168",
@@ -27907,7 +29550,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260168_01.jpg",
+      "assets/N260168_02.jpg",
+      "assets/N260168_03.jpg",
+      "assets/N260168_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260168_02.jpg",
@@ -27986,7 +29634,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260168_04.jpg",
+    "designGroupId": "np-color-9da465c4",
+    "variantColor": "블랙"
   },
   {
     "code": "N260169",
@@ -28011,7 +29662,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260169_01.jpg",
+      "assets/N260169_02.jpg",
+      "assets/N260169_03.jpg",
+      "assets/N260169_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260169_02.jpg",
@@ -28075,8 +29731,9 @@
     "lineName": "",
     "size77Available": true,
     "size88Available": false,
-    "designGroupId": "mini-nice-ccd20809",
-    "variantColor": "아이보리"
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리",
+    "thumbnail": "assets/N260169_04.jpg"
   },
   {
     "code": "N260170",
@@ -28101,7 +29758,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260170_01.jpg",
+      "assets/N260170_02.jpg",
+      "assets/N260170_03.jpg",
+      "assets/N260170_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260170_02.jpg",
@@ -28158,8 +29820,9 @@
     "lineName": "",
     "size77Available": true,
     "size88Available": false,
-    "designGroupId": "mini-nice-b2031a28",
-    "variantColor": "핑크"
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260170_04.jpg"
   },
   {
     "code": "N260171",
@@ -28183,7 +29846,12 @@
       "롱드레스",
       "롱원피스"
     ],
-    "images": [],
+    "images": [
+      "assets/N260171_01.jpg",
+      "assets/N260171_02.jpg",
+      "assets/N260171_03.jpg",
+      "assets/N260171_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260171_02.jpg",
@@ -28250,7 +29918,8 @@
       "미디원피스",
       "블라우스"
     ],
-    "correctionNote": "검색 오류 수정: 롱드레스 포함, 투피스 제외"
+    "correctionNote": "검색 오류 수정: 롱드레스 포함, 투피스 제외",
+    "thumbnail": "assets/N260171_04.jpg"
   },
   {
     "code": "N260172",
@@ -28275,7 +29944,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260172_01.jpg",
+      "assets/N260172_02.jpg",
+      "assets/N260172_03.jpg",
+      "assets/N260172_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260172_02.jpg",
@@ -28337,8 +30011,9 @@
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
-    "designGroupId": "mini-nice-ccd20809",
-    "variantColor": "아이보리"
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리",
+    "thumbnail": "assets/N260172_04.jpg"
   },
   {
     "code": "N260173",
@@ -28363,7 +30038,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260173_01.jpg",
+      "assets/N260173_02.jpg",
+      "assets/N260173_03.jpg",
+      "assets/N260173_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260173_02.jpg",
@@ -28419,8 +30099,9 @@
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
-    "designGroupId": "mini-nice-b2031a28",
-    "variantColor": "핑크"
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "핑크",
+    "thumbnail": "assets/N260173_01.jpg"
   },
   {
     "code": "N260174",
@@ -28445,7 +30126,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260174_01.jpg",
+      "assets/N260174_02.jpg",
+      "assets/N260174_03.jpg",
+      "assets/N260174_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260174_02.jpg",
@@ -28501,7 +30187,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260174_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260175",
@@ -28526,7 +30215,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260175_01.jpg",
+      "assets/N260175_02.jpg",
+      "assets/N260175_03.jpg",
+      "assets/N260175_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260175_02.jpg",
@@ -28582,7 +30276,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260175_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "핑크"
   },
   {
     "code": "N260176",
@@ -28607,7 +30304,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260176_01.jpg",
+      "assets/N260176_02.jpg",
+      "assets/N260176_03.jpg",
+      "assets/N260176_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260176_02.jpg",
@@ -28662,7 +30364,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260176_01.jpg",
+    "designGroupId": "np-color-fc70fc48",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260177",
@@ -28687,7 +30392,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260177_01.jpg",
+      "assets/N260177_02.jpg",
+      "assets/N260177_03.jpg",
+      "assets/N260177_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260177_02.jpg",
@@ -28742,7 +30452,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260177_01.jpg",
+    "designGroupId": "np-color-fc70fc48",
+    "variantColor": "핑크"
   },
   {
     "code": "N260178",
@@ -28762,7 +30475,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260178_01.jpg",
+      "assets/N260178_02.jpg",
+      "assets/N260178_03.jpg",
+      "assets/N260178_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260178_02.jpg",
@@ -28811,7 +30529,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260178_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260179",
@@ -28831,7 +30552,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260179_01.jpg",
+      "assets/N260179_02.jpg",
+      "assets/N260179_03.jpg",
+      "assets/N260179_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260179_02.jpg",
@@ -28880,7 +30606,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260179_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "블랙"
   },
   {
     "code": "N260180",
@@ -28902,7 +30631,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260180_01.jpg",
+      "assets/N260180_02.jpg",
+      "assets/N260180_03.jpg",
+      "assets/N260180_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260180_02.jpg",
@@ -28951,7 +30685,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260180_04.jpg",
+    "designGroupId": "np-color-4fabeac2",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260181",
@@ -28973,7 +30710,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260181_01.jpg",
+      "assets/N260181_02.jpg",
+      "assets/N260181_03.jpg",
+      "assets/N260181_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260181_02.jpg",
@@ -29022,7 +30764,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260181_04.jpg",
+    "designGroupId": "np-color-4fabeac2",
+    "variantColor": "핑크"
   },
   {
     "code": "N260182",
@@ -29044,7 +30789,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260182_01.jpg",
+      "assets/N260182_02.jpg",
+      "assets/N260182_03.jpg",
+      "assets/N260182_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260182_02.jpg",
@@ -29093,7 +30843,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260182_04.jpg",
+    "designGroupId": "np-color-4fabeac2",
+    "variantColor": "소라"
   },
   {
     "code": "N260183",
@@ -29113,7 +30866,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260183_01.jpg",
+      "assets/N260183_02.jpg",
+      "assets/N260183_03.jpg",
+      "assets/N260183_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260183_02.jpg",
@@ -29162,7 +30920,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260183_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260184",
@@ -29182,7 +30943,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260184_01.jpg",
+      "assets/N260184_02.jpg",
+      "assets/N260184_03.jpg",
+      "assets/N260184_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260184_02.jpg",
@@ -29231,7 +30997,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260184_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "블랙"
   },
   {
     "code": "N260185",
@@ -29256,7 +31025,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260185_01.jpg",
+      "assets/N260185_02.jpg",
+      "assets/N260185_03.jpg",
+      "assets/N260185_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260185_02.jpg",
@@ -29313,7 +31087,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260185_04.jpg",
+    "designGroupId": "mini-nice-eeb88b25",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260186",
@@ -29335,7 +31112,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260186_01.jpg",
+      "assets/N260186_02.jpg",
+      "assets/N260186_03.jpg",
+      "assets/N260186_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260186_02.jpg",
@@ -29396,7 +31178,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": false,
-    "size88Available": false
+    "size88Available": false,
+    "thumbnail": "assets/N260186_04.jpg"
   },
   {
     "code": "N260187",
@@ -29416,7 +31199,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260187_01.jpg",
+      "assets/N260187_02.jpg",
+      "assets/N260187_03.jpg",
+      "assets/N260187_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260187_02.jpg",
@@ -29491,7 +31279,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260187_01.jpg",
+    "designGroupId": "np-color-92034ddc",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260188",
@@ -29511,7 +31302,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260188_01.jpg",
+      "assets/N260188_02.jpg",
+      "assets/N260188_03.jpg",
+      "assets/N260188_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260188_02.jpg",
@@ -29586,7 +31382,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260188_01.jpg",
+    "designGroupId": "np-color-92034ddc",
+    "variantColor": "네이비"
   },
   {
     "code": "N260189",
@@ -29608,7 +31407,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260189_01.jpg",
+      "assets/N260189_02.jpg",
+      "assets/N260189_03.jpg",
+      "assets/N260189_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260189_02.jpg",
@@ -29688,7 +31492,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260189_01.jpg"
   },
   {
     "code": "N260190",
@@ -29708,7 +31513,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260190_01.jpg",
+      "assets/N260190_02.jpg",
+      "assets/N260190_03.jpg",
+      "assets/N260190_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260190_02.jpg",
@@ -29757,7 +31567,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260190_04.jpg",
+    "designGroupId": "np-color-4b326118",
+    "variantColor": "아이보리"
   },
   {
     "code": "N260191",
@@ -29777,7 +31590,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260191_01.jpg",
+      "assets/N260191_02.jpg",
+      "assets/N260191_03.jpg",
+      "assets/N260191_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260191_02.jpg",
@@ -29852,7 +31670,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260191_04.jpg",
+    "designGroupId": "np-color-4b326118",
+    "variantColor": "블랙"
   },
   {
     "code": "N260192",
@@ -29872,7 +31693,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260192_01.jpg",
+      "assets/N260192_02.jpg",
+      "assets/N260192_03.jpg",
+      "assets/N260192_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260192_02.jpg",
@@ -29921,7 +31747,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260192_04.jpg"
   },
   {
     "code": "N260193",
@@ -29944,7 +31771,12 @@
       "스커트",
       "투피스 & 상하의 컬렉션"
     ],
-    "images": [],
+    "images": [
+      "assets/N260193_01.jpg",
+      "assets/N260193_02.jpg",
+      "assets/N260193_03.jpg",
+      "assets/N260193_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260193_02.jpg",
@@ -29993,7 +31825,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260193_04.jpg"
   },
   {
     "code": "N260194",
@@ -30013,7 +31846,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260194_01.jpg",
+      "assets/N260194_02.jpg",
+      "assets/N260194_03.jpg",
+      "assets/N260194_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260194_02.jpg",
@@ -30083,7 +31921,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260194_04.jpg"
   },
   {
     "code": "N260195",
@@ -30105,7 +31944,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260195_01.jpg",
+      "assets/N260195_02.jpg",
+      "assets/N260195_03.jpg",
+      "assets/N260195_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260195_02.jpg",
@@ -30157,7 +32001,8 @@
     "size88Available": true,
     "manualSearchExclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/N260195_04.jpg"
   },
   {
     "code": "N260196",
@@ -30179,7 +32024,12 @@
       "PARTY",
       "RECOMMEND"
     ],
-    "images": [],
+    "images": [
+      "assets/N260196_01.jpg",
+      "assets/N260196_02.jpg",
+      "assets/N260196_03.jpg",
+      "assets/N260196_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260196_02.jpg",
@@ -30231,7 +32081,8 @@
     "size88Available": true,
     "manualSearchExclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/N260196_04.jpg"
   },
   {
     "code": "N260197",
@@ -30252,7 +32103,12 @@
       "TOP",
       "블라우스"
     ],
-    "images": [],
+    "images": [
+      "assets/N260197_01.jpg",
+      "assets/N260197_02.jpg",
+      "assets/N260197_03.jpg",
+      "assets/N260197_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260197_02.jpg",
@@ -30326,7 +32182,8 @@
     ],
     "manualSearchInclude": [
       "블라우스"
-    ]
+    ],
+    "thumbnail": "assets/N260197_04.jpg"
   },
   {
     "code": "N260198",
@@ -30350,7 +32207,12 @@
       "촬영룩",
       "NICE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260198_01.jpg",
+      "assets/N260198_02.jpg",
+      "assets/N260198_03.jpg",
+      "assets/N260198_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260198_02.jpg",
@@ -30407,7 +32269,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260198_04.jpg"
   },
   {
     "code": "N260199",
@@ -30427,7 +32290,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260199_01.jpg",
+      "assets/N260199_02.jpg",
+      "assets/N260199_03.jpg",
+      "assets/N260199_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260199_02.jpg",
@@ -30476,7 +32344,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260199_04.jpg"
   },
   {
     "code": "N260200",
@@ -30498,7 +32367,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260200_01.jpg",
+      "assets/N260200_02.jpg",
+      "assets/N260200_03.jpg",
+      "assets/N260200_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260200_02.jpg",
@@ -30547,7 +32421,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260200_04.jpg"
   },
   {
     "code": "N260201",
@@ -30570,7 +32445,12 @@
       "스커트",
       "투피스 & 상하의 컬렉션"
     ],
-    "images": [],
+    "images": [
+      "assets/N260201_01.jpg",
+      "assets/N260201_02.jpg",
+      "assets/N260201_03.jpg",
+      "assets/N260201_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260201_02.jpg",
@@ -30619,7 +32499,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260201_04.jpg"
   },
   {
     "code": "N260202",
@@ -30639,7 +32520,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260202_01.jpg",
+      "assets/N260202_02.jpg",
+      "assets/N260202_03.jpg",
+      "assets/N260202_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260202_02.jpg",
@@ -30688,7 +32574,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260202_02.jpg"
   },
   {
     "code": "N260203",
@@ -30708,7 +32595,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260203_01.jpg",
+      "assets/N260203_02.jpg",
+      "assets/N260203_03.jpg",
+      "assets/N260203_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260203_02.jpg",
@@ -30760,7 +32652,8 @@
     "size88Available": true,
     "manualSearchExclude": [
       "화이트룩"
-    ]
+    ],
+    "thumbnail": "assets/N260203_04.jpg"
   },
   {
     "code": "N260204",
@@ -30780,7 +32673,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260204_01.jpg",
+      "assets/N260204_02.jpg",
+      "assets/N260204_03.jpg",
+      "assets/N260204_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260204_02.jpg",
@@ -30829,7 +32727,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260204_04.jpg"
   },
   {
     "code": "N260205",
@@ -30849,7 +32748,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260205_01.jpg",
+      "assets/N260205_02.jpg",
+      "assets/N260205_03.jpg",
+      "assets/N260205_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260205_02.jpg",
@@ -30898,7 +32802,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260205_01.jpg"
   },
   {
     "code": "N260206",
@@ -30920,7 +32825,12 @@
       "RECOMMEND",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260206_01.jpg",
+      "assets/N260206_02.jpg",
+      "assets/N260206_03.jpg",
+      "assets/N260206_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260206_02.jpg",
@@ -30969,7 +32879,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260206_04.jpg"
   },
   {
     "code": "N260207",
@@ -30989,7 +32900,12 @@
       "PARTY",
       "TOP"
     ],
-    "images": [],
+    "images": [
+      "assets/N260207_01.jpg",
+      "assets/N260207_02.jpg",
+      "assets/N260207_03.jpg",
+      "assets/N260207_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260207_02.jpg",
@@ -31038,7 +32954,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260207_04.jpg"
   },
   {
     "code": "N260208",
@@ -31058,7 +32975,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260208_01.jpg",
+      "assets/N260208_02.jpg",
+      "assets/N260208_03.jpg",
+      "assets/N260208_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260208_02.jpg",
@@ -31133,7 +33055,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260208_04.jpg"
   },
   {
     "code": "N260209",
@@ -31155,7 +33078,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260209_01.jpg",
+      "assets/N260209_02.jpg",
+      "assets/N260209_03.jpg",
+      "assets/N260209_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260209_02.jpg",
@@ -31223,7 +33151,8 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260209_03.jpg"
   },
   {
     "code": "N260210",
@@ -31245,7 +33174,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260210_01.jpg",
+      "assets/N260210_02.jpg",
+      "assets/N260210_03.jpg",
+      "assets/N260210_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260210_02.jpg",
@@ -31294,7 +33228,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260210_04.jpg",
+    "designGroupId": "np-color-c1940151",
+    "variantColor": "화이트"
   },
   {
     "code": "N260211",
@@ -31316,7 +33253,12 @@
       "RECOMMEND",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260211_01.jpg",
+      "assets/N260211_02.jpg",
+      "assets/N260211_03.jpg",
+      "assets/N260211_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260211_02.jpg",
@@ -31381,7 +33323,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260211_04.jpg",
+    "designGroupId": "np-color-c1940151",
+    "variantColor": "라벤더"
   },
   {
     "code": "N260212",
@@ -31402,7 +33347,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260212_01.jpg",
+      "assets/N260212_02.jpg",
+      "assets/N260212_03.jpg",
+      "assets/N260212_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260212_02.jpg",
@@ -31467,7 +33417,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260212_04.jpg",
+    "designGroupId": "np-color-b987e4be",
+    "variantColor": "화이트/블랙"
   },
   {
     "code": "N260213",
@@ -31488,7 +33441,12 @@
       "PARTY",
       "TWO PIECE"
     ],
-    "images": [],
+    "images": [
+      "assets/N260213_01.jpg",
+      "assets/N260213_02.jpg",
+      "assets/N260213_03.jpg",
+      "assets/N260213_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260213_02.jpg",
@@ -31544,7 +33502,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260213_04.jpg",
+    "designGroupId": "np-color-b987e4be",
+    "variantColor": "블루/그레이"
   },
   {
     "code": "N260214",
@@ -31564,7 +33525,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260214_01.jpg",
+      "assets/N260214_02.jpg",
+      "assets/N260214_03.jpg",
+      "assets/N260214_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260214_02.jpg",
@@ -31639,7 +33605,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260214_04.jpg",
+    "designGroupId": "np-color-4f6e854d",
+    "variantColor": "핑크"
   },
   {
     "code": "N260215",
@@ -31659,7 +33628,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260215_01.jpg",
+      "assets/N260215_02.jpg",
+      "assets/N260215_03.jpg",
+      "assets/N260215_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260215_02.jpg",
@@ -31738,7 +33712,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260215_04.jpg",
+    "designGroupId": "np-color-4f6e854d",
+    "variantColor": "민트"
   },
   {
     "code": "N260216",
@@ -31758,7 +33735,12 @@
       "미니 원피스 컬렉션",
       "PARTY"
     ],
-    "images": [],
+    "images": [
+      "assets/N260216_01.jpg",
+      "assets/N260216_02.jpg",
+      "assets/N260216_03.jpg",
+      "assets/N260216_04.jpg"
+    ],
     "cuts": [
       {
         "url": "assets/N260216_02.jpg",
@@ -31807,7 +33789,10 @@
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true
+    "size88Available": true,
+    "thumbnail": "assets/N260216_03.jpg",
+    "designGroupId": "np-color-4f6e854d",
+    "variantColor": "블랙"
   },
   {
     "code": "JES-325",
@@ -44378,7 +46363,7 @@
     "category": "TWO PIECE",
     "collection": "A",
     "collectionName": "New Arrival Selection",
-    "color": "문의",
+    "color": "블랙",
     "size": "S,M,L",
     "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
@@ -44496,7 +46481,7 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ed82715",
-    "variantColor": "문의"
+    "variantColor": "블랙"
   },
   {
     "code": "N260225",
