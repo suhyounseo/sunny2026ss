@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'match144';
+const VERSION = 'smartdetail2';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -482,19 +482,43 @@ function sizeGuideRows(groupText) {
   }
   return rows;
 }
+function structuredSizeTables(p) {
+  if (!Array.isArray(p.sizeTables) || !p.sizeTables.length) return '';
+  const tables = p.sizeTables.map(group => {
+    const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'];
+    const rows = Array.isArray(group.rows) ? group.rows : [];
+    if (!rows.length) return '';
+    const head = columns.map(col => `<th>${safeText(col)}</th>`).join('');
+    const body = rows.map(row => `<tr>${columns.map(col => `<td>${safeText(row[col]) || '-'}</td>`).join('')}</tr>`).join('');
+    return `<div class="size-table-wrap"><p>${safeText(group.title) || t('actualSize')}</p><table class="size-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  }).filter(Boolean).join('');
+  return tables;
+}
 function sizeGuideBlock(p) {
+  const structured = structuredSizeTables(p);
+  if (structured) return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${structured}<p class="size-note">실측은 단면 기준이며 측정 방법에 따라 1~2cm 정도 오차가 있을 수 있습니다.</p></div>`;
   const info = safeText(p.sizeInfo);
-  if (!info || !/[A-Z]{1,2}\(/i.test(info)) {
+  if (!info || !/([A-Z]{1,2}|55|66|77|88|FREE)\(/i.test(info)) {
     return `<div class="box size-guide"><b>${t('sizeGuide')}</b><p>${t('sizeAsk')}</p></div>`;
   }
-  const groups = info.split('|').map(x => x.trim()).filter(Boolean).slice(0, 2);
+  const groups = info.split('|').map(x => x.trim()).filter(Boolean).slice(0, 3);
   const tables = groups.map(group => {
     const rows = sizeGuideRows(group);
     if (!rows.length) return '';
-    const title = group.includes('하의') ? t('topBottom') : group.includes('상의') ? t('topDress') : t('actualSize');
+    const title = /스커트|하의|skirt|bottom/i.test(group) ? t('topBottom') : /상의|블라우스|top|blouse/i.test(group) ? t('topDress') : t('actualSize');
     return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>${t('chest')}</th><th>${t('waist')}</th><th>${t('hip')}</th><th>${t('sleeve')}</th><th>${t('totalLength')}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
   }).filter(Boolean).join('');
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
+}
+function wearInfoBlock(p) {
+  if (!Array.isArray(p.wearTables) || !p.wearTables.length) return '';
+  const blocks = p.wearTables.map(group => {
+    const items = group.items && typeof group.items === 'object' ? group.items : {};
+    const rows = Object.entries(items).filter(([, value]) => safeText(value)).map(([key, value]) => `<tr><th>${safeText(key)}</th><td>${safeText(value)}</td></tr>`).join('');
+    if (!rows) return '';
+    return `<div class="wear-table-wrap"><p>${safeText(group.title) || '착용 정보'}</p><table class="wear-table"><tbody>${rows}</tbody></table></div>`;
+  }).filter(Boolean).join('');
+  return blocks ? `<div class="box wear-guide"><b>착용 정보</b>${blocks}</div>` : '';
 }
 function productText(p) {
   return [
@@ -1151,6 +1175,7 @@ function openDetail(code) {
         ${specCells(p)}
       </div>
       ${sizeGuideBlock(p)}
+      ${wearInfoBlock(p)}
       ${colorOptionsBlock(p)}
       ${coordinatedBlock(p)}
       <p class="common-note">${t('commonNote')}</p>

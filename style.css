@@ -552,3 +552,14 @@
     color:#fff!important;
   }
 }
+
+/* SmartStore detail data upgrade */
+.size-note{margin:12px 0 0;color:#756358;font-size:12.5px;font-weight:800;line-height:1.55}
+.wear-table-wrap{overflow-x:auto;margin-top:10px}
+.wear-table-wrap+p,.wear-table-wrap+.wear-table-wrap{margin-top:12px}
+.wear-table-wrap>p{margin:0 0 6px;color:#6f5b4c;font-size:13px;font-weight:950}
+.wear-table{width:100%;border-collapse:collapse;background:#fff}
+.wear-table th,.wear-table td{padding:10px 10px;border:1px solid #e1d0bf;text-align:left;font-size:13px}
+.wear-table th{width:34%;background:#f2e8dc;color:#6c584b;font-weight:950;text-align:center}
+.wear-table td{color:#2d241f;font-weight:850}
+@media(max-width:720px){.wear-table th,.wear-table td{padding:9px 7px;font-size:12px}.size-note{font-size:12px}}
