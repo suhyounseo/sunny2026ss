@@ -20014,23 +20014,83 @@
       "assets/N260033_01.jpg",
       "assets/N260033_02.jpg",
       "assets/N260033_03.jpg",
-      "assets/N260033_04.jpg"
+      "assets/N260033_04.jpg",
+      "assets/N260033_05.jpg",
+      "assets/N260033_06.jpg",
+      "assets/N260033_07.jpg",
+      "assets/N260033_08.jpg",
+      "assets/N260033_09.jpg",
+      "assets/N260033_10.jpg",
+      "assets/N260033_11.jpg",
+      "assets/N260033_12.png",
+      "assets/N260033_13.png",
+      "assets/N260033_14.png"
     ],
     "cuts": [
       {
         "url": "assets/N260033_02.jpg",
-        "cut": "후면",
-        "source": "쿠키BL샤넬주름SK아이핑크블랙/img_xl_2_vbvazb.jpg"
+        "cut": "블랙 상반",
+        "source": "블랙상반.jpg"
       },
       {
         "url": "assets/N260033_03.jpg",
-        "cut": "측면",
-        "source": "쿠키BL샤넬주름SK아이핑크블랙/img_xl_3_pj3muu.jpg"
+        "cut": "블랙 상반2",
+        "source": "블랙상반2.jpg"
       },
       {
         "url": "assets/N260033_04.jpg",
+        "cut": "블랙 전신",
+        "source": "블랙전신.jpg"
+      },
+      {
+        "url": "assets/N260033_05.jpg",
+        "cut": "블랙 후면",
+        "source": "블랙후면.jpg"
+      },
+      {
+        "url": "assets/N260033_06.jpg",
+        "cut": "핑크 상반",
+        "source": "상반핑크.jpg"
+      },
+      {
+        "url": "assets/N260033_07.jpg",
+        "cut": "핑크 상반2",
+        "source": "상반핑크2.jpg"
+      },
+      {
+        "url": "assets/N260033_08.jpg",
+        "cut": "핑크 전신",
+        "source": "핑크전신.jpg"
+      },
+      {
+        "url": "assets/N260033_09.jpg",
+        "cut": "핑크 후면",
+        "source": "핑크전신후면.jpg"
+      },
+      {
+        "url": "assets/N260033_10.jpg",
+        "cut": "제품컷",
+        "source": "제품컷.jpg"
+      },
+      {
+        "url": "assets/N260033_11.jpg",
         "cut": "확대/디테일",
-        "source": "쿠키BL샤넬주름SK아이핑크블랙/img_xl_4_efn1ux.jpg"
+        "source": "확대이어붙임컷.jpg"
+      },
+      {
+        "url": "assets/N260033_12.png",
+        "cut": "색상 콜라주",
+        "source": "색상collage.png"
+      },
+      {
+        "url": "assets/N260033_13.png",
+        "cut": "앞뒤 콜라주",
+        "source": "앞뒤collage.png"
+      },
+      {
+        "url": "assets/N260033_14.png",
+        "cut": "측뒤 콜라주",
+        "source": "측뒤collage.png"
       }
     ],
     "desc": "넥리본 포인트 핏이 좋은 블라우스 상품입니다.",
@@ -20057,7 +20117,7 @@
       "룩에 사랑스러운 포인트를 더하는 리본 디테일"
     ],
     "editorsNote": "리본 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
-    "thumbImage": "assets/N260033_04.jpg",
+    "thumbImage": "assets/N260033_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -20065,7 +20125,7 @@
     "lineName": "",
     "size77Available": true,
     "size88Available": true,
-    "thumbnail": "assets/N260033_04.jpg"
+    "thumbnail": "assets/N260033_01.jpg"
   },
   {
     "code": "N260034",
