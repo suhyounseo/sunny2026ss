@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'smartdetail2';
+const VERSION = 'july10v1';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -94,6 +94,7 @@ const I18N = {
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
+    collectionJuly: '7월 10일 입고 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
     collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
     collectionC: '특별한 순간을 위한 미디·롱 드레스 셀렉션'
@@ -118,7 +119,7 @@ const I18N = {
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
     editorDesc: 'Products we want to show first in the showroom.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
-    collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
+    collectionJuly: 'July 10 new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
     searchPlaceholder: '搜索迷你、修身、派对风、舞台服',
@@ -140,7 +141,7 @@ const I18N = {
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
     editorDesc: 'NICE 쇼룸 想优先展示的商品。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
-    collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
+    collectionJuly: '7月10日新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
     searchPlaceholder: 'ミニ、スリム、パーティールック、ステージ衣装を検索',
@@ -162,7 +163,7 @@ const I18N = {
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
     editorDesc: '今ショールームで先にお見せしたい商品です。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
-    collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
+    collectionJuly: '7月10日入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
 let PRODUCTS = [];
@@ -173,6 +174,7 @@ let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
+  { key: 'JULY_NEW', filter: 'COL_JULY', title: 'Collection July', name: 'July New Selection', desc: '7월 10일 입고 신상만 모은 셀렉션' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
   { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
@@ -188,12 +190,13 @@ const LABEL = {
   MIDI: '미디',
   TWO_PIECE: '투피스',
   LONG: '롱드레스',
+  COL_JULY: '7월 신상',
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
   COL_C: 'COLLECTION C',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77가능', '88가능'];
+const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77/88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -285,6 +288,7 @@ function isManualSearchIncluded(p, raw) {
   return hasManualSearch(p, 'manualSearchInclude', queryKey(raw));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isBest = p => !!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured;
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
 const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
@@ -360,7 +364,7 @@ function quickLabel(key) {
   return (QUICK_LABELS[LANG] && QUICK_LABELS[LANG][key]) || key;
 }
 function localizedCollection(c) {
-  const descKey = c.key === 'A' ? 'collectionA' : c.key === 'B' ? 'collectionB' : 'collectionC';
+  const descKey = c.key === 'JULY_NEW' ? 'collectionJuly' : c.key === 'A' ? 'collectionA' : c.key === 'B' ? 'collectionB' : 'collectionC';
   return { ...c, desc: t(descKey) };
 }
 function setLanguage(nextLang) {
@@ -598,6 +602,7 @@ function isCostume(p) {
 function rankProduct(p) {
   let score = Number(p.priority || 0);
   if (p.mainDisplay) score += 10000;
+  if (isJulyNewProduct(p)) score += 9000;
   if (p.featured) score += 7000;
   if (isJuneFinalNewProduct(p)) score += 4500;
   if (isBest(p)) score += 3600;
@@ -629,21 +634,33 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
+  const july = choose(
+    sortProducts(
+      visible.filter(p =>
+        isJulyNewProduct(p) &&
+        isNew(p) &&
+        !editorCodes.has(codeOf(p))
+      )
+    ),
+    8
+  );
+  const julyCodes = new Set(july.map(codeOf));
   const pinned = NEW_ARRIVAL_PINNED_CODES
     .map(code => visible.find(p => codeOf(p) === code))
-    .filter(p => p && mainImg(p) && !editorCodes.has(codeOf(p)));
+    .filter(p => p && mainImg(p) && !editorCodes.has(codeOf(p)) && !julyCodes.has(codeOf(p)));
   const pinnedCodes = new Set(pinned.map(codeOf));
   const fallback = choose(
     sortProducts(
       visible.filter(p =>
         isNew(p) &&
         !editorCodes.has(codeOf(p)) &&
-        !pinnedCodes.has(codeOf(p))
+        !pinnedCodes.has(codeOf(p)) &&
+        !julyCodes.has(codeOf(p))
       )
     ),
-    Math.max(0, 8 - pinned.length)
+    Math.max(0, 8 - july.length - pinned.length)
   );
-  return [...pinned, ...fallback].slice(0, 8);
+  return [...july, ...pinned, ...fallback].slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -749,6 +766,7 @@ function match(p) {
   const rawSearch = q.value.trim();
   let f = true;
   if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
+  else if (FILTER === 'COL_JULY') f = isJulyNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'NEW') f = isNew(p);
