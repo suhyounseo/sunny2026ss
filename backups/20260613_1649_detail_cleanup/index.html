@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NICE SHOWROOM</title>
+  <meta name="description" content="동대문 밀리오레 NICE 쇼룸. 파티룩, 클럽룩, 무대의상, 방송의상을 사진 기준으로 편하게 고르고 카카오톡으로 재고와 사이즈를 확인하세요." />
+  <link rel="stylesheet" href="style.css?v=match91" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-copy">
+      <span class="hero-kicker">NICE SHOWROOM RULE</span>
+      <h1>NICE</h1>
+      <p>사진은 깔끔하게, 추천은 정확하게</p>
+      <div class="hero-points" aria-label="쇼룸 사진 운영 기준">
+        <span>대표컷은 핏 중심</span>
+        <span>상세컷은 구매 고민 중심</span>
+        <span>문의는 재고·사이즈 중심</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="sticky-tools">
+      <div class="top">
+        <input id="q" class="search" placeholder="미니, 슬림핏, 파티룩, 무대의상 검색" />
+      </div>
+      <div id="quick" class="quick"></div>
+      <div id="chips" class="chips"></div>
+    </div>
+
+    <div class="head">
+      <h2 id="title">NICE COLLECTION</h2>
+      <div id="count" class="count"></div>
+    </div>
+
+    <p id="intro" class="intro"></p>
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="panel">
+      <div class="modal-top">
+        <div class="brand">NICE COLLECTION</div>
+        <button id="close" class="close" type="button">×</button>
+      </div>
+      <div id="detail"></div>
+    </div>
+  </div>
+
+  <div id="vipModal" class="vip-modal">
+    <div class="vip-panel">
+      <div class="vip-top">
+        <div>
+          <span>VIP ONLY</span>
+          <h2>VIP 인증</h2>
+        </div>
+        <button id="vipClose" class="close" type="button">×</button>
+      </div>
+      <p>VIP 고객님께만 특별한 혜택을 드립니다.</p>
+      <input id="vipCode" class="vip-input" type="password" autocomplete="one-time-code" placeholder="인증코드를 입력해 주세요." />
+      <div id="vipMessage" class="vip-message"></div>
+      <div class="vip-actions">
+        <button id="vipCancel" type="button">취소</button>
+        <button id="vipSubmit" type="button">인증하기</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=match91"></script>
+</body>
+</html>
