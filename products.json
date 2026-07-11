@@ -49952,7 +49952,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "GRA-S795-GROUP"
   },
   {
     "code": "GRA-S796",
@@ -50077,7 +50078,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "GRA-S795-GROUP"
   },
   {
     "code": "GRA-S797",
@@ -50202,7 +50204,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "GRA-S795-GROUP"
   },
   {
     "code": "GRA-S798",
@@ -50464,7 +50467,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 81000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SEY-S820-GROUP"
   },
   {
     "code": "SEY-S821",
@@ -50596,7 +50600,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 81000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SEY-S820-GROUP"
   },
   {
     "code": "SEY-S822",
@@ -50720,7 +50725,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 117000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SEY-S822-GROUP"
   },
   {
     "code": "SEY-S823",
@@ -50844,7 +50850,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 117000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SEY-S822-GROUP"
   },
   {
     "code": "SEY-S824",
@@ -50966,7 +50973,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "SEY-S824-GROUP"
   },
   {
     "code": "SEY-S825",
@@ -51093,7 +51101,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "SEY-S824-GROUP"
   },
   {
     "code": "SUN-S791",
@@ -51217,7 +51226,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SUN-S791-GROUP"
   },
   {
     "code": "SUN-S792",
@@ -51341,7 +51351,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SUN-S791-GROUP"
   },
   {
     "code": "SUN-S793",
@@ -51471,7 +51482,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 144000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SUN-S793-GROUP"
   },
   {
     "code": "SUN-S794",
@@ -51601,7 +51613,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 144000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "SUN-S793-GROUP"
   },
   {
     "code": "YES-S826",
@@ -51721,7 +51734,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "YES-S826-GROUP"
   },
   {
     "code": "YES-S827",
@@ -51841,7 +51855,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "YES-S826-GROUP"
   },
   {
     "code": "YES-S828",
@@ -51966,7 +51981,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 126000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "YES-S828-GROUP"
   },
   {
     "code": "YES-S829",
@@ -52091,7 +52107,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 126000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "YES-S828-GROUP"
   },
   {
     "code": "YES-S853",
@@ -52215,7 +52232,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "YES-S853-GROUP"
   },
   {
     "code": "YES-S854",
@@ -52339,7 +52357,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "YES-S853-GROUP"
   },
   {
     "code": "IMN-S782",
@@ -52464,7 +52483,8 @@
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 144000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
-    "priceReviewMemo": "캡처 1페이지의 코드가 작아 보이므로 최종 검토 권장"
+    "priceReviewMemo": "캡처 1페이지의 코드가 작아 보이므로 최종 검토 권장",
+    "designGroupId": "IMN-S782-GROUP"
   },
   {
     "code": "IMN-S783",
@@ -52589,7 +52609,8 @@
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 144000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
-    "priceReviewMemo": "캡처 1페이지의 코드가 작아 보이므로 최종 검토 권장"
+    "priceReviewMemo": "캡처 1페이지의 코드가 작아 보이므로 최종 검토 권장",
+    "designGroupId": "IMN-S782-GROUP"
   },
   {
     "code": "IMN-S784",
@@ -52714,7 +52735,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 122000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "IMN-S784-GROUP"
   },
   {
     "code": "IMN-S785",
@@ -52782,52 +52804,52 @@
     "recommend": "NEW 7월신상 원피스 레이스 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/immanuel/IMN-S785_01.jpg",
+      "assets/july10/immanuel/IMN-S785_08.jpg",
       "assets/july10/immanuel/IMN-S785_02.jpg",
       "assets/july10/immanuel/IMN-S785_03.jpg",
       "assets/july10/immanuel/IMN-S785_04.jpg",
       "assets/july10/immanuel/IMN-S785_05.jpg",
       "assets/july10/immanuel/IMN-S785_06.jpg",
       "assets/july10/immanuel/IMN-S785_07.jpg",
-      "assets/july10/immanuel/IMN-S785_08.jpg"
+      "assets/july10/immanuel/IMN-S785_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/immanuel/IMN-S785_01.jpg"
+        "cut": "대표컷",
+        "url": "assets/july10/immanuel/IMN-S785_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
         "url": "assets/july10/immanuel/IMN-S785_02.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 3",
         "url": "assets/july10/immanuel/IMN-S785_03.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 4",
         "url": "assets/july10/immanuel/IMN-S785_04.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 5",
         "url": "assets/july10/immanuel/IMN-S785_05.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 6",
         "url": "assets/july10/immanuel/IMN-S785_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/immanuel/IMN-S785_07.jpg"
       },
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/immanuel/IMN-S785_08.jpg"
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/immanuel/IMN-S785_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/immanuel/IMN-S785_01.jpg",
-    "thumbImage": "assets/july10/immanuel/IMN-S785_01.jpg",
-    "thumbnail": "assets/july10/immanuel/IMN-S785_01.jpg",
+    "mainImage": "assets/july10/immanuel/IMN-S785_08.jpg",
+    "thumbImage": "assets/july10/immanuel/IMN-S785_08.jpg",
+    "thumbnail": "assets/july10/immanuel/IMN-S785_08.jpg",
     "cardImage": "assets/july10/immanuel/IMN-S785_01.jpg",
     "points": [
       "여성스러운 레이스 디테일",
@@ -52839,7 +52861,9 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 122000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "IMN-S784-GROUP",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 8번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "IMN-S834",
@@ -52966,7 +52990,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 126000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "IMN-S834-GROUP"
   },
   {
     "code": "IMN-S835",
@@ -53093,7 +53118,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 126000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "IMN-S834-GROUP"
   },
   {
     "code": "IMN-S836",
@@ -53212,7 +53238,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "IMN-S836-GROUP"
   },
   {
     "code": "IMN-S837",
@@ -53331,7 +53358,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "IMN-S836-GROUP"
   },
   {
     "code": "JINA-S788",
@@ -53453,7 +53481,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "JINA-S788-GROUP"
   },
   {
     "code": "JINA-S789",
@@ -53575,7 +53604,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "JINA-S788-GROUP"
   },
   {
     "code": "JINA-S790",
@@ -53697,7 +53727,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "JINA-S788-GROUP"
   },
   {
     "code": "TIA-S756",
@@ -53763,12 +53794,11 @@
     "recommend": "NEW 7월신상 탑 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S756_01.jpg",
+      "assets/july10/tiara/TIA-S756_06.jpg",
       "assets/july10/tiara/TIA-S756_02.jpg",
       "assets/july10/tiara/TIA-S756_03.jpg",
       "assets/july10/tiara/TIA-S756_04.jpg",
       "assets/july10/tiara/TIA-S756_05.jpg",
-      "assets/july10/tiara/TIA-S756_06.jpg",
       "assets/july10/tiara/TIA-S756_07.jpg",
       "assets/july10/tiara/TIA-S756_08.jpg",
       "assets/july10/tiara/TIA-S756_09.jpg",
@@ -53776,69 +53806,70 @@
       "assets/july10/tiara/TIA-S756_11.jpg",
       "assets/july10/tiara/TIA-S756_12.jpg",
       "assets/july10/tiara/TIA-S756_13.jpg",
-      "assets/july10/tiara/TIA-S756_14.jpg"
+      "assets/july10/tiara/TIA-S756_14.jpg",
+      "assets/july10/tiara/TIA-S756_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S756_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S756_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S756_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S756_04.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S756_05.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S756_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S756_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S756_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
+        "url": "assets/july10/tiara/TIA-S756_04.jpg"
+      },
+      {
+        "cut": "상세컷 5",
+        "url": "assets/july10/tiara/TIA-S756_05.jpg"
+      },
+      {
+        "cut": "상세컷 6",
         "url": "assets/july10/tiara/TIA-S756_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/tiara/TIA-S756_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 8",
         "url": "assets/july10/tiara/TIA-S756_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S756_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S756_11.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 11",
         "url": "assets/july10/tiara/TIA-S756_12.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 12",
         "url": "assets/july10/tiara/TIA-S756_13.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 13",
         "url": "assets/july10/tiara/TIA-S756_14.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S756_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S756_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S756_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S756_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S756_06.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S756_06.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S756_06.jpg",
     "cardImage": "assets/july10/tiara/TIA-S756_01.jpg",
     "points": [
       "NICE가 셀렉한 7월 신상 무드",
@@ -53849,7 +53880,8 @@
     "suggestedCategory": "TOP",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 32000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 6번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S757",
@@ -53915,7 +53947,7 @@
     "recommend": "NEW 7월신상 시스루 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S757_01.jpg",
+      "assets/july10/tiara/TIA-S757_09.jpg",
       "assets/july10/tiara/TIA-S757_02.jpg",
       "assets/july10/tiara/TIA-S757_03.jpg",
       "assets/july10/tiara/TIA-S757_04.jpg",
@@ -53923,59 +53955,59 @@
       "assets/july10/tiara/TIA-S757_06.jpg",
       "assets/july10/tiara/TIA-S757_07.jpg",
       "assets/july10/tiara/TIA-S757_08.jpg",
-      "assets/july10/tiara/TIA-S757_09.jpg",
       "assets/july10/tiara/TIA-S757_10.jpg",
-      "assets/july10/tiara/TIA-S757_11.jpg"
+      "assets/july10/tiara/TIA-S757_11.jpg",
+      "assets/july10/tiara/TIA-S757_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_04.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_05.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_06.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_07.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S757_08.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S757_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S757_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S757_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
+        "url": "assets/july10/tiara/TIA-S757_04.jpg"
+      },
+      {
+        "cut": "상세컷 5",
+        "url": "assets/july10/tiara/TIA-S757_05.jpg"
+      },
+      {
+        "cut": "상세컷 6",
+        "url": "assets/july10/tiara/TIA-S757_06.jpg"
+      },
+      {
+        "cut": "상세컷 7",
+        "url": "assets/july10/tiara/TIA-S757_07.jpg"
+      },
+      {
+        "cut": "상세컷 8",
+        "url": "assets/july10/tiara/TIA-S757_08.jpg"
+      },
+      {
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S757_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S757_11.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S757_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S757_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S757_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S757_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S757_09.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S757_09.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S757_09.jpg",
     "cardImage": "assets/july10/tiara/TIA-S757_01.jpg",
     "points": [
       "은근한 시스루 무드",
@@ -53987,7 +54019,8 @@
     "suggestedCategory": "TOP",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 81000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 9번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S758",
@@ -54053,67 +54086,67 @@
     "recommend": "NEW 7월신상 블라우스 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S758_01.jpg",
+      "assets/july10/tiara/TIA-S758_04.jpg",
       "assets/july10/tiara/TIA-S758_02.jpg",
       "assets/july10/tiara/TIA-S758_03.jpg",
-      "assets/july10/tiara/TIA-S758_04.jpg",
       "assets/july10/tiara/TIA-S758_05.jpg",
       "assets/july10/tiara/TIA-S758_06.jpg",
       "assets/july10/tiara/TIA-S758_07.jpg",
       "assets/july10/tiara/TIA-S758_08.jpg",
       "assets/july10/tiara/TIA-S758_09.jpg",
       "assets/july10/tiara/TIA-S758_10.jpg",
-      "assets/july10/tiara/TIA-S758_11.jpg"
+      "assets/july10/tiara/TIA-S758_11.jpg",
+      "assets/july10/tiara/TIA-S758_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S758_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S758_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S758_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S758_04.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S758_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S758_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
         "url": "assets/july10/tiara/TIA-S758_05.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 5",
         "url": "assets/july10/tiara/TIA-S758_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 6",
         "url": "assets/july10/tiara/TIA-S758_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/tiara/TIA-S758_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 8",
         "url": "assets/july10/tiara/TIA-S758_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S758_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S758_11.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S758_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S758_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S758_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S758_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S758_04.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S758_04.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S758_04.jpg",
     "cardImage": "assets/july10/tiara/TIA-S758_01.jpg",
     "points": [
       "NICE가 셀렉한 7월 신상 무드",
@@ -54124,7 +54157,8 @@
     "suggestedCategory": "BLOUSE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 50000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 4번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S759",
@@ -54190,10 +54224,9 @@
     "recommend": "NEW 7월신상 탑 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S759_01.jpg",
+      "assets/july10/tiara/TIA-S759_04.jpg",
       "assets/july10/tiara/TIA-S759_02.jpg",
       "assets/july10/tiara/TIA-S759_03.jpg",
-      "assets/july10/tiara/TIA-S759_04.jpg",
       "assets/july10/tiara/TIA-S759_05.jpg",
       "assets/july10/tiara/TIA-S759_06.jpg",
       "assets/july10/tiara/TIA-S759_07.jpg",
@@ -54202,65 +54235,66 @@
       "assets/july10/tiara/TIA-S759_10.jpg",
       "assets/july10/tiara/TIA-S759_11.jpg",
       "assets/july10/tiara/TIA-S759_12.jpg",
-      "assets/july10/tiara/TIA-S759_13.jpg"
+      "assets/july10/tiara/TIA-S759_13.jpg",
+      "assets/july10/tiara/TIA-S759_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S759_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S759_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S759_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S759_04.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S759_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S759_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
         "url": "assets/july10/tiara/TIA-S759_05.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 5",
         "url": "assets/july10/tiara/TIA-S759_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 6",
         "url": "assets/july10/tiara/TIA-S759_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/tiara/TIA-S759_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 8",
         "url": "assets/july10/tiara/TIA-S759_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S759_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S759_11.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 11",
         "url": "assets/july10/tiara/TIA-S759_12.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 12",
         "url": "assets/july10/tiara/TIA-S759_13.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S759_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S759_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S759_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S759_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S759_04.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S759_04.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S759_04.jpg",
     "cardImage": "assets/july10/tiara/TIA-S759_01.jpg",
     "points": [
       "NICE가 셀렉한 7월 신상 무드",
@@ -54271,7 +54305,8 @@
     "suggestedCategory": "TOP",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 46000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 4번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S760",
@@ -54339,67 +54374,67 @@
     "recommend": "NEW 7월신상 탑 레이스 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S760_01.jpg",
+      "assets/july10/tiara/TIA-S760_06.jpg",
       "assets/july10/tiara/TIA-S760_02.jpg",
       "assets/july10/tiara/TIA-S760_03.jpg",
       "assets/july10/tiara/TIA-S760_04.jpg",
       "assets/july10/tiara/TIA-S760_05.jpg",
-      "assets/july10/tiara/TIA-S760_06.jpg",
       "assets/july10/tiara/TIA-S760_07.jpg",
       "assets/july10/tiara/TIA-S760_08.jpg",
       "assets/july10/tiara/TIA-S760_09.jpg",
       "assets/july10/tiara/TIA-S760_10.jpg",
-      "assets/july10/tiara/TIA-S760_11.jpg"
+      "assets/july10/tiara/TIA-S760_11.jpg",
+      "assets/july10/tiara/TIA-S760_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S760_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S760_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S760_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S760_04.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S760_05.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S760_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S760_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S760_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
+        "url": "assets/july10/tiara/TIA-S760_04.jpg"
+      },
+      {
+        "cut": "상세컷 5",
+        "url": "assets/july10/tiara/TIA-S760_05.jpg"
+      },
+      {
+        "cut": "상세컷 6",
         "url": "assets/july10/tiara/TIA-S760_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/tiara/TIA-S760_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 8",
         "url": "assets/july10/tiara/TIA-S760_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S760_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S760_11.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S760_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S760_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S760_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S760_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S760_06.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S760_06.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S760_06.jpg",
     "cardImage": "assets/july10/tiara/TIA-S760_01.jpg",
     "points": [
       "바디라인을 잡아주는 셔링",
@@ -54411,7 +54446,8 @@
     "suggestedCategory": "TOP",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 75000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 6번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S761",
@@ -54479,10 +54515,9 @@
     "recommend": "NEW 7월신상 블라우스 시스루 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/tiara/TIA-S761_01.jpg",
+      "assets/july10/tiara/TIA-S761_04.jpg",
       "assets/july10/tiara/TIA-S761_02.jpg",
       "assets/july10/tiara/TIA-S761_03.jpg",
-      "assets/july10/tiara/TIA-S761_04.jpg",
       "assets/july10/tiara/TIA-S761_05.jpg",
       "assets/july10/tiara/TIA-S761_06.jpg",
       "assets/july10/tiara/TIA-S761_07.jpg",
@@ -54490,61 +54525,62 @@
       "assets/july10/tiara/TIA-S761_09.jpg",
       "assets/july10/tiara/TIA-S761_10.jpg",
       "assets/july10/tiara/TIA-S761_11.jpg",
-      "assets/july10/tiara/TIA-S761_12.jpg"
+      "assets/july10/tiara/TIA-S761_12.jpg",
+      "assets/july10/tiara/TIA-S761_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S761_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S761_02.jpg"
-      },
-      {
-        "cut": "미분류컷",
-        "url": "assets/july10/tiara/TIA-S761_03.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/tiara/TIA-S761_04.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
+        "url": "assets/july10/tiara/TIA-S761_02.jpg"
+      },
+      {
+        "cut": "상세컷 3",
+        "url": "assets/july10/tiara/TIA-S761_03.jpg"
+      },
+      {
+        "cut": "상세컷 4",
         "url": "assets/july10/tiara/TIA-S761_05.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 5",
         "url": "assets/july10/tiara/TIA-S761_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 6",
         "url": "assets/july10/tiara/TIA-S761_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/tiara/TIA-S761_08.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 8",
         "url": "assets/july10/tiara/TIA-S761_09.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 9",
         "url": "assets/july10/tiara/TIA-S761_10.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 10",
         "url": "assets/july10/tiara/TIA-S761_11.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 11",
         "url": "assets/july10/tiara/TIA-S761_12.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/tiara/TIA-S761_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/tiara/TIA-S761_01.jpg",
-    "thumbImage": "assets/july10/tiara/TIA-S761_01.jpg",
-    "thumbnail": "assets/july10/tiara/TIA-S761_01.jpg",
+    "mainImage": "assets/july10/tiara/TIA-S761_04.jpg",
+    "thumbImage": "assets/july10/tiara/TIA-S761_04.jpg",
+    "thumbnail": "assets/july10/tiara/TIA-S761_04.jpg",
     "cardImage": "assets/july10/tiara/TIA-S761_01.jpg",
     "points": [
       "은근한 시스루 무드",
@@ -54555,7 +54591,8 @@
     "suggestedCategory": "BLOUSE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 99000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 4번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "TIA-S762",
@@ -54683,7 +54720,8 @@
     "suggestedCategory": "LONG DRESS",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 72000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S762-GROUP"
   },
   {
     "code": "TIA-S763",
@@ -54811,7 +54849,8 @@
     "suggestedCategory": "LONG DRESS",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 72000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S762-GROUP"
   },
   {
     "code": "TIA-S764",
@@ -54936,7 +54975,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S762-GROUP"
   },
   {
     "code": "TIA-S765",
@@ -55061,7 +55101,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S762-GROUP"
   },
   {
     "code": "TIA-S766",
@@ -55186,7 +55227,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S762-GROUP"
   },
   {
     "code": "TIA-S767",
@@ -55437,7 +55479,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S768-GROUP"
   },
   {
     "code": "TIA-S769",
@@ -55559,7 +55602,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S768-GROUP"
   },
   {
     "code": "TIA-S770",
@@ -55679,7 +55723,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S770-GROUP"
   },
   {
     "code": "TIA-S771",
@@ -55799,7 +55844,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S770-GROUP"
   },
   {
     "code": "TIA-S772",
@@ -55919,7 +55965,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S770-GROUP"
   },
   {
     "code": "TIA-S773",
@@ -56044,7 +56091,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 104000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S773-GROUP"
   },
   {
     "code": "TIA-S774",
@@ -56169,7 +56217,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 104000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S773-GROUP"
   },
   {
     "code": "TIA-S775",
@@ -56288,7 +56337,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S775-GROUP"
   },
   {
     "code": "TIA-S776",
@@ -56407,7 +56457,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S775-GROUP"
   },
   {
     "code": "TIA-S777",
@@ -56532,7 +56583,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S777-GROUP"
   },
   {
     "code": "TIA-S778",
@@ -56657,7 +56709,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S777-GROUP"
   },
   {
     "code": "TIA-S799",
@@ -56781,7 +56834,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S799-GROUP"
   },
   {
     "code": "TIA-S800",
@@ -56905,7 +56959,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S799-GROUP"
   },
   {
     "code": "TIA-S801",
@@ -57029,7 +57084,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S799-GROUP"
   },
   {
     "code": "TIA-S802",
@@ -57153,7 +57209,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "TIA-S802-GROUP"
   },
   {
     "code": "TIA-S803",
@@ -57277,7 +57334,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "TIA-S802-GROUP"
   },
   {
     "code": "TIA-S804",
@@ -57402,7 +57460,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S804-GROUP"
   },
   {
     "code": "TIA-S805",
@@ -57530,7 +57589,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S804-GROUP"
   },
   {
     "code": "TIA-S806",
@@ -57657,7 +57717,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "TIA-S806-GROUP"
   },
   {
     "code": "TIA-S807",
@@ -57784,7 +57845,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "TIA-S806-GROUP"
   },
   {
     "code": "TIA-S808",
@@ -57913,7 +57975,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 88000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S808-GROUP"
   },
   {
     "code": "TIA-S809",
@@ -58042,7 +58105,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 88000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S808-GROUP"
   },
   {
     "code": "TIA-S810",
@@ -58171,7 +58235,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 88000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S808-GROUP"
   },
   {
     "code": "TIA-S811",
@@ -58300,7 +58365,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 88000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S808-GROUP"
   },
   {
     "code": "TIA-S812",
@@ -58425,7 +58491,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 83000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S812-GROUP"
   },
   {
     "code": "TIA-S813",
@@ -58550,7 +58617,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 88000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S812-GROUP"
   },
   {
     "code": "TIA-S814",
@@ -58680,7 +58748,8 @@
     "suggestedCategory": "SKIRT",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 113000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S814-GROUP"
   },
   {
     "code": "TIA-S815",
@@ -58810,7 +58879,8 @@
     "suggestedCategory": "SKIRT",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 113000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S814-GROUP"
   },
   {
     "code": "TIA-S816",
@@ -58929,7 +58999,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S816-GROUP"
   },
   {
     "code": "TIA-S817",
@@ -59048,7 +59119,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S816-GROUP"
   },
   {
     "code": "TIA-S818",
@@ -59167,7 +59239,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S818-GROUP"
   },
   {
     "code": "TIA-S819",
@@ -59281,7 +59354,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "ONE PIECE"
+    "suggestedCategory": "ONE PIECE",
+    "designGroupId": "TIA-S818-GROUP"
   },
   {
     "code": "TIA-S838",
@@ -59540,7 +59614,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 54000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S839-GROUP"
   },
   {
     "code": "TIA-S840",
@@ -59667,7 +59742,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "TIA-S839-GROUP"
   },
   {
     "code": "TIA-S841",
@@ -59797,7 +59873,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 50000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S839-GROUP"
   },
   {
     "code": "TIA-S842",
@@ -60194,7 +60271,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S844-GROUP"
   },
   {
     "code": "TIA-S845",
@@ -60333,7 +60411,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S844-GROUP"
   },
   {
     "code": "TIA-S846",
@@ -60472,7 +60551,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "롱드레스/롱원피스 카테고리 추천",
-    "suggestedCategory": "LONG DRESS"
+    "suggestedCategory": "LONG DRESS",
+    "designGroupId": "TIA-S844-GROUP"
   },
   {
     "code": "TIA-S847",
@@ -60995,7 +61075,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 50000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S850-GROUP"
   },
   {
     "code": "TIA-S851",
@@ -61126,7 +61207,8 @@
     "suggestedCategory": "TWO PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 54000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "TIA-S850-GROUP"
   },
   {
     "code": "TIA-S852",
@@ -61493,7 +61575,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 131000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "PEARL-S780-GROUP"
   },
   {
     "code": "PEARL-S781",
@@ -61559,52 +61642,52 @@
     "recommend": "NEW 7월신상 원피스 파티룩 방송룩 모임룩",
     "notice": "가격·소재·상세 실측 확인필요",
     "images": [
-      "assets/july10/pearl/PEARL-S781_01.jpg",
       "assets/july10/pearl/PEARL-S781_02.jpg",
       "assets/july10/pearl/PEARL-S781_03.jpg",
       "assets/july10/pearl/PEARL-S781_04.jpg",
       "assets/july10/pearl/PEARL-S781_05.jpg",
       "assets/july10/pearl/PEARL-S781_06.jpg",
       "assets/july10/pearl/PEARL-S781_07.jpg",
-      "assets/july10/pearl/PEARL-S781_08.jpg"
+      "assets/july10/pearl/PEARL-S781_08.jpg",
+      "assets/july10/pearl/PEARL-S781_01.jpg"
     ],
     "cuts": [
       {
-        "cut": "미분류컷",
-        "url": "assets/july10/pearl/PEARL-S781_01.jpg"
-      },
-      {
-        "cut": "미분류컷",
+        "cut": "대표컷",
         "url": "assets/july10/pearl/PEARL-S781_02.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 2",
         "url": "assets/july10/pearl/PEARL-S781_03.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 3",
         "url": "assets/july10/pearl/PEARL-S781_04.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 4",
         "url": "assets/july10/pearl/PEARL-S781_05.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 5",
         "url": "assets/july10/pearl/PEARL-S781_06.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 6",
         "url": "assets/july10/pearl/PEARL-S781_07.jpg"
       },
       {
-        "cut": "미분류컷",
+        "cut": "상세컷 7",
         "url": "assets/july10/pearl/PEARL-S781_08.jpg"
+      },
+      {
+        "cut": "제품컷/맨뒤",
+        "url": "assets/july10/pearl/PEARL-S781_01.jpg"
       }
     ],
-    "mainImage": "assets/july10/pearl/PEARL-S781_01.jpg",
-    "thumbImage": "assets/july10/pearl/PEARL-S781_01.jpg",
-    "thumbnail": "assets/july10/pearl/PEARL-S781_01.jpg",
+    "mainImage": "assets/july10/pearl/PEARL-S781_02.jpg",
+    "thumbImage": "assets/july10/pearl/PEARL-S781_02.jpg",
+    "thumbnail": "assets/july10/pearl/PEARL-S781_02.jpg",
     "cardImage": "assets/july10/pearl/PEARL-S781_01.jpg",
     "points": [
       "상체 라인을 살리는 뷔스티에 핏",
@@ -61615,7 +61698,9 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 131000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "PEARL-S780-GROUP",
+    "imageReviewMemo": "사용자 지정: 원래 images 배열 2번째 사진을 대표컷으로 설정, 기존 1번째 제품컷은 맨뒤로 이동."
   },
   {
     "code": "PEARL-S830",
@@ -61740,7 +61825,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "PEARL-S830-GROUP"
   },
   {
     "code": "PEARL-S831",
@@ -61865,7 +61951,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "사진상 스커트 단품만 보임. 상의 유무 검수 필요",
-    "suggestedCategory": "SKIRT"
+    "suggestedCategory": "SKIRT",
+    "designGroupId": "PEARL-S830-GROUP"
   },
   {
     "code": "PEARL-S832",
@@ -61987,7 +62074,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "PEARL-S832-GROUP"
   },
   {
     "code": "PEARL-S833",
@@ -62109,7 +62197,8 @@
     "suggestedCategory": "ONE PIECE",
     "competitorPriceSource": "JUDYSHOP screenshot 2026-07-11",
     "competitorPrice": 135000,
-    "priceReviewStatus": "경쟁사 캡처 기준 반영"
+    "priceReviewStatus": "경쟁사 캡처 기준 반영",
+    "designGroupId": "PEARL-S832-GROUP"
   },
   {
     "code": "HIYA-S786",
@@ -62234,7 +62323,8 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "HIYA-S786-GROUP"
   },
   {
     "code": "HIYA-S787",
@@ -62359,6 +62449,7 @@
       "7월 신상 셀렉션"
     ],
     "draftReviewMemo": "",
-    "suggestedCategory": "TWO PIECE"
+    "suggestedCategory": "TWO PIECE",
+    "designGroupId": "HIYA-S786-GROUP"
   }
 ]

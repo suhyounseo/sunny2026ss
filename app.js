@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v2';
+const VERSION = 'july10v3';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -614,6 +614,21 @@ function rankProduct(p) {
 function sortProducts(list) {
   return [...list].sort((a, b) => rankProduct(b) - rankProduct(a) || codeOf(a).localeCompare(codeOf(b), 'ko'));
 }
+function designGroupKey(p) {
+  return p && p.designGroupId ? String(p.designGroupId) : codeOf(p);
+}
+function uniqueByDesignGroup(items) {
+  const seen = new Set();
+  return items.filter(p => {
+    const key = designGroupKey(p);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+function chooseUniqueByDesignGroup(list, limit) {
+  return uniqueByDesignGroup(list.filter(p => mainImg(p))).slice(0, limit);
+}
 function editorSelectItems(visible) {
   const excluded = new Set(EDITOR_SELECT_EXCLUDED_CODES);
   const pinned = EDITOR_SELECT_PINNED_CODES
@@ -634,28 +649,42 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const july = choose(
+  const editorGroupKeys = new Set(
+    visible
+      .filter(p => editorCodes.has(codeOf(p)))
+      .map(designGroupKey)
+  );
+  const july = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
         isJulyNewProduct(p) &&
         isNew(p) &&
-        !editorCodes.has(codeOf(p))
+        !editorCodes.has(codeOf(p)) &&
+        !editorGroupKeys.has(designGroupKey(p))
       )
     ),
     8
   );
   const julyCodes = new Set(july.map(codeOf));
-  const pinned = NEW_ARRIVAL_PINNED_CODES
-    .map(code => visible.find(p => codeOf(p) === code))
-    .filter(p => p && mainImg(p) && !editorCodes.has(codeOf(p)) && !julyCodes.has(codeOf(p)));
+  const julyGroupKeys = new Set(july.map(designGroupKey));
+  const pinned = chooseUniqueByDesignGroup(
+    NEW_ARRIVAL_PINNED_CODES
+      .map(code => visible.find(p => codeOf(p) === code))
+      .filter(p => p && !editorCodes.has(codeOf(p)) && !editorGroupKeys.has(designGroupKey(p)) && !julyCodes.has(codeOf(p)) && !julyGroupKeys.has(designGroupKey(p))),
+    Math.max(0, 8 - july.length)
+  );
   const pinnedCodes = new Set(pinned.map(codeOf));
-  const fallback = choose(
+  const pinnedGroupKeys = new Set(pinned.map(designGroupKey));
+  const fallback = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
         isNew(p) &&
         !editorCodes.has(codeOf(p)) &&
+        !editorGroupKeys.has(designGroupKey(p)) &&
         !pinnedCodes.has(codeOf(p)) &&
-        !julyCodes.has(codeOf(p))
+        !pinnedGroupKeys.has(designGroupKey(p)) &&
+        !julyCodes.has(codeOf(p)) &&
+        !julyGroupKeys.has(designGroupKey(p))
       )
     ),
     Math.max(0, 8 - july.length - pinned.length)
@@ -1015,8 +1044,8 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
-    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems)}
     ${sectionBlock('New Arrival', t('newDesc'), fresh)}
+    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems)}
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
