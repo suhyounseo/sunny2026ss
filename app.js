@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v3';
+const VERSION = 'july10v4';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -94,7 +94,7 @@ const I18N = {
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
-    collectionJuly: '7월 10일 입고 신상만 모은 셀렉션',
+    collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
     collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
     collectionC: '특별한 순간을 위한 미디·롱 드레스 셀렉션'
@@ -119,7 +119,7 @@ const I18N = {
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
     editorDesc: 'Products we want to show first in the showroom.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
-    collectionJuly: 'July 10 new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
+    collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
     searchPlaceholder: '搜索迷你、修身、派对风、舞台服',
@@ -174,7 +174,7 @@ let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
-  { key: 'JULY_NEW', filter: 'COL_JULY', title: 'Collection July', name: 'July New Selection', desc: '7월 10일 입고 신상만 모은 셀렉션' },
+  { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
   { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' }
@@ -289,7 +289,7 @@ function isManualSearchIncluded(p, raw) {
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
-const isBest = p => !!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured;
+const isBest = p => isJulyNew(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
 const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
 const isVipActive = () => vipUntil() > Date.now();
