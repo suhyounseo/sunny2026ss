@@ -1,0 +1,2592 @@
+[
+  {
+    "code": "TIA-S762",
+    "status": "UPDATED",
+    "before": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 72000,
+      "priceText": "72,000원",
+      "designGroupId": "TIA-S762-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "비즈홀터 쉬폰 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 72000,
+      "priceText": "72,000원",
+      "designGroupId": "TIA-S762-MINI-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "비즈",
+        "홀터",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 검수: 미니원피스명 확정"
+  },
+  {
+    "code": "TIA-S763",
+    "status": "UPDATED",
+    "before": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 72000,
+      "priceText": "72,000원",
+      "designGroupId": "TIA-S762-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "비즈홀터 쉬폰 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 72000,
+      "priceText": "72,000원",
+      "designGroupId": "TIA-S762-MINI-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "비즈",
+        "홀터",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 검수: 미니원피스명 확정"
+  },
+  {
+    "code": "TIA-S806",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스헴 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S806-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스헴 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S806-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S807",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스헴 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S806-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스헴 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S806-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S808",
+    "status": "UPDATED",
+    "before": {
+      "name": "리본블라우스 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "블라우스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "셔링홀터 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "홀터",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "리본/캉캉 표현 제거, 미니원피스로 수정"
+  },
+  {
+    "code": "TIA-S809",
+    "status": "UPDATED",
+    "before": {
+      "name": "리본블라우스 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "블라우스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "셔링홀터 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "홀터",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "리본/캉캉 표현 제거, 미니원피스로 수정"
+  },
+  {
+    "code": "TIA-S810",
+    "status": "UPDATED",
+    "before": {
+      "name": "리본블라우스 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "블라우스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "셔링홀터 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "홀터",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "리본/캉캉 표현 제거, 미니원피스로 수정"
+  },
+  {
+    "code": "TIA-S811",
+    "status": "UPDATED",
+    "before": {
+      "name": "리본블라우스 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "블라우스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "셔링홀터 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S808-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "홀터",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "리본/캉캉 표현 제거, 미니원피스로 수정"
+  },
+  {
+    "code": "TIA-S812",
+    "status": "UPDATED",
+    "before": {
+      "name": "도트리본 플레어 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 83000,
+      "priceText": "83,000원",
+      "designGroupId": "TIA-S812-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "오프숄더 리본 플레어 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S812-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "같은 디자인 다른 컬러 가격 88,000원 통일"
+  },
+  {
+    "code": "TIA-S813",
+    "status": "UPDATED",
+    "before": {
+      "name": "도트리본 플레어 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S812-GROUP",
+      "variantColor": "민트",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "오프숄더 리본 플레어 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 88000,
+      "priceText": "88,000원",
+      "designGroupId": "TIA-S812-GROUP",
+      "variantColor": "민트",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "같은 디자인 다른 컬러 가격 88,000원 통일"
+  },
+  {
+    "code": "TIA-S777",
+    "status": "UPDATED",
+    "before": {
+      "name": "새틴뷔스티에 캉캉 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S777-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "새틴",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴뷔스티에 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S777-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S778",
+    "status": "UPDATED",
+    "before": {
+      "name": "새틴뷔스티에 캉캉 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S777-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "새틴",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴뷔스티에 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S777-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S804",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스뷔스티에 캉캉 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S804-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "레이스",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스뷔스티에 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S804-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S805",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스뷔스티에 캉캉 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "TIA-S804-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "레이스",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스뷔스티에 미니원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "TIA-S804-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S814",
+    "status": "UPDATED",
+    "before": {
+      "name": "티어드프릴 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 113000,
+      "priceText": "113,000원",
+      "designGroupId": "TIA-S814-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "프릴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "티어드프릴 벨트 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 113000,
+      "priceText": "113,000원",
+      "designGroupId": "TIA-S814-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "프릴",
+        "티어드",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S815",
+    "status": "UPDATED",
+    "before": {
+      "name": "티어드프릴 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 113000,
+      "priceText": "113,000원",
+      "designGroupId": "TIA-S814-GROUP",
+      "variantColor": "소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "프릴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "티어드프릴 벨트 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 113000,
+      "priceText": "113,000원",
+      "designGroupId": "TIA-S814-GROUP",
+      "variantColor": "소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "프릴",
+        "티어드",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S838",
+    "status": "UPDATED",
+    "before": {
+      "name": "골지브이넥 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 86000,
+      "priceText": "86,000원",
+      "designGroupId": null,
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "골지브이넥 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 86000,
+      "priceText": "86,000원",
+      "designGroupId": "TIA-S838-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "골지",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S839",
+    "status": "UPDATED",
+    "before": {
+      "name": "홀터드레이프 슬림 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": "TIA-S839-GROUP",
+      "variantColor": "블랙 / 핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "골지브이넥 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": "TIA-S838-GROUP",
+      "variantColor": "블랙 / 핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "골지",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S840",
+    "status": "UPDATED",
+    "before": {
+      "name": "홀터드레이프 슬림 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S839-GROUP",
+      "variantColor": "화이트 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "골지브이넥 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S838-GROUP",
+      "variantColor": "화이트 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "골지",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S841",
+    "status": "UPDATED",
+    "before": {
+      "name": "홀터드레이프 슬림 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 50000,
+      "priceText": "50,000원",
+      "designGroupId": "TIA-S839-GROUP",
+      "variantColor": "화이트 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "홀터드레이프 버클 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 50000,
+      "priceText": "50,000원",
+      "designGroupId": "TIA-S841-GROUP",
+      "variantColor": "화이트 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "버클",
+        "드레이프",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S842",
+    "status": "UPDATED",
+    "before": {
+      "name": "버클포인트 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": null,
+      "variantColor": "브라운",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "홀터드레이프 버클 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": "TIA-S841-GROUP",
+      "variantColor": "브라운",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "버클",
+        "드레이프",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S843",
+    "status": "UPDATED",
+    "before": {
+      "name": "홀터넥 버클스커트 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": null,
+      "variantColor": "아이 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "스커트",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "홀터드레이프 버클 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S841-GROUP",
+      "variantColor": "아이 / 블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "버클",
+        "드레이프",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S848",
+    "status": "UPDATED",
+    "before": {
+      "name": "리본타이 홀터 원피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 117000,
+      "priceText": "117,000원",
+      "designGroupId": null,
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "리본",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "리본타이 홀터 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 117000,
+      "priceText": "117,000원",
+      "designGroupId": "TIA-S848-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S849",
+    "status": "UPDATED",
+    "before": {
+      "name": "홀터니트 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 117000,
+      "priceText": "117,000원",
+      "designGroupId": null,
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "플리츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "리본타이 홀터 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 117000,
+      "priceText": "117,000원",
+      "designGroupId": "TIA-S848-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S850",
+    "status": "UPDATED",
+    "before": {
+      "name": "드레이프홀터 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 50000,
+      "priceText": "50,000원",
+      "designGroupId": "TIA-S850-GROUP",
+      "variantColor": "아이 / 소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "드레이프홀터 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 50000,
+      "priceText": "50,000원",
+      "designGroupId": "TIA-S850-GROUP",
+      "variantColor": "아이 / 소라",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "드레이프",
+        "쇼츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S851",
+    "status": "UPDATED",
+    "before": {
+      "name": "드레이프홀터 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": "TIA-S850-GROUP",
+      "variantColor": "블랙 / 핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "드레이프홀터 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 54000,
+      "priceText": "54,000원",
+      "designGroupId": "TIA-S850-GROUP",
+      "variantColor": "블랙 / 핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "드레이프",
+        "쇼츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S852",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루드레이프 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": null,
+      "variantColor": "베이지",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "시스루",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "드레이프홀터 쇼츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S850-GROUP",
+      "variantColor": "베이지",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "홀터",
+        "드레이프",
+        "쇼츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "PEARL-S830",
+    "status": "UPDATED",
+    "before": {
+      "name": "버클자수 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "PEARL-S830-GROUP",
+      "variantColor": "아이 / 블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "버클자수 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "PEARL-S830-GROUP",
+      "variantColor": "아이 / 블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "버클",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "PEARL-S831",
+    "status": "UPDATED",
+    "before": {
+      "name": "버클자수 미니스커트",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "PEARL-S830-GROUP",
+      "variantColor": "블랙 / 엘로우",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "스커트",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "버클자수 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "PEARL-S830-GROUP",
+      "variantColor": "블랙 / 엘로우",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "버클",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "PEARL-S832",
+    "status": "UPDATED",
+    "before": {
+      "name": "골드버튼 포켓 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "PEARL-S832-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "실버버튼 포켓 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "PEARL-S832-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "버튼",
+        "포켓",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "PEARL-S833",
+    "status": "UPDATED",
+    "before": {
+      "name": "골드버튼 포켓 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "PEARL-S832-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "실버버튼 포켓 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 135000,
+      "priceText": "135,000원",
+      "designGroupId": "PEARL-S832-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "버튼",
+        "포켓",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "SEY-S820",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스카라 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": "SEY-S820-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "레이스",
+        "플리츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "소매리본 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": "SEY-S820-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "레이스카라 표현 대신 소매/어깨 리본 중심 이름"
+  },
+  {
+    "code": "SEY-S821",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스카라 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": "SEY-S820-GROUP",
+      "variantColor": "옐로우",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "레이스",
+        "플리츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "소매리본 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": "SEY-S820-GROUP",
+      "variantColor": "옐로우",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "리본",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "레이스카라 표현 대신 소매/어깨 리본 중심 이름"
+  },
+  {
+    "code": "SEY-S824",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "시스루",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 검수: 미니가 아닌 미디"
+  },
+  {
+    "code": "SEY-S825",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "시스루",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 검수: 미니가 아닌 미디"
+  },
+  {
+    "code": "IMN-S784",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스뷔스티에 슬림 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 122000,
+      "priceText": "122,000원",
+      "designGroupId": "IMN-S784-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": 122000,
+      "priceText": "122,000원",
+      "designGroupId": "IMN-S784-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 검수: 미니가 아닌 미디"
+  },
+  {
+    "code": "SEY-S824",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "시스루뷔스티에 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "SEY-S825",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "시스루뷔스티에 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "SEY-S824-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "IMN-S784",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스뷔스티에 슬림 원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": 122000,
+      "priceText": "122,000원",
+      "designGroupId": "IMN-S784-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스뷔스티에 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": 122000,
+      "priceText": "122,000원",
+      "designGroupId": "IMN-S784-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "IMN-S836",
+    "status": "UPDATED",
+    "before": {
+      "name": "플라워쉬폰 레이어드 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "IMN-S836-GROUP",
+      "variantColor": "블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "플라워쉬폰 언발 원피스",
+      "category": "MIDI",
+      "length": "언발",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "IMN-S836-GROUP",
+      "variantColor": "블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "언발원피스",
+        "쉬폰",
+        "언발",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "IMN-S837",
+    "status": "UPDATED",
+    "before": {
+      "name": "플라워쉬폰 레이어드 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "IMN-S836-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "플라워쉬폰 언발 원피스",
+      "category": "MIDI",
+      "length": "언발",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "IMN-S836-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "언발원피스",
+        "쉬폰",
+        "언발",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S756",
+    "status": "UPDATED",
+    "before": {
+      "name": "하이넥 슬리브리스 탑",
+      "category": "MINI",
+      "length": "미니",
+      "price": 32000,
+      "priceText": "32,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "탑",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "하이넥 슬리브리스 니트",
+      "category": "TOP",
+      "length": "상의",
+      "price": 32000,
+      "priceText": "32,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "상의",
+        "탑",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "상세 검수: 하이넥 슬리브리스 니트"
+  },
+  {
+    "code": "TIA-S757",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루크롭 셔츠",
+      "category": "MINI",
+      "length": "미니",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": null,
+      "variantColor": "핑크 / 블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "시스루",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "크롭셔츠 플레어 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": 81000,
+      "priceText": "81,000원",
+      "designGroupId": null,
+      "variantColor": "핑크 / 블루",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "시스루 표현 제거"
+  },
+  {
+    "code": "TIA-S759",
+    "status": "UPDATED",
+    "before": {
+      "name": "골지하이넥 니트탑",
+      "category": "MINI",
+      "length": "미니",
+      "price": 46000,
+      "priceText": "46,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "탑",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "골지셔링 슬리브리스 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 46000,
+      "priceText": "46,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미니원피스",
+        "골지",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "하이넥 니트탑 표현 제거"
+  },
+  {
+    "code": "TIA-S760",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스셔링 슬리브리스 탑",
+      "category": "MINI",
+      "length": "미니",
+      "price": 75000,
+      "priceText": "75,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "탑",
+        "레이스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스셔링 끈나시",
+      "category": "TOP",
+      "length": "상의",
+      "price": 75000,
+      "priceText": "75,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "상의",
+        "탑",
+        "레이스",
+        "셔링",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 제안 반영"
+  },
+  {
+    "code": "TIA-S761",
+    "status": "UPDATED",
+    "before": {
+      "name": "시스루셔츠 벨트 블라우스",
+      "category": "MINI",
+      "length": "미니",
+      "price": 99000,
+      "priceText": "99,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "블라우스",
+        "시스루",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴스트링 자켓 블라우스",
+      "category": "BLOUSE",
+      "length": "상의",
+      "price": 99000,
+      "priceText": "99,000원",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "블라우스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "새틴 기반 끈 자켓/블라우스명으로 수정"
+  },
+  {
+    "code": "TIA-S764",
+    "status": "UPDATED",
+    "before": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S762-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S764-LONG-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "비즈",
+        "홀터",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S765",
+    "status": "UPDATED",
+    "before": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S762-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S764-LONG-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "비즈",
+        "홀터",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S766",
+    "status": "UPDATED",
+    "before": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S762-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "홀터",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "비즈홀터 쉬폰 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S764-LONG-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "비즈",
+        "홀터",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S767",
+    "status": "UPDATED",
+    "before": {
+      "name": "레이스언발 프릴 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "레이스",
+        "프릴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "레이스언발 프릴 원피스",
+      "category": "MIDI",
+      "length": "언발",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": null,
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "언발원피스",
+        "레이스",
+        "프릴",
+        "언발",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S768",
+    "status": "UPDATED",
+    "before": {
+      "name": "트위드자켓 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S768-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "플리츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "트위드포켓 머메이드 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S768-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "트위드",
+        "포켓",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S769",
+    "status": "UPDATED",
+    "before": {
+      "name": "트위드자켓 플리츠 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S768-GROUP",
+      "variantColor": "민트",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "플리츠",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "트위드포켓 머메이드 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S768-GROUP",
+      "variantColor": "민트",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "트위드",
+        "포켓",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S775",
+    "status": "UPDATED",
+    "before": {
+      "name": "배색스트랩 슬림 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S775-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "배색스트랩 슬림 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S775-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S776",
+    "status": "UPDATED",
+    "before": {
+      "name": "배색스트랩 슬림 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S775-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "배색스트랩 슬림 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S775-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S816",
+    "status": "UPDATED",
+    "before": {
+      "name": "뷔스티에쉬폰 슬릿 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S816-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "뷔스티에쉬폰 슬릿 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S816-GROUP",
+      "variantColor": "핑크",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S817",
+    "status": "UPDATED",
+    "before": {
+      "name": "뷔스티에쉬폰 슬릿 원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S816-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "뷔스티에쉬폰 슬릿 미디원피스",
+      "category": "MIDI",
+      "length": "미디",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S816-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "미디원피스",
+        "쉬폰",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": null
+  },
+  {
+    "code": "TIA-S844",
+    "status": "UPDATED",
+    "before": {
+      "name": "새틴슬림 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴슬림 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "아이",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 지시 TIA-S844~845 롱 반영, 같은 그룹 S846도 롱으로 맞춤"
+  },
+  {
+    "code": "TIA-S845",
+    "status": "UPDATED",
+    "before": {
+      "name": "새틴슬림 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴슬림 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "문의",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 지시 TIA-S844~845 롱 반영, 같은 그룹 S846도 롱으로 맞춤"
+  },
+  {
+    "code": "TIA-S846",
+    "status": "UPDATED",
+    "before": {
+      "name": "새틴슬림 롱원피스",
+      "category": "MINI",
+      "length": "미니",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "새틴슬림 롱원피스",
+      "category": "LONG",
+      "length": "롱",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "TIA-S844-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "원피스",
+        "롱원피스",
+        "롱드레스",
+        "새틴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "사용자 지시 TIA-S844~845 롱 반영, 같은 그룹 S846도 롱으로 맞춤"
+  },
+  {
+    "code": "YES-S853",
+    "status": "UPDATED",
+    "before": {
+      "name": "백리본 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "YES-S853-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "프릴플레어 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "YES-S853-GROUP",
+      "variantColor": "블랙",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "프릴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "백리본/캉캉 표현 제거, 어색한 이름 수정"
+  },
+  {
+    "code": "YES-S854",
+    "status": "UPDATED",
+    "before": {
+      "name": "백리본 캉캉 투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "YES-S853-GROUP",
+      "variantColor": "브라운",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "리본",
+        "캉캉",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "after": {
+      "name": "프릴플레어 미니투피스",
+      "category": "TWO PIECE",
+      "length": "투피스",
+      "price": null,
+      "priceText": "카카오톡 문의",
+      "designGroupId": "YES-S853-GROUP",
+      "variantColor": "브라운",
+      "tags": [
+        "NEW",
+        "7월신상",
+        "투피스",
+        "프릴",
+        "파티룩",
+        "방송룩",
+        "모임룩"
+      ]
+    },
+    "memo": "백리본/캉캉 표현 제거, 어색한 이름 수정"
+  }
+]
