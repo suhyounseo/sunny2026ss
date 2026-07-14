@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v7';
+const VERSION = 'july10v8';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -766,7 +766,8 @@ function matchesSearch(p, rawSearch) {
   };
   const aliasKey = Object.keys(supplierAlias).find(key => rawSearch.includes(key));
   if (aliasKey) {
-    const hay = norm([supplierText(p), productText(p)].join(' '));
+    // 거래처 검색은 상품 설명의 '실루엣' 같은 일반 단어까지 잡히지 않도록 거래처/폴더 영역만 검색합니다.
+    const hay = norm(supplierText(p));
     return supplierAlias[aliasKey].some(word => hay.includes(norm(word)));
   }
   if (/^costume$/i.test(rawSearch) || /^코스튬$/i.test(rawSearch)) return isCostume(p);
