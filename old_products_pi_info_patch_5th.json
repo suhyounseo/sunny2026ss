@@ -1,0 +1,1173 @@
+[
+  {
+    "code": "N260171",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S) / 66(M)",
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:119 가슴:37 허리:33) / 66(M)(총길이:119 가슴:39.5 허리:35.5)",
+      "sizeDetail": "55(S)(총길이:119 가슴:37 허리:33) / 66(M)(총길이:119 가슴:39.5 허리:35.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260171",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260171",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": "검색 오류 수정: 롱드레스 포함, 투피스 제외"
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260171PI"
+    }
+  },
+  {
+    "code": "N260176",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": "확인 필요",
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
+      "sizeDetail": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260177",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": "확인 필요",
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
+      "sizeDetail": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260176",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "사진 기준 추정 금지. 거래처 입고표 또는 상품택 확인 후 확정",
+      "stretch": "신축성 확인 필요",
+      "cap": null,
+      "lining": "안감 있음/없음 확인 필요",
+      "see": "비침 여부 확인 필요",
+      "thickness": "두께감 확인 필요",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260177",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "사진 기준 추정 금지. 거래처 입고표 또는 상품택 확인 후 확정",
+      "stretch": "신축성 확인 필요",
+      "cap": null,
+      "lining": "안감 있음/없음 확인 필요",
+      "see": "비침 여부 확인 필요",
+      "thickness": "두께감 확인 필요",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260176",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI"
+    }
+  },
+  {
+    "code": "N260177",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI"
+    }
+  },
+  {
+    "code": "N260178",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": null,
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:78 가슴:39 허리:32) / 66(M)(총길이:78 가슴:41.5 허리:34.5)",
+      "sizeDetail": "55(S)(총길이:78 가슴:39 허리:32) / 66(M)(총길이:78 가슴:41.5 허리:34.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260179",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": null,
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:78 가슴:39 허리:32) / 66(M)(총길이:78 가슴:41.5 허리:34.5)",
+      "sizeDetail": "55(S)(총길이:78 가슴:39 허리:32) / 66(M)(총길이:78 가슴:41.5 허리:34.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260178",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "레이스",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": null,
+      "zipper": null
+    },
+    "after": {
+      "fabric": "레이스",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260179",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "레이스",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": null,
+      "zipper": null
+    },
+    "after": {
+      "fabric": "레이스",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260178",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI"
+    }
+  },
+  {
+    "code": "N260179",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI"
+    }
+  },
+  {
+    "code": "N260180",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": null,
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260181",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": null,
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260182",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": null,
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260180",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": "없음"
+    }
+  },
+  {
+    "code": "N260181",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": "없음"
+    }
+  },
+  {
+    "code": "N260182",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": null,
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": null
+    },
+    "after": {
+      "fabric": "망사+폴리혼방",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "있음",
+      "thickness": "보통",
+      "zipper": "없음"
+    }
+  },
+  {
+    "code": "N260180",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    }
+  },
+  {
+    "code": "N260181",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    }
+  },
+  {
+    "code": "N260182",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    }
+  },
+  {
+    "code": "N260212",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": true
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
+      "sizeDetail": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260213",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": true
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
+      "sizeDetail": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260212",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "fabricNote",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper",
+      "wearInfo",
+      "correctionNote",
+      "category"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "fabricNote": null,
+      "stretch": "약간",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼",
+      "wearInfo": "스트라이프 포인트가 있는 프레피 무드 코스튬 투피스입니다. 클럽·파티·촬영·이벤트룩으로 추천합니다.",
+      "correctionNote": null,
+      "category": "TWO PIECE"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "fabricNote": "상의/스커트: 폴리혼방",
+      "stretch": "상의 없음 / 스커트 없음",
+      "cap": "상의 없음",
+      "lining": "상의 없음 / 스커트 뒷지퍼",
+      "see": "상의 없음 / 스커트 없음",
+      "thickness": "상의 보통 / 스커트 보통",
+      "zipper": "상의 없음 / 스커트 뒷지퍼",
+      "wearInfo": "상의와 스커트가 세트로 구성된 프레피 무드 코스튬 투피스입니다. PI 기준 55/66/77 사이즈로 정리했습니다.",
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI",
+      "category": "COSTUME"
+    }
+  },
+  {
+    "code": "N260213",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "fabricNote",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper",
+      "wearInfo",
+      "correctionNote",
+      "category"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "fabricNote": null,
+      "stretch": "약간",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼",
+      "wearInfo": "스트라이프 포인트가 있는 프레피 무드 코스튬 투피스입니다. 클럽·파티·촬영·이벤트룩으로 추천합니다.",
+      "correctionNote": null,
+      "category": "TWO PIECE"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "fabricNote": "상의/스커트: 폴리혼방",
+      "stretch": "상의 없음 / 스커트 없음",
+      "cap": "상의 없음",
+      "lining": "상의 없음 / 스커트 뒷지퍼",
+      "see": "상의 없음 / 스커트 없음",
+      "thickness": "상의 보통 / 스커트 보통",
+      "zipper": "상의 없음 / 스커트 뒷지퍼",
+      "wearInfo": "상의와 스커트가 세트로 구성된 프레피 무드 코스튬 투피스입니다. PI 기준 55/66/77 사이즈로 정리했습니다.",
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI",
+      "category": "COSTUME"
+    }
+  },
+  {
+    "code": "N260214",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원) / 88반 (+25,000원) / 99(XXL) (+35,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": true
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "sizeDetail": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260215",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원) / 88반 (+25,000원) / 99(XXL) (+35,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": true
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "sizeDetail": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260216",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원) / 88반 (+25,000원) / 99(XXL) (+35,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": true
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "sizeDetail": "55(S)(총길이:80 가슴:39 허리:30 힙:40) / 66(M)(총길이:80 가슴:41.5 허리:32.5 힙:42.5) / 77(L)(총길이:80 가슴:44 허리:35 힙:45)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260214",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "있음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260215",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "있음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260216",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "없음",
+      "cap": "있음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260214",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260214PI"
+    }
+  },
+  {
+    "code": "N260215",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260214PI"
+    }
+  },
+  {
+    "code": "N260216",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260214PI"
+    }
+  },
+  {
+    "code": "N260169",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M",
+      "sizeInfo": "상의/원피스 S(가:39 허:34) / M(가:41.5 허:36.5) / 기장 77",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
+      "sizeDetail": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260170",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M",
+      "sizeInfo": "상의/원피스 S(가39, 허34, 힙-) / M(가41.5, 허36.5, 힙-) / 기장 77",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66",
+      "sizeInfo": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
+      "sizeDetail": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
+      "size77Available": false,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260169",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "새틴",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "새틴",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260170",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "새틴",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "새틴",
+      "stretch": "없음",
+      "cap": "없음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260169",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI"
+    }
+  },
+  {
+    "code": "N260170",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI"
+    }
+  },
+  {
+    "code": "N260167",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "S,M,L",
+      "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+      "sizeDetail": null,
+      "size77Available": false,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
+      "sizeDetail": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260168",
+    "status": "updated",
+    "fields": [
+      "size",
+      "sizeInfo",
+      "sizeDetail",
+      "size77Available",
+      "size88Available"
+    ],
+    "before": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반(맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원)",
+      "sizeDetail": null,
+      "size77Available": true,
+      "size88Available": false
+    },
+    "after": {
+      "size": "55 / 66 / 77",
+      "sizeInfo": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
+      "sizeDetail": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
+      "size77Available": true,
+      "size88Available": false
+    }
+  },
+  {
+    "code": "N260167",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": "있음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260168",
+    "status": "updated",
+    "fields": [
+      "fabric",
+      "stretch",
+      "cap",
+      "lining",
+      "see",
+      "thickness",
+      "zipper"
+    ],
+    "before": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": null,
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    },
+    "after": {
+      "fabric": "폴리혼방",
+      "stretch": "있음",
+      "cap": "있음",
+      "lining": "있음",
+      "see": "없음",
+      "thickness": "보통",
+      "zipper": "뒷지퍼"
+    }
+  },
+  {
+    "code": "N260167",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI"
+    }
+  },
+  {
+    "code": "N260168",
+    "status": "updated",
+    "fields": [
+      "correctionNote"
+    ],
+    "before": {
+      "correctionNote": null
+    },
+    "after": {
+      "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI"
+    }
+  }
+]
