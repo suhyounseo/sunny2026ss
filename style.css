@@ -570,3 +570,21 @@
 .section-more{display:flex;align-items:center;justify-content:center;width:min(360px,100%);min-height:48px;margin:10px auto 4px;border:1px solid #171413;border-radius:999px;background:#171413;color:#fff;font-size:15px;font-weight:950;letter-spacing:-.02em;cursor:pointer;box-shadow:0 10px 24px rgba(23,20,19,.12)}
 .section-more:hover{background:#2a211d}
 @media(max-width:720px){.home-preview-rail{max-height:calc(100vh - 250px)}.section-more{min-height:44px;font-size:14px;margin-top:6px}}
+
+
+/* Detail page balance fix: avoid duplicated wear info and keep layout comfortable */
+@media(min-width:900px){
+  .panel{width:min(1240px,96vw)}
+  .body{grid-template-columns:minmax(430px,.92fr) minmax(0,1.08fr);align-items:start}
+  .visual{position:sticky;top:73px;align-self:start;min-height:auto}
+  .copy{padding:30px 32px 34px}
+  .spec{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+.wear-guide{margin-top:16px}
+.wear-table-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.wear-table-wrap{min-width:0}
+.wear-table-wrap>p{padding-left:2px}
+@media(max-width:899px){
+  .visual{position:relative;top:auto}
+  .wear-table-grid{grid-template-columns:1fr;gap:10px}
+}

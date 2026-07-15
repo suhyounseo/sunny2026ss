@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v12';
+const VERSION = 'july10v13';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -449,17 +449,21 @@ function shortDescription(p) {
   return sentences.length ? sentences.join(' ') : cleaned;
 }
 function specCells(p) {
-  const items = [
+  const hasDetailedWear = Array.isArray(p.wearTables) && p.wearTables.length;
+  const baseItems = [
     [t('color'), displayColors(p) || t('ask')],
     [t('size'), simpleSize(p)],
-    [t('fabric'), safeText(p.fabric)],
+    [t('fabric'), safeText(p.fabric)]
+  ];
+  const wearItems = [
     [t('lining'), safeText(p.lining)],
     [t('stretch'), safeText(p.stretch)],
     [t('cap'), safeText(p.cap)],
     [t('sheer'), safeText(p.see)],
     [t('thickness'), safeText(p.thickness)],
     [t('zipper'), safeText(p.zipper)]
-  ].filter(([, value]) => value);
+  ];
+  const items = (hasDetailedWear ? baseItems : baseItems.concat(wearItems)).filter(([, value]) => value);
   return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${value}</span></div>`).join('');
 }
 function sizeGuideRows(groupText) {
@@ -522,7 +526,7 @@ function wearInfoBlock(p) {
     if (!rows) return '';
     return `<div class="wear-table-wrap"><p>${safeText(group.title) || '착용 정보'}</p><table class="wear-table"><tbody>${rows}</tbody></table></div>`;
   }).filter(Boolean).join('');
-  return blocks ? `<div class="box wear-guide"><b>착용 정보</b>${blocks}</div>` : '';
+  return blocks ? `<div class="box wear-guide"><b>착용 정보</b><div class="wear-table-grid">${blocks}</div></div>` : '';
 }
 function productText(p) {
   return [
