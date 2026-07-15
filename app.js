@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v11';
+const VERSION = 'july10v12';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -851,9 +851,11 @@ function productCard(p, compact = false) {
 function choose(list, limit) {
   return list.filter(p => mainImg(p)).slice(0, limit);
 }
-function sectionBlock(label, desc, items) {
+function sectionBlock(label, desc, items, moreFilter = '', moreText = '더보기') {
   if (!items.length) return '';
-  return `<section class="show-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${items.length} ${t('picks')}</span></div><div class="rail">${items.map(p => productCard(p, true)).join('')}</div></section>`;
+  const previewItems = items.slice(0, 8);
+  const moreButton = moreFilter ? `<button class="section-more" type="button" data-f="${moreFilter}">${moreText}</button>` : '';
+  return `<section class="show-section home-preview-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${previewItems.length} ${t('picks')}</span></div><div class="rail home-preview-rail">${previewItems.map(p => productCard(p, true)).join('')}</div>${moreButton}</section>`;
 }
 function imageListFor(p) {
   const main = mainImg(p) ? [{ url: mainImg(p), cut: '대표' }] : [];
@@ -1045,11 +1047,12 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
-    ${sectionBlock('New Arrival', t('newDesc'), fresh)}
-    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems)}
+    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', '7월 신상 더보기')}
+    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', '에디터스픽 더보기')}
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
+  $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
   bindVipControls();
 }

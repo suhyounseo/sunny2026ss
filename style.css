@@ -563,3 +563,10 @@
 .wear-table th{width:34%;background:#f2e8dc;color:#6c584b;font-weight:950;text-align:center}
 .wear-table td{color:#2d241f;font-weight:850}
 @media(max-width:720px){.wear-table th,.wear-table td{padding:9px 7px;font-size:12px}.size-note{font-size:12px}}
+
+/* Home preview sections: keep first screen simple and connect to full collections */
+.home-preview-section{position:relative}
+.home-preview-rail{max-height:calc(100vh - 230px);overflow-y:hidden}
+.section-more{display:flex;align-items:center;justify-content:center;width:min(360px,100%);min-height:48px;margin:10px auto 4px;border:1px solid #171413;border-radius:999px;background:#171413;color:#fff;font-size:15px;font-weight:950;letter-spacing:-.02em;cursor:pointer;box-shadow:0 10px 24px rgba(23,20,19,.12)}
+.section-more:hover{background:#2a211d}
+@media(max-width:720px){.home-preview-rail{max-height:calc(100vh - 250px)}.section-more{min-height:44px;font-size:14px;margin-top:6px}}
