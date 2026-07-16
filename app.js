@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v14';
+const VERSION = 'july16v15';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1215,7 +1215,7 @@ function openDetail(code) {
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
+      <div class="main gallery-main"><button class="gallery-nav gallery-prev" id="galleryPrev" type="button" aria-label="이전 사진">‹</button>${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}<button class="gallery-nav gallery-next" id="galleryNext" type="button" aria-label="다음 사진">›</button></div>
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
@@ -1243,11 +1243,18 @@ function openDetail(code) {
   modal.classList.add('open');
   document.body.classList.add('detail-open');
   openModalHistory(code);
-  $$('.thumb', detail).forEach(b => b.onclick = () => {
-    const i = Number(b.dataset.i);
-    $('#mainImage').src = img(currentImages[i].url);
-    $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', i === j));
-  });
+  let currentImageIndex = 0;
+  const showImage = i => {
+    if (!currentImages.length) return;
+    currentImageIndex = (i + currentImages.length) % currentImages.length;
+    $('#mainImage').src = img(currentImages[currentImageIndex].url);
+    $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', currentImageIndex === j));
+  };
+  $$('.thumb', detail).forEach(b => b.onclick = () => showImage(Number(b.dataset.i)));
+  const prevBtn = $('#galleryPrev', detail);
+  const nextBtn = $('#galleryNext', detail);
+  if (prevBtn) prevBtn.onclick = e => { e.stopPropagation(); showImage(currentImageIndex - 1); };
+  if (nextBtn) nextBtn.onclick = e => { e.stopPropagation(); showImage(currentImageIndex + 1); };
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
   $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
   $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));

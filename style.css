@@ -588,3 +588,5 @@
   .visual{position:relative;top:auto}
   .wear-table-grid{grid-template-columns:1fr;gap:10px}
 }
+
+.gallery-main{position:relative}.gallery-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:46px;height:46px;border:1px solid rgba(255,255,255,.8);border-radius:50%;background:rgba(20,17,15,.68);color:#fff;font-size:34px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}.gallery-prev{left:12px}.gallery-next{right:12px}.gallery-nav:hover{background:rgba(20,17,15,.9)}@media(max-width:760px){.gallery-nav{width:40px;height:40px;font-size:30px}.gallery-prev{left:8px}.gallery-next{right:8px}}
