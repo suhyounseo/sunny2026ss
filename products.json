@@ -18411,7 +18411,7 @@
     "storeName": "화이트 오프숄더 랩스커트 투피스",
     "category": "TWO PIECE",
     "color": "화이트/블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 153000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -18453,9 +18453,9 @@
     "desc": "오프숄더 랩스커트 투피스 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "폴리혼방",
-    "stretch": "있음",
+    "stretch": "상의 있음 / 스커트 약간",
     "see": "없음",
-    "lining": "상:부분, 하:있음",
+    "lining": "상의 부분 / 스커트 있음",
     "best": true,
     "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
     "name_cn": "露肩 裹身 半身裙 两件套",
@@ -18488,6 +18488,7 @@
     "smartStoreAttributes": {
       "총기장": "미니",
       "소매기장": "반팔",
+      "종류": "클럽의상",
       "핏": "슬림핏",
       "스커트스타일": [
         "랩",
@@ -18495,10 +18496,113 @@
       ],
       "디테일": [
         "리본",
-        "펀칭"
+        "펀칭",
+        "셔링",
+        "드레이프"
       ],
       "패턴": "무지"
-    }
+    },
+    "cap": "",
+    "thickness": "보통",
+    "zipper": "상의 뒷지퍼 / 스커트 옆지퍼",
+    "sizeInfo": "상의 55(총길이 37 소매 12 가슴 38 허리 30 힙 -), 66(총길이 37 소매 12 가슴 40.5 허리 32.5 힙 -), 77(총길이 37 소매 12 가슴 43 허리 35 힙 -) | 스커트 55(총길이 39 허리 32 힙 42), 66(총길이 39 허리 34.5 힙 44.5), 77(총길이 39 허리 37 힙 47)",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "38",
+            "허리단면": "30",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "40.5",
+            "허리단면": "32.5",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "43",
+            "허리단면": "35",
+            "힙단면": "-"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "허리단면": "32",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "허리단면": "37",
+            "힙단면": "47"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "끈 여부": "있음",
+          "어깨패드": "없음",
+          "안감": "부분",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "manualSearchInclude": [
+      "투피스",
+      "슬림핏",
+      "미니원피스"
+    ]
   },
   {
     "code": "N260012",
@@ -18510,7 +18614,7 @@
     "storeName": "핑크 오프숄더 랩스커트 투피스",
     "category": "TWO PIECE",
     "color": "핑크/화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 153000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -18552,9 +18656,9 @@
     "desc": "핑크 오프숄더 랩스커트 투피스 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "폴리혼방",
-    "stretch": "있음",
+    "stretch": "상의 있음 / 스커트 약간",
     "see": "없음",
-    "lining": "상:부분, 하:있음",
+    "lining": "상의 부분 / 스커트 있음",
     "best": true,
     "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
     "name_cn": "露肩 裹身 半身裙 两件套",
@@ -18587,6 +18691,7 @@
     "smartStoreAttributes": {
       "총기장": "미니",
       "소매기장": "반팔",
+      "종류": "클럽의상",
       "핏": "슬림핏",
       "스커트스타일": [
         "랩",
@@ -18594,10 +18699,113 @@
       ],
       "디테일": [
         "리본",
-        "펀칭"
+        "펀칭",
+        "셔링",
+        "드레이프"
       ],
       "패턴": "무지"
-    }
+    },
+    "cap": "",
+    "thickness": "보통",
+    "zipper": "상의 뒷지퍼 / 스커트 옆지퍼",
+    "sizeInfo": "상의 55(총길이 37 소매 12 가슴 38 허리 30 힙 -), 66(총길이 37 소매 12 가슴 40.5 허리 32.5 힙 -), 77(총길이 37 소매 12 가슴 43 허리 35 힙 -) | 스커트 55(총길이 39 허리 32 힙 42), 66(총길이 39 허리 34.5 힙 44.5), 77(총길이 39 허리 37 힙 47)",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "38",
+            "허리단면": "30",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "40.5",
+            "허리단면": "32.5",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "37",
+            "소매길이": "12",
+            "가슴단면": "43",
+            "허리단면": "35",
+            "힙단면": "-"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "허리단면": "32",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "허리단면": "37",
+            "힙단면": "47"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "끈 여부": "있음",
+          "어깨패드": "없음",
+          "안감": "부분",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "manualSearchInclude": [
+      "투피스",
+      "슬림핏",
+      "미니원피스"
+    ]
   },
   {
     "code": "N260013",
@@ -18631,26 +18839,61 @@
       "럭셔리"
     ],
     "images": [
-      "http://shop1.phinf.naver.net/20260705_239/1783229883406q6yqK_JPEG/N260013_01.jpg",
-      "http://shop1.phinf.naver.net/20260705_181/17832298819808DRaY_JPEG/N260013_04.jpg",
-      "http://shop1.phinf.naver.net/20260705_43/1783229888510D9R19_JPEG/N260013_02.jpg",
-      "http://shop1.phinf.naver.net/20260705_37/1783229883666zCjMr_JPEG/N260013_03.jpg"
+      "assets/N260013_M01.jpg",
+      "assets/N260013_F01.jpg",
+      "assets/N260013_UX01.jpg",
+      "assets/N260013_LX01.jpg",
+      "assets/N260013_L01.jpg",
+      "assets/N260013_L02.jpg",
+      "assets/N260013_B01.jpg",
+      "assets/N260013_SP01.jpg",
+      "assets/N260013_BP01.jpg"
     ],
     "cuts": [
       {
-        "url": "http://shop1.phinf.naver.net/20260705_181/17832298819808DRaY_JPEG/N260013_04.jpg",
-        "cut": "스마트스토어 이미지 1",
-        "source": "스마트스토어 상세페이지 HTML"
+        "url": "assets/N260013_M01.jpg",
+        "cut": "M01",
+        "source": "Desktop.zip/S511"
       },
       {
-        "url": "http://shop1.phinf.naver.net/20260705_43/1783229888510D9R19_JPEG/N260013_02.jpg",
-        "cut": "스마트스토어 이미지 2",
-        "source": "스마트스토어 상세페이지 HTML"
+        "url": "assets/N260013_F01.jpg",
+        "cut": "F01",
+        "source": "Desktop.zip/S511"
       },
       {
-        "url": "http://shop1.phinf.naver.net/20260705_37/1783229883666zCjMr_JPEG/N260013_03.jpg",
-        "cut": "스마트스토어 이미지 3",
-        "source": "스마트스토어 상세페이지 HTML"
+        "url": "assets/N260013_UX01.jpg",
+        "cut": "UX01",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_LX01.jpg",
+        "cut": "LX01",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_L01.jpg",
+        "cut": "L01",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_L02.jpg",
+        "cut": "L02",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_B01.jpg",
+        "cut": "B01",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_SP01.jpg",
+        "cut": "SP01",
+        "source": "Desktop.zip/S511"
+      },
+      {
+        "url": "assets/N260013_BP01.jpg",
+        "cut": "BP01",
+        "source": "Desktop.zip/S511"
       }
     ],
     "desc": "어깨선을 여성스럽게 드러내는 오프숄더 상의와 리본·주름 포인트가 있는 랩스커트가 세트로 구성된 블랙 투피스입니다.",
@@ -18663,7 +18906,7 @@
     "name_en": "Off-Shoulder Wrap Skirt Two-Piece Set",
     "name_cn": "露肩 裹身 半身裙 两件套",
     "name_jp": "オフショルダー ラップ スカート セットアップ",
-    "mainImage": "http://shop1.phinf.naver.net/20260705_239/1783229883406q6yqK_JPEG/N260013_01.jpg",
+    "mainImage": "assets/N260013_M01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "whyYoullLoveIt": [
@@ -18678,7 +18921,7 @@
       "상의 원단의 도트형 펀칭 디테일이 단색 블랙에 은근한 포인트를 줍니다."
     ],
     "editorsNote": "오프숄더와 랩 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "thumbImage": "http://shop1.phinf.naver.net/20260705_239/1783229883406q6yqK_JPEG/N260013_01.jpg",
+    "thumbImage": "assets/N260013_M01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -18686,7 +18929,7 @@
     "lineName": "",
     "size77Available": true,
     "size88Available": true,
-    "thumbnail": "http://shop1.phinf.naver.net/20260705_239/1783229883406q6yqK_JPEG/N260013_01.jpg",
+    "thumbnail": "assets/N260013_M01.jpg",
     "designGroupId": "np-color-ad91f063",
     "variantColor": "블랙/화이트",
     "mainCopy": "시크한 블랙 무드와 여성스러운 실루엣이 돋보이는 오프숄더 랩스커트 투피스",
@@ -20329,153 +20572,120 @@
   },
   {
     "code": "N260033",
-    "origin": "쿠키BL샤넬주름SK아이핑크블랙",
-    "folder": "쿠키BL샤넬주름SK아이핑크블랙",
+    "origin": "도트리본BL 델리SK",
+    "folder": "도트리본BL 델리SK 아이보리",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쿠키BL샤넬주름SK아이핑크블랙",
-    "name": "넥리본 클래식 무드 블라우스",
-    "storeName": "넥리본 클래식 무드 블라우스",
-    "category": "BLOUSE",
-    "color": "화이트/핑크/블랙",
+    "name": "도트 리본 델리 투피스",
+    "storeName": "도트 리본 델리 투피스",
+    "category": "TWO PIECE",
+    "color": "아이보리/블랙",
     "size": "55 / 66 / 77",
-    "price": 76000,
+    "price": 81000,
     "tags": [
       "투피스 & 상하의 컬렉션",
-      "BEST",
       "PARTY",
-      "RECOMMEND",
       "TWO PIECE",
-      "블라우스",
-      "넥리본",
+      "도트",
       "리본",
-      "긴팔",
-      "클래식",
-      "러블리"
+      "미니투피스",
+      "슬림핏",
+      "파티룩",
+      "클럽룩",
+      "방송룩",
+      "77가능"
     ],
     "images": [
-      "assets/N260033_01.jpg",
-      "assets/N260033_02.jpg",
-      "assets/N260033_03.jpg",
-      "assets/N260033_04.jpg",
-      "assets/N260033_05.jpg",
-      "assets/N260033_06.jpg",
-      "assets/N260033_07.jpg",
-      "assets/N260033_08.jpg",
-      "assets/N260033_09.jpg",
-      "assets/N260033_10.jpg",
-      "assets/N260033_11.jpg",
-      "assets/N260033_12.png",
-      "assets/N260033_13.png",
-      "assets/N260033_14.png"
+      "assets/N260033_M01.jpg",
+      "assets/N260033_F01.jpg",
+      "assets/N260033_UX01.jpg",
+      "assets/N260033_L01.jpg",
+      "assets/N260033_L02.jpg",
+      "assets/N260033_LX01.jpg",
+      "assets/N260033_BP01.jpg",
+      "assets/N260033_SP01.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260033_02.jpg",
-        "cut": "블랙 상반",
-        "source": "블랙상반.jpg"
+        "url": "assets/N260033_M01.jpg",
+        "cut": "M01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_03.jpg",
-        "cut": "블랙 상반2",
-        "source": "블랙상반2.jpg"
+        "url": "assets/N260033_F01.jpg",
+        "cut": "F01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_04.jpg",
-        "cut": "블랙 전신",
-        "source": "블랙전신.jpg"
+        "url": "assets/N260033_UX01.jpg",
+        "cut": "UX01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_05.jpg",
-        "cut": "블랙 후면",
-        "source": "블랙후면.jpg"
+        "url": "assets/N260033_L01.jpg",
+        "cut": "L01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_06.jpg",
-        "cut": "핑크 상반",
-        "source": "상반핑크.jpg"
+        "url": "assets/N260033_L02.jpg",
+        "cut": "L02",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_07.jpg",
-        "cut": "핑크 상반2",
-        "source": "상반핑크2.jpg"
+        "url": "assets/N260033_LX01.jpg",
+        "cut": "LX01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_08.jpg",
-        "cut": "핑크 전신",
-        "source": "핑크전신.jpg"
+        "url": "assets/N260033_BP01.jpg",
+        "cut": "BP01",
+        "source": "Desktop.zip"
       },
       {
-        "url": "assets/N260033_09.jpg",
-        "cut": "핑크 후면",
-        "source": "핑크전신후면.jpg"
-      },
-      {
-        "url": "assets/N260033_10.jpg",
-        "cut": "제품컷",
-        "source": "제품컷.jpg"
-      },
-      {
-        "url": "assets/N260033_11.jpg",
-        "cut": "확대/디테일",
-        "source": "확대이어붙임컷.jpg"
-      },
-      {
-        "url": "assets/N260033_12.png",
-        "cut": "색상 콜라주",
-        "source": "색상collage.png"
-      },
-      {
-        "url": "assets/N260033_13.png",
-        "cut": "앞뒤 콜라주",
-        "source": "앞뒤collage.png"
-      },
-      {
-        "url": "assets/N260033_14.png",
-        "cut": "측뒤 콜라주",
-        "source": "측뒤collage.png"
+        "url": "assets/N260033_SP01.jpg",
+        "cut": "SP01",
+        "source": "Desktop.zip"
       }
     ],
-    "desc": "목선에 더해지는 리본 타이 디테일이 얼굴 주변을 단정하고 여성스럽게 살려주며, 슬림하게 잡히는 핏으로 상체 라인을 깔끔하게 연출해줍니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "있음",
-    "see": "있음",
-    "lining": "없음",
-    "best": true,
-    "name_en": "Neck Ribbon Classic Mood Pleated Two-Piece Set",
-    "name_cn": "领口蝴蝶结 经典 风格 百褶 两件套",
-    "name_jp": "ネックリボン クラシック ムード プリーツ セットアップ",
-    "mainImage": "assets/N260033_01.jpg",
+    "desc": "도트 패턴 블라우스와 벨트 포인트 미니 스커트가 세트로 구성된 러블리한 투피스입니다. 리본 디테일이 얼굴선을 화사하게 살려주고, 슬림한 스커트 라인으로 파티룩과 방송룩에 잘 어울립니다.",
+    "recommend": "파티룩 / 클럽룩 / 방송의상 / 데이트룩",
+    "fabric": "상의·스커트: 폴리혼방",
+    "stretch": "상의 있음 / 스커트 약간",
+    "see": "상의 없음 / 스커트 없음",
+    "lining": "상의 부분 / 스커트 있음",
+    "name_en": "Dot Ribbon Deli Two-Piece Set",
+    "name_cn": "波点 蝴蝶结 两件套",
+    "name_jp": "ドット リボン セットアップ",
+    "mainImage": "assets/N260033_M01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "whyYoullLoveIt": [
-      "룩에 사랑스러운 포인트를 더하는 리본 디테일",
-      "움직임이 예쁜 플리츠 디테일",
-      "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
+      "도트 패턴과 리본 포인트로 러블리한 분위기",
+      "벨트 포인트 스커트가 허리선을 슬림하게 정리",
+      "세트 구성으로 코디 고민 없이 완성되는 파티룩"
     ],
     "points": [
-      "넥리본 디테일이 얼굴 주변을 여성스럽게 살려줍니다.",
-      "긴팔 블라우스로 단정하고 클래식한 무드가 좋습니다.",
-      "단품 코디와 세트 코디 모두 활용하기 좋습니다."
+      "도트 패턴과 리본 포인트로 러블리한 분위기",
+      "벨트 포인트 스커트가 허리선을 슬림하게 정리",
+      "세트 구성으로 코디 고민 없이 완성되는 파티룩"
     ],
-    "editorsNote": "플리츠와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260033_01.jpg",
+    "editorsNote": "도트 블라우스와 미니 스커트 조합이 귀엽고 세련된 무드를 주는 투피스입니다. 부담스럽지 않게 포인트를 주고 싶은 고객에게 추천드립니다.",
+    "thumbImage": "assets/N260033_M01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
-    "thumbnail": "assets/N260033_01.jpg",
-    "mainCopy": "넥리본 포인트가 사랑스럽게 돋보이는 클래식 무드의 긴팔 블라우스",
-    "description": "스커트, 슬랙스, 미니 하의와 다양하게 코디하기 좋아 파티룩, 촬영룩, 데이트룩, 모임룩으로 추천드립니다.",
-    "cap": "",
-    "thickness": "보통",
-    "zipper": "없음",
+    "size88Available": false,
+    "thumbnail": "assets/N260033_M01.jpg",
+    "cap": "상의 있음",
+    "thickness": "상의 보통 / 스커트 보통",
+    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
+    "sizeInfo": "상의 55(총길이 43 소매 27 가슴 39 허리 31), 66(총길이 43 소매 27 가슴 41.5 허리 33.5), 77(총길이 43 소매 27 가슴 44 허리 36) | 스커트 55(총길이 39 허리 32 힙 41), 66(총길이 39 허리 34.5 힙 43.5), 77(총길이 39 허리 37 힙 46)",
     "sizeTables": [
       {
-        "title": "블라우스 사이즈",
+        "title": "상의 사이즈",
         "columns": [
           "사이즈",
           "총길이",
@@ -20487,65 +20697,336 @@
         "rows": [
           {
             "사이즈": "55(S)",
-            "총길이": "46",
-            "소매길이": "57",
-            "가슴단면": "42",
-            "허리단면": "33",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "39",
+            "허리단면": "31",
             "힙단면": "-"
           },
           {
             "사이즈": "66(M)",
-            "총길이": "46",
-            "소매길이": "57",
-            "가슴단면": "44.5",
-            "허리단면": "35.5",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
             "힙단면": "-"
           },
           {
             "사이즈": "77(L)",
-            "총길이": "46",
-            "소매길이": "57",
-            "가슴단면": "47",
-            "허리단면": "38",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "44",
+            "허리단면": "36",
             "힙단면": "-"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "허리단면": "32",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "허리단면": "34.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "허리단면": "37",
+            "힙단면": "46"
           }
         ]
       }
     ],
-    "sizeInfo": "55(총길이 46 소매 57 가슴 42 허리 33 힙 -), 66(총길이 46 소매 57 가슴 44.5 허리 35.5 힙 -), 77(총길이 46 소매 57 가슴 47 허리 38 힙 -)",
     "wearTables": [
       {
-        "title": "블라우스 착용 정보",
+        "title": "상의 착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "있음",
-          "끈 여부": "없음",
-          "어깨패드": "없음",
-          "안감": "없음",
-          "비침": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "없음",
           "두께감": "보통",
-          "지퍼": "없음"
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
+    "designGroupId": "dg-N260033-dot-ribbon-deli",
     "smartStoreAttributes": {
-      "주요소재": "폴리에스터",
-      "총기장": "크롭 또는 숏",
-      "소매기장": "긴팔",
-      "종류": "블라우스",
+      "총기장": "미니",
+      "소매기장": "반팔",
+      "종류": "무대복",
       "핏": "슬림핏",
+      "스커트스타일": [
+        "H라인"
+      ],
       "디테일": [
         "리본",
-        "타이"
+        "벨트"
       ],
-      "패턴": "무지"
+      "패턴": "도트"
     },
-    "coordinatedWith": [
+    "manualSearchInclude": [
+      "투피스",
+      "도트",
+      "리본",
+      "미니투피스"
+    ],
+    "variantColor": "아이보리/블랙"
+  },
+  {
+    "origin": "도트리본BL 델리SK",
+    "folder": "도트리본BL 델리SK 핑크",
+    "supplier": "실루엣",
+    "zipFolder": "실루엣/쿠키BL샤넬주름SK아이핑크블랙",
+    "name": "도트 리본 델리 투피스",
+    "storeName": "도트 리본 델리 투피스",
+    "category": "TWO PIECE",
+    "color": "핑크/블랙",
+    "size": "55 / 66 / 77",
+    "price": 81000,
+    "tags": [
+      "투피스 & 상하의 컬렉션",
+      "PARTY",
+      "TWO PIECE",
+      "도트",
+      "리본",
+      "미니투피스",
+      "슬림핏",
+      "파티룩",
+      "클럽룩",
+      "방송룩",
+      "77가능"
+    ],
+    "desc": "도트 패턴 블라우스와 벨트 포인트 미니 스커트가 세트로 구성된 러블리한 투피스입니다. 리본 디테일이 얼굴선을 화사하게 살려주고, 슬림한 스커트 라인으로 파티룩과 방송룩에 잘 어울립니다.",
+    "recommend": "파티룩 / 클럽룩 / 방송의상 / 데이트룩",
+    "fabric": "상의·스커트: 폴리혼방",
+    "stretch": "상의 있음 / 스커트 약간",
+    "see": "상의 없음 / 스커트 없음",
+    "lining": "상의 부분 / 스커트 있음",
+    "name_en": "Dot Ribbon Deli Two-Piece Set",
+    "name_cn": "波点 蝴蝶结 两件套",
+    "name_jp": "ドット リボン セットアップ",
+    "collection": "B",
+    "collectionName": "투피스 & 상하의 컬렉션",
+    "whyYoullLoveIt": [
+      "도트 패턴과 리본 포인트로 러블리한 분위기",
+      "벨트 포인트 스커트가 허리선을 슬림하게 정리",
+      "세트 구성으로 코디 고민 없이 완성되는 파티룩"
+    ],
+    "points": [
+      "도트 패턴과 리본 포인트로 러블리한 분위기",
+      "벨트 포인트 스커트가 허리선을 슬림하게 정리",
+      "세트 구성으로 코디 고민 없이 완성되는 파티룩"
+    ],
+    "editorsNote": "도트 블라우스와 미니 스커트 조합이 귀엽고 세련된 무드를 주는 투피스입니다. 부담스럽지 않게 포인트를 주고 싶은 고객에게 추천드립니다.",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "vendor": "",
+    "brand": "",
+    "lineName": "",
+    "size77Available": true,
+    "size88Available": false,
+    "cap": "상의 있음",
+    "thickness": "상의 보통 / 스커트 보통",
+    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
+    "sizeInfo": "상의 55(총길이 43 소매 27 가슴 39 허리 31), 66(총길이 43 소매 27 가슴 41.5 허리 33.5), 77(총길이 43 소매 27 가슴 44 허리 36) | 스커트 55(총길이 39 허리 32 힙 41), 66(총길이 39 허리 34.5 힙 43.5), 77(총길이 39 허리 37 힙 46)",
+    "sizeTables": [
       {
-        "code": "N260035",
-        "label": "함께 코디한 투피스",
-        "name": "넥리본 클래식 무드 투피스"
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "39",
+            "허리단면": "31",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "43",
+            "소매길이": "27",
+            "가슴단면": "44",
+            "허리단면": "36",
+            "힙단면": "-"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "허리단면": "32",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "허리단면": "34.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "허리단면": "37",
+            "힙단면": "46"
+          }
+        ]
       }
-    ]
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "designGroupId": "dg-N260033-dot-ribbon-deli",
+    "smartStoreAttributes": {
+      "총기장": "미니",
+      "소매기장": "반팔",
+      "종류": "무대복",
+      "핏": "슬림핏",
+      "스커트스타일": [
+        "H라인"
+      ],
+      "디테일": [
+        "리본",
+        "벨트"
+      ],
+      "패턴": "도트"
+    },
+    "manualSearchInclude": [
+      "투피스",
+      "도트",
+      "리본",
+      "미니투피스"
+    ],
+    "variantColor": "핑크/블랙",
+    "code": "N260033-PINK",
+    "images": [
+      "assets/N260033P_M01.jpg",
+      "assets/N260033P_LX01.jpg",
+      "assets/N260033P_F01.jpg",
+      "assets/N260033P_UX01.jpg",
+      "assets/N260033P_L01.jpg",
+      "assets/N260033P_L02.jpg",
+      "assets/N260033P_BP01.jpg",
+      "assets/N260033P_SP01.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/N260033P_M01.jpg",
+        "cut": "M01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_LX01.jpg",
+        "cut": "LX01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_F01.jpg",
+        "cut": "F01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_UX01.jpg",
+        "cut": "UX01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_L01.jpg",
+        "cut": "L01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_L02.jpg",
+        "cut": "L02",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_BP01.jpg",
+        "cut": "BP01",
+        "source": "Desktop.zip"
+      },
+      {
+        "url": "assets/N260033P_SP01.jpg",
+        "cut": "SP01",
+        "source": "Desktop.zip"
+      }
+    ],
+    "mainImage": "assets/N260033P_M01.jpg",
+    "thumbnail": "assets/N260033P_M01.jpg",
+    "thumbImage": "assets/N260033P_M01.jpg"
   },
   {
     "code": "N260034",
@@ -20779,96 +21260,73 @@
     "folder": "쿠키BL샤넬주름SK추가2",
     "supplier": "실루엣",
     "zipFolder": "실루엣/쿠키BL샤넬주름SK추가2",
-    "name": "넥리본 클래식 무드 투피스",
-    "storeName": "넥리본 클래식 무드 투피스",
-    "category": "TWO PIECE",
-    "color": "아이보리/핑크/블랙",
+    "name": "넥리본 클래식 무드 블라우스",
+    "storeName": "넥리본 클래식 무드 블라우스",
+    "category": "BLOUSE",
+    "color": "화이트/핑크/블랙",
     "size": "55 / 66 / 77",
-    "price": 76000,
+    "price": 157000,
     "tags": [
       "투피스 & 상하의 컬렉션",
       "BEST",
       "PARTY",
       "RECOMMEND",
       "TWO PIECE",
-      "투피스",
+      "블라우스",
       "넥리본",
-      "플리츠",
+      "리본",
+      "긴팔",
       "클래식",
-      "러블리",
-      "파티룩"
+      "러블리"
     ],
     "images": [
-      "assets/N260035_01.jpg",
-      "assets/N260035_02.jpg",
-      "assets/N260035_03.jpg",
-      "assets/N260035_04.jpg",
-      "assets/N260035_05.png",
-      "assets/N260035_06.png",
-      "assets/N260035_07.png"
+      "https://shop1.phinf.naver.net/20260705_7/1783229887865ESbxO_JPEG/N260035_01.jpg",
+      "https://shop1.phinf.naver.net/20260705_220/1783229887384qbhrj_JPEG/N260035_04.jpg",
+      "https://shop1.phinf.naver.net/20260705_192/17832298879704p8AG_JPEG/N260035_02.jpg",
+      "https://shop1.phinf.naver.net/20260705_242/1783229881624iJ0IX_JPEG/N260035_03.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260035_01.jpg",
-        "cut": "메인컷",
-        "source": "실루엣 N260035/메인컷.jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_220/1783229887384qbhrj_JPEG/N260035_04.jpg",
+        "cut": "스마트스토어 이미지 1",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260035_02.jpg",
-        "cut": "블랙 상반",
-        "source": "실루엣 N260035/블랙상반.jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_192/17832298879704p8AG_JPEG/N260035_02.jpg",
+        "cut": "스마트스토어 이미지 2",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260035_03.jpg",
-        "cut": "블랙 상반2",
-        "source": "실루엣 N260035/블랙상반2.jpg"
-      },
-      {
-        "url": "assets/N260035_04.jpg",
-        "cut": "제품컷",
-        "source": "실루엣 N260035/제품컷.jpg"
-      },
-      {
-        "url": "assets/N260035_05.png",
-        "cut": "색상 콜라주",
-        "source": "실루엣 N260035/색상collage.png"
-      },
-      {
-        "url": "assets/N260035_06.png",
-        "cut": "앞뒤 콜라주",
-        "source": "실루엣 N260035/앞뒤collage.png"
-      },
-      {
-        "url": "assets/N260035_07.png",
-        "cut": "측면·후면 콜라주",
-        "source": "실루엣 N260035/측뒤collage.png"
+        "url": "https://shop1.phinf.naver.net/20260705_242/1783229881624iJ0IX_JPEG/N260035_03.jpg",
+        "cut": "스마트스토어 이미지 3",
+        "source": "스마트스토어 상세페이지 HTML"
       }
     ],
-    "desc": "넥리본 블라우스와 플리츠 미니스커트가 한 세트로 구성되어 클래식하면서도 러블리한 분위기를 완성해주는 투피스입니다.",
-    "recommend": "파티룩/촬영룩/데이트룩/모임룩",
+    "desc": "목선에 더해지는 리본 타이 디테일이 얼굴 주변을 단정하고 여성스럽게 살려주며, 슬림하게 잡히는 핏으로 상체 라인을 깔끔하게 연출해줍니다.",
+    "recommend": "클럽/파티/방송/행사",
     "fabric": "폴리혼방",
-    "stretch": "상의 있음 / 하의 없음",
-    "see": "상의 있음 / 하의 없음",
-    "lining": "상의 없음 / 하의 있음",
+    "stretch": "있음",
+    "see": "있음",
+    "lining": "없음",
     "best": true,
     "name_en": "Neck Ribbon Classic Mood Pleated Two-Piece Set",
     "name_cn": "领口蝴蝶结 经典 风格 百褶 两件套",
     "name_jp": "ネックリボン クラシック ムード プリーツ セットアップ",
-    "mainImage": "assets/N260035_01.jpg",
+    "mainImage": "https://shop1.phinf.naver.net/20260705_7/1783229887865ESbxO_JPEG/N260035_01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "whyYoullLoveIt": [
-      "얼굴선을 여성스럽게 살려주는 넥리본 블라우스",
-      "움직일 때 라인이 예쁘게 살아나는 플리츠 미니스커트",
-      "상·하의를 따로 또는 세트로 활용할 수 있는 높은 실용성"
+      "룩에 사랑스러운 포인트를 더하는 리본 디테일",
+      "움직임이 예쁜 플리츠 디테일",
+      "상·하의가 맞춰져 코디 완성도가 높은 투피스 구성"
     ],
     "points": [
-      "넥리본과 긴팔 디자인으로 단정하고 여성스러운 상의",
-      "촘촘한 플리츠 주름이 돋보이는 미니스커트",
-      "아이보리·핑크·블랙으로 다양하게 연출 가능한 세트 구성"
+      "넥리본 디테일이 얼굴 주변을 여성스럽게 살려줍니다.",
+      "긴팔 블라우스로 단정하고 클래식한 무드가 좋습니다.",
+      "단품 코디와 세트 코디 모두 활용하기 좋습니다."
     ],
-    "editorsNote": "블라우스와 플리츠 스커트를 함께 입으면 클래식하고 사랑스러운 투피스 룩이 완성됩니다. 각각 단품으로도 활용하기 좋아 코디 활용도가 높은 상품입니다.",
-    "thumbImage": "assets/N260035_01.jpg",
+    "editorsNote": "플리츠와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
+    "thumbImage": "https://shop1.phinf.naver.net/20260705_7/1783229887865ESbxO_JPEG/N260035_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -20876,9 +21334,9 @@
     "lineName": "",
     "size77Available": true,
     "size88Available": true,
-    "thumbnail": "assets/N260035_01.jpg",
-    "mainCopy": "넥리본 블라우스와 플리츠 미니스커트가 어우러진 클래식 무드 투피스",
-    "description": "상의와 하의를 따로 활용할 수 있으며, 세트로 착용하면 파티룩·촬영룩·데이트룩으로 완성도 높은 스타일을 연출할 수 있습니다.",
+    "thumbnail": "https://shop1.phinf.naver.net/20260705_7/1783229887865ESbxO_JPEG/N260035_01.jpg",
+    "mainCopy": "넥리본 포인트가 사랑스럽게 돋보이는 클래식 무드의 긴팔 블라우스",
+    "description": "스커트, 슬랙스, 미니하의와 다양하게 코디하기 좋아 방송룩, 파티룩, 데이트룩, 모임룩으로 추천드립니다.",
     "cap": "",
     "thickness": "보통",
     "zipper": "없음",
@@ -20919,39 +21377,9 @@
             "힙단면": "-"
           }
         ]
-      },
-      {
-        "title": "스커트 사이즈 정보",
-        "columns": [
-          "사이즈",
-          "총길이",
-          "허리단면",
-          "힙단면"
-        ],
-        "rows": [
-          {
-            "사이즈": "55(S)",
-            "총길이": "36",
-            "허리단면": "32",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "66(M)",
-            "총길이": "36",
-            "허리단면": "34.5",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "77(L)",
-            "총길이": "36",
-            "허리단면": "37",
-            "힙단면": "-"
-          }
-        ],
-        "note": "위 실측 사이즈는 단면 기준입니다. 측정 방법에 따라 1~2cm 정도 오차가 있을 수 있습니다."
       }
     ],
-    "sizeInfo": "상의: 55(총길이 46 소매 57 가슴 42 허리 33 힙 -), 66(총길이 46 소매 57 가슴 44.5 허리 35.5 힙 -), 77(총길이 46 소매 57 가슴 47 허리 38 힙 -) / 하의: 55(총길이 36 허리 32), 66(총길이 36 허리 34.5), 77(총길이 36 허리 37)",
+    "sizeInfo": "55(총길이 46 소매 57 가슴 42 허리 33 힙 -), 66(총길이 46 소매 57 가슴 44.5 허리 35.5 힙 -), 77(총길이 46 소매 57 가슴 47 허리 38 힙 -)",
     "wearTables": [
       {
         "title": "블라우스 착용 정보",
@@ -20964,35 +21392,20 @@
           "두께감": "보통",
           "지퍼": "없음"
         }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "소재": "폴리혼방",
-          "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼",
-          "핏": "플리츠 미니핏"
-        }
       }
     ],
     "smartStoreAttributes": {
-      "카테고리": "투피스",
-      "구성": "넥리본 블라우스 + 플리츠 미니스커트",
-      "총기장": "상의 숏 / 하의 미니",
-      "핏": "상의 슬림핏 / 하의 플리츠 미니핏",
-      "스타일": "클래식, 러블리, 파티룩",
-      "주요소재": "폴리에스터"
-    },
-    "coordinatedWith": [
-      {
-        "code": "N260033",
-        "label": "상의 단품 보기",
-        "name": "넥리본 클래식 무드 블라우스"
-      }
-    ]
+      "주요소재": "폴리에스터",
+      "총기장": "크롭 또는 숏",
+      "소매기장": "긴팔",
+      "종류": "블라우스",
+      "핏": "슬림핏",
+      "디테일": [
+        "리본",
+        "타이"
+      ],
+      "패턴": "무지"
+    }
   },
   {
     "code": "N260036",
@@ -21091,8 +21504,8 @@
     "folder": "프라다탑OPS 그레이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/프라다탑OPS 그레이",
-    "name": "리본 타이 오프숄더 미디원피스",
-    "storeName": "리본 타이 오프숄더 미디원피스",
+    "name": "그레이 리본 타이 오프숄더 미디원피스",
+    "storeName": "그레이 리본 타이 오프숄더 미디원피스",
     "category": "MIDI",
     "color": "그레이",
     "size": "55 / 66 / 77",
@@ -21110,68 +21523,32 @@
       "밴딩",
       "미디원피스",
       "슬림핏",
-      "럭셔리",
-      "그레이"
+      "럭셔리"
     ],
     "images": [
-      "assets/N260037_01.jpg",
-      "assets/N260037_02.jpg",
-      "assets/N260037_03.jpg",
-      "assets/N260037_04.jpg",
-      "assets/N260037_05.jpg",
-      "assets/N260037_06.jpg",
-      "assets/N260037_07.jpg",
-      "assets/N260037_08.jpg",
-      "assets/N260037_09.png"
+      "https://shop1.phinf.naver.net/20260705_31/1783229885156HDN4W_JPEG/N260037_01.jpg",
+      "https://shop1.phinf.naver.net/20260705_63/1783229882153Ojbx4_JPEG/N260037_04.jpg",
+      "https://shop1.phinf.naver.net/20260705_150/1783229889659284bc_JPEG/N260037_02.jpg",
+      "https://shop1.phinf.naver.net/20260705_237/1783229882988oG3IX_JPEG/N260037_03.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260037_01.jpg",
-        "cut": "상세 1",
-        "source": "실루엣 N260037/img_xl (1)F.jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_63/1783229882153Ojbx4_JPEG/N260037_04.jpg",
+        "cut": "스마트스토어 이미지 1",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260037_02.jpg",
-        "cut": "상세 2",
-        "source": "실루엣 N260037/img_xl (12)-확대모음.jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_150/1783229889659284bc_JPEG/N260037_02.jpg",
+        "cut": "스마트스토어 이미지 2",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260037_03.jpg",
-        "cut": "상세 3",
-        "source": "실루엣 N260037/img_xl (16)M.jpg"
-      },
-      {
-        "url": "assets/N260037_04.jpg",
-        "cut": "상세 4",
-        "source": "실루엣 N260037/img_xl (19)P.jpg"
-      },
-      {
-        "url": "assets/N260037_05.jpg",
-        "cut": "상세 5",
-        "source": "실루엣 N260037/img_xl (2)U.jpg"
-      },
-      {
-        "url": "assets/N260037_06.jpg",
-        "cut": "상세 6",
-        "source": "실루엣 N260037/img_xl (3).jpg"
-      },
-      {
-        "url": "assets/N260037_07.jpg",
-        "cut": "상세 7",
-        "source": "실루엣 N260037/img_xl (4).jpg"
-      },
-      {
-        "url": "assets/N260037_08.jpg",
-        "cut": "상세 8",
-        "source": "실루엣 N260037/img_xl (5)F.jpg"
-      },
-      {
-        "url": "assets/N260037_09.png",
-        "cut": "컬러 상세",
-        "source": "실루엣 N260037/앞뒤collage.png"
+        "url": "https://shop1.phinf.naver.net/20260705_237/1783229882988oG3IX_JPEG/N260037_03.jpg",
+        "cut": "스마트스토어 이미지 3",
+        "source": "스마트스토어 상세페이지 HTML"
       }
     ],
-    "desc": "어깨선을 여성스럽게 살려주고 리본 타이 디테일이 얼굴 주변을 화사하게 보여주는 우아한 미디원피스입니다.",
+    "desc": "어깨선을 여성스럽게 살려주고 리본 디테일이 얼굴 주변을 화사하게 보여주는 우아한 미디원피스입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "있음",
@@ -21181,7 +21558,7 @@
     "name_en": "Ribbon Tie Off-Shoulder Midi Dress",
     "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
     "name_jp": "リボン タイ オフショルダー ミディワンピース",
-    "mainImage": "assets/N260037_01.jpg",
+    "mainImage": "https://shop1.phinf.naver.net/20260705_31/1783229885156HDN4W_JPEG/N260037_01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "whyYoullLoveIt": [
@@ -21195,7 +21572,7 @@
       "가슴 밴딩으로 체형에 따라 편안한 착용감을 줍니다."
     ],
     "editorsNote": "오프숄더와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
-    "thumbImage": "assets/N260037_01.jpg",
+    "thumbImage": "https://shop1.phinf.naver.net/20260705_31/1783229885156HDN4W_JPEG/N260037_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -21211,9 +21588,9 @@
       "미디원피스",
       "슬림핏"
     ],
-    "thumbnail": "assets/N260037_01.jpg",
-    "mainCopy": "오프숄더 라인과 리본 타이 포인트가 어우러진 슬림핏 미디원피스",
-    "description": "슬림하게 잡히는 바디라인과 안정감 있는 미디 기장으로 파티룩, 촬영룩, 모임룩으로 추천드립니다.",
+    "thumbnail": "https://shop1.phinf.naver.net/20260705_31/1783229885156HDN4W_JPEG/N260037_01.jpg",
+    "mainCopy": "그레이 컬러의 오프숄더 라인과 리본 타이 포인트가 어우러진 슬림핏 미디원피스",
+    "description": "슬림하게 잡히는 바디라인과 안정감 있는 미디 기장으로 파티룩, 방송룩, 촬영룩, 모임룩으로 추천드립니다.",
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
@@ -21281,15 +21658,7 @@
         "밴딩"
       ],
       "패턴": "무지"
-    },
-    "designGroupId": "SILHOUETTE-PRADA-TOP-OPS",
-    "variantColor": "그레이",
-    "searchKeywords": [
-      "리본 타이 오프숄더 미디원피스",
-      "그레이",
-      "오프숄더원피스",
-      "미디원피스"
-    ]
+    }
   },
   {
     "code": "N260038",
@@ -21297,10 +21666,10 @@
     "folder": "프라다탑OPS 아이",
     "supplier": "실루엣",
     "zipFolder": "실루엣/프라다탑OPS 아이",
-    "name": "리본 타이 오프숄더 미디원피스",
-    "storeName": "리본 타이 오프숄더 미디원피스",
+    "name": "그레이 리본 타이 오프숄더 미디원피스",
+    "storeName": "그레이 리본 타이 오프숄더 미디원피스",
     "category": "MIDI",
-    "color": "아이보리",
+    "color": "그레이",
     "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
@@ -21316,62 +21685,32 @@
       "밴딩",
       "미디원피스",
       "슬림핏",
-      "럭셔리",
-      "아이보리"
+      "럭셔리"
     ],
     "images": [
-      "assets/N260038_01.jpg",
-      "assets/N260038_02.jpg",
-      "assets/N260038_03.jpg",
-      "assets/N260038_04.jpg",
-      "assets/N260038_05.jpg",
-      "assets/N260038_06.jpg",
-      "assets/N260038_07.jpg",
-      "assets/N260038_08.png"
+      "https://shop1.phinf.naver.net/20260705_217/1783229885970M6tKj_JPEG/N260038_01.jpg",
+      "https://shop1.phinf.naver.net/20260705_21/1783229886784ff7C5_JPEG/N260038_04.jpg",
+      "https://shop1.phinf.naver.net/20260705_117/1783229885791AX5cc_JPEG/N260038_02.jpg",
+      "https://shop1.phinf.naver.net/20260705_46/1783229883869c55JQ_JPEG/N260038_03.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260038_01.jpg",
-        "cut": "상세 1",
-        "source": "실루엣 N260038/img_xl (12).jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_21/1783229886784ff7C5_JPEG/N260038_04.jpg",
+        "cut": "스마트스토어 이미지 1",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260038_02.jpg",
-        "cut": "상세 2",
-        "source": "실루엣 N260038/img_xl (16)U.jpg"
+        "url": "https://shop1.phinf.naver.net/20260705_117/1783229885791AX5cc_JPEG/N260038_02.jpg",
+        "cut": "스마트스토어 이미지 2",
+        "source": "스마트스토어 상세페이지 HTML"
       },
       {
-        "url": "assets/N260038_03.jpg",
-        "cut": "상세 3",
-        "source": "실루엣 N260038/img_xl (17)M.jpg"
-      },
-      {
-        "url": "assets/N260038_04.jpg",
-        "cut": "상세 4",
-        "source": "실루엣 N260038/img_xl (19)P.jpg"
-      },
-      {
-        "url": "assets/N260038_05.jpg",
-        "cut": "상세 5",
-        "source": "실루엣 N260038/img_xl (2).jpg"
-      },
-      {
-        "url": "assets/N260038_06.jpg",
-        "cut": "상세 6",
-        "source": "실루엣 N260038/img_xl (4).jpg"
-      },
-      {
-        "url": "assets/N260038_07.jpg",
-        "cut": "상세 7",
-        "source": "실루엣 N260038/img_xl (5)F.jpg"
-      },
-      {
-        "url": "assets/N260038_08.png",
-        "cut": "컬러 상세",
-        "source": "실루엣 N260038/collage.png"
+        "url": "https://shop1.phinf.naver.net/20260705_46/1783229883869c55JQ_JPEG/N260038_03.jpg",
+        "cut": "스마트스토어 이미지 3",
+        "source": "스마트스토어 상세페이지 HTML"
       }
     ],
-    "desc": "어깨선을 여성스럽게 살려주고 리본 타이 디테일이 얼굴 주변을 화사하게 보여주는 우아한 미디원피스입니다.",
+    "desc": "어깨선을 여성스럽게 살려주고 리본 디테일이 얼굴 주변을 화사하게 보여주는 우아한 미디원피스입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "폴리혼방",
     "stretch": "있음",
@@ -21381,7 +21720,7 @@
     "name_en": "Ribbon Tie Off-Shoulder Midi Dress",
     "name_cn": "蝴蝶结 系带 露肩 中长连衣裙",
     "name_jp": "リボン タイ オフショルダー ミディワンピース",
-    "mainImage": "assets/N260038_01.jpg",
+    "mainImage": "https://shop1.phinf.naver.net/20260705_217/1783229885970M6tKj_JPEG/N260038_01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
     "whyYoullLoveIt": [
@@ -21395,7 +21734,7 @@
       "가슴 밴딩으로 체형에 따라 편안한 착용감을 줍니다."
     ],
     "editorsNote": "오프숄더와 리본 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260038_01.jpg",
+    "thumbImage": "https://shop1.phinf.naver.net/20260705_217/1783229885970M6tKj_JPEG/N260038_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "vendor": "",
@@ -21411,9 +21750,9 @@
       "미디원피스",
       "슬림핏"
     ],
-    "thumbnail": "assets/N260038_01.jpg",
-    "mainCopy": "오프숄더 라인과 리본 타이 포인트가 어우러진 슬림핏 미디원피스",
-    "description": "슬림하게 잡히는 바디라인과 안정감 있는 미디 기장으로 파티룩, 촬영룩, 모임룩으로 추천드립니다.",
+    "thumbnail": "https://shop1.phinf.naver.net/20260705_217/1783229885970M6tKj_JPEG/N260038_01.jpg",
+    "mainCopy": "그레이 컬러의 오프숄더 라인과 리본 타이 포인트가 어우러진 슬림핏 미디원피스",
+    "description": "슬림하게 잡히는 바디라인과 안정감 있는 미디 기장으로 파티룩, 방송룩, 촬영룩, 모임룩으로 추천드립니다.",
     "cap": "있음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
@@ -21481,15 +21820,7 @@
         "밴딩"
       ],
       "패턴": "무지"
-    },
-    "designGroupId": "SILHOUETTE-PRADA-TOP-OPS",
-    "variantColor": "아이보리",
-    "searchKeywords": [
-      "리본 타이 오프숄더 미디원피스",
-      "아이보리",
-      "오프숄더원피스",
-      "미디원피스"
-    ]
+    }
   },
   {
     "code": "N260039",
@@ -25462,478 +25793,6 @@
       ],
       "패턴": "무지"
     }
-  },
-  {
-    "code": "N260231",
-    "origin": "JN6389",
-    "folder": "JN6389PINK",
-    "supplier": "지니",
-    "zipFolder": "지니/JN6389PINK",
-    "name": "핑크 셔링 크롭탑 플레어 투피스",
-    "storeName": "핑크 셔링 크롭탑 플레어 투피스",
-    "category": "TWO PIECE",
-    "color": "핑크",
-    "size": "55 / 66 / 77",
-    "price": 154000,
-    "tags": [
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "TWO PIECE",
-      "셔링",
-      "크롭",
-      "플레어",
-      "투피스",
-      "러블리",
-      "파티룩",
-      "럭셔리",
-      "핑크"
-    ],
-    "images": [
-      "assets/N260231_PINK_01.jpg",
-      "assets/N260231_PINK_02.jpg",
-      "assets/N260231_PINK_03.jpg",
-      "assets/N260231_PINK_04.jpg",
-      "assets/N260231_PINK_05.jpg",
-      "assets/N260231_PINK_06.jpg",
-      "assets/N260231_PINK_07.jpg",
-      "assets/N260231_PINK_08.jpg",
-      "assets/N260231_PINK_09.jpg",
-      "assets/N260231_PINK_10.jpg",
-      "assets/N260231_PINK_11.jpg",
-      "assets/N260231_PINK_12.jpg"
-    ],
-    "cuts": [
-      {
-        "url": "assets/N260231_PINK_02.jpg",
-        "cut": "상세 1",
-        "source": "N260231_PINK_02.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_03.jpg",
-        "cut": "상세 2",
-        "source": "N260231_PINK_03.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_04.jpg",
-        "cut": "상세 3",
-        "source": "N260231_PINK_04.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_05.jpg",
-        "cut": "상세 4",
-        "source": "N260231_PINK_05.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_06.jpg",
-        "cut": "상세 5",
-        "source": "N260231_PINK_06.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_07.jpg",
-        "cut": "상세 6",
-        "source": "N260231_PINK_07.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_08.jpg",
-        "cut": "상세 7",
-        "source": "N260231_PINK_08.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_09.jpg",
-        "cut": "상세 8",
-        "source": "N260231_PINK_09.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_10.jpg",
-        "cut": "상세 9",
-        "source": "N260231_PINK_10.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_11.jpg",
-        "cut": "상세 10",
-        "source": "N260231_PINK_11.jpg"
-      },
-      {
-        "url": "assets/N260231_PINK_12.jpg",
-        "cut": "상세 11",
-        "source": "N260231_PINK_12.jpg"
-      }
-    ],
-    "desc": "상의의 셔링 디테일이 상체 라인을 예쁘게 잡아주고 크롭 기장이 허리선을 높아 보이게 연출해줍니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "있음",
-    "see": "상의 있음 / 스커트 없음",
-    "lining": "상의 부분 / 스커트 있음",
-    "name_en": "Shirring Cropped Top and Flare Two-Piece Set",
-    "name_cn": "抽褶 短款 上衣 和 伞摆 两件套",
-    "name_jp": "シャーリング クロップド トップス と フレア セットアップ",
-    "mainImage": "assets/N260231_PINK_01.jpg",
-    "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
-    "sizeInfo": "상의 55(총길이 35 소매 - 가슴 40 허리 30 힙 -), 66(총길이 35 소매 - 가슴 42.5 허리 32.5 힙 -), 77(총길이 35 소매 - 가슴 45 허리 35 힙 -) | 스커트 55(총길이 37 허리 32 힙 46), 66(총길이 37 허리 34.5 힙 48.5), 77(총길이 37 허리 37 힙 51)",
-    "externalSource": {
-      "site": "judyshop",
-      "url": "https://www.judyshop.co.kr/product/지니jn6373투피스세트민트/114411/category/1/display/23/?icid=MAIN.product_listmain_22",
-      "productName": "지니JN6373<br>투피스세트(민트)",
-      "matchedKey": "지니jn6373",
-      "alterOptions": [
-        "2cm줄임 (+5,000원)",
-        "3cm줄임 (+5,000원)",
-        "4cm줄임 (+5,000원)",
-        "5cm줄임 (+5,000원)",
-        "6cm줄임 (+5,000원)",
-        "7cm줄임 (+5,000원)",
-        "8cm줄임 (+5,000원)",
-        "9cm줄임 (+5,000원)",
-        "10cm줄임 (+5,000원)",
-        "11cm이상 줄임(배송메세지에기재) (+5,000원)"
-      ]
-    },
-    "whyYoullLoveIt": [
-      "허리 대비가 살아나는 플레어 실루엣",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "허리선이 높아 보여 비율을 살려주는 크롭 기장"
-    ],
-    "points": [
-      "셔링 크롭 상의가 비율을 예쁘게 살려줍니다.",
-      "플레어 스커트가 허리와 다리 라인을 여성스럽게 연출합니다.",
-      "민트 컬러가 산뜻하고 러블리한 무드를 줍니다."
-    ],
-    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260231_PINK_01.jpg",
-    "isSameDayDelivery": false,
-    "isFittingAvailable": false,
-    "vendor": "",
-    "brand": "",
-    "lineName": "",
-    "size77Available": true,
-    "size88Available": true,
-    "thumbnail": "assets/N260231_PINK_01.jpg",
-    "mainCopy": "핑크 컬러가 돋보이는 셔링 크롭탑과 플레어 스커트 세트",
-    "description": "셔링 크롭 상의와 플레어 스커트가 어우러진 핑크 투피스로 파티룩과 촬영룩에 활용하기 좋습니다.",
-    "cap": "상의 있음",
-    "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "sizeTables": [
-      {
-        "title": "상의 사이즈",
-        "columns": [
-          "사이즈",
-          "총길이",
-          "소매길이",
-          "가슴단면",
-          "허리단면",
-          "힙단면"
-        ],
-        "rows": [
-          {
-            "사이즈": "55(S)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "40",
-            "허리단면": "30",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "66(M)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "42.5",
-            "허리단면": "32.5",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "77(L)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "45",
-            "허리단면": "35",
-            "힙단면": "-"
-          }
-        ]
-      },
-      {
-        "title": "스커트 사이즈",
-        "columns": [
-          "사이즈",
-          "총길이",
-          "허리단면",
-          "힙단면"
-        ],
-        "rows": [
-          {
-            "사이즈": "55(S)",
-            "총길이": "37",
-            "허리단면": "32",
-            "힙단면": "46"
-          },
-          {
-            "사이즈": "66(M)",
-            "총길이": "37",
-            "허리단면": "34.5",
-            "힙단면": "48.5"
-          },
-          {
-            "사이즈": "77(L)",
-            "총길이": "37",
-            "허리단면": "37",
-            "힙단면": "51"
-          }
-        ]
-      }
-    ],
-    "wearTables": [
-      {
-        "title": "상의 착용 정보",
-        "items": {
-          "신축성": "있음",
-          "캡 여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      }
-    ],
-    "smartStoreAttributes": {
-      "총기장": "미니",
-      "소매기장": "스트랩 또는 민소매",
-      "핏": "슬림핏",
-      "디테일": [
-        "셔링",
-        "크롭",
-        "밴딩"
-      ],
-      "패턴": "무지"
-    },
-    "isNew": false,
-    "new": false,
-    "newArrival": false,
-    "featured": false,
-    "mainDisplay": false
-  },
-  {
-    "code": "N260230",
-    "origin": "JN6372",
-    "folder": "JN6372BLACK",
-    "supplier": "지니",
-    "zipFolder": "지니/JN6372BLACK",
-    "name": "블랙 셔링 크롭탑 플레어 투피스",
-    "storeName": "블랙 셔링 크롭탑 플레어 투피스",
-    "category": "TWO PIECE",
-    "color": "블랙",
-    "size": "55 / 66 / 77",
-    "price": 154000,
-    "tags": [
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "TWO PIECE",
-      "셔링",
-      "크롭",
-      "플레어",
-      "투피스",
-      "러블리",
-      "파티룩",
-      "럭셔리",
-      "블랙"
-    ],
-    "images": [
-      "assets/N260230_BLACK_01.jpg",
-      "assets/N260230_BLACK_02.jpg",
-      "assets/N260230_BLACK_03.jpg",
-      "assets/N260230_BLACK_04.jpg"
-    ],
-    "cuts": [
-      {
-        "url": "assets/N260230_BLACK_02.jpg",
-        "cut": "상세 1",
-        "source": "N260230_BLACK_02.jpg"
-      },
-      {
-        "url": "assets/N260230_BLACK_03.jpg",
-        "cut": "상세 2",
-        "source": "N260230_BLACK_03.jpg"
-      },
-      {
-        "url": "assets/N260230_BLACK_04.jpg",
-        "cut": "상세 3",
-        "source": "N260230_BLACK_04.jpg"
-      }
-    ],
-    "desc": "상의의 셔링 디테일이 상체 라인을 예쁘게 잡아주고 크롭 기장이 허리선을 높아 보이게 연출해줍니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리혼방",
-    "stretch": "있음",
-    "see": "상의 있음 / 스커트 없음",
-    "lining": "상의 부분 / 스커트 있음",
-    "name_en": "Shirring Cropped Top and Flare Two-Piece Set",
-    "name_cn": "抽褶 短款 上衣 和 伞摆 两件套",
-    "name_jp": "シャーリング クロップド トップス と フレア セットアップ",
-    "mainImage": "assets/N260230_BLACK_01.jpg",
-    "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
-    "sizeInfo": "상의 55(총길이 35 소매 - 가슴 40 허리 30 힙 -), 66(총길이 35 소매 - 가슴 42.5 허리 32.5 힙 -), 77(총길이 35 소매 - 가슴 45 허리 35 힙 -) | 스커트 55(총길이 37 허리 32 힙 46), 66(총길이 37 허리 34.5 힙 48.5), 77(총길이 37 허리 37 힙 51)",
-    "externalSource": {
-      "site": "judyshop",
-      "url": "https://www.judyshop.co.kr/product/지니jn6373투피스세트민트/114411/category/1/display/23/?icid=MAIN.product_listmain_22",
-      "productName": "지니JN6373<br>투피스세트(민트)",
-      "matchedKey": "지니jn6373",
-      "alterOptions": [
-        "2cm줄임 (+5,000원)",
-        "3cm줄임 (+5,000원)",
-        "4cm줄임 (+5,000원)",
-        "5cm줄임 (+5,000원)",
-        "6cm줄임 (+5,000원)",
-        "7cm줄임 (+5,000원)",
-        "8cm줄임 (+5,000원)",
-        "9cm줄임 (+5,000원)",
-        "10cm줄임 (+5,000원)",
-        "11cm이상 줄임(배송메세지에기재) (+5,000원)"
-      ]
-    },
-    "whyYoullLoveIt": [
-      "허리 대비가 살아나는 플레어 실루엣",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "허리선이 높아 보여 비율을 살려주는 크롭 기장"
-    ],
-    "points": [
-      "셔링 크롭 상의가 비율을 예쁘게 살려줍니다.",
-      "플레어 스커트가 허리와 다리 라인을 여성스럽게 연출합니다.",
-      "민트 컬러가 산뜻하고 러블리한 무드를 줍니다."
-    ],
-    "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260230_BLACK_01.jpg",
-    "isSameDayDelivery": false,
-    "isFittingAvailable": false,
-    "vendor": "",
-    "brand": "",
-    "lineName": "",
-    "size77Available": true,
-    "size88Available": true,
-    "thumbnail": "assets/N260230_BLACK_01.jpg",
-    "mainCopy": "블랙 컬러가 돋보이는 셔링 크롭탑과 플레어 스커트 세트",
-    "description": "셔링 크롭 상의와 플레어 스커트가 어우러진 블랙 투피스로 파티룩과 촬영룩에 활용하기 좋습니다.",
-    "cap": "상의 있음",
-    "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "sizeTables": [
-      {
-        "title": "상의 사이즈",
-        "columns": [
-          "사이즈",
-          "총길이",
-          "소매길이",
-          "가슴단면",
-          "허리단면",
-          "힙단면"
-        ],
-        "rows": [
-          {
-            "사이즈": "55(S)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "40",
-            "허리단면": "30",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "66(M)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "42.5",
-            "허리단면": "32.5",
-            "힙단면": "-"
-          },
-          {
-            "사이즈": "77(L)",
-            "총길이": "35",
-            "소매길이": "-",
-            "가슴단면": "45",
-            "허리단면": "35",
-            "힙단면": "-"
-          }
-        ]
-      },
-      {
-        "title": "스커트 사이즈",
-        "columns": [
-          "사이즈",
-          "총길이",
-          "허리단면",
-          "힙단면"
-        ],
-        "rows": [
-          {
-            "사이즈": "55(S)",
-            "총길이": "37",
-            "허리단면": "32",
-            "힙단면": "46"
-          },
-          {
-            "사이즈": "66(M)",
-            "총길이": "37",
-            "허리단면": "34.5",
-            "힙단면": "48.5"
-          },
-          {
-            "사이즈": "77(L)",
-            "총길이": "37",
-            "허리단면": "37",
-            "힙단면": "51"
-          }
-        ]
-      }
-    ],
-    "wearTables": [
-      {
-        "title": "상의 착용 정보",
-        "items": {
-          "신축성": "있음",
-          "캡 여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      }
-    ],
-    "smartStoreAttributes": {
-      "총기장": "미니",
-      "소매기장": "스트랩 또는 민소매",
-      "핏": "슬림핏",
-      "디테일": [
-        "셔링",
-        "크롭",
-        "밴딩"
-      ],
-      "패턴": "무지"
-    },
-    "isNew": false,
-    "new": false,
-    "newArrival": false,
-    "featured": false,
-    "mainDisplay": false
   },
   {
     "code": "N260080",
