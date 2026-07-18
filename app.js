@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v19';
+const VERSION = 'july10v20';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -169,6 +169,7 @@ const I18N = {
 let PRODUCTS = [];
 let FILTER = 'HOME';
 let currentImages = [];
+let currentImageIndex = 0;
 let modalHistoryOpen = false;
 let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
@@ -1207,15 +1208,27 @@ function openModalHistory(code) {
     history.replaceState({ niceModal: true, code }, '', `#${code}`);
   }
 }
+
+function setDetailImage(index) {
+  if (!currentImages.length) return;
+  currentImageIndex = (index + currentImages.length) % currentImages.length;
+  const main = $('#mainImage', detail);
+  if (main) main.src = img(currentImages[currentImageIndex].url);
+  $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', currentImageIndex === j));
+}
+function moveDetailImage(delta) {
+  setDetailImage(currentImageIndex + delta);
+}
 function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentImages = imageListFor(p);
+  currentImageIndex = 0;
   const labelTags = [isNew(p) ? 'NEW' : '', (p.steady || hasTag(p, 'STEADY')) ? 'STEADY' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}</div>
+      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button>` : ''}</div>
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
@@ -1243,10 +1256,10 @@ function openDetail(code) {
   modal.classList.add('open');
   document.body.classList.add('detail-open');
   openModalHistory(code);
-  $$('.thumb', detail).forEach(b => b.onclick = () => {
-    const i = Number(b.dataset.i);
-    $('#mainImage').src = img(currentImages[i].url);
-    $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', i === j));
+  $$('.thumb', detail).forEach(b => b.onclick = () => setDetailImage(Number(b.dataset.i)));
+  $$('.image-nav', detail).forEach(b => b.onclick = e => {
+    e.stopPropagation();
+    moveDetailImage(Number(b.dataset.dir));
   });
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
   $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
