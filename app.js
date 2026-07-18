@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v20';
+const VERSION = 'july10v21';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1212,13 +1212,49 @@ function openModalHistory(code) {
 function setDetailImage(index) {
   if (!currentImages.length) return;
   currentImageIndex = (index + currentImages.length) % currentImages.length;
+  const next = currentImages[currentImageIndex];
   const main = $('#mainImage', detail);
-  if (main) main.src = img(currentImages[currentImageIndex].url);
-  $$('.thumb', detail).forEach((x, j) => x.classList.toggle('on', currentImageIndex === j));
+  if (main && next) {
+    main.src = img(next.url);
+    main.dataset.index = String(currentImageIndex);
+  }
+  $$('.thumb', detail).forEach((x, j) => {
+    const on = currentImageIndex === j;
+    x.classList.toggle('on', on);
+    x.setAttribute('aria-current', on ? 'true' : 'false');
+    if (on && typeof x.scrollIntoView === 'function') {
+      x.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  });
+  const counter = $('.image-counter', detail);
+  if (counter) counter.textContent = `${currentImageIndex + 1} / ${currentImages.length}`;
 }
 function moveDetailImage(delta) {
   setDetailImage(currentImageIndex + delta);
 }
+
+function bindDetailSwipe() {
+  const main = $('.detail-main', detail);
+  if (!main || main.dataset.swipeBound === '1') return;
+  main.dataset.swipeBound = '1';
+  let startX = 0;
+  let startY = 0;
+  main.addEventListener('pointerdown', e => {
+    startX = e.clientX;
+    startY = e.clientY;
+  }, { passive: true });
+  main.addEventListener('pointerup', e => {
+    if (!startX) return;
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+    startX = 0;
+    startY = 0;
+    if (Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+      moveDetailImage(dx < 0 ? 1 : -1);
+    }
+  }, { passive: true });
+}
+
 function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
@@ -1228,8 +1264,8 @@ function openDetail(code) {
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button>` : ''}</div>
-      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" data-i="${i}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
+      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
+      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" type="button" data-i="${i}" aria-current="${i === 0 ? 'true' : 'false'}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
       <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
@@ -1256,11 +1292,17 @@ function openDetail(code) {
   modal.classList.add('open');
   document.body.classList.add('detail-open');
   openModalHistory(code);
-  $$('.thumb', detail).forEach(b => b.onclick = () => setDetailImage(Number(b.dataset.i)));
+  $$('.thumb', detail).forEach(b => b.onclick = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDetailImage(Number(b.dataset.i));
+  });
   $$('.image-nav', detail).forEach(b => b.onclick = e => {
+    e.preventDefault();
     e.stopPropagation();
     moveDetailImage(Number(b.dataset.dir));
   });
+  bindDetailSwipe();
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
   $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
   $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
@@ -1303,6 +1345,36 @@ function bindVipControls() {
   });
 }
 $('#close').onclick = () => closeDetail();
+
+detail.addEventListener('click', e => {
+  const nav = e.target.closest && e.target.closest('.image-nav');
+  if (nav) {
+    e.preventDefault();
+    e.stopPropagation();
+    moveDetailImage(Number(nav.dataset.dir || 0));
+    return;
+  }
+  const thumb = e.target.closest && e.target.closest('.thumb');
+  if (thumb) {
+    e.preventDefault();
+    e.stopPropagation();
+    setDetailImage(Number(thumb.dataset.i || 0));
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if (!modal.classList.contains('open')) return;
+  const tag = (document.activeElement && document.activeElement.tagName || '').toLowerCase();
+  if (['input', 'textarea', 'select'].includes(tag)) return;
+  if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    moveDetailImage(-1);
+  } else if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    moveDetailImage(1);
+  }
+});
+
 modal.onclick = e => { if (e.target === modal) closeDetail(); };
 chips.onclick = e => {
   const b = e.target.closest('.chip');
