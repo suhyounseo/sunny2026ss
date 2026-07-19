@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v23';
+const VERSION = 'july10v24';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -434,20 +434,50 @@ function recommendLine(p) {
     || `${p.length || ''} ${p.category || '원피스'}를 데이트, 모임, 촬영룩으로 활용하기 좋습니다.`;
   return text.split(/[.!。]/)[0].replace(/추천$/, '추천').trim() + '.';
 }
-function shortDescription(p) {
-  const source = safeText(p.desc || p.description || p.mainCopy)
-    || `${safeText(p.color) || 'NICE 셀렉션'} 컬러와 ${safeText(p.fit) || '깔끔한'} 라인이 돋보이는 상품입니다.`;
-  const cleaned = source
+function cleanDetailText(text) {
+  return safeText(text)
+    .replace(/NICE\s*(컬렉션|셀렉션)/gi, '엄선한')
+    .replace(/나이스\s*(컬렉션|셀렉션)/g, '엄선한')
     .replace(/매장 피팅 후[^.。]*[.。]?/g, '')
     .replace(/과하지 않은 포인트로 사진발과 착용 분위기를 함께 살려주며[,]?/g, '')
     .replace(/피팅\s*상담\s*권장/g, '')
     .replace(/사이즈\s*상담\s*권장/g, '')
     .replace(/카카오톡으로[^.。]*[.。]?/g, '')
+    .replace(/\s*상품입니다\.?$/g, ' 상품입니다.')
     .replace(/\s{2,}/g, ' ')
     .replace(/[,\s]+$/g, '')
     .trim();
+}
+function shortDescription(p) {
+  const source = safeText(p.desc || p.description || p.mainCopy)
+    || `${safeText(p.color) || '선택된'} 컬러와 ${safeText(p.fit) || '깔끔한'} 라인이 돋보이는 상품입니다.`;
+  const cleaned = cleanDetailText(source);
   const sentences = cleaned.split(/(?<=[.!?。])\s+/).filter(Boolean).slice(0, 2);
   return sentences.length ? sentences.join(' ') : cleaned;
+}
+function detailLeadCopy(p) {
+  const color = displayColors(p);
+  const fit = safeText(p.fit);
+  const length = safeText(p.length || p.category);
+  const mood = [color, fit, length].filter(Boolean).slice(0, 3).join(' · ');
+  const base = shortDescription(p);
+  if (base) return base;
+  return `${mood || '라인과 분위기'}를 깔끔하게 살린 상품입니다.`;
+}
+function detailHighlightItems(p, pointItems) {
+  const items = [];
+  const add = x => {
+    const v = cleanDetailText(x);
+    if (v && !items.some(y => norm(y) === norm(v))) items.push(v);
+  };
+  pointItems.forEach(add);
+  add(recommendLine(p));
+  return items.slice(0, 4);
+}
+function specValue(label, value) {
+  const clean = safeText(value).replace(/\s*\/\s*/g, ' / ').replace(/\s{2,}/g, ' ').trim();
+  if (label === t('fabric')) return clean.replace(/\s\/\s/g, '<br>');
+  return clean;
 }
 function specCells(p) {
   const hasDetailedWear = Array.isArray(p.wearTables) && p.wearTables.length;
@@ -465,7 +495,7 @@ function specCells(p) {
     [t('zipper'), safeText(p.zipper)]
   ];
   const items = (hasDetailedWear ? baseItems : baseItems.concat(wearItems)).filter(([, value]) => value);
-  return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${value}</span></div>`).join('');
+  return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${specValue(label, value)}</span></div>`).join('');
 }
 function sizeGuideRows(groupText) {
   const rows = [];
@@ -1272,9 +1302,13 @@ function openDetail(code) {
       <h2>${displayName(p)}</h2>
       ${detailPriceBlock(p)}
       ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
-      ${pointItems.length ? `<div class="box detail-points"><b>${t('stylePoint')}</b><ul>${pointItems.map(x => `<li>${x}</li>`).join('')}</ul></div>` : ''}
-      <div class="box compact-box"><b>${t('recommendFor')}</b><p>${recommendLine(p)}</p></div>
-      <div class="box compact-box"><b>${t('detailDesc')}</b><p>${shortDescription(p)}</p></div>
+      <div class="detail-lead">
+        <span class="lead-label">NICE PICK</span>
+        <p>${detailLeadCopy(p)}</p>
+      </div>
+      <div class="detail-highlight">
+        ${detailHighlightItems(p, pointItems).map(x => `<span>${x}</span>`).join('')}
+      </div>
       <div class="spec">
         ${specCells(p)}
       </div>
