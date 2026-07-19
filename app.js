@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v26';
+const VERSION = 'july10v27';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1290,6 +1290,28 @@ function bindDetailSwipe() {
   }, { passive: true });
 }
 
+
+function openImageZoom(src, alt) {
+  if (!src) return;
+  let zoom = document.getElementById('imageZoomModal');
+  if (!zoom) {
+    zoom = document.createElement('div');
+    zoom.id = 'imageZoomModal';
+    zoom.className = 'image-zoom-modal';
+    zoom.innerHTML = '<button class="image-zoom-close" type="button" aria-label="닫기">×</button><img class="image-zoom-img" alt="">';
+    document.body.appendChild(zoom);
+    zoom.addEventListener('click', e => {
+      if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
+        zoom.classList.remove('open');
+      }
+    });
+  }
+  const im = zoom.querySelector('.image-zoom-img');
+  im.src = src;
+  im.alt = alt || '';
+  zoom.classList.add('open');
+}
+
 function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
@@ -1299,7 +1321,7 @@ function openDetail(code) {
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
+      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" class="zoomable-image" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" data-full="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" type="button" data-i="${i}" aria-current="${i === 0 ? 'true' : 'false'}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
@@ -1342,6 +1364,12 @@ function openDetail(code) {
     moveDetailImage(Number(b.dataset.dir));
   });
   bindDetailSwipe();
+  const zoomTarget = $('#mainImage', detail);
+  if (zoomTarget) zoomTarget.onclick = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    openImageZoom(zoomTarget.dataset.full || zoomTarget.src, zoomTarget.alt);
+  };
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
   $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
   $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
