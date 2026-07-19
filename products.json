@@ -2477,7 +2477,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-0f6d0416",
-    "variantColor": "그린"
+    "variantColor": "그린",
+    "colors": [
+      "그린",
+      "옐로우"
+    ]
   },
   {
     "code": "ANC-4002",
@@ -3454,7 +3458,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-fd476a1c",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "블랙",
+      "네이비"
+    ]
   },
   {
     "code": "ANC-4013",
@@ -3726,7 +3734,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-caaf7cc8",
-    "variantColor": "블루"
+    "variantColor": "블루",
+    "colors": [
+      "블루",
+      "블루그레이"
+    ]
   },
   {
     "code": "ANC-4016",
@@ -4087,7 +4099,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-1b7ca455",
-    "variantColor": "옐로우"
+    "variantColor": "옐로우",
+    "colors": [
+      "옐로우",
+      "그레이"
+    ]
   },
   {
     "code": "ANC-4020",
@@ -4623,7 +4639,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-a69341d4",
-    "variantColor": "화이트+블루"
+    "variantColor": "화이트+블루",
+    "colors": [
+      "화이트+블루",
+      "화이트"
+    ]
   },
   {
     "code": "ANC-4026",
@@ -6032,6 +6052,11 @@
     "variantColor": "네이비",
     "manualSearchExclude": [
       "A라인"
+    ],
+    "colors": [
+      "네이비",
+      "베이지+레드",
+      "옐로우+핑크"
     ]
   },
   {
@@ -7185,7 +7210,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-fd476a1c",
-    "variantColor": "네이비"
+    "variantColor": "네이비",
+    "colors": [
+      "블랙",
+      "네이비"
+    ]
   },
   {
     "code": "ANC-4055",
@@ -8223,7 +8252,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-cd96ed20",
-    "variantColor": "네이비"
+    "variantColor": "네이비",
+    "colors": [
+      "네이비",
+      "블랙"
+    ]
   },
   {
     "code": "ANC-4067",
@@ -8650,7 +8683,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-a69341d4",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트+블루",
+      "화이트"
+    ]
   },
   {
     "code": "ANC-4072",
@@ -8822,7 +8859,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-1b7ca455",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "옐로우",
+      "그레이"
+    ]
   },
   {
     "code": "ANC-4074",
@@ -9246,7 +9287,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-cd96ed20",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "네이비",
+      "블랙"
+    ]
   },
   {
     "code": "ANC-4079",
@@ -9334,7 +9379,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-0f6d0416",
-    "variantColor": "옐로우"
+    "variantColor": "옐로우",
+    "colors": [
+      "그린",
+      "옐로우"
+    ]
   },
   {
     "code": "ANC-4080",
@@ -9899,6 +9948,11 @@
     "variantColor": "베이지+레드",
     "manualSearchExclude": [
       "A라인"
+    ],
+    "colors": [
+      "네이비",
+      "베이지+레드",
+      "옐로우+핑크"
     ]
   },
   {
@@ -10075,7 +10129,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-caaf7cc8",
-    "variantColor": "블루그레이"
+    "variantColor": "블루그레이",
+    "colors": [
+      "블루",
+      "블루그레이"
+    ]
   },
   {
     "code": "ANC-4088",
@@ -10259,6 +10317,11 @@
     "variantColor": "옐로우+핑크",
     "manualSearchExclude": [
       "A라인"
+    ],
+    "colors": [
+      "네이비",
+      "베이지+레드",
+      "옐로우+핑크"
     ]
   },
   {
@@ -17709,7 +17772,12 @@
       "디테일": "러플, 브이넥, 크롭",
       "패턴": "무지",
       "주요소재": "폴리에스터, 쉬폰"
-    }
+    },
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260002",
@@ -17923,7 +17991,12 @@
       "디테일": "러플, 브이넥, 크롭",
       "패턴": "무지",
       "주요소재": "폴리에스터, 쉬폰"
-    }
+    },
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260003",
@@ -18126,7 +18199,12 @@
       "디테일": "러플, 브이넥, 크롭",
       "패턴": "무지",
       "주요소재": "폴리에스터, 쉬폰"
-    }
+    },
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260004",
@@ -18312,7 +18390,11 @@
         }
       }
     ],
-    "manualSearchInclude": true
+    "manualSearchInclude": true,
+    "colors": [
+      "화이트",
+      "네이비"
+    ]
   },
   {
     "code": "N260005",
@@ -18518,7 +18600,11 @@
         }
       }
     ],
-    "manualSearchInclude": true
+    "manualSearchInclude": true,
+    "colors": [
+      "화이트",
+      "네이비"
+    ]
   },
   {
     "code": "N260006",
@@ -19167,7 +19253,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260009_04.jpg",
     "designGroupId": "np-color-5a7787bf",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260010",
@@ -19247,7 +19337,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260010_04.jpg",
     "designGroupId": "np-color-5a7787bf",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260011",
@@ -19450,6 +19544,11 @@
       "투피스",
       "슬림핏",
       "미니원피스"
+    ],
+    "colors": [
+      "화이트/블랙",
+      "핑크/화이트",
+      "블랙/화이트"
     ]
   },
   {
@@ -19653,6 +19752,11 @@
       "투피스",
       "슬림핏",
       "미니원피스"
+    ],
+    "colors": [
+      "화이트/블랙",
+      "핑크/화이트",
+      "블랙/화이트"
     ]
   },
   {
@@ -19899,6 +20003,11 @@
       "투피스",
       "슬림핏",
       "미니원피스"
+    ],
+    "colors": [
+      "화이트/블랙",
+      "핑크/화이트",
+      "블랙/화이트"
     ]
   },
   {
@@ -20008,7 +20117,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260014_04.jpg",
     "designGroupId": "np-color-4db83c65",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "N260015",
@@ -20087,7 +20200,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260015_04.jpg",
     "designGroupId": "np-color-4db83c65",
-    "variantColor": "소라"
+    "variantColor": "소라",
+    "colors": [
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "N260016",
@@ -20254,7 +20371,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260017_01.jpg",
     "designGroupId": "np-color-2909ba4a",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "블랙",
+      "화이트"
+    ]
   },
   {
     "code": "N260018",
@@ -20333,7 +20454,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260018_04.jpg",
     "designGroupId": "np-color-2909ba4a",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "블랙",
+      "화이트"
+    ]
   },
   {
     "code": "N260019",
@@ -20418,7 +20543,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260019_05.jpg",
     "designGroupId": "np-color-8a6e2eff",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "colors": [
+      "베이지",
+      "아이보리"
+    ]
   },
   {
     "code": "N260020",
@@ -20591,7 +20720,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260021_03.jpg",
     "designGroupId": "np-color-8a6e2eff",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "베이지",
+      "아이보리"
+    ]
   },
   {
     "code": "N260022",
@@ -20678,7 +20811,11 @@
     ],
     "thumbnail": "assets/N260022_01.jpg",
     "designGroupId": "np-color-3e1b903b",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "그레이",
+      "화이트"
+    ]
   },
   {
     "code": "N260023",
@@ -20766,7 +20903,11 @@
       "슬림핏"
     ],
     "designGroupId": "np-color-3e1b903b",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "그레이",
+      "화이트"
+    ]
   },
   {
     "code": "N260024",
@@ -20929,7 +21070,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260025_01.jpg",
     "designGroupId": "np-color-bfe15318",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "그레이",
+      "핑크"
+    ]
   },
   {
     "code": "N260026",
@@ -21007,7 +21152,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260026_01.jpg",
     "designGroupId": "np-color-bfe15318",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "그레이",
+      "핑크"
+    ]
   },
   {
     "code": "N260027",
@@ -21088,7 +21237,11 @@
     "size88Available": true,
     "designGroupId": "midi-22a01a5d",
     "variantColor": "N260027",
-    "thumbnail": "assets/N260027_01.jpg"
+    "thumbnail": "assets/N260027_01.jpg",
+    "colors": [
+      "N260027",
+      "화이트"
+    ]
   },
   {
     "code": "N260029",
@@ -21169,7 +21322,11 @@
     "size88Available": true,
     "designGroupId": "midi-22a01a5d",
     "variantColor": "화이트",
-    "thumbnail": "assets/N260029_04.jpg"
+    "thumbnail": "assets/N260029_04.jpg",
+    "colors": [
+      "N260027",
+      "화이트"
+    ]
   },
   {
     "code": "N260030",
@@ -21335,7 +21492,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260031_04.jpg",
     "designGroupId": "np-color-645de66a",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "핑크"
+    ]
   },
   {
     "code": "N260032",
@@ -21416,7 +21577,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260032_04.jpg",
     "designGroupId": "np-color-645de66a",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "화이트",
+      "핑크"
+    ]
   },
   {
     "code": "N260033",
@@ -21645,7 +21810,11 @@
       "리본",
       "미니투피스"
     ],
-    "variantColor": "아이보리/블랙"
+    "variantColor": "아이보리/블랙",
+    "colors": [
+      "아이보리/블랙",
+      "핑크/블랙"
+    ]
   },
   {
     "origin": "도트리본BL 델리SK",
@@ -21874,7 +22043,11 @@
     ],
     "mainImage": "assets/N260033P_M01.jpg",
     "thumbnail": "assets/N260033P_M01.jpg",
-    "thumbImage": "assets/N260033P_M01.jpg"
+    "thumbImage": "assets/N260033P_M01.jpg",
+    "colors": [
+      "아이보리/블랙",
+      "핑크/블랙"
+    ]
   },
   {
     "code": "N260034",
@@ -23241,7 +23414,11 @@
       "핏": "슬림핏",
       "디테일": "기타",
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "블랙",
+      "핑크"
+    ]
   },
   {
     "code": "N260044",
@@ -23408,7 +23585,11 @@
       "핏": "슬림핏",
       "디테일": "기타",
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "블랙",
+      "핑크"
+    ]
   },
   {
     "code": "N260045",
@@ -23489,7 +23670,11 @@
     "size88Available": false,
     "thumbnail": "assets/N260045_04.jpg",
     "designGroupId": "np-color-c65c4bb9",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "colors": [
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "N260046",
@@ -23582,7 +23767,11 @@
     "size88Available": false,
     "thumbnail": "assets/N260046_04.jpg",
     "designGroupId": "np-color-c65c4bb9",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "N260047",
@@ -24411,7 +24600,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260055_04.jpg",
     "designGroupId": "np-color-a7f62554",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260056",
@@ -24512,7 +24705,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260056_04.jpg",
     "designGroupId": "np-color-a7f62554",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260057",
@@ -24618,7 +24815,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260057_04.jpg",
     "designGroupId": "np-color-strap-pleats-mini",
-    "variantColor": "민트"
+    "variantColor": "민트",
+    "colors": [
+      "민트",
+      "블랙"
+    ]
   },
   {
     "code": "N260058",
@@ -24723,7 +24924,11 @@
     ],
     "thumbnail": "assets/N260058_01.jpg",
     "designGroupId": "np-color-strap-pleats-mini",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "민트",
+      "블랙"
+    ]
   },
   {
     "code": "N260059",
@@ -24838,7 +25043,11 @@
     ],
     "thumbnail": "assets/N260059_01.jpg",
     "designGroupId": "np-color-flower-shoulder-h-mini",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260060",
@@ -24924,7 +25133,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260060_04.jpg",
     "designGroupId": "np-color-flower-shoulder-h-mini",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260061",
@@ -25225,7 +25438,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260063_04.jpg",
     "designGroupId": "np-color-b5380845",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260064",
@@ -25331,7 +25548,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260064_04.jpg",
     "designGroupId": "np-color-b5380845",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260065",
@@ -25407,7 +25628,12 @@
     "size88Available": true,
     "designGroupId": "v-mini-v-e3e56796",
     "variantColor": "브라운",
-    "thumbnail": "assets/N260065_03.jpg"
+    "thumbnail": "assets/N260065_03.jpg",
+    "colors": [
+      "브라운",
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "N260067",
@@ -25489,7 +25715,12 @@
     "size88Available": true,
     "designGroupId": "a-mini-a-a-7c4cb5e0",
     "variantColor": "연보라/옐로우/민트",
-    "thumbnail": "assets/N260067_02.jpg"
+    "thumbnail": "assets/N260067_02.jpg",
+    "colors": [
+      "연보라/옐로우/민트",
+      "옐로우",
+      "연보라"
+    ]
   },
   {
     "code": "N260068",
@@ -25565,7 +25796,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260068_01.jpg",
     "designGroupId": "a-mini-a-a-7c4cb5e0",
-    "variantColor": "옐로우"
+    "variantColor": "옐로우",
+    "colors": [
+      "연보라/옐로우/민트",
+      "옐로우",
+      "연보라"
+    ]
   },
   {
     "code": "N260069",
@@ -25641,7 +25877,12 @@
     "size88Available": true,
     "designGroupId": "a-mini-a-a-7c4cb5e0",
     "variantColor": "연보라",
-    "thumbnail": "assets/N260069_01.jpg"
+    "thumbnail": "assets/N260069_01.jpg",
+    "colors": [
+      "연보라/옐로우/민트",
+      "옐로우",
+      "연보라"
+    ]
   },
   {
     "code": "N260070",
@@ -25717,7 +25958,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260070_03.jpg",
     "designGroupId": "v-mini-v-e3e56796",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "colors": [
+      "브라운",
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "N260071",
@@ -25788,7 +26034,12 @@
     "size88Available": true,
     "designGroupId": "v-mini-v-e3e56796",
     "variantColor": "핑크",
-    "thumbnail": "assets/N260071_02.jpg"
+    "thumbnail": "assets/N260071_02.jpg",
+    "colors": [
+      "브라운",
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "N260072",
@@ -25864,7 +26115,12 @@
     "size88Available": true,
     "designGroupId": "mini-b125e001",
     "variantColor": "핑크",
-    "thumbnail": "assets/N260072_04.jpg"
+    "thumbnail": "assets/N260072_04.jpg",
+    "colors": [
+      "핑크",
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260073",
@@ -25935,7 +26191,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260073_02.jpg",
     "designGroupId": "mini-b125e001",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "핑크",
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260074",
@@ -26011,7 +26272,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260074_01.jpg",
     "designGroupId": "mini-b125e001",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "핑크",
+      "화이트",
+      "블랙"
+    ]
   },
   {
     "code": "N260075",
@@ -26087,7 +26353,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260075_01.jpg",
     "designGroupId": "np-color-5d15886f",
-    "variantColor": "소라"
+    "variantColor": "소라",
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260076",
@@ -26290,7 +26561,12 @@
         "프릴/러플"
       ],
       "패턴": "기타"
-    }
+    },
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260077",
@@ -26366,7 +26642,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260077_02.jpg",
     "designGroupId": "np-color-5d15886f",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260078",
@@ -26449,7 +26730,12 @@
       "2026-07 수동수정: 업로드 이미지로 3번째/4번째 사진 교체, 메인컷 교체"
     ],
     "thumbnail": "assets/N260078_01.jpg",
-    "imageUpdateNote": "대표컷을 기존 노출 순서 기준 6번째 사진(assets/custom/N260078-full.jpg)으로 변경하고 5번째 사진은 쇼룸 갤러리에서 제외."
+    "imageUpdateNote": "대표컷을 기존 노출 순서 기준 6번째 사진(assets/custom/N260078-full.jpg)으로 변경하고 5번째 사진은 쇼룸 갤러리에서 제외.",
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260079",
@@ -26734,7 +27020,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260080_02.jpg",
     "designGroupId": "np-color-7275e2bf",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "블랙",
+      "화이트"
+    ]
   },
   {
     "code": "N260081",
@@ -26824,7 +27114,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260081_04.jpg",
     "designGroupId": "np-color-7275e2bf",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "블랙",
+      "화이트"
+    ]
   },
   {
     "code": "N260082",
@@ -26903,7 +27197,12 @@
     "size88Available": true,
     "designGroupId": "midi-304f5ea9",
     "variantColor": "블랙",
-    "thumbnail": "assets/N260082_01.jpg"
+    "thumbnail": "assets/N260082_01.jpg",
+    "colors": [
+      "블랙",
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260083",
@@ -26982,7 +27281,12 @@
     "size88Available": true,
     "thumbnail": "assets/N260083_04.jpg",
     "designGroupId": "midi-304f5ea9",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "블랙",
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260084",
@@ -27061,7 +27365,12 @@
     "size88Available": true,
     "designGroupId": "midi-304f5ea9",
     "variantColor": "핑크",
-    "thumbnail": "assets/N260084_03.jpg"
+    "thumbnail": "assets/N260084_03.jpg",
+    "colors": [
+      "블랙",
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260085",
@@ -27145,7 +27454,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260085_04.jpg",
     "designGroupId": "np-color-2530fa22",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260086",
@@ -27229,7 +27542,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260086_01.jpg",
     "designGroupId": "np-color-2530fa22",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260087",
@@ -27305,7 +27622,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260087_04.jpg",
     "designGroupId": "np-color-973d139b",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "블랙",
+      "핑크"
+    ]
   },
   {
     "code": "N260088",
@@ -27376,7 +27697,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260088_01.jpg",
     "designGroupId": "np-color-973d139b",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "블랙",
+      "핑크"
+    ]
   },
   {
     "code": "N260089",
@@ -27452,7 +27777,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260089_04.jpg",
     "designGroupId": "np-color-d27c015c",
-    "variantColor": "핑크/아이보리"
+    "variantColor": "핑크/아이보리",
+    "colors": [
+      "핑크/아이보리",
+      "아이보리"
+    ]
   },
   {
     "code": "N260090",
@@ -27531,7 +27860,12 @@
     "size88Available": true,
     "designGroupId": "midi-36167bd6",
     "variantColor": "핑크",
-    "thumbnail": "assets/N260090_04.jpg"
+    "thumbnail": "assets/N260090_04.jpg",
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260091",
@@ -27607,7 +27941,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260091_04.jpg",
     "designGroupId": "np-color-d27c015c",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "핑크/아이보리",
+      "아이보리"
+    ]
   },
   {
     "code": "N260092",
@@ -27690,7 +28028,12 @@
       "2026-07 수동수정: 2번째/4번째 사진 제거 후 업로드 이미지로 메인컷/전신컷/디테일 교체"
     ],
     "thumbnail": "assets/N260092_01.jpg",
-    "description": "셔링과 핀턱 디테일이 바디 라인을 깔끔하게 잡아주는 미디 원피스입니다. 단정하면서도 여성스러운 분위기로 모임룩, 촬영룩, 파티룩에 잘 어울립니다."
+    "description": "셔링과 핀턱 디테일이 바디 라인을 깔끔하게 잡아주는 미디 원피스입니다. 단정하면서도 여성스러운 분위기로 모임룩, 촬영룩, 파티룩에 잘 어울립니다.",
+    "colors": [
+      "소라",
+      "핑크",
+      "화이트"
+    ]
   },
   {
     "code": "N260093",
@@ -28995,7 +29338,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260122_03.jpg",
     "designGroupId": "np-color-479bb5d0",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "핑크",
+      "민트",
+      "화이트"
+    ]
   },
   {
     "code": "N260123",
@@ -29070,7 +29418,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260123_02.jpg",
     "designGroupId": "np-color-479bb5d0",
-    "variantColor": "민트"
+    "variantColor": "민트",
+    "colors": [
+      "핑크",
+      "민트",
+      "화이트"
+    ]
   },
   {
     "code": "N260124",
@@ -29145,7 +29498,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260124_02.jpg",
     "designGroupId": "np-color-479bb5d0",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "핑크",
+      "민트",
+      "화이트"
+    ]
   },
   {
     "code": "N260125",
@@ -29293,7 +29651,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260126_01.jpg",
     "designGroupId": "np-color-98e4b9f1",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260127",
@@ -29368,7 +29731,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260127_04.jpg",
     "designGroupId": "np-color-98e4b9f1",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260128",
@@ -29443,7 +29811,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260128_04.jpg",
     "designGroupId": "np-color-98e4b9f1",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260129",
@@ -29533,7 +29906,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260129_04.jpg",
     "designGroupId": "np-color-8dfe860e",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260130",
@@ -29623,7 +30001,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260130_01.jpg",
     "designGroupId": "np-color-8dfe860e",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260131",
@@ -29709,7 +30092,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260131_04.jpg",
     "designGroupId": "np-color-8dfe860e",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260132",
@@ -30560,7 +30948,11 @@
     "size88Available": false,
     "thumbnail": "assets/N260142_04.jpg",
     "designGroupId": "np-color-72491e29",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260143",
@@ -30635,7 +31027,11 @@
     "size88Available": false,
     "thumbnail": "assets/N260143_04.jpg",
     "designGroupId": "np-color-72491e29",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260144",
@@ -30717,7 +31113,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260144_01.jpg",
     "designGroupId": "np-color-d8b39672",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이"
+    ]
   },
   {
     "code": "N260145",
@@ -30792,7 +31193,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260145_01.jpg",
     "designGroupId": "np-color-d8b39672",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이"
+    ]
   },
   {
     "code": "N260146",
@@ -30867,7 +31273,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260146_04.jpg",
     "designGroupId": "np-color-d8b39672",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이"
+    ]
   },
   {
     "code": "N260147",
@@ -31177,7 +31588,13 @@
     "size88Available": false,
     "designGroupId": "mini-74130d67",
     "variantColor": "아이보리",
-    "thumbnail": "assets/N260150_04.jpg"
+    "thumbnail": "assets/N260150_04.jpg",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "N260151",
@@ -31259,7 +31676,13 @@
     "size88Available": false,
     "thumbnail": "assets/N260151_04.jpg",
     "designGroupId": "mini-74130d67",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "N260152",
@@ -31334,7 +31757,13 @@
     "size88Available": false,
     "thumbnail": "assets/N260152_04.jpg",
     "designGroupId": "mini-74130d67",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "N260153",
@@ -31409,7 +31838,13 @@
     "size88Available": false,
     "designGroupId": "mini-74130d67",
     "variantColor": "블랙",
-    "thumbnail": "assets/N260153_04.jpg"
+    "thumbnail": "assets/N260153_04.jpg",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "N260154",
@@ -31515,7 +31950,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260154_02.jpg",
     "designGroupId": "np-color-0433aa03",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260155",
@@ -31591,7 +32031,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260155_01.jpg",
     "designGroupId": "np-color-0433aa03",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260156",
@@ -31667,7 +32112,12 @@
     "size88Available": false,
     "thumbnail": "assets/N260156_01.jpg",
     "designGroupId": "np-color-0433aa03",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260157",
@@ -32617,7 +33067,11 @@
     "wearInfo": "오프숄더 라인과 리본 포인트가 어깨선을 여성스럽게 살려주는 미니원피스입니다.",
     "sizeDetail": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
     "cap": "있음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260168",
@@ -32733,7 +33187,11 @@
     "wearInfo": "오프숄더 라인과 리본 포인트가 어깨선을 여성스럽게 살려주는 미니원피스입니다.",
     "sizeDetail": "55(S)(총길이:61 가슴:30(밴딩) 허리:30 힙:41) / 66(M)(총길이:61 가슴:32(밴딩) 허리:32.5 힙:43.5) / 77(L)(총길이:61 가슴:34(밴딩) 허리:35 힙:46)",
     "cap": "있음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260167PI",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260169",
@@ -32833,7 +33291,11 @@
     "thumbnail": "assets/N260169_04.jpg",
     "length": "미니",
     "sizeDetail": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260170",
@@ -32927,7 +33389,11 @@
     "length": "미니",
     "cap": "없음",
     "sizeDetail": "55(S)(총길이:77 가슴:39 허리:34) / 66(M)(총길이:77 가슴:41.5 허리:36.5)",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260169PI",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260171",
@@ -33126,7 +33592,11 @@
     "designGroupId": "N260172-173-mini-color",
     "variantColor": "아이보리",
     "thumbnail": "assets/N260172_04.jpg",
-    "length": "미니"
+    "length": "미니",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260173",
@@ -33215,7 +33685,11 @@
     "designGroupId": "N260172-173-mini-color",
     "variantColor": "핑크",
     "thumbnail": "assets/N260173_01.jpg",
-    "length": "미니"
+    "length": "미니",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260174",
@@ -33305,7 +33779,11 @@
     "thumbnail": "assets/N260174_04.jpg",
     "designGroupId": "N260174-175-knit-mini",
     "variantColor": "아이보리",
-    "length": "미니"
+    "length": "미니",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260175",
@@ -33395,7 +33873,11 @@
     "thumbnail": "assets/N260175_04.jpg",
     "designGroupId": "N260174-175-knit-mini",
     "variantColor": "핑크",
-    "length": "미니"
+    "length": "미니",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260176",
@@ -33489,7 +33971,11 @@
     "sizeDetail": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
     "cap": "없음",
     "zipper": "뒷지퍼",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260177",
@@ -33583,7 +34069,11 @@
     "sizeDetail": "55(S)(총길이:78 가슴:38 허리:32) / 66(M)(총길이:78 가슴:40.5 허리:34.5)",
     "cap": "없음",
     "zipper": "뒷지퍼",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260176PI",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "N260178",
@@ -33669,7 +34159,11 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260179",
@@ -33755,7 +34249,11 @@
     "cap": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260178PI",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260180",
@@ -33844,7 +34342,12 @@
     "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
     "cap": "없음",
     "zipper": "없음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "N260181",
@@ -33933,7 +34436,12 @@
     "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
     "cap": "없음",
     "zipper": "없음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "N260182",
@@ -34022,7 +34530,12 @@
     "sizeDetail": "55(S)(총길이:125 가슴:43) / 66(M)(총길이:125 가슴:45.5)",
     "cap": "없음",
     "zipper": "없음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260180PI",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "N260183",
@@ -34454,7 +34967,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260187_01.jpg",
     "designGroupId": "np-color-92034ddc",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "네이비"
+    ]
   },
   {
     "code": "N260188",
@@ -34558,7 +35075,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260188_01.jpg",
     "designGroupId": "np-color-92034ddc",
-    "variantColor": "네이비"
+    "variantColor": "네이비",
+    "colors": [
+      "아이보리",
+      "네이비"
+    ]
   },
   {
     "code": "N260189",
@@ -34745,7 +35266,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260190_04.jpg",
     "designGroupId": "np-color-4b326118",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260191",
@@ -34849,7 +35374,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260191_04.jpg",
     "designGroupId": "np-color-4b326118",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "N260192",
@@ -36525,7 +37054,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260210_04.jpg",
     "designGroupId": "np-color-c1940151",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "colors": [
+      "화이트",
+      "라벤더"
+    ]
   },
   {
     "code": "N260211",
@@ -36620,7 +37153,11 @@
     "size88Available": true,
     "thumbnail": "assets/N260211_04.jpg",
     "designGroupId": "np-color-c1940151",
-    "variantColor": "라벤더"
+    "variantColor": "라벤더",
+    "colors": [
+      "화이트",
+      "라벤더"
+    ]
   },
   {
     "code": "N260212",
@@ -36724,7 +37261,11 @@
     "sizeDetail": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
     "fabricNote": "상의/스커트: 폴리혼방",
     "cap": "상의 없음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI",
+    "colors": [
+      "화이트/블랙",
+      "블루/그레이"
+    ]
   },
   {
     "code": "N260213",
@@ -36819,7 +37360,11 @@
     "sizeDetail": "상의 55(S)(총길이:38 소매:24 가슴:50 허리:43) / 상의 66(M)(총길이:38 소매:24 가슴:52.5 허리:45.5) / 상의 77(L)(총길이:38 소매:24 가슴:55 허리:52) / 스커트 55(S)(총길이:37 허리:32 힙:40) / 스커트 66(M)(총길이:37 허리:34.5 힙:42.5) / 스커트 77(L)(총길이:37 허리:37 힙:45)",
     "fabricNote": "상의/스커트: 폴리혼방",
     "cap": "상의 없음",
-    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI"
+    "correctionNote": "PI 이미지 기준 제품정보 업데이트: N260212PI",
+    "colors": [
+      "화이트/블랙",
+      "블루/그레이"
+    ]
   },
   {
     "code": "N260214",
@@ -36986,7 +37531,12 @@
       }
     ],
     "description": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다. 신축성이 있어 착용감이 편하고 파티룩, 촬영룩, 데이트룩으로 활용하기 좋습니다.",
-    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다"
+    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다",
+    "colors": [
+      "핑크",
+      "민트",
+      "블랙"
+    ]
   },
   {
     "code": "N260215",
@@ -37157,7 +37707,12 @@
       }
     ],
     "description": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다. 신축성이 있어 착용감이 편하고 파티룩, 촬영룩, 데이트룩으로 활용하기 좋습니다.",
-    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다"
+    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다",
+    "colors": [
+      "핑크",
+      "민트",
+      "블랙"
+    ]
   },
   {
     "code": "N260216",
@@ -37299,7 +37854,12 @@
       }
     ],
     "description": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다. 신축성이 있어 착용감이 편하고 파티룩, 촬영룩, 데이트룩으로 활용하기 좋습니다.",
-    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다"
+    "mainCopy": "빅리본 버튼 포인트가 사랑스럽게 돋보이는 미니드레스입니다",
+    "colors": [
+      "핑크",
+      "민트",
+      "블랙"
+    ]
   },
   {
     "code": "JES-325",
@@ -38658,7 +39218,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-b40c4d7c",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S664",
@@ -38789,7 +39353,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-b40c4d7c",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S665",
@@ -38921,7 +39489,13 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-0341680b",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "옐로우",
+      "보라",
+      "브라운"
+    ]
   },
   {
     "code": "S667",
@@ -39053,7 +39627,13 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-0341680b",
-    "variantColor": "옐로우"
+    "variantColor": "옐로우",
+    "colors": [
+      "아이보리",
+      "옐로우",
+      "보라",
+      "브라운"
+    ]
   },
   {
     "code": "S668",
@@ -39185,7 +39765,13 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-0341680b",
-    "variantColor": "보라"
+    "variantColor": "보라",
+    "colors": [
+      "아이보리",
+      "옐로우",
+      "보라",
+      "브라운"
+    ]
   },
   {
     "code": "S669",
@@ -39317,7 +39903,13 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-0341680b",
-    "variantColor": "브라운"
+    "variantColor": "브라운",
+    "colors": [
+      "아이보리",
+      "옐로우",
+      "보라",
+      "브라운"
+    ]
   },
   {
     "code": "S670",
@@ -39440,7 +40032,12 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-6576581c",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "S671",
@@ -39563,7 +40160,12 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-6576581c",
-    "variantColor": "그레이"
+    "variantColor": "그레이",
+    "colors": [
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "S672",
@@ -39686,7 +40288,12 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-6576581c",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "S673",
@@ -39933,7 +40540,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-93b9b8d8",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "S677",
@@ -40062,7 +40673,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-93b9b8d8",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "S678",
@@ -40252,7 +40867,12 @@
         "스팽글"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S679",
@@ -40442,7 +41062,12 @@
         "스팽글"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S680",
@@ -40632,7 +41257,12 @@
         "스팽글"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S681",
@@ -40758,7 +41388,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-13d6cb65",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "스카이블루"
+    ]
   },
   {
     "code": "S682",
@@ -40884,7 +41518,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-13d6cb65",
-    "variantColor": "스카이블루"
+    "variantColor": "스카이블루",
+    "colors": [
+      "아이보리",
+      "스카이블루"
+    ]
   },
   {
     "code": "S683",
@@ -41009,7 +41647,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-84d909dc",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S684",
@@ -41134,7 +41776,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-84d909dc",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S685",
@@ -41257,7 +41903,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-a2877490",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S686",
@@ -41380,7 +42030,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-a2877490",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S687",
@@ -41508,7 +42162,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-c5f77573",
-    "variantColor": "그린"
+    "variantColor": "그린",
+    "colors": [
+      "그린",
+      "블랙"
+    ]
   },
   {
     "code": "S688",
@@ -41631,7 +42289,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-c5f77573",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "그린",
+      "블랙"
+    ]
   },
   {
     "code": "S689",
@@ -41758,7 +42420,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-1d4afcff",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S690",
@@ -41885,7 +42551,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-1d4afcff",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S691",
@@ -42082,7 +42752,11 @@
         "버튼"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S692",
@@ -42279,7 +42953,11 @@
         "버튼"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S693",
@@ -42502,6 +43180,10 @@
       "55",
       "66",
       "77"
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
     ]
   },
   {
@@ -42725,6 +43407,10 @@
       "55",
       "66",
       "77"
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
     ]
   },
   {
@@ -42852,7 +43538,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-3a852510",
-    "variantColor": "옐로우"
+    "variantColor": "옐로우",
+    "colors": [
+      "옐로우",
+      "소라"
+    ]
   },
   {
     "code": "S696",
@@ -42979,7 +43669,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-3a852510",
-    "variantColor": "소라"
+    "variantColor": "소라",
+    "colors": [
+      "옐로우",
+      "소라"
+    ]
   },
   {
     "code": "S697",
@@ -43168,7 +43862,11 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리/소라",
+      "핑크/블랙"
+    ]
   },
   {
     "code": "S698",
@@ -43357,7 +44055,11 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리/소라",
+      "핑크/블랙"
+    ]
   },
   {
     "code": "S699",
@@ -43541,7 +44243,11 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S700",
@@ -43719,7 +44425,11 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S701",
@@ -43844,7 +44554,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-82b9d7cc",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "colors": [
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "S702",
@@ -43969,7 +44683,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-82b9d7cc",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "베이지",
+      "핑크"
+    ]
   },
   {
     "code": "S703",
@@ -44144,7 +44862,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "옐로우",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S704",
@@ -44319,7 +45042,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "옐로우",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S705",
@@ -44494,7 +45222,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "옐로우",
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "S706",
@@ -44682,7 +45415,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "핑크",
+      "블루",
+      "그린"
+    ]
   },
   {
     "code": "S707",
@@ -44870,7 +45608,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "핑크",
+      "블루",
+      "그린"
+    ]
   },
   {
     "code": "S708",
@@ -45058,7 +45801,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "핑크",
+      "블루",
+      "그린"
+    ]
   },
   {
     "code": "S709",
@@ -45230,7 +45978,11 @@
     "lining": "없음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "없음"
+    "zipper": "없음",
+    "colors": [
+      "옐로우",
+      "스카이블루"
+    ]
   },
   {
     "code": "S710",
@@ -45402,7 +46154,11 @@
     "lining": "없음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "없음"
+    "zipper": "없음",
+    "colors": [
+      "옐로우",
+      "스카이블루"
+    ]
   },
   {
     "code": "S711",
@@ -45529,7 +46285,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-5025cf2a",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S712",
@@ -45656,7 +46416,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-5025cf2a",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S713",
@@ -45835,7 +46599,13 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S714",
@@ -46014,7 +46784,13 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S715",
@@ -46193,7 +46969,13 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S716",
@@ -46372,7 +47154,13 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S717",
@@ -46558,7 +47346,11 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "그린",
+      "베리"
+    ]
   },
   {
     "code": "S718",
@@ -46744,7 +47536,11 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "그린",
+      "베리"
+    ]
   },
   {
     "code": "S719",
@@ -46758,8 +47554,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66 / 77",
+    "sizeInfo": "원피스 사이즈 55(S)(총 105 소매 - 가슴 37 허리 30 힙 38), 66(M)(총 105 소매 - 가슴 39.5 허리 32.5 힙 40.5), 77(L)(총 105 소매 - 가슴 42 허리 35 힙 43)",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -46829,7 +47625,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "망사혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -46869,7 +47665,63 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-2739f759",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "sizeTables": [
+      {
+        "title": "원피스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "37",
+            "허리단면": "30",
+            "힙단면": "38"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "39.5",
+            "허리단면": "32.5",
+            "힙단면": "40.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "35",
+            "힙단면": "43"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡 여부": "있음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "핑크",
+      "스카이블루"
+    ]
   },
   {
     "code": "S720",
@@ -46883,8 +47735,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "스카이블루",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66 / 77",
+    "sizeInfo": "원피스 사이즈 55(S)(총 105 소매 - 가슴 37 허리 30 힙 38), 66(M)(총 105 소매 - 가슴 39.5 허리 32.5 힙 40.5), 77(L)(총 105 소매 - 가슴 42 허리 35 힙 43)",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -46954,7 +47806,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "망사혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -46994,7 +47846,63 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "one-piece-nice-2739f759",
-    "variantColor": "스카이블루"
+    "variantColor": "스카이블루",
+    "sizeTables": [
+      {
+        "title": "원피스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "37",
+            "허리단면": "30",
+            "힙단면": "38"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "39.5",
+            "허리단면": "32.5",
+            "힙단면": "40.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "35",
+            "힙단면": "43"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡 여부": "있음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "핑크",
+      "스카이블루"
+    ]
   },
   {
     "code": "S721",
@@ -47008,8 +47916,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66 / 77",
+    "sizeInfo": "상의 사이즈 55(S)(총 39 소매 - 가슴 40 허리 32), 66(M)(총 39 소매 - 가슴 42.5 허리 34.5), 77(L)(총 39 소매 - 가슴 45 허리 37) | 스커트 사이즈 55(S)(총 앞38-뒤43 허리 31), 66(M)(총 앞38-뒤43 허리 33.5), 77(L)(총 앞38-뒤43 허리 36)",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -47079,7 +47987,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -47121,7 +48029,94 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-ca11c91f",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "33.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "36"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S722",
@@ -47135,8 +48130,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66 / 77",
+    "sizeInfo": "상의 사이즈 55(S)(총 39 소매 - 가슴 40 허리 32), 66(M)(총 39 소매 - 가슴 42.5 허리 34.5), 77(L)(총 39 소매 - 가슴 45 허리 37) | 스커트 사이즈 55(S)(총 앞38-뒤43 허리 31), 66(M)(총 앞38-뒤43 허리 33.5), 77(L)(총 앞38-뒤43 허리 36)",
     "wearInfo": "확인필요",
     "price": null,
     "stockStatus": "문의",
@@ -47206,7 +48201,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -47248,7 +48243,94 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-ca11c91f",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "33.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "앞38-뒤43",
+            "허리단면": "36"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S723",
@@ -47377,7 +48459,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-6e651dd3",
-    "variantColor": "레드"
+    "variantColor": "레드",
+    "colors": [
+      "레드",
+      "블랙"
+    ]
   },
   {
     "code": "S724",
@@ -47506,7 +48592,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-6e651dd3",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "레드",
+      "블랙"
+    ]
   },
   {
     "code": "S725",
@@ -47882,7 +48972,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-nice-4cd36992",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "colors": [
+      "핑크",
+      "그린"
+    ]
   },
   {
     "code": "S728",
@@ -48002,7 +49096,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-nice-4cd36992",
-    "variantColor": "그린"
+    "variantColor": "그린",
+    "colors": [
+      "핑크",
+      "그린"
+    ]
   },
   {
     "code": "S729",
@@ -48134,7 +49232,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-nice-1f4f2b83",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S730",
@@ -48260,7 +49362,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "two-piece-nice-1f4f2b83",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S731",
@@ -48387,7 +49493,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-01a4d65c",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S732",
@@ -48514,7 +49624,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-01a4d65c",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S733",
@@ -48639,7 +49753,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-e542a63d",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "네이비"
+    ]
   },
   {
     "code": "S734",
@@ -48764,7 +49882,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-e542a63d",
-    "variantColor": "네이비"
+    "variantColor": "네이비",
+    "colors": [
+      "아이보리",
+      "네이비"
+    ]
   },
   {
     "code": "S735",
@@ -48889,7 +50011,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-50e6cc63",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S736",
@@ -49014,7 +50140,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "one-piece-nice-50e6cc63",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S737",
@@ -49028,8 +50158,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "블라우스 사이즈 55(S)(총 51 소매 - 가슴 47 허리 48), 66(M)(총 51 소매 - 가슴 49.5 허리 50.5) | 스커트 사이즈 55(S)(총 34 허리 31 힙 42), 66(M)(총 34 허리 34.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 136000,
     "stockStatus": "문의",
@@ -49105,7 +50235,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "블라우스 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -49146,7 +50276,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-aa2c63db",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "블라우스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "47",
+            "허리단면": "48"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "49.5",
+            "허리단면": "50.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "31",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "블라우스 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "S738",
@@ -49160,8 +50369,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "핑크",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "블라우스 사이즈 55(S)(총 51 소매 - 가슴 47 허리 48), 66(M)(총 51 소매 - 가슴 49.5 허리 50.5) | 스커트 사이즈 55(S)(총 34 허리 31 힙 42), 66(M)(총 34 허리 34.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 136000,
     "stockStatus": "문의",
@@ -49237,7 +50446,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "블라우스 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -49278,7 +50487,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-aa2c63db",
-    "variantColor": "핑크"
+    "variantColor": "핑크",
+    "sizeTables": [
+      {
+        "title": "블라우스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "47",
+            "허리단면": "48"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "49.5",
+            "허리단면": "50.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "31",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "블라우스 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "핑크"
+    ]
   },
   {
     "code": "S739",
@@ -49292,8 +50580,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "FREE / 55 / 66",
+    "sizeInfo": "상의 사이즈 FREE(총 51 소매 - 가슴 32 허리 28) | 스커트 사이즈 55(S)(총 33 허리 32 힙 41), 66(M)(총 33 허리 34.5 힙 43.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -49369,7 +50657,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 니트 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -49411,7 +50699,78 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-d2e9e322",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "32",
+            "허리단면": "28"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "33",
+            "허리단면": "32",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33",
+            "허리단면": "34.5",
+            "힙단면": "43.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S740",
@@ -49425,8 +50784,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "FREE / 55 / 66",
+    "sizeInfo": "상의 사이즈 FREE(총 51 소매 - 가슴 32 허리 28) | 스커트 사이즈 55(S)(총 33 허리 32 힙 41), 66(M)(총 33 허리 34.5 힙 43.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -49502,7 +50861,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 니트 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -49544,7 +50903,78 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-d2e9e322",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "32",
+            "허리단면": "28"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "33",
+            "허리단면": "32",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33",
+            "허리단면": "34.5",
+            "힙단면": "43.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S741",
@@ -49561,7 +50991,7 @@
     "size": "S,M,L",
     "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
-    "price": 51000,
+    "price": 154000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -49675,7 +51105,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-8aec43b4",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S742",
@@ -49692,7 +51126,7 @@
     "size": "S,M,L",
     "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
-    "price": 51000,
+    "price": 154000,
     "stockStatus": "문의",
     "new": true,
     "isNew": true,
@@ -49800,7 +51234,11 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-8aec43b4",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S743",
@@ -49814,8 +51252,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "FREE / 55 / 66",
+    "sizeInfo": "상의 사이즈 FREE(총 47 소매 28 가슴 34 허리 29) | 스커트 사이즈 55(S)(총 34 허리 32 힙 42), 66(M)(총 34 허리 34.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 99000,
     "stockStatus": "문의",
@@ -49885,7 +51323,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 골지니트 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -49925,7 +51363,78 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-c2fcec49",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "47",
+            "소매길이": "28",
+            "가슴단면": "34",
+            "허리단면": "29"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "32",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "소라"
+    ]
   },
   {
     "code": "S744",
@@ -49939,8 +51448,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "FREE / 55 / 66",
+    "sizeInfo": "상의 사이즈 FREE(총 47 소매 28 가슴 34 허리 29) | 스커트 사이즈 55(S)(총 34 허리 32 힙 42), 66(M)(총 34 허리 34.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 99000,
     "stockStatus": "문의",
@@ -50016,7 +51525,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 골지니트 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50056,7 +51565,78 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-c2fcec49",
-    "variantColor": "소라"
+    "variantColor": "소라",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "47",
+            "소매길이": "28",
+            "가슴단면": "34",
+            "허리단면": "29"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "32",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "34.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "소라"
+    ]
   },
   {
     "code": "S745",
@@ -50070,8 +51650,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "블라우스 사이즈 55(S)(총 57 소매 - 가슴 48 허리 55), 66(M)(총 57 소매 - 가슴 50.5 허리 57.5) | 스커트 사이즈 55(S)(총 34 허리 33 힙 43), 66(M)(총 34 허리 35.5 힙 45.5)",
     "wearInfo": "확인필요",
     "price": 104000,
     "stockStatus": "문의",
@@ -50147,7 +51727,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "블라우스 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50189,7 +51769,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-4064899f",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "블라우스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "57",
+            "소매길이": "-",
+            "가슴단면": "48",
+            "허리단면": "55"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "57",
+            "소매길이": "-",
+            "가슴단면": "50.5",
+            "허리단면": "57.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "33",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "35.5",
+            "힙단면": "45.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "블라우스 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S746",
@@ -50203,8 +51862,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "블라우스 사이즈 55(S)(총 57 소매 - 가슴 48 허리 55), 66(M)(총 57 소매 - 가슴 50.5 허리 57.5) | 스커트 사이즈 55(S)(총 34 허리 33 힙 43), 66(M)(총 34 허리 35.5 힙 45.5)",
     "wearInfo": "확인필요",
     "price": 104000,
     "stockStatus": "문의",
@@ -50280,7 +51939,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "블라우스 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50322,7 +51981,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-4064899f",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "sizeTables": [
+      {
+        "title": "블라우스 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "57",
+            "소매길이": "-",
+            "가슴단면": "48",
+            "허리단면": "55"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "57",
+            "소매길이": "-",
+            "가슴단면": "50.5",
+            "허리단면": "57.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "33",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "35.5",
+            "힙단면": "45.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "블라우스 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "블랙"
+    ]
   },
   {
     "code": "S747",
@@ -50336,8 +52074,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 59 소매 - 가슴 46 허리 45), 66(M)(총 59 소매 - 가슴 48.5 허리 47.5) | 스커트 사이즈 55(S)(총 34 허리 33 힙 43), 66(M)(총 34 허리 35.5 힙 45.5)",
     "wearInfo": "확인필요",
     "price": 99000,
     "stockStatus": "문의",
@@ -50413,7 +52151,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 폴리혼방 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50453,7 +52191,87 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ccd0574",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "46",
+            "허리단면": "45"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "48.5",
+            "허리단면": "47.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "33",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "35.5",
+            "힙단면": "45.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S748",
@@ -50467,8 +52285,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "소라",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 59 소매 - 가슴 46 허리 45), 66(M)(총 59 소매 - 가슴 48.5 허리 47.5) | 스커트 사이즈 55(S)(총 34 허리 33 힙 43), 66(M)(총 34 허리 35.5 힙 45.5)",
     "wearInfo": "확인필요",
     "price": 99000,
     "stockStatus": "문의",
@@ -50544,7 +52362,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 폴리혼방 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50584,7 +52402,87 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ccd0574",
-    "variantColor": "소라"
+    "variantColor": "소라",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "46",
+            "허리단면": "45"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "48.5",
+            "허리단면": "47.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "33",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "35.5",
+            "힙단면": "45.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S749",
@@ -50598,8 +52496,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "블랙",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 59 소매 - 가슴 46 허리 45), 66(M)(총 59 소매 - 가슴 48.5 허리 47.5) | 스커트 사이즈 55(S)(총 34 허리 33 힙 43), 66(M)(총 34 허리 35.5 힙 45.5)",
     "wearInfo": "확인필요",
     "price": 99000,
     "stockStatus": "문의",
@@ -50675,7 +52573,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 폴리혼방 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50715,7 +52613,87 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ccd0574",
-    "variantColor": "블랙"
+    "variantColor": "블랙",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "46",
+            "허리단면": "45"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "59",
+            "소매길이": "-",
+            "가슴단면": "48.5",
+            "허리단면": "47.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "34",
+            "허리단면": "33",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "34",
+            "허리단면": "35.5",
+            "힙단면": "45.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "S750",
@@ -50729,8 +52707,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "아이보리",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 51 소매 - 가슴 44 허리 37), 66(M)(총 51 소매 - 가슴 46.5 허리 39.5) | 스커트 사이즈 55(S)(총 33 허리 31 힙 41), 66(M)(총 33 허리 33.5 힙 43.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -50806,7 +52784,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 새틴 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50846,7 +52824,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-07f6dd34",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "37"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "46.5",
+            "허리단면": "39.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "33",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "베이지"
+    ]
   },
   {
     "code": "S751",
@@ -50860,8 +52917,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 51 소매 - 가슴 44 허리 37), 66(M)(총 51 소매 - 가슴 46.5 허리 39.5) | 스커트 사이즈 55(S)(총 33 허리 31 힙 41), 66(M)(총 33 허리 33.5 힙 43.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -50937,7 +52994,7 @@
       "카카오톡으로 재고와 사이즈 상담 가능"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의: 새틴 / 스커트: 폴리혼방",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -50977,7 +53034,86 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-07f6dd34",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "37"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "51",
+            "소매길이": "-",
+            "가슴단면": "46.5",
+            "허리단면": "39.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "33",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "어깨패드": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "아이보리",
+      "베이지"
+    ]
   },
   {
     "code": "S752",
@@ -50991,8 +53127,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "화이트",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 58 소매 - 가슴 42 허리 40), 66(M)(총 58 소매 - 가슴 44.5 허리 42.5) | 스커트 사이즈 55(S)(총 35 허리 33 힙 42), 66(M)(총 35 허리 35.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -51068,7 +53204,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -51108,7 +53244,87 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ed82715",
-    "variantColor": "화이트"
+    "variantColor": "화이트",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "58",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "58",
+            "소매길이": "-",
+            "가슴단면": "44.5",
+            "허리단면": "42.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "35",
+            "허리단면": "33",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "35",
+            "허리단면": "35.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "화이트",
+      "베이지",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S753",
@@ -51122,8 +53338,8 @@
     "collection": "A",
     "collectionName": "New Arrival Selection",
     "color": "베이지",
-    "size": "S,M,L",
-    "sizeInfo": "S,M,L",
+    "size": "55 / 66",
+    "sizeInfo": "상의 사이즈 55(S)(총 58 소매 - 가슴 42 허리 40), 66(M)(총 58 소매 - 가슴 44.5 허리 42.5) | 스커트 사이즈 55(S)(총 35 허리 33 힙 42), 66(M)(총 35 허리 35.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -51193,7 +53409,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "확인필요",
+    "fabric": "상의 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -51233,7 +53449,87 @@
     "size77Available": false,
     "size88Available": false,
     "designGroupId": "two-piece-nice-9ed82715",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "58",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "58",
+            "소매길이": "-",
+            "가슴단면": "44.5",
+            "허리단면": "42.5"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "35",
+            "허리단면": "33",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "35",
+            "허리단면": "35.5",
+            "힙단면": "44.5"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡 여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "colors": [
+      "화이트",
+      "베이지",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S754",
@@ -51248,7 +53544,7 @@
     "collectionName": "New Arrival Selection",
     "color": "핑크",
     "size": "55 / 66",
-    "sizeInfo": "상의 55(총길이 58 소매 - 가슴 42 허리 40 힙 -), 66(총길이 58 소매 - 가슴 44.5 허리 42.5 힙 -) | 스커트 55(총길이 35 허리 33 힙 42), 66(총길이 35 허리 35.5 힙 44.5)",
+    "sizeInfo": "상의 사이즈 55(S)(총 58 소매 - 가슴 42 허리 40), 66(M)(총 58 소매 - 가슴 44.5 허리 42.5) | 스커트 사이즈 55(S)(총 35 허리 33 힙 42), 66(M)(총 35 허리 35.5 힙 44.5)",
     "wearInfo": "확인필요",
     "price": 108000,
     "stockStatus": "문의",
@@ -51324,7 +53620,7 @@
       "파티, 모임, 촬영룩으로 활용하기 좋은 스타일"
     ],
     "recommend": "파티 · 모임 · 방송 · 촬영",
-    "fabric": "새틴",
+    "fabric": "상의 / 스커트: 새틴",
     "contactType": "kakao",
     "tags": [
       "NEW",
@@ -51380,8 +53676,7 @@
           "총길이",
           "소매길이",
           "가슴단면",
-          "허리단면",
-          "힙단면"
+          "허리단면"
         ],
         "rows": [
           {
@@ -51389,16 +53684,14 @@
             "총길이": "58",
             "소매길이": "-",
             "가슴단면": "42",
-            "허리단면": "40",
-            "힙단면": "-"
+            "허리단면": "40"
           },
           {
             "사이즈": "66(M)",
             "총길이": "58",
             "소매길이": "-",
             "가슴단면": "44.5",
-            "허리단면": "42.5",
-            "힙단면": "-"
+            "허리단면": "42.5"
           }
         ]
       },
@@ -51459,7 +53752,13 @@
         "기타"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "화이트",
+      "베이지",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "S755",
@@ -51685,7 +53984,13 @@
         "기타"
       ],
       "패턴": "무지"
-    }
+    },
+    "colors": [
+      "화이트",
+      "베이지",
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "N260225",
@@ -52070,7 +54375,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-7cd78e06",
-    "variantColor": "아이보리"
+    "variantColor": "아이보리",
+    "colors": [
+      "아이보리",
+      "베이지"
+    ]
   },
   {
     "code": "N260228",
@@ -52186,7 +54495,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "mini-7cd78e06",
-    "variantColor": "베이지"
+    "variantColor": "베이지",
+    "colors": [
+      "아이보리",
+      "베이지"
+    ]
   },
   {
     "code": "N260229",
@@ -53093,7 +55406,12 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크",
+      "블루"
+    ]
   },
   {
     "code": "GRA-S796",
@@ -53299,7 +55617,12 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크",
+      "블루"
+    ]
   },
   {
     "code": "GRA-S797",
@@ -53505,7 +55828,12 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크",
+      "블루"
+    ]
   },
   {
     "code": "GRA-S798",
@@ -53861,7 +56189,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "옐로우"
+    ]
   },
   {
     "code": "SEY-S821",
@@ -54085,7 +56417,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "옐로우"
+    ]
   },
   {
     "code": "SEY-S822",
@@ -54212,7 +56548,11 @@
     "competitorPrice": 117000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "SEY-S822-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "SEY-S823",
@@ -54339,7 +56679,11 @@
     "competitorPrice": 117000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "SEY-S822-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "SEY-S824",
@@ -54528,7 +56872,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "SEY-S825",
@@ -54722,7 +57070,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "SUN-S791",
@@ -54909,7 +57261,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "SUN-S792",
@@ -55096,7 +57452,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "SUN-S793",
@@ -55294,7 +57654,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "SUN-S794",
@@ -55492,7 +57856,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "YES-S826",
@@ -55619,7 +57987,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 158000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "YES-S827",
@@ -55746,7 +58118,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 158000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "YES-S828",
@@ -55874,7 +58250,11 @@
     "competitorPrice": 126000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "YES-S828-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "YES-S829",
@@ -56002,7 +58382,11 @@
     "competitorPrice": 126000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "YES-S828-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "핑크",
+      "소라"
+    ]
   },
   {
     "code": "YES-S853",
@@ -56127,7 +58511,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 158000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "블랙",
+      "브라운"
+    ]
   },
   {
     "code": "YES-S854",
@@ -56252,7 +58640,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 158000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "블랙",
+      "브라운"
+    ]
   },
   {
     "code": "IMN-S782",
@@ -56480,7 +58872,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "IMN-S783",
@@ -56708,7 +59104,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "IMN-S784",
@@ -56901,7 +59301,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "IMN-S785",
@@ -57099,7 +59503,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "IMN-S834",
@@ -57229,7 +59637,11 @@
     "competitorPrice": 126000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "IMN-S834-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "IMN-S835",
@@ -57359,7 +59771,11 @@
     "competitorPrice": 126000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "IMN-S834-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "IMN-S836",
@@ -57547,7 +59963,11 @@
     "zipper": "뒷지퍼",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "블루",
+      "핑크"
+    ]
   },
   {
     "code": "IMN-S837",
@@ -57735,7 +60155,11 @@
     "zipper": "뒷지퍼",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "블루",
+      "핑크"
+    ]
   },
   {
     "code": "JINA-S788",
@@ -57960,7 +60384,12 @@
     "zipper": "상의: 뒷지퍼 / 스커트: 뒷지퍼",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "그린",
+      "블랙"
+    ]
   },
   {
     "code": "JINA-S789",
@@ -58185,7 +60614,12 @@
     "zipper": "상의: 뒷지퍼 / 스커트: 뒷지퍼",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "그린",
+      "블랙"
+    ]
   },
   {
     "code": "JINA-S790",
@@ -58410,7 +60844,12 @@
     "zipper": "상의: 뒷지퍼 / 스커트: 뒷지퍼",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "그린",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S756",
@@ -60557,7 +62996,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "문의",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S769",
@@ -60778,7 +63221,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "문의",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S770",
@@ -60960,7 +63407,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S771",
@@ -61142,7 +63593,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S772",
@@ -61324,7 +63779,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S773",
@@ -61451,7 +63910,11 @@
     "competitorPrice": 104000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S773-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S774",
@@ -61578,7 +64041,11 @@
     "competitorPrice": 104000,
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S773-GROUP",
-    "isPopular": false
+    "isPopular": false,
+    "colors": [
+      "아이",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S775",
@@ -61700,7 +64167,11 @@
     "designGroupId": "TIA-S775-GROUP",
     "isPopular": false,
     "editorsNote": "배색스트랩 슬림 미디원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미디 원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S776",
@@ -61822,7 +64293,11 @@
     "designGroupId": "TIA-S775-GROUP",
     "isPopular": false,
     "editorsNote": "배색스트랩 슬림 미디원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미디 원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S777",
@@ -61948,7 +64423,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 122000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S778",
@@ -62074,7 +64553,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 122000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S799",
@@ -62274,7 +64757,14 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "소라",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S800",
@@ -62474,7 +64964,14 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "소라",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S801",
@@ -62674,7 +65171,14 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "소라",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S802",
@@ -62874,7 +65378,14 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "소라",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S803",
@@ -63074,7 +65585,14 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "소라",
+      "핑크",
+      "그레이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S804",
@@ -63197,7 +65715,11 @@
     "designGroupId": "TIA-S804-GROUP",
     "isPopular": false,
     "editorsNote": "레이스뷔스티에 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "TIA-S805",
@@ -63322,7 +65844,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S804-GROUP",
     "isPopular": false,
-    "editorsNote": "레이스뷔스티에 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "레이스뷔스티에 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "TIA-S806",
@@ -63451,7 +65977,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 100000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S807",
@@ -63580,7 +66110,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 100000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S808",
@@ -63706,7 +66240,13 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S808-GROUP",
     "isPopular": false,
-    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S809",
@@ -63832,7 +66372,13 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S808-GROUP",
     "isPopular": false,
-    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S810",
@@ -63958,7 +66504,13 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S808-GROUP",
     "isPopular": false,
-    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S811",
@@ -64084,7 +66636,13 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S808-GROUP",
     "isPopular": false,
-    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "셔링홀터 미니원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "핑크",
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S812",
@@ -64208,7 +66766,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S812-GROUP",
     "isPopular": false,
-    "editorsNote": "오프숄더 리본 플레어 원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "오프숄더 리본 플레어 원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S813",
@@ -64332,7 +66894,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S812-GROUP",
     "isPopular": false,
-    "editorsNote": "오프숄더 리본 플레어 원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "오프숄더 리본 플레어 원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미니원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "민트"
+    ]
   },
   {
     "code": "TIA-S814",
@@ -64461,7 +67027,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S814-GROUP",
     "isPopular": false,
-    "editorsNote": "티어드프릴 벨트 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "티어드프릴 벨트 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "소라"
+    ]
   },
   {
     "code": "TIA-S815",
@@ -64590,7 +67160,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "designGroupId": "TIA-S814-GROUP",
     "isPopular": false,
-    "editorsNote": "티어드프릴 벨트 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "티어드프릴 벨트 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "소라"
+    ]
   },
   {
     "code": "TIA-S816",
@@ -64713,7 +67287,11 @@
     "designGroupId": "TIA-S816-GROUP",
     "isPopular": false,
     "editorsNote": "뷔스티에쉬폰 슬릿 미디원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미디 원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S817",
@@ -64836,7 +67414,11 @@
     "designGroupId": "TIA-S816-GROUP",
     "isPopular": false,
     "editorsNote": "뷔스티에쉬폰 슬릿 미디원피스는 실루엣과 디테일을 함께 살려주는 7월 신상 미디 원피스입니다. 과하지 않게 포인트를 주면서도 사진발과 착용 분위기가 좋아 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "핑크",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S818",
@@ -64961,7 +67543,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 50000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S819",
@@ -65081,7 +67667,11 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 50000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S838",
@@ -65211,7 +67801,12 @@
     "isPopular": false,
     "designGroupId": "TIA-S838-GROUP",
     "editorsNote": "골지브이넥 캉캉 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "priceReviewMemo": "사용자 검수 가격 반영"
+    "priceReviewMemo": "사용자 검수 가격 반영",
+    "colors": [
+      "아이",
+      "블랙 / 핑크",
+      "화이트 / 블랙"
+    ]
   },
   {
     "code": "TIA-S839",
@@ -65341,7 +67936,12 @@
     "designGroupId": "TIA-S838-GROUP",
     "isPopular": false,
     "editorsNote": "골지브이넥 캉캉 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "priceReviewMemo": "사용자 검수 가격 반영"
+    "priceReviewMemo": "사용자 검수 가격 반영",
+    "colors": [
+      "아이",
+      "블랙 / 핑크",
+      "화이트 / 블랙"
+    ]
   },
   {
     "code": "TIA-S840",
@@ -65471,7 +68071,12 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 140000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이",
+      "블랙 / 핑크",
+      "화이트 / 블랙"
+    ]
   },
   {
     "code": "TIA-S841",
@@ -65604,7 +68209,12 @@
     "designGroupId": "TIA-S841-GROUP",
     "isPopular": false,
     "editorsNote": "홀터드레이프 버클 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "priceReviewMemo": "사용자 검수 가격 반영"
+    "priceReviewMemo": "사용자 검수 가격 반영",
+    "colors": [
+      "화이트 / 블랙",
+      "브라운",
+      "아이 / 블랙"
+    ]
   },
   {
     "code": "TIA-S842",
@@ -65737,7 +68347,12 @@
     "priceReviewMemo": "사용자 검수 가격 반영",
     "isPopular": false,
     "designGroupId": "TIA-S841-GROUP",
-    "editorsNote": "홀터드레이프 버클 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "홀터드레이프 버클 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "화이트 / 블랙",
+      "브라운",
+      "아이 / 블랙"
+    ]
   },
   {
     "code": "TIA-S843",
@@ -65870,7 +68485,12 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 104000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "화이트 / 블랙",
+      "브라운",
+      "아이 / 블랙"
+    ]
   },
   {
     "code": "TIA-S844",
@@ -66058,7 +68678,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼"
+    "zipper": "옆지퍼",
+    "colors": [
+      "아이",
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S845",
@@ -66246,7 +68871,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼"
+    "zipper": "옆지퍼",
+    "colors": [
+      "아이",
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S846",
@@ -66434,7 +69064,12 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼"
+    "zipper": "옆지퍼",
+    "colors": [
+      "아이",
+      "문의",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S847",
@@ -66692,7 +69327,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "isPopular": false,
     "designGroupId": "TIA-S848-GROUP",
-    "editorsNote": "리본타이 홀터 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "리본타이 홀터 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S849",
@@ -66822,7 +69461,11 @@
     "priceReviewStatus": "경쟁사 캡처 기준 반영",
     "isPopular": false,
     "designGroupId": "TIA-S848-GROUP",
-    "editorsNote": "리본타이 홀터 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요."
+    "editorsNote": "리본타이 홀터 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "TIA-S850",
@@ -66955,7 +69598,12 @@
     "designGroupId": "TIA-S850-GROUP",
     "isPopular": false,
     "editorsNote": "드레이프홀터 쇼츠 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "priceReviewMemo": "사용자 검수 가격 반영"
+    "priceReviewMemo": "사용자 검수 가격 반영",
+    "colors": [
+      "아이 / 소라",
+      "블랙 / 핑크",
+      "베이지"
+    ]
   },
   {
     "code": "TIA-S851",
@@ -67088,7 +69736,12 @@
     "designGroupId": "TIA-S850-GROUP",
     "isPopular": false,
     "editorsNote": "드레이프홀터 쇼츠 투피스는 상의와 하의 조합으로 스타일을 완성해주는 7월 신상 투피스입니다. 바디라인을 자연스럽게 살려주면서도 포인트 디테일이 있어 파티룩, 모임룩, 방송룩으로 활용하기 좋습니다. 색상과 사이즈, 재고는 상품코드와 함께 문의해 주세요.",
-    "priceReviewMemo": "사용자 검수 가격 반영"
+    "priceReviewMemo": "사용자 검수 가격 반영",
+    "colors": [
+      "아이 / 소라",
+      "블랙 / 핑크",
+      "베이지"
+    ]
   },
   {
     "code": "TIA-S852",
@@ -67216,7 +69869,12 @@
     "priceReviewStatus": "검수반영",
     "priceReviewMemo": "사용자 검수 가격 반영",
     "competitorPrice": 104000,
-    "competitorPriceSource": "사용자 검수"
+    "competitorPriceSource": "사용자 검수",
+    "colors": [
+      "아이 / 소라",
+      "블랙 / 핑크",
+      "베이지"
+    ]
   },
   {
     "code": "PEARL-S779",
@@ -67588,7 +70246,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "PEARL-S781",
@@ -67778,7 +70440,11 @@
     "lastReviewNote": "2026-07-18 업로드 PI 이미지 기준 제품정보 반영",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이",
+      "블랙"
+    ]
   },
   {
     "code": "PEARL-S830",
@@ -68008,7 +70674,11 @@
     "cap": "상의: 있음",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이 / 블루",
+      "블랙 / 엘로우"
+    ]
   },
   {
     "code": "PEARL-S831",
@@ -68238,7 +70908,11 @@
     "cap": "상의: 있음",
     "wearInfoCompleted": true,
     "sizeInfoCompleted": true,
-    "materialCompleted": true
+    "materialCompleted": true,
+    "colors": [
+      "아이 / 블루",
+      "블랙 / 엘로우"
+    ]
   },
   {
     "code": "PEARL-S832",
@@ -68424,7 +71098,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "PEARL-S833",
@@ -68610,7 +71288,11 @@
         }
       }
     ],
-    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영"
+    "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
+    "colors": [
+      "아이",
+      "핑크"
+    ]
   },
   {
     "code": "HIYA-S786",
@@ -68843,7 +71525,11 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "소라",
+      "블랙"
+    ]
   },
   {
     "code": "HIYA-S787",
@@ -69076,6 +71762,10 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼"
+    "zipper": "뒷지퍼",
+    "colors": [
+      "소라",
+      "블랙"
+    ]
   }
 ]
