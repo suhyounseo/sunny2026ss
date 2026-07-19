@@ -481,6 +481,8 @@ function specValue(label, value) {
 }
 function specCells(p) {
   const hasDetailedWear = Array.isArray(p.wearTables) && p.wearTables.length;
+  const hasDetailedSize = !!structuredSizeTables(p) || (!!safeText(p.sizeInfo) && /([A-Z]{1,2}|55|66|77|88|FREE)\(/i.test(safeText(p.sizeInfo)));
+  const hasDetailedProductInfo = hasDetailedWear || hasDetailedSize;
   const baseItems = [
     [t('color'), displayColors(p) || t('ask')],
     [t('size'), simpleSize(p)],
@@ -494,7 +496,9 @@ function specCells(p) {
     [t('thickness'), safeText(p.thickness)],
     [t('zipper'), safeText(p.zipper)]
   ];
-  const items = (hasDetailedWear ? baseItems : baseItems.concat(wearItems)).filter(([, value]) => value);
+  const items = hasDetailedProductInfo
+    ? []
+    : baseItems.concat(wearItems).filter(([, value]) => value);
   return items.map(([label, value]) => `<div class="cell"><b>${label}</b><span>${specValue(label, value)}</span></div>`).join('');
 }
 function sizeGuideRows(groupText) {
