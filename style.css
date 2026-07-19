@@ -836,3 +836,58 @@
   font-size:24px;
   cursor:pointer;
 }
+
+
+/* Detail product info width rebalance v24 */
+@media(min-width:901px){
+  .panel{
+    width:min(1460px,96vw)!important;
+  }
+  .body{
+    grid-template-columns:minmax(0,1fr) 510px!important;
+  }
+  .visual{
+    padding:24px 20px 18px 24px!important;
+  }
+  .copy{
+    padding:30px 26px 38px 18px!important;
+  }
+  .copy h2{
+    font-size:34px!important;
+    line-height:1.15!important;
+  }
+  .detail-lead p{
+    font-size:15.5px!important;
+    line-height:1.72!important;
+  }
+  .box p,.box li{
+    font-size:14.5px!important;
+    line-height:1.72!important;
+  }
+  .main{
+    max-height:68vh!important;
+    padding:0 54px 18px!important;
+  }
+  .main img{
+    max-height:68vh!important;
+  }
+}
+
+@media(min-width:1280px){
+  .panel{
+    width:min(1520px,96vw)!important;
+  }
+  .body{
+    grid-template-columns:minmax(0,1fr) 520px!important;
+  }
+  .copy{
+    padding:32px 30px 40px 20px!important;
+  }
+  .main{
+    max-height:70vh!important;
+    padding:0 58px 18px!important;
+  }
+  .main img{
+    max-height:70vh!important;
+  }
+}
