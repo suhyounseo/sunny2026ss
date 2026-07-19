@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v24';
+const VERSION = 'july10v25';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -531,7 +531,8 @@ function structuredSizeTables(p) {
     const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'];
     const rows = Array.isArray(group.rows) ? group.rows : [];
     if (!rows.length) return '';
-    const head = columns.map(col => `<th>${safeText(col)}</th>`).join('');
+    const shortHeader = col => ({ '가슴단면': '가슴', '허리단면': '허리', '힙단면': '힙', '소매길이': '소매', '총길이': '총길이' }[safeText(col)] || safeText(col));
+    const head = columns.map(col => `<th>${shortHeader(col)}</th>`).join('');
     const body = rows.map(row => `<tr>${columns.map(col => `<td>${safeText(row[col]) || '-'}</td>`).join('')}</tr>`).join('');
     return `<div class="size-table-wrap"><p>${safeText(group.title) || t('actualSize')}</p><table class="size-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
   }).filter(Boolean).join('');
@@ -549,7 +550,7 @@ function sizeGuideBlock(p) {
     const rows = sizeGuideRows(group);
     if (!rows.length) return '';
     const title = /스커트|하의|skirt|bottom/i.test(group) ? t('topBottom') : /상의|블라우스|top|blouse/i.test(group) ? t('topDress') : t('actualSize');
-    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>${t('chest')}</th><th>${t('waist')}</th><th>${t('hip')}</th><th>${t('sleeve')}</th><th>${t('totalLength')}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
+    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>가슴</th><th>허리</th><th>힙</th><th>소매</th><th>총길이</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
   }).filter(Boolean).join('');
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
