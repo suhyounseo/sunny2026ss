@@ -1,27 +1,23 @@
-NICE 제품정보 매칭 업데이트 28차
+NICE 쇼룸 상단 NICE COLLECTION 브랜드명 반영 점검/수정 30차
 
-기준:
-- 27차 제품정보 매칭본 유지
-- 추가 업로드 Desktop(2).zip의 ANK-4041~ANK-4097 제품정보 이미지 반영
-- 파일명 ANK는 쇼룸 코드 ANC로 매칭해서 업데이트
+점검 결과:
+- 업로드된 index.html에는 sticky-tools 안에 언어 버튼만 있고, NICE COLLECTION 브랜드 텍스트가 들어갈 sticky-head 구조가 없었습니다.
+- 그래서 29차 CSS만으로는 화면에 반영되지 않았을 가능성이 큽니다.
+- 이번 파일은 현재 업로드해주신 app/style/index/products 기준으로 다시 직접 반영했습니다.
 
-반영 완료 49개:
-ANC-4041, ANC-4042, ANC-4043, ANC-4044, ANC-4045, ANC-4046, ANC-4047, ANC-4048, ANC-4050, ANC-4051, ANC-4052, ANC-4053, ANC-4054, ANC-4056, ANC-4057, ANC-4058, ANC-4060, ANC-4061, ANC-4062, ANC-4063, ANC-4065, ANC-4067, ANC-4068, ANC-4069, ANC-4070, ANC-4071, ANC-4072, ANC-4073, ANC-4074, ANC-4076, ANC-4077, ANC-4078, ANC-4079, ANC-4080, ANC-4081, ANC-4082, ANC-4083, ANC-4084, ANC-4085, ANC-4086, ANC-4088, ANC-4090, ANC-4091, ANC-4092, ANC-4093, ANC-4094, ANC-4095, ANC-4096, ANC-4097
+반영 내용:
+1. 검색창 위 좌측 빈 공간에 NICE COLLECTION 텍스트 추가
+2. 언어 버튼은 오른쪽 유지
+3. 데스크탑/모바일 모두 보이도록 CSS 우선순위 강화
+4. 브라우저 캐시 방지를 위해 style.css/app.js 버전 july10v33 적용
+5. 기존 products.json 유지
 
-미반영:
-없음
-
-유지 내용:
-- 기존 27차 ANC-4001~4040/JES-339 제품정보
-- 모바일 사진 확대 기능
-- 웹 상세페이지 설명/제품정보 영역 확대
-- 25차 TIA 제품정보 업데이트
-- NICE COLLECTION 문구
-
-캐시 버전: july10v32
+검증:
+- products.json: 정상
+- app.js 문법: 정상
 
 적용:
 app.js / style.css / index.html / products.json 덮어쓰기
 
 Commit 메시지:
-Update ANC 4041 to 4097 product info batch 28
+Fix NICE COLLECTION sticky header brand
