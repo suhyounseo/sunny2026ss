@@ -1,37 +1,30 @@
-NICE 쇼룸 수정 요청 반영 32차
+NICE 쇼룸 이미지 assets 연결 수정 33차
 
 기준:
-- 31차 P019 제품정보 업데이트본 유지
+- 32차 ANC 색상묶음/사이즈/이미지 수정본 유지
+- 업로드 파일: 쇼핑몰 이미지.zip
 
-반영 완료:
-1. ANC-4005 / ANC-4040 같은 디자인 다른색 기능 추가
-   - designGroupId: ANC-4005-4040-offshoulder-drape
-   - 색상: 레드 / 베이지
-   - 두 상품 모두 FREE 사이즈 제품정보로 정정
-2. ANC-4029 H라인 힙단면 오류 처리
-   - 원본 제품정보 이미지에는 힙단면이 '-'로 되어 있어 임의 숫자는 넣지 않고 '확인필요'로 표시
-3. ANC-4040 사이즈정보 오류 수정
-   - FREE / 총길이 98 / 소매 11 / 가슴 48 / 허리 37 / 힙 40
-   - 소재 폴리스판 / 신축성 좋음 / 캡 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음
-4. N260035 / N260037 / N260038 이미지 연결 수정
-   - 깨지는 local assets 경로 대신 SmartStore 이미지 URL로 연결
-5. N260040 메인이미지 변경
-   - 3번째 컷을 메인이미지로 변경
+핵심 원칙:
+- 이미지는 무조건 assets 폴더에서 연결
 
-정확한 실측 미반영/대기:
-- ANC-4011, ANC-4022, ANC-4024, ANC-4027, ANC-4028
-- 이번 업로드 '앙크최제품정보모음.zip' 안에 위 제품번호 정보 이미지가 없어 정확한 실측값은 임의로 만들지 않았습니다.
-- 해당 제품정보 이미지를 추가로 주시면 바로 반영 가능합니다.
+반영 내용:
+- N260035 이미지 SmartStore 외부 URL 제거 → assets/N260035_01... 로 연결
+- N260037 이미지 SmartStore 외부 URL 제거 → assets/N260037_01... 로 연결
+- N260038 이미지 SmartStore 외부 URL 제거 → assets/N260038_01... 로 연결
+- 실제 이미지 파일도 assets 폴더에 함께 포함
+- 캐시 버전 july10v36 적용
 
-캐시:
-- july10v35
+반영 상세:
+- N260035: 7개 assets 이미지 연결
+- N260037: 9개 assets 이미지 연결
+- N260038: 8개 assets 이미지 연결
 
 검증:
 - products.json: 정상
 - app.js 문법: 정상
 
 적용:
-app.js / style.css / index.html / products.json 덮어쓰기
+app.js / style.css / index.html / products.json / assets 폴더 덮어쓰기
 
 Commit 메시지:
-Fix ANC variants sizes and broken images
+Use local assets for N260035 N260037 N260038 images
