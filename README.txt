@@ -1,42 +1,44 @@
-NICE 쇼룸 JES-301~JES-324 제품정보 업데이트 38차
+NICE 쇼룸 제시카 재고보유상품 4개 등록 39차
 
 기준:
-- 37차 N260011 / N260035 가격 수정본
-- 업로드 파일: Desktop(3).zip
-- 포함 정보 이미지: jes-301정보.png ~ jes-324정보.png
+- 38차 JES-301~JES-324 제품정보 업데이트본
+- 업로드 파일:
+  1) Desktop(4).zip : JES-365 / JES-380 / JES-381 / JES-384 제품정보 이미지 및 설명 TXT
+  2) 제시카.zip : 상품 이미지
 
-반영 상품:
-- JES-301, JES-302, JES-303, JES-304, JES-305, JES-306, JES-307, JES-308, JES-309, JES-310, JES-311, JES-312, JES-313, JES-314, JES-315, JES-316, JES-317, JES-318, JES-319, JES-320, JES-321, JES-322, JES-323, JES-324
-
-미반영:
-- 없음
+등록 상품:
+- JES-365 / 로제 퍼프 크롭 플레어 투피스
+- JES-380 / 셀린 블랙 레이스 카라 미니원피스
+- JES-381 / 엘린 소라 리본 트위드 미니원피스
+- JES-384 / 로아 스트라이프 카라 슬림 미니원피스
 
 반영 내용:
-- 각 JES 상품별 사이즈표(sizeTables) 업데이트
-- 소재(fabric) 업데이트: 린넨 / 폴리혼방 / 레이스
-- 착용정보(wearTables) 업데이트
-  - 신축성: 각 상품 이미지 기준
-  - 캡여부: 있음
-  - 안감: 있음
-  - 비침: 없음
-  - 두께감: 보통
-  - 지퍼: 뒷지퍼
+- products.json에 신규 상품 4개 추가
+- 각 상품 이미지 assets/JES-365_01... 형태로 추가
+- 사이즈표(sizeTables) 반영
+- 소재/착용정보(wearTables) 반영
+- 재고보유 태그 추가
+- 신상 NEW 태그는 추가하지 않음
+- 제시카 상품 특성상 88가능 자동 처리하지 않음
 
-주의:
-- 쇼룸 이미지/assets 경로는 건드리지 않음
-- 가격/상품명/이미지 기존값 유지
-- JES-309, JES-310, JES-317은 신축성 '좋음'으로 반영
-- JES-310, JES-317은 소재 '레이스'로 반영
+가격:
+- 제시카 기존 쇼룸 상품 기준으로 각 75,000원 적용
+- 필요 시 가격만 별도 수정 가능
+
+이미지:
+- 실제 이미지 파일을 assets 폴더에 포함
+- 쇼룸에서는 assets 경로로 연결
+- 외부 이미지 URL 사용 안 함
 
 캐시:
-- july10v40
+- july10v41
 
 검증:
 - products.json: 정상
 - app.js 문법: 정상
 
 적용:
-- app.js / style.css / index.html / products.json 덮어쓰기
+- app.js / style.css / index.html / products.json / assets 폴더 덮어쓰기
 
 Commit 메시지:
-Update JES 301 to 324 product size and wear info
+Add Jessica in-stock products JES365 JES380 JES381 JES384
