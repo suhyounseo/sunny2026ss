@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july30lang1';
+const VERSION = 'july30lang2';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -108,6 +108,17 @@ const I18N = {
     viewProduct: '상품 보기',
     contactPrefix: '상품 문의드립니다.',
     contactStockSizePrice: '재고/사이즈/가격 안내 부탁드립니다.',
+    wearInfo: '착용 정보',
+    photoRuleKicker: '사진 안내',
+    photoRuleTitle: '쇼룸 사진은 상품을 고르기 쉽게 정리되어 있습니다.',
+    photoRuleMain: '대표컷',
+    photoRuleMainCopy: '전체 핏과 분위기를 먼저 확인할 수 있습니다.',
+    photoRuleDetail: '상세컷',
+    photoRuleDetailCopy: '길이, 색감, 소재, 포인트를 차례로 확인할 수 있습니다.',
+    photoRuleContact: '상담컷',
+    photoRuleContactCopy: '마음에 드는 상품은 캡처 또는 상품코드로 문의해 주세요.',
+    imagePrev: '이전 사진',
+    imageNext: '다음 사진',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
@@ -124,8 +135,8 @@ const I18N = {
     commonNote: 'For stock, measurements, and fitting advice, send us the product code on KakaoTalk.',
     productAsk: 'Product Inquiry', instaAsk: 'Instagram DM', similarTitle: 'Similar Styles', similarDesc: 'Based on {name}, we gathered {profile}styles.', close: 'Close',
     empty: 'No matching products. Send your preferred style on KakaoTalk and we will recommend similar items.', dataFail: 'Product data could not be loaded.',
-    communityCopy: 'Dongdaemun Migliore NICE<br>Party Look · Stage Outfit · Club Look · Broadcast Outfit',
-    communityGuide: 'In-store fitting / same-day purchase / delivery available<br>Stock and sizes vary by item, so please ask on KakaoTalk before visiting.',
+    communityCopy: 'Dongdaemun Migliore NICE<br>Party looks · Stage outfits · Club looks · Broadcast styling',
+    communityGuide: 'Selected showroom items can be purchased directly on Naver SmartStore.',
     kakaoAsk: 'KakaoTalk Inquiry', smartstoreGo: 'Shop on SmartStore', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
     vipDesc: 'View selections available only to VIP customers.', vipPlaceholder: 'Enter VIP code', cancel: 'Cancel', verify: 'Verify', vipOk: 'VIP access confirmed.', vipError: 'Invalid VIP code.',
     fittingAvailable: 'Fitting available', sameDay: 'Same-day',
@@ -146,7 +157,18 @@ const I18N = {
     coordinatedLook: 'Coordinated Look',
     viewProduct: 'View product',
     contactPrefix: 'Product inquiry.',
-    contactStockSizePrice: 'Please check stock, size, and price.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
+    contactStockSizePrice: 'Please check stock, size, and price.',
+    wearInfo: 'Wear Information',
+    photoRuleKicker: 'PHOTO GUIDE',
+    photoRuleTitle: 'Showroom images are arranged to help you choose with confidence.',
+    photoRuleMain: 'Main image',
+    photoRuleMainCopy: 'Check the overall fit and mood first.',
+    photoRuleDetail: 'Detail image',
+    photoRuleDetailCopy: 'Review length, color, fabric, and design points in order.',
+    photoRuleContact: 'Inquiry image',
+    photoRuleContactCopy: 'Send a screenshot or product code for quick assistance.',
+    imagePrev: 'Previous photo',
+    imageNext: 'Next photo', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
     collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
@@ -159,16 +181,16 @@ const I18N = {
     commonNote: '库存、实测和试穿建议请带商品代码通过 KakaoTalk 咨询。',
     productAsk: '商品咨询', instaAsk: 'Instagram 私信', similarTitle: '相似款推荐', similarDesc: '以 {name} 为参考，为您整理了 {profile}风格。', close: '关闭',
     empty: '没有符合条件的商品。请通过 KakaoTalk 发送想要的风格，我们会推荐相似款。', dataFail: '无法加载商品数据。',
-    communityCopy: '东大门 Migliore NICE<br>派对风 · 舞台服 · 夜店风 · 방송服装',
-    communityGuide: '可到店试穿 / 当日购买 / 可快递<br>库存和尺码因商品而异，建议到店前先通过 KakaoTalk 咨询。',
+    communityCopy: '东大门 Migliore NICE<br>派对造型 · 舞台服 · 夜店风 · 直播服装',
+    communityGuide: '展厅精选商品可通过 Naver SmartStore 直接购买。',
     kakaoAsk: 'KakaoTalk 咨询', smartstoreGo: 'SmartStore 购买', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
     vipDesc: '显示仅 VIP 顾客可见的精选商品。', vipPlaceholder: '请输入认证码', cancel: '取消', verify: '认证', vipOk: 'VIP 认证完成。', vipError: '认证码不正确。',
     fittingAvailable: '可试穿', sameDay: '当日发货',
     showroomIntro: '可按氛围或长度搜索。喜欢的商品请用商品代码咨询库存和尺码。',
-    newIntro: '最近新入库的款式。试穿和库存请通过 KakaoTalk 确认。', bestIntro: 'NICE 쇼룸 推荐的人气款式。',
+    newIntro: '最近新入库的款式。试穿和库存请通过 KakaoTalk 确认。', bestIntro: 'NICE 展厅推荐的人气款式。',
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
-    editorDesc: 'NICE 쇼룸 想优先展示的商品。',
+    editorDesc: 'NICE 展厅优先推荐的精选商品。',
     smartstoreDesc: '可在 Naver SmartStore 购买。',
     smartstoreBest: 'Naver热卖款',
     viewAllProducts: '查看全部商品',
@@ -181,7 +203,18 @@ const I18N = {
     coordinatedLook: '搭配商品',
     viewProduct: '查看商品',
     contactPrefix: '商品咨询。',
-    contactStockSizePrice: '请确认库存、尺码和价格。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
+    contactStockSizePrice: '请确认库存、尺码和价格。',
+    wearInfo: '穿着信息',
+    photoRuleKicker: '图片说明',
+    photoRuleTitle: '展厅图片按照便于挑选商品的顺序整理。',
+    photoRuleMain: '主图',
+    photoRuleMainCopy: '先确认整体版型和氛围。',
+    photoRuleDetail: '细节图',
+    photoRuleDetailCopy: '依次确认长度、颜色、面料和设计重点。',
+    photoRuleContact: '咨询图',
+    photoRuleContactCopy: '请发送截图或商品代码，我们会快速协助。',
+    imagePrev: '上一张',
+    imageNext: '下一张', newDesc: 'NICE 精选的新款设计。颜色和选项请在商品详情中确认。',
     collectionJuly: '7月10日新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
@@ -194,8 +227,8 @@ const I18N = {
     commonNote: '在庫、実寸、フィッティング相談は商品コードと一緒にKakaoTalkでお問い合わせください。',
     productAsk: '商品問い合わせ', instaAsk: 'Instagram DM', similarTitle: '似た服のおすすめ', similarDesc: '{name}を基準に{profile}スタイルを集めました。', close: '閉じる',
     empty: '条件に合う商品がありません。希望スタイルをKakaoTalkで送っていただければ似た商品をご提案します。', dataFail: '商品データを読み込めませんでした。',
-    communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 방송衣装',
-    communityGuide: '店頭フィッティング可 / 当日購入可 / 配送可<br>在庫とサイズは商品ごとに異なるため、来店前にKakaoTalkでのお問い合わせをおすすめします。',
+    communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 配信用衣装',
+    communityGuide: 'ショールーム掲載商品は Naver SmartStore から直接購入できます。',
     kakaoAsk: 'KakaoTalk問い合わせ', smartstoreGo: 'SmartStoreで購入', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
     vipDesc: 'VIPのお客様限定のセレクションを表示します。', vipPlaceholder: '認証コードを入力してください', cancel: 'キャンセル', verify: '認証', vipOk: 'VIP認証が完了しました。', vipError: '認証コードが正しくありません。',
     fittingAvailable: '試着可', sameDay: '当日発送',
@@ -216,7 +249,18 @@ const I18N = {
     coordinatedLook: 'コーデ商品',
     viewProduct: '商品を見る',
     contactPrefix: '商品問い合わせです。',
-    contactStockSizePrice: '在庫・サイズ・価格の案内をお願いします。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
+    contactStockSizePrice: '在庫・サイズ・価格の案内をお願いします。',
+    wearInfo: '着用情報',
+    photoRuleKicker: '写真ガイド',
+    photoRuleTitle: 'ショールーム写真は商品を選びやすい順番で整理しています。',
+    photoRuleMain: 'メイン写真',
+    photoRuleMainCopy: '全体のフィット感と雰囲気を最初に確認できます。',
+    photoRuleDetail: '詳細写真',
+    photoRuleDetailCopy: '丈感・色味・素材・デザインポイントを確認できます。',
+    photoRuleContact: '相談用写真',
+    photoRuleContactCopy: 'スクショまたは商品コードを送ってください。',
+    imagePrev: '前の写真',
+    imageNext: '次の写真', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
     collectionJuly: '7月10日入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
@@ -459,10 +503,12 @@ function sizeDetail(p) {
   const info = cleanText(p.sizeInfo || '');
   if (!safeText(info)) return safeText(size) || '문의';
   if (size && info && size !== info) return `${size} / ${info}`;
-  return size || info || '-';
+  return size || info || t('ask');
 }
 function money(n) {
-  return n ? Number(n).toLocaleString('ko-KR') + '원' : '가격문의';
+  if (!n) return t('priceInquiry');
+  if (LANG === 'ko') return Number(n).toLocaleString('ko-KR') + '원';
+  return '₩' + Number(n).toLocaleString('en-US');
 }
 function safeText(value) {
   const text = cleanText(value || '');
@@ -477,22 +523,25 @@ function t(key, vars = {}) {
 function localizedProductValue(p, field, fallback = '') {
   if (LANG === 'ko') return p[field] || fallback || '';
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
-  return (tr && tr[field]) || p[field] || fallback || '';
+  const value = tr && tr[field] ? tr[field] : '';
+  if (value && !/[가-힣]/.test(String(value))) return value;
+  return fallback || '';
 }
 function localizedProductArray(p, field) {
   if (LANG === 'ko') return Array.isArray(p[field]) ? p[field] : [];
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
-  return tr && Array.isArray(tr[field]) ? tr[field] : (Array.isArray(p[field]) ? p[field] : []);
+  if (tr && Array.isArray(tr[field])) return tr[field].filter(x => !/[가-힣]/.test(String(x)));
+  return [];
 }
 function localizedSizeTables(p) {
   if (LANG === 'ko') return Array.isArray(p.sizeTables) ? p.sizeTables : [];
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
-  return tr && Array.isArray(tr.sizeTables) ? tr.sizeTables : (Array.isArray(p.sizeTables) ? p.sizeTables : []);
+  return tr && Array.isArray(tr.sizeTables) ? tr.sizeTables : [];
 }
 function localizedWearTables(p) {
   if (LANG === 'ko') return Array.isArray(p.wearTables) ? p.wearTables : [];
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
-  return tr && Array.isArray(tr.wearTables) ? tr.wearTables : (Array.isArray(p.wearTables) ? p.wearTables : []);
+  return tr && Array.isArray(tr.wearTables) ? tr.wearTables : [];
 }
 function localizedSizeBadge(text) {
   if (!text) return '';
@@ -551,8 +600,8 @@ function simpleSize(p) {
   const size = safeText(p.size);
   if (size) return size;
   const info = safeText(p.sizeInfo);
-  if (!info) return '문의';
-  return info.split('/')[0].trim() || '문의';
+  if (!info) return t('ask');
+  return info.split('/')[0].trim() || t('ask');
 }
 function publicPoints(p) {
   const seen = new Set();
@@ -611,7 +660,7 @@ function detailLeadCopy(p) {
   const mood = [color, fit, length].filter(Boolean).slice(0, 3).join(' · ');
   const base = shortDescription(p);
   if (base) return base;
-  return `${mood || '라인과 분위기'}를 깔끔하게 살린 상품입니다.`;
+  return mood || 'NICE selected style';
 }
 function detailHighlightItems(p, pointItems) {
   const items = [];
@@ -678,10 +727,10 @@ function structuredSizeTables(p) {
   const localTables = localizedSizeTables(p);
   if (!Array.isArray(localTables) || !localTables.length) return '';
   const tables = localTables.map(group => {
-    const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'];
+    const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : [t('size'), t('totalLength'), t('sleeve'), t('chest'), t('waist'), t('hip')];
     const rows = Array.isArray(group.rows) ? group.rows : [];
     if (!rows.length) return '';
-    const shortHeader = col => ({ '가슴단면': '가슴', '허리단면': '허리', '힙단면': '힙', '소매길이': '소매', '총길이': '총길이' }[safeText(col)] || safeText(col));
+    const shortHeader = col => ({ '가슴단면': t('chest'), '허리단면': t('waist'), '힙단면': t('hip'), '소매길이': t('sleeve'), '총길이': t('totalLength'), 'Chest': t('chest'), 'Waist': t('waist'), 'Hip': t('hip'), 'Sleeve': t('sleeve'), 'Length': t('totalLength') }[safeText(col)] || safeText(col));
     const head = columns.map(col => `<th>${shortHeader(col)}</th>`).join('');
     const body = rows.map(row => `<tr>${columns.map(col => `<td>${safeText(row[col]) || '-'}</td>`).join('')}</tr>`).join('');
     return `<div class="size-table-wrap"><p>${safeText(group.title) || t('actualSize')}</p><table class="size-table"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
@@ -700,7 +749,7 @@ function sizeGuideBlock(p) {
     const rows = sizeGuideRows(group);
     if (!rows.length) return '';
     const title = /스커트|하의|skirt|bottom/i.test(group) ? t('topBottom') : /상의|블라우스|top|blouse/i.test(group) ? t('topDress') : t('actualSize');
-    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>가슴</th><th>허리</th><th>힙</th><th>소매</th><th>총길이</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
+    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>${t('chest')}</th><th>${t('waist')}</th><th>${t('hip')}</th><th>${t('sleeve')}</th><th>${t('totalLength')}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
   }).filter(Boolean).join('');
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
@@ -711,9 +760,9 @@ function wearInfoBlock(p) {
     const items = group.items && typeof group.items === 'object' ? group.items : {};
     const rows = Object.entries(items).filter(([, value]) => safeText(value)).map(([key, value]) => `<tr><th>${safeText(key)}</th><td>${safeText(value)}</td></tr>`).join('');
     if (!rows) return '';
-    return `<div class="wear-table-wrap"><p>${safeText(group.title) || '착용 정보'}</p><table class="wear-table"><tbody>${rows}</tbody></table></div>`;
+    return `<div class="wear-table-wrap"><p>${safeText(group.title) || t('wearInfo')}</p><table class="wear-table"><tbody>${rows}</tbody></table></div>`;
   }).filter(Boolean).join('');
-  return blocks ? `<div class="box wear-guide"><b>착용 정보</b><div class="wear-table-grid">${blocks}</div></div>` : '';
+  return blocks ? `<div class="box wear-guide"><b>${t('wearInfo')}</b><div class="wear-table-grid">${blocks}</div></div>` : '';
 }
 function productText(p) {
   return [
@@ -1042,7 +1091,7 @@ function productCard(p, compact = false) {
 function choose(list, limit) {
   return list.filter(p => mainImg(p)).slice(0, limit);
 }
-function sectionBlock(label, desc, items, moreFilter = '', moreText = '더보기') {
+function sectionBlock(label, desc, items, moreFilter = '', moreText = t('viewAllProducts')) {
   if (!items.length) return '';
   const previewItems = items.slice(0, 8);
   const moreButton = moreFilter ? `<button class="section-more" type="button" data-f="${moreFilter}">${moreText}</button>` : '';
@@ -1067,20 +1116,20 @@ function imageListFor(p) {
   });
 }
 function detailPhotoGuide(images) {
-  const labels = ['대표 핏', '전신/길이', '상반신 포인트', '소재/디테일'];
+  const labels = LANG === 'ko' ? ['대표 핏', '전신/길이', '상반신 포인트', '소재/디테일'] : LANG === 'en' ? ['Main fit', 'Full length', 'Upper detail', 'Fabric detail'] : LANG === 'zh' ? ['主版型', '全身长度', '上身重点', '面料细节'] : ['メインフィット', '全身丈', '上半身ポイント', '素材ディテール'];
   const steps = labels.slice(0, Math.min(labels.length, Math.max(images.length, 1)));
   return `<div class="photo-guide">${steps.map((label, i) => `<span>${i + 1}. ${label}</span>`).join('')}</div>`;
 }
 function showroomRulesBlock() {
   const rules = [
-    ['대표컷', '목록에서는 옷의 전체 핏과 분위기가 바로 보이는 사진을 우선으로 보여줍니다.'],
-    ['상세컷', '구매 전에 궁금한 길이, 색감, 소재, 포인트를 확인하는 순서로 봅니다.'],
-    ['상담컷', '마음에 드는 사진은 캡처하거나 상품코드를 보내면 재고와 사이즈를 빠르게 확인합니다.']
+    [t('photoRuleMain'), t('photoRuleMainCopy')],
+    [t('photoRuleDetail'), t('photoRuleDetailCopy')],
+    [t('photoRuleContact'), t('photoRuleContactCopy')]
   ];
-  return `<section class="rules-panel" aria-label="NICE 쇼룸 사진 규칙">
+  return `<section class="rules-panel" aria-label="${t('photoRuleTitle')}">
     <div>
-      <p class="rules-kicker">OUR PHOTO RULE</p>
-      <h3>쇼룸은 사진을 예쁘게만 올리지 않고, 고르기 쉽게 정리합니다.</h3>
+      <p class="rules-kicker">${t('photoRuleKicker')}</p>
+      <h3>${t('photoRuleTitle')}</h3>
     </div>
     <div class="rules-grid">${rules.map(([title, copy]) => `<article><b>${title}</b><p>${copy}</p></article>`).join('')}</div>
   </section>`;
@@ -1191,7 +1240,7 @@ function similarShelfBlock() {
 }
 function collectionBlock() {
   return `<section class="collection-grid">
-    ${COLLECTIONS.map(localizedCollection).map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} ${t('item')}</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">VIEW EDIT</span></article>`).join('')}
+    ${COLLECTIONS.map(localizedCollection).map(c => `<article class="collection-card" data-f="${c.filter}"><div class="collection-count">${cCount(c.key)} ${t('item')}</div><div class="collection-title">${c.title}</div><div class="collection-name">${c.name}</div><p>${c.desc}</p><span class="collection-action">${t('viewProduct')}</span></article>`).join('')}
   </section>`;
 }
 function instaIcon() {
@@ -1457,7 +1506,7 @@ function openImageZoom(src, alt) {
     zoom = document.createElement('div');
     zoom.id = 'imageZoomModal';
     zoom.className = 'image-zoom-modal';
-    zoom.innerHTML = '<button class="image-zoom-close" type="button" aria-label="닫기">×</button><img class="image-zoom-img" alt="">';
+    zoom.innerHTML = `<button class="image-zoom-close" type="button" aria-label="${t('close')}">×</button><img class="image-zoom-img" alt="">`;
     document.body.appendChild(zoom);
     zoom.addEventListener('click', e => {
       if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
@@ -1479,7 +1528,7 @@ function openImageZoom(src, alt) {
     zoom = document.createElement('div');
     zoom.id = 'imageZoomModal';
     zoom.className = 'image-zoom-modal';
-    zoom.innerHTML = '<button class="image-zoom-close" type="button" aria-label="닫기">×</button><img class="image-zoom-img" alt="">';
+    zoom.innerHTML = `<button class="image-zoom-close" type="button" aria-label="${t('close')}">×</button><img class="image-zoom-img" alt="">`;
     document.body.appendChild(zoom);
     zoom.addEventListener('click', e => {
       if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
@@ -1517,7 +1566,7 @@ function openDetail(code) {
   const pointItems = publicPoints(p);
   detail.innerHTML = `<div class="body">
     <section class="visual">
-      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" class="zoomable-image" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" data-full="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="이전 사진">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="다음 사진">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
+      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" class="zoomable-image" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" data-full="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="${t('imagePrev')}">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="${t('imageNext')}">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" type="button" data-i="${i}" aria-current="${i === 0 ? 'true' : 'false'}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
