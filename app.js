@@ -93,6 +93,7 @@ const I18N = {
     twoPieceIntro: '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.',
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
+    smartstoreDesc: '스마트스토어에 이미 등록된 상품입니다. 마음에 드는 상품은 상품코드로 문의하거나 네이버에서 바로 구매 흐름으로 연결하세요.',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
@@ -118,7 +119,8 @@ const I18N = {
     newIntro: 'Recently arrived styles. Ask on KakaoTalk for fitting availability and stock.', bestIntro: 'Popular styles recommended by the showroom.',
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
-    editorDesc: 'Products we want to show first in the showroom.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
+    editorDesc: 'Products we want to show first in the showroom.',
+    smartstoreDesc: 'Products already listed on Smart Store. Send us the product code or continue to purchase online.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
     collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
@@ -140,7 +142,8 @@ const I18N = {
     newIntro: '最近新入库的款式。试穿和库存请通过 KakaoTalk 确认。', bestIntro: 'NICE 쇼룸 推荐的人气款式。',
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
-    editorDesc: 'NICE 쇼룸 想优先展示的商品。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
+    editorDesc: 'NICE 쇼룸 想优先展示的商品。',
+    smartstoreDesc: '已在 Smart Store 上架的商品。请发送商品代码咨询或在线购买。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
     collectionJuly: '7月10日新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
@@ -162,7 +165,8 @@ const I18N = {
     newIntro: '最近入荷した新作ラインです。試着可否と在庫はKakaoTalkで確認できます。', bestIntro: 'ショールームおすすめの人気スタイルです。',
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
-    editorDesc: '今ショールームで先にお見せしたい商品です。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
+    editorDesc: '今ショールームで先にお見せしたい商品です。',
+    smartstoreDesc: 'Smart Storeに掲載済みの商品です。商品コードでお問い合わせまたはオンライン購入へ進めます。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
     collectionJuly: '7月10日入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
@@ -211,18 +215,79 @@ const FILTER_LABELS = {
   zh: { '\uc804\uccb4': '\u5168\u90e8', '\ubbf8\ub2c8\uc6d0\ud53c\uc2a4': '\u8ff7\u4f60\u8fde\u8863\u88d9', '\ubbf8\ub514\uc6d0\ud53c\uc2a4': '\u4e2d\u957f\u8fde\u8863\u88d9', '\ub871\ub4dc\ub808\uc2a4': '\u957f\u793c\u670d', 'A\ub77c\uc778': 'A\u5b57\u7248', '\uc2ac\ub9bc\ud54f': '\u4fee\u8eab', '\ub7ed\uc154\ub9ac': '\u9ad8\u7ea7', '\ud22c\ud53c\uc2a4': '\u5957\u88c5', '\ucf54\uc2a4\ud2ac': '\u4e3b\u9898\u670d', '\ud654\uc774\ud2b8\ub8e9': '\u767d\u8272\u7cfb', '\ub2f9\uc77c\ubc30\uc1a1': '\u5f53\u65e5\u53d1\u8d27', '77/88\uac00\ub2a5': '77/88\u53ef\u7a7f' },
   ja: { '\uc804\uccb4': '\u3059\u3079\u3066', '\ubbf8\ub2c8\uc6d0\ud53c\uc2a4': '\u30df\u30cb\u30c9\u30ec\u30b9', '\ubbf8\ub514\uc6d0\ud53c\uc2a4': '\u30df\u30c7\u30a3\u30c9\u30ec\u30b9', '\ub871\ub4dc\ub808\uc2a4': '\u30ed\u30f3\u30b0\u30c9\u30ec\u30b9', 'A\ub77c\uc778': 'A\u30e9\u30a4\u30f3', '\uc2ac\ub9bc\ud54f': '\u30b9\u30ea\u30e0', '\ub7ed\uc154\ub9ac': '\u30e9\u30b0\u30b8\u30e5\u30a2\u30ea\u30fc', '\ud22c\ud53c\uc2a4': '\u30c4\u30fc\u30d4\u30fc\u30b9', '\ucf54\uc2a4\ud2ac': '\u30b3\u30b9\u30c1\u30e5\u30fc\u30e0', '\ud654\uc774\ud2b8\ub8e9': '\u30db\u30ef\u30a4\u30c8', '\ub2f9\uc77c\ubc30\uc1a1': '\u5f53\u65e5\u767a\u9001', '77/88\uac00\ub2a5': '77/88\u5bfe\u5fdc' }
 };
-const EDITOR_SELECT_EXCLUDED_CODES = ['N260003', 'N260004', 'N260007', 'N260009'];
+const EDITOR_SELECT_EXCLUDED_CODES = [];
 const EDITOR_SELECT_LIMIT = 12;
 const EDITOR_SELECT_PINNED_CODES = [
-  'N260001', 'N260005', 'N260006', 'N260008',
-  'ANC-4002', 'ANC-4016', 'ANC-4020', 'ANC-4026',
-  'ANC-4054', 'ANC-4060', 'ANC-4082', 'ANC-4084'
+  'N260001',
+  'N260002',
+  'N260003',
+  'N260006',
+  'N260008',
+  'N260039',
+  'S755',
+  'S678',
+  'IMN-006',
+  'IMN-007',
+  'JES-384',
+  'JES-381'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
-  'GINI-6374-GRAY', 'GINI-6376-PINK', 'S665', 'N260227',
-  'GINI-6384-PINK', 'GINI-6379-IVORY', 'GINI-6382-BLACK', 'S681',
-  'N260226', 'N260225', 'S727', 'S731',
-  'S750', 'S752', 'GINI-6388-MINT', 'S693'
+  'JES-384',
+  'JES-381',
+  'JES-380',
+  'JES-365',
+  'S755',
+  'S754',
+  'S692',
+  'S691',
+  'S680',
+  'S679',
+  'S678',
+  'N260204',
+  'N260076',
+  'N260044',
+  'N260043',
+  'P045'
+];
+const SMARTSTORE_PINNED_CODES = [
+  'JES-384',
+  'JES-381',
+  'JES-380',
+  'JES-365',
+  'N260033-PINK',
+  'N260033',
+  'N260079',
+  'N260093',
+  'N260035',
+  'IMN-007',
+  'IMN-006',
+  'P045',
+  'P026',
+  'P021',
+  'P019',
+  'S755',
+  'S754',
+  'S692',
+  'S691',
+  'S680',
+  'S679',
+  'S678',
+  'N260204',
+  'N260076',
+  'N260044',
+  'N260043',
+  'N260039',
+  'N260038',
+  'N260037',
+  'N260013',
+  'N260012',
+  'N260011',
+  'N260008',
+  'S726',
+  'N260003',
+  'N260002',
+  'N260001',
+  'N260006'
 ];
 const COLLECTION_A_EXTRA_CODES = ['N260228', 'N260227', 'N260226', 'N260225'];
 const SLIMFIT_EXCLUDED_CODES = new Set([
@@ -1075,11 +1140,19 @@ function dmGuideBlock() {
     <span class="dm-extra">일부 상품은 당일 구매/택배 가능하며, 방문 전 DM 확인을 추천드립니다.</span>
   </section>`;
 }
+
+function smartStoreItems(visible) {
+  const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
+  const pinned = SMARTSTORE_PINNED_CODES.map(code => visibleMap.get(code)).filter(Boolean);
+  return uniqueByDesignGroup(pinned).slice(0, 24);
+}
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const editorItems = editorSelectItems(visible);
-  const editorCodes = new Set(editorItems.map(codeOf));
-  const fresh = newArrivalItems(visible, editorCodes);
+  const smartItems = smartStoreItems(visible);
+  const smartCodes = new Set(smartItems.map(codeOf));
+  const editorItems = editorSelectItems(visible.filter(p => !smartCodes.has(codeOf(p))));
+  const editorCodes = new Set([...editorItems.map(codeOf), ...smartCodes]);
+  const fresh = newArrivalItems(visible.filter(p => !smartCodes.has(codeOf(p))), editorCodes);
   title.textContent = 'SHOWROOM';
   count.textContent = `${visible.length} ${t('item')}`;
   intro.textContent = sectionIntro();
@@ -1087,6 +1160,7 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
+    ${sectionBlock('SmartStore 판매중 BEST', t('smartstoreDesc'), smartItems, 'ALL', '전체 상품 보기')}
     ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', '7월 신상 더보기')}
     ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', '에디터스픽 더보기')}
     ${collectionBlock()}
