@@ -1,0 +1,14 @@
+NICE 쇼룸 문구/링크 정리 v26
+
+반영 내용
+1. NICE COMMUNITY의 VIP 인증 버튼 제거
+2. SmartStore 구매하기 버튼 추가
+3. 쇼룸 검색 아래 안내 문구 축약
+4. DM 안내 박스 문구 축약
+5. SmartStore 판매중 BEST 제목을 네이버 판매중 BEST로 변경
+6. 섹션 설명을 더 부드럽게 축약
+7. 모바일/PC에서 안내 문구 높이를 줄이는 CSS 추가
+
+주의
+- app.js 상단 SMARTSTORE_URL 값은 현재 https://smartstore.naver.com/sunny2026ss 로 입력했습니다.
+- 실제 스마트스토어 주소가 다르면 app.js 상단 const SMARTSTORE_URL 한 줄만 수정하세요.

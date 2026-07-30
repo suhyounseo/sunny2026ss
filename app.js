@@ -17,6 +17,7 @@ const VERSION = 'july10v44';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
+const SMARTSTORE_URL = 'https://smartstore.naver.com/sunny2026ss'; // 스마트스토어 주소가 다르면 이 줄만 수정하세요.
 const VIP_STORAGE_KEY = 'niceVipUntil';
 const LANG_STORAGE_KEY = 'niceLang';
 const VIP_TTL_MS = 12 * 60 * 60 * 1000;
@@ -70,9 +71,10 @@ const I18N = {
     empty: '조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.',
     dataFail: '상품 데이터를 불러오지 못했습니다.',
     communityCopy: '동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문',
-    communityGuide: '일부 상품은 당일 구매/택배 가능<br>사이즈와 재고는 상품별로 다르므로 방문 전 카카오톡 문의를 권장합니다.',
+    communityGuide: '쇼룸에서 고른 상품은 네이버에서도 바로 구매할 수 있어요.',
     kakaoAsk: '카카오톡 문의',
     vipAuth: 'VIP 인증',
+    smartstoreGo: 'SmartStore 구매하기',
     vipViewSameDay: '당일발송 상품 보기',
     vipClear: '인증해제',
     vipTitle: 'VIP 인증',
@@ -84,7 +86,7 @@ const I18N = {
     vipError: '인증코드가 올바르지 않습니다.',
     fittingAvailable: '피팅가능',
     sameDay: '당일발송',
-    showroomIntro: '원하는 스타일을 검색하고, 마음에 드는 상품은 캡처해서 DM 주세요.',
+    showroomIntro: '캡처 또는 상품코드로 문의 주세요.',
     newIntro: '최근 새로 입고된 신상 라인입니다. 매장 피팅 가능 여부와 재고는 카카오톡으로 바로 확인해주세요.',
     bestIntro: '쇼룸에서 먼저 추천드리는 인기 스타일입니다.',
     costumeIntro: '마린룩, 세일러룩, 스쿨룩, 유니폼룩까지 함께 찾을 수 있는 Costume 라인입니다.',
@@ -93,7 +95,7 @@ const I18N = {
     twoPieceIntro: '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.',
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
-    smartstoreDesc: '스마트스토어에 이미 등록된 상품입니다. 마음에 드는 상품은 상품코드로 문의하거나 네이버에서 바로 구매 흐름으로 연결하세요.',
+    smartstoreDesc: '네이버에서 바로 구매 가능한 상품이에요.',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
@@ -112,7 +114,7 @@ const I18N = {
     empty: 'No matching products. Send your preferred style on KakaoTalk and we will recommend similar items.', dataFail: 'Product data could not be loaded.',
     communityCopy: 'Dongdaemun Migliore NICE<br>Party Look · Stage Outfit · Club Look · Broadcast Outfit',
     communityGuide: 'In-store fitting / same-day purchase / delivery available<br>Stock and sizes vary by item, so please ask on KakaoTalk before visiting.',
-    kakaoAsk: 'KakaoTalk Inquiry', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
+    kakaoAsk: 'KakaoTalk Inquiry', smartstoreGo: 'Shop on SmartStore', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
     vipDesc: 'View selections available only to VIP customers.', vipPlaceholder: 'Enter VIP code', cancel: 'Cancel', verify: 'Verify', vipOk: 'VIP access confirmed.', vipError: 'Invalid VIP code.',
     fittingAvailable: 'Fitting available', sameDay: 'Same-day',
     showroomIntro: 'Search by mood or length. Send us the product code to quickly check stock and size.',
@@ -120,7 +122,7 @@ const I18N = {
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
     editorDesc: 'Products we want to show first in the showroom.',
-    smartstoreDesc: 'Products already listed on Smart Store. Send us the product code or continue to purchase online.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
+    smartstoreDesc: 'Available to buy on Naver SmartStore.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
     collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
@@ -135,7 +137,7 @@ const I18N = {
     empty: '没有符合条件的商品。请通过 KakaoTalk 发送想要的风格，我们会推荐相似款。', dataFail: '无法加载商品数据。',
     communityCopy: '东大门 Migliore NICE<br>派对风 · 舞台服 · 夜店风 · 방송服装',
     communityGuide: '可到店试穿 / 当日购买 / 可快递<br>库存和尺码因商品而异，建议到店前先通过 KakaoTalk 咨询。',
-    kakaoAsk: 'KakaoTalk 咨询', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
+    kakaoAsk: 'KakaoTalk 咨询', smartstoreGo: 'SmartStore 购买', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
     vipDesc: '显示仅 VIP 顾客可见的精选商品。', vipPlaceholder: '请输入认证码', cancel: '取消', verify: '认证', vipOk: 'VIP 认证完成。', vipError: '认证码不正确。',
     fittingAvailable: '可试穿', sameDay: '当日发货',
     showroomIntro: '可按氛围或长度搜索。喜欢的商品请用商品代码咨询库存和尺码。',
@@ -143,7 +145,7 @@ const I18N = {
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
     editorDesc: 'NICE 쇼룸 想优先展示的商品。',
-    smartstoreDesc: '已在 Smart Store 上架的商品。请发送商品代码咨询或在线购买。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
+    smartstoreDesc: '可在 Naver SmartStore 购买。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
     collectionJuly: '7月10日新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
@@ -158,7 +160,7 @@ const I18N = {
     empty: '条件に合う商品がありません。希望スタイルをKakaoTalkで送っていただければ似た商品をご提案します。', dataFail: '商品データを読み込めませんでした。',
     communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 방송衣装',
     communityGuide: '店頭フィッティング可 / 当日購入可 / 配送可<br>在庫とサイズは商品ごとに異なるため、来店前にKakaoTalkでのお問い合わせをおすすめします。',
-    kakaoAsk: 'KakaoTalk問い合わせ', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
+    kakaoAsk: 'KakaoTalk問い合わせ', smartstoreGo: 'SmartStoreで購入', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
     vipDesc: 'VIPのお客様限定のセレクションを表示します。', vipPlaceholder: '認証コードを入力してください', cancel: 'キャンセル', verify: '認証', vipOk: 'VIP認証が完了しました。', vipError: '認証コードが正しくありません。',
     fittingAvailable: '試着可', sameDay: '当日発送',
     showroomIntro: '雰囲気や丈で検索できます。気になる商品は商品コードで在庫とサイズを確認できます。',
@@ -166,7 +168,7 @@ const I18N = {
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
     editorDesc: '今ショールームで先にお見せしたい商品です。',
-    smartstoreDesc: 'Smart Storeに掲載済みの商品です。商品コードでお問い合わせまたはオンライン購入へ進めます。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
+    smartstoreDesc: 'Naver SmartStoreで購入できます。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
     collectionJuly: '7月10日入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
@@ -1128,16 +1130,14 @@ function communityBlock() {
       <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>${t('kakaoAsk')}</span></a>
       <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
       <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
-      <button class="community-link vip-open subtle" type="button">${isVipActive() ? t('vipViewSameDay') : t('vipAuth')}</button>
-      ${isVipActive() ? `<button class="community-link vip-clear subtle" type="button">${t('vipClear')}</button>` : ''}
+      <a class="community-link smartstore community-brand" href="${SMARTSTORE_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>${t('smartstoreGo')}</span></a>
     </div>
   </section>`;
 }
 function dmGuideBlock() {
-  return `<section class="dm-guide" aria-label="DM 문의 안내">
-    <strong>마음에 드는 상품은 캡처해서 DM 주세요.</strong>
-    <span>재고와 피팅 가능 여부를 안내해드립니다.</span>
-    <span class="dm-extra">일부 상품은 당일 구매/택배 가능하며, 방문 전 DM 확인을 추천드립니다.</span>
+  return `<section class="dm-guide compact" aria-label="상품 문의 안내">
+    <strong>캡처/상품코드로 문의 주세요.</strong>
+    <span>재고·피팅 바로 확인해드릴게요.</span>
   </section>`;
 }
 
@@ -1160,7 +1160,7 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
-    ${sectionBlock('SmartStore 판매중 BEST', t('smartstoreDesc'), smartItems, 'ALL', '전체 상품 보기')}
+    ${sectionBlock('네이버 판매중 BEST', t('smartstoreDesc'), smartItems, 'ALL', '전체 상품 보기')}
     ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', '7월 신상 더보기')}
     ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', '에디터스픽 더보기')}
     ${collectionBlock()}
