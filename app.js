@@ -13,11 +13,11 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'july10v44';
+const VERSION = 'july30lang1';
 const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
-const SMARTSTORE_URL = 'https://smartstore.naver.com/nisshop'; // 스마트스토어 주소가 다르면 이 줄만 수정하세요.
+const SMARTSTORE_URL = 'https://smartstore.naver.com/nisshop'; // 스마트스토어 주소
 const VIP_STORAGE_KEY = 'niceVipUntil';
 const LANG_STORAGE_KEY = 'niceLang';
 const VIP_TTL_MS = 12 * 60 * 60 * 1000;
@@ -96,6 +96,18 @@ const I18N = {
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
     smartstoreDesc: '네이버에서 바로 구매 가능한 상품이에요.',
+    smartstoreBest: '네이버 판매중 BEST',
+    viewAllProducts: '전체 상품 보기',
+    julyMore: '7월 신상 더보기',
+    editorsMore: '에디터스픽 더보기',
+    dmGuideTitle: '캡처/상품코드로 문의 주세요.',
+    dmGuideLine: '재고·피팅 바로 확인해드릴게요.',
+    luxury: '럭셔리',
+    sameDesignColors: '같은 디자인 다른 컬러',
+    coordinatedLook: '코디 상품',
+    viewProduct: '상품 보기',
+    contactPrefix: '상품 문의드립니다.',
+    contactStockSizePrice: '재고/사이즈/가격 안내 부탁드립니다.',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
@@ -122,7 +134,19 @@ const I18N = {
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
     editorDesc: 'Products we want to show first in the showroom.',
-    smartstoreDesc: 'Available to buy on Naver SmartStore.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
+    smartstoreDesc: 'Available to buy on Naver SmartStore.',
+    smartstoreBest: 'Best on Naver',
+    viewAllProducts: 'View all products',
+    julyMore: 'View July arrivals',
+    editorsMore: 'View Editor’s Picks',
+    dmGuideTitle: 'Send a screenshot or product code.',
+    dmGuideLine: 'We will quickly check stock and fitting.',
+    luxury: 'Luxury',
+    sameDesignColors: 'Other colors in this design',
+    coordinatedLook: 'Coordinated Look',
+    viewProduct: 'View product',
+    contactPrefix: 'Product inquiry.',
+    contactStockSizePrice: 'Please check stock, size, and price.', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
     collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments'
   },
   zh: {
@@ -145,7 +169,19 @@ const I18N = {
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
     editorDesc: 'NICE 쇼룸 想优先展示的商品。',
-    smartstoreDesc: '可在 Naver SmartStore 购买。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
+    smartstoreDesc: '可在 Naver SmartStore 购买。',
+    smartstoreBest: 'Naver热卖款',
+    viewAllProducts: '查看全部商品',
+    julyMore: '查看7月新品',
+    editorsMore: '查看推荐款',
+    dmGuideTitle: '请发送截图或商品代码。',
+    dmGuideLine: '我们会快速确认库存和试穿。',
+    luxury: '高级',
+    sameDesignColors: '同款其他颜色',
+    coordinatedLook: '搭配商品',
+    viewProduct: '查看商品',
+    contactPrefix: '商品咨询。',
+    contactStockSizePrice: '请确认库存、尺码和价格。', newDesc: 'NICE 精选新款设计。颜色和选项请在商品详情中确认。',
     collectionJuly: '7月10日新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选'
   },
   ja: {
@@ -168,7 +204,19 @@ const I18N = {
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
     editorDesc: '今ショールームで先にお見せしたい商品です。',
-    smartstoreDesc: 'Naver SmartStoreで購入できます。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
+    smartstoreDesc: 'Naver SmartStoreで購入できます。',
+    smartstoreBest: 'Naver販売中 BEST',
+    viewAllProducts: '全商品を見る',
+    julyMore: '7月新作を見る',
+    editorsMore: 'おすすめを見る',
+    dmGuideTitle: 'スクショまたは商品コードを送ってください。',
+    dmGuideLine: '在庫と試着可否をすぐ確認します。',
+    luxury: 'ラグジュアリー',
+    sameDesignColors: '同デザインの他カラー',
+    coordinatedLook: 'コーデ商品',
+    viewProduct: '商品を見る',
+    contactPrefix: '商品問い合わせです。',
+    contactStockSizePrice: '在庫・サイズ・価格の案内をお願いします。', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
     collectionJuly: '7月10日入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集'
   }
 };
@@ -394,7 +442,7 @@ function cleanText(value, fallback = '') {
   return text || fallback;
 }
 function displayName(p) {
-  return cleanText(p.name || p.storeName || p.productName || p.code, p.code);
+  return cleanText(localizedProductValue(p, 'name') || localizedProductValue(p, 'storeName') || localizedProductValue(p, 'productName') || p.code, p.code);
 }
 function displayCode(p) {
   return cleanText(p.customerCode || p.code || '');
@@ -403,8 +451,8 @@ function sizeSummary(p) {
   return simpleSize(p);
 }
 function displayColors(p) {
-  const colors = Array.isArray(p.colors) ? p.colors.map(cleanText).filter(Boolean) : [];
-  return colors.length ? colors.join(' / ') : safeText(p.color);
+  const colors = localizedProductArray(p, 'colors').map(cleanText).filter(Boolean);
+  return colors.length ? colors.join(' / ') : safeText(localizedProductValue(p, 'color'));
 }
 function sizeDetail(p) {
   const size = cleanText(p.size || '');
@@ -424,6 +472,39 @@ function safeText(value) {
 function t(key, vars = {}) {
   const text = (I18N[LANG] && I18N[LANG][key]) || I18N.ko[key] || key;
   return Object.entries(vars).reduce((out, [k, v]) => out.replaceAll(`{${k}}`, v || ''), text);
+}
+
+function localizedProductValue(p, field, fallback = '') {
+  if (LANG === 'ko') return p[field] || fallback || '';
+  const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
+  return (tr && tr[field]) || p[field] || fallback || '';
+}
+function localizedProductArray(p, field) {
+  if (LANG === 'ko') return Array.isArray(p[field]) ? p[field] : [];
+  const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
+  return tr && Array.isArray(tr[field]) ? tr[field] : (Array.isArray(p[field]) ? p[field] : []);
+}
+function localizedSizeTables(p) {
+  if (LANG === 'ko') return Array.isArray(p.sizeTables) ? p.sizeTables : [];
+  const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
+  return tr && Array.isArray(tr.sizeTables) ? tr.sizeTables : (Array.isArray(p.sizeTables) ? p.sizeTables : []);
+}
+function localizedWearTables(p) {
+  if (LANG === 'ko') return Array.isArray(p.wearTables) ? p.wearTables : [];
+  const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
+  return tr && Array.isArray(tr.wearTables) ? tr.wearTables : (Array.isArray(p.wearTables) ? p.wearTables : []);
+}
+function localizedSizeBadge(text) {
+  if (!text) return '';
+  if (LANG === 'en') return text.replace('가능',' available');
+  if (LANG === 'zh') return text.replace('가능','可穿');
+  if (LANG === 'ja') return text.replace('가능','対応');
+  return text;
+}
+function localizedLabelText(text) {
+  if (text === '럭셔리') return t('luxury');
+  if (/77|88/.test(text)) return localizedSizeBadge(text);
+  return text;
 }
 function filterLabel(key) {
   return (FILTER_LABELS[LANG] && FILTER_LABELS[LANG][key]) || LABEL[key] || key;
@@ -475,9 +556,10 @@ function simpleSize(p) {
 }
 function publicPoints(p) {
   const seen = new Set();
-  const base = Array.isArray(p.points) && p.points.length
-    ? p.points
-    : [p.mainCopy, p.desc, p.description, `${p.color || ''} ${p.length || ''} ${p.fit || ''}`];
+  const productPoints = localizedProductArray(p, 'points');
+  const base = productPoints.length
+    ? productPoints
+    : [localizedProductValue(p, 'mainCopy'), localizedProductValue(p, 'desc'), localizedProductValue(p, 'description'), `${localizedProductValue(p, 'color')} ${localizedProductValue(p, 'length')} ${localizedProductValue(p, 'fit')}`];
   return base
     .map(x => safeText(x))
     .map(x => x
@@ -497,8 +579,8 @@ function publicPoints(p) {
     .slice(0, 3);
 }
 function recommendLine(p) {
-  const text = safeText(p.recommend)
-    || `${p.length || ''} ${p.category || '원피스'}를 데이트, 모임, 촬영룩으로 활용하기 좋습니다.`;
+  const text = safeText(localizedProductValue(p, 'recommend'))
+    || `${localizedProductValue(p, 'length') || ''} ${p.category || 'dress'} ${LANG === 'ko' ? '를 데이트, 모임, 촬영룩으로 활용하기 좋습니다.' : 'is recommended for dates, gatherings, and shoots.'}`;
   return text.split(/[.!。]/)[0].replace(/추천$/, '추천').trim() + '.';
 }
 function cleanDetailText(text) {
@@ -516,16 +598,16 @@ function cleanDetailText(text) {
     .trim();
 }
 function shortDescription(p) {
-  const source = safeText(p.desc || p.description || p.mainCopy)
-    || `${safeText(p.color) || '선택된'} 컬러와 ${safeText(p.fit) || '깔끔한'} 라인이 돋보이는 상품입니다.`;
+  const source = safeText(localizedProductValue(p, 'desc') || localizedProductValue(p, 'description') || localizedProductValue(p, 'mainCopy'))
+    || `${safeText(localizedProductValue(p, 'color')) || 'NICE'} ${safeText(localizedProductValue(p, 'fit')) || 'style'}`;
   const cleaned = cleanDetailText(source);
   const sentences = cleaned.split(/(?<=[.!?。])\s+/).filter(Boolean).slice(0, 2);
   return sentences.length ? sentences.join(' ') : cleaned;
 }
 function detailLeadCopy(p) {
   const color = displayColors(p);
-  const fit = safeText(p.fit);
-  const length = safeText(p.length || p.category);
+  const fit = safeText(localizedProductValue(p, 'fit'));
+  const length = safeText(localizedProductValue(p, 'length') || p.category);
   const mood = [color, fit, length].filter(Boolean).slice(0, 3).join(' · ');
   const base = shortDescription(p);
   if (base) return base;
@@ -553,15 +635,15 @@ function specCells(p) {
   const baseItems = [
     [t('color'), displayColors(p) || t('ask')],
     [t('size'), simpleSize(p)],
-    [t('fabric'), safeText(p.fabric)]
+    [t('fabric'), safeText(localizedProductValue(p, 'fabric'))]
   ];
   const wearItems = [
-    [t('lining'), safeText(p.lining)],
-    [t('stretch'), safeText(p.stretch)],
-    [t('cap'), safeText(p.cap)],
-    [t('sheer'), safeText(p.see)],
-    [t('thickness'), safeText(p.thickness)],
-    [t('zipper'), safeText(p.zipper)]
+    [t('lining'), safeText(localizedProductValue(p, 'lining'))],
+    [t('stretch'), safeText(localizedProductValue(p, 'stretch'))],
+    [t('cap'), safeText(localizedProductValue(p, 'cap'))],
+    [t('sheer'), safeText(localizedProductValue(p, 'see'))],
+    [t('thickness'), safeText(localizedProductValue(p, 'thickness'))],
+    [t('zipper'), safeText(localizedProductValue(p, 'zipper'))]
   ];
   const items = hasDetailedProductInfo
     ? []
@@ -593,8 +675,9 @@ function sizeGuideRows(groupText) {
   return rows;
 }
 function structuredSizeTables(p) {
-  if (!Array.isArray(p.sizeTables) || !p.sizeTables.length) return '';
-  const tables = p.sizeTables.map(group => {
+  const localTables = localizedSizeTables(p);
+  if (!Array.isArray(localTables) || !localTables.length) return '';
+  const tables = localTables.map(group => {
     const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'];
     const rows = Array.isArray(group.rows) ? group.rows : [];
     if (!rows.length) return '';
@@ -607,7 +690,7 @@ function structuredSizeTables(p) {
 }
 function sizeGuideBlock(p) {
   const structured = structuredSizeTables(p);
-  if (structured) return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${structured}<p class="size-note">실측은 단면 기준이며 측정 방법에 따라 1~2cm 정도 오차가 있을 수 있습니다.</p></div>`;
+  if (structured) return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${structured}<p class="size-note">${LANG === 'ko' ? '실측은 단면 기준이며 측정 방법에 따라 1~2cm 정도 오차가 있을 수 있습니다.' : LANG === 'en' ? 'Measurements are flat and may vary by 1–2cm depending on how they are taken.' : LANG === 'zh' ? '实测为平铺尺寸，因测量方式不同可能有1–2cm误差。' : '実寸は平置き基準で、測定方法により1〜2cmの誤差が出る場合があります。'}</p></div>`;
   const info = safeText(p.sizeInfo);
   if (!info || !/([A-Z]{1,2}|55|66|77|88|FREE)\(/i.test(info)) {
     return `<div class="box size-guide"><b>${t('sizeGuide')}</b><p>${t('sizeAsk')}</p></div>`;
@@ -622,8 +705,9 @@ function sizeGuideBlock(p) {
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
 function wearInfoBlock(p) {
-  if (!Array.isArray(p.wearTables) || !p.wearTables.length) return '';
-  const blocks = p.wearTables.map(group => {
+  const localWearTables = localizedWearTables(p);
+  if (!Array.isArray(localWearTables) || !localWearTables.length) return '';
+  const blocks = localWearTables.map(group => {
     const items = group.items && typeof group.items === 'object' ? group.items : {};
     const rows = Object.entries(items).filter(([, value]) => safeText(value)).map(([key, value]) => `<tr><th>${safeText(key)}</th><td>${safeText(value)}</td></tr>`).join('');
     if (!rows) return '';
@@ -925,12 +1009,12 @@ function badges(p) {
   if (isSameDayCandidate(p)) out.push(`<span class="badge light">${t('sameDay')}</span>`);
   const sizeBadge = sizeBadgeText(p);
   if (sizeBadge) out.push(`<span class="badge light">${sizeBadge}</span>`);
-  if (isLuxuryCandidate(p)) out.push('<span class="badge light">럭셔리</span>');
+  if (isLuxuryCandidate(p)) out.push(`<span class="badge light">${t('luxury')}</span>`);
   return out.slice(0, 4).join('');
 }
 function meta(p) {
   const size = sizeSummary(p);
-  return [p.length, displayColors(p), size ? 'SIZE ' + size : '', sizeBadgeText(p)]
+  return [localizedProductValue(p, 'length'), displayColors(p), size ? 'SIZE ' + size : '', localizedSizeBadge(sizeBadgeText(p))]
     .filter(Boolean)
     .slice(0, 3)
     .map(x => `<span>${cleanText(x)}</span>`)
@@ -1135,9 +1219,9 @@ function communityBlock() {
   </section>`;
 }
 function dmGuideBlock() {
-  return `<section class="dm-guide compact" aria-label="상품 문의 안내">
-    <strong>캡처/상품코드로 문의 주세요.</strong>
-    <span>재고·피팅 바로 확인해드릴게요.</span>
+  return `<section class="dm-guide compact" aria-label="${t('productAsk')}">
+    <strong>${t('dmGuideTitle')}</strong>
+    <span>${t('dmGuideLine')}</span>
   </section>`;
 }
 
@@ -1160,9 +1244,9 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
-    ${sectionBlock('네이버 판매중 BEST', t('smartstoreDesc'), smartItems, 'ALL', '전체 상품 보기')}
-    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', '7월 신상 더보기')}
-    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', '에디터스픽 더보기')}
+    ${sectionBlock(t('smartstoreBest'), t('smartstoreDesc'), smartItems, 'ALL', t('viewAllProducts'))}
+    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', t('julyMore'))}
+    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', t('editorsMore'))}
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
@@ -1195,18 +1279,19 @@ function render() {
   bindCards();
 }
 function points(p) {
-  if (Array.isArray(p.points) && p.points.length) return p.points.map(x => cleanText(x)).slice(0, 4);
-  const text = cleanText(p.desc || p.description || p.mainCopy || '');
+  const localPoints = localizedProductArray(p, 'points');
+  if (localPoints.length) return localPoints.map(x => cleanText(x)).slice(0, 4);
+  const text = cleanText(localizedProductValue(p, 'desc') || localizedProductValue(p, 'description') || localizedProductValue(p, 'mainCopy') || '');
   const parts = text.replaceAll(' / ', '. ').split(/(?<=\.)\s+/).map(x => x.trim()).filter(Boolean);
   const picked = parts.filter(x => !/재고|촬영 환경|방문 전|DM 문의|온라인 쇼룸용/.test(x)).slice(0, 3);
   return picked.length ? picked : ['매장 피팅과 사이즈 확인 후 구매 가능합니다.', '카카오톡으로 재고와 가격을 빠르게 안내드립니다.'];
 }
 function editorNote(p) {
-  return cleanText(p.editorsNote || p.desc || p.description || p.mainCopy || 'NICE 쇼룸 추천 상품입니다.');
+  return cleanText(localizedProductValue(p, 'editorsNote') || localizedProductValue(p, 'desc') || localizedProductValue(p, 'description') || localizedProductValue(p, 'mainCopy') || 'NICE PICK');
 }
 function contactText(p, mode = 'product') {
-  const prefix = '상품 문의드립니다.';
-  return `${prefix}\n상품명: ${displayName(p)}\n상품코드: ${displayCode(p)}\n재고/사이즈/가격 안내 부탁드립니다.`;
+  const prefix = t('contactPrefix');
+  return `${prefix}\n${t('productCode')}: ${displayCode(p)}\n${displayName(p)}\n${t('contactStockSizePrice')}`;
 }
 function copyContact(p, mode) {
   const text = contactText(p, mode);
@@ -1241,18 +1326,18 @@ function coordinatedBlock(p) {
     .map(item => {
       const target = PRODUCTS.find(x => codeOf(x) === item.code);
       if (!target || !visibleToAudience(target)) return '';
-      const label = cleanText(item.label || '?? ??? ??');
+      const label = cleanText(item.label || t('coordinatedLook'));
       const name = cleanText(item.name || displayName(target));
       const image = mainImg(target) || cardImg(target);
       return '<button class="coord-link" type="button" data-code="' + codeOf(target) + '">' +
         (image ? '<img class="coord-thumb" loading="lazy" decoding="async" src="' + img(image) + '" alt="' + name + '">' : '') +
         '<span class="coord-copy"><em>' + label + '</em><b>' + name + '</b></span>' +
-        '<strong>상품 보기</strong>' +
+        '<strong>' + t('viewProduct') + '</strong>' +
       '</button>';
     })
     .filter(Boolean);
   if (!rows.length) return '';
-  return '<div class="box coord-box"><div class="coord-title">COORDINATED LOOK</div>' + rows.join('') + '</div>';
+  return '<div class="box coord-box"><div class="coord-title">' + t('coordinatedLook') + '</div>' + rows.join('') + '</div>';
 }
 function optionColorValue(name) {
   const text = String(name || '').toLowerCase();
@@ -1285,10 +1370,10 @@ function colorOptionsBlock(p) {
   if (variants.length < 2) return '';
   const buttons = variants.map(item => {
     const selected = codeOf(item) === codeOf(p);
-    const label = cleanText(item.variantColor || item.color || displayName(item));
+    const label = cleanText(localizedProductValue(item, 'variantColor') || localizedProductValue(item, 'color') || displayName(item));
     return `<button class="color-option ${selected ? 'on' : ''}" type="button" data-code="${codeOf(item)}" aria-pressed="${selected}" ${colorOptionStyle(label)}><span class="color-swatch" aria-hidden="true"></span><span>${label}</span></button>`;
   }).join('');
-  return `<div class="box color-options-box"><b>같은 디자인 다른 컬러</b><div class="color-options">${buttons}</div></div>`;
+  return `<div class="box color-options-box"><b>${t('sameDesignColors')}</b><div class="color-options">${buttons}</div></div>`;
 }
 function showSimilar(p) {
   SIMILAR_CODE = codeOf(p);
@@ -1436,7 +1521,7 @@ function openDetail(code) {
       <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" type="button" data-i="${i}" aria-current="${i === 0 ? 'true' : 'false'}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
     </section>
     <section class="copy">
-      <div class="tags">${labelTags.map(t => `<span>${t}</span>`).join('')}</div>
+      <div class="tags">${labelTags.map(x => `<span>${localizedLabelText(x)}</span>`).join('')}</div>
       <h2>${displayName(p)}</h2>
       ${detailPriceBlock(p)}
       ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
