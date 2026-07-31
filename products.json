@@ -79873,7 +79873,8 @@
       "MIDI",
       "PARTY",
       "RECOMMEND",
-      "럭셔리"
+      "럭셔리",
+      "같은디자인다른컬러"
     ],
     "images": [
       "assets/N260016_01.jpg",
@@ -80298,6 +80299,12 @@
           "지퍼": "뒷지퍼"
         }
       }
+    ],
+    "designGroupId": "np-color-n260016-036",
+    "variantColor": "베이지",
+    "colors": [
+      "베이지",
+      "아이보리"
     ]
   },
   {
@@ -86389,7 +86396,8 @@
       "MIDI",
       "PARTY",
       "RECOMMEND",
-      "럭셔리"
+      "럭셔리",
+      "같은디자인다른컬러"
     ],
     "images": [
       "assets/N260036_01.jpg",
@@ -86814,6 +86822,12 @@
           "지퍼": "뒷지퍼"
         }
       }
+    ],
+    "designGroupId": "np-color-n260016-036",
+    "variantColor": "아이보리",
+    "colors": [
+      "베이지",
+      "아이보리"
     ]
   },
   {

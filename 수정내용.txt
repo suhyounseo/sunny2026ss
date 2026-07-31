@@ -1,26 +1,7 @@
-NICE 쇼룸 제품정보 업데이트
-
-업데이트 상품코드:
-1) N260009, N260010
-- N260009SK / N260009BL 정보 기준
-- 같은 디자인 다른 컬러로 상의/스커트 실측, 소재, 착용정보 반영
-
-2) N260014, N260015
-- 업로드된 원피스 제품정보 기준
-- 같은 디자인 다른 컬러로 실측, 소재, 착용정보 반영
-
-3) N260016, N260036
-- N260016 제품정보 기준
-- 같은 디자인 다른 컬러로 실측, 소재, 착용정보 반영
-
-반영 항목:
-- size / sizeInfo
-- sizeTables
-- fabric / stretch / cap / lining / see / thickness / zipper
-- wearTables
-- 영어/중국어/일본어 sizeTables, wearTables
-
-검증:
-- products.json JSON 문법 검사 통과
-- app.js 문법 검사 통과
+N260016, N260036 같은 디자인 다른 컬러 연결 수정
+- designGroupId 동일 적용: np-color-n260016-036
+- N260016 variantColor: 베이지
+- N260036 variantColor: 아이보리
+- colors: 베이지 / 아이보리
 - N260223 삭제 상태 유지
+- products.json JSON 검사 통과, app.js 문법 검사 통과
