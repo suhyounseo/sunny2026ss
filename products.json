@@ -75847,10 +75847,10 @@
     ],
     "desc": "마린 세일러 투피스 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리스판",
+    "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "상:부분, 하:있음",
+    "lining": "상:부분 / 하:있음",
     "best": true,
     "name_en": "Marine Sailor Two-Piece Set",
     "name_cn": "海军风 水手 两件套",
@@ -75858,7 +75858,7 @@
     "mainImage": "assets/N260009_01.jpg",
     "collection": "B",
     "collectionName": "투피스 & 상하의 컬렉션",
-    "sizeInfo": "55(S) / 66(M) / 33반 (+5,000원) / 44(XS) (+5,000원) / 44반 (+5,000원) / 55반 (+5,000원) / 66반 (+10,000원) / 77(L) (+10,000원) / 77반 (+15,000원) / 88(XL) (+20,000원)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
     "modelSize": "165cm/48kg",
     "wearSize": "55(S)",
     "externalSource": {
@@ -75922,12 +75922,12 @@
         "fit": "set-up silhouette",
         "length": "mini length",
         "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "lining": "Top partially lined / skirt lined",
+        "stretch": "Yes",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Top back zipper / skirt side zipper",
         "collectionName": "Two-Piece Collection",
         "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
         "editorsNote": "A ivory / black two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -75953,8 +75953,83 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Top Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "Skirt Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Yes",
+              "Cups": "Built-in cups",
+              "Lining": "Top partially lined / skirt lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Top back zipper / skirt side zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "象牙白 / 黑色简洁廓形两件套",
@@ -75972,12 +76047,12 @@
         "fit": "套装版型",
         "length": "迷你长度",
         "fabric": "聚酯混纺",
-        "lining": "有",
+        "lining": "上衣部分内衬 / 半裙有内衬",
         "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "上衣后拉链 / 半裙侧拉链",
         "collectionName": "两件套系列",
         "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
         "editorsNote": "这是一款象牙白 / 黑色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -76003,8 +76078,83 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "上衣实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "半裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "有",
+              "胸垫": "有胸垫",
+              "内衬": "上衣部分内衬 / 半裙有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "上衣后拉链 / 半裙侧拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "アイボリー / ブラックきれいなシルエットツーピース",
@@ -76022,12 +76172,12 @@
         "fit": "セットアップシルエット",
         "length": "ミニ丈",
         "fabric": "ポリエステル混紡",
-        "lining": "あり",
+        "lining": "トップス部分裏地 / スカート裏地あり",
         "stretch": "あり",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "トップス後ろファスナー / スカート横ファスナー",
         "collectionName": "ツーピースコレクション",
         "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
         "editorsNote": "きれいなシルエットが映えるアイボリー / ブラックツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -76053,10 +76203,165 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "トップス実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "スカート実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "あり",
+              "カップ": "あり",
+              "裏地": "トップス部分裏地 / スカート裏地あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "トップス後ろファスナー / スカート横ファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeTables": [
+      {
+        "title": "상의 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "39",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "41.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "44",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "스커트 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "38",
+            "허리단면": "31",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "38",
+            "허리단면": "33.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "38",
+            "허리단면": "36",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "상:뒷지퍼 / 하:옆지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "상의 부분 / 스커트 있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "상의 뒷지퍼 / 스커트 옆지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260010",
@@ -76068,7 +76373,7 @@
     "storeName": "마린 세일러 투피스",
     "category": "TWO PIECE",
     "color": "블랙",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 161000,
     "tags": [
       "투피스 & 상하의 컬렉션",
@@ -76104,10 +76409,10 @@
     ],
     "desc": "블랙 마린 세일러 투피스 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
-    "fabric": "폴리스판",
+    "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
-    "lining": "상:부분, 하:있음",
+    "lining": "상:부분 / 하:있음",
     "best": true,
     "name_en": "Marine Sailor Two-Piece Set",
     "name_cn": "海军风 水手 两件套",
@@ -76158,12 +76463,12 @@
         "fit": "set-up silhouette",
         "length": "mini length",
         "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "lining": "Top partially lined / skirt lined",
+        "stretch": "Yes",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Top back zipper / skirt side zipper",
         "collectionName": "Two-Piece Collection",
         "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
         "editorsNote": "A ivory / black two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -76189,8 +76494,83 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Top Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "Skirt Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Yes",
+              "Cups": "Built-in cups",
+              "Lining": "Top partially lined / skirt lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Top back zipper / skirt side zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "象牙白 / 黑色简洁廓形两件套",
@@ -76208,12 +76588,12 @@
         "fit": "套装版型",
         "length": "迷你长度",
         "fabric": "聚酯混纺",
-        "lining": "有",
+        "lining": "上衣部分内衬 / 半裙有内衬",
         "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "上衣后拉链 / 半裙侧拉链",
         "collectionName": "两件套系列",
         "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
         "editorsNote": "这是一款象牙白 / 黑色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -76239,8 +76619,83 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "上衣实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "半裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "有",
+              "胸垫": "有胸垫",
+              "内衬": "上衣部分内衬 / 半裙有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "上衣后拉链 / 半裙侧拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "アイボリー / ブラックきれいなシルエットツーピース",
@@ -76258,12 +76713,12 @@
         "fit": "セットアップシルエット",
         "length": "ミニ丈",
         "fabric": "ポリエステル混紡",
-        "lining": "あり",
+        "lining": "トップス部分裏地 / スカート裏地あり",
         "stretch": "あり",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "トップス後ろファスナー / スカート横ファスナー",
         "collectionName": "ツーピースコレクション",
         "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
         "editorsNote": "きれいなシルエットが映えるアイボリー / ブラックツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -76289,10 +76744,166 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "トップス実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "39",
+                "Waist": "32"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "41.5",
+                "Waist": "34.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "36",
+                "Sleeve": "20",
+                "Chest": "44",
+                "Waist": "37"
+              }
+            ]
+          },
+          {
+            "title": "スカート実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "38",
+                "Waist": "31",
+                "Hip": "40"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "38",
+                "Waist": "33.5",
+                "Hip": "42.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "38",
+                "Waist": "36",
+                "Hip": "45"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "あり",
+              "カップ": "あり",
+              "裏地": "トップス部分裏地 / スカート裏地あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "トップス後ろファスナー / スカート横ファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "sizeTables": [
+      {
+        "title": "상의 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "39",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "41.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "36",
+            "소매길이": "20",
+            "가슴단면": "44",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "스커트 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "38",
+            "허리단면": "31",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "38",
+            "허리단면": "33.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "38",
+            "허리단면": "36",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "상:뒷지퍼 / 하:옆지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "상의 부분 / 스커트 있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "상의 뒷지퍼 / 스커트 옆지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260011",
@@ -78364,7 +78975,7 @@
     "mainImage": "assets/N260014_01.jpg",
     "collection": "A",
     "collectionName": "미니 원피스 컬렉션",
-    "sizeInfo": "55(S) / 66(M) / 33반 (맞춤제작) (+5,000원) / 44(XS)(맞춤제작) (+5,000원) / 44반 (맞춤제작) (+5,000원) / 55반 (맞춤제작) (+5,000원) / 66반 (맞춤제작) (+10,000원) / 77(L)(맞춤제작) (+10,000원) / 77반(맞춤제작) (+15,000원) / 88(XL)(맞춤제작) (+20,000원) / 88반(맞춤제작) (+25,000원) / 99(XXL)(맞춤제작) (+35,000원)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
     "externalSource": {
       "site": "judyshop",
       "url": "https://www.judyshop.co.kr/product/세윤s512/114942/category/1/display/32/?icid=MAIN.product_listmain_31",
@@ -78437,12 +79048,12 @@
         "fit": "slim fit",
         "length": "mini length",
         "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "lining": "Lined",
+        "stretch": "Yes",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Back zipper",
         "collectionName": "Mini Dress Collection",
         "collectionDescription": "Mini dress styles for party, club, shoot, and date looks.",
         "editorsNote": "A pink / sky blue mini dress designed with button-accent and chain-accent. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -78472,8 +79083,58 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Dress Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Yes",
+              "Cups": "Built-in cups",
+              "Lining": "Lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Back zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "粉色 / 天蓝色纽扣装饰链条装饰迷你连衣裙",
@@ -78491,12 +79152,12 @@
         "fit": "修身版型",
         "length": "迷你长度",
         "fabric": "聚酯混纺",
-        "lining": "有",
+        "lining": "有内衬",
         "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "后拉链",
         "collectionName": "迷你连衣裙系列",
         "collectionDescription": "适合派对、夜店、拍摄与约会的迷你款式。",
         "editorsNote": "这是一款粉色 / 天蓝色迷你连衣裙，以纽扣装饰、链条装饰为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -78526,8 +79187,58 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "连衣裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "有",
+              "胸垫": "有胸垫",
+              "内衬": "有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "后拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "ピンク / スカイブルーボタンポイントチェーンポイントミニワンピース",
@@ -78548,9 +79259,9 @@
         "lining": "あり",
         "stretch": "あり",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "後ろファスナー",
         "collectionName": "ミニドレスコレクション",
         "collectionDescription": "パーティー・クラブ・撮影・デートに使いやすいミニ丈。",
         "editorsNote": "ボタンポイント・チェーンポイントが映えるピンク / スカイブルーミニワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -78580,10 +79291,115 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "ワンピース実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "あり",
+              "カップ": "あり",
+              "裏地": "あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "後ろファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeTables": [
+      {
+        "title": "원피스 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "39",
+            "허리단면": "31",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
+            "힙단면": "45.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "36",
+            "힙단면": "48"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260015",
@@ -78595,7 +79411,7 @@
     "storeName": "골드버튼 체인 슬림 원피스",
     "category": "MINI",
     "color": "소라",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 126000,
     "tags": [
       "미니 원피스 컬렉션",
@@ -78684,12 +79500,12 @@
         "fit": "slim fit",
         "length": "mini length",
         "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "lining": "Lined",
+        "stretch": "Yes",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Back zipper",
         "collectionName": "Mini Dress Collection",
         "collectionDescription": "Mini dress styles for party, club, shoot, and date looks.",
         "editorsNote": "A pink / sky blue mini dress designed with button-accent and chain-accent. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -78719,8 +79535,58 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Dress Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Yes",
+              "Cups": "Built-in cups",
+              "Lining": "Lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Back zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "粉色 / 天蓝色纽扣装饰链条装饰迷你连衣裙",
@@ -78738,12 +79604,12 @@
         "fit": "修身版型",
         "length": "迷你长度",
         "fabric": "聚酯混纺",
-        "lining": "有",
+        "lining": "有内衬",
         "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "后拉链",
         "collectionName": "迷你连衣裙系列",
         "collectionDescription": "适合派对、夜店、拍摄与约会的迷你款式。",
         "editorsNote": "这是一款粉色 / 天蓝色迷你连衣裙，以纽扣装饰、链条装饰为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -78773,8 +79639,58 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "连衣裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "有",
+              "胸垫": "有胸垫",
+              "内衬": "有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "后拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "ピンク / スカイブルーボタンポイントチェーンポイントミニワンピース",
@@ -78795,9 +79711,9 @@
         "lining": "あり",
         "stretch": "あり",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "後ろファスナー",
         "collectionName": "ミニドレスコレクション",
         "collectionDescription": "パーティー・クラブ・撮影・デートに使いやすいミニ丈。",
         "editorsNote": "ボタンポイント・チェーンポイントが映えるピンク / スカイブルーミニワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -78827,10 +79743,116 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "ワンピース実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "39",
+                "Waist": "31",
+                "Hip": "43"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "41.5",
+                "Waist": "33.5",
+                "Hip": "45.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "77",
+                "Sleeve": "-",
+                "Chest": "44",
+                "Waist": "36",
+                "Hip": "48"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "あり",
+              "カップ": "あり",
+              "裏地": "あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "後ろファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "sizeTables": [
+      {
+        "title": "원피스 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "39",
+            "허리단면": "31",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
+            "힙단면": "45.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "77",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "36",
+            "힙단면": "48"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260016",
@@ -78842,7 +79864,7 @@
     "storeName": "글램 미디 원피스",
     "category": "MIDI",
     "color": "베이지/화이트",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 117000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -78885,7 +79907,7 @@
     "desc": "글램미디원피스 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "니트",
-    "stretch": "있음",
+    "stretch": "좋음",
     "see": "없음",
     "lining": "있음",
     "best": true,
@@ -78935,13 +79957,13 @@
         ],
         "fit": "slim silhouette",
         "length": "long length",
-        "fabric": "knit blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "fabric": "knit",
+        "lining": "Lined",
+        "stretch": "Good stretch",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Back zipper",
         "collectionName": "Long Dress Collection",
         "collectionDescription": "Elegant dresses for stage, events, and special occasions.",
         "editorsNote": "A ivory / beige long dress designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -78967,8 +79989,58 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Dress Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Good stretch",
+              "Cups": "Built-in cups",
+              "Lining": "Lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Back zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "象牙白 / 米色针织感长款礼服",
@@ -78985,13 +80057,13 @@
         ],
         "fit": "修身廓形",
         "length": "长款",
-        "fabric": "针织混纺",
-        "lining": "有",
-        "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "fabric": "针织",
+        "lining": "有内衬",
+        "stretch": "弹性好",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "后拉链",
         "collectionName": "长款礼服系列",
         "collectionDescription": "适合舞台、活动与特别场合的优雅礼服。",
         "editorsNote": "这是一款象牙白 / 米色长款礼服，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -79017,8 +80089,58 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "连衣裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "弹性好",
+              "胸垫": "有胸垫",
+              "内衬": "有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "后拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "アイボリー / ベージュニット調ロングドレス",
@@ -79035,13 +80157,13 @@
         ],
         "fit": "スリムシルエット",
         "length": "ロング丈",
-        "fabric": "ニット混紡",
+        "fabric": "ニット",
         "lining": "あり",
-        "stretch": "あり",
+        "stretch": "よく伸びる",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "後ろファスナー",
         "collectionName": "ロングドレスコレクション",
         "collectionDescription": "ステージ・イベント・特別な日に映えるドレス。",
         "editorsNote": "ニット調が映えるアイボリー / ベージュロングドレスです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -79067,10 +80189,116 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "ワンピース実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "よく伸びる",
+              "カップ": "あり",
+              "裏地": "あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "後ろファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "sizeTables": [
+      {
+        "title": "원피스 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "35",
+            "허리단면": "27",
+            "힙단면": "37"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "37.5",
+            "허리단면": "29.5",
+            "힙단면": "39.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "32",
+            "힙단면": "42"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260017",
@@ -85152,7 +86380,7 @@
     "storeName": "글램 미디 원피스 아이보리",
     "category": "MIDI",
     "color": "아이보리",
-    "size": "S,M,L",
+    "size": "55 / 66 / 77",
     "price": 117000,
     "tags": [
       "미디 & 롱 컬렉션",
@@ -85201,7 +86429,7 @@
     "desc": "글램 미디 원피스 아이보리 상품입니다.",
     "recommend": "클럽/파티/방송/행사",
     "fabric": "니트",
-    "stretch": "있음",
+    "stretch": "좋음",
     "see": "없음",
     "lining": "있음",
     "best": true,
@@ -85247,13 +86475,13 @@
         ],
         "fit": "slim silhouette",
         "length": "long length",
-        "fabric": "knit blend",
-        "lining": "yes",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "fabric": "knit",
+        "lining": "Lined",
+        "stretch": "Good stretch",
+        "see": "No",
+        "cap": "Built-in cups",
+        "thickness": "Medium",
+        "zipper": "Back zipper",
         "collectionName": "Long Dress Collection",
         "collectionDescription": "Elegant dresses for stage, events, and special occasions.",
         "editorsNote": "A ivory long dress designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
@@ -85279,8 +86507,58 @@
           "club looks",
           "broadcast or photo shoots"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "Dress Measurements",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "Wear Information",
+            "items": {
+              "Stretch": "Good stretch",
+              "Cups": "Built-in cups",
+              "Lining": "Lined",
+              "Sheer": "No",
+              "Thickness": "Medium",
+              "Zipper": "Back zipper"
+            }
+          }
+        ]
       },
       "zh": {
         "name": "象牙白针织感长款礼服",
@@ -85296,13 +86574,13 @@
         ],
         "fit": "修身廓形",
         "length": "长款",
-        "fabric": "针织混纺",
-        "lining": "有",
-        "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "fabric": "针织",
+        "lining": "有内衬",
+        "stretch": "弹性好",
+        "see": "不透",
+        "cap": "有胸垫",
+        "thickness": "适中",
+        "zipper": "后拉链",
         "collectionName": "长款礼服系列",
         "collectionDescription": "适合舞台、活动与特别场合的优雅礼服。",
         "editorsNote": "这是一款象牙白长款礼服，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
@@ -85328,8 +86606,58 @@
           "夜店穿搭",
           "直播或拍摄"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "连衣裙实测",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "穿着信息",
+            "items": {
+              "弹性": "弹性好",
+              "胸垫": "有胸垫",
+              "内衬": "有内衬",
+              "透视": "不透",
+              "厚度": "适中",
+              "拉链": "后拉链"
+            }
+          }
+        ]
       },
       "ja": {
         "name": "アイボリーニット調ロングドレス",
@@ -85345,13 +86673,13 @@
         ],
         "fit": "スリムシルエット",
         "length": "ロング丈",
-        "fabric": "ニット混紡",
+        "fabric": "ニット",
         "lining": "あり",
-        "stretch": "あり",
+        "stretch": "よく伸びる",
         "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
+        "cap": "あり",
+        "thickness": "普通",
+        "zipper": "後ろファスナー",
         "collectionName": "ロングドレスコレクション",
         "collectionDescription": "ステージ・イベント・特別な日に映えるドレス。",
         "editorsNote": "ニット調が映えるアイボリーロングドレスです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
@@ -85377,10 +86705,116 @@
           "クラブルック",
           "配信・撮影"
         ],
-        "sizeTables": [],
-        "wearTables": []
+        "sizeTables": [
+          {
+            "title": "ワンピース実寸",
+            "columns": [
+              "Size",
+              "Length",
+              "Sleeve",
+              "Chest",
+              "Waist",
+              "Hip"
+            ],
+            "rows": [
+              {
+                "Size": "55(S)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "35",
+                "Waist": "27",
+                "Hip": "37"
+              },
+              {
+                "Size": "66(M)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "37.5",
+                "Waist": "29.5",
+                "Hip": "39.5"
+              },
+              {
+                "Size": "77(L)",
+                "Length": "110",
+                "Sleeve": "-",
+                "Chest": "40",
+                "Waist": "32",
+                "Hip": "42"
+              }
+            ]
+          }
+        ],
+        "wearTables": [
+          {
+            "title": "着用情報",
+            "items": {
+              "伸縮性": "よく伸びる",
+              "カップ": "あり",
+              "裏地": "あり",
+              "透け感": "なし",
+              "厚み": "普通",
+              "ファスナー": "後ろファスナー"
+            }
+          }
+        ]
       }
-    }
+    },
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "sizeTables": [
+      {
+        "title": "원피스 실측",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "35",
+            "허리단면": "27",
+            "힙단면": "37"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "37.5",
+            "허리단면": "29.5",
+            "힙단면": "39.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "110",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "32",
+            "힙단면": "42"
+          }
+        ]
+      }
+    ],
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260037",
