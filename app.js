@@ -13,9 +13,9 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug01section1';
-const KAKAO_URL = 'http://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
-const INSTA_URL = ['https://www.instagram.com', 'dongdaemun_helloapm_nice'].join('/') + '/';
+const VERSION = 'aug01section2';
+const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
+const INSTA_URL = 'https://www.instagram.com/dongdaemun_helloapm_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
 const SMARTSTORE_URL = 'https://smartstore.naver.com/nisshop'; // 스마트스토어 주소
 const VIP_STORAGE_KEY = 'niceVipUntil';
@@ -71,10 +71,10 @@ const I18N = {
     empty: '조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.',
     dataFail: '상품 데이터를 불러오지 못했습니다.',
     communityCopy: '동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문',
-    communityGuide: '쇼룸에서 고른 상품은 네이버에서도 바로 구매할 수 있어요.',
+    communityGuide: '쇼룸에는 매장 셀렉션과 네이버 등록 상품이 함께 소개됩니다.',
     kakaoAsk: '카카오톡 문의',
     vipAuth: 'VIP 인증',
-    smartstoreGo: 'SmartStore 구매하기',
+    smartstoreGo: '네이버 등록상품 보기',
     vipViewSameDay: '당일발송 상품 보기',
     vipClear: '인증해제',
     vipTitle: 'VIP 인증',
@@ -95,8 +95,8 @@ const I18N = {
     twoPieceIntro: '상의와 하의 조합으로 스타일링하기 좋은 투피스 라인입니다.',
     longIntro: '무대, 행사, 특별한 촬영에 어울리는 롱 드레스 라인입니다.',
     editorDesc: '지금 쇼룸에서 먼저 보여드리고 싶은 제품입니다.',
-    smartstoreDesc: '네이버에서 바로 구매 가능한 상품이에요.',
-    smartstoreBest: '네이버 판매중 BEST',
+    smartstoreDesc: '네이버에 등록된 일부 상품을 모아봤어요.',
+    smartstoreBest: '네이버 등록상품 BEST',
     viewAllProducts: '전체 상품 보기',
     julyMore: '7월 신상 더보기',
     editorsMore: '에디터스픽 더보기',
@@ -138,8 +138,8 @@ const I18N = {
     productAsk: 'Product Inquiry', instaAsk: 'Instagram DM', similarTitle: 'Similar Styles', similarDesc: 'Based on {name}, we gathered {profile}styles.', close: 'Close',
     empty: 'No matching products. Send your preferred style on KakaoTalk and we will recommend similar items.', dataFail: 'Product data could not be loaded.',
     communityCopy: 'Dongdaemun Migliore NICE<br>Party looks · Stage outfits · Club looks · Broadcast styling',
-    communityGuide: 'Selected showroom items can be purchased directly on Naver SmartStore.',
-    kakaoAsk: 'KakaoTalk Inquiry', smartstoreGo: 'Shop on SmartStore', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
+    communityGuide: 'The showroom includes both in-store selections and items listed on Naver.',
+    kakaoAsk: 'KakaoTalk Inquiry', smartstoreGo: 'View Naver items', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
     vipDesc: 'View selections available only to VIP customers.', vipPlaceholder: 'Enter VIP code', cancel: 'Cancel', verify: 'Verify', vipOk: 'VIP access confirmed.', vipError: 'Invalid VIP code.',
     fittingAvailable: 'Fitting available', sameDay: 'Same-day',
     showroomIntro: 'Search by mood or length. Send us the product code to quickly check stock and size.',
@@ -147,7 +147,7 @@ const I18N = {
     costumeIntro: 'Costume edit including sailor, school, uniform, and concept looks.', miniIntro: 'Mini dress styles for parties, clubs, and shoots.',
     midiIntro: 'Midi dress styles with a calmer, elevated mood.', twoPieceIntro: 'Two-piece styling with matching tops and bottoms.', longIntro: 'Long dress styles for stage, events, and special shoots.',
     editorDesc: 'Products we want to show first in the showroom.',
-    smartstoreDesc: 'Available to buy on Naver SmartStore.',
+    smartstoreDesc: 'A curated selection of items listed on Naver.',
     smartstoreBest: 'Best on Naver',
     viewAllProducts: 'View all products',
     julyMore: 'View July arrivals',
@@ -184,8 +184,8 @@ const I18N = {
     productAsk: '商品咨询', instaAsk: 'Instagram 私信', similarTitle: '相似款推荐', similarDesc: '以 {name} 为参考，为您整理了 {profile}风格。', close: '关闭',
     empty: '没有符合条件的商品。请通过 KakaoTalk 发送想要的风格，我们会推荐相似款。', dataFail: '无法加载商品数据。',
     communityCopy: '东大门 Migliore NICE<br>派对造型 · 舞台服 · 夜店风 · 直播服装',
-    communityGuide: '展厅精选商品可通过 Naver SmartStore 直接购买。',
-    kakaoAsk: 'KakaoTalk 咨询', smartstoreGo: 'SmartStore 购买', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
+    communityGuide: '展厅同时展示门店精选款和 Naver 上架商品。',
+    kakaoAsk: 'KakaoTalk 咨询', smartstoreGo: '查看 Naver 商品', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
     vipDesc: '显示仅 VIP 顾客可见的精选商品。', vipPlaceholder: '请输入认证码', cancel: '取消', verify: '认证', vipOk: 'VIP 认证完成。', vipError: '认证码不正确。',
     fittingAvailable: '可试穿', sameDay: '当日发货',
     showroomIntro: '可按氛围或长度搜索。喜欢的商品请用商品代码咨询库存和尺码。',
@@ -193,7 +193,7 @@ const I18N = {
     costumeIntro: '包含水手风、校园风、制服风和概念造型的 Costume 系列。', miniIntro: '适合派对、夜店和拍摄的迷你连衣裙系列。',
     midiIntro: '更沉稳高级的中长款连衣裙系列。', twoPieceIntro: '上衣和下装组合的套装系列。', longIntro: '适合舞台、活动和特别拍摄的长裙系列。',
     editorDesc: 'NICE 展厅优先推荐的精选商品。',
-    smartstoreDesc: '可在 Naver SmartStore 购买。',
+    smartstoreDesc: '为您整理了部分已上架 Naver 的商品。',
     smartstoreBest: 'Naver热卖款',
     viewAllProducts: '查看全部商品',
     julyMore: '查看7月新品',
@@ -230,8 +230,8 @@ const I18N = {
     productAsk: '商品問い合わせ', instaAsk: 'Instagram DM', similarTitle: '似た服のおすすめ', similarDesc: '{name}を基準に{profile}スタイルを集めました。', close: '閉じる',
     empty: '条件に合う商品がありません。希望スタイルをKakaoTalkで送っていただければ似た商品をご提案します。', dataFail: '商品データを読み込めませんでした。',
     communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 配信用衣装',
-    communityGuide: 'ショールーム掲載商品は Naver SmartStore から直接購入できます。',
-    kakaoAsk: 'KakaoTalk問い合わせ', smartstoreGo: 'SmartStoreで購入', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
+    communityGuide: 'ショールームには店頭セレクトとNaver掲載商品が一緒に紹介されています。',
+    kakaoAsk: 'KakaoTalk問い合わせ', smartstoreGo: 'Naver掲載商品を見る', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
     vipDesc: 'VIPのお客様限定のセレクションを表示します。', vipPlaceholder: '認証コードを入力してください', cancel: 'キャンセル', verify: '認証', vipOk: 'VIP認証が完了しました。', vipError: '認証コードが正しくありません。',
     fittingAvailable: '試着可', sameDay: '当日発送',
     showroomIntro: '雰囲気や丈で検索できます。気になる商品は商品コードで在庫とサイズを確認できます。',
@@ -239,7 +239,7 @@ const I18N = {
     costumeIntro: 'マリン、セーラー、スクール、ユニフォーム風まで探せるCostumeラインです。', miniIntro: 'パーティー、クラブ、撮影に使いやすいミニワンピースラインです。',
     midiIntro: '落ち着いた高級感のあるミディドレスラインです。', twoPieceIntro: 'トップスとボトムスで完成するツーピースラインです。', longIntro: 'ステージ、イベント、特別な撮影に合うロングドレスラインです。',
     editorDesc: '今ショールームで先にお見せしたい商品です。',
-    smartstoreDesc: 'Naver SmartStoreで購入できます。',
+    smartstoreDesc: 'Naverに掲載中の一部商品をまとめました。',
     smartstoreBest: 'Naver販売中 BEST',
     viewAllProducts: '全商品を見る',
     julyMore: '7月新作を見る',
@@ -468,7 +468,10 @@ const isMiniDressEditProduct = p => {
   const text = productText(p);
   return p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI') || /미니원피스|미니 드레스|mini dress/i.test(text);
 };
-const isPlusFitEditProduct = p => isSize77Available(p) || isSize88Available(p);
+function isJiniProduct(p) {
+  return /^GINI-/.test(codeOf(p)) || /지니|Jini|GINI/i.test(supplierText(p));
+}
+const isPlusFitEditProduct = p => (isSize77Available(p) || isSize88Available(p)) && !isJessicaProduct(p) && !isJiniProduct(p);
 const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
 const isLuxuryCandidate = p => {
   if (p.isLuxury === true) return true;
@@ -1280,10 +1283,10 @@ function communityBlock() {
       <p class="community-guide">${t('communityGuide')}</p>
     </div>
     <div class="community-links">
-      <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener"><span class="kakao-logo">TALK</span><span>${t('kakaoAsk')}</span></a>
-      <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>Instagram</span></a>
+      <a class="community-link kakao community-brand" href="${KAKAO_URL}" target="_blank" rel="noopener noreferrer" data-external="kakao"><span class="kakao-logo">TALK</span><span>${t('kakaoAsk')}</span></a>
+      <a class="community-link insta community-brand" href="${INSTA_URL}" target="_blank" rel="noopener noreferrer" data-external="instagram">${instaIcon()}<span>Instagram</span></a>
       <a class="community-link naver community-brand" href="${BLOG_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>Naver Blog</span></a>
-      <a class="community-link smartstore community-brand" href="${SMARTSTORE_URL}" target="_blank" rel="noopener"><span class="naver-logo">N</span><span>${t('smartstoreGo')}</span></a>
+      <a class="community-link smartstore community-brand" href="${SMARTSTORE_URL}" target="_blank" rel="noopener noreferrer" data-external="smartstore"><span class="naver-logo">N</span><span>${t('smartstoreGo')}</span></a>
     </div>
   </section>`;
 }
@@ -1319,6 +1322,14 @@ function renderHome() {
     ${collectionBlock()}
     ${communityBlock()}`;
   $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
+  $$('[data-external]').forEach(a => a.onclick = e => {
+    const href = a.getAttribute('href');
+    if (!href || href === '#') return;
+    // Some mobile browsers block external links if the tap target is nested in a rendered card.
+    // Explicitly open the configured URL while keeping the normal anchor fallback.
+    const opened = window.open(href, '_blank', 'noopener,noreferrer');
+    if (opened) e.preventDefault();
+  });
   $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
   bindVipControls();
@@ -1611,7 +1622,7 @@ function openDetail(code) {
       <p class="common-note">${t('commonNote')}</p>
       <div class="cta detail-cta">
         <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>${t('productAsk')}</span></button>
-        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener">${instaIcon()}<span>${t('instaAsk')}</span></a>
+        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener noreferrer">${instaIcon()}<span>${t('instaAsk')}</span></a>
       </div>
     </section>
   </div>`;
