@@ -15,7 +15,7 @@ const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
 const VERSION = 'aug01section2';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
-const INSTA_URL = 'https://www.instagram.com/dongdaemun_helloapm_nice/';
+const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
 const SMARTSTORE_URL = 'https://smartstore.naver.com/nisshop'; // 스마트스토어 주소
 const VIP_STORAGE_KEY = 'niceVipUntil';
@@ -471,7 +471,15 @@ const isMiniDressEditProduct = p => {
 function isJiniProduct(p) {
   return /^GINI-/.test(codeOf(p)) || /지니|Jini|GINI/i.test(supplierText(p));
 }
-const isPlusFitEditProduct = p => (isSize77Available(p) || isSize88Available(p)) && !isJessicaProduct(p) && !isJiniProduct(p);
+const COLLECTION_E_EXCLUDED_CODES = new Set([
+  'TIA-S757', 'TIA-S768', 'TIA-S769', 'TIA-S770', 'TIA-S771', 'TIA-S772',
+  'N260167', 'N260168', 'N260217', 'N260125', 'N260147', 'N260154'
+]);
+const isPlusFitEditProduct = p => (isSize77Available(p) || isSize88Available(p))
+  && !isJessicaProduct(p)
+  && !isJiniProduct(p)
+  && !isTiaraProduct(p)
+  && !COLLECTION_E_EXCLUDED_CODES.has(codeOf(p));
 const isOnepieceProduct = p => /원피스|dress/i.test([p.name, p.storeName, p.productName, p.seoName, p.category, p.collectionName, ...(p.tags || [])].join(' '));
 const isLuxuryCandidate = p => {
   if (p.isLuxury === true) return true;
@@ -1325,9 +1333,9 @@ function renderHome() {
   $$('[data-external]').forEach(a => a.onclick = e => {
     const href = a.getAttribute('href');
     if (!href || href === '#') return;
-    // Some mobile browsers block external links if the tap target is nested in a rendered card.
-    // Explicitly open the configured URL while keeping the normal anchor fallback.
-    const opened = window.open(href, '_blank', 'noopener,noreferrer');
+    // Keep normal anchor navigation as fallback, but explicitly open external links
+    // for browsers that ignore nested tap targets. This helps desktop and mobile.
+    const opened = window.open(href, '_blank');
     if (opened) e.preventDefault();
   });
   $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
