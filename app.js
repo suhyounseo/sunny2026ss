@@ -270,6 +270,7 @@ let PRODUCTS = [];
 let FILTER = 'HOME';
 let currentImages = [];
 let currentImageIndex = 0;
+let currentProduct = null;
 let modalHistoryOpen = false;
 let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
@@ -1497,8 +1498,11 @@ function setDetailImage(index) {
   const next = currentImages[currentImageIndex];
   const main = $('#mainImage', detail);
   if (main && next) {
-    main.src = img(next.url);
+    const nextSrc = img(next.url);
+    main.src = nextSrc;
+    main.dataset.full = nextSrc;
     main.dataset.index = String(currentImageIndex);
+    main.alt = `${displayName(currentProduct || {})} ${currentImageIndex + 1}`.trim();
   }
   $$('.thumb', detail).forEach((x, j) => {
     const on = currentImageIndex === j;
@@ -1550,6 +1554,7 @@ function openImageZoom(src, alt) {
     zoom.addEventListener('click', e => {
       if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
         zoom.classList.remove('open');
+        document.body.classList.remove('zoom-open');
       }
     });
   }
@@ -1557,6 +1562,7 @@ function openImageZoom(src, alt) {
   im.src = src;
   im.alt = alt || '';
   zoom.classList.add('open');
+  document.body.classList.add('zoom-open');
 }
 
 
@@ -1572,6 +1578,7 @@ function openImageZoom(src, alt) {
     zoom.addEventListener('click', e => {
       if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
         zoom.classList.remove('open');
+        document.body.classList.remove('zoom-open');
       }
     });
   }
@@ -1579,6 +1586,21 @@ function openImageZoom(src, alt) {
   im.src = src;
   im.alt = alt || '';
   zoom.classList.add('open');
+  document.body.classList.add('zoom-open');
+}
+
+
+function closeImageZoom() {
+  const zoom = document.getElementById('imageZoomModal');
+  if (zoom) zoom.classList.remove('open');
+  document.body.classList.remove('zoom-open');
+}
+
+if (!window.__niceImageZoomEscBound) {
+  window.__niceImageZoomEscBound = true;
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeImageZoom();
+  });
 }
 
 function bindDetailZoom() {
@@ -1599,6 +1621,7 @@ function bindDetailZoom() {
 function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
+  currentProduct = p;
   currentImages = imageListFor(p);
   currentImageIndex = 0;
   const labelTags = [isNew(p) ? 'NEW' : '', (p.steady || hasTag(p, 'STEADY')) ? 'STEADY' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);

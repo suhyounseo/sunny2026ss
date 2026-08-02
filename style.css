@@ -1113,3 +1113,15 @@
   .section-head p{font-size:12px!important;line-height:1.35!important}
   .community-guide{font-size:12.5px!important;margin-top:8px!important}
 }
+
+/* Detail image zoom fix: every selected product image can open large view */
+body.zoom-open{overflow:hidden!important;}
+#mainImage,.zoomable-image{cursor:zoom-in!important;}
+.image-zoom-modal{z-index:99999!important;}
+.image-zoom-modal.open{display:flex!important;}
+.image-zoom-img{max-width:96vw!important;max-height:92vh!important;object-fit:contain!important;}
+@media(max-width:720px){
+  .image-zoom-modal{padding:10px!important;}
+  .image-zoom-img{max-width:98vw!important;max-height:90vh!important;border-radius:10px!important;}
+  .image-zoom-close{right:12px!important;top:12px!important;width:44px!important;height:44px!important;}
+}
