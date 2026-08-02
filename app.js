@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug01section2';
+const VERSION = 'aug02mobilezoom1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1553,8 +1553,7 @@ function openImageZoom(src, alt) {
     document.body.appendChild(zoom);
     zoom.addEventListener('click', e => {
       if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
-        zoom.classList.remove('open');
-        document.body.classList.remove('zoom-open');
+        closeImageZoom();
       }
     });
   }
@@ -1565,28 +1564,18 @@ function openImageZoom(src, alt) {
   document.body.classList.add('zoom-open');
 }
 
+function currentDetailImageSrc() {
+  const fromList = currentImages && currentImages[currentImageIndex] && currentImages[currentImageIndex].url;
+  if (fromList) return img(fromList);
+  const main = $('#mainImage', detail);
+  return main ? (main.dataset.full || main.currentSrc || main.src) : '';
+}
 
-function openImageZoom(src, alt) {
-  if (!src) return;
-  let zoom = document.getElementById('imageZoomModal');
-  if (!zoom) {
-    zoom = document.createElement('div');
-    zoom.id = 'imageZoomModal';
-    zoom.className = 'image-zoom-modal';
-    zoom.innerHTML = `<button class="image-zoom-close" type="button" aria-label="${t('close')}">×</button><img class="image-zoom-img" alt="">`;
-    document.body.appendChild(zoom);
-    zoom.addEventListener('click', e => {
-      if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
-        zoom.classList.remove('open');
-        document.body.classList.remove('zoom-open');
-      }
-    });
-  }
-  const im = zoom.querySelector('.image-zoom-img');
-  im.src = src;
-  im.alt = alt || '';
-  zoom.classList.add('open');
-  document.body.classList.add('zoom-open');
+function openCurrentDetailImage() {
+  const main = $('#mainImage', detail);
+  const src = currentDetailImageSrc();
+  const alt = main ? main.alt : displayName(currentProduct || {});
+  openImageZoom(src, alt);
 }
 
 
@@ -1604,18 +1593,47 @@ if (!window.__niceImageZoomEscBound) {
 }
 
 function bindDetailZoom() {
-  const target = $('#mainImage', detail);
-  if (!target) return;
-  target.onclick = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    openImageZoom(target.dataset.full || target.src, target.alt);
-  };
-  target.ontouchend = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    openImageZoom(target.dataset.full || target.src, target.alt);
-  };
+  const main = $('.detail-main', detail);
+  if (!main || main.dataset.zoomBound === '1') return;
+  main.dataset.zoomBound = '1';
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let touchMoved = false;
+
+  main.addEventListener('touchstart', e => {
+    const t0 = e.touches && e.touches[0];
+    if (!t0) return;
+    touchStartX = t0.clientX;
+    touchStartY = t0.clientY;
+    touchMoved = false;
+  }, { passive: true });
+
+  main.addEventListener('touchmove', e => {
+    const t0 = e.touches && e.touches[0];
+    if (!t0) return;
+    if (Math.abs(t0.clientX - touchStartX) > 12 || Math.abs(t0.clientY - touchStartY) > 12) {
+      touchMoved = true;
+    }
+  }, { passive: true });
+
+  main.addEventListener('touchend', e => {
+    if (touchMoved) return;
+    if (e.target.closest && e.target.closest('.image-nav')) return;
+    if (e.target.closest && e.target.closest('#mainImage, .detail-main')) {
+      e.preventDefault();
+      e.stopPropagation();
+      openCurrentDetailImage();
+    }
+  }, { passive: false });
+
+  main.addEventListener('click', e => {
+    if (e.target.closest && e.target.closest('.image-nav')) return;
+    if (e.target.closest && e.target.closest('#mainImage, .detail-main')) {
+      e.preventDefault();
+      e.stopPropagation();
+      openCurrentDetailImage();
+    }
+  });
 }
 
 function openDetail(code) {
@@ -1672,12 +1690,6 @@ function openDetail(code) {
   });
   bindDetailSwipe();
   bindDetailZoom();
-  const zoomTarget = $('#mainImage', detail);
-  if (zoomTarget) zoomTarget.onclick = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    openImageZoom(zoomTarget.dataset.full || zoomTarget.src, zoomTarget.alt);
-  };
   $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
   $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
   $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
