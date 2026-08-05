@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug05topsupdate1';
+const VERSION = 'aug05topsupdate2';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -272,6 +272,7 @@ let currentImages = [];
 let currentImageIndex = 0;
 let currentProduct = null;
 let modalHistoryOpen = false;
+let searchHistoryActive = false;
 let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
@@ -1785,10 +1786,21 @@ if (langSwitcher) {
   };
 }
 q.oninput = () => {
-  if (q.value.trim() && FILTER === 'HOME') FILTER = 'ALL';
+  const hasSearch = !!q.value.trim();
+  if (hasSearch && FILTER === 'HOME') FILTER = 'ALL';
+  if (!hasSearch) FILTER = 'HOME';
   buildChips();
   render();
-  history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', q.value.trim() ? `#view-${FILTER.toLowerCase()}` : location.pathname);
+  const nextUrl = hasSearch ? `#view-${FILTER.toLowerCase()}` : location.pathname;
+  const nextState = { niceView: true, filter: FILTER, search: q.value };
+  if (hasSearch && !searchHistoryActive) {
+    // 제품번호 검색 후 뒤로가기를 눌렀을 때 브라우저 밖으로 나가지 않고 쇼룸 홈으로 돌아가도록 검색 상태를 1회 push합니다.
+    history.pushState(nextState, '', nextUrl);
+    searchHistoryActive = true;
+  } else {
+    history.replaceState(nextState, '', nextUrl);
+    searchHistoryActive = hasSearch;
+  }
 };
 if (vipModal) {
   $('#vipClose').onclick = closeVipModal;
@@ -1828,6 +1840,7 @@ window.addEventListener('popstate', e => {
   const state = e.state && e.state.niceView ? e.state : { filter: 'HOME', search: '' };
   FILTER = state.filter || 'HOME';
   q.value = state.search || '';
+  searchHistoryActive = !!q.value.trim();
   buildChips();
   render();
 });
@@ -1835,7 +1848,7 @@ fetch('./products.json?v=' + VERSION)
   .then(r => r.json())
   .then(d => {
     PRODUCTS = d.map(normalizeProduct);
-    history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.href);
+    history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
     buildLangSwitcher();
     buildQuick();
