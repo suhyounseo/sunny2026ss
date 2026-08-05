@@ -104259,44 +104259,146 @@
     "origin": "S429",
     "folder": "S429",
     "supplier": "티아라",
-    "zipFolder": "티아라/S429",
+    "zipFolder": "S429",
     "name": "터틀넥 민소매 탑",
     "storeName": "터틀넥 민소매 탑",
     "category": "TOP",
-    "color": "화이트/핑크/베이지",
+    "color": "아이보리/핑크/베이지/민트/블랙/소라/라벤더",
     "size": "S,M,L",
-    "price": 48000,
+    "price": 32000,
     "tags": [
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "TOP"
+      "NEW",
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "기본템",
+      "민소매탑",
+      "하이넥",
+      "말랑티",
+      "S429",
+      "터틀넥 민소매 탑",
+      "아이보리/핑크/베이지/민트/블랙/소라/라벤더"
     ],
     "images": [
       "assets/N260110_01.jpg",
       "assets/N260110_02.jpg",
-      "assets/N260110_03.jpg",
-      "assets/N260110_04.jpg"
+      "assets/N260110_03.png",
+      "assets/N260110_04.png",
+      "assets/N260110_05.png",
+      "assets/N260110_06.jpg",
+      "assets/N260110_07.jpg",
+      "assets/N260110_08.jpg",
+      "assets/N260110_09.jpg",
+      "assets/N260110_10.jpg",
+      "assets/N260110_11.jpg",
+      "assets/N260110_12.png",
+      "assets/N260110_13.png",
+      "assets/N260110_14.png",
+      "assets/N260110_15.jpg",
+      "assets/N260110_16.jpg",
+      "assets/N260110_17.jpg",
+      "assets/N260110_18.jpg",
+      "assets/N260110_19.png"
     ],
     "cuts": [
       {
         "url": "assets/N260110_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S429/img_xl_3_kxhkna.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260110_02.jpg"
       },
       {
-        "url": "assets/N260110_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S429/img_xl_4_fk45qc.jpg"
+        "url": "assets/N260110_03.png",
+        "cut": "상세 3",
+        "source": "assets/N260110_03.png"
       },
       {
-        "url": "assets/N260110_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S429/img_xl_5_g6y6me.jpg"
+        "url": "assets/N260110_04.png",
+        "cut": "상세 4",
+        "source": "assets/N260110_04.png"
+      },
+      {
+        "url": "assets/N260110_05.png",
+        "cut": "상세 5",
+        "source": "assets/N260110_05.png"
+      },
+      {
+        "url": "assets/N260110_06.jpg",
+        "cut": "상세 6",
+        "source": "assets/N260110_06.jpg"
+      },
+      {
+        "url": "assets/N260110_07.jpg",
+        "cut": "상세 7",
+        "source": "assets/N260110_07.jpg"
+      },
+      {
+        "url": "assets/N260110_08.jpg",
+        "cut": "상세 8",
+        "source": "assets/N260110_08.jpg"
+      },
+      {
+        "url": "assets/N260110_09.jpg",
+        "cut": "상세 9",
+        "source": "assets/N260110_09.jpg"
+      },
+      {
+        "url": "assets/N260110_10.jpg",
+        "cut": "상세 10",
+        "source": "assets/N260110_10.jpg"
+      },
+      {
+        "url": "assets/N260110_11.jpg",
+        "cut": "상세 11",
+        "source": "assets/N260110_11.jpg"
+      },
+      {
+        "url": "assets/N260110_12.png",
+        "cut": "상세 12",
+        "source": "assets/N260110_12.png"
+      },
+      {
+        "url": "assets/N260110_13.png",
+        "cut": "상세 13",
+        "source": "assets/N260110_13.png"
+      },
+      {
+        "url": "assets/N260110_14.png",
+        "cut": "상세 14",
+        "source": "assets/N260110_14.png"
+      },
+      {
+        "url": "assets/N260110_15.jpg",
+        "cut": "상세 15",
+        "source": "assets/N260110_15.jpg"
+      },
+      {
+        "url": "assets/N260110_16.jpg",
+        "cut": "상세 16",
+        "source": "assets/N260110_16.jpg"
+      },
+      {
+        "url": "assets/N260110_17.jpg",
+        "cut": "상세 17",
+        "source": "assets/N260110_17.jpg"
+      },
+      {
+        "url": "assets/N260110_18.jpg",
+        "cut": "상세 18",
+        "source": "assets/N260110_18.jpg"
+      },
+      {
+        "url": "assets/N260110_19.png",
+        "cut": "상세 19",
+        "source": "assets/N260110_19.png"
       }
     ],
-    "desc": "터틀넥 민소매 탑 3color 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "니트",
+    "desc": "목 늘어짐이 심하지 않고 촉감이 부드러운 기본 아이템입니다. 손세탁 기준 관리 시 변형을 줄이며 오래 활용하기 좋습니다.",
+    "recommend": "가볍게 구매하기 좋은 기본 아이템으로, 스커트·데님·자켓 이너까지 폭넓게 활용 가능합니다.",
+    "fabric": "폴리혼방",
     "stretch": "좋음",
     "see": "있음",
     "lining": "부분",
@@ -104305,7 +104407,7 @@
     "name_jp": "タートルネック ノースリーブ トップス",
     "mainImage": "assets/N260110_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "sizeInfo": "아이보리 / 크림 / 베이지 / 연핑크 / 체리핑크 / 라벤더 / 민트 / 소라 / 블랙",
     "externalSource": {
       "site": "judyshop",
@@ -104317,180 +104419,99 @@
       ]
     },
     "whyYoullLoveIt": [
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
-      "상체 라인을 가볍게 살려주는 탑 디자인"
+      "저렴해 보이지 않는 깔끔한 슬림핏",
+      "비침이 과하지 않아 단독 착용도 부담 적음",
+      "여러 컬러로 데일리 코디와 이너 코디에 활용"
     ],
     "points": [
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일",
-      "상체 라인을 가볍게 살려주는 탑 디자인"
+      "저렴해 보이지 않는 깔끔한 슬림핏",
+      "비침이 과하지 않아 단독 착용도 부담 적음",
+      "여러 컬러로 데일리 코디와 이너 코디에 활용"
     ],
-    "editorsNote": "탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260110_04.jpg",
+    "editorsNote": "터틀넥 민소매 탑은(는) 기본으로 입기 좋은 하이넥 슬리브리스 니트 탑 상품입니다. 상품코드 N260110로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260110_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "티아라",
     "brand": "",
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
     "thumbnail": "assets/N260110_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Pink / Beige Knit-textured Two-piece Set",
-        "storeName": "Ivory / Pink / Beige Knit-textured Two-piece Set",
-        "productName": "Ivory / Pink / Beige Knit-textured Two-piece Set",
-        "mainCopy": "Ivory / pink / beige two-piece set with knit-textured",
-        "desc": "A ivory / pink / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / pink / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / pink / beige",
-        "colors": [
-          "ivory",
-          "pink",
-          "beige"
+    "supplierProductNo": "S429",
+    "productName": "터틀넥 민소매 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "베이지",
+      "민트",
+      "블랙",
+      "소라",
+      "라벤더"
+    ],
+    "new": true,
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/하이넥",
+    "length": "크롭 탑",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "기본으로 입기 좋은 하이넥 슬리브리스 니트 탑",
+    "styleTags": [
+      "터틀넥 민소매 탑",
+      "TOP",
+      "아이보리/핑크/베이지/민트/블랙/소라/라벤더",
+      "저렴해 보이지 않는 깔끔한 슬림핏",
+      "비침이 과하지 않아 단독 착용도 부담 적음",
+      "여러 컬러로 데일리 코디와 이너 코디에 활용"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "목 늘어짐이 심하지 않고 촉감이 부드러운 기본 아이템입니다. 손세탁 기준 관리 시 변형을 줄이며 오래 활용하기 좋습니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "knit blend",
-        "lining": "available on request",
-        "stretch": "high",
-        "see": "yes",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / pink / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "knit-textured"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "knit-textured",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 粉色 / 米色针织感两件套",
-        "storeName": "象牙白 / 粉色 / 米色针织感两件套",
-        "productName": "象牙白 / 粉色 / 米色针织感两件套",
-        "mainCopy": "象牙白 / 粉色 / 米色针织感两件套",
-        "desc": "这是一款象牙白 / 粉色 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 粉色 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 粉色 / 米色",
-        "colors": [
-          "象牙白",
-          "粉色",
-          "米色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "针织混纺",
-        "lining": "请咨询确认",
-        "stretch": "较好",
-        "see": "有",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 粉色 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "针织感"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "针织感",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ピンク / ベージュニット調ツーピース",
-        "storeName": "アイボリー / ピンク / ベージュニット調ツーピース",
-        "productName": "アイボリー / ピンク / ベージュニット調ツーピース",
-        "mainCopy": "アイボリー / ピンク / ベージュニット調ツーピース",
-        "desc": "ニット調が映えるアイボリー / ピンク / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "ニット調が映えるアイボリー / ピンク / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ピンク / ベージュ",
-        "colors": [
-          "アイボリー",
-          "ピンク",
-          "ベージュ"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ニット混紡",
-        "lining": "お問い合わせください",
-        "stretch": "高め",
-        "see": "あり",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "ニット調が映えるアイボリー / ピンク / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "ニット調"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "ニット調",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "43",
+            "소매": "-",
+            "가슴": "34",
+            "허리": "27"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260111",
@@ -104766,45 +104787,75 @@
     "origin": "S431",
     "folder": "S431",
     "supplier": "티아라",
-    "zipFolder": "티아라/S431",
+    "zipFolder": "S431",
     "name": "레이스 코르셋 탑",
     "storeName": "레이스 코르셋 탑",
     "category": "TOP",
-    "color": "핑크/블랙",
+    "color": "아이보리/블랙",
     "size": "S,M,L",
     "price": 65000,
     "tags": [
-      "투피스 & 상하의 컬렉션",
-      "LUXURY",
-      "PARTY",
-      "RECOMMEND",
-      "TOP"
+      "NEW",
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S431",
+      "레이스 코르셋 탑",
+      "아이보리/블랙"
     ],
     "images": [
       "assets/N260112_01.jpg",
-      "assets/N260112_02.jpg",
+      "assets/N260112_02.png",
       "assets/N260112_03.jpg",
-      "assets/N260112_04.jpg"
+      "assets/N260112_04.jpg",
+      "assets/N260112_05.jpg",
+      "assets/N260112_06.jpg",
+      "assets/N260112_07.jpg",
+      "assets/N260112_08.jpg"
     ],
     "cuts": [
       {
-        "url": "assets/N260112_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S431/img_xl_2_ame315.jpg"
+        "url": "assets/N260112_02.png",
+        "cut": "상세 2",
+        "source": "assets/N260112_02.png"
       },
       {
         "url": "assets/N260112_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S431/img_xl_3_kkkynk.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260112_03.jpg"
       },
       {
         "url": "assets/N260112_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S431/img_xl_4_b625qz.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260112_04.jpg"
+      },
+      {
+        "url": "assets/N260112_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260112_05.jpg"
+      },
+      {
+        "url": "assets/N260112_06.jpg",
+        "cut": "상세 6",
+        "source": "assets/N260112_06.jpg"
+      },
+      {
+        "url": "assets/N260112_07.jpg",
+        "cut": "상세 7",
+        "source": "assets/N260112_07.jpg"
+      },
+      {
+        "url": "assets/N260112_08.jpg",
+        "cut": "상세 8",
+        "source": "assets/N260112_08.jpg"
       }
     ],
-    "desc": "레이스 코르셋 탑 2color 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "허리 라인이 강조되는 코르셋 무드에 레이스 포인트가 더해져 파티룩과 클럽룩에 잘 어울리는 상의입니다.",
+    "recommend": "슬림 스커트나 플레어 스커트와 함께 코디하면 존재감 있는 파티룩으로 좋습니다.",
     "fabric": "레이스",
     "stretch": "있음",
     "see": "없음",
@@ -104814,186 +104865,110 @@
     "name_jp": "レース コルセット トップス",
     "mainImage": "assets/N260112_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "우아한 섹시미를 살려주는 레이스 디테일",
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인"
+      "코르셋 라인으로 상체 실루엣 강조",
+      "레이스 포인트로 여성스러운 분위기",
+      "스커트와 매치했을 때 완성도 높은 투피스 무드"
     ],
     "points": [
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "우아한 섹시미를 살려주는 레이스 디테일",
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인"
+      "코르셋 라인으로 상체 실루엣 강조",
+      "레이스 포인트로 여성스러운 분위기",
+      "스커트와 매치했을 때 완성도 높은 투피스 무드"
     ],
-    "editorsNote": "레이스와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260112_04.jpg",
+    "editorsNote": "레이스 코르셋 탑은(는) 레이스와 코르셋 라인이 상체를 또렷하게 잡아주는 탑 상품입니다. 상품코드 N260112로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260112_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "티아라",
     "brand": "",
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
     "thumbnail": "assets/N260112_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Black / Pink Lace Two-piece Set",
-        "storeName": "Black / Pink Lace Two-piece Set",
-        "productName": "Black / Pink Lace Two-piece Set",
-        "mainCopy": "Black / pink two-piece set with lace",
-        "desc": "A black / pink two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A black / pink two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "black / pink",
-        "colors": [
-          "black",
-          "pink"
+    "supplierProductNo": "S431",
+    "productName": "레이스 코르셋 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ],
+    "new": true,
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/코르셋 라인",
+    "length": "크롭 탑",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "레이스와 코르셋 라인이 상체를 또렷하게 잡아주는 탑",
+    "styleTags": [
+      "레이스 코르셋 탑",
+      "TOP",
+      "아이보리/블랙",
+      "코르셋 라인으로 상체 실루엣 강조",
+      "레이스 포인트로 여성스러운 분위기",
+      "스커트와 매치했을 때 완성도 높은 투피스 무드"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "허리 라인이 강조되는 코르셋 무드에 레이스 포인트가 더해져 파티룩과 클럽룩에 잘 어울리는 상의입니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "lace",
-        "lining": "no",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A black / pink two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Soft lace texture brings a luxurious finish",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Soft lace texture brings a luxurious finish",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "lace"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "lace",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "黑色 / 粉色蕾丝两件套",
-        "storeName": "黑色 / 粉色蕾丝两件套",
-        "productName": "黑色 / 粉色蕾丝两件套",
-        "mainCopy": "黑色 / 粉色蕾丝两件套",
-        "desc": "这是一款黑色 / 粉色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款黑色 / 粉色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "黑色 / 粉色",
-        "colors": [
-          "黑色",
-          "粉色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "蕾丝",
-        "lining": "无",
-        "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款黑色 / 粉色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "蕾丝质感提升整体高级感",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "蕾丝质感提升整体高级感",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "蕾丝"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "蕾丝",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "ブラック / ピンクレースツーピース",
-        "storeName": "ブラック / ピンクレースツーピース",
-        "productName": "ブラック / ピンクレースツーピース",
-        "mainCopy": "ブラック / ピンクレースツーピース",
-        "desc": "レースが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "レースが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "ブラック / ピンク",
-        "colors": [
-          "ブラック",
-          "ピンク"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "レース",
-        "lining": "なし",
-        "stretch": "あり",
-        "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "レースが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "レースの質感が華やかさを演出",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "レースの質感が華やかさを演出",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "レース"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "レース",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "42",
+            "소매": "-",
+            "가슴": "33(밴딩)",
+            "허리": "30"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "42",
+            "소매": "-",
+            "가슴": "35.5(밴딩)",
+            "허리": "32.5"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260113",
     "origin": "S432",
     "folder": "S432",
     "supplier": "티아라",
-    "zipFolder": "티아라/S432",
+    "zipFolder": "S432",
     "name": "플라워 쉬폰 나시 탑",
     "storeName": "플라워 쉬폰 나시 탑",
     "category": "TOP",
@@ -105001,37 +104976,61 @@
     "size": "S,M,L",
     "price": 64000,
     "tags": [
-      "투피스 & 상하의 컬렉션",
-      "LUXURY",
-      "PARTY",
-      "RECOMMEND",
-      "TOP"
+      "NEW",
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S432",
+      "플라워 쉬폰 나시 탑",
+      "화이트/핑크/블랙"
     ],
     "images": [
       "assets/N260113_01.jpg",
       "assets/N260113_02.jpg",
       "assets/N260113_03.jpg",
-      "assets/N260113_04.jpg"
+      "assets/N260113_04.jpg",
+      "assets/N260113_05.png",
+      "assets/N260113_06.png",
+      "assets/N260113_07.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260113_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S432/img_xl_2_qy89rr.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260113_02.jpg"
       },
       {
         "url": "assets/N260113_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S432/img_xl_3_eogvsh.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260113_03.jpg"
       },
       {
         "url": "assets/N260113_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S432/img_xl_4_ttx9yl.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260113_04.jpg"
+      },
+      {
+        "url": "assets/N260113_05.png",
+        "cut": "상세 5",
+        "source": "assets/N260113_05.png"
+      },
+      {
+        "url": "assets/N260113_06.png",
+        "cut": "상세 6",
+        "source": "assets/N260113_06.png"
+      },
+      {
+        "url": "assets/N260113_07.jpg",
+        "cut": "상세 7",
+        "source": "assets/N260113_07.jpg"
       }
     ],
-    "desc": "플라워 쉬폰 나시 탑 3color 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "가벼운 쉬폰 포인트가 상체를 부드럽게 살려주며, 스커트와 함께 입었을 때 러블리한 파티 무드가 살아납니다.",
+    "recommend": "러블리한 파티룩, 데이트룩, 촬영룩 상의로 추천드립니다.",
     "fabric": "폴리혼방",
     "stretch": "있음",
     "see": "없음",
@@ -105041,189 +105040,111 @@
     "name_jp": "フラワー シフォン ノースリーブトップ",
     "mainImage": "assets/N260113_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "가볍고 여리한 분위기를 더하는 쉬폰 소재감",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
+      "플라워 쉬폰 포인트로 여리한 분위기",
+      "가볍고 여성스러운 상체 실루엣",
+      "화이트·핑크·블랙 컬러로 다양한 코디 가능"
     ],
     "points": [
-      "가볍고 여리한 분위기를 더하는 쉬폰 소재감",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
+      "플라워 쉬폰 포인트로 여리한 분위기",
+      "가볍고 여성스러운 상체 실루엣",
+      "화이트·핑크·블랙 컬러로 다양한 코디 가능"
     ],
-    "editorsNote": "쉬폰과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260113_03.jpg",
+    "editorsNote": "플라워 쉬폰 나시 탑은(는) 플라워 쉬폰 디테일이 여리한 분위기를 만들어주는 나시 탑 상품입니다. 상품코드 N260113로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260113_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "티아라",
     "brand": "",
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
     "thumbnail": "assets/N260113_03.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Black / Pink Floral Accent Two-piece Set",
-        "storeName": "Ivory / Black / Pink Floral Accent Two-piece Set",
-        "productName": "Ivory / Black / Pink Floral Accent Two-piece Set",
-        "mainCopy": "Ivory / black / pink two-piece set with floral accent",
-        "desc": "A ivory / black / pink two-piece set designed with floral accent. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / black / pink two-piece set designed with floral accent. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / black / pink",
-        "colors": [
-          "ivory",
-          "black",
-          "pink"
+    "supplierProductNo": "S432",
+    "productName": "플라워 쉬폰 나시 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "화이트",
+      "핑크",
+      "블랙"
+    ],
+    "new": true,
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/쉬폰 포인트",
+    "length": "크롭 탑",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "플라워 쉬폰 디테일이 여리한 분위기를 만들어주는 나시 탑",
+    "styleTags": [
+      "플라워 쉬폰 나시 탑",
+      "TOP",
+      "화이트/핑크/블랙",
+      "플라워 쉬폰 포인트로 여리한 분위기",
+      "가볍고 여성스러운 상체 실루엣",
+      "화이트·핑크·블랙 컬러로 다양한 코디 가능"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "가벼운 쉬폰 포인트가 상체를 부드럽게 살려주며, 스커트와 함께 입었을 때 러블리한 파티 무드가 살아납니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "available on request",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / black / pink two-piece set designed with floral accent. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "floral accent"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "floral accent",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 黑色 / 粉色花朵点缀两件套",
-        "storeName": "象牙白 / 黑色 / 粉色花朵点缀两件套",
-        "productName": "象牙白 / 黑色 / 粉色花朵点缀两件套",
-        "mainCopy": "象牙白 / 黑色 / 粉色花朵点缀两件套",
-        "desc": "这是一款象牙白 / 黑色 / 粉色两件套，以花朵点缀为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 黑色 / 粉色两件套，以花朵点缀为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 黑色 / 粉色",
-        "colors": [
-          "象牙白",
-          "黑色",
-          "粉色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "请咨询确认",
-        "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 黑色 / 粉色两件套，以花朵点缀为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "花朵点缀"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "花朵点缀",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ブラック / ピンクフラワーポイントツーピース",
-        "storeName": "アイボリー / ブラック / ピンクフラワーポイントツーピース",
-        "productName": "アイボリー / ブラック / ピンクフラワーポイントツーピース",
-        "mainCopy": "アイボリー / ブラック / ピンクフラワーポイントツーピース",
-        "desc": "フラワーポイントが映えるアイボリー / ブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "フラワーポイントが映えるアイボリー / ブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ブラック / ピンク",
-        "colors": [
-          "アイボリー",
-          "ブラック",
-          "ピンク"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "お問い合わせください",
-        "stretch": "あり",
-        "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "フラワーポイントが映えるアイボリー / ブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "フラワーポイント"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "フラワーポイント",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "뒤36-앞50",
+            "소매": "-",
+            "가슴": "33(밴딩)",
+            "허리": "30"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "뒤36-앞50",
+            "소매": "-",
+            "가슴": "35.5(밴딩)",
+            "허리": "32.5"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260114",
     "origin": "S433",
     "folder": "S433",
     "supplier": "티아라",
-    "zipFolder": "티아라/S433",
+    "zipFolder": "S433",
     "name": "레이스 코르셋 뷔스티에",
     "storeName": "레이스 코르셋 뷔스티에",
     "category": "TOP",
@@ -105231,250 +105152,188 @@
     "size": "S,M,L",
     "price": 63000,
     "tags": [
-      "투피스 & 상하의 컬렉션",
-      "LUXURY",
-      "PARTY",
-      "RECOMMEND",
-      "TOP",
-      "원피스",
-      "핑크",
-      "블랙",
+      "NEW",
+      "탑",
+      "블라우스",
+      "상의",
       "파티룩",
-      "촬영룩",
-      "NICE"
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S433",
+      "레이스 코르셋 뷔스티에",
+      "핑크/블랙"
     ],
     "images": [
       "assets/N260114_01.jpg",
       "assets/N260114_02.jpg",
       "assets/N260114_03.jpg",
-      "assets/N260114_04.jpg"
+      "assets/N260114_04.jpg",
+      "assets/N260114_05.jpg",
+      "assets/N260114_06.png",
+      "assets/N260114_07.png",
+      "assets/N260114_08.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260114_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S433/img_xl_2_izwogc.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260114_02.jpg"
       },
       {
         "url": "assets/N260114_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S433/img_xl_3_xm9ihe.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260114_03.jpg"
       },
       {
         "url": "assets/N260114_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S433/img_xl_rhlob3.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260114_04.jpg"
+      },
+      {
+        "url": "assets/N260114_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260114_05.jpg"
+      },
+      {
+        "url": "assets/N260114_06.png",
+        "cut": "상세 6",
+        "source": "assets/N260114_06.png"
+      },
+      {
+        "url": "assets/N260114_07.png",
+        "cut": "상세 7",
+        "source": "assets/N260114_07.png"
+      },
+      {
+        "url": "assets/N260114_08.jpg",
+        "cut": "상세 8",
+        "source": "assets/N260114_08.jpg"
       }
     ],
-    "desc": "핑크/블랙 컬러가 전체 라인을 깔끔하게 정돈해 주는 NICE 셀렉션 상품입니다.",
-    "recommend": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
-    "fabric": "사진 기준 추정 금지. 거래처 입고표 또는 상품택 확인 후 확정",
-    "stretch": "신축성 확인 필요",
-    "see": "비침 여부 확인 필요",
-    "lining": "안감 있음/없음 확인 필요",
+    "desc": "허리와 상체 라인을 또렷하게 보여주는 코르셋 실루엣에 레이스 포인트가 더해져 여성스럽고 과하지 않은 포인트룩을 완성합니다.",
+    "recommend": "스커트와 매치해 클럽룩, 파티룩, 촬영룩 상의로 활용하기 좋습니다.",
+    "fabric": "레이스스판",
+    "stretch": "좋음",
+    "see": "비침없음",
+    "lining": "있음",
     "name_en": "Lace Corset Bustier",
     "name_cn": "蕾丝 束身 抹胸上衣",
     "name_jp": "レース コルセット ビスチェ",
     "mainImage": "assets/N260114_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "착용 라인을 깔끔하게 정돈하는 실루엣",
-      "핑크/블랙 컬러로 룩의 분위기를 또렷하게 연출",
-      "S,M,L 사이즈 기준 피팅 상담 권장"
+      "코르셋 실루엣으로 상체 라인 강조",
+      "레이스 디테일로 여성스러운 분위기",
+      "핑크와 블랙 컬러로 러블리·시크 무드 모두 가능"
     ],
     "points": [
-      "착용 라인을 깔끔하게 정돈하는 실루엣",
-      "핑크/블랙 컬러로 룩의 분위기를 또렷하게 연출",
-      "S,M,L 사이즈 기준"
+      "코르셋 실루엣으로 상체 라인 강조",
+      "레이스 디테일로 여성스러운 분위기",
+      "핑크와 블랙 컬러로 러블리·시크 무드 모두 가능"
     ],
-    "editorsNote": "레이스 포인트가 과하지 않게 글램한 무드를 만들어주는 탑입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
+    "editorsNote": "레이스 코르셋 뷔스티에은(는) 레이스와 코르셋 무드가 돋보이는 크롭 뷔스티에 상품입니다. 상품코드 N260114로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
     "searchStatus": "확인필요",
     "sizeGuide": "현재 표기: S,M,L. 옵션별 실측과 신축성에 따라 추천 사이즈 문구 보강 필요.",
     "sizeInfo": "확인 필요",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
-    "thickness": "두께감 확인 필요",
+    "thickness": "보통",
     "seoName": "레이스 코르셋 뷔스티에",
-    "thumbImage": "assets/N260114_04.jpg",
+    "thumbImage": "assets/N260114_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "티아라",
     "brand": "",
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
     "thumbnail": "assets/N260114_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Black / Pink Lace Contrast-line Two-piece Set",
-        "storeName": "Black / Pink Lace Contrast-line Two-piece Set",
-        "productName": "Black / Pink Lace Contrast-line Two-piece Set",
-        "mainCopy": "Black / pink two-piece set with lace and contrast-line",
-        "desc": "A black / pink two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "description": "A black / pink two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "recommend": "Recommended for parties, broadcast or photo shoots and date looks.",
-        "color": "black / pink",
-        "colors": [
-          "black",
-          "pink"
+    "supplierProductNo": "S433",
+    "productName": "레이스 코르셋 뷔스티에",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "핑크",
+      "블랙"
+    ],
+    "new": true,
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/코르셋 라인",
+    "length": "크롭 뷔스티에",
+    "cap": "가슴패드",
+    "zipper": "없음",
+    "mainCopy": "레이스와 코르셋 무드가 돋보이는 크롭 뷔스티에",
+    "styleTags": [
+      "레이스 코르셋 뷔스티에",
+      "TOP",
+      "핑크/블랙",
+      "코르셋 실루엣으로 상체 라인 강조",
+      "레이스 디테일로 여성스러운 분위기",
+      "핑크와 블랙 컬러로 러블리·시크 무드 모두 가능"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "허리와 상체 라인을 또렷하게 보여주는 코르셋 실루엣에 레이스 포인트가 더해져 여성스럽고 과하지 않은 포인트룩을 완성합니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "가슴",
+          "허리",
+          "총기장"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "fabric details available on request",
-        "lining": "yes",
-        "stretch": "available on request",
-        "see": "available on request",
-        "cap": "",
-        "thickness": "available on request",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A black / pink two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "points": [
-          "Soft lace texture brings a luxurious finish",
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Soft lace texture brings a luxurious finish",
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "lace",
-          "contrast-line"
-        ],
-        "sceneTags": [
-          "parties",
-          "broadcast or photo shoots",
-          "date looks"
-        ],
-        "tags": [
-          "lace",
-          "contrast-line",
-          "parties",
-          "broadcast or photo shoots",
-          "date looks"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "黑色 / 粉色蕾丝撞色线条两件套",
-        "storeName": "黑色 / 粉色蕾丝撞色线条两件套",
-        "productName": "黑色 / 粉色蕾丝撞色线条两件套",
-        "mainCopy": "黑色 / 粉色蕾丝、撞色线条两件套",
-        "desc": "这是一款黑色 / 粉色两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "description": "这是一款黑色 / 粉色两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "recommend": "推荐用于派对、直播或拍摄、约会穿搭。",
-        "color": "黑色 / 粉色",
-        "colors": [
-          "黑色",
-          "粉色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "面料信息请咨询确认",
-        "lining": "有",
-        "stretch": "请咨询确认",
-        "see": "请咨询确认",
-        "cap": "",
-        "thickness": "请咨询确认",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款黑色 / 粉色两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "points": [
-          "蕾丝质感提升整体高级感",
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "蕾丝质感提升整体高级感",
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "蕾丝",
-          "撞色线条"
-        ],
-        "sceneTags": [
-          "派对",
-          "直播或拍摄",
-          "约会穿搭"
-        ],
-        "tags": [
-          "蕾丝",
-          "撞色线条",
-          "派对",
-          "直播或拍摄",
-          "约会穿搭"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "ブラック / ピンクレース配色ラインツーピース",
-        "storeName": "ブラック / ピンクレース配色ラインツーピース",
-        "productName": "ブラック / ピンクレース配色ラインツーピース",
-        "mainCopy": "ブラック / ピンクレース・配色ラインツーピース",
-        "desc": "レース・配色ラインが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "description": "レース・配色ラインが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "recommend": "パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "color": "ブラック / ピンク",
-        "colors": [
-          "ブラック",
-          "ピンク"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "素材情報はお問い合わせください",
-        "lining": "あり",
-        "stretch": "お問い合わせください",
-        "see": "お問い合わせください",
-        "cap": "",
-        "thickness": "お問い合わせください",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "レース・配色ラインが映えるブラック / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "points": [
-          "レースの質感が華やかさを演出",
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "レースの質感が華やかさを演出",
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "レース",
-          "配色ライン"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "配信・撮影",
-          "デートスタイル"
-        ],
-        "tags": [
-          "レース",
-          "配色ライン",
-          "パーティー",
-          "配信・撮影",
-          "デートスタイル"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "가슴": "32",
+            "허리": "27",
+            "총기장": "48/40(끈조절)"
+          },
+          {
+            "사이즈": "66(M)",
+            "가슴": "34.5",
+            "허리": "29.5",
+            "총기장": "48/40(끈조절)"
+          },
+          {
+            "사이즈": "77(L)",
+            "가슴": "37",
+            "허리": "32",
+            "총기장": "48/40(끈조절)"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스스판",
+          "신축성": "좋음",
+          "캡여부": "가슴패드",
+          "안감": "있음",
+          "비침": "비침없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260115",
     "origin": "S437",
     "folder": "S437",
     "supplier": "티아라",
-    "zipFolder": "티아라/S437",
+    "zipFolder": "S437",
     "name": "자수 장식 리브 탑",
     "storeName": "자수 장식 리브 탑",
     "category": "TOP",
@@ -105482,219 +105341,160 @@
     "size": "S,M,L",
     "price": 57000,
     "tags": [
-      "투피스 & 상하의 컬렉션",
-      "LUXURY",
-      "PARTY",
-      "RECOMMEND",
-      "TOP"
+      "NEW",
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S437",
+      "자수 장식 리브 탑",
+      "화이트/베이지"
     ],
     "images": [
       "assets/N260115_01.jpg",
       "assets/N260115_02.jpg",
       "assets/N260115_03.jpg",
-      "assets/N260115_04.jpg"
+      "assets/N260115_04.jpg",
+      "assets/N260115_05.png",
+      "assets/N260115_06.png",
+      "assets/N260115_07.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260115_02.jpg",
-        "cut": "후면",
-        "source": "티아라/S437/img_xl_2_yvwnij.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260115_02.jpg"
       },
       {
         "url": "assets/N260115_03.jpg",
-        "cut": "측면",
-        "source": "티아라/S437/img_xl_3_fd740c.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260115_03.jpg"
       },
       {
         "url": "assets/N260115_04.jpg",
-        "cut": "확대/디테일",
-        "source": "티아라/S437/img_xl_yc8ha3.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260115_04.jpg"
+      },
+      {
+        "url": "assets/N260115_05.png",
+        "cut": "상세 5",
+        "source": "assets/N260115_05.png"
+      },
+      {
+        "url": "assets/N260115_06.png",
+        "cut": "상세 6",
+        "source": "assets/N260115_06.png"
+      },
+      {
+        "url": "assets/N260115_07.jpg",
+        "cut": "상세 7",
+        "source": "assets/N260115_07.jpg"
       }
     ],
-    "desc": "자수 장식 리브 탑 3color 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "바디라인을 자연스럽게 잡아주는 리브 조직에 자수 포인트가 더해져, 기본 상의보다 조금 더 특별한 느낌을 줍니다.",
+    "recommend": "기본템보다 포인트 있는 상의를 찾는 고객에게 추천드립니다.",
     "fabric": "니트",
     "stretch": "좋음",
-    "see": "있음",
+    "see": "없음",
     "lining": "없음",
     "name_en": "Embroidery Embellished Ribbed Top",
     "name_cn": "刺绣 装饰 罗纹 上衣",
     "name_jp": "刺繍 装飾 リブ トップス",
     "mainImage": "assets/N260115_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "디테일이 살아있는 자수 포인트"
+      "리브 조직으로 편안하게 잡히는 슬림핏",
+      "자수 장식으로 은근한 포인트",
+      "스커트와 데님 모두 코디 가능한 활용도"
     ],
     "points": [
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "디테일이 살아있는 자수 포인트"
+      "리브 조직으로 편안하게 잡히는 슬림핏",
+      "자수 장식으로 은근한 포인트",
+      "스커트와 데님 모두 코디 가능한 활용도"
     ],
-    "editorsNote": "자수와 탑 포인트가 여성스러운 라인에 포인트를 더해주는 탑입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "thumbImage": "assets/N260115_04.jpg",
+    "editorsNote": "자수 장식 리브 탑은(는) 자수 장식이 포인트가 되는 슬림 리브 탑 상품입니다. 상품코드 N260115로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260115_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "티아라",
     "brand": "",
     "lineName": "",
     "size77Available": false,
     "size88Available": false,
     "thumbnail": "assets/N260115_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Beige Knit-textured Two-piece Set",
-        "storeName": "Ivory / Beige Knit-textured Two-piece Set",
-        "productName": "Ivory / Beige Knit-textured Two-piece Set",
-        "mainCopy": "Ivory / beige two-piece set with knit-textured",
-        "desc": "A ivory / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / beige",
-        "colors": [
-          "ivory",
-          "beige"
+    "supplierProductNo": "S437",
+    "productName": "자수 장식 리브 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "화이트",
+      "베이지"
+    ],
+    "new": true,
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/리브 조직",
+    "length": "크롭 탑",
+    "cap": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "자수 장식이 포인트가 되는 슬림 리브 탑",
+    "styleTags": [
+      "자수 장식 리브 탑",
+      "TOP",
+      "화이트/베이지",
+      "리브 조직으로 편안하게 잡히는 슬림핏",
+      "자수 장식으로 은근한 포인트",
+      "스커트와 데님 모두 코디 가능한 활용도"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "바디라인을 자연스럽게 잡아주는 리브 조직에 자수 포인트가 더해져, 기본 상의보다 조금 더 특별한 느낌을 줍니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "knit blend",
-        "lining": "no",
-        "stretch": "high",
-        "see": "yes",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / beige two-piece set designed with knit-textured. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "knit-textured"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "knit-textured",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 米色针织感两件套",
-        "storeName": "象牙白 / 米色针织感两件套",
-        "productName": "象牙白 / 米色针织感两件套",
-        "mainCopy": "象牙白 / 米色针织感两件套",
-        "desc": "这是一款象牙白 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 米色",
-        "colors": [
-          "象牙白",
-          "米色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "针织混纺",
-        "lining": "无",
-        "stretch": "较好",
-        "see": "有",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 米色两件套，以针织感为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "针织感"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "针织感",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ベージュニット調ツーピース",
-        "storeName": "アイボリー / ベージュニット調ツーピース",
-        "productName": "アイボリー / ベージュニット調ツーピース",
-        "mainCopy": "アイボリー / ベージュニット調ツーピース",
-        "desc": "ニット調が映えるアイボリー / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "ニット調が映えるアイボリー / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ベージュ",
-        "colors": [
-          "アイボリー",
-          "ベージュ"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ニット混紡",
-        "lining": "なし",
-        "stretch": "高め",
-        "see": "あり",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "ニット調が映えるアイボリー / ベージュツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "ニット調"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "ニット調",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "48",
+            "소매": "-",
+            "가슴": "23",
+            "허리": "17"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "니트",
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260116",
@@ -125396,10 +125196,10 @@
   },
   {
     "code": "N260195",
-    "origin": "링SK아이블랙",
-    "folder": "링SK아이블랙",
+    "origin": "S329",
+    "folder": "링SK아이블랙(S329)",
     "supplier": "펄",
-    "zipFolder": "펄/링SK아이블랙",
+    "zipFolder": "링SK아이블랙(S329)",
     "name": "링 포인트 스커트",
     "storeName": "링 포인트 스커트",
     "category": "SKIRT",
@@ -125407,38 +125207,54 @@
     "size": "S,M,L",
     "price": 81000,
     "tags": [
-      "LUXURY",
-      "SKIRT",
       "NEW",
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "RECOMMEND"
+      "스커트",
+      "미니스커트",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S329",
+      "링 포인트 스커트",
+      "아이보리/블랙"
     ],
     "images": [
       "assets/N260195_01.jpg",
       "assets/N260195_02.jpg",
       "assets/N260195_03.jpg",
-      "assets/N260195_04.jpg"
+      "assets/N260195_04.jpg",
+      "assets/N260195_05.jpg",
+      "assets/N260195_06.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260195_02.jpg",
-        "cut": "후면",
-        "source": "펄/링SK아이블랙/img_xl_2_mfjh1u.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260195_02.jpg"
       },
       {
         "url": "assets/N260195_03.jpg",
-        "cut": "측면",
-        "source": "펄/링SK아이블랙/img_xl_3_roe0xg.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260195_03.jpg"
       },
       {
         "url": "assets/N260195_04.jpg",
-        "cut": "확대/디테일",
-        "source": "펄/링SK아이블랙/img_xl_4_l0ydob.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260195_04.jpg"
+      },
+      {
+        "url": "assets/N260195_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260195_05.jpg"
+      },
+      {
+        "url": "assets/N260195_06.jpg",
+        "cut": "상세 6",
+        "source": "assets/N260195_06.jpg"
       }
     ],
-    "desc": "링SK아이블랙 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "아이보리와 블랙 컬러 구성으로 코디 폭이 넓고, 포인트 장식이 더해져 심플한 상의와도 완성도 있는 룩을 만들 수 있습니다.",
+    "recommend": "크롭 상의나 블라우스와 함께 매치하면 깔끔한 파티룩으로 좋습니다.",
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
@@ -125449,228 +125265,163 @@
     "name_jp": "リングポイントスカート",
     "mainImage": "assets/N260195_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "스커트 셀렉션",
     "whyYoullLoveIt": [
-      "링SK아이블랙 포인트로 룩에 개성을 더해주는 디자인",
-      "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣",
-      "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일"
+      "링 포인트로 심플하지만 눈에 띄는 디테일",
+      "하이웨스트 라인으로 슬림한 비율 연출",
+      "아이보리와 블랙 컬러로 코디 활용도 높음"
     ],
     "points": [
-      "링SK아이블랙 포인트로 룩에 개성을 더해주는 디자인",
-      "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣",
-      "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일"
+      "링 포인트로 심플하지만 눈에 띄는 디테일",
+      "하이웨스트 라인으로 슬림한 비율 연출",
+      "아이보리와 블랙 컬러로 코디 활용도 높음"
     ],
-    "editorsNote": "깔끔한 실루엣가 부담 없이 포인트를 더해주는 스커트입니다. 데이트룩이나 모임룩에 자연스럽게 분위기를 살리고 싶은 고객에게 추천드립니다.",
-    "thumbImage": "assets/N260195_04.jpg",
+    "editorsNote": "링 포인트 스커트은(는) 링 포인트가 시선을 잡아주는 하이웨스트 미니 스커트 상품입니다. 상품코드 N260195로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260195_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "펄",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
+    "size88Available": false,
     "manualSearchExclude": [
       "화이트룩"
     ],
     "thumbnail": "assets/N260195_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Black Clean Silhouette Two-piece Set",
-        "storeName": "Ivory / Black Clean Silhouette Two-piece Set",
-        "productName": "Ivory / Black Clean Silhouette Two-piece Set",
-        "mainCopy": "Ivory / black two-piece set with clean silhouette",
-        "desc": "A ivory / black two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / black two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / black",
-        "colors": [
-          "ivory",
-          "black"
+    "supplierProductNo": "S329",
+    "productName": "링 포인트 스커트",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ],
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/하이웨스트",
+    "length": "미니 스커트",
+    "cap": "해당없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "mainCopy": "링 포인트가 시선을 잡아주는 하이웨스트 미니 스커트",
+    "styleTags": [
+      "링 포인트 스커트",
+      "SKIRT",
+      "아이보리/블랙",
+      "링 포인트로 심플하지만 눈에 띄는 디테일",
+      "하이웨스트 라인으로 슬림한 비율 연출",
+      "아이보리와 블랙 컬러로 코디 활용도 높음"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "아이보리와 블랙 컬러 구성으로 코디 폭이 넓고, 포인트 장식이 더해져 심플한 상의와도 완성도 있는 룩을 만들 수 있습니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리",
+          "힙"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "available on request",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / black two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "clean silhouette"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "clean silhouette",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 黑色简洁廓形两件套",
-        "storeName": "象牙白 / 黑色简洁廓形两件套",
-        "productName": "象牙白 / 黑色简洁廓形两件套",
-        "mainCopy": "象牙白 / 黑色简洁廓形两件套",
-        "desc": "这是一款象牙白 / 黑色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 黑色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 黑色",
-        "colors": [
-          "象牙白",
-          "黑色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "有",
-        "stretch": "请咨询确认",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 黑色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "简洁廓形"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "简洁廓形",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ブラックきれいなシルエットツーピース",
-        "storeName": "アイボリー / ブラックきれいなシルエットツーピース",
-        "productName": "アイボリー / ブラックきれいなシルエットツーピース",
-        "mainCopy": "アイボリー / ブラックきれいなシルエットツーピース",
-        "desc": "きれいなシルエットが映えるアイボリー / ブラックツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "きれいなシルエットが映えるアイボリー / ブラックツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ブラック",
-        "colors": [
-          "アイボリー",
-          "ブラック"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "あり",
-        "stretch": "お問い合わせください",
-        "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "きれいなシルエットが映えるアイボリー / ブラックツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "きれいなシルエット"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "きれいなシルエット",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "67",
+            "허리": "31",
+            "힙": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "67",
+            "허리": "33.5",
+            "힙": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "67",
+            "허리": "36",
+            "힙": "46"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260196",
-    "origin": "샹드리에SK아이핑크",
-    "folder": "샹드리에SK아이핑크",
+    "origin": "S328",
+    "folder": "샹드리에SK아이핑크(S328)",
     "supplier": "펄",
-    "zipFolder": "펄/샹드리에SK아이핑크",
-    "name": "샹드리에 스커트",
-    "storeName": "샹드리에 스커트",
+    "zipFolder": "샹드리에SK아이핑크(S328)",
+    "name": "샹드리에 포인트 스커트",
+    "storeName": "샹드리에 포인트 스커트",
     "category": "SKIRT",
-    "color": "화이트/핑크",
+    "color": "아이보리/핑크",
     "size": "S,M,L",
     "price": 81000,
     "tags": [
-      "LUXURY",
-      "SKIRT",
       "NEW",
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "RECOMMEND"
+      "스커트",
+      "미니스커트",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S328",
+      "샹드리에 포인트 스커트",
+      "아이보리/핑크"
     ],
     "images": [
       "assets/N260196_01.jpg",
       "assets/N260196_02.jpg",
       "assets/N260196_03.jpg",
-      "assets/N260196_04.jpg"
+      "assets/N260196_04.png",
+      "assets/N260196_05.png"
     ],
     "cuts": [
       {
         "url": "assets/N260196_02.jpg",
-        "cut": "후면",
-        "source": "펄/샹드리에SK아이핑크/img_xl_2_wtibgp.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260196_02.jpg"
       },
       {
         "url": "assets/N260196_03.jpg",
-        "cut": "측면",
-        "source": "펄/샹드리에SK아이핑크/img_xl_3_w5fibb.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260196_03.jpg"
       },
       {
-        "url": "assets/N260196_04.jpg",
-        "cut": "확대/디테일",
-        "source": "펄/샹드리에SK아이핑크/img_xl_4_jscfik.jpg"
+        "url": "assets/N260196_04.png",
+        "cut": "상세 4",
+        "source": "assets/N260196_04.png"
+      },
+      {
+        "url": "assets/N260196_05.png",
+        "cut": "상세 5",
+        "source": "assets/N260196_05.png"
       }
     ],
-    "desc": "샹드리에SK아이핑크 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "은은한 장식 포인트와 슬림한 미니 길이감이 어우러져, 블라우스나 탑과 매치했을 때 고급스러운 세트룩 무드를 만들기 좋습니다.",
+    "recommend": "블라우스, 나시 탑, 크롭 상의와 매치해 파티룩이나 데이트룩으로 추천드립니다.",
     "fabric": "폴리혼방",
     "stretch": "약간",
     "see": "없음",
@@ -125681,238 +125432,181 @@
     "name_jp": "シャンデリアスカート",
     "mainImage": "assets/N260196_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "스커트 셀렉션",
     "whyYoullLoveIt": [
-      "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
-      "샹드리에SK아이핑크 포인트로 룩에 개성을 더해주는 디자인",
-      "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣"
+      "샹드리에 포인트로 고급스러운 디테일",
+      "하이웨스트 라인으로 다리 비율을 길어 보이게 연출",
+      "아이보리와 핑크 컬러의 러블리한 분위기"
     ],
     "points": [
-      "과하지 않게 포인트를 주고 싶은 데이트룩·모임룩으로 좋은 스타일",
-      "샹드리에SK아이핑크 포인트로 룩에 개성을 더해주는 디자인",
-      "허리선과 하체 라인을 깔끔하게 정리해주는 스커트 실루엣"
+      "샹드리에 포인트로 고급스러운 디테일",
+      "하이웨스트 라인으로 다리 비율을 길어 보이게 연출",
+      "아이보리와 핑크 컬러의 러블리한 분위기"
     ],
-    "editorsNote": "깔끔한 실루엣가 단독으로도 충분히 매력적인 스커트입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
-    "thumbImage": "assets/N260196_04.jpg",
+    "editorsNote": "샹드리에 포인트 스커트은(는) 샹드리에 포인트가 고급스러운 분위기를 더해주는 미니 스커트 상품입니다. 상품코드 N260196로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260196_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "펄",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
+    "size88Available": false,
     "manualSearchExclude": [
       "화이트룩"
     ],
     "thumbnail": "assets/N260196_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Pink Clean Silhouette Two-piece Set",
-        "storeName": "Ivory / Pink Clean Silhouette Two-piece Set",
-        "productName": "Ivory / Pink Clean Silhouette Two-piece Set",
-        "mainCopy": "Ivory / pink two-piece set with clean silhouette",
-        "desc": "A ivory / pink two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / pink two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / pink",
-        "colors": [
-          "ivory",
-          "pink"
+    "supplierProductNo": "S328",
+    "productName": "샹드리에 포인트 스커트",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ],
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/하이웨스트",
+    "length": "미니 스커트",
+    "cap": "해당없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "mainCopy": "샹드리에 포인트가 고급스러운 분위기를 더해주는 미니 스커트",
+    "styleTags": [
+      "샹드리에 포인트 스커트",
+      "SKIRT",
+      "아이보리/핑크",
+      "샹드리에 포인트로 고급스러운 디테일",
+      "하이웨스트 라인으로 다리 비율을 길어 보이게 연출",
+      "아이보리와 핑크 컬러의 러블리한 분위기"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "은은한 장식 포인트와 슬림한 미니 길이감이 어우러져, 블라우스나 탑과 매치했을 때 고급스러운 세트룩 무드를 만들기 좋습니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리",
+          "힙"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "available on request",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / pink two-piece set designed with clean silhouette. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "clean silhouette"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "clean silhouette",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 粉色简洁廓形两件套",
-        "storeName": "象牙白 / 粉色简洁廓形两件套",
-        "productName": "象牙白 / 粉色简洁廓形两件套",
-        "mainCopy": "象牙白 / 粉色简洁廓形两件套",
-        "desc": "这是一款象牙白 / 粉色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 粉色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 粉色",
-        "colors": [
-          "象牙白",
-          "粉色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "有",
-        "stretch": "请咨询确认",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 粉色两件套，以简洁廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "简洁廓形"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "简洁廓形",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ピンクきれいなシルエットツーピース",
-        "storeName": "アイボリー / ピンクきれいなシルエットツーピース",
-        "productName": "アイボリー / ピンクきれいなシルエットツーピース",
-        "mainCopy": "アイボリー / ピンクきれいなシルエットツーピース",
-        "desc": "きれいなシルエットが映えるアイボリー / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "きれいなシルエットが映えるアイボリー / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ピンク",
-        "colors": [
-          "アイボリー",
-          "ピンク"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "あり",
-        "stretch": "お問い合わせください",
-        "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "きれいなシルエットが映えるアイボリー / ピンクツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "きれいなシルエット"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "きれいなシルエット",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "67",
+            "허리": "31",
+            "힙": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "67",
+            "허리": "33.5",
+            "힙": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "67",
+            "허리": "36",
+            "힙": "46"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ]
   },
   {
     "code": "N260197",
     "origin": "S436",
     "folder": "셔링나시 아이 중청(S436)",
     "supplier": "펄",
-    "zipFolder": "펄/셔링나시 아이 중청(S436)",
+    "zipFolder": "셔링나시 아이 중청(S436)",
     "name": "셔링 나시 탑",
     "storeName": "셔링 나시 탑",
     "category": "TOP",
-    "color": "화이트/블루",
+    "color": "아이보리/중청",
     "size": "S,M,L",
     "price": 81000,
     "tags": [
       "NEW",
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "TOP",
-      "블라우스"
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S436",
+      "셔링 나시 탑",
+      "아이보리/중청"
     ],
     "images": [
       "assets/N260197_01.jpg",
       "assets/N260197_02.jpg",
       "assets/N260197_03.jpg",
-      "assets/N260197_04.jpg"
+      "assets/N260197_04.jpg",
+      "assets/N260197_05.jpg",
+      "assets/N260197_06.png"
     ],
     "cuts": [
       {
         "url": "assets/N260197_02.jpg",
-        "cut": "후면",
-        "source": "펄/셔링나시 아이 중청(S436)/img_xl_2_nia2oq.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260197_02.jpg"
       },
       {
         "url": "assets/N260197_03.jpg",
-        "cut": "측면",
-        "source": "펄/셔링나시 아이 중청(S436)/img_xl_3_in7bbc.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260197_03.jpg"
       },
       {
         "url": "assets/N260197_04.jpg",
-        "cut": "확대/디테일",
-        "source": "펄/셔링나시 아이 중청(S436)/img_xl_4_ytuaev.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260197_04.jpg"
+      },
+      {
+        "url": "assets/N260197_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260197_05.jpg"
+      },
+      {
+        "url": "assets/N260197_06.png",
+        "cut": "상세 6",
+        "source": "assets/N260197_06.png"
       }
     ],
-    "desc": "셔링나시 아이 중청(S436) 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
+    "desc": "깔끔한 슬리브리스 라인에 셔링 포인트가 더해져 단독으로도, 자켓 안 이너로도 활용하기 좋은 상의입니다.",
+    "recommend": "스커트와 매치하면 여성스럽게, 데님과 매치하면 가볍고 세련된 데일리룩으로 좋습니다.",
     "fabric": "폴리혼방",
     "stretch": "있음",
-    "see": "없음",
-    "lining": "부분",
+    "see": "보통",
+    "lining": "없음",
     "new": true,
     "name_en": "Shirring Sleeveless Top",
     "name_cn": "抽褶 无袖上衣",
     "name_jp": "シャーリング ノースリーブトップ",
     "mainImage": "assets/N260197_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "sizeInfo": "화이트 / 블루",
     "externalSource": {
       "site": "judyshop",
@@ -125933,24 +125627,24 @@
       ]
     },
     "whyYoullLoveIt": [
-      "바디라인을 자연스럽게 보정해주는 셔링 디테일",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
+      "셔링 디테일로 바디라인을 자연스럽게 보정",
+      "단독 착용과 이너 코디 모두 가능한 활용도",
+      "아이보리와 중청 컬러로 데일리부터 파티룩까지 연출"
     ],
     "points": [
-      "바디라인을 자연스럽게 보정해주는 셔링 디테일",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "파티·클럽·생일룩처럼 포인트가 필요한 날 잘 어울리는 스타일"
+      "셔링 디테일로 바디라인을 자연스럽게 보정",
+      "단독 착용과 이너 코디 모두 가능한 활용도",
+      "아이보리와 중청 컬러로 데일리부터 파티룩까지 연출"
     ],
-    "editorsNote": "셔링과 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260197_04.jpg",
+    "editorsNote": "셔링 나시 탑은(는) 셔링 디테일이 상체 라인을 자연스럽게 잡아주는 슬리브리스 탑 상품입니다. 상품코드 N260197로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260197_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "펄",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
+    "size88Available": false,
     "manualSearchExclude": [
       "슬림핏"
     ],
@@ -125958,209 +125652,148 @@
       "블라우스"
     ],
     "thumbnail": "assets/N260197_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Sky Blue Shirred Two-piece Set",
-        "storeName": "Ivory / Sky Blue Shirred Two-piece Set",
-        "productName": "Ivory / Sky Blue Shirred Two-piece Set",
-        "mainCopy": "Ivory / sky blue two-piece set with shirred",
-        "desc": "A ivory / sky blue two-piece set designed with shirred. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / sky blue two-piece set designed with shirred. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / sky blue",
-        "colors": [
-          "ivory",
-          "sky blue"
+    "supplierProductNo": "S436",
+    "productName": "셔링 나시 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "중청"
+    ],
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/셔링",
+    "length": "크롭 탑",
+    "cap": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "셔링 디테일이 상체 라인을 자연스럽게 잡아주는 슬리브리스 탑",
+    "styleTags": [
+      "셔링 나시 탑",
+      "TOP",
+      "아이보리/중청",
+      "셔링 디테일로 바디라인을 자연스럽게 보정",
+      "단독 착용과 이너 코디 모두 가능한 활용도",
+      "아이보리와 중청 컬러로 데일리부터 파티룩까지 연출"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "깔끔한 슬리브리스 라인에 셔링 포인트가 더해져 단독으로도, 자켓 안 이너로도 활용하기 좋은 상의입니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴",
+          "허리",
+          "힙"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "available on request",
-        "stretch": "yes",
-        "see": "no",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / sky blue two-piece set designed with shirred. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Shirring helps shape the waist and body line",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Shirring helps shape the waist and body line",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "shirred"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "shirred",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 天蓝色褶皱两件套",
-        "storeName": "象牙白 / 天蓝色褶皱两件套",
-        "productName": "象牙白 / 天蓝色褶皱两件套",
-        "mainCopy": "象牙白 / 天蓝色褶皱两件套",
-        "desc": "这是一款象牙白 / 天蓝色两件套，以褶皱为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 天蓝色两件套，以褶皱为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 天蓝色",
-        "colors": [
-          "象牙白",
-          "天蓝色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "请咨询确认",
-        "stretch": "有",
-        "see": "无",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 天蓝色两件套，以褶皱为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "褶皱设计修饰腰线与身形",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "褶皱设计修饰腰线与身形",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "褶皱"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "褶皱",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / スカイブルーシャーリングツーピース",
-        "storeName": "アイボリー / スカイブルーシャーリングツーピース",
-        "productName": "アイボリー / スカイブルーシャーリングツーピース",
-        "mainCopy": "アイボリー / スカイブルーシャーリングツーピース",
-        "desc": "シャーリングが映えるアイボリー / スカイブルーツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "シャーリングが映えるアイボリー / スカイブルーツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / スカイブルー",
-        "colors": [
-          "アイボリー",
-          "スカイブルー"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "お問い合わせください",
-        "stretch": "あり",
-        "see": "なし",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "シャーリングが映えるアイボリー / スカイブルーツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "シャーリングがウエストとボディラインを整える",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "シャーリングがウエストとボディラインを整える",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "シャーリング"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "シャーリング",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "S",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "M",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "L",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "보통",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260198",
     "origin": "S435",
     "folder": "아코디언BL아이핑크(S435)",
     "supplier": "펄",
-    "zipFolder": "펄/아코디언BL아이핑크(S435)",
-    "name": "아코디언 블라우스",
-    "storeName": "아코디언 블라우스",
+    "zipFolder": "아코디언BL아이핑크(S435)",
+    "name": "아코디언 셔링 블라우스",
+    "storeName": "아코디언 셔링 블라우스",
     "category": "TOP",
-    "color": "",
+    "color": "아이보리/핑크",
     "size": "S,M,L",
     "price": 81000,
     "tags": [
       "NEW",
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "TOP",
-      "원피스",
+      "탑",
+      "블라우스",
+      "상의",
       "파티룩",
-      "촬영룩",
-      "NICE"
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S435",
+      "아코디언 셔링 블라우스",
+      "아이보리/핑크"
     ],
     "images": [
       "assets/N260198_01.jpg",
       "assets/N260198_02.jpg",
       "assets/N260198_03.jpg",
-      "assets/N260198_04.jpg"
+      "assets/N260198_04.jpg",
+      "assets/N260198_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260198_02.jpg",
-        "cut": "후면",
-        "source": "펄/아코디언BL아이핑크(S435)/img_xl_1_sunixd.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260198_02.jpg"
       },
       {
         "url": "assets/N260198_03.jpg",
-        "cut": "측면",
-        "source": "펄/아코디언BL아이핑크(S435)/img_xl_2_f4qimo.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260198_03.jpg"
       },
       {
         "url": "assets/N260198_04.jpg",
-        "cut": "확대/디테일",
-        "source": "펄/아코디언BL아이핑크(S435)/img_xl_3_hk9sjd.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260198_04.jpg"
+      },
+      {
+        "url": "assets/N260198_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260198_05.jpg"
       }
     ],
-    "desc": "전체 라인을 깔끔하게 정돈해 주는 NICE 셀렉션 상품입니다.",
-    "recommend": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
-    "fabric": "레이스",
+    "desc": "잔잔한 셔링 라인이 상체를 입체적으로 보여주며, 스커트와 매치했을 때 고급스러운 파티 무드가 살아나는 상의입니다.",
+    "recommend": "하이웨스트 스커트와 코디하면 파티룩, 방송룩, 데이트룩으로 활용하기 좋습니다.",
+    "fabric": "폴리혼방",
     "stretch": "있음",
-    "see": "있음",
+    "see": "보통",
     "lining": "없음",
     "new": true,
     "name_en": "Accordion Blouse",
@@ -126168,196 +125801,114 @@
     "name_jp": "アコーディオン ブラウス",
     "mainImage": "assets/N260198_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "착용 라인을 깔끔하게 정돈하는 실루엣",
-      "컬러 옵션 확인 후 분위기 문구 보강 필요",
-      "S,M,L 사이즈 기준 피팅 상담 권장"
+      "아코디언 셔링으로 입체감 있는 실루엣",
+      "아이보리와 핑크 컬러의 부드러운 분위기",
+      "스커트 코디에 잘 어울리는 여성스러운 블라우스"
     ],
     "points": [
-      "착용 라인을 깔끔하게 정돈하는 실루엣",
-      "컬러 옵션 확인 후 분위기 문구 보강 필요",
-      "S,M,L 사이즈 기준"
+      "아코디언 셔링으로 입체감 있는 실루엣",
+      "아이보리와 핑크 컬러의 부드러운 분위기",
+      "스커트 코디에 잘 어울리는 여성스러운 블라우스"
     ],
-    "editorsNote": "레이스 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
+    "editorsNote": "아코디언 셔링 블라우스은(는) 아코디언 셔링이 여성스러운 볼륨감을 살려주는 블라우스 상품입니다. 상품코드 N260198로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
     "searchStatus": "매칭완료",
     "sizeGuide": "현재 표기: S,M,L. 옵션별 실측과 신축성에 따라 추천 사이즈 문구 보강 필요.",
     "sizeInfo": "상의/원피스 S(가:38 허:27) / M(가:40.5 허:29.5) / L(가:43 허:32) / 소매 24 / 기장 39",
     "wearInfo": "가볍게 예쁘게 입기 좋은 미니 원피스룩. 데이트, 모임, 촬영용으로 추천.",
-    "cap": "있음",
+    "cap": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
+    "zipper": "없음",
     "seoName": "아코디언 블라우스",
-    "thumbImage": "assets/N260198_04.jpg",
+    "thumbImage": "assets/N260198_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "펄",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
+    "size88Available": false,
     "thumbnail": "assets/N260198_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Nice-selected Lace Contrast-line Two-piece Set",
-        "storeName": "Nice-selected Lace Contrast-line Two-piece Set",
-        "productName": "Nice-selected Lace Contrast-line Two-piece Set",
-        "mainCopy": "Nice-selected two-piece set with lace and contrast-line",
-        "desc": "A NICE-selected two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "description": "A NICE-selected two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "recommend": "Recommended for parties, broadcast or photo shoots and date looks.",
-        "color": "NICE-selected",
-        "colors": [
-          "NICE-selected"
+    "supplierProductNo": "S435",
+    "productName": "아코디언 셔링 블라우스",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "아이보리",
+      "핑크"
+    ],
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/아코디언 셔링",
+    "length": "크롭 블라우스",
+    "mainCopy": "아코디언 셔링이 여성스러운 볼륨감을 살려주는 블라우스",
+    "styleTags": [
+      "아코디언 셔링 블라우스",
+      "TOP",
+      "아이보리/핑크",
+      "아코디언 셔링으로 입체감 있는 실루엣",
+      "아이보리와 핑크 컬러의 부드러운 분위기",
+      "스커트 코디에 잘 어울리는 여성스러운 블라우스"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "잔잔한 셔링 라인이 상체를 입체적으로 보여주며, 스커트와 매치했을 때 고급스러운 파티 무드가 살아나는 상의입니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴",
+          "허리",
+          "힙"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "lace",
-        "lining": "no",
-        "stretch": "yes",
-        "see": "yes",
-        "cap": "yes",
-        "thickness": "medium",
-        "zipper": "back zipper",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A NICE-selected two-piece set designed with lace and contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, broadcast or photo shoots and date looks.",
-        "points": [
-          "Soft lace texture brings a luxurious finish",
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Soft lace texture brings a luxurious finish",
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "lace",
-          "contrast-line"
-        ],
-        "sceneTags": [
-          "parties",
-          "broadcast or photo shoots",
-          "date looks"
-        ],
-        "tags": [
-          "lace",
-          "contrast-line",
-          "parties",
-          "broadcast or photo shoots",
-          "date looks"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "精选蕾丝撞色线条两件套",
-        "storeName": "精选蕾丝撞色线条两件套",
-        "productName": "精选蕾丝撞色线条两件套",
-        "mainCopy": "精选蕾丝、撞色线条两件套",
-        "desc": "这是一款精选两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "description": "这是一款精选两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "recommend": "推荐用于派对、直播或拍摄、约会穿搭。",
-        "color": "精选",
-        "colors": [
-          "精选"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "蕾丝",
-        "lining": "无",
-        "stretch": "有",
-        "see": "有",
-        "cap": "有",
-        "thickness": "普通",
-        "zipper": "后拉链",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款精选两件套，以蕾丝、撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、直播或拍摄、约会穿搭等场合。",
-        "points": [
-          "蕾丝质感提升整体高级感",
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "蕾丝质感提升整体高级感",
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "蕾丝",
-          "撞色线条"
-        ],
-        "sceneTags": [
-          "派对",
-          "直播或拍摄",
-          "约会穿搭"
-        ],
-        "tags": [
-          "蕾丝",
-          "撞色线条",
-          "派对",
-          "直播或拍摄",
-          "约会穿搭"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "セレクトレース配色ラインツーピース",
-        "storeName": "セレクトレース配色ラインツーピース",
-        "productName": "セレクトレース配色ラインツーピース",
-        "mainCopy": "セレクトレース・配色ラインツーピース",
-        "desc": "レース・配色ラインが映えるセレクトツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "description": "レース・配色ラインが映えるセレクトツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "recommend": "パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "color": "セレクト",
-        "colors": [
-          "セレクト"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "レース",
-        "lining": "なし",
-        "stretch": "あり",
-        "see": "あり",
-        "cap": "あり",
-        "thickness": "普通",
-        "zipper": "後ろファスナー",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "レース・配色ラインが映えるセレクトツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・配信・撮影・デートスタイルにおすすめです。",
-        "points": [
-          "レースの質感が華やかさを演出",
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "レースの質感が華やかさを演出",
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "レース",
-          "配色ライン"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "配信・撮影",
-          "デートスタイル"
-        ],
-        "tags": [
-          "レース",
-          "配色ライン",
-          "パーティー",
-          "配信・撮影",
-          "デートスタイル"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "S",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "M",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "L",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "보통",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260199",
@@ -128376,229 +127927,170 @@
     "origin": "S434",
     "folder": "탑레이스 민트 아이(S434)",
     "supplier": "펄",
-    "zipFolder": "펄/탑레이스 민트 아이(S434)",
-    "name": "레이스 탑",
-    "storeName": "레이스 탑",
+    "zipFolder": "탑레이스 민트 아이(S434)",
+    "name": "레이스 슬리브리스 탑",
+    "storeName": "레이스 슬리브리스 탑",
     "category": "TOP",
-    "color": "아이보리/민트",
+    "color": "민트/아이보리",
     "size": "S,M,L",
     "price": 81000,
     "tags": [
-      "LUXURY",
       "NEW",
-      "투피스 & 상하의 컬렉션",
-      "PARTY",
-      "RECOMMEND",
-      "TOP"
+      "탑",
+      "블라우스",
+      "상의",
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "스마트스토어준비",
+      "S434",
+      "레이스 슬리브리스 탑",
+      "민트/아이보리"
     ],
     "images": [
       "assets/N260206_01.jpg",
       "assets/N260206_02.jpg",
       "assets/N260206_03.jpg",
-      "assets/N260206_04.jpg"
+      "assets/N260206_04.jpg",
+      "assets/N260206_05.jpg"
     ],
     "cuts": [
       {
         "url": "assets/N260206_02.jpg",
-        "cut": "후면",
-        "source": "펄/탑레이스 민트 아이(S434)/img_xl_2_wizir8.jpg"
+        "cut": "상세 2",
+        "source": "assets/N260206_02.jpg"
       },
       {
         "url": "assets/N260206_03.jpg",
-        "cut": "측면",
-        "source": "펄/탑레이스 민트 아이(S434)/img_xl_3_b8vyih.jpg"
+        "cut": "상세 3",
+        "source": "assets/N260206_03.jpg"
       },
       {
         "url": "assets/N260206_04.jpg",
-        "cut": "확대/디테일",
-        "source": "펄/탑레이스 민트 아이(S434)/img_xl_4_at13hz.jpg"
+        "cut": "상세 4",
+        "source": "assets/N260206_04.jpg"
+      },
+      {
+        "url": "assets/N260206_05.jpg",
+        "cut": "상세 5",
+        "source": "assets/N260206_05.jpg"
       }
     ],
-    "desc": "탑레이스 민트 아이(S434) 상품입니다.",
-    "recommend": "클럽/파티/방송/행사",
-    "fabric": "레이스",
+    "desc": "민트와 아이보리 컬러가 밝고 산뜻한 인상을 주며, 단정하지만 밋밋하지 않은 포인트 상의로 활용하기 좋습니다.",
+    "recommend": "여름 파티룩, 데이트룩, 가벼운 촬영룩 상의로 추천드립니다.",
+    "fabric": "폴리혼방",
     "stretch": "있음",
-    "see": "시스루",
-    "lining": "부분",
+    "see": "보통",
+    "lining": "없음",
     "new": true,
     "name_en": "Lace Top",
     "name_cn": "蕾丝 上衣",
     "name_jp": "レース トップス",
     "mainImage": "assets/N260206_01.jpg",
     "collection": "B",
-    "collectionName": "투피스 & 상하의 컬렉션",
+    "collectionName": "탑·블라우스·스커트 셀렉션",
     "whyYoullLoveIt": [
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "우아한 섹시미를 살려주는 레이스 디테일"
+      "레이스 디테일로 과하지 않은 포인트",
+      "밝은 컬러감으로 얼굴을 화사하게 연출",
+      "스커트와 매치하기 좋은 슬림한 상체 라인"
     ],
     "points": [
-      "단독이나 이너로도 포인트 주기 좋은 상의 디자인",
-      "상체 라인을 가볍게 살려주는 탑 디자인",
-      "우아한 섹시미를 살려주는 레이스 디테일"
+      "레이스 디테일로 과하지 않은 포인트",
+      "밝은 컬러감으로 얼굴을 화사하게 연출",
+      "스커트와 매치하기 좋은 슬림한 상체 라인"
     ],
-    "editorsNote": "레이스와 탑 포인트가 바디라인과 분위기를 함께 살려주는 탑입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "thumbImage": "assets/N260206_04.jpg",
+    "editorsNote": "레이스 슬리브리스 탑은(는) 레이스 포인트가 은근한 여성스러움을 더해주는 슬리브리스 탑 상품입니다. 상품코드 N260206로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
+    "thumbImage": "assets/N260206_01.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "vendor": "",
+    "vendor": "펄",
     "brand": "",
     "lineName": "",
     "size77Available": true,
-    "size88Available": true,
+    "size88Available": false,
     "thumbnail": "assets/N260206_04.jpg",
-    "translations": {
-      "en": {
-        "name": "Ivory / Mint Lace Two-piece Set",
-        "storeName": "Ivory / Mint Lace Two-piece Set",
-        "productName": "Ivory / Mint Lace Two-piece Set",
-        "mainCopy": "Ivory / mint two-piece set with lace",
-        "desc": "A ivory / mint two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "description": "A ivory / mint two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "recommend": "Recommended for parties, club looks and broadcast or photo shoots.",
-        "color": "ivory / mint",
-        "colors": [
-          "ivory",
-          "mint"
+    "supplierProductNo": "S434",
+    "productName": "레이스 슬리브리스 탑",
+    "collectionDescription": "가볍게 코디하기 좋은 상의와 스커트 중심 셀렉션",
+    "colors": [
+      "민트",
+      "아이보리"
+    ],
+    "isNew": true,
+    "isPopular": false,
+    "stockStatus": "문의필수",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "fit": "슬림핏/레이스 포인트",
+    "length": "크롭 탑",
+    "cap": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "mainCopy": "레이스 포인트가 은근한 여성스러움을 더해주는 슬리브리스 탑",
+    "styleTags": [
+      "레이스 슬리브리스 탑",
+      "TOP",
+      "민트/아이보리",
+      "레이스 디테일로 과하지 않은 포인트",
+      "밝은 컬러감으로 얼굴을 화사하게 연출",
+      "스커트와 매치하기 좋은 슬림한 상체 라인"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "방송룩"
+    ],
+    "description": "민트와 아이보리 컬러가 밝고 산뜻한 인상을 주며, 단정하지만 밋밋하지 않은 포인트 상의로 활용하기 좋습니다.",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴",
+          "허리",
+          "힙"
         ],
-        "fit": "set-up silhouette",
-        "length": "mini length",
-        "fabric": "lace",
-        "lining": "available on request",
-        "stretch": "yes",
-        "see": "available on request",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Two-Piece Collection",
-        "collectionDescription": "Coordinated sets for party, club, and broadcast styling.",
-        "editorsNote": "A ivory / mint two-piece set designed with lace. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties, club looks and broadcast or photo shoots.",
-        "points": [
-          "Soft lace texture brings a luxurious finish",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Soft lace texture brings a luxurious finish",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "lace"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "tags": [
-          "lace",
-          "parties",
-          "club looks",
-          "broadcast or photo shoots"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "zh": {
-        "name": "象牙白 / 薄荷色蕾丝两件套",
-        "storeName": "象牙白 / 薄荷色蕾丝两件套",
-        "productName": "象牙白 / 薄荷色蕾丝两件套",
-        "mainCopy": "象牙白 / 薄荷色蕾丝两件套",
-        "desc": "这是一款象牙白 / 薄荷色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "description": "这是一款象牙白 / 薄荷色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "recommend": "推荐用于派对、夜店穿搭、直播或拍摄。",
-        "color": "象牙白 / 薄荷色",
-        "colors": [
-          "象牙白",
-          "薄荷色"
-        ],
-        "fit": "套装版型",
-        "length": "迷你长度",
-        "fabric": "蕾丝",
-        "lining": "请咨询确认",
-        "stretch": "有",
-        "see": "请咨询确认",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "两件套系列",
-        "collectionDescription": "适合派对、夜店与直播造型的套装精选。",
-        "editorsNote": "这是一款象牙白 / 薄荷色两件套，以蕾丝为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭、直播或拍摄等场合。",
-        "points": [
-          "蕾丝质感提升整体高级感",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "蕾丝质感提升整体高级感",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "蕾丝"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "tags": [
-          "蕾丝",
-          "派对",
-          "夜店穿搭",
-          "直播或拍摄"
-        ],
-        "sizeTables": [],
-        "wearTables": []
-      },
-      "ja": {
-        "name": "アイボリー / ミントレースツーピース",
-        "storeName": "アイボリー / ミントレースツーピース",
-        "productName": "アイボリー / ミントレースツーピース",
-        "mainCopy": "アイボリー / ミントレースツーピース",
-        "desc": "レースが映えるアイボリー / ミントツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "description": "レースが映えるアイボリー / ミントツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "recommend": "パーティー・クラブルック・配信・撮影におすすめです。",
-        "color": "アイボリー / ミント",
-        "colors": [
-          "アイボリー",
-          "ミント"
-        ],
-        "fit": "セットアップシルエット",
-        "length": "ミニ丈",
-        "fabric": "レース",
-        "lining": "お問い合わせください",
-        "stretch": "あり",
-        "see": "お問い合わせください",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ツーピースコレクション",
-        "collectionDescription": "パーティー・クラブ・配信スタイルに使いやすいセットアップ。",
-        "editorsNote": "レースが映えるアイボリー / ミントツーピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルック・配信・撮影におすすめです。",
-        "points": [
-          "レースの質感が華やかさを演出",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "レースの質感が華やかさを演出",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "レース"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "tags": [
-          "レース",
-          "パーティー",
-          "クラブルック",
-          "配信・撮影"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+        "rows": [
+          {
+            "사이즈": "S",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "M",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          },
+          {
+            "사이즈": "L",
+            "총길이": "문의",
+            "가슴": "문의",
+            "허리": "문의",
+            "힙": "문의"
+          }
+        ]
       }
-    }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "보통",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ]
   },
   {
     "code": "N260207",

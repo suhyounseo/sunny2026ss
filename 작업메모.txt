@@ -1,0 +1,19 @@
+NICE 쇼룸 2026-08-05 탑/블라우스/스커트 10개 업데이트
+1) products.json에서 대상 10개 상품의 기존 사진 참조를 모두 제거하고 새 사진 순서로 교체했습니다.
+2) 파일명 뒤 번호 기준으로 정렬했고, 01번이 메인사진입니다.
+3) 가격과 거래처코드(S코드)를 사용자 제공 목록 기준으로 업데이트했습니다.
+4) 스마트스토어 등록 전 쇼룸 확인용 패키지입니다.
+
+assets/N260197_기존이미지는 products.json에서 제거됨 / 새 assets/N260197_01~ 로 교체
+assets/N260198_기존이미지는 products.json에서 제거됨 / 새 assets/N260198_01~ 로 교체
+assets/N260206_기존이미지는 products.json에서 제거됨 / 새 assets/N260206_01~ 로 교체
+assets/N260112_기존이미지는 products.json에서 제거됨 / 새 assets/N260112_01~ 로 교체
+assets/N260110_기존이미지는 products.json에서 제거됨 / 새 assets/N260110_01~ 로 교체
+assets/N260113_기존이미지는 products.json에서 제거됨 / 새 assets/N260113_01~ 로 교체
+assets/N260115_기존이미지는 products.json에서 제거됨 / 새 assets/N260115_01~ 로 교체
+assets/N260196_기존이미지는 products.json에서 제거됨 / 새 assets/N260196_01~ 로 교체
+assets/N260195_기존이미지는 products.json에서 제거됨 / 새 assets/N260195_01~ 로 교체
+assets/N260114_기존이미지는 products.json에서 제거됨 / 새 assets/N260114_01~ 로 교체
+
+정확 실측 반영: S429, S431, S432, S433, S437, S328, S329 정보 PNG 기준 반영.
+실측 정보 이미지 없음: S434, S435, S436은 기존 S/M/L 및 소재/착용정보 기본값으로 정리.
