@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug05topsupdate2';
+const VERSION = 'aug06august1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -99,6 +99,7 @@ const I18N = {
     smartstoreBest: '네이버 등록상품 BEST',
     viewAllProducts: '전체 상품 보기',
     julyMore: '7월 신상 더보기',
+    augustMore: '8월 신상 더보기',
     editorsMore: '에디터스픽 더보기',
     dmGuideTitle: '캡처/상품코드로 문의 주세요.',
     dmGuideLine: '재고·피팅 바로 확인해드릴게요.',
@@ -120,12 +121,12 @@ const I18N = {
     imagePrev: '이전 사진',
     imageNext: '다음 사진',
     newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
+    collectionAugust: '8월 신상만 모은 셀렉션',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
     collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
     collectionC: '특별한 순간을 위한 미디·롱 드레스 셀렉션',
-    collectionD: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션',
-    collectionE: '77·88 사이즈까지 확인 가능한 추천 셀렉션'
+    collectionD: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션'
   },
   en: {
     searchPlaceholder: 'Search mini, slim fit, party look, stage outfit',
@@ -151,6 +152,7 @@ const I18N = {
     smartstoreBest: 'Best on Naver',
     viewAllProducts: 'View all products',
     julyMore: 'View July arrivals',
+    augustMore: 'View August arrivals',
     editorsMore: 'View Editor’s Picks',
     dmGuideTitle: 'Send a screenshot or product code.',
     dmGuideLine: 'We will quickly check stock and fitting.',
@@ -171,7 +173,8 @@ const I18N = {
     photoRuleContactCopy: 'Send a screenshot or product code for quick assistance.',
     imagePrev: 'Previous photo',
     imageNext: 'Next photo', newDesc: 'New designs selected by NICE. Check colors and options in product details.',
-    collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments', collectionD: 'Mini dress selection for club and party looks', collectionE: 'Recommended styles available in 77/88 sizing'
+    collectionAugust: 'August new-arrival selection',
+    collectionJuly: 'July new-arrival selection', collectionA: 'June final new-arrival selection', collectionB: 'Set-up and styling edit', collectionC: 'Midi and long dress edit for special moments', collectionD: 'Mini dress selection for club and party looks'
   },
   zh: {
     searchPlaceholder: '搜索迷你、修身、派对风、舞台服',
@@ -197,6 +200,7 @@ const I18N = {
     smartstoreBest: 'Naver热卖款',
     viewAllProducts: '查看全部商品',
     julyMore: '查看7月新品',
+    augustMore: '查看8月新品',
     editorsMore: '查看推荐款',
     dmGuideTitle: '请发送截图或商品代码。',
     dmGuideLine: '我们会快速确认库存和试穿。',
@@ -217,7 +221,8 @@ const I18N = {
     photoRuleContactCopy: '请发送截图或商品代码，我们会快速协助。',
     imagePrev: '上一张',
     imageNext: '下一张', newDesc: 'NICE 精选的新款设计。颜色和选项请在商品详情中确认。',
-    collectionJuly: '7月新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选', collectionD: '适合派对与夜店风的迷你连衣裙精选', collectionE: '77/88尺码可咨询推荐款'
+    collectionAugust: '8月新款精选',
+    collectionJuly: '7月新款精选', collectionA: '6月最后新款精选', collectionB: '套装与造型精选', collectionC: '特别场合中长裙精选', collectionD: '适合派对与夜店风的迷你连衣裙精选'
   },
   ja: {
     searchPlaceholder: 'ミニ、スリム、パーティールック、ステージ衣装を検索',
@@ -243,6 +248,7 @@ const I18N = {
     smartstoreBest: 'Naver販売中 BEST',
     viewAllProducts: '全商品を見る',
     julyMore: '7月新作を見る',
+    augustMore: '8月新作を見る',
     editorsMore: 'おすすめを見る',
     dmGuideTitle: 'スクショまたは商品コードを送ってください。',
     dmGuideLine: '在庫と試着可否をすぐ確認します。',
@@ -263,7 +269,8 @@ const I18N = {
     photoRuleContactCopy: 'スクショまたは商品コードを送ってください。',
     imagePrev: '前の写真',
     imageNext: '次の写真', newDesc: 'NICEが選んだ新作デザインです。カラーとオプションは商品詳細でご確認ください。',
-    collectionJuly: '7月入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集', collectionD: 'クラブ・パーティー向けミニドレス編集', collectionE: '77/88サイズ対応のおすすめセレクション'
+    collectionAugust: '8月入荷の新作セレクション',
+    collectionJuly: '7月入荷の新作セレクション', collectionA: '6月最後の新作セレクション', collectionB: 'セットアップ＆スタイリング編集', collectionC: '特別な日のミディ・ロングドレス編集', collectionD: 'クラブ・パーティー向けミニドレス編集'
   }
 };
 let PRODUCTS = [];
@@ -277,12 +284,12 @@ let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
+  { key: 'AUGUST_NEW', filter: 'COL_AUGUST', title: '8월 신상', name: 'August New Selection', desc: '이번 8월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
   { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' },
-  { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' },
-  { key: 'E', filter: 'COL_E', title: 'Collection E', name: 'Plus Fit & 77·88 Edit', desc: '77·88 사이즈까지 확인 가능한 추천 셀렉션' }
+  { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
 const LABEL = {
@@ -295,12 +302,12 @@ const LABEL = {
   MIDI: '미디',
   TWO_PIECE: '투피스',
   LONG: '롱드레스',
+  COL_AUGUST: '8월 신상',
   COL_JULY: '7월 신상',
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
   COL_C: 'COLLECTION C',
   COL_D: 'COLLECTION D',
-  COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
 const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77/88가능'];
@@ -412,7 +419,7 @@ const SCENE_SEARCH = {
   '촬영룩': ['촬영', '방송', '무대', '조명', '존재감']
 };
 const INTERNAL_WORDS = [
-  '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank',
+  '제시카', 'Jessica', 'jessica', '앙크', '앙크최', 'ANK', 'Ank', '티아라', 'Tiara', 'TIARA',
   '거래처', '공장', 'supplier', 'vendor', 'origin'
 ];
 const WIDE_SIZE_SUPPLIERS = ['앙크최', '지니', '세윤', '펄', '희야', '햅번', '지나', '그레이스', '실루엣'];
@@ -456,7 +463,9 @@ function isManualSearchIncluded(p, raw) {
   return hasManualSearch(p, 'manualSearchInclude', queryKey(raw));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
+const isRecentNewProduct = p => isAugustNewProduct(p) || isJulyNewProduct(p);
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
 const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
@@ -587,12 +596,12 @@ function quickLabel(key) {
 }
 function localizedCollection(c) {
   const descMap = {
+    AUGUST_NEW: 'collectionAugust',
     JULY_NEW: 'collectionJuly',
     A: 'collectionA',
     B: 'collectionB',
     C: 'collectionC',
-    D: 'collectionD',
-    E: 'collectionE'
+    D: 'collectionD'
   };
   return { ...c, desc: t(descMap[c.key] || 'collectionC') };
 }
@@ -928,7 +937,7 @@ function newArrivalItems(visible, editorCodes) {
   const july = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
-        isJulyNewProduct(p) &&
+        isRecentNewProduct(p) &&
         isNew(p) &&
         !editorCodes.has(codeOf(p)) &&
         !editorGroupKeys.has(designGroupKey(p))
@@ -1067,11 +1076,11 @@ function match(p) {
   const rawSearch = q.value.trim();
   let f = true;
   if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
+  else if (FILTER === 'COL_AUGUST') f = isAugustNewProduct(p);
   else if (FILTER === 'COL_JULY') f = isJulyNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'COL_E') f = isPlusFitEditProduct(p);
   else if (FILTER === 'NEW') f = isNew(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
@@ -1327,7 +1336,7 @@ function renderHome() {
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${dmGuideBlock()}
     ${sectionBlock(t('smartstoreBest'), t('smartstoreDesc'), smartItems, 'ALL', t('viewAllProducts'))}
-    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_JULY', t('julyMore'))}
+    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_AUGUST', t('augustMore'))}
     ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', t('editorsMore'))}
     ${collectionBlock()}
     ${communityBlock()}`;
