@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07direct1';
+const VERSION = 'aug07infofix1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -806,6 +806,13 @@ function sizeGuideBlock(p) {
   }).filter(Boolean).join('');
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
+
+function productInfoImageBlock(p) {
+  const imgs = Array.isArray(p.productInfoImages) ? p.productInfoImages : (p.productInfoImage ? [p.productInfoImage] : []);
+  if (!imgs.length) return '';
+  return `<div class="box product-info-image-box"><b>제품 정보</b><p class="product-info-note">실측·소재·착용 정보는 아래 제품정보 이미지를 기준으로 확인해 주세요.</p>${imgs.map((url, i) => `<img loading="lazy" decoding="async" src="${img(url)}" alt="${displayName(p)} 제품정보 ${i + 1}">`).join('')}</div>`;
+}
+
 function wearInfoBlock(p) {
   const localWearTables = localizedWearTables(p);
   if (!Array.isArray(localWearTables) || !localWearTables.length) return '';
@@ -1690,6 +1697,7 @@ function openDetail(code) {
       </div>
       ${sizeGuideBlock(p)}
       ${wearInfoBlock(p)}
+      ${productInfoImageBlock(p)}
       ${colorOptionsBlock(p)}
       ${coordinatedBlock(p)}
       <p class="common-note">${t('commonNote')}</p>

@@ -1161,3 +1161,10 @@ body.zoom-open{overflow:hidden!important;}
 @media(min-width:1101px){
   .body{grid-template-columns:minmax(0,1.36fr) minmax(330px,.64fr)}
 }
+
+
+/* August product-info image matching v4 */
+.product-info-image-box{padding:16px 18px;background:#fffdf9;border-color:#e3d6c8}
+.product-info-image-box .product-info-note{margin:0 0 12px;color:#6d5b4f;font-size:13px;font-weight:800;line-height:1.55;word-break:keep-all}
+.product-info-image-box img{width:100%;height:auto;margin:10px 0 0;border:1px solid #eadfd5;border-radius:14px;background:#fff;box-shadow:0 8px 18px rgba(32,22,16,.05)}
+@media(max-width:720px){.product-info-image-box{padding:14px}.product-info-image-box .product-info-note{font-size:12.5px}}

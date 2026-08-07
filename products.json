@@ -229210,6 +229210,11 @@
         "url": "assets/aug01/grace/GRA-S888_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S888_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229298,7 +229303,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "GRA-S889",
@@ -229390,6 +229401,11 @@
         "url": "assets/aug01/grace/GRA-S889_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S889_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229478,7 +229494,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "GRA-S890",
@@ -229570,6 +229592,11 @@
         "url": "assets/aug01/grace/GRA-S890_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S890_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229658,7 +229685,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "SEY-S907",
@@ -229748,6 +229781,11 @@
         "url": "assets/aug01/seyun/SEY-S907_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S907_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 배색라인 플레어 원피스",
@@ -229834,7 +229872,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_010_SEY-S907_SEY-S908.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "SEY-S908",
@@ -229924,6 +229968,11 @@
         "url": "assets/aug01/seyun/SEY-S908_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S908_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 배색라인 플레어 원피스",
@@ -230010,7 +230059,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_010_SEY-S907_SEY-S908.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "SEY-S909",
@@ -230102,6 +230157,11 @@
         "url": "assets/aug01/seyun/SEY-S909_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S909_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 오프숄더 러플 원피스",
@@ -230186,7 +230246,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_011_SEY-S909_SEY-S910.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "SEY-S910",
@@ -230278,6 +230344,11 @@
         "url": "assets/aug01/seyun/SEY-S910_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S910_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 오프숄더 러플 원피스",
@@ -230362,7 +230433,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_011_SEY-S909_SEY-S910.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "SUN-S886",
@@ -230816,6 +230893,11 @@
         "url": "assets/aug01/jina/JINA-S878_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S878_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 브이넥 홀터 원피스",
@@ -230900,7 +230982,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_004_JINA-S878_JINA-S879.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "JINA-S879",
@@ -230992,6 +231080,11 @@
         "url": "assets/aug01/jina/JINA-S879_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S879_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 브이넥 홀터 원피스",
@@ -231076,7 +231169,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_004_JINA-S878_JINA-S879.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "JINA-S880",
@@ -231532,6 +231631,11 @@
         "url": "assets/aug01/jina/JINA-S917_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S917_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 프릴라인 미디원피스",
@@ -231618,7 +231722,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_005_JINA-S917_JINA-S918.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "JINA-S918",
@@ -231710,6 +231820,11 @@
         "url": "assets/aug01/jina/JINA-S918_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S918_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 프릴라인 미디원피스",
@@ -231796,7 +231911,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_005_JINA-S917_JINA-S918.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "JINA-S919",
@@ -231890,6 +232011,11 @@
         "url": "assets/aug01/jina/JINA-S919_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S919_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 원숄더 드레이프 원피스",
@@ -231976,7 +232102,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_006_JINA-S919_JINA-S920.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "JINA-S920",
@@ -232070,6 +232202,11 @@
         "url": "assets/aug01/jina/JINA-S920_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S920_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 원숄더 드레이프 원피스",
@@ -232156,7 +232293,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_006_JINA-S919_JINA-S920.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S856",
@@ -232255,6 +232398,11 @@
         "url": "assets/aug01/tiara/TIA-S856_10.jpg",
         "cut": "상세 9",
         "source": "assets/aug01/tiara/TIA-S856_10.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_012_TIA-S857.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 핀턱 나시탑",
@@ -232344,7 +232492,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_012_TIA-S857.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_012_TIA-S857.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S857",
@@ -232448,6 +232602,11 @@
         "url": "assets/aug01/tiara/TIA-S857_11.jpg",
         "cut": "상세 10",
         "source": "assets/aug01/tiara/TIA-S857_11.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_012_TIA-S857.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 플라워 매듭 나시탑",
@@ -232537,7 +232696,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_012_TIA-S857.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_012_TIA-S857.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S858",
@@ -232625,6 +232790,11 @@
         "url": "assets/aug01/tiara/TIA-S858_07.jpg",
         "cut": "상세 6",
         "source": "assets/aug01/tiara/TIA-S858_07.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_013_TIA-S858.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 시퀸 쉬폰 나시 블라우스",
@@ -232711,7 +232881,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_013_TIA-S858.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_013_TIA-S858.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S859",
@@ -232983,6 +233159,11 @@
         "url": "assets/aug01/tiara/TIA-S860_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S860_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_014_TIA-S860.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 프릴 쉬폰 벨트 미니원피스",
@@ -233071,7 +233252,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_014_TIA-S860.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_014_TIA-S860.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S861",
@@ -233343,6 +233530,11 @@
         "url": "assets/aug01/tiara/TIA-S862_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S862_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 레이스 홀터 쉬폰 미니원피스",
@@ -233435,7 +233627,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_015_TIA-S863_TIA-S862.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S863",
@@ -233530,6 +233728,11 @@
         "url": "assets/aug01/tiara/TIA-S863_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S863_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 레이스 홀터 쉬폰 미니원피스",
@@ -233622,7 +233825,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_015_TIA-S863_TIA-S862.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S864",
@@ -233713,6 +233922,11 @@
         "url": "assets/aug01/tiara/TIA-S864_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S864_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 레이스 크롭 투피스",
@@ -233803,7 +234017,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_016_TIA-S865_TIA-S864.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S865",
@@ -233894,6 +234114,11 @@
         "url": "assets/aug01/tiara/TIA-S865_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S865_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 레이스 크롭 투피스",
@@ -233984,7 +234209,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_016_TIA-S865_TIA-S864.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S866",
@@ -234073,6 +234304,11 @@
         "url": "assets/aug01/tiara/TIA-S866_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S866_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_017_TIA-S866.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 플라워 코르셋 투피스",
@@ -234157,7 +234393,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_017_TIA-S866.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_017_TIA-S866.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S867",
@@ -234799,6 +235041,11 @@
         "url": "assets/aug01/tiara/TIA-S870_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S870_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 트위드 버튼 미니원피스",
@@ -234889,7 +235136,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_018_TIA-S870_TIA-S871.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S871",
@@ -234980,6 +235233,11 @@
         "url": "assets/aug01/tiara/TIA-S871_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S871_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 트위드 버튼 미니원피스",
@@ -235070,7 +235328,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_018_TIA-S870_TIA-S871.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S872",
@@ -235344,6 +235608,11 @@
         "url": "assets/aug01/tiara/TIA-S873_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S873_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_019_TIA-S873.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 홀터 투피스",
@@ -235432,7 +235701,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_019_TIA-S873.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_019_TIA-S873.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S874",
@@ -236230,6 +236505,11 @@
         "url": "assets/aug01/tiara/TIA-S891_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S891_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_020_TIA-S891.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 드레이프 오프숄더 미니원피스",
@@ -236318,7 +236598,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_020_TIA-S891.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_020_TIA-S891.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S892",
@@ -236411,6 +236697,11 @@
         "url": "assets/aug01/tiara/TIA-S892_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S892_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 진주라인 트위드 미니원피스",
@@ -236503,7 +236794,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_021_TIA-S892_TIA-S893.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S893",
@@ -236596,6 +236893,11 @@
         "url": "assets/aug01/tiara/TIA-S893_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S893_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 진주라인 트위드 미니원피스",
@@ -236688,7 +236990,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_021_TIA-S892_TIA-S893.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S894",
@@ -236781,6 +237089,11 @@
         "url": "assets/aug01/tiara/TIA-S894_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S894_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_022_TIA-S894.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "우아한 분위기를 살려주는 블랙리본 플리츠 롱드레스",
@@ -236869,7 +237182,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_022_TIA-S894.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_022_TIA-S894.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S895",
@@ -237881,6 +238200,11 @@
         "url": "assets/aug01/tiara/TIA-S900_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S900_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_023_TIA-S900.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 큐빅 오프숄더 미니원피스",
@@ -237969,7 +238293,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_023_TIA-S900.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_023_TIA-S900.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S901",
@@ -238062,6 +238392,11 @@
         "url": "assets/aug01/tiara/TIA-S901_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S901_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_024_TIA-S901.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 프리미엄 큐빅 오프숄더 미니원피스",
@@ -238150,7 +238485,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_024_TIA-S901.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_024_TIA-S901.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S902",
@@ -239145,6 +239486,11 @@
         "url": "assets/aug01/tiara/TIA-S921_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S921_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -239239,7 +239585,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S922",
@@ -239337,6 +239689,11 @@
         "url": "assets/aug01/tiara/TIA-S922_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S922_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -239431,7 +239788,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S923",
@@ -239529,6 +239892,11 @@
         "url": "assets/aug01/tiara/TIA-S923_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S923_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -239623,7 +239991,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S924",
@@ -239721,6 +240095,11 @@
         "url": "assets/aug01/tiara/TIA-S924_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S924_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -239816,7 +240195,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S925",
@@ -239914,6 +240299,11 @@
         "url": "assets/aug01/tiara/TIA-S925_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S925_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -240009,7 +240399,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S926",
@@ -240107,6 +240503,11 @@
         "url": "assets/aug01/tiara/TIA-S926_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S926_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -240202,7 +240603,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S927",
@@ -240295,6 +240702,11 @@
         "url": "assets/aug01/tiara/TIA-S927_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S927_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_027_TIA-S927.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 카라 베스트 시퀸 투피스",
@@ -240383,7 +240795,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_027_TIA-S927.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_027_TIA-S927.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S928",
@@ -240479,6 +240897,16 @@
         "url": "assets/aug01/tiara/TIA-S928_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S928_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
+        "cut": "제품정보 1",
+        "source": "8월 신상 제품정보"
+      },
+      {
+        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
+        "cut": "제품정보 2",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 체인 프린트 나시탑 세트",
@@ -240568,7 +240996,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
+      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png"
+    ],
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S929",
@@ -240664,6 +241098,16 @@
         "url": "assets/aug01/tiara/TIA-S929_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S929_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
+        "cut": "제품정보 1",
+        "source": "8월 신상 제품정보"
+      },
+      {
+        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
+        "cut": "제품정보 2",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 체인 프린트 나시탑 세트",
@@ -240753,7 +241197,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
+      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png"
+    ],
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S930",
@@ -240851,6 +241301,16 @@
         "url": "assets/aug01/tiara/TIA-S930_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S930_09.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
+        "cut": "제품정보 1",
+        "source": "8월 신상 제품정보"
+      },
+      {
+        "url": "assets/aug_info/info_030_TIA-S930.png",
+        "cut": "제품정보 2",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 도트 프린트 나시탑 세트",
@@ -240937,7 +241397,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
+      "assets/aug_info/info_030_TIA-S930.png"
+    ],
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S931",
@@ -241028,6 +241494,11 @@
         "url": "assets/aug01/tiara/TIA-S931_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S931_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -241122,7 +241593,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S932",
@@ -241213,6 +241690,11 @@
         "url": "assets/aug01/tiara/TIA-S932_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S932_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -241307,7 +241789,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S933",
@@ -241398,6 +241886,11 @@
         "url": "assets/aug01/tiara/TIA-S933_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S933_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -241492,7 +241985,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S934",
@@ -241583,6 +242082,11 @@
         "url": "assets/aug01/tiara/TIA-S934_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S934_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -241677,7 +242181,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S935",
@@ -241770,6 +242280,11 @@
         "url": "assets/aug01/tiara/TIA-S935_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S935_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -241864,7 +242379,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S936",
@@ -241957,6 +242478,11 @@
         "url": "assets/aug01/tiara/TIA-S936_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S936_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -242051,7 +242577,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S937",
@@ -242144,6 +242676,11 @@
         "url": "assets/aug01/tiara/TIA-S937_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S937_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -242238,7 +242775,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "TIA-S938",
@@ -242331,6 +242874,11 @@
         "url": "assets/aug01/tiara/TIA-S938_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S938_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_033_TIA-S938.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 셔링 홀터 미니원피스",
@@ -242419,7 +242967,13 @@
     "lineName": "",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_033_TIA-S938.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_033_TIA-S938.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S911",
@@ -242509,6 +243063,11 @@
         "url": "assets/aug01/pearl/PEARL-S911_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S911_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클라인 미니원피스",
@@ -242593,7 +243152,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S912",
@@ -242683,6 +243248,11 @@
         "url": "assets/aug01/pearl/PEARL-S912_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S912_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클라인 미니원피스",
@@ -242767,7 +243337,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S913",
@@ -242857,6 +243433,11 @@
         "url": "assets/aug01/pearl/PEARL-S913_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S913_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 버튼 슬림 미디원피스",
@@ -242941,7 +243522,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S914",
@@ -243031,6 +243618,11 @@
         "url": "assets/aug01/pearl/PEARL-S914_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S914_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 버튼 슬림 미디원피스",
@@ -243115,7 +243707,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S915",
@@ -243205,6 +243803,11 @@
         "url": "assets/aug01/pearl/PEARL-S915_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S915_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클포인트 미니원피스",
@@ -243289,7 +243892,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "PEARL-S916",
@@ -243379,6 +243988,11 @@
         "url": "assets/aug01/pearl/PEARL-S916_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S916_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클포인트 미니원피스",
@@ -243463,7 +244077,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "HEP-S884",
@@ -243555,6 +244175,11 @@
         "url": "assets/aug01/hepburn/HEP-S884_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hepburn/HEP-S884_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클 슬릿 미니원피스",
@@ -243641,7 +244266,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_002_HEP-S884_HEP-S885.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "HEP-S885",
@@ -243733,6 +244364,11 @@
         "url": "assets/aug01/hepburn/HEP-S885_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hepburn/HEP-S885_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클 슬릿 미니원피스",
@@ -243819,7 +244455,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_002_HEP-S884_HEP-S885.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "HIYA-S882",
@@ -243911,6 +244553,11 @@
         "url": "assets/aug01/hiya/HIYA-S882_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hiya/HIYA-S882_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 퍼프 투피스",
@@ -243997,7 +244644,13 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   },
   {
     "code": "HIYA-S883",
@@ -244089,6 +244742,11 @@
         "url": "assets/aug01/hiya/HIYA-S883_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hiya/HIYA-S883_08.jpg"
+      },
+      {
+        "url": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
+        "cut": "제품정보",
+        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 퍼프 투피스",
@@ -244175,6 +244833,12 @@
     "internalMemo": "거래처 신상 정보 기준 가격/컬러/같은 디자인 묶음 반영. 고객 노출 문구에는 거래처명/매입정보/원산지 미표기.",
     "priority": 8200,
     "newArrival": true,
-    "featured": false
+    "featured": false,
+    "productInfoImages": [
+      "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png"
+    ],
+    "productInfoImage": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
+    "productInfoMatched": true,
+    "internalProductInfoSource": "8월신상제품정보.zip"
   }
 ]
