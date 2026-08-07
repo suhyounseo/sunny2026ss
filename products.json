@@ -229349,19 +229349,23 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "새틴",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "GRA-S889",
@@ -229592,19 +229596,23 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "새틴",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "GRA-S890",
@@ -229835,19 +229843,23 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "새틴",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "SEY-S907",
@@ -230035,16 +230047,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -230086,7 +230099,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "SEY-S908",
@@ -230274,16 +230290,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -230325,7 +230342,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "SEY-S909",
@@ -230513,16 +230533,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -230564,7 +230585,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "SEY-S910",
@@ -230752,16 +230776,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -230803,7 +230828,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "SUN-S886",
@@ -231446,11 +231474,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -231458,7 +231487,10 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "JINA-S879",
@@ -231685,11 +231717,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -231697,7 +231730,10 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "JINA-S880",
@@ -232344,12 +232380,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다른컬러5917)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "앞지퍼"
         }
       }
     ],
@@ -232358,7 +232394,10 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "앞지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "JINA-S918",
@@ -232587,12 +232626,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다른컬러5917)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "앞지퍼"
         }
       }
     ],
@@ -232601,7 +232640,10 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "앞지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "JINA-S919",
@@ -232793,16 +232835,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -232844,7 +232887,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "JINA-S920",
@@ -233036,16 +233082,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -233087,7 +233134,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S856",
@@ -233281,12 +233331,7 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_012_TIA-S857.png"
-    ],
-    "productInfoImage": "assets/aug_info/info_012_TIA-S857.png",
     "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -233538,12 +233583,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "부분",
           "비침": "없음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -233552,7 +233597,10 @@
     "lining": "부분",
     "see": "없음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "없음",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S858",
@@ -233738,7 +233786,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방-한사이즈차이는단면25am반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -233782,7 +233829,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S859",
@@ -234204,12 +234253,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방“|11ATACOOHAF.AL",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
           "비침": "있음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -234218,7 +234267,10 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "없음",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S861",
@@ -234613,9 +234665,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "면",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
         }
       }
     ],
@@ -234652,7 +234707,11 @@
           }
         ]
       }
-    ]
+    ],
+    "cap": "없음",
+    "zipper": "옆지퍼",
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S863",
@@ -234851,9 +234910,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "면",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
         }
       }
     ],
@@ -234890,7 +234952,11 @@
           }
         ]
       }
-    ]
+    ],
+    "cap": "없음",
+    "zipper": "옆지퍼",
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S864",
@@ -235080,19 +235146,31 @@
     "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "있음",
+          "신축성": "좋음",
+          "캡여부": "없음",
           "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
           "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
-    "zipper": "없음",
+    "zipper": "상의 없음 / 스커트 없음",
     "productInfoTableMatched": true,
     "sizeTables": [
       {
@@ -235124,7 +235202,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 좋음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S865",
@@ -235314,19 +235394,31 @@
     "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "있음",
+          "신축성": "좋음",
+          "캡여부": "없음",
           "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "좋음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
           "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
-    "zipper": "없음",
+    "zipper": "상의 없음 / 스커트 없음",
     "productInfoTableMatched": true,
     "sizeTables": [
       {
@@ -235358,7 +235450,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 좋음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S866",
@@ -235540,10 +235634,24 @@
     "internalProductInfoSource": "TIA-S866 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -235596,7 +235704,11 @@
           }
         ]
       }
-    ]
+    ],
+    "cap": "있음",
+    "zipper": "상의 뒷지퍼 / 스커트 없음",
+    "wearInfo": "신축성 없음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S867",
@@ -236397,7 +236509,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -236444,7 +236555,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S871",
@@ -236637,7 +236750,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -236684,7 +236796,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S872",
@@ -237121,22 +237235,35 @@
     ],
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
           "신축성": "없음",
-          "캡여부": "있음",
+          "캡여부": "없음",
           "안감": "있음",
-          "두께감": "얇음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
           "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "있음",
     "thickness": "얇음",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S874",
@@ -238141,7 +238268,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방-한사이즈자이는단면250반사이",
           "신축성": "좋음",
           "캡여부": "없음",
           "안감": "없음",
@@ -238157,7 +238283,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "옆지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S892",
@@ -238385,7 +238513,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방-한사이즈차이는단면25cm반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -238401,7 +238528,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S893",
@@ -238629,7 +238758,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방-한사이즈차이는단면25cm반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -238645,7 +238773,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S894",
@@ -238869,7 +238999,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방-한사이즈자이는단면250반사이",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -238885,7 +239014,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "옆지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S895",
@@ -240127,17 +240258,22 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방카사이즈자이는단면250반사이즈",
-          "안감": "없음",
-          "두께감": "얇음",
-          "지퍼": "없음"
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "lining": "없음",
     "thickness": "얇음",
-    "zipper": "없음",
-    "productInfoTableMatched": true
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true,
+    "cap": "없음",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S901",
@@ -240361,7 +240497,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -240377,7 +240512,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S902",
@@ -241588,14 +241725,13 @@
     "fabric": "레이스폴리혼방-한사이즈차이는단면256",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "스커트 착용 정보",
         "items": {
-          "소재": "레이스폴리혼방-한사이즈차이는단면256",
           "신축성": "없음",
-          "캡여부": "있음",
-          "안감": "없음",
-          "비침": "있음",
-          "두께감": "보통"
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -241604,7 +241740,10 @@
     "lining": "없음",
     "see": "있음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S922",
@@ -241831,14 +241970,13 @@
     "fabric": "레이스폴리혼방-한사이즈차이는단면256",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "스커트 착용 정보",
         "items": {
-          "소재": "레이스폴리혼방-한사이즈차이는단면256",
           "신축성": "없음",
-          "캡여부": "있음",
-          "안감": "없음",
-          "비침": "있음",
-          "두께감": "보통"
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -241847,7 +241985,10 @@
     "lining": "없음",
     "see": "있음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S923",
@@ -242045,12 +242186,7 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
-    ],
-    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
     "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -242272,14 +242408,14 @@
     "fabric": "면",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "있음",
+          "안감": "없음",
           "비침": "있음",
-          "두께감": "얇음"
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -242309,7 +242445,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "없음",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S925",
@@ -242512,14 +242651,14 @@
     "fabric": "면",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "있음",
+          "안감": "없음",
           "비침": "있음",
-          "두께감": "얇음"
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -242549,7 +242688,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "없음",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S926",
@@ -242752,14 +242894,14 @@
     "fabric": "면",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "있음",
+          "안감": "없음",
           "비침": "있음",
-          "두께감": "얇음"
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
@@ -242789,7 +242931,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "없음",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S927",
@@ -243008,9 +243153,8 @@
     "fabric": "폴리혼방",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "없음",
           "캡여부": "없음",
           "어깨패드": "없음",
@@ -243027,7 +243171,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 어깨패드 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S928",
@@ -243262,23 +243408,36 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "캡여부": "있음",
+          "캡여부": "없음",
           "안감": "없음",
-          "비침": "있음",
-          "두께감": "두꺼움"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "숏팬츠 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "앞지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "see": "있음",
     "thickness": "두꺼움",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "상의 없음 / 숏팬츠 앞지퍼",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S929",
@@ -243513,23 +243672,36 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "캡여부": "있음",
+          "캡여부": "없음",
           "안감": "없음",
-          "비침": "있음",
-          "두께감": "두꺼움"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "숏팬츠 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "앞지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "see": "있음",
     "thickness": "두꺼움",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "상의 없음 / 숏팬츠 앞지퍼",
+    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S930",
@@ -243763,23 +243935,36 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "숏팬츠 착용 정보",
         "items": {
-          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "앞지퍼"
+        }
+      },
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "없음",
           "안감": "없음",
-          "비침": "있음",
-          "두께감": "두꺼움"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "see": "있음",
     "thickness": "두꺼움",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "숏팬츠 앞지퍼 / 상의 없음",
+    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S931",
@@ -244015,7 +244200,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244031,7 +244215,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S932",
@@ -244267,7 +244453,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244283,7 +244468,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S933",
@@ -244519,7 +244706,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244535,7 +244721,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S934",
@@ -244771,7 +244959,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244787,7 +244974,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S935",
@@ -245025,7 +245214,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245041,7 +245229,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S936",
@@ -245279,7 +245469,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245295,7 +245484,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S937",
@@ -245533,7 +245724,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245549,7 +245739,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "TIA-S938",
@@ -245773,7 +245965,6 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "망사+스판-한사이즈차이는단면25am반",
           "신축성": "좋음",
           "캡여부": "없음",
           "안감": "있음",
@@ -245789,7 +245980,9 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "옆지퍼",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S911",
@@ -245972,21 +246165,32 @@
     "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "없음",
-          "안감": "있음",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
           "두께감": "보통",
-          "지퍼": "없음"
+          "지퍼": "앞지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "있음",
     "thickness": "보통",
-    "zipper": "없음",
+    "zipper": "상의 앞지퍼 / 스커트 뒷지퍼",
     "productInfoTableMatched": true,
     "sizeTables": [
       {
@@ -246050,7 +246254,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S912",
@@ -246233,21 +246439,32 @@
     "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "없음",
-          "안감": "있음",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
           "두께감": "보통",
-          "지퍼": "없음"
+          "지퍼": "앞지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "있음",
     "thickness": "보통",
-    "zipper": "없음",
+    "zipper": "상의 앞지퍼 / 스커트 뒷지퍼",
     "productInfoTableMatched": true,
     "sizeTables": [
       {
@@ -246311,7 +246528,9 @@
           }
         ]
       }
-    ]
+    ],
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S913",
@@ -246536,12 +246755,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "자가드",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -246550,7 +246769,10 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S914",
@@ -246775,12 +246997,12 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "자가드",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -246789,7 +247011,10 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S915",
@@ -246975,16 +247200,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -247026,7 +247252,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "PEARL-S916",
@@ -247212,16 +247441,17 @@
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방",
-          "신축성": "약간",
-          "캡여부": "없음",
-          "안감": "없음",
-          "두께감": "얇음"
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "thickness": "얇음",
     "productInfoTableMatched": true,
@@ -247263,7 +247493,10 @@
           }
         ]
       }
-    ]
+    ],
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "HEP-S884",
@@ -247494,7 +247727,9 @@
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -247502,7 +247737,10 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "HEP-S885",
@@ -247733,7 +247971,9 @@
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음"
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -247741,7 +247981,10 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "zipper": "뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "HIYA-S882",
@@ -247992,13 +248235,24 @@
     "fabric": "레이스",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "레이스",
-          "신축성": "약간",
-          "안감": "있음",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
           "비침": "있음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -248006,7 +248260,11 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "cap": "있음",
+    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   },
   {
     "code": "HIYA-S883",
@@ -248257,13 +248515,24 @@
     "fabric": "레이스",
     "wearTables": [
       {
-        "title": "착용 정보",
+        "title": "상의 착용 정보",
         "items": {
-          "소재": "레이스",
-          "신축성": "약간",
-          "안감": "있음",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
           "비침": "있음",
-          "두께감": "보통"
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "신축성": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
         }
       }
     ],
@@ -248271,6 +248540,10 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통",
-    "productInfoTableMatched": true
+    "productInfoTableMatched": true,
+    "cap": "있음",
+    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
+    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "wearInfoCompleted": true
   }
 ]

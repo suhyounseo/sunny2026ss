@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07sizeaudit8';
+const VERSION = 'aug07wearaudit9';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -808,6 +808,8 @@ function sizeGuideBlock(p) {
 }
 
 function productInfoImageBlock(p) {
+  // 제품정보/사이즈 실측 이미지는 고객 화면에 직접 노출하지 않습니다.
+  // 모든 제품정보는 sizeTables / wearTables 테이블로 재구성해서만 표시합니다.
   return '';
 }
 
