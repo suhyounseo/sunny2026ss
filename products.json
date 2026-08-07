@@ -229139,7 +229139,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 144000,
     "tags": [
@@ -229304,12 +229304,60 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "37",
+            "허리단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "39.5",
+            "허리단면": "33.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "36"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "새틴",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "GRA-S889",
@@ -229330,7 +229378,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "레드",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 144000,
     "tags": [
@@ -229495,12 +229543,60 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "37",
+            "허리단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "39.5",
+            "허리단면": "33.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "36"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "새틴",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "GRA-S890",
@@ -229521,7 +229617,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 144000,
     "tags": [
@@ -229686,12 +229782,60 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png"
+    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "37",
+            "허리단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "39.5",
+            "허리단면": "33.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "101",
+            "소매길이": "-",
+            "가슴단면": "42",
+            "허리단면": "36"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "새틴",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "SEY-S907",
@@ -229873,12 +230017,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_010_SEY-S907_SEY-S908.png"
+    "internalProductInfoSource": "SEY-S907(#Uc544#Uc774#Ubcf4#Ub9ac) SEY-S908(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "SEY-S908",
@@ -230060,12 +230217,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_010_SEY-S907_SEY-S908.png"
+    "internalProductInfoSource": "SEY-S907(#Uc544#Uc774#Ubcf4#Ub9ac) SEY-S908(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "SEY-S909",
@@ -230247,12 +230417,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_011_SEY-S909_SEY-S910.png"
+    "internalProductInfoSource": "SEY-S909(#Ud551#Ud06c) SEY-S910(#Ube14#Ub799)#Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "SEY-S910",
@@ -230434,12 +230617,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_011_SEY-S909_SEY-S910.png"
+    "internalProductInfoSource": "SEY-S909(#Ud551#Ud06c) SEY-S910(#Ube14#Ub799)#Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "SUN-S886",
@@ -230822,7 +231018,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "핑크",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -230983,12 +231179,56 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_004_JINA-S878_JINA-S879.png"
+    "internalProductInfoSource": "JINA-S878, JINA-S879 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "39",
+            "가슴단면": "30"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "41.5",
+            "가슴단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "80",
+            "소매길이": "44",
+            "가슴단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "JINA-S879",
@@ -231009,7 +231249,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -231170,12 +231410,56 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_004_JINA-S878_JINA-S879.png"
+    "internalProductInfoSource": "JINA-S878, JINA-S879 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "39",
+            "가슴단면": "30"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "41.5",
+            "가슴단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "80",
+            "소매길이": "44",
+            "가슴단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "JINA-S880",
@@ -231560,7 +231844,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -231723,12 +232007,55 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_005_JINA-S917_JINA-S918.png"
+    "internalProductInfoSource": "JINA-S917(#Uc544#Uc774#Ubcf4#Ub9ac) JINA-S918(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "10.1",
+            "소매길이": "7",
+            "가슴단면": "41.5",
+            "허리단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "10.1",
+            "소매길이": "7",
+            "가슴단면": "44",
+            "허리단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다른컬러5917)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다른컬러5917)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "JINA-S918",
@@ -231749,7 +232076,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -231912,12 +232239,55 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_005_JINA-S917_JINA-S918.png"
+    "internalProductInfoSource": "JINA-S917(#Uc544#Uc774#Ubcf4#Ub9ac) JINA-S918(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "10.1",
+            "소매길이": "7",
+            "가슴단면": "41.5",
+            "허리단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "10.1",
+            "소매길이": "7",
+            "가슴단면": "44",
+            "허리단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다른컬러5917)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다른컬러5917)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "JINA-S919",
@@ -232103,12 +232473,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_006_JINA-S919_JINA-S920.png"
+    "internalProductInfoSource": "JINA-S919(#Uc544#Uc774#Ubcf4#Ub9ac), JINA-S920(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "JINA-S920",
@@ -232294,12 +232677,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_006_JINA-S919_JINA-S920.png"
+    "internalProductInfoSource": "JINA-S919(#Uc544#Uc774#Ubcf4#Ub9ac), JINA-S920(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S856",
@@ -232519,7 +232915,7 @@
     "length": "상의",
     "fit": "탑핏",
     "color": "아이보리/블랙",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 72000,
     "tags": [
@@ -232697,12 +233093,52 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_012_TIA-S857.png"
+    "internalProductInfoSource": "TIA-S857 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "45",
+            "소매길이": "38",
+            "가슴단면": "34"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "45",
+            "소매길이": "38",
+            "가슴단면": "36.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_012_TIA-S857.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "없음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "부분",
+    "see": "없음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S858",
@@ -232882,12 +233318,29 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_013_TIA-S858.png"
+    "internalProductInfoSource": "TIA-S858 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_013_TIA-S858.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S859",
@@ -233087,7 +233540,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 72000,
     "tags": [
@@ -233253,12 +233706,49 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_014_TIA-S860.png"
+    "internalProductInfoSource": "TIA-S860 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "5",
+            "소매길이": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "44.5",
+            "소매길이": "-"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_014_TIA-S860.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방“|11ATACOOHAF.AL",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방“|11ATACOOHAF.AL",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S861",
@@ -233628,12 +234118,21 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_015_TIA-S863_TIA-S862.png"
+    "internalProductInfoSource": "TIA-S863(#Ube14#Ub799) TIA-S862(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S863",
@@ -233826,12 +234325,21 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_015_TIA-S863_TIA-S862.png"
+    "internalProductInfoSource": "TIA-S863(#Ube14#Ub799) TIA-S862(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S864",
@@ -234018,12 +234526,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_016_TIA-S865_TIA-S864.png"
+    "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S865",
@@ -234210,12 +234729,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_016_TIA-S865_TIA-S864.png"
+    "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S866",
@@ -234394,12 +234924,19 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_017_TIA-S866.png"
+    "internalProductInfoSource": "TIA-S866 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_017_TIA-S866.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S867",
@@ -235137,12 +235674,29 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_018_TIA-S870_TIA-S871.png"
+    "internalProductInfoSource": "TIA-S870(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S871(#Ubbfc#Ud2b8) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S871",
@@ -235329,12 +235883,29 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_018_TIA-S870_TIA-S871.png"
+    "internalProductInfoSource": "TIA-S870(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S871(#Ubbfc#Ud2b8) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S872",
@@ -235536,7 +236107,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 320000,
     "tags": [
@@ -235702,12 +236273,50 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_019_TIA-S873.png"
+    "internalProductInfoSource": "TIA-S873 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "3",
+            "소매길이": "21",
+            "가슴단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "38",
+            "소매길이": "5",
+            "가슴단면": "35.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_019_TIA-S873.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "두께감": "얇음",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "있음",
+    "thickness": "얇음",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S874",
@@ -236433,7 +237042,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "베이지",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 68000,
     "tags": [
@@ -236599,12 +237208,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_020_TIA-S891.png"
+    "internalProductInfoSource": "TIA-S891 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "6",
+            "소매길이": "37",
+            "가슴단면": "28",
+            "허리단면": "36"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "6",
+            "소매길이": "39.5",
+            "가슴단면": "30.5",
+            "허리단면": "38.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_020_TIA-S891.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "stretch": "좋음",
+    "cap": "없음",
+    "lining": "없음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "옆지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S892",
@@ -236625,7 +237279,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 232000,
     "tags": [
@@ -236795,12 +237449,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_021_TIA-S892_TIA-S893.png"
+    "internalProductInfoSource": "TIA-S892(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S893(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "41",
+            "소매길이": "39",
+            "가슴단면": "33",
+            "허리단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "41",
+            "소매길이": "41.5",
+            "가슴단면": "35.5",
+            "허리단면": "44.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S893",
@@ -236821,7 +237520,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "핑크",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 232000,
     "tags": [
@@ -236991,12 +237690,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_021_TIA-S892_TIA-S893.png"
+    "internalProductInfoSource": "TIA-S892(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S893(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "41",
+            "소매길이": "39",
+            "가슴단면": "33",
+            "허리단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "41",
+            "소매길이": "41.5",
+            "가슴단면": "35.5",
+            "허리단면": "44.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S894",
@@ -237017,7 +237761,7 @@
     "length": "롱",
     "fit": "롱핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 86000,
     "tags": [
@@ -237183,12 +237927,54 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_022_TIA-S894.png"
+    "internalProductInfoSource": "TIA-S894 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "13.8",
+            "소매길이": "38",
+            "가슴단면": "33"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "13.8",
+            "소매길이": "41.5",
+            "가슴단면": "35.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_022_TIA-S894.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "옆지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S895",
@@ -238128,7 +238914,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 81000,
     "tags": [
@@ -238294,12 +239080,38 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_023_TIA-S900.png"
+    "internalProductInfoSource": "TIA-S900 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_023_TIA-S900.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방카사이즈자이는단면250반사이즈",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방카사이즈자이는단면250반사이즈",
+          "안감": "없음",
+          "두께감": "얇음",
+          "지퍼": "없음"
+        }
+      }
+    ],
+    "lining": "없음",
+    "thickness": "얇음",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S901",
@@ -238320,7 +239132,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 104000,
     "tags": [
@@ -238486,12 +239298,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_024_TIA-S901.png"
+    "internalProductInfoSource": "TIA-S901 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "67",
+            "소매길이": "39",
+            "가슴단면": "33",
+            "허리단면": "48"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "67",
+            "소매길이": "41.5",
+            "가슴단면": "35.5",
+            "허리단면": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_024_TIA-S901.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S902",
@@ -239409,7 +240266,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "아이보리/블랙",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 109000,
     "tags": [
@@ -239586,12 +240443,52 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
+    "internalProductInfoSource": "TIA-S921 TIA-S922 #Uc2a4#Ucee4#Ud2b8 #Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "40",
+            "소매길이": "21",
+            "가슴단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "40",
+            "소매길이": "34.5",
+            "가슴단면": "43.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "레이스폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스폴리혼방",
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S922",
@@ -239612,7 +240509,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "블랙/아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 109000,
     "tags": [
@@ -239789,12 +240686,52 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_025_TIA-S921_TIA-S922.png"
+    "internalProductInfoSource": "TIA-S921 TIA-S922 #Uc2a4#Ucee4#Ud2b8 #Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "40",
+            "소매길이": "21",
+            "가슴단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "40",
+            "소매길이": "34.5",
+            "가슴단면": "43.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "레이스폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스폴리혼방",
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S923",
@@ -240196,12 +241133,27 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S925",
@@ -240400,12 +241352,27 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S926",
@@ -240604,12 +241571,27 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png"
+    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
+    "fabric": "면",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "면",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S927",
@@ -240630,7 +241612,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "베이지",
-    "size": "55 / 66 / 77",
+    "size": "55(S)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 330000,
     "tags": [
@@ -240796,12 +241778,49 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_027_TIA-S927.png"
+    "internalProductInfoSource": "TIA-S927 #Uc0c1#Uc758 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "44",
+            "소매길이": "42",
+            "가슴단면": "34"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_027_TIA-S927.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "캡여부": "없음",
+          "어깨패드": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S928",
@@ -240822,7 +241841,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 88000,
     "tags": [
@@ -240997,12 +242016,55 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
-      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png"
+    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "31",
+            "허리단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "33.5",
+            "허리단면": "44.5"
+          }
+        ]
+      }
     ],
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방/",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방/",
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "두꺼움"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "두꺼움",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S929",
@@ -241023,7 +242085,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "블랙/베이지",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 88000,
     "tags": [
@@ -241198,12 +242260,55 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
-      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png"
+    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "31",
+            "허리단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "33.5",
+            "허리단면": "44.5"
+          }
+        ]
+      }
     ],
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방/",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방/",
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "두꺼움"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "두꺼움",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S930",
@@ -241224,7 +242329,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "소라",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 88000,
     "tags": [
@@ -241398,12 +242503,55 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
-      "assets/aug_info/info_030_TIA-S930.png"
+    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "31",
+            "허리단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "35",
+            "소매길이": "3",
+            "가슴단면": "33.5",
+            "허리단면": "44.5"
+          }
+        ]
+      }
     ],
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방/",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방/",
+          "신축성": "없음",
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "두꺼움"
+        }
+      }
+    ],
+    "stretch": "없음",
+    "cap": "있음",
+    "lining": "없음",
+    "see": "있음",
+    "thickness": "두꺼움",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S931",
@@ -241424,7 +242572,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -241594,12 +242742,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "30",
+            "가슴단면": "48",
+            "허리단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "39.5",
+            "가슴단면": "32.5",
+            "허리단면": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다큰컬러5932)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S932",
@@ -241620,7 +242813,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "옐로우",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -241790,12 +242983,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "30",
+            "가슴단면": "48",
+            "허리단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "39.5",
+            "가슴단면": "32.5",
+            "허리단면": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다큰컬러5932)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S933",
@@ -241816,7 +243054,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "소라",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -241986,12 +243224,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "30",
+            "가슴단면": "48",
+            "허리단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "39.5",
+            "가슴단면": "32.5",
+            "허리단면": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다큰컬러5932)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S934",
@@ -242012,7 +243295,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -242182,12 +243465,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png"
+    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "30",
+            "가슴단면": "48",
+            "허리단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "39.5",
+            "가슴단면": "32.5",
+            "허리단면": "50.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방(같은디자인다큰컬러5932)",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S935",
@@ -242208,7 +243536,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 129000,
     "tags": [
@@ -242380,12 +243708,68 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "36",
+            "허리단면": "30",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "38.5",
+            "허리단면": "32.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "41",
+            "허리단면": "35",
+            "힙단면": "45"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S936",
@@ -242406,7 +243790,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "라벤더",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 129000,
     "tags": [
@@ -242578,12 +243962,68 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "36",
+            "허리단면": "30",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "38.5",
+            "허리단면": "32.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "41",
+            "허리단면": "35",
+            "힙단면": "45"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S937",
@@ -242604,7 +244044,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "블랙",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 129000,
     "tags": [
@@ -242776,12 +244216,68 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png"
+    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "36",
+            "허리단면": "30",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "38.5",
+            "허리단면": "32.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "100",
+            "소매길이": "21",
+            "가슴단면": "41",
+            "허리단면": "35",
+            "힙단면": "45"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "TIA-S938",
@@ -242802,7 +244298,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "브라운",
-    "size": "55 / 66 / 77",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 63000,
     "tags": [
@@ -242968,12 +244464,57 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_033_TIA-S938.png"
+    "internalProductInfoSource": "TIA-S938 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "76",
+            "소매길이": "37",
+            "가슴단면": "29",
+            "허리단면": "37"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "76",
+            "소매길이": "39.5",
+            "가슴단면": "31.5",
+            "허리단면": "39.5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_033_TIA-S938.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "망사+스판",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "망사+스판",
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "stretch": "좋음",
+    "cap": "없음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "옆지퍼",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S911",
@@ -243153,12 +244694,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png"
+    "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S912",
@@ -243338,12 +244892,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png"
+    "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "없음",
+          "캡여부": "없음",
+          "안감": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "없음",
+    "cap": "없음",
+    "lining": "있음",
+    "thickness": "보통",
+    "zipper": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S913",
@@ -243364,7 +244931,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "아이보리",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 135000,
     "tags": [
@@ -243523,12 +245090,52 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png"
+    "internalProductInfoSource": "PEARL-S913(#Uc544#Uc774#Ubcf4#Ub9ac) PEARL-S914(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "10.3",
+            "소매길이": "41.5",
+            "가슴단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "10.3",
+            "소매길이": "44",
+            "가슴단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "자가드",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "자가드",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S914",
@@ -243549,7 +245156,7 @@
     "length": "미디",
     "fit": "슬림핏",
     "color": "핑크",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M) / 77(L)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 135000,
     "tags": [
@@ -243708,12 +245315,52 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png"
+    "internalProductInfoSource": "PEARL-S913(#Uc544#Uc774#Ubcf4#Ub9ac) PEARL-S914(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "10.3",
+            "소매길이": "41.5",
+            "가슴단면": "32.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "10.3",
+            "소매길이": "44",
+            "가슴단면": "35"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "자가드",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "자가드",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S915",
@@ -243893,12 +245540,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png"
+    "internalProductInfoSource": "PEARL-S915(#Uc544#Uc774#Ubcf4#Ub9ac), PEARL-S916(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "PEARL-S916",
@@ -244078,12 +245738,25 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png"
+    "internalProductInfoSource": "PEARL-S915(#Uc544#Uc774#Ubcf4#Ub9ac), PEARL-S916(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "fabric": "폴리혼방",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
+        }
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "stretch": "약간",
+    "cap": "없음",
+    "lining": "없음",
+    "thickness": "얇음",
+    "productInfoTableMatched": true
   },
   {
     "code": "HEP-S884",
@@ -244104,7 +245777,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "브라운",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -244267,12 +245940,48 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_002_HEP-S884_HEP-S885.png"
+    "internalProductInfoSource": "HEP-S884 HEP-S885 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "8",
+            "소매길이": "39",
+            "가슴단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "8",
+            "소매길이": "41.5",
+            "가슴단면": "5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "HEP-S885",
@@ -244293,7 +246002,7 @@
     "length": "미니",
     "fit": "슬림핏",
     "color": "그레이",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "55(S) / 66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 126000,
     "tags": [
@@ -244456,12 +246165,48 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_002_HEP-S884_HEP-S885.png"
+    "internalProductInfoSource": "HEP-S884 HEP-S885 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "8",
+            "소매길이": "39",
+            "가슴단면": "31"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "8",
+            "소매길이": "41.5",
+            "가슴단면": "5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "productInfoTableMatched": true
   },
   {
     "code": "HIYA-S882",
@@ -244482,7 +246227,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "핑크",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 162000,
     "tags": [
@@ -244645,12 +246390,44 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png"
+    "internalProductInfoSource": "HIYA-S882, HIYA-S883 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "38",
+            "소매길이": "15",
+            "가슴단면": "5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "레이스",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   },
   {
     "code": "HIYA-S883",
@@ -244671,7 +246448,7 @@
     "length": "투피스",
     "fit": "세트핏",
     "color": "민트",
-    "size": "55 / 66 / 77 / 88 문의",
+    "size": "66(M)",
     "sizeInfo": "상세 실측은 상품코드와 함께 문의해 주세요.",
     "price": 162000,
     "tags": [
@@ -244834,11 +246611,43 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoImages": [
-      "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png"
+    "internalProductInfoSource": "HIYA-S882, HIYA-S883 #Uc81c#Ud488#Uc815#Ubcf4.png",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "66(M)",
+            "총길이": "38",
+            "소매길이": "15",
+            "가슴단면": "5"
+          }
+        ]
+      }
     ],
-    "productInfoImage": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
-    "productInfoMatched": true,
-    "internalProductInfoSource": "8월신상제품정보.zip"
+    "fabric": "레이스",
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "있음",
+          "두께감": "보통"
+        }
+      }
+    ],
+    "stretch": "약간",
+    "lining": "있음",
+    "see": "있음",
+    "thickness": "보통",
+    "productInfoTableMatched": true
   }
 ]
