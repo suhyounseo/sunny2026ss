@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07tablefix1';
+const VERSION = 'aug07delta6';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -899,6 +899,9 @@ function isCostume(p) {
 }
 function rankProduct(p) {
   let score = Number(p.priority || 0);
+  // 8월 신상은 전체(ALL)에서도 먼저 보이도록 최우선 가중치를 줍니다.
+  // 기존에는 7월 신상/메인진열 상품이 앞에 정렬되어 8월 신상이 뒤로 밀렸습니다.
+  if (isAugustNewProduct(p)) score += 12000;
   if (p.mainDisplay) score += 10000;
   if (isJulyNewProduct(p)) score += 9000;
   if (p.featured) score += 7000;
@@ -1093,7 +1096,8 @@ function matchesSearch(p, rawSearch) {
 function match(p) {
   const rawSearch = q.value.trim();
   let f = true;
-  if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
+  if (FILTER === 'ALL') f = true;
+  else if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
   else if (FILTER === 'COL_AUGUST') f = isAugustNewProduct(p);
   else if (FILTER === 'COL_JULY') f = isJulyNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
