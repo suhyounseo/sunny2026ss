@@ -229210,11 +229210,6 @@
         "url": "assets/aug01/grace/GRA-S888_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S888_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229304,7 +229299,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -229349,23 +229343,18 @@
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S889",
@@ -229457,11 +229446,6 @@
         "url": "assets/aug01/grace/GRA-S889_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S889_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229551,7 +229535,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -229596,23 +229579,18 @@
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S890",
@@ -229704,11 +229682,6 @@
         "url": "assets/aug01/grace/GRA-S890_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/grace/GRA-S890_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_001_GRA-S890_GRA-S889_GRA-S888.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 체인홀터 미디원피스",
@@ -229798,7 +229771,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "GRA-890 GRA-889 GRA-888 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -229843,23 +229815,18 @@
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "새틴",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "얇음"
   },
   {
     "code": "SEY-S907",
@@ -229949,11 +229916,6 @@
         "url": "assets/aug01/seyun/SEY-S907_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S907_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 배색라인 플레어 원피스",
@@ -230041,26 +230003,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "SEY-S907(#Uc544#Uc774#Ubcf4#Ub9ac) SEY-S908(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -230099,10 +230058,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "SEY-S908",
@@ -230192,11 +230148,6 @@
         "url": "assets/aug01/seyun/SEY-S908_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S908_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_010_SEY-S907_SEY-S908.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 배색라인 플레어 원피스",
@@ -230284,26 +230235,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "SEY-S907(#Uc544#Uc774#Ubcf4#Ub9ac) SEY-S908(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -230342,10 +230290,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "SEY-S909",
@@ -230437,11 +230382,6 @@
         "url": "assets/aug01/seyun/SEY-S909_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S909_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 오프숄더 러플 원피스",
@@ -230527,26 +230467,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "SEY-S909(#Ud551#Ud06c) SEY-S910(#Ube14#Ub799)#Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -230585,10 +230522,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "SEY-S910",
@@ -230680,11 +230614,6 @@
         "url": "assets/aug01/seyun/SEY-S910_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/seyun/SEY-S910_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_011_SEY-S909_SEY-S910.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 오프숄더 러플 원피스",
@@ -230770,26 +230699,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "SEY-S909(#Ud551#Ud06c) SEY-S910(#Ube14#Ub799)#Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -230828,10 +230754,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "SUN-S886",
@@ -231339,11 +231262,6 @@
         "url": "assets/aug01/jina/JINA-S878_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S878_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 브이넥 홀터 원피스",
@@ -231429,7 +231347,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S878, JINA-S879 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -231474,23 +231391,18 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "없음"
         }
       }
     ],
     "stretch": "있음",
     "cap": "있음",
     "lining": "있음",
-    "see": "없음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "see": "없음"
   },
   {
     "code": "JINA-S879",
@@ -231582,11 +231494,6 @@
         "url": "assets/aug01/jina/JINA-S879_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S879_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_004_JINA-S878_JINA-S879.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 브이넥 홀터 원피스",
@@ -231672,7 +231579,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S878, JINA-S879 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -231717,23 +231623,18 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "없음"
         }
       }
     ],
     "stretch": "있음",
     "cap": "있음",
     "lining": "있음",
-    "see": "없음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "see": "없음"
   },
   {
     "code": "JINA-S880",
@@ -232243,11 +232144,6 @@
         "url": "assets/aug01/jina/JINA-S917_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S917_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 프릴라인 미디원피스",
@@ -232335,7 +232231,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S917(#Uc544#Uc774#Ubcf4#Ub9ac) JINA-S918(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -232380,12 +232275,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다른컬러5917)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
+          "두께감": "보통"
         }
       }
     ],
@@ -232393,11 +232288,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "앞지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "JINA-S918",
@@ -232489,11 +232380,6 @@
         "url": "assets/aug01/jina/JINA-S918_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S918_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_005_JINA-S917_JINA-S918.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 프릴라인 미디원피스",
@@ -232581,7 +232467,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S917(#Uc544#Uc774#Ubcf4#Ub9ac) JINA-S918(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -232626,12 +232511,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다른컬러5917)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
+          "두께감": "보통"
         }
       }
     ],
@@ -232639,11 +232524,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "앞지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "JINA-S919",
@@ -232737,11 +232618,6 @@
         "url": "assets/aug01/jina/JINA-S919_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S919_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 원숄더 드레이프 원피스",
@@ -232829,26 +232705,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S919(#Uc544#Uc774#Ubcf4#Ub9ac), JINA-S920(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -232887,10 +232760,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "JINA-S920",
@@ -232984,11 +232854,6 @@
         "url": "assets/aug01/jina/JINA-S920_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/jina/JINA-S920_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_006_JINA-S919_JINA-S920.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 원숄더 드레이프 원피스",
@@ -233076,26 +232941,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "JINA-S919(#Uc544#Uc774#Ubcf4#Ub9ac), JINA-S920(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -233134,10 +232996,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S856",
@@ -233236,11 +233095,6 @@
         "url": "assets/aug01/tiara/TIA-S856_10.jpg",
         "cut": "상세 9",
         "source": "assets/aug01/tiara/TIA-S856_10.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_012_TIA-S857.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 핀턱 나시탑",
@@ -233331,7 +233185,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -233454,11 +233307,6 @@
         "url": "assets/aug01/tiara/TIA-S857_11.jpg",
         "cut": "상세 10",
         "source": "assets/aug01/tiara/TIA-S857_11.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_012_TIA-S857.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 플라워 매듭 나시탑",
@@ -233549,7 +233397,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S857 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -233583,12 +233430,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "부분",
           "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "두께감": "보통"
         }
       }
     ],
@@ -233596,11 +233443,7 @@
     "cap": "있음",
     "lining": "부분",
     "see": "없음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "없음",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "TIA-S858",
@@ -233688,11 +233531,6 @@
         "url": "assets/aug01/tiara/TIA-S858_07.jpg",
         "cut": "상세 6",
         "source": "assets/aug01/tiara/TIA-S858_07.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_013_TIA-S858.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "단독으로도 포인트가 되는 시퀸 쉬폰 나시 블라우스",
@@ -233780,12 +233618,12 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S858 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방-한사이즈차이는단면25am반사",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방-한사이즈차이는단면25am반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -233801,7 +233639,6 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -233829,9 +233666,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S859",
@@ -234122,11 +233957,6 @@
         "url": "assets/aug01/tiara/TIA-S860_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S860_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_014_TIA-S860.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 프릴 쉬폰 벨트 미니원피스",
@@ -234216,7 +234046,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S860 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -234253,12 +234082,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방“|11ATACOOHAF.AL",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
           "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "두께감": "보통"
         }
       }
     ],
@@ -234266,11 +234095,7 @@
     "cap": "없음",
     "lining": "있음",
     "see": "있음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "없음",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "TIA-S861",
@@ -234561,11 +234386,6 @@
         "url": "assets/aug01/tiara/TIA-S862_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S862_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 레이스 홀터 쉬폰 미니원피스",
@@ -234659,24 +234479,19 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S863(#Ube14#Ub799) TIA-S862(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "좋음",
-          "캡여부": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "옆지퍼"
+          "소재": "면",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -234707,11 +234522,7 @@
           }
         ]
       }
-    ],
-    "cap": "없음",
-    "zipper": "옆지퍼",
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S863",
@@ -234806,11 +234617,6 @@
         "url": "assets/aug01/tiara/TIA-S863_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S863_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_015_TIA-S863_TIA-S862.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 레이스 홀터 쉬폰 미니원피스",
@@ -234904,24 +234710,19 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S863(#Ube14#Ub799) TIA-S862(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "좋음",
-          "캡여부": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "옆지퍼"
+          "소재": "면",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -234952,11 +234753,7 @@
           }
         ]
       }
-    ],
-    "cap": "없음",
-    "zipper": "옆지퍼",
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S864",
@@ -235047,11 +234844,6 @@
         "url": "assets/aug01/tiara/TIA-S864_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S864_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 레이스 크롭 투피스",
@@ -235143,35 +234935,21 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "좋음",
-          "캡여부": "없음",
+          "신축성": "없음",
+          "캡여부": "있음",
           "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "좋음",
-          "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
           "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
-    "zipper": "상의 없음 / 스커트 없음",
-    "productInfoTableMatched": true,
+    "zipper": "없음",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -235202,9 +234980,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 좋음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S865",
@@ -235295,11 +235071,6 @@
         "url": "assets/aug01/tiara/TIA-S865_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S865_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_016_TIA-S865_TIA-S864.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 레이스 크롭 투피스",
@@ -235391,35 +235162,21 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S865(#Ube14#Ub799) TIA-S864(#Uc544#Uc774#Ubcf4#Ub9ac) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "좋음",
-          "캡여부": "없음",
+          "신축성": "없음",
+          "캡여부": "있음",
           "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "좋음",
-          "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
           "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
-    "zipper": "상의 없음 / 스커트 없음",
-    "productInfoTableMatched": true,
+    "zipper": "없음",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -235450,9 +235207,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 좋음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S866",
@@ -235541,11 +235296,6 @@
         "url": "assets/aug01/tiara/TIA-S866_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S866_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_017_TIA-S866.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 플라워 코르셋 투피스",
@@ -235631,33 +235381,17 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S866 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -235704,11 +235438,7 @@
           }
         ]
       }
-    ],
-    "cap": "있음",
-    "zipper": "상의 뒷지퍼 / 스커트 없음",
-    "wearInfo": "신축성 없음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S867",
@@ -236407,11 +236137,6 @@
         "url": "assets/aug01/tiara/TIA-S870_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S870_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 트위드 버튼 미니원피스",
@@ -236503,12 +236228,12 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S870(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S871(#Ubbfc#Ud2b8) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
+          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -236524,7 +236249,6 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -236555,9 +236279,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S871",
@@ -236648,11 +236370,6 @@
         "url": "assets/aug01/tiara/TIA-S871_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S871_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_018_TIA-S870_TIA-S871.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 트위드 버튼 미니원피스",
@@ -236744,12 +236461,12 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S870(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S871(#Ubbfc#Ud2b8) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
+          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -236765,7 +236482,6 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "없음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -236796,9 +236512,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S872",
@@ -237091,11 +236805,6 @@
         "url": "assets/aug01/tiara/TIA-S873_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S873_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_019_TIA-S873.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 홀터 투피스",
@@ -237185,7 +236894,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S873 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -237235,35 +236943,21 @@
     ],
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
           "신축성": "없음",
-          "캡여부": "없음",
+          "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
+          "두께감": "얇음",
           "지퍼": "뒷지퍼"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "있음",
     "thickness": "얇음",
-    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S874",
@@ -238137,11 +237831,6 @@
         "url": "assets/aug01/tiara/TIA-S891_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S891_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_020_TIA-S891.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 드레이프 오프숄더 미니원피스",
@@ -238231,7 +237920,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S891 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -238268,6 +237956,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방-한사이즈자이는단면250반사이",
           "신축성": "좋음",
           "캡여부": "없음",
           "안감": "없음",
@@ -238282,10 +237971,7 @@
     "lining": "없음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
-    "wearInfoCompleted": true
+    "zipper": "옆지퍼"
   },
   {
     "code": "TIA-S892",
@@ -238378,11 +238064,6 @@
         "url": "assets/aug01/tiara/TIA-S892_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S892_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 진주라인 트위드 미니원피스",
@@ -238476,7 +238157,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S892(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S893(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -238513,6 +238193,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방-한사이즈차이는단면25cm반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -238527,10 +238208,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S893",
@@ -238623,11 +238301,6 @@
         "url": "assets/aug01/tiara/TIA-S893_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S893_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_021_TIA-S892_TIA-S893.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 진주라인 트위드 미니원피스",
@@ -238721,7 +238394,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S892(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S893(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -238758,6 +238430,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방-한사이즈차이는단면25cm반사",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -238772,10 +238445,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S894",
@@ -238868,11 +238538,6 @@
         "url": "assets/aug01/tiara/TIA-S894_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S894_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_022_TIA-S894.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "우아한 분위기를 살려주는 블랙리본 플리츠 롱드레스",
@@ -238962,7 +238627,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S894 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -238999,6 +238663,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방-한사이즈자이는단면250반사이",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -239013,10 +238678,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
-    "wearInfoCompleted": true
+    "zipper": "옆지퍼"
   },
   {
     "code": "TIA-S895",
@@ -240127,11 +239789,6 @@
         "url": "assets/aug01/tiara/TIA-S900_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S900_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_023_TIA-S900.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 큐빅 오프숄더 미니원피스",
@@ -240221,7 +239878,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S900 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -240258,22 +239914,16 @@
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "없음",
-          "캡여부": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방카사이즈자이는단면250반사이즈",
+          "안감": "없음",
+          "두께감": "얇음",
+          "지퍼": "없음"
         }
       }
     ],
     "lining": "없음",
     "thickness": "얇음",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "cap": "없음",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "없음"
   },
   {
     "code": "TIA-S901",
@@ -240366,11 +240016,6 @@
         "url": "assets/aug01/tiara/TIA-S901_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S901_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_024_TIA-S901.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 프리미엄 큐빅 오프숄더 미니원피스",
@@ -240460,7 +240105,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S901 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -240497,6 +240141,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴",
           "신축성": "없음",
           "캡여부": "없음",
           "안감": "있음",
@@ -240511,10 +240156,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S902",
@@ -241596,11 +241238,6 @@
         "url": "assets/aug01/tiara/TIA-S921_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S921_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -241696,7 +241333,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S921 TIA-S922 #Uc2a4#Ucee4#Ud2b8 #Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -241725,13 +241361,14 @@
     "fabric": "레이스폴리혼방-한사이즈차이는단면256",
     "wearTables": [
       {
-        "title": "스커트 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "레이스폴리혼방-한사이즈차이는단면256",
           "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통"
         }
       }
     ],
@@ -241739,11 +241376,7 @@
     "cap": "있음",
     "lining": "없음",
     "see": "있음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "TIA-S922",
@@ -241841,11 +241474,6 @@
         "url": "assets/aug01/tiara/TIA-S922_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S922_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -241941,7 +241569,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S921 TIA-S922 #Uc2a4#Ucee4#Ud2b8 #Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -241970,13 +241597,14 @@
     "fabric": "레이스폴리혼방-한사이즈차이는단면256",
     "wearTables": [
       {
-        "title": "스커트 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "레이스폴리혼방-한사이즈차이는단면256",
           "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "캡여부": "있음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통"
         }
       }
     ],
@@ -241984,11 +241612,7 @@
     "cap": "있음",
     "lining": "없음",
     "see": "있음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "TIA-S923",
@@ -242086,11 +241710,6 @@
         "url": "assets/aug01/tiara/TIA-S923_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S923_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_025_TIA-S921_TIA-S922.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 블랙리본 레이스 투피스",
@@ -242186,7 +241805,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "productInfoMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -242303,11 +241921,6 @@
         "url": "assets/aug01/tiara/TIA-S924_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S924_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -242404,18 +242017,17 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "없음",
+          "안감": "있음",
           "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "두께감": "얇음"
         }
       }
     ],
@@ -242424,7 +242036,6 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -242445,10 +242056,7 @@
           }
         ]
       }
-    ],
-    "zipper": "없음",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S925",
@@ -242546,11 +242154,6 @@
         "url": "assets/aug01/tiara/TIA-S925_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S925_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -242647,18 +242250,17 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "없음",
+          "안감": "있음",
           "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "두께감": "얇음"
         }
       }
     ],
@@ -242667,7 +242269,6 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -242688,10 +242289,7 @@
           }
         ]
       }
-    ],
-    "zipper": "없음",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S926",
@@ -242789,11 +242387,6 @@
         "url": "assets/aug01/tiara/TIA-S926_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S926_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_026_TIA-S924_TIA-S925_TIA-S926.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 브로치 카라 투피스",
@@ -242890,18 +242483,17 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S924(#Ud654#Uc774#Ud2b8) TIA-S925(#Ud06c#Ub9bc#Ubca0#Uc774#Uc9c0) TIA-S926(#Ube14#Ub799) #Uc0c1#Uc758 #Uc815#Ubcf4.png",
     "fabric": "면",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "면",
           "신축성": "없음",
           "캡여부": "없음",
-          "안감": "없음",
+          "안감": "있음",
           "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "두께감": "얇음"
         }
       }
     ],
@@ -242910,7 +242502,6 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -242931,10 +242522,7 @@
           }
         ]
       }
-    ],
-    "zipper": "없음",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 있음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "TIA-S927",
@@ -243027,11 +242615,6 @@
         "url": "assets/aug01/tiara/TIA-S927_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S927_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_027_TIA-S927.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 카라 베스트 시퀸 투피스",
@@ -243121,7 +242704,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S927 #Uc0c1#Uc758 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -243153,8 +242735,9 @@
     "fabric": "폴리혼방",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "없음",
           "캡여부": "없음",
           "어깨패드": "없음",
@@ -243170,10 +242753,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "없음",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 어깨패드 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    "zipper": "없음"
   },
   {
     "code": "TIA-S928",
@@ -243269,16 +242849,6 @@
         "url": "assets/aug01/tiara/TIA-S928_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S928_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
-        "cut": "제품정보 1",
-        "source": "8월 신상 제품정보"
-      },
-      {
-        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
-        "cut": "제품정보 2",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 체인 프린트 나시탑 세트",
@@ -243369,7 +242939,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -243408,36 +242977,22 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "캡여부": "없음",
+          "캡여부": "있음",
           "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
-        }
-      },
-      {
-        "title": "숏팬츠 착용 정보",
-        "items": {
-          "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
+          "비침": "있음",
+          "두께감": "두꺼움"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "see": "있음",
-    "thickness": "두꺼움",
-    "productInfoTableMatched": true,
-    "zipper": "상의 없음 / 숏팬츠 앞지퍼",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
-    "wearInfoCompleted": true
+    "thickness": "두꺼움"
   },
   {
     "code": "TIA-S929",
@@ -243533,16 +243088,6 @@
         "url": "assets/aug01/tiara/TIA-S929_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S929_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_028_TIA-S928_TIA-S929.png",
-        "cut": "제품정보 1",
-        "source": "8월 신상 제품정보"
-      },
-      {
-        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
-        "cut": "제품정보 2",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 체인 프린트 나시탑 세트",
@@ -243633,7 +243178,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -243672,36 +243216,22 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "캡여부": "없음",
+          "캡여부": "있음",
           "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
-        }
-      },
-      {
-        "title": "숏팬츠 착용 정보",
-        "items": {
-          "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
+          "비침": "있음",
+          "두께감": "두꺼움"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "see": "있음",
-    "thickness": "두꺼움",
-    "productInfoTableMatched": true,
-    "zipper": "상의 없음 / 숏팬츠 앞지퍼",
-    "wearInfo": "신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음 / 신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
-    "wearInfoCompleted": true
+    "thickness": "두꺼움"
   },
   {
     "code": "TIA-S930",
@@ -243799,16 +243329,6 @@
         "url": "assets/aug01/tiara/TIA-S930_09.jpg",
         "cut": "상세 8",
         "source": "assets/aug01/tiara/TIA-S930_09.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_029_TIA-S928_TIA-S929_TIA-S930.png",
-        "cut": "제품정보 1",
-        "source": "8월 신상 제품정보"
-      },
-      {
-        "url": "assets/aug_info/info_030_TIA-S930.png",
-        "cut": "제품정보 2",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 도트 프린트 나시탑 세트",
@@ -243896,7 +243416,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S928(#Uc544#Uc774#Ubcf4#Ub9ac) TIA-S929(#Ube14#Ub799#Ubca0#Uc774#Uc9c0) TIA-S930(#Ub3c4#Ud2b8#Ube14#Ub799) #Uc20f#Ud32c#Uce20 #Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -243935,36 +243454,22 @@
     "fabric": "폴리혼방/-한사이즈자이는단면25am반",
     "wearTables": [
       {
-        "title": "숏팬츠 착용 정보",
+        "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방/-한사이즈자이는단면25am반",
           "신축성": "없음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
-        }
-      },
-      {
-        "title": "상의 착용 정보",
-        "items": {
-          "신축성": "없음",
-          "캡여부": "없음",
+          "캡여부": "있음",
           "안감": "없음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "없음"
+          "비침": "있음",
+          "두께감": "두꺼움"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "없음",
+    "cap": "있음",
     "lining": "없음",
     "see": "있음",
-    "thickness": "두꺼움",
-    "productInfoTableMatched": true,
-    "zipper": "숏팬츠 앞지퍼 / 상의 없음",
-    "wearInfo": "신축성 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 없음 / 캡여부 없음 / 안감 없음 / 비침 없음 / 두께감 보통 / 지퍼 없음",
-    "wearInfoCompleted": true
+    "thickness": "두꺼움"
   },
   {
     "code": "TIA-S931",
@@ -244055,11 +243560,6 @@
         "url": "assets/aug01/tiara/TIA-S931_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S931_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -244155,7 +243655,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -244200,6 +243699,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244214,10 +243714,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S932",
@@ -244308,11 +243805,6 @@
         "url": "assets/aug01/tiara/TIA-S932_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S932_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -244408,7 +243900,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -244453,6 +243944,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244467,10 +243959,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S933",
@@ -244561,11 +244050,6 @@
         "url": "assets/aug01/tiara/TIA-S933_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S933_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -244661,7 +244145,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -244706,6 +244189,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244720,10 +244204,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S934",
@@ -244814,11 +244295,6 @@
         "url": "assets/aug01/tiara/TIA-S934_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S934_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_031_TIA-S931_TIA-S932_TIA-S933.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 리본 플레어 미니원피스",
@@ -244914,7 +244390,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S931(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S932(#Uc5d8#Ub85c#Uc6b0), TIA-S933(#Uc18c#Ub77c), TIA-S934(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -244959,6 +244434,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방(같은디자인다큰컬러5932)",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
@@ -244973,10 +244449,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S935",
@@ -245069,11 +244542,6 @@
         "url": "assets/aug01/tiara/TIA-S935_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S935_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -245169,7 +244637,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -245214,6 +244681,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245228,10 +244696,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S936",
@@ -245324,11 +244789,6 @@
         "url": "assets/aug01/tiara/TIA-S936_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S936_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -245424,7 +244884,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -245469,6 +244928,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245483,10 +244943,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S937",
@@ -245579,11 +245036,6 @@
         "url": "assets/aug01/tiara/TIA-S937_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S937_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_032_TIA-S935_TIA-S936_TIA-S937.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 드레이프 오프숄더 미디원피스",
@@ -245679,7 +245131,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S935(#Uc544#Uc774#Ubcf4#Ub9ac), TIA-S936(#Ub77c#Ubca4#Ub354), TIA-S937(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -245724,6 +245175,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "폴리혼방",
           "신축성": "약간",
           "캡여부": "있음",
           "안감": "있음",
@@ -245738,10 +245190,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "뒷지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 약간 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "zipper": "뒷지퍼"
   },
   {
     "code": "TIA-S938",
@@ -245834,11 +245283,6 @@
         "url": "assets/aug01/tiara/TIA-S938_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/tiara/TIA-S938_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_033_TIA-S938.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 셔링 홀터 미니원피스",
@@ -245928,7 +245372,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "TIA-S938 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -245965,6 +245408,7 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "망사+스판-한사이즈차이는단면25am반",
           "신축성": "좋음",
           "캡여부": "없음",
           "안감": "있음",
@@ -245979,10 +245423,7 @@
     "lining": "있음",
     "see": "없음",
     "thickness": "보통",
-    "zipper": "옆지퍼",
-    "productInfoTableMatched": true,
-    "wearInfo": "신축성 좋음 / 캡여부 없음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 옆지퍼",
-    "wearInfoCompleted": true
+    "zipper": "옆지퍼"
   },
   {
     "code": "PEARL-S911",
@@ -246072,11 +245513,6 @@
         "url": "assets/aug01/pearl/PEARL-S911_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S911_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클라인 미니원피스",
@@ -246162,36 +245598,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
+          "신축성": "없음",
+          "캡여부": "없음",
           "안감": "있음",
-          "비침": "없음",
           "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "있음",
     "thickness": "보통",
-    "zipper": "상의 앞지퍼 / 스커트 뒷지퍼",
-    "productInfoTableMatched": true,
+    "zipper": "없음",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -246254,9 +245677,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "PEARL-S912",
@@ -246346,11 +245767,6 @@
         "url": "assets/aug01/pearl/PEARL-S912_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S912_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_007_PEARL-S911_PEARL-S912.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클라인 미니원피스",
@@ -246436,36 +245852,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S911(#Ube14#Ub8e8) PEARL-S912(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "앞지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
+          "신축성": "없음",
+          "캡여부": "없음",
           "안감": "있음",
-          "비침": "없음",
           "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "지퍼": "없음"
         }
       }
     ],
     "stretch": "없음",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "있음",
     "thickness": "보통",
-    "zipper": "상의 앞지퍼 / 스커트 뒷지퍼",
-    "productInfoTableMatched": true,
+    "zipper": "없음",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -246528,9 +245931,7 @@
           }
         ]
       }
-    ],
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 앞지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "PEARL-S913",
@@ -246620,11 +246021,6 @@
         "url": "assets/aug01/pearl/PEARL-S913_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S913_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 버튼 슬림 미디원피스",
@@ -246710,7 +246106,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S913(#Uc544#Uc774#Ubcf4#Ub9ac) PEARL-S914(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -246755,12 +246150,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "자가드",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "두께감": "보통"
         }
       }
     ],
@@ -246768,11 +246163,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "PEARL-S914",
@@ -246862,11 +246253,6 @@
         "url": "assets/aug01/pearl/PEARL-S914_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S914_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_008_PEARL-S913_PEARL-S914.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "세련된 실루엣의 버튼 슬림 미디원피스",
@@ -246952,7 +246338,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S913(#Uc544#Uc774#Ubcf4#Ub9ac) PEARL-S914(#Ud551#Ud06c) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -246997,12 +246382,12 @@
       {
         "title": "착용 정보",
         "items": {
+          "소재": "자가드",
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
           "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "두께감": "보통"
         }
       }
     ],
@@ -247010,11 +246395,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "PEARL-S915",
@@ -247104,11 +246485,6 @@
         "url": "assets/aug01/pearl/PEARL-S915_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S915_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클포인트 미니원피스",
@@ -247194,26 +246570,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S915(#Uc544#Uc774#Ubcf4#Ub9ac), PEARL-S916(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -247252,10 +246625,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "PEARL-S916",
@@ -247345,11 +246715,6 @@
         "url": "assets/aug01/pearl/PEARL-S916_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/pearl/PEARL-S916_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_009_PEARL-S915_PEARL-S916.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클포인트 미니원피스",
@@ -247435,26 +246800,23 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "PEARL-S915(#Uc544#Uc774#Ubcf4#Ub9ac), PEARL-S916(#Ube14#Ub799) #Uc81c#Ud488#Uc815#Ubcf4.png",
     "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "없음",
+          "안감": "없음",
+          "두께감": "얇음"
         }
       }
     ],
     "stretch": "약간",
-    "cap": "있음",
+    "cap": "없음",
     "lining": "없음",
     "thickness": "얇음",
-    "productInfoTableMatched": true,
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -247493,10 +246855,7 @@
           }
         ]
       }
-    ],
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    ]
   },
   {
     "code": "HEP-S884",
@@ -247588,11 +246947,6 @@
         "url": "assets/aug01/hepburn/HEP-S884_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hepburn/HEP-S884_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클 슬릿 미니원피스",
@@ -247680,7 +247034,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "HEP-S884 HEP-S885 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -247727,20 +247080,14 @@
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "없음"
         }
       }
     ],
     "stretch": "있음",
     "cap": "있음",
     "lining": "있음",
-    "see": "없음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "see": "없음"
   },
   {
     "code": "HEP-S885",
@@ -247832,11 +247179,6 @@
         "url": "assets/aug01/hepburn/HEP-S885_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hepburn/HEP-S885_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_002_HEP-S884_HEP-S885.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "사진에 예쁘게 잡히는 버클 슬릿 미니원피스",
@@ -247924,7 +247266,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "HEP-S884 HEP-S885 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -247971,20 +247312,14 @@
           "신축성": "있음",
           "캡여부": "있음",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "없음"
         }
       }
     ],
     "stretch": "있음",
     "cap": "있음",
     "lining": "있음",
-    "see": "없음",
-    "productInfoTableMatched": true,
-    "zipper": "뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "see": "없음"
   },
   {
     "code": "HIYA-S882",
@@ -248076,11 +247411,6 @@
         "url": "assets/aug01/hiya/HIYA-S882_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hiya/HIYA-S882_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 퍼프 투피스",
@@ -248168,7 +247498,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "HIYA-S882, HIYA-S883 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -248235,36 +247564,20 @@
     "fabric": "레이스",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
+          "소재": "레이스",
+          "신축성": "약간",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "있음",
+          "두께감": "보통"
         }
       }
     ],
     "stretch": "약간",
     "lining": "있음",
     "see": "있음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "cap": "있음",
-    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   },
   {
     "code": "HIYA-S883",
@@ -248356,11 +247669,6 @@
         "url": "assets/aug01/hiya/HIYA-S883_08.jpg",
         "cut": "상세 7",
         "source": "assets/aug01/hiya/HIYA-S883_08.jpg"
-      },
-      {
-        "url": "assets/aug_info/info_003_HIYA-S882_HIYA-S883.png",
-        "cut": "제품정보",
-        "source": "8월 신상 제품정보"
       }
     ],
     "mainCopy": "코디가 쉬운 트위드 퍼프 투피스",
@@ -248448,7 +247756,6 @@
     "priority": 8200,
     "newArrival": true,
     "featured": false,
-    "internalProductInfoSource": "HIYA-S882, HIYA-S883 #Uc81c#Ud488#Uc815#Ubcf4.png",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -248515,35 +247822,19 @@
     "fabric": "레이스",
     "wearTables": [
       {
-        "title": "상의 착용 정보",
+        "title": "착용 정보",
         "items": {
-          "신축성": "있음",
-          "캡여부": "있음",
-          "안감": "부분",
-          "비침": "있음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
-        }
-      },
-      {
-        "title": "스커트 착용 정보",
-        "items": {
-          "신축성": "있음",
+          "소재": "레이스",
+          "신축성": "약간",
           "안감": "있음",
-          "비침": "없음",
-          "두께감": "보통",
-          "지퍼": "뒷지퍼"
+          "비침": "있음",
+          "두께감": "보통"
         }
       }
     ],
     "stretch": "약간",
     "lining": "있음",
     "see": "있음",
-    "thickness": "보통",
-    "productInfoTableMatched": true,
-    "cap": "있음",
-    "zipper": "상의 뒷지퍼 / 스커트 뒷지퍼",
-    "wearInfo": "신축성 있음 / 캡여부 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 지퍼 뒷지퍼 / 신축성 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
-    "wearInfoCompleted": true
+    "thickness": "보통"
   }
 ]

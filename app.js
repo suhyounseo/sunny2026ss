@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07wearaudit9';
+const VERSION = 'aug07noinfo10';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -808,8 +808,6 @@ function sizeGuideBlock(p) {
 }
 
 function productInfoImageBlock(p) {
-  // 제품정보/사이즈 실측 이미지는 고객 화면에 직접 노출하지 않습니다.
-  // 모든 제품정보는 sizeTables / wearTables 테이블로 재구성해서만 표시합니다.
   return '';
 }
 
@@ -1165,9 +1163,14 @@ function sectionBlock(label, desc, items, moreFilter = '', moreText = t('viewAll
   return `<section class="show-section home-preview-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${previewItems.length} ${t('picks')}</span></div><div class="rail home-preview-rail">${previewItems.map(p => productCard(p, true)).join('')}</div>${moreButton}</section>`;
 }
 function imageListFor(p) {
-  const main = mainImg(p) ? [{ url: mainImg(p), cut: '대표' }] : [];
-  const cuts = Array.isArray(p.cuts) ? p.cuts.filter(im => im && im.url) : [];
-  const images = Array.isArray(p.images) ? p.images.filter(Boolean).map((url, i) => ({ url, cut: `사진 ${i + 1}` })) : [];
+  const isInfoImage = im => {
+    const text = [im && im.url, im && im.cut, im && im.source].filter(Boolean).join(' ');
+    return /aug_info|제품정보|product[_-]?info|size[_-]?table|wear[_-]?|contact_info|size_contact|wear_contact|실측|사이즈정보/i.test(text);
+  };
+  const mainRaw = mainImg(p) ? { url: mainImg(p), cut: '대표' } : null;
+  const main = mainRaw && !isInfoImage(mainRaw) ? [mainRaw] : [];
+  const cuts = Array.isArray(p.cuts) ? p.cuts.filter(im => im && im.url && !isInfoImage(im)) : [];
+  const images = Array.isArray(p.images) ? p.images.filter(Boolean).map((url, i) => ({ url, cut: `사진 ${i + 1}` })).filter(im => !isInfoImage(im)) : [];
   const seen = new Set();
   const productCutWords = /product|item|hanger|real|detail|제품|실물|행거|컷/i;
   const ordered = [...main, ...cuts, ...images].sort((a, b) => {
