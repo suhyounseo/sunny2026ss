@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07noinfo10';
+const VERSION = 'aug07material11';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -725,9 +725,19 @@ function detailHighlightItems(p, pointItems) {
   add(recommendLine(p));
   return items.slice(0, 3);
 }
+
+function cleanMaterialText(value) {
+  return safeText(value)
+    .replace(/\([^)]*(?:같은\s*디자인|다른\s*컬러|다른컬러|다큰컬러|컬러\s*\d*|S\d{3,}|\d{3,})[^)]*\)/gi, '')
+    .replace(/\([^)]*같은디자인[^)]*\)/gi, '')
+    .replace(/(?:\/|,)?\s*(?:같은\s*디자인|다른\s*컬러|같은디자인|다른컬러|다큰컬러).*$/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 function specValue(label, value) {
   const clean = safeText(value).replace(/\s*\/\s*/g, ' / ').replace(/\s{2,}/g, ' ').trim();
-  if (label === t('fabric')) return clean.replace(/\s\/\s/g, '<br>');
+  if (label === t('fabric')) return cleanMaterialText(clean).replace(/\s\/\s/g, '<br>');
   return clean;
 }
 function specCells(p) {
@@ -816,7 +826,7 @@ function wearInfoBlock(p) {
   if (!Array.isArray(localWearTables) || !localWearTables.length) return '';
   const blocks = localWearTables.map(group => {
     const items = group.items && typeof group.items === 'object' ? group.items : {};
-    const rows = Object.entries(items).filter(([, value]) => safeText(value)).map(([key, value]) => `<tr><th>${safeText(key)}</th><td>${safeText(value)}</td></tr>`).join('');
+    const rows = Object.entries(items).map(([key, value]) => { const k = safeText(key); const v = k === '소재' ? cleanMaterialText(value) : safeText(value); return [k, v]; }).filter(([, value]) => value).map(([key, value]) => `<tr><th>${key}</th><td>${value}</td></tr>`).join('');
     if (!rows) return '';
     return `<div class="wear-table-wrap"><p>${safeText(group.title) || t('wearInfo')}</p><table class="wear-table"><tbody>${rows}</tbody></table></div>`;
   }).filter(Boolean).join('');
