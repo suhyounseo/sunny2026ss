@@ -1,0 +1,84 @@
+﻿상품코드,상품명,기존행수,수정행수,사이즈표시,데이터기준
+GRA-S888,블랙 체인홀터 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+GRA-S889,레드 체인홀터 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+GRA-S890,아이보리 체인홀터 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+SEY-S907,아이보리 배색라인 플레어 원피스,3,3,55(S) / 66(M) / 77(L),manual_product_info_image
+SEY-S908,블랙 배색라인 플레어 원피스,3,3,55(S) / 66(M) / 77(L),manual_product_info_image
+SEY-S909,핑크 오프숄더 러플 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+SEY-S910,블랙 오프숄더 러플 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+SUN-S886,아이보리 쉬폰 플레어 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+SUN-S887,블랙 쉬폰 플레어 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+JINA-S878,핑크 브이넥 홀터 원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+JINA-S879,블랙 브이넥 홀터 원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+JINA-S880,아이보리 홀터 슬릿 미디원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+JINA-S881,블랙 홀터 슬릿 미디원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+JINA-S917,아이보리 프릴라인 미디원피스,2,3,55(S) / 66(M) / 77(L),existing_sizeTables
+JINA-S918,블랙 프릴라인 미디원피스,2,3,55(S) / 66(M) / 77(L),existing_sizeTables
+JINA-S919,아이보리 원숄더 드레이프 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+JINA-S920,핑크 원숄더 드레이프 원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+TIA-S856,핀턱 나시탑,0,2,55(S) / 66(M),size_option_only
+TIA-S857,플라워 매듭 나시탑,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S858,아이보리 시퀸 쉬폰 나시 블라우스,2,2,55(S) / 66(M),manual_product_info_image
+TIA-S859,플라워 미니 스커트,0,2,55(S) / 66(M),size_option_only
+TIA-S860,블랙 프릴 쉬폰 벨트 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S861,오렌지 플라워 쉬폰 캉캉 롱드레스,0,2,55(S) / 66(M),size_option_only
+TIA-S862,아이보리 레이스 홀터 쉬폰 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S863,블랙 레이스 홀터 쉬폰 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S864,화이트 레이스 크롭 투피스,0,1,FREE,size_option_only
+TIA-S865,블랙 레이스 크롭 투피스,0,1,FREE,size_option_only
+TIA-S866,아이보리 플라워 코르셋 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S867,그레이 셔링 홀터 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S868,아이보리 컷아웃 원숄더 미디원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S869,블랙 컷아웃 원숄더 미디원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S870,아이보리 트위드 버튼 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S871,민트 트위드 버튼 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S872,블랙 셔링 홀터 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S873,아이보리 트위드 홀터 투피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S874,베이지 진주라인 트위드 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S875,스트랩 플리츠 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S876,세피아 쉬폰 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S877,아이보리 진주스트랩 캉캉 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S891,베이지 드레이프 오프숄더 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S892,아이보리 진주라인 트위드 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S893,핑크 진주라인 트위드 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S894,아이보리 블랙리본 플리츠 롱드레스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S895,아이보리 레이스 프릴 머메이드 투피스,0,3,55(S) / 66(M) / 77(L),size_option_only
+TIA-S896,아이보리 골드버튼 트위드 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S897,프릴카라 미니 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S898,프릴카라 미니 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S899,프릴카라 미니 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S900,아이보리 큐빅 오프숄더 미니원피스,1,2,FREE / 55(S),existing_sizeTables
+TIA-S901,아이보리 프리미엄 큐빅 오프숄더 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S902,리본벨트 카라 미니원피스,0,2,55(S) / 66(M),size_option_only
+TIA-S903,그레이 꼬임스트랩 니트 미니원피스,0,1,FREE,size_option_only
+TIA-S904,모카 꼬임스트랩 니트 롱원피스,0,1,FREE,size_option_only
+TIA-S905,아이보리 리본 튜브탑 쇼츠 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S906,다크그레이 리본 튜브탑 쇼츠 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S921,아이보리 블랙리본 레이스 투피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S922,블랙리본 레이스 투피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S923,핑크 블랙리본 레이스 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S924,브로치 카라 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S925,브로치 카라 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S926,브로치 카라 투피스,0,2,55(S) / 66(M),size_option_only
+TIA-S927,베이지 카라 베스트 시퀸 투피스,1,2,55(S) / 66(M),existing_sizeTables
+TIA-S928,체인 프린트 나시탑 세트,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S929,체인 프린트 나시탑 세트,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S930,도트 프린트 나시탑 세트,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S931,리본 플레어 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S932,리본 플레어 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S933,리본 플레어 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S934,리본 플레어 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+TIA-S935,드레이프 오프숄더 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+TIA-S936,드레이프 오프숄더 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+TIA-S937,드레이프 오프숄더 미디원피스,3,3,55(S) / 66(M) / 77(L),existing_sizeTables
+TIA-S938,브라운 셔링 홀터 미니원피스,2,2,55(S) / 66(M),existing_sizeTables
+PEARL-S911,블루 버클라인 미니원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+PEARL-S912,블랙 버클라인 미니원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+PEARL-S913,아이보리 버튼 슬림 미디원피스,2,3,55(S) / 66(M) / 77(L),existing_sizeTables
+PEARL-S914,핑크 버튼 슬림 미디원피스,2,3,55(S) / 66(M) / 77(L),existing_sizeTables
+PEARL-S915,아이보리 버클포인트 미니원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+PEARL-S916,블랙 버클포인트 미니원피스,0,4,55(S) / 66(M) / 77(L) / 88문의,size_option_only
+HEP-S884,브라운 버클 슬릿 미니원피스,3,3,55(S) / 66(M) / 77(L),manual_product_info_image
+HEP-S885,그레이 버클 슬릿 미니원피스,3,3,55(S) / 66(M) / 77(L),manual_product_info_image
+HIYA-S882,핑크 트위드 퍼프 투피스,1,4,55(S) / 66(M) / 77(L) / 88문의,existing_sizeTables
+HIYA-S883,민트 트위드 퍼프 투피스,1,4,55(S) / 66(M) / 77(L) / 88문의,existing_sizeTables
