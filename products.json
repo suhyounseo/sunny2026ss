@@ -3769,118 +3769,116 @@
   },
   {
     "code": "JES-309",
-    "origin": "제시카",
     "folder": "JES-309",
-    "supplier": "제시카",
-    "zipFolder": "JES-309",
-    "name": "사이드셔링 머메이드 원피스",
-    "storeName": "사이드셔링 머메이드 원피스",
+    "name": "허리꼬임 프릴 미니원피스",
+    "storeName": "허리꼬임 프릴 미니원피스",
     "category": "MINI",
-    "collection": "A",
-    "collectionName": "미니 원피스 컬렉션",
-    "collectionDescription": "몸매 라인을 살려주는 클럽·파티·방송룩 중심",
-    "vendor": "제시카",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
     "length": "미니",
-    "fit": "슬림/머메이드",
-    "color": "베이지",
-    "size": "55 / 66 / 77",
-    "sizeInfo": "55(S) 총길이 83 / 소매 22 / 가슴 38 / 허리 29 / 힙 36, 66(M) 총길이 83 / 소매 22 / 가슴 40.5 / 허리 31.5 / 힙 38.5, 77(L) 총길이 83 / 소매 22 / 가슴 43 / 허리 34 / 힙 41",
-    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "fit": "슬림핏",
+    "color": "살구",
+    "variantColor": "살구",
+    "size": "77 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 77 사이즈 1장",
+    "stock": {
+      "77": 1
+    },
     "price": 75000,
     "tags": [
       "NEW",
-      "미니 원피스 컬렉션",
-      "MINI",
-      "미니",
-      "섹시",
-      "슬림",
-      "클럽",
-      "베이지원피스 셔링미니 머메이드핏 글램룩 파티원피스",
-      "제시카신상",
-      "2026봄신상"
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "살구",
+      "파티룩",
+      "클럽룩",
+      "촬영룩",
+      "프릴원피스",
+      "스퀘어넥"
     ],
     "styleTags": [
-      "베이지원피스 셔링미니 머메이드핏 글램룩 파티원피스"
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
     ],
-    "sceneTags": [],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
     "sizeTags": [
-      "55",
-      "66",
       "77"
     ],
-    "stockStatus": "문의필수",
     "isNew": true,
-    "isPopular": false,
-    "images": [],
+    "mainImage": "assets/jessica/JES-309/JES-309_01.jpg",
+    "thumbImage": "assets/jessica/JES-309/JES-309_01.jpg",
+    "images": [
+      "assets/jessica/JES-309/JES-309_01.jpg",
+      "assets/jessica/JES-309/JES-309_02.jpg",
+      "assets/jessica/JES-309/JES-309_03.jpg",
+      "assets/jessica/JES-309/JES-309_04.jpg",
+      "assets/jessica/JES-309/JES-309_05.jpg",
+      "assets/jessica/JES-309/JES-309_06.jpg",
+      "assets/jessica/JES-309/JES-309_07.jpg",
+      "assets/jessica/JES-309/JES-309_08.jpg"
+    ],
     "cuts": [
       {
-        "url": "assets/JES-309_03.jpg",
-        "cut": "상세 2",
-        "source": "assets/JES-309_03.jpg"
+        "url": "assets/jessica/JES-309/JES-309_01.jpg",
+        "cut": "메인컷",
+        "source": "309M.jpg"
       },
       {
-        "url": "assets/JES-309_04.jpg",
+        "url": "assets/jessica/JES-309/JES-309_02.jpg",
+        "cut": "제품컷",
+        "source": "309P.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-309/JES-309_03.jpg",
         "cut": "상세 3",
-        "source": "assets/JES-309_04.jpg"
+        "source": "309-1.jpg"
       },
       {
-        "url": "assets/JES-309_05.jpg",
+        "url": "assets/jessica/JES-309/JES-309_04.jpg",
         "cut": "상세 4",
-        "source": "assets/JES-309_05.jpg"
+        "source": "309-2.jpg"
       },
       {
-        "url": "assets/JES-309_01.jpg",
-        "cut": "제품/마네킹컷",
-        "source": "assets/JES-309_01.jpg"
+        "url": "assets/jessica/JES-309/JES-309_05.jpg",
+        "cut": "상세 5",
+        "source": "309-3.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-309/JES-309_06.jpg",
+        "cut": "상세 6",
+        "source": "309-4.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-309/JES-309_07.jpg",
+        "cut": "상세 7",
+        "source": "309-1UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-309/JES-309_08.jpg",
+        "cut": "상세 8",
+        "source": "309-3LX.jpg"
       }
     ],
-    "mainCopy": "은은한 베이지 컬러에 셔링 포인트가 돋보이는 글램 미니원피스",
-    "desc": "스퀘어넥과 사이드 셔링 디테일이 바디라인을 입체적으로 살려주며, 밑단 프릴이 여성스러운 마무리를 더합니다.",
-    "description": "스퀘어넥과 사이드 셔링 디테일이 바디라인을 입체적으로 살려주며, 밑단 프릴이 여성스러운 마무리를 더합니다.",
+    "mainCopy": "허리 꼬임 스트링과 밑단 프릴이 여성스럽게 잡히는 살구색 미니원피스",
+    "description": "스퀘어넥이 상체 라인을 깔끔하게 보여주고, 허리 옆 꼬임 스트링이 바디라인을 입체적으로 잡아주는 미니원피스입니다. 밑단 프릴이 움직일 때 자연스럽게 포인트가 됩니다.",
     "points": [
-      "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일",
-      "여성스러운 곡선을 살려주는 머메이드 라인",
-      "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
+      "허리 라인을 조절하듯 잡아주는 꼬임 스트링",
+      "여성스러운 분위기를 더하는 밑단 프릴",
+      "살구 컬러의 부드럽고 화사한 무드"
     ],
-    "recommend": "베이지원피스 셔링미니 머메이드핏 글램룩 파티원피스",
+    "recommend": "부드러운 컬러감과 여성스러운 라인을 원하는 고객에게 추천합니다.",
     "fabric": "폴리혼방",
-    "fabricNote": "사진 기준 소재 추정값입니다. 실제 거래처 소재 확인 후 수정 가능합니다.",
-    "stretch": "좋음",
-    "see": "없음",
-    "lining": "있음",
-    "new": true,
-    "contactType": "kakao",
-    "contactUrl": "",
-    "mainImage": "assets/JES-309_02.jpg",
-    "whyYoullLoveIt": [
-      "움직일 때 여성스러운 볼륨을 더하는 프릴 디테일",
-      "여성스러운 곡선을 살려주는 머메이드 라인",
-      "얼굴선과 쇄골 라인을 깔끔하게 살려주는 스퀘어넥"
-    ],
-    "editorsNote": "스퀘어넥과 머메이드 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
-    "newArrival": true,
-    "featured": true,
-    "mainDisplay": true,
-    "priority": 10,
-    "checkedReview": true,
-    "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
-    "thumbImage": "assets/JES-309_02.jpg",
-    "isSameDayDelivery": false,
-    "isFittingAvailable": false,
-    "brand": "",
-    "lineName": "",
-    "size77Available": true,
-    "size88Available": false,
-    "manualSearchExclude": [
-      "롱드레스"
-    ],
-    "manualSearchInclude": [
-      "미니원피스",
-      "슬림핏"
-    ],
-    "cap": "있음",
-    "thickness": "보통",
-    "zipper": "뒷지퍼",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -3934,326 +3932,11 @@
         }
       }
     ],
-    "translations": {
-      "en": {
-        "name": "Beige Ruffle Shirred Mermaid Dress",
-        "storeName": "Beige Ruffle Shirred Mermaid Dress",
-        "productName": "Beige Ruffle Shirred Mermaid Dress",
-        "mainCopy": "Beige mermaid dress with ruffle and shirred",
-        "desc": "A beige mermaid dress designed with ruffle, shirred and mermaid-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and club looks.",
-        "description": "A beige mermaid dress designed with ruffle, shirred and mermaid-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and club looks.",
-        "recommend": "Recommended for parties and club looks.",
-        "color": "beige",
-        "colors": [
-          "beige"
-        ],
-        "fit": "slim fit",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "yes",
-        "stretch": "high",
-        "see": "no",
-        "cap": "yes",
-        "thickness": "medium",
-        "zipper": "back zipper",
-        "collectionName": "Long Dress Collection",
-        "collectionDescription": "Elegant dresses for stage, events, and special occasions.",
-        "editorsNote": "A beige mermaid dress designed with ruffle, shirred and mermaid-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and club looks.",
-        "points": [
-          "Ruffle details add movement and a romantic finish",
-          "Shirring helps shape the waist and body line",
-          "Mermaid line enhances curves with an elegant hem"
-        ],
-        "whyYoullLoveIt": [
-          "Ruffle details add movement and a romantic finish",
-          "Shirring helps shape the waist and body line",
-          "Mermaid line enhances curves with an elegant hem"
-        ],
-        "styleTags": [
-          "ruffle",
-          "shirred",
-          "mermaid-line",
-          "contrast-line"
-        ],
-        "sceneTags": [
-          "parties",
-          "club looks"
-        ],
-        "tags": [
-          "ruffle",
-          "shirred",
-          "mermaid-line",
-          "contrast-line",
-          "parties",
-          "club looks"
-        ],
-        "sizeTables": [
-          {
-            "title": "Measurements",
-            "columns": [
-              "Size",
-              "Length",
-              "Sleeve",
-              "Chest",
-              "Waist",
-              "Hip"
-            ],
-            "rows": [
-              {
-                "Size": "55(S)",
-                "Length": "83",
-                "Sleeve": "22",
-                "Chest": "38",
-                "Waist": "29",
-                "Hip": "36"
-              },
-              {
-                "Size": "66(M)",
-                "Length": "83",
-                "Sleeve": "22",
-                "Chest": "40.5",
-                "Waist": "31.5",
-                "Hip": "38.5"
-              },
-              {
-                "Size": "77(L)",
-                "Length": "83",
-                "Sleeve": "22",
-                "Chest": "43",
-                "Waist": "34",
-                "Hip": "41"
-              }
-            ]
-          }
-        ],
-        "wearTables": [
-          {
-            "title": "Wear Information",
-            "items": {
-              "Fabric": "poly blend",
-              "Stretch": "high",
-              "Cup": "yes",
-              "Lining": "yes",
-              "Sheerness": "no",
-              "Thickness": "medium",
-              "Zipper": "back zipper"
-            }
-          }
-        ]
-      },
-      "zh": {
-        "name": "米色荷叶边褶皱鱼尾连衣裙",
-        "storeName": "米色荷叶边褶皱鱼尾连衣裙",
-        "productName": "米色荷叶边褶皱鱼尾连衣裙",
-        "mainCopy": "米色荷叶边、褶皱鱼尾连衣裙",
-        "desc": "这是一款米色鱼尾连衣裙，以荷叶边、褶皱、鱼尾廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭等场合。",
-        "description": "这是一款米色鱼尾连衣裙，以荷叶边、褶皱、鱼尾廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭等场合。",
-        "recommend": "推荐用于派对、夜店穿搭。",
-        "color": "米色",
-        "colors": [
-          "米色"
-        ],
-        "fit": "修身版型",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "有",
-        "stretch": "较好",
-        "see": "无",
-        "cap": "有",
-        "thickness": "普通",
-        "zipper": "后拉链",
-        "collectionName": "长款礼服系列",
-        "collectionDescription": "适合舞台、活动与特别场合的优雅礼服。",
-        "editorsNote": "这是一款米色鱼尾连衣裙，以荷叶边、褶皱、鱼尾廓形为亮点。版型修饰颈线、腰线和整体比例，适合派对、夜店穿搭等场合。",
-        "points": [
-          "荷叶边增加层次与浪漫感",
-          "褶皱设计修饰腰线与身形",
-          "鱼尾廓形突出曲线并增添优雅感"
-        ],
-        "whyYoullLoveIt": [
-          "荷叶边增加层次与浪漫感",
-          "褶皱设计修饰腰线与身形",
-          "鱼尾廓形突出曲线并增添优雅感"
-        ],
-        "styleTags": [
-          "荷叶边",
-          "褶皱",
-          "鱼尾廓形",
-          "撞色线条"
-        ],
-        "sceneTags": [
-          "派对",
-          "夜店穿搭"
-        ],
-        "tags": [
-          "荷叶边",
-          "褶皱",
-          "鱼尾廓形",
-          "撞色线条",
-          "派对",
-          "夜店穿搭"
-        ],
-        "sizeTables": [
-          {
-            "title": "尺码信息",
-            "columns": [
-              "尺码",
-              "衣长",
-              "袖长",
-              "胸围",
-              "腰围",
-              "臀围"
-            ],
-            "rows": [
-              {
-                "尺码": "55(S)",
-                "衣长": "83",
-                "袖长": "22",
-                "胸围": "38",
-                "腰围": "29",
-                "臀围": "36"
-              },
-              {
-                "尺码": "66(M)",
-                "衣长": "83",
-                "袖长": "22",
-                "胸围": "40.5",
-                "腰围": "31.5",
-                "臀围": "38.5"
-              },
-              {
-                "尺码": "77(L)",
-                "衣长": "83",
-                "袖长": "22",
-                "胸围": "43",
-                "腰围": "34",
-                "臀围": "41"
-              }
-            ]
-          }
-        ],
-        "wearTables": [
-          {
-            "title": "穿着信息",
-            "items": {
-              "面料": "聚酯混纺",
-              "弹性": "较好",
-              "胸垫": "有",
-              "内衬": "有",
-              "透视度": "无",
-              "厚度": "普通",
-              "拉链": "后拉链"
-            }
-          }
-        ]
-      },
-      "ja": {
-        "name": "ベージュフリルシャーリングマーメイドワンピース",
-        "storeName": "ベージュフリルシャーリングマーメイドワンピース",
-        "productName": "ベージュフリルシャーリングマーメイドワンピース",
-        "mainCopy": "ベージュフリル・シャーリングマーメイドワンピース",
-        "desc": "フリル・シャーリング・マーメイドラインが映えるベージュマーメイドワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルックにおすすめです。",
-        "description": "フリル・シャーリング・マーメイドラインが映えるベージュマーメイドワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルックにおすすめです。",
-        "recommend": "パーティー・クラブルックにおすすめです。",
-        "color": "ベージュ",
-        "colors": [
-          "ベージュ"
-        ],
-        "fit": "スリムフィット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "あり",
-        "stretch": "高め",
-        "see": "なし",
-        "cap": "あり",
-        "thickness": "普通",
-        "zipper": "後ろファスナー",
-        "collectionName": "ロングドレスコレクション",
-        "collectionDescription": "ステージ・イベント・特別な日に映えるドレス。",
-        "editorsNote": "フリル・シャーリング・マーメイドラインが映えるベージュマーメイドワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・クラブルックにおすすめです。",
-        "points": [
-          "フリルが動きと華やかさを添える",
-          "シャーリングがウエストとボディラインを整える",
-          "マーメイドラインが曲線を美しく見せる"
-        ],
-        "whyYoullLoveIt": [
-          "フリルが動きと華やかさを添える",
-          "シャーリングがウエストとボディラインを整える",
-          "マーメイドラインが曲線を美しく見せる"
-        ],
-        "styleTags": [
-          "フリル",
-          "シャーリング",
-          "マーメイドライン",
-          "配色ライン"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "クラブルック"
-        ],
-        "tags": [
-          "フリル",
-          "シャーリング",
-          "マーメイドライン",
-          "配色ライン",
-          "パーティー",
-          "クラブルック"
-        ],
-        "sizeTables": [
-          {
-            "title": "サイズ情報",
-            "columns": [
-              "サイズ",
-              "総丈",
-              "袖丈",
-              "バスト",
-              "ウエスト",
-              "ヒップ"
-            ],
-            "rows": [
-              {
-                "サイズ": "55(S)",
-                "総丈": "83",
-                "袖丈": "22",
-                "バスト": "38",
-                "ウエスト": "29",
-                "ヒップ": "36"
-              },
-              {
-                "サイズ": "66(M)",
-                "総丈": "83",
-                "袖丈": "22",
-                "バスト": "40.5",
-                "ウエスト": "31.5",
-                "ヒップ": "38.5"
-              },
-              {
-                "サイズ": "77(L)",
-                "総丈": "83",
-                "袖丈": "22",
-                "バスト": "43",
-                "ウエスト": "34",
-                "ヒップ": "41"
-              }
-            ]
-          }
-        ],
-        "wearTables": [
-          {
-            "title": "着用情報",
-            "items": {
-              "素材": "ポリエステル混紡",
-              "伸縮性": "高め",
-              "カップ": "あり",
-              "裏地": "あり",
-              "透け感": "なし",
-              "厚み": "普通",
-              "ファスナー": "後ろファスナー"
-            }
-          }
-        ]
-      }
-    }
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL"
   },
   {
     "code": "JES-310",
@@ -133174,229 +132857,168 @@
   },
   {
     "code": "JES-326",
-    "origin": "제시카",
     "folder": "JES-326",
-    "supplier": "제시카",
-    "zipFolder": "JES-326",
-    "supplierProductNo": "Jessica.J 326",
-    "name": "생산중 미니 원피스",
-    "storeName": "생산중 미니 원피스",
+    "name": "허리꼬임 프릴 미니원피스",
+    "storeName": "허리꼬임 프릴 미니원피스",
     "category": "MINI",
-    "collection": "A",
-    "collectionName": "미니 원피스 컬렉션",
-    "collectionDescription": "부담 없이 예쁘게 입기 좋은 데일리·러블리 원피스",
-    "vendor": "제시카",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
     "length": "미니",
-    "fit": "확인필요",
-    "color": "확인필요",
-    "size": "55 / 66 / 77",
-    "sizeInfo": "55(S), 66(M), 77(L)",
-    "wearInfo": "생산중 상품으로 상세 정보 확인 후 업데이트 예정",
-    "price": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
+    "size": "77 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 77 사이즈 1장",
+    "stock": {
+      "77": 1
+    },
+    "price": 75000,
     "tags": [
       "NEW",
-      "미니 원피스 컬렉션",
-      "MINI",
-      "미니",
-      "제시카신상",
-      "2026봄신상",
-      "생산중"
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "블랙",
+      "파티룩",
+      "클럽룩",
+      "촬영룩",
+      "프릴원피스",
+      "스퀘어넥"
     ],
     "styleTags": [
-      "제시카 2026 봄 생산중 신상"
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
     ],
-    "sceneTags": [],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
     "sizeTags": [
-      "55",
-      "66",
       "77"
     ],
-    "stockStatus": "생산중",
     "isNew": true,
-    "isPopular": false,
-    "new": true,
-    "factoryReady": true,
-    "productionStatus": "생산중",
-    "featured": false,
-    "mainDisplay": false,
-    "priority": 8,
-    "images": [],
-    "cuts": [],
-    "mainCopy": "제시카 2026 봄 라인 생산중 신상으로 입고 예정인 미니 원피스",
-    "desc": "현재 생산중인 제시카 2026 봄 신상입니다.",
-    "description": "현재 생산중인 제시카 2026 봄 신상입니다.",
-    "points": [
-      "2026 봄 신상 생산중",
-      "입고 전 문의 가능",
-      "이미지와 상세 정보 업데이트 예정"
+    "mainImage": "assets/jessica/JES-326/JES-326_01.jpg",
+    "thumbImage": "assets/jessica/JES-326/JES-326_01.jpg",
+    "images": [
+      "assets/jessica/JES-326/JES-326_01.jpg",
+      "assets/jessica/JES-326/JES-326_02.jpg",
+      "assets/jessica/JES-326/JES-326_03.jpg",
+      "assets/jessica/JES-326/JES-326_04.jpg",
+      "assets/jessica/JES-326/JES-326_05.jpg",
+      "assets/jessica/JES-326/JES-326_06.jpg",
+      "assets/jessica/JES-326/JES-326_07.jpg"
     ],
-    "recommend": "제시카 2026 봄 신상 생산중",
-    "fabric": "폴리혼방",
-    "fabricNote": "생산 확정 후 소재 정보 업데이트 예정입니다.",
-    "stretch": "확인필요",
-    "see": "확인필요",
-    "lining": "확인필요",
-    "contactType": "kakao",
-    "contactUrl": "",
-    "mainImage": "",
-    "thumbnail": "",
-    "whyYoullLoveIt": [
-      "2026 봄 신상 생산중",
-      "입고 전 문의 가능",
-      "이미지와 상세 정보 업데이트 예정"
-    ],
-    "editorsNote": "생산중인 신상으로, 입고 이미지와 상세 스펙 확인 후 고급스럽게 업데이트 예정입니다.",
-    "isSameDayDelivery": false,
-    "isFittingAvailable": false,
-    "brand": "",
-    "lineName": "",
-    "size77Available": true,
-    "size88Available": false,
-    "designGroupId": "mini-2026-ae527f65",
-    "variantColor": "확인필요",
-    "translations": {
-      "en": {
-        "name": "Nice-selected Contrast-line Mini Dress",
-        "storeName": "Nice-selected Contrast-line Mini Dress",
-        "productName": "Nice-selected Contrast-line Mini Dress",
-        "mainCopy": "Nice-selected mini dress with contrast-line",
-        "desc": "A NICE-selected mini dress designed with contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and special outings.",
-        "description": "A NICE-selected mini dress designed with contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and special outings.",
-        "recommend": "Recommended for parties and special outings.",
-        "color": "NICE-selected",
-        "colors": [
-          "NICE-selected"
-        ],
-        "fit": "slim silhouette",
-        "length": "mini length",
-        "fabric": "poly blend",
-        "lining": "available on request",
-        "stretch": "available on request",
-        "see": "available on request",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "Mini Dress Collection",
-        "collectionDescription": "Mini dress styles for party, club, shoot, and date looks.",
-        "editorsNote": "A NICE-selected mini dress designed with contrast-line. The silhouette flatters the neckline, waist, and overall body line, making it a polished choice for parties and special outings.",
-        "points": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "whyYoullLoveIt": [
-          "Clean silhouette makes the style easy to wear",
-          "Designed for a flattering party and showroom-ready fit"
-        ],
-        "styleTags": [
-          "contrast-line"
-        ],
-        "sceneTags": [
-          "parties",
-          "special outings"
-        ],
-        "tags": [
-          "contrast-line",
-          "parties",
-          "special outings"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-326/JES-326_01.jpg",
+        "cut": "메인컷",
+        "source": "326-3M.jpg"
       },
-      "zh": {
-        "name": "精选撞色线条迷你连衣裙",
-        "storeName": "精选撞色线条迷你连衣裙",
-        "productName": "精选撞色线条迷你连衣裙",
-        "mainCopy": "精选撞色线条迷你连衣裙",
-        "desc": "这是一款精选迷你连衣裙，以撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、特别约会等场合。",
-        "description": "这是一款精选迷你连衣裙，以撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、特别约会等场合。",
-        "recommend": "推荐用于派对、特别约会。",
-        "color": "精选",
-        "colors": [
-          "精选"
-        ],
-        "fit": "修身廓形",
-        "length": "迷你长度",
-        "fabric": "聚酯混纺",
-        "lining": "请咨询确认",
-        "stretch": "请咨询确认",
-        "see": "请咨询确认",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "迷你连衣裙系列",
-        "collectionDescription": "适合派对、夜店、拍摄与约会的迷你款式。",
-        "editorsNote": "这是一款精选迷你连衣裙，以撞色线条为亮点。版型修饰颈线、腰线和整体比例，适合派对、特别约会等场合。",
-        "points": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "whyYoullLoveIt": [
-          "简洁版型日常与场合穿搭都适合",
-          "整体版型适合派对与拍摄等需要上镜的场合"
-        ],
-        "styleTags": [
-          "撞色线条"
-        ],
-        "sceneTags": [
-          "派对",
-          "特别约会"
-        ],
-        "tags": [
-          "撞色线条",
-          "派对",
-          "特别约会"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+      {
+        "url": "assets/jessica/JES-326/JES-326_02.jpg",
+        "cut": "제품컷",
+        "source": "326P.jpg"
       },
-      "ja": {
-        "name": "セレクト配色ラインミニワンピース",
-        "storeName": "セレクト配色ラインミニワンピース",
-        "productName": "セレクト配色ラインミニワンピース",
-        "mainCopy": "セレクト配色ラインミニワンピース",
-        "desc": "配色ラインが映えるセレクトミニワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・特別なお出かけにおすすめです。",
-        "description": "配色ラインが映えるセレクトミニワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・特別なお出かけにおすすめです。",
-        "recommend": "パーティー・特別なお出かけにおすすめです。",
-        "color": "セレクト",
-        "colors": [
-          "セレクト"
-        ],
-        "fit": "スリムシルエット",
-        "length": "ミニ丈",
-        "fabric": "ポリエステル混紡",
-        "lining": "お問い合わせください",
-        "stretch": "お問い合わせください",
-        "see": "お問い合わせください",
-        "cap": "",
-        "thickness": "",
-        "zipper": "",
-        "collectionName": "ミニドレスコレクション",
-        "collectionDescription": "パーティー・クラブ・撮影・デートに使いやすいミニ丈。",
-        "editorsNote": "配色ラインが映えるセレクトミニワンピースです。首元・ウエスト・全体のラインをきれいに見せ、パーティー・特別なお出かけにおすすめです。",
-        "points": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "whyYoullLoveIt": [
-          "きれいなシルエットで着こなしやすい",
-          "パーティーや撮影にも映えるバランスの良い一着"
-        ],
-        "styleTags": [
-          "配色ライン"
-        ],
-        "sceneTags": [
-          "パーティー",
-          "特別なお出かけ"
-        ],
-        "tags": [
-          "配色ライン",
-          "パーティー",
-          "特別なお出かけ"
-        ],
-        "sizeTables": [],
-        "wearTables": []
+      {
+        "url": "assets/jessica/JES-326/JES-326_03.jpg",
+        "cut": "상세 3",
+        "source": "326-1.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-326/JES-326_04.jpg",
+        "cut": "상세 4",
+        "source": "326-2.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-326/JES-326_05.jpg",
+        "cut": "상세 5",
+        "source": "326-3.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-326/JES-326_06.jpg",
+        "cut": "상세 6",
+        "source": "326-2UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-326/JES-326_07.jpg",
+        "cut": "상세 7",
+        "source": "326-1LX.jpg"
       }
-    }
+    ],
+    "mainCopy": "허리 꼬임 스트링과 밑단 프릴이 라인을 잡아주는 블랙 미니원피스",
+    "description": "스퀘어넥이 상체 라인을 깔끔하게 보여주고, 허리 옆 꼬임 스트링이 바디라인을 입체적으로 잡아주는 미니원피스입니다. 블랙 컬러라 슬림하고 선명한 인상을 줍니다.",
+    "points": [
+      "허리 라인을 조절하듯 잡아주는 꼬임 스트링",
+      "움직임을 살려주는 밑단 프릴",
+      "블랙 컬러로 정돈되는 슬림한 분위기"
+    ],
+    "recommend": "슬림해 보이는 블랙 미니원피스를 찾는 고객에게 추천합니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리",
+          "힙"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "83",
+            "소매": "22",
+            "가슴": "38",
+            "허리": "29",
+            "힙": "36"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "83",
+            "소매": "22",
+            "가슴": "40.5",
+            "허리": "31.5",
+            "힙": "38.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "83",
+            "소매": "22",
+            "가슴": "43",
+            "허리": "34",
+            "힙": "41"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL"
   },
   {
     "code": "JES-327",
@@ -247836,5 +247458,1069 @@
     "lining": "있음",
     "see": "있음",
     "thickness": "보통"
+  },
+  {
+    "code": "JES-176",
+    "folder": "JES-176",
+    "name": "숄더벨트 슬림 미니원피스",
+    "storeName": "숄더벨트 슬림 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "베이지",
+    "variantColor": "베이지",
+    "size": "55 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장",
+    "stock": {
+      "55": 2
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "베이지",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-176/JES-176_01.jpg",
+    "thumbImage": "assets/jessica/JES-176/JES-176_01.jpg",
+    "images": [
+      "assets/jessica/JES-176/JES-176_01.jpg",
+      "assets/jessica/JES-176/JES-176_02.jpg",
+      "assets/jessica/JES-176/JES-176_03.jpg",
+      "assets/jessica/JES-176/JES-176_04.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-176/JES-176_01.jpg",
+        "cut": "메인컷",
+        "source": "176M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-176/JES-176_02.jpg",
+        "cut": "상세 2",
+        "source": "176.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-176/JES-176_03.jpg",
+        "cut": "상세 3",
+        "source": "176UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-176/JES-176_04.jpg",
+        "cut": "상세 4",
+        "source": "176LX.jpg"
+      }
+    ],
+    "mainCopy": "어깨 벨트 포인트가 라인을 세련되게 잡아주는 슬림 미니원피스",
+    "description": "어깨 라인의 벨트 디테일이 시선을 정돈해주고, 슬림한 핏이 바디라인을 깔끔하게 살려주는 미니원피스입니다. 단정하면서도 포인트가 있어 매장 피팅 상담용으로 추천하기 좋습니다.",
+    "points": [
+      "어깨선을 강조해주는 벨트 포인트",
+      "허리와 바디라인을 정돈해주는 슬림핏",
+      "고급스럽고 차분한 베이지 컬러감"
+    ],
+    "recommend": "깔끔하면서도 포인트 있는 미니원피스를 찾는 고객에게 추천하기 좋습니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 78,
+            "소매길이": 25,
+            "가슴단면": 39,
+            "허리단면": 32,
+            "힙단면": 40
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 78,
+            "소매길이": 25,
+            "가슴단면": 41.5,
+            "허리단면": 34.5,
+            "힙단면": 42.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 78,
+            "소매길이": 25,
+            "가슴단면": 44,
+            "허리단면": 37,
+            "힙단면": 45
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-193",
+    "folder": "JES-193",
+    "name": "중앙버튼 스퀘어넥 미니원피스",
+    "storeName": "중앙버튼 스퀘어넥 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
+    "size": "55 / 77 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장 / 77 사이즈 1장",
+    "stock": {
+      "55": 2,
+      "77": 1
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "블랙",
+      "파티룩",
+      "클럽룩",
+      "촬영룩",
+      "블랙원피스"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55",
+      "77"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-193/JES-193_01.jpg",
+    "thumbImage": "assets/jessica/JES-193/JES-193_01.jpg",
+    "images": [
+      "assets/jessica/JES-193/JES-193_01.jpg",
+      "assets/jessica/JES-193/JES-193_02.jpg",
+      "assets/jessica/JES-193/JES-193_03.jpg",
+      "assets/jessica/JES-193/JES-193_04.jpg",
+      "assets/jessica/JES-193/JES-193_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-193/JES-193_01.jpg",
+        "cut": "메인컷",
+        "source": "193-1M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-193/JES-193_02.jpg",
+        "cut": "상세 2",
+        "source": "193.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-193/JES-193_03.jpg",
+        "cut": "상세 3",
+        "source": "193-1.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-193/JES-193_04.jpg",
+        "cut": "상세 4",
+        "source": "193UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-193/JES-193_05.jpg",
+        "cut": "상세 5",
+        "source": "193LX.jpg"
+      }
+    ],
+    "mainCopy": "중앙 버튼과 라인 포인트가 고급스럽게 잡히는 블랙 미니원피스",
+    "description": "스퀘어넥이 쇄골 라인을 깔끔하게 보여주고, 중앙 버튼과 지퍼 라인이 세련된 포인트가 되는 미니원피스입니다. 조직감 있는 원단이 고급스러운 무드를 더해줍니다.",
+    "points": [
+      "얼굴선과 쇄골 라인을 살려주는 스퀘어넥",
+      "중앙 버튼과 지퍼 라인의 선명한 디테일",
+      "바디라인을 슬림하게 정돈해주는 핏"
+    ],
+    "recommend": "블랙 컬러의 고급스러운 미니원피스를 찾는 고객에게 추천하기 좋습니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 82,
+            "소매길이": 32,
+            "가슴단면": 39,
+            "허리단면": 30,
+            "힙단면": 39
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 82,
+            "소매길이": 32,
+            "가슴단면": 41.5,
+            "허리단면": 32.5,
+            "힙단면": 41.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 82,
+            "소매길이": 32,
+            "가슴단면": 44,
+            "허리단면": 35,
+            "힙단면": 44
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-194",
+    "folder": "JES-194",
+    "name": "브로치 포인트 미니원피스",
+    "storeName": "브로치 포인트 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "그레이",
+    "variantColor": "그레이",
+    "size": "66 / 77 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 66 사이즈 1장 / 77 사이즈 1장",
+    "stock": {
+      "66": 1,
+      "77": 1
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "그레이",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "66",
+      "77"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-194/JES-194_01.jpg",
+    "thumbImage": "assets/jessica/JES-194/JES-194_01.jpg",
+    "images": [
+      "assets/jessica/JES-194/JES-194_01.jpg",
+      "assets/jessica/JES-194/JES-194_02.jpg",
+      "assets/jessica/JES-194/JES-194_03.jpg",
+      "assets/jessica/JES-194/JES-194_04.jpg",
+      "assets/jessica/JES-194/JES-194_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-194/JES-194_01.jpg",
+        "cut": "메인컷",
+        "source": "194-1M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-194/JES-194_02.jpg",
+        "cut": "상세 2",
+        "source": "194.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-194/JES-194_03.jpg",
+        "cut": "상세 3",
+        "source": "194-1.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-194/JES-194_04.jpg",
+        "cut": "상세 4",
+        "source": "194-1UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-194/JES-194_05.jpg",
+        "cut": "상세 5",
+        "source": "194LX.jpg"
+      }
+    ],
+    "mainCopy": "브로치 포인트로 세련된 분위기를 더한 미니원피스",
+    "description": "상단 브로치 디테일이 포인트가 되어 단정하면서도 여성스러운 분위기를 만들어줍니다. 과하지 않은 장식감으로 촬영, 모임, 파티룩에 활용하기 좋습니다.",
+    "points": [
+      "룩의 중심을 잡아주는 브로치 포인트",
+      "단정하고 세련된 그레이 컬러",
+      "과하지 않게 라인을 살려주는 미니 기장"
+    ],
+    "recommend": "세련되고 단정한 분위기의 포인트 원피스를 찾는 고객에게 좋습니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 81,
+            "소매길이": 23,
+            "가슴단면": 37,
+            "허리단면": 30,
+            "힙단면": 39
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 81,
+            "소매길이": 23,
+            "가슴단면": 39.5,
+            "허리단면": 32.5,
+            "힙단면": 42.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 81,
+            "소매길이": 23,
+            "가슴단면": 42,
+            "허리단면": 35,
+            "힙단면": 44
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-199",
+    "folder": "JES-199",
+    "name": "허리레이스 아이보리 미니원피스",
+    "storeName": "허리레이스 아이보리 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "아이보리",
+    "variantColor": "아이보리",
+    "size": "55 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장",
+    "stock": {
+      "55": 2
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "아이보리",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-199/JES-199_01.jpg",
+    "thumbImage": "assets/jessica/JES-199/JES-199_01.jpg",
+    "images": [
+      "assets/jessica/JES-199/JES-199_01.jpg",
+      "assets/jessica/JES-199/JES-199_02.jpg",
+      "assets/jessica/JES-199/JES-199_03.jpg",
+      "assets/jessica/JES-199/JES-199_04.jpg",
+      "assets/jessica/JES-199/JES-199_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-199/JES-199_01.jpg",
+        "cut": "메인컷",
+        "source": "199M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-199/JES-199_02.jpg",
+        "cut": "상세 2",
+        "source": "199.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-199/JES-199_03.jpg",
+        "cut": "상세 3",
+        "source": "199-1.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-199/JES-199_04.jpg",
+        "cut": "상세 4",
+        "source": "199UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-199/JES-199_05.jpg",
+        "cut": "상세 5",
+        "source": "199-1LX.jpg"
+      }
+    ],
+    "mainCopy": "허리 레이스 포인트가 여성스럽게 들어간 아이보리 미니원피스",
+    "description": "허리 라인의 레이스 디테일이 포인트가 되어 여성스럽고 화사한 분위기를 만들어줍니다. 아이보리 컬러 특유의 깨끗한 무드로 사진에도 밝게 잡히는 스타일입니다.",
+    "points": [
+      "허리선을 돋보이게 하는 레이스 포인트",
+      "화사한 아이보리 컬러감",
+      "여성스러운 분위기를 살리는 슬림 미니 실루엣"
+    ],
+    "recommend": "화사하고 여성스러운 아이보리 미니원피스를 찾는 고객에게 추천합니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 82,
+            "소매길이": 24,
+            "가슴단면": 37,
+            "허리단면": 32,
+            "힙단면": 37
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 82,
+            "소매길이": 24,
+            "가슴단면": 39.5,
+            "허리단면": 34.5,
+            "힙단면": 39.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 82,
+            "소매길이": 24,
+            "가슴단면": 42,
+            "허리단면": 37,
+            "힙단면": 42
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-204",
+    "folder": "JES-204",
+    "name": "가슴날개 버튼 미니원피스",
+    "storeName": "가슴날개 버튼 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "그레이",
+    "variantColor": "그레이",
+    "size": "55 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장",
+    "stock": {
+      "55": 2
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "그레이",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-204/JES-204_01.jpg",
+    "thumbImage": "assets/jessica/JES-204/JES-204_01.jpg",
+    "images": [
+      "assets/jessica/JES-204/JES-204_01.jpg",
+      "assets/jessica/JES-204/JES-204_02.jpg",
+      "assets/jessica/JES-204/JES-204_03.jpg",
+      "assets/jessica/JES-204/JES-204_04.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-204/JES-204_01.jpg",
+        "cut": "메인컷",
+        "source": "204M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-204/JES-204_02.jpg",
+        "cut": "상세 2",
+        "source": "204.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-204/JES-204_03.jpg",
+        "cut": "상세 3",
+        "source": "204UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-204/JES-204_04.jpg",
+        "cut": "상세 4",
+        "source": "204LX.jpg"
+      }
+    ],
+    "mainCopy": "가슴 라인 날개 디테일이 포인트가 되는 미니원피스",
+    "description": "가슴 라인의 날개 디테일과 버튼 포인트가 입체감을 더해주는 미니원피스입니다. 단정한 컬러감에 여성스러운 실루엣이 더해져 부담 없이 고급스러운 느낌을 줍니다.",
+    "points": [
+      "가슴 라인을 살려주는 날개 디테일",
+      "버튼 포인트로 완성되는 단정한 무드",
+      "슬림하게 떨어지는 미니 실루엣"
+    ],
+    "recommend": "단정하면서도 볼륨감 있는 포인트 원피스를 찾는 고객에게 좋습니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 82,
+            "소매길이": 23,
+            "가슴단면": 40,
+            "허리단면": 30,
+            "힙단면": 38
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 82,
+            "소매길이": 23,
+            "가슴단면": 42.5,
+            "허리단면": 32.5,
+            "힙단면": 40.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 82,
+            "소매길이": 23,
+            "가슴단면": 45,
+            "허리단면": 35,
+            "힙단면": 43
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-369",
+    "folder": "JES-369",
+    "name": "블루 가슴날개 미니원피스",
+    "storeName": "블루 가슴날개 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "블루",
+    "variantColor": "블루",
+    "size": "55 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장",
+    "stock": {
+      "55": 2
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "블루",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-369/JES-369_01.jpg",
+    "thumbImage": "assets/jessica/JES-369/JES-369_01.jpg",
+    "images": [
+      "assets/jessica/JES-369/JES-369_01.jpg",
+      "assets/jessica/JES-369/JES-369_02.jpg",
+      "assets/jessica/JES-369/JES-369_03.jpg",
+      "assets/jessica/JES-369/JES-369_04.jpg",
+      "assets/jessica/JES-369/JES-369_05.jpg",
+      "assets/jessica/JES-369/JES-369_06.jpg",
+      "assets/jessica/JES-369/JES-369_07.jpg",
+      "assets/jessica/JES-369/JES-369_08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-369/JES-369_01.jpg",
+        "cut": "메인컷",
+        "source": "369-1M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_02.jpg",
+        "cut": "제품컷",
+        "source": "369P.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_03.jpg",
+        "cut": "상세 3",
+        "source": "369-2.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_04.jpg",
+        "cut": "상세 4",
+        "source": "369-3.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_05.jpg",
+        "cut": "상세 5",
+        "source": "369-4.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_06.jpg",
+        "cut": "상세 6",
+        "source": "369-5.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_07.jpg",
+        "cut": "상세 7",
+        "source": "369-3UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-369/JES-369_08.jpg",
+        "cut": "상세 8",
+        "source": "369-4.LXjpg.jpg"
+      }
+    ],
+    "mainCopy": "시원한 블루 컬러에 가슴날개 디테일이 더해진 미니원피스",
+    "description": "블루 컬러가 산뜻하게 보이고, 가슴 라인의 날개 디테일이 여성스러운 포인트를 만들어줍니다. 사진과 영상에서 색감이 선명하게 살아나는 스타일입니다.",
+    "points": [
+      "시선을 끄는 블루 컬러감",
+      "가슴 라인을 입체적으로 잡아주는 날개 디테일",
+      "촬영룩으로도 활용하기 좋은 미니 실루엣"
+    ],
+    "recommend": "밝고 선명한 컬러 포인트 원피스를 원하는 고객에게 추천합니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": 83,
+            "소매길이": 22,
+            "가슴단면": 39,
+            "허리단면": 32,
+            "힙단면": 41
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": 83,
+            "소매길이": 22,
+            "가슴단면": 41.5,
+            "허리단면": 34.5,
+            "힙단면": 43.5
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": 83,
+            "소매길이": 22,
+            "가슴단면": 44,
+            "허리단면": 37,
+            "힙단면": 46
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+  },
+  {
+    "code": "JES-109",
+    "folder": "JES-109",
+    "name": "체인 포인트 슬림 미니원피스",
+    "storeName": "체인 포인트 슬림 미니원피스",
+    "category": "MINI",
+    "collection": "JESSICA_NEW",
+    "collectionName": "제시카 입고 상품",
+    "collectionDescription": "매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
+    "size": "55 / 77 재고",
+    "stockStatus": "매장재고 있음",
+    "stockNote": "현재 매장 재고: 55 사이즈 2장 / 77 사이즈 1장",
+    "stock": {
+      "55": 2,
+      "77": 1
+    },
+    "price": 75000,
+    "tags": [
+      "NEW",
+      "제시카",
+      "미니원피스",
+      "원피스",
+      "슬림핏",
+      "블랙",
+      "파티룩",
+      "클럽룩",
+      "촬영룩",
+      "블랙원피스"
+    ],
+    "styleTags": [
+      "섹시",
+      "슬림",
+      "글램",
+      "파티룩"
+    ],
+    "sceneTags": [
+      "파티",
+      "클럽",
+      "촬영",
+      "모임"
+    ],
+    "sizeTags": [
+      "55",
+      "77"
+    ],
+    "isNew": true,
+    "mainImage": "assets/jessica/JES-109/JES-109_01.jpg",
+    "thumbImage": "assets/jessica/JES-109/JES-109_01.jpg",
+    "images": [
+      "assets/jessica/JES-109/JES-109_01.jpg",
+      "assets/jessica/JES-109/JES-109_02.jpg",
+      "assets/jessica/JES-109/JES-109_03.jpg",
+      "assets/jessica/JES-109/JES-109_04.jpg",
+      "assets/jessica/JES-109/JES-109_05.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/jessica/JES-109/JES-109_01.jpg",
+        "cut": "메인컷",
+        "source": "109-1M.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-109/JES-109_02.jpg",
+        "cut": "상세 2",
+        "source": "109.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-109/JES-109_03.jpg",
+        "cut": "상세 3",
+        "source": "109-1.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-109/JES-109_04.jpg",
+        "cut": "상세 4",
+        "source": "109-1UX.jpg"
+      },
+      {
+        "url": "assets/jessica/JES-109/JES-109_05.jpg",
+        "cut": "상세 5",
+        "source": "109LX.jpg"
+      }
+    ],
+    "mainCopy": "어깨와 허리 체인 포인트가 돋보이는 블랙 슬림 미니원피스",
+    "description": "어깨와 허리 라인의 체인 디테일이 시선을 잡아주며, 슬림한 핏이 바디라인을 세련되게 정돈해주는 미니원피스입니다. 블랙 컬러라 포인트는 강하지만 전체적으로 안정감 있게 연출됩니다.",
+    "points": [
+      "어깨와 허리 라인을 살려주는 체인 포인트",
+      "바디라인을 정돈해주는 슬림핏",
+      "고급스럽고 강한 인상을 주는 블랙 컬러"
+    ],
+    "recommend": "블랙 계열의 세련된 포인트 원피스를 찾는 고객에게 추천합니다.",
+    "fabric": "폴리혼방",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매",
+          "가슴",
+          "허리",
+          "힙"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "82",
+            "소매": "23",
+            "가슴": "38",
+            "허리": "28",
+            "힙": "38"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "82",
+            "소매": "23",
+            "가슴": "40.5",
+            "허리": "30.5",
+            "힙": "40.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "82",
+            "소매": "23",
+            "가슴": "43",
+            "허리": "33",
+            "힙": "43"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "wearInfo": "소재 폴리혼방 / 신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
   }
 ]

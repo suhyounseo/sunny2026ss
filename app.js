@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'aug07material11';
+const VERSION = 'jessica0808_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -285,6 +285,7 @@ let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
+  { key: 'JESSICA_NEW', filter: 'COL_JESSICA', title: '제시카 입고', name: 'Jessica New Arrival', desc: '매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.' },
   { key: 'AUGUST_NEW', filter: 'COL_AUGUST', title: '8월 신상', name: 'August New Selection', desc: '이번 8월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
@@ -304,6 +305,7 @@ const LABEL = {
   MIDI: '미디',
   TWO_PIECE: '투피스',
   LONG: '롱드레스',
+  COL_JESSICA: '제시카 입고',
   COL_AUGUST: '8월 신상',
   COL_JULY: '7월 신상',
   COL_A: 'COLLECTION A',
