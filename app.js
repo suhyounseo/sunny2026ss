@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 's337name0809_1';
+const VERSION = 'searchcolor0809_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -466,6 +466,61 @@ function isManualSearchExcluded(p, raw) {
 }
 function isManualSearchIncluded(p, raw) {
   return hasManualSearch(p, 'manualSearchInclude', queryKey(raw));
+}
+
+const COLOR_SEARCH_GROUPS = {
+  white: ['화이트', '아이보리', '크림', '크림베이지', '오프화이트', '백아이', '백아이보리', 'white', 'ivory', 'cream'],
+  black: ['블랙', '검정', '검', 'black'],
+  pink: ['핑크', '연핑', '체리핑크', '코랄핑크', 'pink'],
+  blue: ['블루', '소라', '하늘', 'sky', 'blue'],
+  red: ['레드', '빨강', 'red'],
+  beige: ['베이지', '크림베이지', 'beige'],
+  yellow: ['옐로우', '엘로우', '노랑', 'yellow'],
+  mint: ['민트', 'mint'],
+  gray: ['그레이', '회색', 'grey', 'gray'],
+  brown: ['브라운', '모카', 'brown', 'mocha'],
+  lavender: ['라벤더', '연보라', '보라', 'lavender', 'purple']
+};
+function colorSearchGroup(raw) {
+  const s = String(raw || '').trim().toLowerCase().replace(/\s+/g, '');
+  if (/^(화이트룩|화이트|white|ivory|아이보리|크림|cream)$/.test(s)) return 'white';
+  if (/^(블랙룩|블랙|black|검정|검)$/.test(s)) return 'black';
+  if (/^(핑크|pink|연핑|체리핑크)$/.test(s)) return 'pink';
+  if (/^(블루|blue|소라|하늘)$/.test(s)) return 'blue';
+  if (/^(레드|red|빨강)$/.test(s)) return 'red';
+  if (/^(베이지|beige)$/.test(s)) return 'beige';
+  if (/^(옐로우|엘로우|yellow|노랑)$/.test(s)) return 'yellow';
+  if (/^(민트|mint)$/.test(s)) return 'mint';
+  if (/^(그레이|gray|grey|회색)$/.test(s)) return 'gray';
+  if (/^(브라운|brown|모카|mocha)$/.test(s)) return 'brown';
+  if (/^(라벤더|lavender|보라|purple|연보라)$/.test(s)) return 'lavender';
+  return '';
+}
+function ownColorText(p) {
+  const exactColorTags = [];
+  const allAliases = Object.values(COLOR_SEARCH_GROUPS).flat().map(x => norm(x));
+  [ ...(p.colorTags || []), ...(p.tags || []) ].forEach(tag => {
+    const t = String(tag || '').trim();
+    const nt = norm(t).replace(/\s+/g, '');
+    if (allAliases.some(a => nt === norm(a).replace(/\s+/g, ''))) exactColorTags.push(t);
+  });
+  return norm([
+    p.color,
+    p.mainColor,
+    p.colorName,
+    p.optionColor,
+    p.optionName,
+    p.displayColor,
+    ...(Array.isArray(p.colorOptions) ? p.colorOptions : []),
+    ...exactColorTags
+  ].filter(Boolean).join(' '));
+}
+function matchesColorSearch(p, rawSearch) {
+  const group = colorSearchGroup(rawSearch);
+  if (!group) return null;
+  const hay = ownColorText(p);
+  if (!hay) return false;
+  return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
@@ -1091,8 +1146,8 @@ function matchesSearch(p, rawSearch) {
   if (/^(A라인|에이라인|a라인)$/i.test(rawSearch)) return /A라인|에이라인|a-line|aline|플레어|플레어핏/i.test(productText(p));
   if (/^슬림핏$/i.test(rawSearch)) return !SLIMFIT_EXCLUDED_CODES.has(codeOf(p)) && /슬림핏|슬림|H라인|머메이드|타이트|바디라인|라인감/i.test(productText(p));
   if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
-  if (/^(화이트룩|화이트|white)$/i.test(rawSearch)) return /화이트|아이보리|크림|크림베이지|white|ivory|cream/i.test(productText(p));
-  if (/^(블랙룩|블랙|black)$/i.test(rawSearch)) return /블랙|검정|black/i.test(productText(p));
+  const colorMatch = matchesColorSearch(p, rawSearch);
+  if (colorMatch !== null) return colorMatch;
   if (/^(당일배송|당일발송|same[-_ ]?day)$/i.test(rawSearch)) return isSameDayCandidate(p);
   if (/^77가능$/i.test(rawSearch)) return isSize77Available(p);
   if (/^88가능$/i.test(rawSearch)) return isSize88Available(p);
