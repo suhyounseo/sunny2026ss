@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'searchcolor0809_1';
+const VERSION = 'searchstyle0809_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -30,7 +30,7 @@ const LANGS = [
 ];
 const I18N = {
   ko: {
-    searchPlaceholder: '미니, A라인, 롱드레스, 앙크 검색',
+    searchPlaceholder: '화이트, 홀터넥, 레이스, 미디, 제시카 검색',
     item: 'items',
     picks: 'picks',
     productCode: '상품코드',
@@ -481,6 +481,72 @@ const COLOR_SEARCH_GROUPS = {
   brown: ['브라운', '모카', 'brown', 'mocha'],
   lavender: ['라벤더', '연보라', '보라', 'lavender', 'purple']
 };
+
+const STYLE_SEARCH_GROUPS = {
+  '언발런스': ['언발런스', '언발란스', '언발', '비대칭', 'asymmetric', 'asymmetry'],
+  '홀터넥': ['홀터넥', '홀터', 'halter', 'halterneck'],
+  '미디': ['미디', '미디원피스', 'midi'],
+  '미니': ['미니', '미니원피스', 'mini'],
+  '드레이프': ['드레이프', '드레이핑', 'drape', 'draped'],
+  '레이스': ['레이스', 'lace'],
+  '자수': ['자수', 'embroidery', 'embroidered'],
+  '오프숄더': ['오프숄더', '오프숄', 'offshoulder', 'off-shoulder'],
+  '원숄더': ['원숄더', 'one shoulder', 'one-shoulder'],
+  '시스루': ['시스루', 'see-through', 'sheer'],
+  '트위드': ['트위드', 'tweed'],
+  '머메이드': ['머메이드', 'mermaid'],
+  '플레어': ['플레어', '플레어핏', 'flare', 'flared'],
+  'A라인': ['A라인', '에이라인', 'a-line', 'aline'],
+  'H라인': ['H라인', '에이치라인', 'h-line', 'hline'],
+  '캉캉': ['캉캉', '캉캉스커트', 'tiered'],
+  '프릴': ['프릴', '러플', 'frill', 'ruffle'],
+  '리본': ['리본', 'ribbon', 'bow'],
+  '셔링': ['셔링', 'shirr', 'shirring'],
+  '슬릿': ['슬릿', '트임', 'slit'],
+  '브이넥': ['브이넥', 'V넥', 'v-neck', 'vneck'],
+  '스퀘어넥': ['스퀘어넥', 'square neck', 'squareneck'],
+  '카라': ['카라', 'collar'],
+  '버튼': ['버튼', '단추', 'button'],
+  '체인': ['체인', 'chain'],
+  '비즈': ['비즈', '큐빅', '스톤', 'beads', 'beaded', 'cubic', 'stone'],
+  '펄': ['펄', '진주', 'pearl'],
+  '코르셋': ['코르셋', 'corset'],
+  '홀': ['홀', '컷아웃', 'cutout', 'cut-out'],
+  '망사': ['망사', 'mesh'],
+  '새틴': ['새틴', 'satin'],
+  '니트': ['니트', 'knit'],
+  '쉬폰': ['쉬폰', 'chiffon'],
+  '가죽': ['가죽', '레더', 'leather'],
+  '벨트': ['벨트', 'belt'],
+  '브로치': ['브로치', 'brooch'],
+  '플리츠': ['플리츠', '주름', 'pleats', 'pleated']
+};
+function styleSearchGroup(raw) {
+  const s = String(raw || '').trim().toLowerCase().replace(/[\s\-_]/g, '');
+  if (!s) return '';
+  return Object.keys(STYLE_SEARCH_GROUPS).find(key => {
+    const aliases = STYLE_SEARCH_GROUPS[key] || [];
+    return aliases.some(word => String(word).toLowerCase().replace(/[\s\-_]/g, '') === s);
+  }) || '';
+}
+function styleSearchText(p) {
+  return norm([
+    p.name, p.storeName, p.productName, p.seoName, p.category, p.length, p.fit,
+    p.fabric, p.mainCopy, p.desc, p.description, p.recommend,
+    ...(Array.isArray(p.points) ? p.points : []),
+    ...(Array.isArray(p.tags) ? p.tags : []),
+    ...(Array.isArray(p.styleTags) ? p.styleTags : []),
+    ...(Array.isArray(p.sceneTags) ? p.sceneTags : []),
+    ...(Array.isArray(p.searchKeywords) ? p.searchKeywords : [])
+  ].filter(Boolean).join(' '));
+}
+function matchesStyleSearch(p, rawSearch) {
+  const group = styleSearchGroup(rawSearch);
+  if (!group) return null;
+  const hay = styleSearchText(p);
+  return STYLE_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
+}
+
 function colorSearchGroup(raw) {
   const s = String(raw || '').trim().toLowerCase().replace(/\s+/g, '');
   if (/^(화이트룩|화이트|white|ivory|아이보리|크림|cream)$/.test(s)) return 'white';
@@ -1148,6 +1214,8 @@ function matchesSearch(p, rawSearch) {
   if (/^럭셔리$/i.test(rawSearch)) return isLuxuryCandidate(p);
   const colorMatch = matchesColorSearch(p, rawSearch);
   if (colorMatch !== null) return colorMatch;
+  const styleMatch = matchesStyleSearch(p, rawSearch);
+  if (styleMatch !== null) return styleMatch;
   if (/^(당일배송|당일발송|same[-_ ]?day)$/i.test(rawSearch)) return isSameDayCandidate(p);
   if (/^77가능$/i.test(rawSearch)) return isSize77Available(p);
   if (/^88가능$/i.test(rawSearch)) return isSize88Available(p);
