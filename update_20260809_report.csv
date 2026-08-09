@@ -1,0 +1,15 @@
+﻿action,code,note
+price_update,TIA-S756,"가격 42,000원"
+material_clean,TIA-S928,소재 폴리혼방만 노출
+material_clean,TIA-S929,소재 폴리혼방만 노출
+jessica_store_stock_priority,JES-199,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-369,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-193,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-326,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-194,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-309,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-109,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-204,전체 ALL 상단 노출 우선순위
+jessica_store_stock_priority,JES-176,전체 ALL 상단 노출 우선순위
+added_product,S337,기존 제품 누락분 등록
+added_product,S338,기존 제품 누락분 등록

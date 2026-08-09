@@ -497,7 +497,9 @@
       "데일리",
       "러블리",
       "플레어",
-      "핑크블랙 리본원피스 플레어미니 러블리섹시 파티룩"
+      "핑크블랙 리본원피스 플레어미니 러블리섹시 파티룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "핑크블랙 리본원피스 플레어미니 러블리섹시 파티룩"
@@ -508,7 +510,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -559,7 +561,7 @@
     ],
     "editorsNote": "플레어와 리본 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/JES-302_05.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
@@ -949,7 +951,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-303",
@@ -1446,7 +1450,9 @@
       "미니",
       "블랙미니 배색원피스 고급섹시 슬림핏 파티룩",
       "제시카신상",
-      "2026봄신상"
+      "2026봄신상",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "블랙미디 배색원피스 고급섹시 슬림핏 파티룩"
@@ -1457,7 +1463,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -1509,7 +1515,7 @@
     "checkedReview": true,
     "checkedReviewSource": "outputs/luxury_new_reviews/jessica_2026_spring_checked_review.csv",
     "thumbImage": "assets/JES-304_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
@@ -1887,7 +1893,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-305",
@@ -3781,7 +3789,7 @@
     "color": "살구",
     "variantColor": "살구",
     "size": "77 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 77 사이즈 1장",
     "stock": {
       "77": 1
@@ -3798,7 +3806,9 @@
       "클럽룩",
       "촬영룩",
       "프릴원피스",
-      "스퀘어넥"
+      "스퀘어넥",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -3936,7 +3946,12 @@
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
     "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
-    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL"
+    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-310",
@@ -10981,7 +10996,9 @@
       "방송의상",
       "미니원피스",
       "플레어원피스",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/JES-365_01.jpg",
@@ -11053,9 +11070,9 @@
     "zipper": "뒷지퍼",
     "size77Available": true,
     "size88Available": false,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
-    "stockStatus": "매장 재고 보유",
+    "stockStatus": "당일발송 가능",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -11451,7 +11468,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-380",
@@ -11481,7 +11500,9 @@
       "클럽룩",
       "섹시원피스",
       "방송의상",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/JES-380_01.jpg",
@@ -11547,9 +11568,9 @@
     "zipper": "뒷지퍼",
     "size77Available": true,
     "size88Available": false,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
-    "stockStatus": "매장 재고 보유",
+    "stockStatus": "당일발송 가능",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -11939,7 +11960,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-381",
@@ -11970,7 +11993,9 @@
       "방송의상",
       "데이트룩",
       "스마트스토어판매중",
-      "BEST"
+      "BEST",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/JES-381_01.jpg",
@@ -12042,9 +12067,9 @@
     "zipper": "뒷지퍼",
     "size77Available": true,
     "size88Available": false,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
-    "stockStatus": "매장 재고 보유",
+    "stockStatus": "당일발송 가능",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -12437,7 +12462,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-384",
@@ -12468,7 +12495,9 @@
       "클럽룩",
       "방송의상",
       "스마트스토어판매중",
-      "BEST"
+      "BEST",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/JES-384_01.jpg",
@@ -12534,9 +12563,9 @@
     "zipper": "뒷지퍼",
     "size77Available": true,
     "size88Available": false,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
-    "stockStatus": "매장 재고 보유",
+    "stockStatus": "당일발송 가능",
     "sizeTables": [
       {
         "title": "사이즈 정보",
@@ -12929,7 +12958,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4001",
@@ -13425,7 +13456,8 @@
       "원피스 플레어 배색 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 플레어 배색 러블리데일리",
@@ -13437,7 +13469,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -13845,7 +13877,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4003",
@@ -17015,7 +17048,8 @@
       "플레어",
       "원피스 플레어 스트라이프 러블리데일리",
       "A라인",
-      "당일발송"
+      "당일발송",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 플레어 스트라이프 러블리데일리",
@@ -17027,7 +17061,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -17436,7 +17470,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4011",
@@ -18633,7 +18668,8 @@
       "플레어",
       "원피스 레이스 더블버튼 버튼 러블리데일리",
       "A라인",
-      "당일발송"
+      "당일발송",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 레이스 더블버튼 버튼 러블리데일리",
@@ -18645,7 +18681,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -19054,7 +19090,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4015",
@@ -19549,7 +19586,8 @@
       "원피스 플레어 스트라이프 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 플레어 스트라이프 러블리데일리",
@@ -19561,7 +19599,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -19975,7 +20013,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4017",
@@ -21373,7 +21412,8 @@
       "원피스 플레어 배색 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 플레어 배색 러블리데일리",
@@ -21385,7 +21425,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -21794,7 +21834,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4021",
@@ -23695,7 +23736,8 @@
       "원피스 더블버튼 버튼 플레어 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 더블버튼 버튼 플레어 러블리데일리",
@@ -23707,7 +23749,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -24118,7 +24160,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4027",
@@ -28709,7 +28752,9 @@
       "러블리",
       "플레어",
       "원피스 버튼 플레어 체크 러블리데일리",
-      "A라인"
+      "A라인",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "원피스 버튼 플레어 체크 러블리데일리",
@@ -28721,7 +28766,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -28757,7 +28802,7 @@
     ],
     "editorsNote": "플레어와 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/thumbs/ANC-4038-ANC-4038-main-clean.webp",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
@@ -29123,7 +29168,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4039",
@@ -29154,7 +29201,9 @@
       "러블리",
       "플레어",
       "원피스 플레어 배색 러블리데일리",
-      "A라인"
+      "A라인",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "원피스 플레어 배색 러블리데일리",
@@ -29166,7 +29215,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -29202,7 +29251,7 @@
     ],
     "editorsNote": "플레어와 배색 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "thumbImage": "assets/thumbs/ANC-4039-ANC-4039-main-clean.webp",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
@@ -29565,7 +29614,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4040",
@@ -35671,7 +35722,8 @@
       "원피스 더블버튼 버튼 플레어 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 더블버튼 버튼 플레어 러블리데일리",
@@ -35683,7 +35735,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -36097,7 +36149,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4055",
@@ -36129,8 +36182,7 @@
       "클럽",
       "원피스 오프숄더 셔링 슬림글램",
       "슬림핏",
-      "라인감",
-      "당일발송"
+      "라인감"
     ],
     "styleTags": [
       "원피스 오프숄더 셔링 슬림글램",
@@ -36143,7 +36195,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "문의필수",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -36178,9 +36230,9 @@
       "실루엣을 더 또렷하게 잡아주는 라인 포인트"
     ],
     "editorsNote": "오프숄더와 셔링 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
-    "sameDayAvailable": true,
+    "sameDayAvailable": false,
     "thumbImage": "assets/thumbs/ANC-4055-ANC-4055-main-clean.webp",
-    "isSameDayDelivery": true,
+    "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "brand": "",
     "lineName": "",
@@ -37961,7 +38013,8 @@
       "원피스 레이스 플레어 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 레이스 플레어 러블리데일리",
@@ -37973,7 +38026,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -38386,7 +38439,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4061",
@@ -40711,7 +40765,8 @@
       "러블리",
       "플레어",
       "원피스 리본 빅리본 셔링 러블리데일리",
-      "당일발송"
+      "당일발송",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 리본 빅리본 셔링 러블리데일리"
@@ -40722,7 +40777,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -41137,7 +41192,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4068",
@@ -47281,7 +47337,8 @@
       "원피스 더블버튼 버튼 플레어 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 더블버튼 버튼 플레어 러블리데일리",
@@ -47293,7 +47350,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -47700,7 +47757,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4083",
@@ -48198,7 +48256,8 @@
       "원피스 플레어 벨트포인트 러블리데일리",
       "A라인",
       "당일발송",
-      "BEST"
+      "BEST",
+      "당일배송"
     ],
     "styleTags": [
       "원피스 플레어 벨트포인트 러블리데일리",
@@ -48210,7 +48269,7 @@
       "66",
       "77"
     ],
-    "stockStatus": "당일발송",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "isPopular": false,
     "images": [],
@@ -48624,7 +48683,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "ANC-4085",
@@ -58019,7 +58079,9 @@
       "파티룩",
       "촬영룩",
       "NICE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/P014_05.jpg",
@@ -58115,7 +58177,7 @@
     "zipper": "뒷지퍼",
     "seoName": "로미 리본스트랩 플레어 미니원피스",
     "thumbImage": "assets/P014_05.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -58517,7 +58579,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "P015",
@@ -61576,7 +61641,9 @@
       "촬영룩",
       "NICE",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/P026_01.jpg",
@@ -61683,7 +61750,7 @@
     "zipper": "뒷지퍼",
     "seoName": "엘라 새틴리본 미니원피스",
     "thumbImage": "assets/P026_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -62079,7 +62146,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "P027",
@@ -62960,7 +63030,9 @@
       "파티룩",
       "촬영룩",
       "NICE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/P030_01.jpg",
@@ -63067,7 +63139,7 @@
     "zipper": "상의: 뒷지퍼 / 스커트: 뒷지퍼",
     "seoName": "로아 트위드 크롭 투피스",
     "thumbImage": "assets/P030_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -63597,7 +63669,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "P031",
@@ -63625,7 +63700,9 @@
       "파티룩",
       "촬영룩",
       "NICE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/P031_01.jpg",
@@ -63725,7 +63802,7 @@
     "thickness": "상의: 보통 / 스커트: 보통",
     "seoName": "로아 배색라인 크롭 투피스",
     "thumbImage": "assets/P031_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -64251,7 +64328,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "P032",
@@ -66561,7 +66641,9 @@
       "원피스",
       "파티룩",
       "촬영룩",
-      "NICE"
+      "NICE",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/P041_01.jpg",
@@ -66654,7 +66736,7 @@
     "thickness": "두께감 확인 필요",
     "seoName": "로아 레이스캉캉 미니 투피스",
     "thumbImage": "assets/P041_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -66825,7 +66907,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "P042",
@@ -73596,7 +73681,9 @@
       "RECOMMEND",
       "TWO PIECE",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260006_01.jpg",
@@ -73667,7 +73754,7 @@
     ],
     "editorsNote": "오프숄더와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260006_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -74237,7 +74324,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260007",
@@ -74257,7 +74347,9 @@
       "PARTY",
       "RECOMMEND",
       "TWO PIECE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260007_01.jpg",
@@ -74307,7 +74399,7 @@
     ],
     "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/N260007_03.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -74850,7 +74942,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260008",
@@ -74871,7 +74966,9 @@
       "RECOMMEND",
       "TWO PIECE",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260008_01.jpg",
@@ -74921,7 +75018,7 @@
     ],
     "editorsNote": "오프숄더 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "thumbImage": "assets/N260008_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -75482,7 +75579,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260009",
@@ -75503,7 +75603,9 @@
       "PARTY",
       "RECOMMEND",
       "TWO PIECE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260009_01.jpg",
@@ -75574,7 +75676,7 @@
     ],
     "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260009_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -76044,7 +76146,10 @@
           "지퍼": "상의 뒷지퍼 / 스커트 옆지퍼"
         }
       }
-    ]
+    ],
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260010",
@@ -76065,7 +76170,9 @@
       "PARTY",
       "RECOMMEND",
       "TWO PIECE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260010_01.jpg",
@@ -76115,7 +76222,7 @@
     ],
     "editorsNote": "깔끔한 실루엣가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/N260010_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -76586,7 +76693,10 @@
           "지퍼": "상의 뒷지퍼 / 스커트 옆지퍼"
         }
       }
-    ]
+    ],
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260011",
@@ -76613,7 +76723,9 @@
       "파티룩",
       "클럽룩",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260011_01.jpg",
@@ -76663,7 +76775,7 @@
     ],
     "editorsNote": "오프숄더와 랩 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "thumbImage": "assets/N260011_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -77239,7 +77351,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260012",
@@ -77266,7 +77381,9 @@
       "파티룩",
       "클럽룩",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260012_01.jpg",
@@ -77316,7 +77433,7 @@
     ],
     "editorsNote": "오프숄더와 랩 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260012_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -77892,7 +78009,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260013",
@@ -77924,7 +78044,9 @@
       "방송룩",
       "슬림핏",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260013_M01.jpg",
@@ -78010,7 +78132,7 @@
     ],
     "editorsNote": "오프숄더와 랩 포인트가 과하지 않게 글램한 무드를 만들어주는 투피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/N260013_M01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -78600,7 +78722,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260014",
@@ -78620,7 +78745,9 @@
       "MINI",
       "PARTY",
       "RECOMMEND",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260014_01.jpg",
@@ -78700,7 +78827,7 @@
     ],
     "editorsNote": "골드버튼과 슬림 포인트가 여성스러운 라인에 포인트를 더해주는 원피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "thumbImage": "assets/N260014_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -79082,7 +79209,10 @@
           "지퍼": "뒷지퍼"
         }
       }
-    ]
+    ],
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260015",
@@ -83688,7 +83818,9 @@
       "클럽룩",
       "방송룩",
       "77가능",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260033_M01.jpg",
@@ -83766,7 +83898,7 @@
     ],
     "editorsNote": "도트 블라우스와 미니 스커트 조합이 귀엽고 세련된 무드를 주는 투피스입니다. 부담스럽지 않게 포인트를 주고 싶은 고객에게 추천드립니다.",
     "thumbImage": "assets/N260033_M01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -84352,7 +84484,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "origin": "도트리본BL 델리SK",
@@ -84377,7 +84512,9 @@
       "클럽룩",
       "방송룩",
       "77가능",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "desc": "도트 패턴 블라우스와 벨트 포인트 미니 스커트가 세트로 구성된 러블리한 투피스입니다. 리본 디테일이 얼굴선을 화사하게 살려주고, 슬림한 스커트 라인으로 파티룩과 방송룩에 잘 어울립니다.",
     "recommend": "파티룩 / 클럽룩 / 방송의상 / 데이트룩",
@@ -84401,7 +84538,7 @@
       "세트 구성으로 코디 고민 없이 완성되는 파티룩"
     ],
     "editorsNote": "도트 블라우스와 미니 스커트 조합이 귀엽고 세련된 무드를 주는 투피스입니다. 부담스럽지 않게 포인트를 주고 싶은 고객에게 추천드립니다.",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -85042,7 +85179,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260034",
@@ -97511,7 +97651,9 @@
       "미니 원피스 컬렉션",
       "MINI",
       "PARTY",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260073_01.jpg",
@@ -97555,7 +97697,7 @@
     ],
     "editorsNote": "스퀘어넥과 버튼 포인트가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260073_02.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -97736,7 +97878,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260074",
@@ -97754,7 +97899,9 @@
       "미니 원피스 컬렉션",
       "MINI",
       "PARTY",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260074_01.jpg",
@@ -97803,7 +97950,7 @@
     ],
     "editorsNote": "스퀘어넥과 버튼 포인트가 과하지 않게 글램한 무드를 만들어주는 원피스입니다. 사진발과 실루엣을 모두 챙기고 싶은 고객에게 잘 어울립니다.",
     "thumbImage": "assets/N260074_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -97984,7 +98131,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260075",
@@ -98002,7 +98152,9 @@
       "투피스 & 상하의 컬렉션",
       "PARTY",
       "TWO PIECE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260075_01.jpg",
@@ -98051,7 +98203,7 @@
     ],
     "editorsNote": "플레어와 크롭 포인트가 여성스러운 라인에 포인트를 더해주는 투피스입니다. 특별한 약속이나 파티룩으로 분위기를 확실히 살리기 좋습니다.",
     "thumbImage": "assets/N260075_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -98232,7 +98384,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260076",
@@ -99414,7 +99569,9 @@
       "러블리",
       "파티룩",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260079_01.jpg",
@@ -99482,7 +99639,7 @@
     ],
     "editorsNote": "플레어와 크롭 포인트가 바디라인과 분위기를 함께 살려주는 투피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260079_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -100046,7 +100203,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260080",
@@ -100809,7 +100969,9 @@
       "PARTY",
       "RECOMMEND",
       "MIDI",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260083_01.jpg",
@@ -100859,7 +101021,7 @@
     "editorsNote": "새틴과 롱 포인트가 조명 아래에서 존재감을 살려주는 원피스입니다. 무대·방송·촬영처럼 확실한 포인트가 필요한 고객에게 추천드립니다.",
     "length": "미디",
     "thumbImage": "assets/N260083_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -101028,7 +101190,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260084",
@@ -101048,7 +101213,9 @@
       "PARTY",
       "RECOMMEND",
       "MIDI",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260084_01.jpg",
@@ -101098,7 +101265,7 @@
     "editorsNote": "새틴과 롱 포인트가 한 벌만으로 시선을 잡아주는 원피스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
     "length": "미디",
     "thumbImage": "assets/N260084_03.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -101267,7 +101434,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260085",
@@ -102512,7 +102682,9 @@
       "MIDI",
       "PARTY",
       "RECOMMEND",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260090_01.jpg",
@@ -102562,7 +102734,7 @@
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
     "thumbImage": "assets/N260090_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -102731,7 +102903,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260091",
@@ -103001,7 +103176,9 @@
       "MIDI",
       "PARTY",
       "RECOMMEND",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260092_01.jpg",
@@ -103051,7 +103228,7 @@
     "editorsNote": "셔링과 미디 포인트가 세련된 분위기를 만들어주는 원피스입니다. 차분하지만 존재감 있는 룩을 찾는 고객에게 잘 맞습니다.",
     "length": "미디",
     "thumbImage": "assets/N260092_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -103236,7 +103413,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260093",
@@ -103259,7 +103439,9 @@
       "화이트룩",
       "77가능",
       "88가능",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260093_M01.jpg",
@@ -103349,7 +103531,7 @@
     ],
     "editorsNote": "깨끗한 화이트 컬러와 오프숄더 프릴 디테일이 돋보이는 투피스입니다. 파티, 촬영, 생일룩처럼 화사한 분위기가 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260093_M01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -103935,7 +104117,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260110",
@@ -122394,7 +122579,9 @@
       "파티룩",
       "촬영룩",
       "NICE",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260185_01.jpg",
@@ -122452,7 +122639,7 @@
     "zipper": "뒷지퍼",
     "seoName": "슬림포인트 미니원피스",
     "thumbImage": "assets/N260185_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -122608,7 +122795,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260186",
@@ -125240,7 +125430,9 @@
       "스마트스토어준비",
       "S436",
       "셔링 나시 탑",
-      "아이보리/중청"
+      "아이보리/중청",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260197_01.jpg",
@@ -125321,7 +125513,7 @@
     ],
     "editorsNote": "셔링 나시 탑은(는) 셔링 디테일이 상체 라인을 자연스럽게 잡아주는 슬리브리스 탑 상품입니다. 상품코드 N260197로 문의하시면 재고와 사이즈를 빠르게 확인해드릴게요.",
     "thumbImage": "assets/N260197_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "펄",
     "brand": "",
@@ -125344,7 +125536,7 @@
     ],
     "isNew": true,
     "isPopular": false,
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "contactType": "kakao",
     "contactUrl": "",
     "fit": "슬림핏/셔링",
@@ -125599,7 +125791,9 @@
         "thickness": "普通",
         "zipper": "後ろファスナー"
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260198",
@@ -125624,7 +125818,9 @@
       "스마트스토어준비",
       "S435",
       "아코디언 셔링 블라우스",
-      "아이보리/핑크"
+      "아이보리/핑크",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260198_01.jpg",
@@ -125688,7 +125884,7 @@
     "zipper": "뒷지퍼",
     "seoName": "아코디언 블라우스",
     "thumbImage": "assets/N260198_01.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "펄",
     "brand": "",
@@ -125705,7 +125901,7 @@
     ],
     "isNew": true,
     "isPopular": false,
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "contactType": "kakao",
     "contactUrl": "",
     "fit": "슬림핏/아코디언 셔링",
@@ -125956,7 +126152,9 @@
         "thickness": "普通",
         "zipper": "後ろファスナー"
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260199",
@@ -126204,7 +126402,9 @@
       "투피스 & 상하의 컬렉션",
       "PARTY",
       "RECOMMEND",
-      "TOP"
+      "TOP",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260200_01.jpg",
@@ -126254,7 +126454,7 @@
     ],
     "editorsNote": "레이스 포인트가 단독으로도 충분히 매력적인 블라우스입니다. 꾸민 듯 자연스러운 스타일을 원할 때 활용도가 좋습니다.",
     "thumbImage": "assets/N260200_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -126413,7 +126613,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260201",
@@ -126899,7 +127102,9 @@
       "NEW",
       "미니 원피스 컬렉션",
       "PARTY",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260203_01.jpg",
@@ -126949,7 +127154,7 @@
     ],
     "editorsNote": "깔끔한 실루엣가 바디라인과 분위기를 함께 살려주는 원피스입니다. 파티·클럽·촬영처럼 존재감이 필요한 날 추천드립니다.",
     "thumbImage": "assets/N260203_04.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -127111,7 +127316,10 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260204",
@@ -132179,7 +132387,9 @@
       "NEW",
       "미니 원피스 컬렉션",
       "PARTY",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "images": [
       "assets/N260216_01.jpg",
@@ -132229,7 +132439,7 @@
     ],
     "editorsNote": "빅리본과 버튼 포인트가 한 벌만으로 시선을 잡아주는 드레스입니다. 특별한 행사나 촬영룩처럼 화려한 무드가 필요한 날 잘 어울립니다.",
     "thumbImage": "assets/N260216_03.jpg",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -132627,7 +132837,10 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "stockStatus": "당일발송 가능",
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-325",
@@ -132869,7 +133082,7 @@
     "color": "블랙",
     "variantColor": "블랙",
     "size": "77 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 77 사이즈 1장",
     "stock": {
       "77": 1
@@ -132886,7 +133099,9 @@
       "클럽룩",
       "촬영룩",
       "프릴원피스",
-      "스퀘어넥"
+      "스퀘어넥",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -133018,7 +133233,12 @@
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
     "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
-    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL"
+    "designGroupId": "JES-309-326-HURI-KKOIM-FRILL",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-327",
@@ -138062,7 +138282,7 @@
     "sizeInfo": "S,M,L",
     "wearInfo": "확인필요",
     "price": 50000,
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "new": true,
     "isNew": true,
     "mainImage": "assets/S671_01.jpg",
@@ -138139,7 +138359,9 @@
       "촬영룩",
       "미니 원피스 컬렉션",
       "원피스",
-      "슬림"
+      "슬림",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "NEW",
@@ -138158,8 +138380,8 @@
       "촬영룩",
       "원피스"
     ],
-    "sameDayAvailable": false,
-    "isSameDayDelivery": false,
+    "sameDayAvailable": true,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "vendor": "",
     "brand": "",
@@ -138321,7 +138543,8 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "S672",
@@ -159749,7 +159972,7 @@
     "sizeInfo": "상세 사이즈 정보 등록 완료",
     "wearInfo": "소재 폴리혼방 / 신축성 약간 / 캡 있음 / 안감 부분 / 비침 없음 / 두께감 보통 / 지퍼 앞지퍼",
     "price": 162000,
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "new": true,
     "isNew": true,
     "mainImage": "assets/S726_01.jpg",
@@ -159830,7 +160053,9 @@
       "플리츠",
       "버튼",
       "럭셔리",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "NEW",
@@ -159850,9 +160075,9 @@
       "촬영룩",
       "투피스"
     ],
-    "sameDayAvailable": false,
+    "sameDayAvailable": true,
     "fittingAvailable": true,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": true,
     "vendor": "",
     "brand": "",
@@ -160237,7 +160462,8 @@
           }
         ]
       }
-    }
+    },
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "S727",
@@ -179423,7 +179649,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "부드럽게 잡힌 셔링 드레이프와 깊은 슬릿 라인이 우아하면서도 섹시한 분위기를 완성해주는 롱원피스입니다.",
@@ -179447,7 +179673,9 @@
       "파티룩",
       "촬영룩",
       "임마누엘",
-      "롱드레스"
+      "롱드레스",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-001_01.jpg",
     "thumbImage": "assets/immanuel/IMN-001_01.jpg",
@@ -179473,7 +179701,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -179650,7 +179878,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-002",
@@ -179675,7 +179905,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "랩 디자인과 셔링 실루엣이 바디라인을 고급스럽게 살려주는 스테디 롱원피스입니다.",
@@ -179699,7 +179929,9 @@
       "파티룩",
       "모임룩",
       "임마누엘",
-      "롱드레스"
+      "롱드레스",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-002_01.jpg",
     "thumbImage": "assets/immanuel/IMN-002_01.jpg",
@@ -179725,7 +179957,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -179908,7 +180140,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-003",
@@ -179933,7 +180167,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "은은하게 반짝이는 비쥬 스트랩과 슬림한 미니 실루엣이 세련된 분위기를 완성해주는 원피스입니다.",
@@ -179956,7 +180190,9 @@
       "데이트룩",
       "BEST",
       "꾸준판매",
-      "임마누엘"
+      "임마누엘",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-003_01.jpg",
     "thumbImage": "assets/immanuel/IMN-003_01.jpg",
@@ -179983,7 +180219,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -180160,7 +180396,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-004",
@@ -180452,7 +180690,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "허리 컷아웃과 트위스트 디테일, 깊은 슬릿 라인이 강렬한 섹시 무드를 완성해주는 롱원피스입니다.",
@@ -180476,7 +180714,9 @@
       "BEST",
       "꾸준판매",
       "임마누엘",
-      "롱드레스"
+      "롱드레스",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-005_01.jpg",
     "thumbImage": "assets/immanuel/IMN-005_01.jpg",
@@ -180504,7 +180744,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -180678,7 +180918,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-006",
@@ -180703,7 +180945,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "시스루 레이스와 슬릿 디테일이 만나 고혹적이고 강렬한 분위기를 완성해주는 롱원피스입니다.",
@@ -180729,7 +180971,9 @@
       "꾸준판매",
       "임마누엘",
       "롱드레스",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-006_01.jpg",
     "thumbImage": "assets/immanuel/IMN-006_01.jpg",
@@ -180757,7 +181001,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -180953,7 +181197,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-007",
@@ -180978,7 +181224,7 @@
     "see": "없음",
     "thickness": "보통",
     "zipper": "뒷지퍼",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": false,
     "new": false,
     "mainCopy": "은은한 새틴 무드와 부드러운 드레이프 라인이 우아하고 고급스러운 분위기를 완성해주는 롱원피스입니다.",
@@ -181003,7 +181249,9 @@
       "이브닝룩",
       "임마누엘",
       "롱드레스",
-      "스마트스토어판매중"
+      "스마트스토어판매중",
+      "당일배송",
+      "당일발송"
     ],
     "mainImage": "assets/immanuel/IMN-007_01.jpg",
     "thumbImage": "assets/immanuel/IMN-007_01.jpg",
@@ -181037,7 +181285,7 @@
     "lineName": "????",
     "brand": "????",
     "vendor": "????",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -181224,7 +181472,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "GRA-S795",
@@ -183107,11 +183357,11 @@
     "wearInfo": "확인필요",
     "price": 162000,
     "priceText": "162,000원",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "new": true,
     "mainDisplay": true,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": true,
     "size88Available": true,
@@ -183123,7 +183373,9 @@
       "파티룩",
       "방송룩",
       "모임룩",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "소매리본 플리츠 투피스",
@@ -183730,7 +183982,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "SEY-S821",
@@ -192155,11 +192409,11 @@
     "wearInfo": "확인필요",
     "price": 126000,
     "priceText": "126,000원",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "new": true,
     "mainDisplay": true,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": false,
     "size88Available": false,
@@ -192172,7 +192426,9 @@
       "파티룩",
       "방송룩",
       "모임룩",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "NEW",
@@ -192426,7 +192682,9 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-S835",
@@ -195732,8 +195990,8 @@
     "sizeGuide": [],
     "fabric": "폴리혼방",
     "wearInfo": "확인필요",
-    "price": 48000,
-    "priceText": "32,000원",
+    "price": 42000,
+    "priceText": "42,000원",
     "stockStatus": "문의",
     "isNew": true,
     "new": true,
@@ -226468,11 +226726,11 @@
     "wearInfo": "확인필요",
     "price": 135000,
     "priceText": "135,000원",
-    "stockStatus": "문의",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "new": true,
     "mainDisplay": true,
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": true,
     "size88Available": true,
@@ -226486,7 +226744,9 @@
       "파티룩",
       "방송룩",
       "모임룩",
-      "럭셔리"
+      "럭셔리",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "실버버튼 포켓 원피스",
@@ -226927,7 +227187,9 @@
           }
         ]
       }
-    }
+    },
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "PEARL-S833",
@@ -242596,12 +242858,12 @@
         ]
       }
     ],
-    "fabric": "폴리혼방/-한사이즈자이는단면25am반",
+    "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방/-한사이즈자이는단면25am반",
+          "소재": "폴리혼방",
           "신축성": "없음",
           "캡여부": "있음",
           "안감": "없음",
@@ -242835,12 +243097,12 @@
         ]
       }
     ],
-    "fabric": "폴리혼방/-한사이즈자이는단면25am반",
+    "fabric": "폴리혼방",
     "wearTables": [
       {
         "title": "착용 정보",
         "items": {
-          "소재": "폴리혼방/-한사이즈자이는단면25am반",
+          "소재": "폴리혼방",
           "신축성": "없음",
           "캡여부": "있음",
           "안감": "없음",
@@ -246973,7 +247235,9 @@
       "트위드",
       "핑크",
       "파티룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "투피스",
@@ -246991,7 +247255,7 @@
       "77",
       "88"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "new": true,
     "isPopular": false,
@@ -247049,7 +247313,7 @@
     "recommend": "코디 고민 없이 완성도 있는 스타일을 원할 때 추천드립니다.",
     "contactType": "kakao",
     "contactUrl": "",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": true,
     "size88Available": true,
@@ -247199,7 +247463,9 @@
     "stretch": "약간",
     "lining": "있음",
     "see": "있음",
-    "thickness": "보통"
+    "thickness": "보통",
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "HIYA-S883",
@@ -247231,7 +247497,9 @@
       "트위드",
       "민트",
       "파티룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "투피스",
@@ -247249,7 +247517,7 @@
       "77",
       "88"
     ],
-    "stockStatus": "문의필수",
+    "stockStatus": "당일발송 가능",
     "isNew": true,
     "new": true,
     "isPopular": false,
@@ -247307,7 +247575,7 @@
     "recommend": "코디 고민 없이 완성도 있는 스타일을 원할 때 추천드립니다.",
     "contactType": "kakao",
     "contactUrl": "",
-    "isSameDayDelivery": false,
+    "isSameDayDelivery": true,
     "isFittingAvailable": false,
     "size77Available": true,
     "size88Available": true,
@@ -247457,7 +247725,9 @@
     "stretch": "약간",
     "lining": "있음",
     "see": "있음",
-    "thickness": "보통"
+    "thickness": "보통",
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-176",
@@ -247473,7 +247743,7 @@
     "color": "베이지",
     "variantColor": "베이지",
     "size": "55 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장",
     "stock": {
       "55": 2
@@ -247488,7 +247758,9 @@
       "베이지",
       "파티룩",
       "클럽룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -247601,7 +247873,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-193",
@@ -247617,7 +247894,7 @@
     "color": "블랙",
     "variantColor": "블랙",
     "size": "55 / 77 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장 / 77 사이즈 1장",
     "stock": {
       "55": 2,
@@ -247634,7 +247911,9 @@
       "파티룩",
       "클럽룩",
       "촬영룩",
-      "블랙원피스"
+      "블랙원피스",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -247754,7 +248033,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-194",
@@ -247770,7 +248054,7 @@
     "color": "그레이",
     "variantColor": "그레이",
     "size": "66 / 77 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 66 사이즈 1장 / 77 사이즈 1장",
     "stock": {
       "66": 1,
@@ -247786,7 +248070,9 @@
       "그레이",
       "파티룩",
       "클럽룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -247906,7 +248192,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-199",
@@ -247922,7 +248213,7 @@
     "color": "아이보리",
     "variantColor": "아이보리",
     "size": "55 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장",
     "stock": {
       "55": 2
@@ -247937,7 +248228,9 @@
       "아이보리",
       "파티룩",
       "클럽룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -248056,7 +248349,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-204",
@@ -248072,7 +248370,7 @@
     "color": "그레이",
     "variantColor": "그레이",
     "size": "55 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장",
     "stock": {
       "55": 2
@@ -248087,7 +248385,9 @@
       "그레이",
       "파티룩",
       "클럽룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -248200,7 +248500,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-369",
@@ -248216,7 +248521,7 @@
     "color": "블루",
     "variantColor": "블루",
     "size": "55 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장",
     "stock": {
       "55": 2
@@ -248231,7 +248536,9 @@
       "블루",
       "파티룩",
       "클럽룩",
-      "촬영룩"
+      "촬영룩",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -248368,7 +248675,12 @@
     "wearInfo": "소재 폴리혼방 / 신축성 좋음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
   },
   {
     "code": "JES-109",
@@ -248384,7 +248696,7 @@
     "color": "블랙",
     "variantColor": "블랙",
     "size": "55 / 77 재고",
-    "stockStatus": "매장재고 있음",
+    "stockStatus": "당일발송 가능",
     "stockNote": "현재 매장 재고: 55 사이즈 2장 / 77 사이즈 1장",
     "stock": {
       "55": 2,
@@ -248401,7 +248713,9 @@
       "파티룩",
       "클럽룩",
       "촬영룩",
-      "블랙원피스"
+      "블랙원피스",
+      "당일배송",
+      "당일발송"
     ],
     "styleTags": [
       "섹시",
@@ -248521,6 +248835,405 @@
     "wearInfo": "소재 폴리혼방 / 신축성 있음 / 캡여부 있음 / 안감 있음 / 비침 없음 / 두께감 보통 / 지퍼 뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://open.kakao.com/o/s8o2Yxfg",
-    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함."
+    "internalNote": "거래처명/매입정보/제품정보 원본 이미지는 고객 화면 노출 금지. 제품정보는 테이블로 재구성함.",
+    "isSameDayDelivery": true,
+    "sameDayAvailable": true,
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "storeStockPriority": true,
+    "priority": 9000
+  },
+  {
+    "code": "S337",
+    "name": "베이직 니트 프릴스커트 투피스",
+    "storeName": "베이직 니트 프릴스커트 투피스",
+    "category": "TWO PIECE",
+    "collection": "B",
+    "collectionName": "투피스 & 세트 셀렉션",
+    "price": 140000,
+    "priceText": "140,000원",
+    "priceDetail": "상의 86,000원 / 하의 54,000원",
+    "color": "아이보리/화이트",
+    "variantColor": "아이보리/화이트",
+    "designGroupId": "S337-S338",
+    "sameDesignColors": [
+      "아이보리/화이트",
+      "핑크/블랙"
+    ],
+    "sizeInfo": "상의 FREE / 스커트 55(S), 66(M)",
+    "sizeTags": [
+      "55",
+      "66",
+      "FREE"
+    ],
+    "fabric": "상의 니트 / 스커트 폴리혼방",
+    "mainCopy": "베이직 니트와 프릴 스커트가 함께 구성된 러블리 투피스입니다.",
+    "desc": "가볍게 입기 좋은 베이직 니트 상의와 볼륨감 있는 프릴 스커트가 함께 구성된 투피스입니다. 데일리한 상의에 포인트 스커트를 매치해 귀엽고 여성스러운 분위기를 연출하기 좋습니다.",
+    "description": "가볍게 입기 좋은 베이직 니트 상의와 볼륨감 있는 프릴 스커트가 함께 구성된 투피스입니다. 데일리한 상의에 포인트 스커트를 매치해 귀엽고 여성스러운 분위기를 연출하기 좋습니다.",
+    "points": [
+      "베이직 니트 상의와 프릴 스커트 세트 구성",
+      "스커트의 캉캉 프릴 라인이 러블리한 포인트",
+      "상의와 하의를 따로 코디하기 좋아 활용도 높은 아이템"
+    ],
+    "recommend": [
+      "클럽룩",
+      "파티룩",
+      "데이트룩",
+      "촬영룩"
+    ],
+    "tags": [
+      "투피스",
+      "세트룩",
+      "니트",
+      "프릴스커트",
+      "캉캉스커트",
+      "미니스커트",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "니트 투피스",
+      "프릴스커트",
+      "러블리",
+      "세트룩"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "촬영룩"
+    ],
+    "stockStatus": "문의필수",
+    "isNew": false,
+    "new": false,
+    "isSameDayDelivery": false,
+    "sameDayAvailable": false,
+    "mainImage": "assets/S337/S337_01.jpg",
+    "thumbImage": "assets/S337/S337_01.jpg",
+    "images": [
+      "assets/S337/S337_01.jpg",
+      "assets/S337/S337_02.jpg",
+      "assets/S337/S337_03.jpg",
+      "assets/S337/S337_04.jpg",
+      "assets/S337/S337_05.jpg",
+      "assets/S337/S337_06.jpg",
+      "assets/S337/S337_07.jpg",
+      "assets/S337/S337_08.jpg",
+      "assets/S337/S337_09.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/S337/S337_01.jpg",
+        "cut": "대표컷",
+        "source": "S337_01.jpg"
+      },
+      {
+        "url": "assets/S337/S337_02.jpg",
+        "cut": "상세컷 2",
+        "source": "S337_02.jpg"
+      },
+      {
+        "url": "assets/S337/S337_03.jpg",
+        "cut": "상세컷 3",
+        "source": "S337_03.jpg"
+      },
+      {
+        "url": "assets/S337/S337_04.jpg",
+        "cut": "상세컷 4",
+        "source": "S337_04.jpg"
+      },
+      {
+        "url": "assets/S337/S337_05.jpg",
+        "cut": "상세컷 5",
+        "source": "S337_05.jpg"
+      },
+      {
+        "url": "assets/S337/S337_06.jpg",
+        "cut": "상세컷 6",
+        "source": "S337_06.jpg"
+      },
+      {
+        "url": "assets/S337/S337_07.jpg",
+        "cut": "상세컷 7",
+        "source": "S337_07.jpg"
+      },
+      {
+        "url": "assets/S337/S337_08.jpg",
+        "cut": "상세컷 8",
+        "source": "S337_08.jpg"
+      },
+      {
+        "url": "assets/S337/S337_09.jpg",
+        "cut": "상세컷 9",
+        "source": "S337_09.jpg"
+      }
+    ],
+    "sizeTables": [
+      {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "57",
+            "소매길이": "21",
+            "가슴단면": "33",
+            "허리단면": "31"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "31",
+            "허리단면": "30(밴딩)",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33.5",
+            "허리단면": "32.5(밴딩)",
+            "힙단면": "-"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "니트",
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ],
+    "editorsNote": "기존 제품 누락분으로 신제품 표시는 제외했습니다. 제품정보 이미지는 고객 화면에 노출하지 않고 테이블 데이터로만 반영했습니다."
+  },
+  {
+    "code": "S338",
+    "name": "베이직 니트 프릴스커트 투피스",
+    "storeName": "베이직 니트 프릴스커트 투피스",
+    "category": "TWO PIECE",
+    "collection": "B",
+    "collectionName": "투피스 & 세트 셀렉션",
+    "price": 140000,
+    "priceText": "140,000원",
+    "priceDetail": "상의 86,000원 / 하의 54,000원",
+    "color": "핑크/블랙",
+    "variantColor": "핑크/블랙",
+    "designGroupId": "S337-S338",
+    "sameDesignColors": [
+      "아이보리/화이트",
+      "핑크/블랙"
+    ],
+    "sizeInfo": "상의 FREE / 스커트 55(S), 66(M)",
+    "sizeTags": [
+      "55",
+      "66",
+      "FREE"
+    ],
+    "fabric": "상의 니트 / 스커트 폴리혼방",
+    "mainCopy": "베이직 니트와 프릴 스커트가 함께 구성된 러블리 투피스입니다.",
+    "desc": "가볍게 입기 좋은 베이직 니트 상의와 볼륨감 있는 프릴 스커트가 함께 구성된 투피스입니다. 데일리한 상의에 포인트 스커트를 매치해 귀엽고 여성스러운 분위기를 연출하기 좋습니다.",
+    "description": "가볍게 입기 좋은 베이직 니트 상의와 볼륨감 있는 프릴 스커트가 함께 구성된 투피스입니다. 데일리한 상의에 포인트 스커트를 매치해 귀엽고 여성스러운 분위기를 연출하기 좋습니다.",
+    "points": [
+      "베이직 니트 상의와 프릴 스커트 세트 구성",
+      "스커트의 캉캉 프릴 라인이 러블리한 포인트",
+      "상의와 하의를 따로 코디하기 좋아 활용도 높은 아이템"
+    ],
+    "recommend": [
+      "클럽룩",
+      "파티룩",
+      "데이트룩",
+      "촬영룩"
+    ],
+    "tags": [
+      "투피스",
+      "세트룩",
+      "니트",
+      "프릴스커트",
+      "캉캉스커트",
+      "미니스커트",
+      "파티룩",
+      "클럽룩",
+      "촬영룩"
+    ],
+    "styleTags": [
+      "니트 투피스",
+      "프릴스커트",
+      "러블리",
+      "세트룩"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "클럽룩",
+      "데이트룩",
+      "촬영룩"
+    ],
+    "stockStatus": "문의필수",
+    "isNew": false,
+    "new": false,
+    "isSameDayDelivery": false,
+    "sameDayAvailable": false,
+    "mainImage": "assets/S338/S338_01.jpg",
+    "thumbImage": "assets/S338/S338_01.jpg",
+    "images": [
+      "assets/S338/S338_01.jpg",
+      "assets/S338/S338_02.jpg",
+      "assets/S338/S338_03.jpg",
+      "assets/S338/S338_04.jpg",
+      "assets/S338/S338_05.jpg",
+      "assets/S338/S338_06.jpg",
+      "assets/S338/S338_07.jpg",
+      "assets/S338/S338_08.jpg",
+      "assets/S338/S338_09.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "assets/S338/S338_01.jpg",
+        "cut": "대표컷",
+        "source": "S338_01.jpg"
+      },
+      {
+        "url": "assets/S338/S338_02.jpg",
+        "cut": "상세컷 2",
+        "source": "S338_02.jpg"
+      },
+      {
+        "url": "assets/S338/S338_03.jpg",
+        "cut": "상세컷 3",
+        "source": "S338_03.jpg"
+      },
+      {
+        "url": "assets/S338/S338_04.jpg",
+        "cut": "상세컷 4",
+        "source": "S338_04.jpg"
+      },
+      {
+        "url": "assets/S338/S338_05.jpg",
+        "cut": "상세컷 5",
+        "source": "S338_05.jpg"
+      },
+      {
+        "url": "assets/S338/S338_06.jpg",
+        "cut": "상세컷 6",
+        "source": "S338_06.jpg"
+      },
+      {
+        "url": "assets/S338/S338_07.jpg",
+        "cut": "상세컷 7",
+        "source": "S338_07.jpg"
+      },
+      {
+        "url": "assets/S338/S338_08.jpg",
+        "cut": "상세컷 8",
+        "source": "S338_08.jpg"
+      },
+      {
+        "url": "assets/S338/S338_09.jpg",
+        "cut": "상세컷 9",
+        "source": "S338_09.jpg"
+      }
+    ],
+    "sizeTables": [
+      {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "FREE",
+            "총길이": "57",
+            "소매길이": "21",
+            "가슴단면": "33",
+            "허리단면": "31"
+          }
+        ]
+      },
+      {
+        "title": "스커트 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "31",
+            "허리단면": "30(밴딩)",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "33.5",
+            "허리단면": "32.5(밴딩)",
+            "힙단면": "-"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "니트",
+          "신축성": "좋음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      },
+      {
+        "title": "스커트 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "없음",
+          "안감": "속바지",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "없음"
+        }
+      }
+    ],
+    "editorsNote": "기존 제품 누락분으로 신제품 표시는 제외했습니다. 제품정보 이미지는 고객 화면에 노출하지 않고 테이블 데이터로만 반영했습니다."
   }
 ]

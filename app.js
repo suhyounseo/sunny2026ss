@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'jessica0808_1';
+const VERSION = 'sameday0808_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -285,15 +285,15 @@ let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
-  { key: 'JESSICA_NEW', filter: 'COL_JESSICA', title: '제시카 입고', name: 'Jessica New Arrival', desc: '매장에 입고된 제시카 라인 셀렉션입니다. 재고와 피팅 가능 여부는 상품코드로 문의해 주세요.' },
+  // 쇼룸 메인 컬렉션은 항상 6개만 유지합니다.
   { key: 'AUGUST_NEW', filter: 'COL_AUGUST', title: '8월 신상', name: 'August New Selection', desc: '이번 8월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
   { key: 'B', filter: 'COL_B', title: 'Collection B', name: 'Set-up & Styling Edit', desc: '투피스와 세트 아이템으로 완성하는 스타일링' },
   { key: 'C', filter: 'COL_C', title: 'Collection C', name: 'Evening & Long Edit', desc: '특별한 순간을 위한 미디·롱 드레스 셀렉션' },
-  { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' },
-  { key: 'E', filter: 'COL_E', title: 'Collection E', name: 'Plus Fit & 77·88 Edit', desc: '77·88 사이즈까지 확인 가능한 추천 셀렉션' }
+  { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
+const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
 const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
 const LABEL = {
   HOME: 'HOME',
@@ -909,10 +909,14 @@ function isCostume(p) {
   const hasStyleAnchor = /리본|빅리본|카라|스트라이프|체크|플리츠|세트|투피스|미니드레스|망사|레이스/.test(focusedProductText(p));
   return softHits >= 2 && hasStyleAnchor;
 }
+function isJessicaStoreStockProduct(p) {
+  return p && (p.storeStockPriority === true || JESSICA_STORE_STOCK_CODES.has(codeOf(p)));
+}
 function rankProduct(p) {
   let score = Number(p.priority || 0);
-  // 8월 신상은 전체(ALL)에서도 먼저 보이도록 최우선 가중치를 줍니다.
-  // 기존에는 7월 신상/메인진열 상품이 앞에 정렬되어 8월 신상이 뒤로 밀렸습니다.
+  // 전체(ALL)에서는 매장에 실제 입고된 제시카 재고를 가장 먼저 노출합니다.
+  if (isJessicaStoreStockProduct(p)) score += 22000;
+  // 8월 신상은 전체(ALL)에서도 먼저 보이도록 우선 가중치를 줍니다.
   if (isAugustNewProduct(p)) score += 12000;
   if (p.mainDisplay) score += 10000;
   if (isJulyNewProduct(p)) score += 9000;
@@ -1115,7 +1119,6 @@ function match(p) {
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'COL_E') f = isPlusFitEditProduct(p);
   else if (FILTER === 'NEW') f = isNew(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
