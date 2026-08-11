@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'searchstyle0809_1';
+const VERSION = 'printfabric0811_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -519,7 +519,8 @@ const STYLE_SEARCH_GROUPS = {
   '가죽': ['가죽', '레더', 'leather'],
   '벨트': ['벨트', 'belt'],
   '브로치': ['브로치', 'brooch'],
-  '플리츠': ['플리츠', '주름', 'pleats', 'pleated']
+  '플리츠': ['플리츠', '주름', 'pleats', 'pleated'],
+  '프린트': ['프린트', '프린트원단', '패턴', '패턴원단', 'print', 'printed', 'pattern', 'patterned']
 };
 function styleSearchGroup(raw) {
   const s = String(raw || '').trim().toLowerCase().replace(/[\s\-_]/g, '');
@@ -536,6 +537,7 @@ function styleSearchText(p) {
     ...(Array.isArray(p.points) ? p.points : []),
     ...(Array.isArray(p.tags) ? p.tags : []),
     ...(Array.isArray(p.styleTags) ? p.styleTags : []),
+    ...(Array.isArray(p.fabricTags) ? p.fabricTags : []),
     ...(Array.isArray(p.sceneTags) ? p.sceneTags : []),
     ...(Array.isArray(p.searchKeywords) ? p.searchKeywords : [])
   ].filter(Boolean).join(' '));
