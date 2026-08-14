@@ -1,168 +1,113 @@
-# NICE 모델컷 워크플로우
+# NICE 모델컷 multi-image 워크플로우
 
-마네킹컷·제품컷만 있는 상품을 실제 판매 가능한 모델 전신컷 후보로 확장하기 위한 테스트 시스템입니다. 목표는 예쁜 AI 이미지가 아니라 실제 상품과 최대한 일치하는 후보를 반복 가능하게 만들고 검수하는 것입니다.
+실제 상의·하의 사진을 여러 장 대조해 상품 일치도 중심의 모델컷 후보를 준비하고 검토하는 독립 테스트 시스템입니다. 분위기보다 컬러, 기장, 실루엣, 디테일, 원단 일치를 우선합니다.
 
-이 시스템은 `modelcut-workflow-test` 브랜치에서만 작업합니다. `products.json`, `index.html`, `app.js`, `style.css`를 수정하지 않으며 승인 후보를 운영 쇼룸에 자동 반영하지 않습니다.
+이 MVP는 `modelcut-workflow-test` 브랜치용입니다. 루트 쇼룸의 `products.json`, `index.html`, `app.js`, `style.css`를 읽거나 수정하지 않으며, 승인 결과를 운영 쇼룸에 자동 반영하지 않습니다. 실제 AI 이미지 생성과 재생성 API 연결은 2단계 범위입니다.
 
-## 구조
+## 폴더 구조
 
 ```text
 modelcut-workflow/
-  config/                 상품 후보·매칭·프롬프트·검수 규칙
-  input/raw/               원본 입력(비공개, Git 제외)
-  input/normalized/        정규화 manifest(재생성 가능, Git 제외)
-  refs/products/           실제 상품 참조 이미지(이미지만 Git 제외)
-  refs/mood/               거래처·분위기 보조 참조(이미지만 Git 제외)
-  output/drafts/           생성 초안(Git 제외)
-  output/revised/          수정본(Git 제외)
-  output/approved/         명시적으로 승인된 결과만 관리
-  output/review_board/     실제 카드 데이터가 삽입된 HTML 검토판
-  reports/csv/             기계 판독용 검수 보고서
-  reports/markdown/        사람이 읽는 검수 보고서
-  prompts/                 조합별 생성 프롬프트
-  scripts/                 재현 가능한 파이프라인
-  templates/               프롬프트·HTML 템플릿
+  input/
+    tops/                  상의 원본 드롭 폴더(내용 Git 제외)
+    bottoms/               하의 원본 드롭 폴더(내용 Git 제외)
+    references/            분위기 참고 드롭 폴더(내용 Git 제외)
+  data/
+    input_items.sample.json  multi-image 입력 예시 5건
+    review_items.json        분석·검토판 공통 데이터
+  config/
+    workflow_settings.json   이미지/후보 수 제한과 참조 정책
+    review_rules.json        5개 검수 항목과 승인/hard fail 규칙
+    review_state.json        CLI로 저장한 승인 상태(생성 시 유지)
+  output/
+    analysis/              검증된 입력과 상품 분석 계약
+    drafts/                생성 후보 원본(Git 제외)
+    review_board/index.html 실제 카드가 삽입된 로컬 검토판
+    approved/              명시적으로 승인된 결과만 이동
+  templates/
+    review_board_template.html  원본 템플릿
+  tools/
+    modelcut_workflow.py    입력 검증·검토 상태 저장
+    generate_analysis.py    생성 전 상품 분석
+    build_review_board.py   카드 삽입 HTML 생성
+
+modelcut-demo/
+  index.html               GitHub Pages용 정적 검토판
+  assets/                  검토에 필요한 축소 WebP만 추적
+  data/review_items.json   썸네일 경로로 변환한 배포 데이터
 ```
 
-## 빠른 실행
+## 입력 형식
 
-저장소 루트에서 Python 3.11 이상으로 실행합니다. 모든 스크립트는 표준 라이브러리만 사용합니다.
+`data/input_items.sample.json`을 복사해 작업 파일로 사용합니다. 조합마다 다음을 입력합니다.
+
+- 실제 상의 이미지 `topImages`: 정면·디테일·측면/후면·원단 등 최대 5장
+- 실제 하의 이미지 `bottomImages`: 최대 5장
+- 분위기/거래처 이미지 `referenceImages`: 최대 3장
+- 상·하의 코드, 상품명, 실제 컬러
+- 상·하의별 실제 허용 컬러 `allowedColors`(입력 컬러가 목록 밖이면 prepare 중단)
+- 상·하의 기장·실루엣·디테일, 원단 키워드
+- 반드시 보존할 요소 `mustPreserve`, 생성 금지 요소 `avoidList`
+- 생성 후보 수 `candidateCount`: 1~3
+
+거래처 이미지는 포즈·분위기만 참고합니다. 상품 컬러, 구조, 프릴, 리본, 컵라인, 허리선, 원단의 근거는 실제 제품 사진이어야 합니다.
+
+샘플에는 S939의 과도한 스커트 연장, S941의 핑크 하의, S942의 잘못된 하의 reference, S943의 없는 그레이/소라 톤을 금지 규칙으로 포함했습니다. S942는 실제 reference 승인 전 생성 차단 상태입니다.
+
+## 실행
+
+Python 3.11 이상과 데모 썸네일 생성용 Pillow가 필요합니다. 저장소 루트에서 먼저 워크플로우 폴더로 이동합니다.
 
 ```powershell
-python modelcut-workflow/scripts/build_manifest.py
-python modelcut-workflow/scripts/generate_prompts.py
-python modelcut-workflow/scripts/build_review_report.py
-python modelcut-workflow/scripts/build_review_board.py
-python modelcut-workflow/scripts/build_demo.py
-```
-
-로컬의 Git 제외 이미지를 HTML에 연결하려면 마지막 명령에 옵션을 추가합니다.
-
-```powershell
-python modelcut-workflow/scripts/build_review_board.py --use-local-images
-```
-
-기본 검토판은 커밋과 공유가 가능하도록 이미지 자리표시자를 사용합니다.
-
-## 입력 데이터
-
-`config/candidate_items.json`은 상품 단위 작업 큐입니다. 각 항목은 다음 정보를 가집니다.
-
-- `targetCode`, `targetName`, `targetType`
-- `exclude`, `status`, `colorOptions`
-- 실제 상품 `referenceImages`
-- `matchCandidates`의 코드·유형·컬러·우선순위·참조 이미지
-- 상품별 변경 금지 사항인 `guardrails`
-
-`config/product_attributes.json`은 각 상·하의 조합의 생성 계약입니다. `allowed_colors`, 상·하의 형태 키워드, 기장, 소재, 필수 디테일, 금지 요소와 최소 draft 수를 관리합니다. 프롬프트 생성 시 상·하의 컬러가 허용 목록을 벗어나면 즉시 중단합니다.
-
-S944는 명시적으로 제외됩니다. S945와 S946은 단품 스커트이며 상의 조합 확정 전까지 보류합니다.
-
-## 매칭
-
-`config/match_rules.json`의 검색 순서는 다음과 같습니다.
-
-1. `code` 정확히 일치
-2. `vendorCode` 일치
-3. 상품명·태그에 품번 포함
-
-S799/S800은 `TIA-S799`/`TIA-S800`으로 등록된 경우를 고려해 양쪽 코드를 별칭으로 처리합니다. manifest 생성은 루트 `products.json`을 읽기만 하며 수정하지 않습니다.
-
-## 프롬프트
-
-`generate_prompts.py`가 활성 조합마다 `model_draft_01`, `model_draft_02`용 프롬프트를 각각 만듭니다. 실제 상의 마네킹컷 → 실제 하의 마네킹컷/제품컷 → 동일 상품 디테일컷 → 거래처 완성 이미지 → 기존 생성 후보 순서로 참조합니다. 모든 프롬프트에는 다음 원칙이 포함됩니다.
-
-- `Prioritize product accuracy over beauty or mood.`
-- `Prioritize exact product matching over beauty or mood.`
-- `Do not invent new colors.`
-- `Do not simplify or replace the actual skirt silhouette.`
-- `Do not invent new colors, decorations, silhouette changes, or fabric details.`
-- `Use the real product images as the primary reference.`
-
-실제 제품컷이 최우선이며 거래처 이미지는 착용 비율과 원단 반응을 확인하는 보조 자료일 뿐입니다. 거래처 모델·포즈·배경은 복제하지 않습니다. 실제 reference가 확정되지 않은 `reference 재선정` 항목은 프롬프트와 model draft를 생성하지 않습니다.
-
-## 검수 보고서
-
-`build_review_report.py`는 `config/review_results.sample.json` 형식의 입력을 검증한 뒤 다음 파일을 만듭니다.
-
-- `reports/csv/modelcut_quality_review.csv`
-- `reports/markdown/modelcut_quality_review.md`
-
-상의와 하의를 각각 `colorMatch`, `lengthMatch`, `detailMatch`, `silhouetteMatch`, `materialMatch`로 검증하며 값은 `O`, `△`, `X`만 허용합니다. `humanReviewMemo`에 사람이 확인한 보완점을 기록합니다. 컬러·기장·디테일·실루엣 중 3개 이상 `O`이고 즉시 탈락 조건이 없어야 승인 후보가 될 수 있습니다.
-
-즉시 탈락 조건은 실제에 없는 컬러, 상·하의 종류 변경, 미니가 미디로 보이는 변형, 핵심 디테일 누락, 상품의 과도한 단순화입니다. 보고서에는 핵심 통과 수, hard fail 사유와 자동 판정을 함께 기록합니다.
-
-현재 재작업 게이트는 다음과 같습니다.
-
-- `S940_S729_model_draft_02`: A안, 1순위 조건부 승인 후보
-- `S941_N260007_model_draft_01`: 핑크 하의 후보 폐기, 블랙 튤/샤 스커트로 재생성
-- `S941_N260007_model_draft_03`: B안, 2순위 보완 후 승인 후보
-- `S942_TIA-S799_vendorref_01`: 기존 reference 탈락, 실제 하의 reference 재선정 전 model draft 생성 금지
-
-## 검토판
-
-`templates/review_board_template.html`은 생성용 원본 템플릿이므로 직접 열지 않습니다. 템플릿에 보이는 `{{CARDS}}`는 정상적인 플레이스홀더입니다.
-
-검토할 때는 반드시 `build_review_board.py` 실행 후 생성되는 아래 결과 파일을 엽니다.
-
-```text
-modelcut-workflow/output/review_board/index.html
-```
-
-이 결과 HTML에는 실제 카드 데이터가 삽입됩니다. 실제 상의·실제 하의·생성 후보 세 장과 검수 상태를 한 카드에 표시하며, 로컬 검수 시 `--use-local-images` 옵션으로 Git 제외 이미지를 연결할 수 있습니다.
-
-## 로컬 테스트
-
-저장소 루트에서 결과와 배포 데모를 순서대로 갱신합니다.
-
-```powershell
-python modelcut-workflow/scripts/build_review_report.py
-python modelcut-workflow/scripts/build_review_board.py --use-local-images
-python modelcut-workflow/scripts/build_demo.py
+cd modelcut-workflow
+python tools/modelcut_workflow.py prepare
+python tools/generate_analysis.py
+python tools/build_review_board.py
+python scripts/build_demo.py
+cd ..
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-브라우저에서 아래 주소를 엽니다.
+브라우저에서 다음 주소를 엽니다.
 
-- 로컬 카드 삽입 결과: `http://127.0.0.1:8765/modelcut-workflow/output/review_board/`
-- GitHub Pages용 정적 데모: `http://127.0.0.1:8765/modelcut-demo/`
+- 로컬 결과: `http://127.0.0.1:8765/modelcut-workflow/output/review_board/`
+- GitHub Pages 테스트 묶음: `http://127.0.0.1:8765/modelcut-demo/`
 
-`modelcut-demo/index.html`은 `fetch()`로 JSON을 읽으므로 `file://`로 직접 열지 말고 HTTP 서버를 사용합니다.
+`templates/review_board_template.html`을 직접 열면 `{{CARDS}}` 플레이스홀더가 보이는 것이 정상입니다. 사용자는 템플릿이 아니라 반드시 빌드 결과인 `output/review_board/index.html`을 열어야 합니다.
 
-## GitHub Pages 테스트 배포
+## 5단계 운영
 
-정적 배포 묶음은 저장소 루트의 `modelcut-demo/`에 생성됩니다.
+1. 입력: 실제 상의 최대 5장, 실제 하의 최대 5장, 분위기 참고 최대 3장과 상품 메타데이터를 JSON에 등록합니다.
+2. 상품 분석: `generate_analysis.py`가 컬러·기장·실루엣·디테일·원단·필수 보존·금지 목록을 생성합니다. 검토판의 분석 패널에서 보완할 수 있습니다.
+3. 생성: `output/drafts/`에 조합당 1~3개 후보를 연결합니다. MVP에서는 외부 생성 API를 자동 호출하지 않습니다.
+4. 검토: 실제 상의·하의의 여러 컷과 후보를 나란히 보고 `colorMatch`, `lengthMatch`, `detailMatch`, `fabricMatch`, `silhouetteMatch`를 O/△/X로 평가합니다.
+5. 승인 관리: 상태, 최종 승인 체크, 검토 메모, 재생성 메모를 관리합니다.
 
-```text
-modelcut-demo/
-  index.html
-  assets/                 축소된 WebP 검토 썸네일만 포함
-  data/review_items.json
+정적 페이지의 변경값은 해당 브라우저의 `localStorage`에 저장됩니다. “검토 상태 JSON 내보내기”로 공유 가능한 파일을 받습니다. 저장소 데이터에 명시적으로 반영할 때는 다음 CLI를 사용합니다.
+
+```powershell
+python tools/modelcut_workflow.py review --candidate-id S941_N260007_model_draft_03 --status "조건부 승인" --approved false --regeneration-memo "프릴 폭과 튤 레이어 재보정"
 ```
 
-테스트 브랜치를 별도 Pages 테스트 저장소 또는 fork에 push한 뒤 Pages 소스를 해당 브랜치의 `/ (root)`로 설정하면 다음 하위경로에서 검토판을 볼 수 있습니다.
+## 승인 규칙
+
+- 5개 항목 중 4개 이상 O: 승인 후보
+- 3개 O이고 hard fail 없음: 조건부 승인 후보
+- 실제에 없는 컬러·기장, 상품 종류 변경, 큰 장식 임의 추가, 핵심 디테일 누락: 즉시 반려
+- S942처럼 실제 reference가 잘못된 경우: 모델컷 생성을 멈추고 `reference 재선정`
+
+`approved` 체크는 검토 기록일 뿐 운영 반영 승인이 아닙니다. 운영 쇼룸 반영은 main 병합 이후 별도 승인 절차에서만 수행합니다.
+
+## GitHub Pages 테스트
+
+`modelcut-demo/`만으로 정적 배포가 가능합니다. 테스트 브랜치를 별도 테스트 저장소나 fork에 push하고 Pages 소스를 해당 브랜치의 루트로 지정한 뒤 아래 경로를 엽니다.
 
 ```text
 https://<account>.github.io/<repository>/modelcut-demo/
 ```
 
-운영 중인 Pages 저장소의 배포 브랜치를 테스트 브랜치로 바꾸면 기존 사이트에 영향을 줄 수 있으므로 별도 테스트 저장소/fork 사용을 권장합니다. 이 데모는 `products.json`, 루트 `index.html`, `app.js`, `style.css`를 읽거나 수정하지 않으며, `main` 병합 전에는 실제 쇼룸에 반영하지 않습니다.
+운영 Pages의 배포 브랜치를 테스트 브랜치로 바꾸지 마세요. 원본·대량 이미지는 Git에서 제외하며 `scripts/build_demo.py`가 만든 최소 WebP 썸네일만 추적합니다.
 
-`build_demo.py`는 원본 이미지를 Git에 추가하지 않고 검토에 필요한 축소 WebP만 `modelcut-demo/assets/`에 생성합니다.
+## 승인 산출물 경로
 
-## Git 운영 원칙
-
-- 작업 브랜치: `modelcut-workflow-test`
-- 원본 이미지, drafts, revised, 임시 파일은 추적하지 않습니다.
-- 설정, 스크립트, 템플릿, README, 샘플 CSV/Markdown/HTML은 추적합니다.
-- `output/approved/`에는 별도 명시적 승인을 받은 최종본만 둡니다.
-- 운영 쇼룸 핵심 파일과 main 브랜치는 이 워크플로우에서 수정하지 않습니다.
-
-## 향후 확장
-
-- 업로드 폴더 자동 분류와 상품코드 인식
-- 제품정보 기반 프롬프트 자동 보강
-- 이미지 생성 제공자 어댑터와 작업 큐
-- 검수 점수 기반 수정·승인 후보 추천
-- 승인 산출물을 쇼룸 반영 단계에 안전하게 넘기는 별도 승인 게이트
-- 멀티테넌트 저장소와 사용자 권한을 갖춘 SaaS 구조
+검토 완료 후 승인된 이미지 원본은 사람이 확인한 뒤 `output/approved/`에 별도로 배치합니다. 이 폴더의 파일도 쇼룸 자동 반영 대상이 아니며, `products.json` 수정은 이 워크플로우 범위 밖입니다.
