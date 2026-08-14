@@ -1,9 +1,9 @@
 Use case: identity-preserve
 Asset type: NICE showroom product-accuracy model-cut candidate
 
-Target: S940 · 브이넥 랩 크롭 탑
-Combination: S940 + S729
-Top color: 화이트
+Target: S943 · 배색 컵라인 슬림 탑
+Combination: S943 + S800
+Top color: 블랙
 Bottom color: 화이트
 
 Prioritize product accuracy over beauty or mood.
@@ -17,12 +17,14 @@ Background:
 Simple original premium Korean boutique showroom with soft even lighting; no text, logo, watermark, or copied vendor composition.
 
 Product invariants:
-- V넥 깊이·퍼프소매·랩 밑단 유지
-- S729/S730 하의 포켓·버튼·플리츠 구조 유지
+- 실제 블루그레이/블랙만 사용
+- 어색한 그레이톤 생성 금지
+- 화이트 파이핑 컵라인·셔링·세로 절개 유지
+- S800 하의를 단순화하지 않음
 
 Reference images:
-- input/raw/aug11/S940/S940_04.jpg
-- refs/products/showroom/S729/S729_09.jpg
+- input/raw/aug11/S943/S943_09.jpg
+- refs/products/showroom/TIA-S800/TIA-S800_07.jpg
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.

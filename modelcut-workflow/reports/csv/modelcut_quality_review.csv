@@ -1,0 +1,9 @@
+﻿targetCode,targetName,topCode,bottomCode,topColor,bottomColor,colorMatch,lengthMatch,detailMatch,fabricMatch,fitMatch,realityScore,status,memo,promptPath,draftImagePath,approvedImagePath
+S939,프린트 배색 뷔스티에 탑,S939,N260195,핑크,아이보리,O,O,O,△,O,4,승인 후보,스커트 무릎 바로 아래 길이 유지. 원단 광택은 최종 확인 필요.,prompts/S939_N260195.txt,output/drafts/S939_N260195_model_draft_02.png,
+S940,브이넥 랩 크롭 탑,S940,S729,화이트,화이트,O,O,O,O,O,4,승인 후보,포켓·골드 단추·플리츠 구조 확인.,prompts/S940_S729.txt,output/drafts/S940_S729_vendorref_01.png,
+S941,프릴 오프숄더 탑,S941,N260007,연핑크,블랙,O,O,O,O,O,4,승인 후보,실제 연핑크 상의와 블랙 튤 하의만 사용.,prompts/S941_N260007.txt,output/drafts/S941_N260007_vendorref_01.png,
+S942,펄 러플 슬리브리스 탑,S942,S799,아이보리,아이보리,O,O,O,△,O,4,수정 후 승인 후보,펄·스팽글 질감 강도 최종 확인.,prompts/S942_S799.txt,output/drafts/S942_TIA-S799_model_draft_01.png,
+S943,배색 컵라인 슬림 탑,S943,S800,블랙,화이트,O,O,O,O,O,4,승인 후보,"어색한 그레이톤 제외, 실제 블랙·화이트 조합.",prompts/S943_S800.txt,output/drafts/S943_TIA-S800_model_draft_02.png,
+S944,작업 제외,,S944,,,,,,,,,제외,작업지시서에 따라 제외.,,,
+S945,드레이프 랩 미니 스커트,,S945,,,,,,,,,보류,상의 조합 확정 대기.,,,
+S946,스팽글 미니 스커트,,S946,,,,,,,,,보류,상의 조합 확정 대기.,,,

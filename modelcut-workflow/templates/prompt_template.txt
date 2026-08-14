@@ -1,0 +1,26 @@
+Use case: identity-preserve
+Asset type: NICE showroom product-accuracy model-cut candidate
+
+Target: {targetCode} · {targetName}
+Combination: {targetCode} + {matchCode}
+Top color: {topColor}
+Bottom color: {bottomColor}
+
+{requiredSentences}
+
+Composition:
+{composition}
+
+Background:
+{background}
+
+Product invariants:
+{guardrails}
+
+Reference images:
+{referenceImages}
+
+Constraints:
+- Preserve actual color, length, silhouette, fabric behavior, and signature details.
+- Do not copy any vendor model's face, hair, pose, accessories, background, or composition.
+- No text, logo, watermark, extra people, or distorted anatomy.

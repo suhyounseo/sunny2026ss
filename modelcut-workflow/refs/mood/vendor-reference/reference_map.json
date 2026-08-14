@@ -1,0 +1,32 @@
+[
+  {
+    "file": "vendor_reference_05.png",
+    "targetCode": "S939",
+    "allowedUse": ["상의 착용 시 컵라인", "넓은 스트랩", "몸판 길이와 슬림핏"],
+    "doNotCopy": ["거래처 모델 얼굴·머리·포즈", "배경", "블랙 컬러", "거래처 컷의 블랙 플리츠 하의"]
+  },
+  {
+    "file": "vendor_reference_04.png",
+    "targetCode": "S940",
+    "allowedUse": ["V넥 깊이", "퍼프 반소매 부피", "랩 밑단 착용 비율"],
+    "doNotCopy": ["거래처 모델 얼굴·머리·포즈", "배경", "옐로우 컬러", "거래처 컷의 아이보리 스팽글 하의"]
+  },
+  {
+    "file": "vendor_reference_03.png",
+    "targetCode": "S941",
+    "allowedUse": ["오프숄더 위치", "프릴 폭", "리본과 앞 단추의 착용 위치", "크롭 길이"],
+    "doNotCopy": ["거래처 모델 얼굴·머리·포즈·액세서리", "배경", "거래처 컷의 핑크 스팽글 하의"]
+  },
+  {
+    "file": "vendor_reference_02.png",
+    "targetCode": "S942",
+    "allowedUse": ["얇은 스트랩", "러플의 부피", "펄·스팽글 질감", "비대칭 밑단 착용 형태"],
+    "doNotCopy": ["거래처 모델 얼굴·머리·포즈·액세서리", "배경", "거래처 컷의 드레이프 하의"]
+  },
+  {
+    "file": "vendor_reference_01.png",
+    "targetCode": "S943",
+    "allowedUse": ["블랙 컵라인", "화이트 파이핑", "얇은 스트랩", "허리까지 오는 실제 길이"],
+    "doNotCopy": ["거래처 모델 얼굴·머리·포즈·액세서리", "배경", "거래처 컷의 블랙 하의"]
+  }
+]

@@ -2,9 +2,9 @@ Use case: identity-preserve
 Asset type: NICE showroom product-accuracy model-cut candidate
 
 Target: S940 · 브이넥 랩 크롭 탑
-Combination: S940 + S729
-Top color: 화이트
-Bottom color: 화이트
+Combination: S940 + S730
+Top color: 옐로우
+Bottom color: 옐로우
 
 Prioritize product accuracy over beauty or mood.
 Do not invent new colors, decorations, silhouette changes, or fabric details.
@@ -22,7 +22,7 @@ Product invariants:
 
 Reference images:
 - input/raw/aug11/S940/S940_04.jpg
-- refs/products/showroom/S729/S729_09.jpg
+- refs/products/showroom/S730/S730_01.jpg
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.

@@ -1,0 +1,8 @@
+{
+  "fields": ["colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "fitMatch"],
+  "allowedValues": ["O", "△", "X"],
+  "realityScore": {"minimum": 1, "maximum": 5},
+  "statuses": ["승인 후보", "수정 후 승인 후보", "재생성", "보류", "제외"],
+  "approvalPolicy": "승인 후보 상태는 쇼룸 반영 승인이 아니다. approved 폴더 이동과 쇼룸 반영은 별도 명시적 승인 후에만 수행한다.",
+  "requiredMemoFor": ["△", "X"]
+}

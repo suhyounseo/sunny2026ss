@@ -1,0 +1,104 @@
+[
+  {
+    "targetCode": "S939",
+    "targetName": "프린트 배색 뷔스티에 탑",
+    "targetType": "TOP",
+    "exclude": false,
+    "status": "승인 후보",
+    "colorOptions": ["핑크", "블랙"],
+    "referenceImages": ["input/raw/aug11/S939/S939_04.jpg"],
+    "matchCandidates": [
+      {"matchCode": "N260195", "matchType": "SKIRT", "topColor": "핑크", "bottomColor": "아이보리", "priority": 1, "note": "링 버클 스트레이트 스커트", "referenceImages": ["refs/products/showroom/N260195/N260195_04.jpg"]},
+      {"matchCode": "N260007", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "블랙", "bottomColor": "블랙", "priority": 2, "note": "블랙 튤 하의 후보", "referenceImages": ["refs/products/showroom/N260007/N260007_04.jpg"]},
+      {"matchCode": "N260006", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "핑크", "bottomColor": "핑크/화이트", "priority": 3, "note": "투피스 하의 후보", "referenceImages": ["refs/products/showroom/N260006/N260006_01.jpg"]}
+    ],
+    "guardrails": ["N260195 스커트를 실제보다 길게 만들지 않음", "실제 미디/슬림 실루엣 유지", "프린트·배색·컵라인·단추 수 임의 변경 금지"]
+  },
+  {
+    "targetCode": "S940",
+    "targetName": "브이넥 랩 크롭 탑",
+    "targetType": "TOP",
+    "exclude": false,
+    "status": "승인 후보",
+    "colorOptions": ["화이트", "옐로우"],
+    "referenceImages": ["input/raw/aug11/S940/S940_04.jpg"],
+    "matchCandidates": [
+      {"matchCode": "S729", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "화이트", "bottomColor": "화이트", "priority": 1, "note": "포켓·버튼·플리츠 하의", "referenceImages": ["refs/products/showroom/S729/S729_09.jpg"]},
+      {"matchCode": "S730", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "옐로우", "bottomColor": "옐로우", "priority": 2, "note": "옐로우 조합 후보", "referenceImages": ["refs/products/showroom/S730/S730_01.jpg"]}
+    ],
+    "guardrails": ["V넥 깊이·퍼프소매·랩 밑단 유지", "S729/S730 하의 포켓·버튼·플리츠 구조 유지"]
+  },
+  {
+    "targetCode": "S941",
+    "targetName": "프릴 오프숄더 탑",
+    "targetType": "TOP",
+    "exclude": false,
+    "status": "승인 후보",
+    "colorOptions": ["연핑크", "와인"],
+    "referenceImages": ["input/raw/aug11/S941/S941_04.jpg"],
+    "matchCandidates": [
+      {"matchCode": "N260195", "matchType": "SKIRT", "topColor": "연핑크", "bottomColor": "아이보리", "priority": 2, "note": "아이보리 미디 하의 후보", "referenceImages": ["refs/products/showroom/N260195/N260195_04.jpg"]},
+      {"matchCode": "N260007", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "연핑크", "bottomColor": "블랙", "priority": 1, "note": "블랙 튤·리본 하의", "referenceImages": ["refs/products/showroom/N260007/N260007_04.jpg"]}
+    ],
+    "guardrails": ["실제 연핑크/와인만 사용", "없는 컬러 생성 금지", "오프숄더·이중 프릴·리본·진주형 단추 유지", "N260007은 블랙 튤 하의로 표현"]
+  },
+  {
+    "targetCode": "S942",
+    "targetName": "펄 러플 슬리브리스 탑",
+    "targetType": "TOP",
+    "exclude": false,
+    "status": "승인 후보",
+    "colorOptions": ["아이보리"],
+    "referenceImages": ["input/raw/aug11/S942/S942_01.jpg"],
+    "matchCandidates": [
+      {"matchCode": "S799", "matchType": "SKIRT", "topColor": "아이보리", "bottomColor": "아이보리", "priority": 1, "note": "쇼룸 code/vendorCode 양쪽 검색", "referenceImages": ["refs/products/showroom/TIA-S799/TIA-S799_09.jpg"]}
+    ],
+    "guardrails": ["펄감·스팽글·입체 러플·얇은 스트랩 유지", "비대칭 뾰족 밑단 유지", "S799 니트 질감·언발 라인 반영"]
+  },
+  {
+    "targetCode": "S943",
+    "targetName": "배색 컵라인 슬림 탑",
+    "targetType": "TOP",
+    "exclude": false,
+    "status": "승인 후보",
+    "colorOptions": ["블루그레이", "블랙"],
+    "referenceImages": ["input/raw/aug11/S943/S943_09.jpg"],
+    "matchCandidates": [
+      {"matchCode": "S800", "matchType": "SKIRT", "topColor": "블랙", "bottomColor": "화이트", "priority": 1, "note": "쇼룸 code/vendorCode 양쪽 검색", "referenceImages": ["refs/products/showroom/TIA-S800/TIA-S800_07.jpg"]}
+    ],
+    "guardrails": ["실제 블루그레이/블랙만 사용", "어색한 그레이톤 생성 금지", "화이트 파이핑 컵라인·셔링·세로 절개 유지", "S800 하의를 단순화하지 않음"]
+  },
+  {
+    "targetCode": "S944",
+    "targetName": "작업 제외",
+    "targetType": "UNKNOWN",
+    "exclude": true,
+    "status": "제외",
+    "colorOptions": [],
+    "referenceImages": [],
+    "matchCandidates": [],
+    "guardrails": ["모든 생성·검토·승인 대상에서 제외"]
+  },
+  {
+    "targetCode": "S945",
+    "targetName": "드레이프 랩 미니 스커트",
+    "targetType": "SKIRT",
+    "exclude": false,
+    "status": "보류",
+    "colorOptions": ["화이트", "핑크", "민트", "블랙"],
+    "referenceImages": ["input/raw/aug11/S945/S945_01.jpg"],
+    "matchCandidates": [],
+    "guardrails": ["단품 스커트", "상의 조합 확정 전 생성 보류"]
+  },
+  {
+    "targetCode": "S946",
+    "targetName": "스팽글 미니 스커트",
+    "targetType": "SKIRT",
+    "exclude": false,
+    "status": "보류",
+    "colorOptions": ["아이보리", "핑크", "소라"],
+    "referenceImages": ["input/raw/aug11/S946/S946_01.jpg"],
+    "matchCandidates": [],
+    "guardrails": ["단품 스커트", "상의 조합 확정 전 생성 보류"]
+  }
+]

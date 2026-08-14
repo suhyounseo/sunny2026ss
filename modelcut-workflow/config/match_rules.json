@@ -1,0 +1,14 @@
+{
+  "lookupOrder": ["code", "vendorCode", "nameOrTagsContains"],
+  "normalize": {"trim": true, "caseInsensitive": true, "removePrefixes": ["TIA-"]},
+  "aliases": {"S799": ["S799", "TIA-S799"], "S800": ["S800", "TIA-S800"]},
+  "rules": [
+    {"targetCode": "S939", "matchCodes": ["N260195", "N260007", "N260006"]},
+    {"targetCode": "S940", "matchCodes": ["S729", "S730"]},
+    {"targetCode": "S941", "matchCodes": ["N260195", "N260007"]},
+    {"targetCode": "S942", "matchCodes": ["S799"]},
+    {"targetCode": "S943", "matchCodes": ["S800"]},
+    {"targetCode": "S945", "matchCodes": [], "note": "단품 스커트, 상의 미확정"},
+    {"targetCode": "S946", "matchCodes": [], "note": "단품 스커트, 상의 미확정"}
+  ]
+}
