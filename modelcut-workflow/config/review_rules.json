@@ -1,10 +1,14 @@
 {
-  "fields": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "fabricMatch"],
+  "fields": ["colorMatch", "lengthMatch", "detailMatch", "silhouetteMatch", "materialMatch"],
+  "coreApprovalFields": ["colorMatch", "lengthMatch", "detailMatch", "silhouetteMatch"],
+  "minimumCorePassCount": 3,
   "allowedValues": ["O", "△", "X"],
   "realityScore": {"minimum": 1, "maximum": 5},
-  "statuses": ["승인 후보", "수정 후 승인 후보", "재생성", "reference 재선정", "보류", "제외"],
-  "approvalStatuses": ["승인 후보", "수정 후 승인 후보"],
+  "statuses": ["승인 후보", "조건부 승인 후보", "보완 후 승인 후보", "수정 후 승인 후보", "재생성", "reference 재선정", "보류", "제외"],
+  "approvalStatuses": ["승인 후보", "조건부 승인 후보", "보완 후 승인 후보", "수정 후 승인 후보"],
   "failureStatuses": ["재생성", "reference 재선정"],
-  "approvalPolicy": "상의와 하의를 별도로 검증하며 colorMatch, lengthMatch, silhouetteMatch, detailMatch, fabricMatch 중 하나라도 X이면 승인 후보로 올리지 않고 재생성 또는 reference 재선정으로 처리한다. 승인 후보 상태는 쇼룸 반영 승인이 아니다.",
+  "hardFailFlags": ["inventedColor", "garmentTypeChanged", "miniLooksMidi", "missingKeyDetail", "oversimplifiedProduct"],
+  "hardFailFieldValues": {"colorMatch": ["X"], "detailMatch": ["X"]},
+  "approvalPolicy": "컬러·기장·디테일·실루엣 중 3개 이상 O이고 즉시 탈락 조건이 없어야 승인 후보가 될 수 있다. 실제에 없는 컬러, 상·하의 종류 변경, 미니가 미디로 보임, 핵심 디테일 누락, 상품의 과도한 단순화는 즉시 탈락이다. 승인 후보 상태는 쇼룸 반영 승인이 아니다.",
   "requiredMemoFor": ["△", "X"]
 }

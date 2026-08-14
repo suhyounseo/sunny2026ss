@@ -32,11 +32,24 @@ def main() -> None:
     products = load_json(products_path) if products_path.exists() else []
     candidates = load_json(WORKFLOW_ROOT / "config" / "candidate_items.json")
     match_rules = load_json(WORKFLOW_ROOT / "config" / "match_rules.json")
+    product_attributes = load_json(WORKFLOW_ROOT / "config" / "product_attributes.json")
+    attribute_map = {item["targetCode"]: item for item in product_attributes}
     manifest = []
     for item in candidates:
         matches = []
         for match in item.get("matchCandidates", []):
-            matches.append({**match, "showroomProduct": summarize_product(find_product(products, match["matchCode"], match_rules))})
+            combination_code = f"{item['targetCode']}_{match['matchCode']}"
+            attributes = attribute_map.get(combination_code)
+            if not attributes:
+                raise SystemExit(f"{combination_code}: missing product attributes")
+            draft_count = int(attributes.get("draft_count", 2))
+            matches.append({
+                **match,
+                "combinationCode": combination_code,
+                "attributes": attributes,
+                "plannedDrafts": [f"output/drafts/{combination_code}_model_draft_{index:02d}.png" for index in range(1, draft_count + 1)],
+                "showroomProduct": summarize_product(find_product(products, match["matchCode"], match_rules)),
+            })
         manifest.append({
             "targetCode": item["targetCode"],
             "targetName": item["targetName"],

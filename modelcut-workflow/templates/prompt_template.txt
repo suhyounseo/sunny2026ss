@@ -3,6 +3,8 @@ Asset type: NICE showroom product-accuracy model-cut candidate
 
 Target: {targetCode} · {targetName}
 Combination: {targetCode} + {matchCode}
+Draft variant: {draftVariant}
+Variant direction: {variantDirection}
 Top color: {topColor}
 Bottom color: {bottomColor}
 
@@ -16,6 +18,19 @@ Background:
 
 Product invariants:
 {guardrails}
+
+Structured product attributes:
+- Allowed colors only: {allowedColors}
+- Top shape: {topShapeKeywords}
+- Bottom shape: {bottomShapeKeywords}
+- Required length type: {lengthType}
+- Required material behavior: {materialKeywords}
+
+Must keep details:
+{mustKeepDetails}
+
+Forbidden elements:
+{forbiddenElements}
 
 Mandatory preflight before generation:
 {preflightChecks}

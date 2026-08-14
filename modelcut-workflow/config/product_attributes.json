@@ -1,0 +1,81 @@
+[
+  {
+    "targetCode": "S939_N260195", "top_code": "S939", "bottom_code": "N260195",
+    "allowed_colors": ["핑크", "아이보리"], "top_allowed_colors": ["핑크"], "bottom_allowed_colors": ["아이보리"],
+    "top_shape_keywords": ["뷔스티에", "프린트 배색", "허리 버클", "슬림 핏"],
+    "bottom_shape_keywords": ["하이웨이스트", "미디 스커트", "링 버클", "스트레이트"],
+    "length_type": "midi", "material_keywords": ["우븐", "은은한 광택"],
+    "must_keep_details": ["프린트 배색", "상의 허리 버클", "하의 링 버클", "실제 상·하의 비율"],
+    "forbidden_elements": ["실물보다 긴 하의", "롱 스커트", "없는 프린트", "버클 누락"], "draft_count": 2
+  },
+  {
+    "targetCode": "S939_N260007", "top_code": "S939", "bottom_code": "N260007",
+    "allowed_colors": ["블랙"], "top_allowed_colors": ["블랙"], "bottom_allowed_colors": ["블랙"],
+    "top_shape_keywords": ["뷔스티에", "프린트 배색", "허리 버클"],
+    "bottom_shape_keywords": ["하이웨이스트", "튤", "미니스커트", "리본"],
+    "length_type": "mini", "material_keywords": ["우븐", "튤"],
+    "must_keep_details": ["상의 배색", "블랙 튤 레이어", "허리 밴드", "작은 리본 2개"],
+    "forbidden_elements": ["핑크 하의", "회색 하의", "미디 기장", "슬림 펜슬 스커트"], "draft_count": 2
+  },
+  {
+    "targetCode": "S939_N260006", "top_code": "S939", "bottom_code": "N260006",
+    "allowed_colors": ["핑크", "화이트"], "top_allowed_colors": ["핑크"], "bottom_allowed_colors": ["핑크", "화이트"],
+    "top_shape_keywords": ["뷔스티에", "프린트 배색", "허리 버클"],
+    "bottom_shape_keywords": ["투피스 하의", "미니"], "length_type": "mini",
+    "material_keywords": ["우븐"], "must_keep_details": ["실제 프린트", "배색", "허리 버클"],
+    "forbidden_elements": ["목록에 없는 컬러", "롱 기장", "버클 누락"], "draft_count": 2
+  },
+  {
+    "targetCode": "S940_S729", "top_code": "S940", "bottom_code": "S729",
+    "allowed_colors": ["화이트", "블랙"], "top_allowed_colors": ["화이트"], "bottom_allowed_colors": ["블랙"],
+    "top_shape_keywords": ["브이넥", "퍼프 소매", "크롭", "랩 밑단"],
+    "bottom_shape_keywords": ["하이웨이스트", "미니스커트", "플리츠", "A라인"],
+    "length_type": "mini", "material_keywords": ["텍스처 우븐", "구조감 있는 원단"],
+    "must_keep_details": ["상의 원단 텍스처", "하의 포켓 플랩 2개", "원형 버튼 2개", "가로 절개", "하단 플리츠"],
+    "forbidden_elements": ["화이트 스커트", "핑크 스커트", "포켓 누락", "버튼 누락", "플리츠 누락", "미디 기장"], "draft_count": 2
+  },
+  {
+    "targetCode": "S940_S730", "top_code": "S940", "bottom_code": "S730",
+    "allowed_colors": ["옐로우"], "top_allowed_colors": ["옐로우"], "bottom_allowed_colors": ["옐로우"],
+    "top_shape_keywords": ["브이넥", "퍼프 소매", "크롭", "랩 밑단"],
+    "bottom_shape_keywords": ["투피스 하의", "미니"], "length_type": "mini",
+    "material_keywords": ["텍스처 우븐"], "must_keep_details": ["브이넥", "퍼프 소매", "랩 밑단", "실제 옐로우 톤"],
+    "forbidden_elements": ["목록에 없는 컬러", "롱 기장", "넥라인 변경"], "draft_count": 2
+  },
+  {
+    "targetCode": "S941_N260007", "top_code": "S941", "bottom_code": "N260007",
+    "allowed_colors": ["연핑크", "블랙"], "top_allowed_colors": ["연핑크"], "bottom_allowed_colors": ["블랙"],
+    "top_shape_keywords": ["오프숄더", "프릴", "리본", "진주 단추"],
+    "bottom_shape_keywords": ["블랙", "튤", "미니스커트", "리본", "3단 허리 밴드"],
+    "length_type": "mini", "material_keywords": ["쉬폰", "튤"],
+    "must_keep_details": ["상의 리본", "프릴 폭과 라인", "진주 단추 간격", "하의 작은 리본 2개", "튤 레이어와 밑단"],
+    "forbidden_elements": ["핑크 스커트", "회색 하의", "롱 기장", "무지 슬림 스커트", "프릴 누락", "리본 누락"], "draft_count": 2
+  },
+  {
+    "targetCode": "S941_N260195", "top_code": "S941", "bottom_code": "N260195",
+    "allowed_colors": ["연핑크", "아이보리"], "top_allowed_colors": ["연핑크"], "bottom_allowed_colors": ["아이보리"],
+    "top_shape_keywords": ["오프숄더", "프릴", "리본", "진주 단추"],
+    "bottom_shape_keywords": ["미디 스커트", "링 버클"], "length_type": "midi",
+    "material_keywords": ["쉬폰", "우븐"], "must_keep_details": ["프릴", "상의 리본", "진주 단추", "하의 링 버클"],
+    "forbidden_elements": ["핑크 스커트", "롱 기장", "리본 누락"], "draft_count": 2
+  },
+  {
+    "targetCode": "S942_S799", "top_code": "S942", "bottom_code": "S799",
+    "allowed_colors": ["아이보리", "화이트", "블랙"], "top_allowed_colors": ["아이보리", "화이트"], "bottom_allowed_colors": ["블랙"],
+    "top_shape_keywords": ["슬리브리스", "입체 러플", "비대칭 밑단"],
+    "bottom_shape_keywords": ["하이웨이스트", "블랙 미니스커트", "슬림", "곡선형 이중 허리 장식"],
+    "length_type": "mini", "material_keywords": ["펄", "스팽글", "니트", "새틴 터치"],
+    "must_keep_details": ["상의 펄감", "입체 러플", "얇은 스트랩", "하의 곡선형 이중 허리 장식", "하의 작은 리본 2개"],
+    "forbidden_elements": ["아이보리 니트 스커트", "언발 니트 스커트", "회색 하의", "미디 기장", "허리 장식 누락"],
+    "draft_count": 2, "generation_blocked_until_reference_approved": true
+  },
+  {
+    "targetCode": "S943_S800", "top_code": "S943", "bottom_code": "S800",
+    "allowed_colors": ["블랙", "화이트"], "top_allowed_colors": ["블랙"], "bottom_allowed_colors": ["화이트"],
+    "top_shape_keywords": ["코르셋", "컵라인", "배색 파이핑", "셔링", "세로 절개"],
+    "bottom_shape_keywords": ["화이트 미니스커트", "포인트 디테일"], "length_type": "mini",
+    "material_keywords": ["슬림 우븐", "니트"],
+    "must_keep_details": ["블랙 상의", "화이트 컵라인 배색", "셔링", "세로 절개", "실제 하의 길이와 포인트"],
+    "forbidden_elements": ["그레이", "소라", "어색한 회색 톤", "미디 기장", "컵라인 누락"], "draft_count": 2
+  }
+]

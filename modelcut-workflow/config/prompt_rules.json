@@ -5,13 +5,19 @@
     "Do not invent new colors.",
     "Do not simplify or replace the actual skirt silhouette.",
     "Do not invent new colors, decorations, silhouette changes, or fabric details.",
-    "Use the real product images as the primary reference."
+    "Use the real product images as the primary reference.",
+    "실제 제품 사진 기준으로 생성할 것.",
+    "없는 컬러는 생성하지 말 것.",
+    "하의 길이와 구조를 유지할 것.",
+    "포켓, 버튼, 리본, 프릴, 절개 위치를 보존할 것.",
+    "거래처 이미지는 스타일/포즈 참고용일 뿐, 상품 디테일 기준은 실제 제품일 것."
   ],
   "composition": "Full-body front view of one adult East Asian fashion model, head-to-shoes visible, garment front unobstructed.",
   "background": "Simple original premium Korean boutique showroom with soft even lighting; no text, logo, watermark, or copied vendor composition.",
-  "referencePriority": ["realProductOrMannequin", "realColorPhotos", "detailPhotos", "productInformation", "vendorFitReference", "mood"],
+  "referencePriority": ["actualTopMannequin", "actualBottomMannequinOrProduct", "sameProductDetail", "vendorCompletedImage", "existingGeneratedCandidate"],
   "preflightChecks": ["correct top reference", "correct bottom reference", "real product color", "actual length", "actual silhouette", "signature details", "no invented color or detail"],
-  "separateGarmentChecks": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "fabricMatch"],
-  "approvalGate": "If any separate garment check is X, do not submit as an approval candidate.",
+  "separateGarmentChecks": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "materialMatch"],
+  "approvalGate": "At least three of colorMatch, lengthMatch, detailMatch, and silhouetteMatch must be O. Any hard-fail condition blocks approval.",
+  "draftVariants": ["model_draft_01", "model_draft_02"],
   "forbidden": ["invented color", "invented trim", "invented print", "skirt silhouette simplification", "skirt replacement", "silhouette change", "length change", "fabric change", "vendor model identity copy", "vendor pose copy", "vendor background copy"]
 }

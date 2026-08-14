@@ -19,7 +19,7 @@
     "targetName": "브이넥 랩 크롭 탑",
     "targetType": "TOP",
     "exclude": false,
-    "status": "재생성",
+    "status": "조건부 승인 후보",
     "colorOptions": ["화이트", "옐로우"],
     "referenceImages": ["input/raw/aug11/S940/S940_04.jpg"],
     "matchCandidates": [
@@ -33,7 +33,7 @@
     "targetName": "프릴 오프숄더 탑",
     "targetType": "TOP",
     "exclude": false,
-    "status": "재생성",
+    "status": "보완 후 승인 후보",
     "colorOptions": ["연핑크", "와인"],
     "referenceImages": ["input/raw/aug11/S941/S941_04.jpg"],
     "matchCandidates": [

@@ -1,11 +1,11 @@
 Use case: identity-preserve
 Asset type: NICE showroom product-accuracy model-cut candidate
 
-Target: S939 · 프린트 배색 뷔스티에 탑
-Combination: S939 + N260195
-Draft variant: model_draft_01
-Variant direction: Strict neutral front-view catalog pose.
-Top color: 핑크
+Target: S941 · 프릴 오프숄더 탑
+Combination: S941 + N260195
+Draft variant: model_draft_02
+Variant direction: A second restrained front-biased pose with both garments fully visible and unobstructed.
+Top color: 연핑크
 Bottom color: 아이보리
 
 Prioritize product accuracy over beauty or mood.
@@ -27,28 +27,30 @@ Background:
 Simple original premium Korean boutique showroom with soft even lighting; no text, logo, watermark, or copied vendor composition.
 
 Product invariants:
-- N260195 스커트를 실제보다 길게 만들지 않음
-- 실제 미디/슬림 실루엣 유지
-- 프린트·배색·컵라인·단추 수 임의 변경 금지
+- S941 연핑크 오프숄더 프릴 상의 유지
+- N260007은 블랙 튤/샤 스커트로 강제
+- 핑크 하의 생성 금지
+- 허리 리본/밴딩 디테일 유지
+- 실제 하의 컬러·기장·실루엣·소재감을 최우선으로 일치
+- 없는 컬러나 디테일 생성 금지
 
 Structured product attributes:
-- Allowed colors only: 핑크, 아이보리
-- Top shape: 뷔스티에, 프린트 배색, 허리 버클, 슬림 핏
-- Bottom shape: 하이웨이스트, 미디 스커트, 링 버클, 스트레이트
+- Allowed colors only: 연핑크, 아이보리
+- Top shape: 오프숄더, 프릴, 리본, 진주 단추
+- Bottom shape: 미디 스커트, 링 버클
 - Required length type: midi
-- Required material behavior: 우븐, 은은한 광택
+- Required material behavior: 쉬폰, 우븐
 
 Must keep details:
-- 프린트 배색
-- 상의 허리 버클
+- 프릴
+- 상의 리본
+- 진주 단추
 - 하의 링 버클
-- 실제 상·하의 비율
 
 Forbidden elements:
-- 실물보다 긴 하의
-- 롱 스커트
-- 없는 프린트
-- 버클 누락
+- 핑크 스커트
+- 롱 기장
+- 리본 누락
 
 Mandatory preflight before generation:
 - correct top reference
@@ -70,7 +72,7 @@ Approval gate:
 At least three of colorMatch, lengthMatch, detailMatch, and silhouetteMatch must be O. Any hard-fail condition blocks approval.
 
 Reference images:
-- input/raw/aug11/S939/S939_04.jpg
+- input/raw/aug11/S941/S941_04.jpg
 - refs/products/showroom/N260195/N260195_04.jpg
 
 Constraints:

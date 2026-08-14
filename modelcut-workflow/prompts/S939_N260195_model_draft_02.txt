@@ -3,8 +3,8 @@ Asset type: NICE showroom product-accuracy model-cut candidate
 
 Target: S939 · 프린트 배색 뷔스티에 탑
 Combination: S939 + N260195
-Draft variant: model_draft_01
-Variant direction: Strict neutral front-view catalog pose.
+Draft variant: model_draft_02
+Variant direction: A second restrained front-biased pose with both garments fully visible and unobstructed.
 Top color: 핑크
 Bottom color: 아이보리
 

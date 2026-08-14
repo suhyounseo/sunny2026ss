@@ -1,51 +1,9 @@
 [
-  {
-    "candidateId": "S939_N260195_model_draft_02", "targetCode": "S939", "topCode": "S939", "bottomCode": "N260195", "color": "핑크 + 아이보리",
-    "candidate": "output/drafts/S939_N260195_model_draft_02.png",
-    "topReference": "input/aug11/S939/S939_04.jpg", "bottomReference": "refs/showroom/N260195/N260195_04.jpg",
-    "colorMatch": "O", "lengthMatch": "O", "silhouetteMatch": "O", "detailMatch": "O", "fabricMatch": "△", "status": "승인 후보", "approval": "승인 후보",
-    "memo": "실제 상품 컬러·기장·실루엣·디테일 기준 검토. 원단 광택은 최종 확인 필요."
-  },
-  {
-    "candidateId": "S940_S729_vendorref_01", "targetCode": "S940", "topCode": "S940", "bottomCode": "S729", "color": "화이트 + 블랙",
-    "candidate": "output/drafts/S940_S729_vendorref_01.png",
-    "topReference": "input/aug11/S940/S940_04.jpg", "bottomReference": "refs/showroom/S729/S729_09.jpg",
-    "colorMatch": "X", "lengthMatch": "O", "silhouetteMatch": "O", "detailMatch": "O", "fabricMatch": "O", "status": "재생성", "approval": "승인 불가",
-    "memo": "S729 스커트 컬러를 실제 블랙으로 강제하여 재생성."
-  },
-  {
-    "candidateId": "S940_S729_model_draft_02", "targetCode": "S940", "topCode": "S940", "bottomCode": "S729", "color": "화이트 + 블랙",
-    "candidate": "output/drafts/S940_S729_model_draft_02.png",
-    "topReference": "input/aug11/S940/S940_04.jpg", "bottomReference": "refs/showroom/S729/S729_09.jpg",
-    "colorMatch": "O", "lengthMatch": "O", "silhouetteMatch": "O", "detailMatch": "O", "fabricMatch": "O", "status": "수정 후 승인 후보", "approval": "검토 대기",
-    "memo": "실제 블랙 스커트, 포켓 플랩·원형 버튼·가로 절개·플리츠를 유지한 재생성본. 운영 승인 전 검토용."
-  },
-  {
-    "candidateId": "S941_N260007_model_draft_01", "targetCode": "S941", "topCode": "S941", "bottomCode": "N260007", "color": "연핑크 + 블랙",
-    "candidate": "output/drafts/S941_N260007_model_draft_01.png",
-    "topReference": "input/aug11/S941/S941_04.jpg", "bottomReference": "refs/showroom/N260007/N260007_04.jpg",
-    "colorMatch": "X", "lengthMatch": "△", "silhouetteMatch": "△", "detailMatch": "△", "fabricMatch": "△", "status": "재생성", "approval": "승인 불가",
-    "memo": "핑크 하의가 생성되어 폐기. N260007 블랙 튤/샤 스커트와 허리 리본/밴딩 디테일을 강제하여 재생성."
-  },
-  {
-    "candidateId": "S941_N260007_model_draft_03", "targetCode": "S941", "topCode": "S941", "bottomCode": "N260007", "color": "연핑크 + 블랙",
-    "candidate": "output/drafts/S941_N260007_model_draft_03.png",
-    "topReference": "input/aug11/S941/S941_04.jpg", "bottomReference": "refs/showroom/N260007/N260007_04.jpg",
-    "colorMatch": "O", "lengthMatch": "O", "silhouetteMatch": "△", "detailMatch": "O", "fabricMatch": "O", "status": "수정 후 승인 후보", "approval": "검토 대기",
-    "memo": "블랙 튤/샤, 3단 허리 밴드와 작은 리본 2개 유지. 상의 오프숄더 착용선은 최종 확인 필요."
-  },
-  {
-    "candidateId": "S942_TIA-S799_vendorref_01", "targetCode": "S942", "topCode": "S942", "bottomCode": "TIA-S799", "color": "아이보리 + 블랙 reference 후보",
-    "candidate": "output/drafts/S942_TIA-S799_vendorref_01.png",
-    "topReference": "input/aug11/S942/S942_01.jpg", "bottomReference": "refs/showroom/TIA-S799/TIA-S799_07.jpg",
-    "colorMatch": "X", "lengthMatch": "X", "silhouetteMatch": "X", "detailMatch": "X", "fabricMatch": "X", "status": "reference 재선정", "approval": "승인 불가",
-    "memo": "기존 vendor reference 탈락. TIA-S799_07.jpg를 실제 블랙 미니 스커트 reference 재선정 후보로 지정. 확정 전에는 model draft를 생성하지 않는다."
-  },
-  {
-    "candidateId": "S943_TIA-S800_model_draft_02", "targetCode": "S943", "topCode": "S943", "bottomCode": "TIA-S800", "color": "블랙 + 화이트",
-    "candidate": "output/drafts/S943_TIA-S800_model_draft_02.png",
-    "topReference": "input/aug11/S943/S943_09.jpg", "bottomReference": "refs/showroom/TIA-S800/TIA-S800_07.jpg",
-    "colorMatch": "O", "lengthMatch": "O", "silhouetteMatch": "O", "detailMatch": "O", "fabricMatch": "O", "status": "승인 후보", "approval": "승인 후보",
-    "memo": "어색한 그레이톤 제외, 실제 블랙·화이트 조합 기준."
-  }
+  {"candidateId":"S939_N260195_model_draft_02","targetCode":"S939","topCode":"S939","bottomCode":"N260195","color":"핑크 + 아이보리","candidate":"output/drafts/S939_N260195_model_draft_02.png","topReference":"input/aug11/S939/S939_04.jpg","bottomReference":"refs/showroom/N260195/N260195_04.jpg","colorMatch":"O","lengthMatch":"O","detailMatch":"O","silhouetteMatch":"O","materialMatch":"△","status":"승인 후보","approval":"검토 대기","reviewPriority":3,"humanReviewMemo":"하의 길이·프린트 배색·허리 버클·광택 최종 확인."},
+  {"candidateId":"S940_S729_vendorref_01","targetCode":"S940","topCode":"S940","bottomCode":"S729","color":"화이트 + 블랙","candidate":"output/drafts/S940_S729_vendorref_01.png","topReference":"input/aug11/S940/S940_04.jpg","bottomReference":"refs/showroom/S729/S729_09.jpg","colorMatch":"X","lengthMatch":"O","detailMatch":"O","silhouetteMatch":"O","materialMatch":"O","status":"재생성","approval":"승인 불가","humanReviewMemo":"실제와 다른 스커트 컬러로 즉시 탈락."},
+  {"candidateId":"S940_S729_model_draft_02","targetCode":"S940","topCode":"S940","bottomCode":"S729","color":"화이트 + 블랙","candidate":"output/drafts/S940_S729_model_draft_02.png","topReference":"input/aug11/S940/S940_04.jpg","bottomReference":"refs/showroom/S729/S729_09.jpg","colorMatch":"O","lengthMatch":"O","detailMatch":"△","silhouetteMatch":"O","materialMatch":"△","status":"조건부 승인 후보","approval":"검토 대기","reviewPriority":1,"humanReviewMemo":"A안. 현재 사용 가능 후보. 상의 원단 텍스처와 하의 포켓·버튼·절개·플리츠 위치를 실물과 대조 후 최종 승인 권장."},
+  {"candidateId":"S941_N260007_model_draft_01","targetCode":"S941","topCode":"S941","bottomCode":"N260007","color":"연핑크 + 블랙","candidate":"output/drafts/S941_N260007_model_draft_01.png","topReference":"input/aug11/S941/S941_04.jpg","bottomReference":"refs/showroom/N260007/N260007_04.jpg","colorMatch":"X","lengthMatch":"△","detailMatch":"△","silhouetteMatch":"△","materialMatch":"△","status":"재생성","approval":"승인 불가","humanReviewMemo":"핑크 하의 후보 폐기. 블랙 튤/샤와 허리 리본/밴딩으로 재생성."},
+  {"candidateId":"S941_N260007_model_draft_03","targetCode":"S941","topCode":"S941","bottomCode":"N260007","color":"연핑크 + 블랙","candidate":"output/drafts/S941_N260007_model_draft_03.png","topReference":"input/aug11/S941/S941_04.jpg","bottomReference":"refs/showroom/N260007/N260007_04.jpg","colorMatch":"O","lengthMatch":"O","detailMatch":"△","silhouetteMatch":"O","materialMatch":"O","status":"보완 후 승인 후보","approval":"검토 대기","reviewPriority":2,"humanReviewMemo":"B안. 프릴 폭·리본 크기·진주 단추 간격과 튤 레이어를 실물 기준으로 한 번 더 보정 권장."},
+  {"candidateId":"S942_TIA-S799_vendorref_01","targetCode":"S942","topCode":"S942","bottomCode":"TIA-S799","color":"아이보리 + 블랙 reference 후보","candidate":"output/drafts/S942_TIA-S799_vendorref_01.png","topReference":"input/aug11/S942/S942_01.jpg","bottomReference":"refs/showroom/TIA-S799/TIA-S799_07.jpg","colorMatch":"X","lengthMatch":"X","detailMatch":"X","silhouetteMatch":"X","materialMatch":"X","status":"reference 재선정","approval":"승인 불가","humanReviewMemo":"기존 reference 탈락. 새 reference 승인 전 model draft 생성 금지."},
+  {"candidateId":"S943_TIA-S800_model_draft_02","targetCode":"S943","topCode":"S943","bottomCode":"TIA-S800","color":"블랙 + 화이트","candidate":"output/drafts/S943_TIA-S800_model_draft_02.png","topReference":"input/aug11/S943/S943_09.jpg","bottomReference":"refs/showroom/TIA-S800/TIA-S800_07.jpg","colorMatch":"O","lengthMatch":"O","detailMatch":"O","silhouetteMatch":"O","materialMatch":"O","status":"승인 후보","approval":"검토 대기","reviewPriority":4,"humanReviewMemo":"그레이·소라톤 제외, 실제 블랙+화이트 조합 유지."}
 ]
