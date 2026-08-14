@@ -1,0 +1,4 @@
+Use case: identity-preserve
+Input images: S943_09.jpg = primary actual black top; TIA-S800_07.jpg = primary actual white skirt; vendor_reference_01.png = secondary fit reference only.
+Create a front-facing full-body adult East Asian fashion model cut. Preserve only the actual black top, thin black straps, white piping crossing the gathered cup line, vertical fitted seams and waist length. Preserve only the actual white high-waist slim mini skirt, actual short length, horizontal waist gathers and small bows. Exclude gray, blue-gray and sky-blue. No invented color, trim, print, logo, text or watermark.
+Use the vendor image only to check how the black cup line, white piping, thin straps and waist-length bodice fit. Do not copy its model, face, hair, pose, headband, earrings, background, glass prop or black skirt.
