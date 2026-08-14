@@ -44,13 +44,13 @@ def main() -> None:
             top_reference = item_reference
             bottom_reference = match_reference
         color_text = " / ".join(value for value in (row["topColor"], row["bottomColor"]) if value)
-        checks = "".join(f'<li><span>{html.escape(label)}</span><b>{html.escape(row[field])}</b></li>' for field, label in (("colorMatch", "컬러"), ("lengthMatch", "기장"), ("detailMatch", "디테일"), ("silhouetteMatch", "실루엣"), ("materialMatch", "소재")))
+        checks = "".join(f'<li><span>{html.escape(label)}</span><b>{html.escape(row[field])}</b></li>' for field, label in (("colorMatch", "컬러"), ("lengthMatch", "기장"), ("detailMatch", "디테일"), ("fabricMatch", "원단"), ("silhouetteMatch", "실루엣")))
         cards.append(f'''<article class="card">
           <header><div><p>{html.escape(row['candidateId'] or row['targetCode'])}</p><h2>{html.escape(row['targetName'])}</h2></div><span class="status">{html.escape(row['status'])}</span></header>
           <p class="combo">{html.escape(' + '.join(v for v in (row['topCode'], row['bottomCode']) if v))} · {html.escape(color_text)}</p>
           <div class="images">{image_panel('실제 상의', top_reference, args.use_local_images, board_dir)}{image_panel('실제 하의', bottom_reference, args.use_local_images, board_dir)}{image_panel('생성 후보', row['draftImagePath'], args.use_local_images, board_dir)}</div>
           <div class="review"><ul>{checks}</ul><div class="score"><span>현실감</span><strong>{html.escape(row['realityScore'] or '-')}<small>/5</small></strong></div></div>
-          <p class="memo"><strong>{html.escape(row['autoDecision'])} · 핵심 {html.escape(row['corePassCount'] or '-')} / 4</strong><br>{html.escape(row['humanReviewMemo'])}</p>
+          <p class="memo"><strong>{html.escape(row['autoDecision'])} · 핵심 {html.escape(row['corePassCount'] or '-')} / 4</strong><br>{html.escape(row['memo'])}</p>
         </article>''')
 
     template = (WORKFLOW_ROOT / "templates" / "review_board_template.html").read_text(encoding="utf-8")

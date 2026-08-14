@@ -33,6 +33,7 @@ python modelcut-workflow/scripts/build_manifest.py
 python modelcut-workflow/scripts/generate_prompts.py
 python modelcut-workflow/scripts/build_review_report.py
 python modelcut-workflow/scripts/build_review_board.py
+python modelcut-workflow/scripts/build_demo.py
 ```
 
 로컬의 Git 제외 이미지를 HTML에 연결하려면 마지막 명령에 옵션을 추가합니다.
@@ -109,6 +110,45 @@ modelcut-workflow/output/review_board/index.html
 ```
 
 이 결과 HTML에는 실제 카드 데이터가 삽입됩니다. 실제 상의·실제 하의·생성 후보 세 장과 검수 상태를 한 카드에 표시하며, 로컬 검수 시 `--use-local-images` 옵션으로 Git 제외 이미지를 연결할 수 있습니다.
+
+## 로컬 테스트
+
+저장소 루트에서 결과와 배포 데모를 순서대로 갱신합니다.
+
+```powershell
+python modelcut-workflow/scripts/build_review_report.py
+python modelcut-workflow/scripts/build_review_board.py --use-local-images
+python modelcut-workflow/scripts/build_demo.py
+python -m http.server 8765 --bind 127.0.0.1
+```
+
+브라우저에서 아래 주소를 엽니다.
+
+- 로컬 카드 삽입 결과: `http://127.0.0.1:8765/modelcut-workflow/output/review_board/`
+- GitHub Pages용 정적 데모: `http://127.0.0.1:8765/modelcut-demo/`
+
+`modelcut-demo/index.html`은 `fetch()`로 JSON을 읽으므로 `file://`로 직접 열지 말고 HTTP 서버를 사용합니다.
+
+## GitHub Pages 테스트 배포
+
+정적 배포 묶음은 저장소 루트의 `modelcut-demo/`에 생성됩니다.
+
+```text
+modelcut-demo/
+  index.html
+  assets/                 축소된 WebP 검토 썸네일만 포함
+  data/review_items.json
+```
+
+테스트 브랜치를 별도 Pages 테스트 저장소 또는 fork에 push한 뒤 Pages 소스를 해당 브랜치의 `/ (root)`로 설정하면 다음 하위경로에서 검토판을 볼 수 있습니다.
+
+```text
+https://<account>.github.io/<repository>/modelcut-demo/
+```
+
+운영 중인 Pages 저장소의 배포 브랜치를 테스트 브랜치로 바꾸면 기존 사이트에 영향을 줄 수 있으므로 별도 테스트 저장소/fork 사용을 권장합니다. 이 데모는 `products.json`, 루트 `index.html`, `app.js`, `style.css`를 읽거나 수정하지 않으며, `main` 병합 전에는 실제 쇼룸에 반영하지 않습니다.
+
+`build_demo.py`는 원본 이미지를 Git에 추가하지 않고 검토에 필요한 축소 WebP만 `modelcut-demo/assets/`에 생성합니다.
 
 ## Git 운영 원칙
 

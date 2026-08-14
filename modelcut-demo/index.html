@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NICE 모델컷 테스트 검토판</title>
+  <style>
+    :root{--ink:#1d1b18;--muted:#746e66;--paper:#f3f0eb;--card:#fff;--line:#ded8cf;--accent:#285142}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Pretendard,"Noto Sans KR",Arial,sans-serif}.wrap{max-width:1480px;margin:auto;padding:48px 24px 72px}.eyebrow{color:var(--accent);font-weight:900;letter-spacing:.12em}.hero h1{font-size:clamp(34px,5vw,66px);line-height:1;margin:10px 0}.notice{margin:22px 0 34px;padding:15px 18px;border-left:4px solid var(--accent);background:#e6eee9;font-weight:700}.grid{display:grid;gap:22px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 8px 24px rgba(40,30,20,.05)}header{display:flex;justify-content:space-between;gap:16px}header p,h2{margin:0}header p{color:var(--accent);font-weight:900}h2{margin-top:5px}.status{height:max-content;padding:7px 11px;border-radius:999px;background:#edf3ee;color:#23483a;font-weight:800;white-space:nowrap}.combo{color:var(--muted);font-weight:700}.images{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}figure{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#eee}figure img,.empty{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}.empty{display:grid;place-items:center;padding:18px;color:var(--muted);text-align:center;background:repeating-linear-gradient(135deg,#f4f1ec,#f4f1ec 12px,#eae5de 12px,#eae5de 24px)}figcaption{padding:9px 11px;background:#fff;font-size:13px;font-weight:800}.checks{display:grid;grid-template-columns:repeat(5,minmax(70px,1fr));gap:8px}.check{padding:10px;border:1px solid var(--line);border-radius:9px}.check span{display:block;color:var(--muted);font-size:12px}.check b{font-size:20px}.memo{margin:16px 0 0;padding-top:14px;border-top:1px solid var(--line);line-height:1.6}.error{padding:24px;border:1px solid #d99;background:#fff;color:#800}@media(max-width:780px){.images{grid-template-columns:1fr}.checks{grid-template-columns:repeat(3,minmax(0,1fr))}.wrap{padding:28px 14px 52px}}
+  </style>
+</head>
+<body><main class="wrap"><section class="hero"><p class="eyebrow">NICE · TEST DEPLOYMENT</p><h1 id="title">모델컷 검토판</h1><p>실제 상의·실제 하의·생성 모델컷을 상품 일치도 기준으로 비교합니다.</p></section><div class="notice" id="notice">테스트 데이터를 불러오는 중입니다.</div><section class="grid" id="grid"></section></main>
+<script>
+const escapeHtml=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+const imagePanel=(label,src)=>`<figure>${src?`<img src="${escapeHtml(src)}" alt="${escapeHtml(label)}" loading="lazy">`:`<div class="empty">이미지 연결 대기</div>`}<figcaption>${escapeHtml(label)}</figcaption></figure>`;
+const check=(label,value)=>`<div class="check"><span>${label}</span><b>${escapeHtml(value||"-")}</b></div>`;
+fetch("data/review_items.json").then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json()}).then(data=>{
+  document.getElementById("title").textContent=data.title;
+  document.getElementById("notice").textContent=`${data.notice} · ${data.itemCount}개 후보`;
+  document.getElementById("grid").innerHTML=data.items.map(item=>`<article class="card"><header><div><p>${escapeHtml(item.productCode)}</p><h2>${escapeHtml(item.productName)}</h2></div><span class="status">${escapeHtml(item.status)}</span></header><p class="combo">${escapeHtml([item.topCode,item.bottomCode].filter(Boolean).join(" + "))}</p><div class="images">${imagePanel("실제 상의",item.topImage)}${imagePanel("실제 하의",item.bottomImage)}${imagePanel("생성 모델컷",item.modelImage)}</div><div class="checks">${check("컬러",item.colorMatch)}${check("기장",item.lengthMatch)}${check("디테일",item.detailMatch)}${check("원단",item.fabricMatch)}${check("실루엣",item.silhouetteMatch)}</div><p class="memo">${escapeHtml(item.memo)}</p></article>`).join("");
+}).catch(error=>{document.getElementById("notice").textContent="데이터를 불러오지 못했습니다.";document.getElementById("grid").innerHTML=`<div class="error">로컬에서는 README의 HTTP 서버 명령으로 열어 주세요. (${escapeHtml(error.message)})</div>`});
+</script></body>
+</html>

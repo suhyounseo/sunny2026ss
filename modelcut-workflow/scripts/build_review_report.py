@@ -12,9 +12,9 @@ from workflow_common import WORKFLOW_ROOT, candidate_map, load_json
 
 FIELDS = [
     "candidateId", "targetCode", "targetName", "topCode", "bottomCode", "topColor", "bottomColor",
-    "colorMatch", "lengthMatch", "detailMatch", "silhouetteMatch", "materialMatch",
+    "colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "silhouetteMatch", "materialMatch",
     "corePassCount", "hardFail", "hardFailReasons", "autoDecision", "realityScore", "status", "reviewPriority",
-    "humanReviewMemo", "promptPath", "draftImagePath", "approvedImagePath",
+    "memo", "humanReviewMemo", "promptPath", "draftImagePath", "approvedImagePath",
 ]
 
 
@@ -116,12 +116,13 @@ def main() -> None:
             "bottomCode": match_code if item["targetType"] == "TOP" else row["targetCode"],
             "topColor": row.get("topColor", ""), "bottomColor": row.get("bottomColor", ""),
             **{field: row.get(field, "") for field in rules["fields"]},
+            "fabricMatch": row.get("materialMatch", ""),
             "corePassCount": core_pass_count if reviewed else "",
             "hardFail": "true" if hard_fail else "false",
             "hardFailReasons": "; ".join(hard_fail_reasons),
             "autoDecision": auto_decision,
             "realityScore": score or "", "status": row["status"], "reviewPriority": row.get("reviewPriority", ""),
-            "humanReviewMemo": human_memo,
+            "memo": human_memo, "humanReviewMemo": human_memo,
             "promptPath": prompt_path(row, match_code),
             "draftImagePath": row.get("draftImagePath", ""), "approvedImagePath": row.get("approvedImagePath", ""),
         })
