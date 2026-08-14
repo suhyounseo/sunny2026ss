@@ -1,14 +1,15 @@
 {
-  "fields": ["colorMatch", "lengthMatch", "detailMatch", "silhouetteMatch", "materialMatch"],
-  "coreApprovalFields": ["colorMatch", "lengthMatch", "detailMatch", "silhouetteMatch"],
-  "minimumCorePassCount": 3,
-  "allowedValues": ["O", "△", "X"],
-  "realityScore": {"minimum": 1, "maximum": 5},
-  "statuses": ["승인 후보", "조건부 승인 후보", "보완 후 승인 후보", "수정 후 승인 후보", "재생성", "reference 재선정", "보류", "제외"],
-  "approvalStatuses": ["승인 후보", "조건부 승인 후보", "보완 후 승인 후보", "수정 후 승인 후보"],
-  "failureStatuses": ["재생성", "reference 재선정"],
-  "hardFailFlags": ["inventedColor", "garmentTypeChanged", "miniLooksMidi", "missingKeyDetail", "oversimplifiedProduct"],
-  "hardFailFieldValues": {"colorMatch": ["X"], "detailMatch": ["X"]},
-  "approvalPolicy": "컬러·기장·디테일·실루엣 중 3개 이상 O이고 즉시 탈락 조건이 없어야 승인 후보가 될 수 있다. 실제에 없는 컬러, 상·하의 종류 변경, 미니가 미디로 보임, 핵심 디테일 누락, 상품의 과도한 단순화는 즉시 탈락이다. 승인 후보 상태는 쇼룸 반영 승인이 아니다.",
-  "requiredMemoFor": ["△", "X"]
+  "fields": ["colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "silhouetteMatch"],
+  "allowedValues": ["O", "△", "X", ""],
+  "approvalPassCount": 4,
+  "conditionalPassCount": 3,
+  "statuses": ["승인", "조건부 승인", "보류", "재생성", "reference 재선정", "반려", "제외"],
+  "hardFailFlags": ["inventedColor", "inventedLength", "garmentTypeChanged", "largeInventedDecoration", "miniLooksMidi", "missingKeyDetail", "oversimplifiedProduct"],
+  "hardFailFieldValues": {
+    "colorMatch": ["X"],
+    "lengthMatch": ["X"],
+    "detailMatch": ["X"],
+    "silhouetteMatch": ["X"]
+  },
+  "approvalPolicy": "5개 검수 항목 중 4개 이상 O면 승인 후보, 3개 O이고 hard fail이 없으면 조건부 승인 후보입니다. 실제에 없는 컬러·기장, 상품 종류 변경, 큰 장식 임의 추가는 즉시 탈락입니다."
 }

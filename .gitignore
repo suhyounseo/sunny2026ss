@@ -21,9 +21,16 @@ node_modules/
 # NICE model-cut workflow: keep system files, exclude heavy/private artifacts.
 modelcut-workflow/input/raw/
 modelcut-workflow/input/normalized/
+modelcut-workflow/input/tops/*
+!modelcut-workflow/input/tops/.gitkeep
+modelcut-workflow/input/bottoms/*
+!modelcut-workflow/input/bottoms/.gitkeep
+modelcut-workflow/input/references/*
+!modelcut-workflow/input/references/.gitkeep
 modelcut-workflow/output/drafts/
 modelcut-workflow/output/revised/
 modelcut-workflow/output/temp/
+modelcut-workflow/output/analysis/*.local.json
 modelcut-workflow/_tmp/
 modelcut-workflow/refs/products/**/*.jpg
 modelcut-workflow/refs/products/**/*.jpeg

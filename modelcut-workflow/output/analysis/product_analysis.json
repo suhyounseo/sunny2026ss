@@ -1,0 +1,282 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "targetCode": "S939_N260195",
+      "generationBlocked": false,
+      "analysis": {
+        "topCode": "S939",
+        "bottomCode": "N260195",
+        "topColor": "핑크",
+        "bottomColor": "아이보리",
+        "allowedColors": {
+          "top": [
+            "핑크"
+          ],
+          "bottom": [
+            "아이보리"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "실제 제품 기준 미디, 실물보다 길게 생성 금지",
+        "topSilhouette": "슬림 뷔스티에",
+        "bottomSilhouette": "하이웨이스트 스트레이트",
+        "topDetails": [
+          "프린트 배색",
+          "컵라인",
+          "허리 버클"
+        ],
+        "bottomDetails": [
+          "링 버클",
+          "스트레이트 라인"
+        ],
+        "fabricKeywords": [
+          "우븐",
+          "은은한 광택"
+        ],
+        "mustPreserve": [
+          "프린트 배색",
+          "상의 허리 버클",
+          "하의 링 버클",
+          "실제 상·하의 비율"
+        ],
+        "avoidList": [
+          "실물보다 긴 하의",
+          "롱 스커트",
+          "없는 프린트",
+          "버클 누락"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      }
+    },
+    {
+      "targetCode": "S940_S729",
+      "generationBlocked": false,
+      "analysis": {
+        "topCode": "S940",
+        "bottomCode": "S729",
+        "topColor": "화이트",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "화이트"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "브이넥 퍼프 소매 랩",
+        "bottomSilhouette": "하이웨이스트 A라인 플리츠",
+        "topDetails": [
+          "브이넥",
+          "퍼프 소매",
+          "랩 밑단"
+        ],
+        "bottomDetails": [
+          "포켓 플랩 2개",
+          "원형 버튼 2개",
+          "가로 절개",
+          "하단 플리츠"
+        ],
+        "fabricKeywords": [
+          "텍스처 우븐",
+          "구조감 있는 원단"
+        ],
+        "mustPreserve": [
+          "상의 원단 텍스처",
+          "포켓",
+          "버튼",
+          "플리츠",
+          "미니 기장"
+        ],
+        "avoidList": [
+          "화이트 스커트",
+          "핑크 스커트",
+          "포켓 누락",
+          "미디 기장"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      }
+    },
+    {
+      "targetCode": "S941_N260007",
+      "generationBlocked": false,
+      "analysis": {
+        "topCode": "S941",
+        "bottomCode": "N260007",
+        "topColor": "연핑크",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "연핑크"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "오프숄더 프릴",
+        "bottomSilhouette": "하이웨이스트 튤 레이어",
+        "topDetails": [
+          "프릴 폭",
+          "리본",
+          "진주 단추"
+        ],
+        "bottomDetails": [
+          "3단 허리 밴드",
+          "작은 리본 2개",
+          "튤 밑단"
+        ],
+        "fabricKeywords": [
+          "쉬폰",
+          "튤/샤"
+        ],
+        "mustPreserve": [
+          "연핑크 상의",
+          "프릴 라인",
+          "상의 리본",
+          "블랙 튤 스커트",
+          "허리 리본/밴딩"
+        ],
+        "avoidList": [
+          "핑크 스커트",
+          "회색 하의",
+          "롱 기장",
+          "무지 슬림 스커트"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      }
+    },
+    {
+      "targetCode": "S942_TIA-S799",
+      "generationBlocked": true,
+      "analysis": {
+        "topCode": "S942",
+        "bottomCode": "TIA-S799",
+        "topColor": "아이보리",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "아이보리",
+            "화이트"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "비대칭 크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "슬리브리스 입체 러플",
+        "bottomSilhouette": "하이웨이스트 슬림 미니",
+        "topDetails": [
+          "입체 러플",
+          "얇은 스트랩",
+          "비대칭 뾰족 밑단"
+        ],
+        "bottomDetails": [
+          "곡선형 이중 허리 장식",
+          "작은 리본 2개"
+        ],
+        "fabricKeywords": [
+          "펄",
+          "스팽글",
+          "새틴 터치"
+        ],
+        "mustPreserve": [
+          "상의 펄감",
+          "입체 러플",
+          "실제 하의 허리선",
+          "블랙 컬러"
+        ],
+        "avoidList": [
+          "아이보리 니트 스커트",
+          "회색 하의",
+          "미디 기장",
+          "허리 장식 누락"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      }
+    },
+    {
+      "targetCode": "S943_TIA-S800",
+      "generationBlocked": false,
+      "analysis": {
+        "topCode": "S943",
+        "bottomCode": "TIA-S800",
+        "topColor": "블랙",
+        "bottomColor": "화이트",
+        "allowedColors": {
+          "top": [
+            "블랙"
+          ],
+          "bottom": [
+            "화이트"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "슬림 코르셋",
+        "bottomSilhouette": "화이트 미니스커트",
+        "topDetails": [
+          "화이트 파이핑 컵라인",
+          "셔링",
+          "세로 절개"
+        ],
+        "bottomDetails": [
+          "실제 포인트 디테일",
+          "실제 허리선"
+        ],
+        "fabricKeywords": [
+          "슬림 우븐",
+          "니트"
+        ],
+        "mustPreserve": [
+          "블랙+화이트 조합",
+          "컵라인 배색",
+          "셔링",
+          "하의 미니 기장"
+        ],
+        "avoidList": [
+          "그레이",
+          "소라",
+          "어색한 회색 톤",
+          "미디 기장"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      }
+    }
+  ]
+}

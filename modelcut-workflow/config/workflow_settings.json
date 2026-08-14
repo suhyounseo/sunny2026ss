@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "imageLimits": {
+    "topImages": 5,
+    "bottomImages": 5,
+    "referenceImages": 3
+  },
+  "candidateLimits": {
+    "minimum": 1,
+    "maximum": 3,
+    "default": 2
+  },
+  "referencePriority": [
+    "실제 상의 마네킹컷",
+    "실제 하의 마네킹컷/제품컷",
+    "동일 상품 디테일컷",
+    "거래처 분위기 참고",
+    "기존 생성 후보"
+  ],
+  "referencePolicy": "거래처 이미지는 포즈와 분위기만 참고하며 상품 컬러, 구조, 디테일의 근거로 사용하지 않습니다.",
+  "forbiddenShowroomFiles": ["products.json", "index.html", "app.js", "style.css"]
+}
