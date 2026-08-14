@@ -16,7 +16,7 @@ modelcut-workflow/
   output/drafts/           생성 초안(Git 제외)
   output/revised/          수정본(Git 제외)
   output/approved/         명시적으로 승인된 결과만 관리
-  output/review_boards/    실제 상의·실제 하의·생성 후보 HTML 검토판
+  output/review_board/     실제 카드 데이터가 삽입된 HTML 검토판
   reports/csv/             기계 판독용 검수 보고서
   reports/markdown/        사람이 읽는 검수 보고서
   prompts/                 조합별 생성 프롬프트
@@ -100,7 +100,15 @@ S799/S800은 `TIA-S799`/`TIA-S800`으로 등록된 경우를 고려해 양쪽 �
 
 ## 검토판
 
-`build_review_board.py`는 실제 상의·실제 하의·생성 후보 세 장과 검수 상태를 한 카드에 표시합니다. 기본 출력은 `output/review_boards/index.html`이며 기존 `output/review_board/index.html`도 동기화합니다. 로컬 검수 시에만 `--use-local-images`로 Git 제외 파일을 연결합니다.
+`templates/review_board_template.html`은 생성용 원본 템플릿이므로 직접 열지 않습니다. 템플릿에 보이는 `{{CARDS}}`는 정상적인 플레이스홀더입니다.
+
+검토할 때는 반드시 `build_review_board.py` 실행 후 생성되는 아래 결과 파일을 엽니다.
+
+```text
+modelcut-workflow/output/review_board/index.html
+```
+
+이 결과 HTML에는 실제 카드 데이터가 삽입됩니다. 실제 상의·실제 하의·생성 후보 세 장과 검수 상태를 한 카드에 표시하며, 로컬 검수 시 `--use-local-images` 옵션으로 Git 제외 이미지를 연결할 수 있습니다.
 
 ## Git 운영 원칙
 

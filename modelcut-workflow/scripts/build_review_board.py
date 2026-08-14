@@ -23,8 +23,8 @@ def image_panel(label: str, path: str, use_local_images: bool, board_dir: Path) 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build HTML model-cut review board")
     parser.add_argument("--report", default=str(WORKFLOW_ROOT / "reports" / "csv" / "modelcut_quality_review.csv"))
-    parser.add_argument("--output", default=str(WORKFLOW_ROOT / "output" / "review_boards" / "index.html"))
-    parser.add_argument("--legacy-output", default=str(WORKFLOW_ROOT / "output" / "review_board" / "index.html"))
+    parser.add_argument("--output", default=str(WORKFLOW_ROOT / "output" / "review_board" / "index.html"))
+    parser.add_argument("--mirror-output", default=str(WORKFLOW_ROOT / "output" / "review_boards" / "index.html"))
     parser.add_argument("--use-local-images", action="store_true", help="Link ignored local images when they exist")
     args = parser.parse_args()
 
@@ -57,10 +57,10 @@ def main() -> None:
     rendered_html = template.replace("{{CARDS}}", "\n".join(cards))
     output = Path(args.output); output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(rendered_html, encoding="utf-8")
-    legacy_output = Path(args.legacy_output)
-    if legacy_output != output:
-        legacy_output.parent.mkdir(parents=True, exist_ok=True)
-        legacy_output.write_text(rendered_html, encoding="utf-8")
+    mirror_output = Path(args.mirror_output)
+    if mirror_output != output:
+        mirror_output.parent.mkdir(parents=True, exist_ok=True)
+        mirror_output.write_text(rendered_html, encoding="utf-8")
     print(output)
 
 
