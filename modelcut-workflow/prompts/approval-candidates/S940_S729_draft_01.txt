@@ -1,4 +1,7 @@
-Use case: identity-preserve
-Input images: S940_04.jpg = primary actual top; S729_09.jpg left item = primary actual white skirt; vendor_reference_04.png = secondary fit reference only.
-Create a front-facing full-body adult East Asian fashion model cut. Preserve the actual white V-neck wrap crop top, short puff sleeves and crossed hem. Use only the actual white S729 high-waist mini skirt with two front pocket flaps, gold buttons and pleated hem. Product fidelity is more important than atmosphere. No black skirt, invented color, trim, print, logo, text or watermark.
-Use the vendor image only to check the worn V-neck depth, puff-sleeve volume and wrap-hem proportions. Do not copy its model, face, hair, pose, accessories, background, yellow color or sequined skirt.
+REJECTED — REGENERATION REQUIRED
+
+Candidate: S940_S729_vendorref_01
+Status: 재생성
+Required correction: generate the S729 skirt in actual black.
+
+Do not submit a white or invented-color S729 skirt as an approval candidate.

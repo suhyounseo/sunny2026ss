@@ -1,8 +1,10 @@
 {
-  "fields": ["colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "fitMatch"],
+  "fields": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "fabricMatch"],
   "allowedValues": ["O", "△", "X"],
   "realityScore": {"minimum": 1, "maximum": 5},
-  "statuses": ["승인 후보", "수정 후 승인 후보", "재생성", "보류", "제외"],
-  "approvalPolicy": "승인 후보 상태는 쇼룸 반영 승인이 아니다. approved 폴더 이동과 쇼룸 반영은 별도 명시적 승인 후에만 수행한다.",
+  "statuses": ["승인 후보", "수정 후 승인 후보", "재생성", "reference 재선정", "보류", "제외"],
+  "approvalStatuses": ["승인 후보", "수정 후 승인 후보"],
+  "failureStatuses": ["재생성", "reference 재선정"],
+  "approvalPolicy": "상의와 하의를 별도로 검증하며 colorMatch, lengthMatch, silhouetteMatch, detailMatch, fabricMatch 중 하나라도 X이면 승인 후보로 올리지 않고 재생성 또는 reference 재선정으로 처리한다. 승인 후보 상태는 쇼룸 반영 승인이 아니다.",
   "requiredMemoFor": ["△", "X"]
 }

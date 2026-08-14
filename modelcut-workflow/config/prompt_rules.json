@@ -1,11 +1,17 @@
 {
   "requiredSentences": [
     "Prioritize product accuracy over beauty or mood.",
+    "Prioritize exact product matching over beauty or mood.",
+    "Do not invent new colors.",
+    "Do not simplify or replace the actual skirt silhouette.",
     "Do not invent new colors, decorations, silhouette changes, or fabric details.",
     "Use the real product images as the primary reference."
   ],
   "composition": "Full-body front view of one adult East Asian fashion model, head-to-shoes visible, garment front unobstructed.",
   "background": "Simple original premium Korean boutique showroom with soft even lighting; no text, logo, watermark, or copied vendor composition.",
   "referencePriority": ["realProductOrMannequin", "realColorPhotos", "detailPhotos", "productInformation", "vendorFitReference", "mood"],
-  "forbidden": ["invented color", "invented trim", "invented print", "silhouette change", "length change", "fabric change", "vendor model identity copy", "vendor pose copy", "vendor background copy"]
+  "preflightChecks": ["correct top reference", "correct bottom reference", "real product color", "actual length", "actual silhouette", "signature details", "no invented color or detail"],
+  "separateGarmentChecks": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "fabricMatch"],
+  "approvalGate": "If any separate garment check is X, do not submit as an approval candidate.",
+  "forbidden": ["invented color", "invented trim", "invented print", "skirt silhouette simplification", "skirt replacement", "silhouette change", "length change", "fabric change", "vendor model identity copy", "vendor pose copy", "vendor background copy"]
 }

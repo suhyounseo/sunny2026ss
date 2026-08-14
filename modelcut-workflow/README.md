@@ -70,10 +70,13 @@ S799/S800은 `TIA-S799`/`TIA-S800`으로 등록된 경우를 고려해 양쪽 �
 `generate_prompts.py`가 활성 조합별 TXT를 만듭니다. 모든 프롬프트에는 다음 원칙이 포함됩니다.
 
 - `Prioritize product accuracy over beauty or mood.`
+- `Prioritize exact product matching over beauty or mood.`
+- `Do not invent new colors.`
+- `Do not simplify or replace the actual skirt silhouette.`
 - `Do not invent new colors, decorations, silhouette changes, or fabric details.`
 - `Use the real product images as the primary reference.`
 
-실제 제품컷이 최우선이며 거래처 이미지는 착용 비율과 원단 반응을 확인하는 보조 자료일 뿐입니다. 거래처 모델·포즈·배경은 복제하지 않습니다.
+실제 제품컷이 최우선이며 거래처 이미지는 착용 비율과 원단 반응을 확인하는 보조 자료일 뿐입니다. 거래처 모델·포즈·배경은 복제하지 않습니다. 실제 reference가 확정되지 않은 `reference 재선정` 항목은 프롬프트와 model draft를 생성하지 않습니다.
 
 ## 검수 보고서
 
@@ -82,7 +85,13 @@ S799/S800은 `TIA-S799`/`TIA-S800`으로 등록된 경우를 고려해 양쪽 �
 - `reports/csv/modelcut_quality_review.csv`
 - `reports/markdown/modelcut_quality_review.md`
 
-기본 항목은 컬러, 기장, 디테일, 원단, 핏이며 값은 `O`, `△`, `X`만 허용합니다. 현실감은 1~5점입니다. `△`와 `X`는 메모로 수정 이유를 남깁니다.
+상의와 하의를 각각 컬러, 기장, 실루엣, 디테일, 원단으로 검증하며 값은 `O`, `△`, `X`만 허용합니다. 현실감은 1~5점입니다. `△`와 `X`는 메모로 수정 이유를 남깁니다. 어느 항목이든 `X`이면 승인 후보가 될 수 없으며 상태는 `재생성` 또는 `reference 재선정`이어야 합니다.
+
+현재 재작업 게이트는 다음과 같습니다.
+
+- `S940_S729_vendorref_01`: S729 스커트를 블랙으로 고정하여 재생성
+- `S941_N260007_model_draft_01`: 핑크 하의 후보 폐기, 블랙 튤/샤 스커트로 재생성
+- `S942_TIA-S799_vendorref_01`: 기존 reference 탈락, 실제 하의 reference 재선정 전 model draft 생성 금지
 
 ## 검토판
 

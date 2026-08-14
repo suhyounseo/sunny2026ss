@@ -19,41 +19,41 @@
     "targetName": "브이넥 랩 크롭 탑",
     "targetType": "TOP",
     "exclude": false,
-    "status": "승인 후보",
+    "status": "재생성",
     "colorOptions": ["화이트", "옐로우"],
     "referenceImages": ["input/raw/aug11/S940/S940_04.jpg"],
     "matchCandidates": [
-      {"matchCode": "S729", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "화이트", "bottomColor": "화이트", "priority": 1, "note": "포켓·버튼·플리츠 하의", "referenceImages": ["refs/products/showroom/S729/S729_09.jpg"]},
+      {"matchCode": "S729", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "화이트", "bottomColor": "블랙", "priority": 1, "note": "실제 S729 블랙 스커트 조합", "referenceImages": ["refs/products/showroom/S729/S729_09.jpg"]},
       {"matchCode": "S730", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "옐로우", "bottomColor": "옐로우", "priority": 2, "note": "옐로우 조합 후보", "referenceImages": ["refs/products/showroom/S730/S730_01.jpg"]}
     ],
-    "guardrails": ["V넥 깊이·퍼프소매·랩 밑단 유지", "S729/S730 하의 포켓·버튼·플리츠 구조 유지"]
+    "guardrails": ["V넥 깊이·퍼프소매·랩 밑단 유지", "S729 하의는 블랙 스커트로 고정", "S729/S730 하의 포켓·버튼·플리츠 구조 유지"]
   },
   {
     "targetCode": "S941",
     "targetName": "프릴 오프숄더 탑",
     "targetType": "TOP",
     "exclude": false,
-    "status": "승인 후보",
+    "status": "재생성",
     "colorOptions": ["연핑크", "와인"],
     "referenceImages": ["input/raw/aug11/S941/S941_04.jpg"],
     "matchCandidates": [
       {"matchCode": "N260195", "matchType": "SKIRT", "topColor": "연핑크", "bottomColor": "아이보리", "priority": 2, "note": "아이보리 미디 하의 후보", "referenceImages": ["refs/products/showroom/N260195/N260195_04.jpg"]},
-      {"matchCode": "N260007", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "연핑크", "bottomColor": "블랙", "priority": 1, "note": "블랙 튤·리본 하의", "referenceImages": ["refs/products/showroom/N260007/N260007_04.jpg"]}
+      {"matchCode": "N260007", "matchType": "BOTTOM_FROM_TWO_PIECE", "topColor": "연핑크", "bottomColor": "블랙", "priority": 1, "note": "블랙 튤/샤 스커트, 허리 리본/밴딩 유지. 핑크 하의 금지", "referenceImages": ["refs/products/showroom/N260007/N260007_04.jpg"]}
     ],
-    "guardrails": ["실제 연핑크/와인만 사용", "없는 컬러 생성 금지", "오프숄더·이중 프릴·리본·진주형 단추 유지", "N260007은 블랙 튤 하의로 표현"]
+    "guardrails": ["S941 연핑크 오프숄더 프릴 상의 유지", "N260007은 블랙 튤/샤 스커트로 강제", "핑크 하의 생성 금지", "허리 리본/밴딩 디테일 유지", "실제 하의 컬러·기장·실루엣·소재감을 최우선으로 일치", "없는 컬러나 디테일 생성 금지"]
   },
   {
     "targetCode": "S942",
     "targetName": "펄 러플 슬리브리스 탑",
     "targetType": "TOP",
     "exclude": false,
-    "status": "승인 후보",
+    "status": "reference 재선정",
     "colorOptions": ["아이보리"],
     "referenceImages": ["input/raw/aug11/S942/S942_01.jpg"],
     "matchCandidates": [
-      {"matchCode": "S799", "matchType": "SKIRT", "topColor": "아이보리", "bottomColor": "아이보리", "priority": 1, "note": "쇼룸 code/vendorCode 양쪽 검색", "referenceImages": ["refs/products/showroom/TIA-S799/TIA-S799_09.jpg"]}
+      {"matchCode": "S799", "matchType": "SKIRT", "topColor": "아이보리", "bottomColor": "블랙", "priority": 1, "note": "기존 vendor reference 탈락. TIA-S799_07.jpg를 실제 블랙 스커트 reference 재선정 후보로 지정했으며 승인 전 model draft 생성 금지", "referenceImages": ["refs/products/showroom/TIA-S799/TIA-S799_07.jpg"]}
     ],
-    "guardrails": ["펄감·스팽글·입체 러플·얇은 스트랩 유지", "비대칭 뾰족 밑단 유지", "S799 니트 질감·언발 라인 반영"]
+    "guardrails": ["현재 TIA-S799 vendor reference 사용 금지", "실제 하의 컬러·기장·허리선·소재감·스커트 디테일 확인 전 생성 금지", "reference 확정 후에만 model draft 생성", "펄감·스팽글·입체 러플·얇은 스트랩 유지", "비대칭 뾰족 밑단 유지", "S799 니트 질감·언발 라인 반영"]
   },
   {
     "targetCode": "S943",

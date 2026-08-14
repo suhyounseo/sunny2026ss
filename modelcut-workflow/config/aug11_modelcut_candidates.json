@@ -17,7 +17,7 @@
     "targetCode": "S940", "targetType": "TOP", "targetName": "브이넥 랩 크롭 탑", "exclude": false, "generateNow": true,
     "colorOptions": ["화이트", "옐로우"], "promptTop": "화이트 브이넥 랩 크롭 탑. 짧은 반소매, 살짝 퍼프감 있는 어깨, 크로스 밑단.",
     "matchCandidates": [
-      {"matchCode": "S729", "matchName": "플리츠 미니 스커트", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "화이트", "priority": 1, "promptBottom": "화이트 하이웨이스트 플리츠 미니 스커트. 깔끔하고 여성스러운 투피스 무드.", "note": "1차 모델컷 생성; S729 하의만 참고"},
+      {"matchCode": "S729", "matchName": "플리츠 미니 스커트", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "블랙", "priority": 1, "promptBottom": "실제 S729 기준의 블랙 하이웨이스트 플리츠 미니 스커트. 없는 컬러 생성 금지.", "note": "블랙 스커트로 재생성"},
       {"matchCode": "S730", "matchName": "투피스 하의", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "옐로우", "priority": 2, "promptBottom": "옐로우 계열 투피스 하의.", "note": "옐로우 대체 코디 후보"}
     ]
   },
@@ -30,10 +30,10 @@
     ]
   },
   {
-    "targetCode": "S942", "targetType": "TOP", "targetName": "러플 포인트 탑", "exclude": false, "generateNow": true,
+    "targetCode": "S942", "targetType": "TOP", "targetName": "러플 포인트 탑", "exclude": false, "generateNow": false,
     "colorOptions": ["아이보리"], "promptTop": "아이보리 펄감의 러플 포인트 슬리브리스 탑. 얇은 스트랩, 입체 러플, 반짝이는 소재감, 비대칭 밑단.",
     "matchCandidates": [
-      {"matchCode": "TIA-S799", "matchName": "언발 니트 미니 스커트", "matchType": "SKIRT", "matchColor": "아이보리", "priority": 1, "promptBottom": "아이보리 계열 언발 니트 미니 스커트. 부드러운 니트 텍스처와 슬림 실루엣.", "note": "1차 모델컷 생성"}
+      {"matchCode": "TIA-S799", "matchName": "reference 재선정", "matchType": "SKIRT", "matchColor": "", "priority": 1, "promptBottom": "", "note": "실제 컬러·기장·허리선·소재감·스커트 디테일 확인 전 model draft 생성 금지"}
     ]
   },
   {

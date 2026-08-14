@@ -1,4 +1,12 @@
-Use case: identity-preserve
-Input images: S941_04.jpg = primary actual top; N260007_04.jpg = primary actual skirt; vendor_reference_03.png = secondary fit reference only.
-Create a front-facing full-body adult East Asian fashion model cut. Preserve only the actual pale blush-pink top color, bare-shoulder neckline, wide double ruffle, center bow, pearl-like front buttons and crop length. Preserve only the actual black high-waist skirt color, layered satin waistband, two small black bows, black tulle overlay and mini length. No pink or ivory skirt and no invented strap, sleeve, color, detail, logo, text or watermark.
-Use the vendor image only to check the off-shoulder position, ruffle width, bow/button placement and crop length. Do not copy its model, face, hair, pose, jewelry, headband, background or pink sequined skirt.
+REJECTED — REGENERATION REQUIRED
+
+Candidate: S941_N260007_model_draft_01
+Status: 재생성
+
+Required:
+- keep the S941 light-pink off-shoulder frill top
+- force the N260007 bottom to black tulle/chiffon
+- preserve the waist ribbon/banding details
+- preserve the actual skirt length and silhouette
+
+Forbidden: any pink skirt or invented bottom color.

@@ -7,6 +7,9 @@ Top color: 옐로우
 Bottom color: 옐로우
 
 Prioritize product accuracy over beauty or mood.
+Prioritize exact product matching over beauty or mood.
+Do not invent new colors.
+Do not simplify or replace the actual skirt silhouette.
 Do not invent new colors, decorations, silhouette changes, or fabric details.
 Use the real product images as the primary reference.
 
@@ -18,7 +21,27 @@ Simple original premium Korean boutique showroom with soft even lighting; no tex
 
 Product invariants:
 - V넥 깊이·퍼프소매·랩 밑단 유지
+- S729 하의는 블랙 스커트로 고정
 - S729/S730 하의 포켓·버튼·플리츠 구조 유지
+
+Mandatory preflight before generation:
+- correct top reference
+- correct bottom reference
+- real product color
+- actual length
+- actual silhouette
+- signature details
+- no invented color or detail
+
+Validate the top and bottom separately:
+- colorMatch
+- lengthMatch
+- silhouetteMatch
+- detailMatch
+- fabricMatch
+
+Approval gate:
+If any separate garment check is X, do not submit as an approval candidate.
 
 Reference images:
 - input/raw/aug11/S940/S940_04.jpg
@@ -26,5 +49,8 @@ Reference images:
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.
+- Do not invent new colors.
+- Do not simplify or replace the actual skirt silhouette.
+- Prioritize exact product matching over beauty or mood.
 - Do not copy any vendor model's face, hair, pose, accessories, background, or composition.
 - No text, logo, watermark, extra people, or distorted anatomy.

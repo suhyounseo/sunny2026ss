@@ -7,6 +7,9 @@ Top color: 블랙
 Bottom color: 화이트
 
 Prioritize product accuracy over beauty or mood.
+Prioritize exact product matching over beauty or mood.
+Do not invent new colors.
+Do not simplify or replace the actual skirt silhouette.
 Do not invent new colors, decorations, silhouette changes, or fabric details.
 Use the real product images as the primary reference.
 
@@ -22,11 +25,33 @@ Product invariants:
 - 화이트 파이핑 컵라인·셔링·세로 절개 유지
 - S800 하의를 단순화하지 않음
 
+Mandatory preflight before generation:
+- correct top reference
+- correct bottom reference
+- real product color
+- actual length
+- actual silhouette
+- signature details
+- no invented color or detail
+
+Validate the top and bottom separately:
+- colorMatch
+- lengthMatch
+- silhouetteMatch
+- detailMatch
+- fabricMatch
+
+Approval gate:
+If any separate garment check is X, do not submit as an approval candidate.
+
 Reference images:
 - input/raw/aug11/S943/S943_09.jpg
 - refs/products/showroom/TIA-S800/TIA-S800_07.jpg
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.
+- Do not invent new colors.
+- Do not simplify or replace the actual skirt silhouette.
+- Prioritize exact product matching over beauty or mood.
 - Do not copy any vendor model's face, hair, pose, accessories, background, or composition.
 - No text, logo, watermark, extra people, or distorted anatomy.

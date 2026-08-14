@@ -2,6 +2,11 @@
   "lookupOrder": ["code", "vendorCode", "nameOrTagsContains"],
   "normalize": {"trim": true, "caseInsensitive": true, "removePrefixes": ["TIA-"]},
   "aliases": {"S799": ["S799", "TIA-S799"], "S800": ["S800", "TIA-S800"]},
+  "overrides": {
+    "S940:S729": {"bottomColor": "블랙", "rule": "S729 스커트는 블랙으로 생성"},
+    "S941:N260007": {"bottomColor": "블랙", "forbiddenBottomColors": ["핑크", "연핑크"], "requiredDetails": ["튤/샤 소재감", "허리 리본/밴딩"]},
+    "S942:S799": {"referenceStatus": "reference 재선정", "modelDraftAllowed": false, "requiredReferenceChecks": ["컬러", "기장", "허리선", "소재감", "스커트 디테일"]}
+  },
   "rules": [
     {"targetCode": "S939", "matchCodes": ["N260195", "N260007", "N260006"]},
     {"targetCode": "S940", "matchCodes": ["S729", "S730"]},

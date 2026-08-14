@@ -1,52 +1,32 @@
 [
   {
-    "targetCode": "S939",
-    "matchCode": "N260195",
-    "status": "approval_candidate",
-    "output": "output/drafts/S939_N260195_model_draft_01.png",
-    "promptFile": "prompts/S939_N260195.txt",
-    "referenceBoard": "reports/reference-boards/S939_N260195_references.jpg",
-    "bytes": 1527541,
+    "targetCode": "S939", "matchCode": "N260195", "status": "approval_candidate",
+    "output": "output/drafts/S939_N260195_model_draft_01.png", "promptFile": "prompts/S939_N260195.txt",
+    "referenceBoard": "reports/reference-boards/S939_N260195_references.jpg", "bytes": 1527541,
     "selectedCandidate": "output/drafts/S939_N260195_model_draft_02.png"
   },
   {
-    "targetCode": "S940",
-    "matchCode": "S729",
-    "status": "approval_candidate",
-    "output": "output/drafts/S940_S729_model_draft_01.png",
-    "promptFile": "prompts/S940_S729.txt",
-    "referenceBoard": "reports/reference-boards/S940_S729_references.jpg",
-    "bytes": 1552918,
-    "selectedCandidate": "output/drafts/S940_S729_vendorref_01.png"
+    "targetCode": "S940", "matchCode": "S729", "status": "review_candidate",
+    "output": "output/drafts/S940_S729_model_draft_02.png", "promptFile": "prompts/S940_S729.txt",
+    "referenceBoard": "reports/reference-boards/S940_S729_references.jpg", "bytes": 1660373,
+    "selectedCandidate": "output/drafts/S940_S729_model_draft_02.png", "requiredBottomColor": "블랙"
   },
   {
-    "targetCode": "S941",
-    "matchCode": "N260007",
-    "status": "approval_candidate",
-    "output": "output/drafts/S941_N260007_model_draft_01.png",
-    "promptFile": "prompts/S941_N260007.txt",
-    "referenceBoard": "reports/reference-boards/S941_N260007_references.jpg",
-    "bytes": 1550629,
-    "selectedCandidate": "output/drafts/S941_N260007_vendorref_01.png"
+    "targetCode": "S941", "matchCode": "N260007", "status": "review_candidate",
+    "output": "output/drafts/S941_N260007_model_draft_03.png", "promptFile": "prompts/S941_N260007.txt",
+    "referenceBoard": "reports/reference-boards/S941_N260007_references.jpg", "bytes": 1809140,
+    "selectedCandidate": "output/drafts/S941_N260007_model_draft_03.png", "requiredBottomColor": "블랙", "forbiddenBottomColors": ["핑크", "연핑크"]
   },
   {
-    "targetCode": "S942",
-    "matchCode": "TIA-S799",
-    "status": "approval_candidate",
-    "output": "output/drafts/S942_TIA-S799_model_draft_01.png",
-    "promptFile": "prompts/S942_TIA-S799.txt",
-    "referenceBoard": "reports/reference-boards/S942_TIA-S799_references.jpg",
-    "bytes": 1787983,
-    "selectedCandidate": "output/drafts/S942_TIA-S799_model_draft_01.png"
+    "targetCode": "S942", "matchCode": "TIA-S799", "status": "reference_reselection",
+    "output": "", "promptFile": "", "referenceBoard": "refs/products/showroom/TIA-S799/TIA-S799_07.jpg", "bytes": 0, "selectedCandidate": "",
+    "modelDraftAllowed": false,
+    "requiredReferenceChecks": ["colorMatch", "lengthMatch", "silhouetteMatch", "detailMatch", "fabricMatch"]
   },
   {
-    "targetCode": "S943",
-    "matchCode": "TIA-S800",
-    "status": "approval_candidate",
-    "output": "output/drafts/S943_TIA-S800_model_draft_01.png",
-    "promptFile": "prompts/S943_TIA-S800.txt",
-    "referenceBoard": "reports/reference-boards/S943_TIA-S800_references.jpg",
-    "bytes": 1531080,
+    "targetCode": "S943", "matchCode": "TIA-S800", "status": "approval_candidate",
+    "output": "output/drafts/S943_TIA-S800_model_draft_01.png", "promptFile": "prompts/S943_TIA-S800.txt",
+    "referenceBoard": "reports/reference-boards/S943_TIA-S800_references.jpg", "bytes": 1531080,
     "selectedCandidate": "output/drafts/S943_TIA-S800_model_draft_02.png"
   }
 ]

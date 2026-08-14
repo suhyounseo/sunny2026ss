@@ -7,6 +7,9 @@ Top color: 연핑크
 Bottom color: 블랙
 
 Prioritize product accuracy over beauty or mood.
+Prioritize exact product matching over beauty or mood.
+Do not invent new colors.
+Do not simplify or replace the actual skirt silhouette.
 Do not invent new colors, decorations, silhouette changes, or fabric details.
 Use the real product images as the primary reference.
 
@@ -17,10 +20,31 @@ Background:
 Simple original premium Korean boutique showroom with soft even lighting; no text, logo, watermark, or copied vendor composition.
 
 Product invariants:
-- 실제 연핑크/와인만 사용
-- 없는 컬러 생성 금지
-- 오프숄더·이중 프릴·리본·진주형 단추 유지
-- N260007은 블랙 튤 하의로 표현
+- S941 연핑크 오프숄더 프릴 상의 유지
+- N260007은 블랙 튤/샤 스커트로 강제
+- 핑크 하의 생성 금지
+- 허리 리본/밴딩 디테일 유지
+- 실제 하의 컬러·기장·실루엣·소재감을 최우선으로 일치
+- 없는 컬러나 디테일 생성 금지
+
+Mandatory preflight before generation:
+- correct top reference
+- correct bottom reference
+- real product color
+- actual length
+- actual silhouette
+- signature details
+- no invented color or detail
+
+Validate the top and bottom separately:
+- colorMatch
+- lengthMatch
+- silhouetteMatch
+- detailMatch
+- fabricMatch
+
+Approval gate:
+If any separate garment check is X, do not submit as an approval candidate.
 
 Reference images:
 - input/raw/aug11/S941/S941_04.jpg
@@ -28,5 +52,8 @@ Reference images:
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.
+- Do not invent new colors.
+- Do not simplify or replace the actual skirt silhouette.
+- Prioritize exact product matching over beauty or mood.
 - Do not copy any vendor model's face, hair, pose, accessories, background, or composition.
 - No text, logo, watermark, extra people, or distorted anatomy.

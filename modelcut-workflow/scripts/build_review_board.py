@@ -43,9 +43,9 @@ def main() -> None:
             top_reference = item_reference
             bottom_reference = match_reference
         color_text = " / ".join(value for value in (row["topColor"], row["bottomColor"]) if value)
-        checks = "".join(f'<li><span>{html.escape(label)}</span><b>{html.escape(row[field])}</b></li>' for field, label in (("colorMatch", "컬러"), ("lengthMatch", "기장"), ("detailMatch", "디테일"), ("fabricMatch", "원단"), ("fitMatch", "핏")))
+        checks = "".join(f'<li><span>{html.escape(label)}</span><b>{html.escape(row[field])}</b></li>' for field, label in (("colorMatch", "컬러"), ("lengthMatch", "기장"), ("silhouetteMatch", "실루엣"), ("detailMatch", "디테일"), ("fabricMatch", "원단")))
         cards.append(f'''<article class="card">
-          <header><div><p>{html.escape(row['targetCode'])}</p><h2>{html.escape(row['targetName'])}</h2></div><span class="status">{html.escape(row['status'])}</span></header>
+          <header><div><p>{html.escape(row['candidateId'] or row['targetCode'])}</p><h2>{html.escape(row['targetName'])}</h2></div><span class="status">{html.escape(row['status'])}</span></header>
           <p class="combo">{html.escape(' + '.join(v for v in (row['topCode'], row['bottomCode']) if v))} · {html.escape(color_text)}</p>
           <div class="images">{image_panel('실제 상의', top_reference, args.use_local_images)}{image_panel('실제 하의', bottom_reference, args.use_local_images)}{image_panel('생성 모델컷', row['draftImagePath'], args.use_local_images)}</div>
           <div class="review"><ul>{checks}</ul><div class="score"><span>현실감</span><strong>{html.escape(row['realityScore'] or '-')}<small>/5</small></strong></div></div>

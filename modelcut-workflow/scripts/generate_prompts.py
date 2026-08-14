@@ -21,7 +21,7 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     generated = 0
     for item in items:
-        if item.get("exclude") or item.get("status") == "보류":
+        if item.get("exclude") or item.get("status") in {"보류", "reference 재선정"}:
             continue
         for match in sorted(item.get("matchCandidates", []), key=lambda value: value.get("priority", 999)):
             references = [*item.get("referenceImages", []), *match.get("referenceImages", [])]
@@ -30,6 +30,9 @@ def main() -> None:
                 topColor=match.get("topColor", ""), bottomColor=match.get("bottomColor", ""),
                 requiredSentences="\n".join(rules["requiredSentences"]), composition=rules["composition"],
                 background=rules["background"], guardrails="\n".join(f"- {rule}" for rule in item.get("guardrails", [])),
+                preflightChecks="\n".join(f"- {rule}" for rule in rules["preflightChecks"]),
+                separateGarmentChecks="\n".join(f"- {rule}" for rule in rules["separateGarmentChecks"]),
+                approvalGate=rules["approvalGate"],
                 referenceImages="\n".join(f"- {path}" for path in references) or "- No local image linked yet",
             )
             path = output_dir / f"{item['targetCode']}_{match['matchCode']}.txt"

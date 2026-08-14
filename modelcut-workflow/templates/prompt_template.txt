@@ -17,10 +17,22 @@ Background:
 Product invariants:
 {guardrails}
 
+Mandatory preflight before generation:
+{preflightChecks}
+
+Validate the top and bottom separately:
+{separateGarmentChecks}
+
+Approval gate:
+{approvalGate}
+
 Reference images:
 {referenceImages}
 
 Constraints:
 - Preserve actual color, length, silhouette, fabric behavior, and signature details.
+- Do not invent new colors.
+- Do not simplify or replace the actual skirt silhouette.
+- Prioritize exact product matching over beauty or mood.
 - Do not copy any vendor model's face, hair, pose, accessories, background, or composition.
 - No text, logo, watermark, extra people, or distorted anatomy.

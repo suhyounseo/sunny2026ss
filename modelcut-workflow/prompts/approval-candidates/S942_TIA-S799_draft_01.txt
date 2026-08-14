@@ -1,4 +1,7 @@
-Use case: identity-preserve
-Input images: S942_01.jpg = primary actual top; TIA-S799_09.jpg left item = primary actual ivory skirt; vendor_reference_02.png = secondary fit reference only.
-Create a front-facing full-body adult East Asian fashion model cut. Preserve the actual ivory thin straps, dimensional organza neckline ruffle, pearl/sequin body texture and pointed asymmetric hem of S942. Preserve the actual ivory high-waist slim mini skirt and small front bow details of TIA-S799. No invented color, trim, print, logo, text or watermark.
-Use the vendor image only to check ruffle volume, pearl/sequin texture and asymmetric top hem on a body. Do not copy its model, face, hair, pose, jewelry, background or draped skirt.
+REJECTED — NOT AN APPROVAL CANDIDATE
+
+Candidate: S942_TIA-S799_vendorref_01
+Status: reference 재선정
+Reason: the selected vendor reference does not match the actual TIA-S799 skirt.
+
+Model draft generation is forbidden until a replacement reference passes color, length, silhouette, detail, and fabric checks.
