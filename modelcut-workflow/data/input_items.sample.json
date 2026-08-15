@@ -24,7 +24,10 @@
       "avoidList": ["실물보다 긴 하의", "롱 스커트", "없는 프린트", "버클 누락"],
       "memo": "S939 하의가 실물보다 길어지지 않도록 우선 검수",
       "candidateCount": 2,
-      "candidates": [{"candidateId": "S939_N260195_model_draft_02", "image": "output/drafts/S939_N260195_model_draft_02.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "원단 광택 최종 확인", "regenerationMemo": ""}]
+      "candidates": [
+        {"candidateId": "S939_N260195_model_draft_01", "image": "output/drafts/S939_N260195_model_draft_01.png", "status": "보류", "scores": {"colorMatch": "O", "lengthMatch": "△", "detailMatch": "△", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "1안. 하의 기장과 버클 위치 재확인", "regenerationMemo": "실제 하의보다 길어지지 않도록 보정"},
+        {"candidateId": "S939_N260195_model_draft_02", "image": "output/drafts/S939_N260195_model_draft_02.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "2안. 원단 광택 최종 확인", "regenerationMemo": ""}
+      ]
     },
     {
       "targetCode": "S940_S729",
@@ -49,7 +52,10 @@
       "avoidList": ["화이트 스커트", "핑크 스커트", "포켓 누락", "미디 기장"],
       "memo": "하의 컬러는 블랙으로 고정",
       "candidateCount": 2,
-      "candidates": [{"candidateId": "S940_S729_model_draft_02", "image": "output/drafts/S940_S729_model_draft_02.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "A안. 하의 포켓·버튼·절개 위치 추가 대조", "regenerationMemo": "상의 원단 텍스처와 하의 구조를 더 정확히 반영"}]
+      "candidates": [
+        {"candidateId": "S940_S729_model_draft_01", "image": "output/drafts/S940_S729_model_draft_01.png", "status": "보류", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "△", "silhouetteMatch": "△"}, "memo": "1안. 블랙 스커트 구조 점검", "regenerationMemo": "포켓·버튼·플리츠 위치 보정"},
+        {"candidateId": "S940_S729_model_draft_02", "image": "output/drafts/S940_S729_model_draft_02.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "2안. 하의 포켓·버튼·절개 위치 추가 대조", "regenerationMemo": "상의 원단 텍스처와 하의 구조를 더 정확히 반영"}
+      ]
     },
     {
       "targetCode": "S941_N260007",
@@ -74,7 +80,10 @@
       "avoidList": ["핑크 스커트", "회색 하의", "롱 기장", "무지 슬림 스커트"],
       "memo": "S941 핑크 하의 생성 금지",
       "candidateCount": 2,
-      "candidates": [{"candidateId": "S941_N260007_model_draft_03", "image": "output/drafts/S941_N260007_model_draft_03.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "O", "silhouetteMatch": "O"}, "memo": "B안. 프릴 폭·리본 크기·단추 간격 보완", "regenerationMemo": "블랙 튤 레이어와 실제 프릴 폭을 보존"}]
+      "candidates": [
+        {"candidateId": "S941_N260007_model_draft_03", "image": "output/drafts/S941_N260007_model_draft_03.png", "status": "조건부 승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "O", "silhouetteMatch": "O"}, "memo": "1안. 프릴 폭·리본 크기·단추 간격 보완", "regenerationMemo": "블랙 튤 레이어와 실제 프릴 폭을 보존"},
+        {"candidateId": "S941_N260007_model_draft_04", "image": "output/drafts/S941_N260007_model_draft_04.png", "status": "재생성", "scores": {"colorMatch": "O", "lengthMatch": "△", "detailMatch": "△", "fabricMatch": "O", "silhouetteMatch": "△"}, "memo": "2안. 블랙 하의는 유지됐으나 레이어 재검토", "regenerationMemo": "핑크 하의 금지, 실제 튤 볼륨과 리본 위치 유지"}
+      ]
     },
     {
       "targetCode": "S942_TIA-S799",
@@ -99,8 +108,11 @@
       "avoidList": ["아이보리 니트 스커트", "회색 하의", "미디 기장", "허리 장식 누락"],
       "memo": "실제 reference 승인 전 model draft 생성 금지",
       "generationBlocked": true,
-      "candidateCount": 1,
-      "candidates": [{"candidateId": "S942_TIA-S799_vendorref_01", "image": "", "status": "reference 재선정", "scores": {"colorMatch": "X", "lengthMatch": "X", "detailMatch": "X", "fabricMatch": "X", "silhouetteMatch": "X"}, "memo": "기존 vendor reference 탈락", "regenerationMemo": "실제 컬러·기장·허리선·소재·디테일 reference부터 확정"}]
+      "candidateCount": 2,
+      "candidates": [
+        {"candidateId": "S942_TIA-S799_vendorref_01", "image": "", "status": "reference 재선정", "scores": {"colorMatch": "X", "lengthMatch": "X", "detailMatch": "X", "fabricMatch": "X", "silhouetteMatch": "X"}, "memo": "기존 vendor reference 탈락", "regenerationMemo": "실제 컬러·기장·허리선·소재·디테일 reference부터 확정"},
+        {"candidateId": "S942_TIA-S799_vendorref_02", "image": "", "status": "reference 재선정", "scores": {"colorMatch": "", "lengthMatch": "", "detailMatch": "", "fabricMatch": "", "silhouetteMatch": ""}, "memo": "실제 하의 reference 승인 대기", "regenerationMemo": "reference 확정 전 model draft 생성 금지"}
+      ]
     },
     {
       "targetCode": "S943_TIA-S800",
@@ -125,7 +137,10 @@
       "avoidList": ["그레이", "소라", "어색한 회색 톤", "미디 기장"],
       "memo": "실물에 없는 그레이/소라 조합 금지",
       "candidateCount": 2,
-      "candidates": [{"candidateId": "S943_TIA-S800_model_draft_02", "image": "output/drafts/S943_TIA-S800_model_draft_02.png", "status": "승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "fabricMatch": "O", "silhouetteMatch": "O"}, "memo": "블랙+화이트 조합과 실제 하의 디테일 유지", "regenerationMemo": ""}]
+      "candidates": [
+        {"candidateId": "S943_TIA-S800_model_draft_01", "image": "output/drafts/S943_TIA-S800_model_draft_01.png", "status": "보류", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "△", "fabricMatch": "△", "silhouetteMatch": "O"}, "memo": "1안. 컵라인과 하의 포인트 재확인", "regenerationMemo": "그레이 톤 없이 블랙+화이트 유지"},
+        {"candidateId": "S943_TIA-S800_model_draft_02", "image": "output/drafts/S943_TIA-S800_model_draft_02.png", "status": "승인", "scores": {"colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "fabricMatch": "O", "silhouetteMatch": "O"}, "memo": "2안. 블랙+화이트 조합과 실제 하의 디테일 유지", "regenerationMemo": ""}
+      ]
     }
   ]
 }

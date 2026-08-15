@@ -4,6 +4,98 @@
   "notice": "테스트 전용 · 운영 쇼룸과 products.json에는 반영되지 않습니다.",
   "items": [
     {
+      "candidateId": "S939_N260195_model_draft_01",
+      "targetCode": "S939_N260195",
+      "topCode": "S939",
+      "topName": "프린트 배색 뷔스티에 탑",
+      "topColor": "핑크",
+      "bottomCode": "N260195",
+      "bottomName": "링 버클 스트레이트 스커트",
+      "bottomColor": "아이보리",
+      "topImages": [
+        "assets/thumb-5c557c8db66f.webp",
+        "assets/thumb-5a264d61becc.webp",
+        "assets/thumb-6db9dc30fc68.webp"
+      ],
+      "bottomImages": [
+        "assets/thumb-bbe1039eafea.webp",
+        "assets/thumb-7d83339029cd.webp",
+        "assets/thumb-3979bca45c87.webp"
+      ],
+      "referenceImages": [
+        "assets/thumb-3b2b2672ac62.webp"
+      ],
+      "candidateImage": "",
+      "analysis": {
+        "topCode": "S939",
+        "bottomCode": "N260195",
+        "topColor": "핑크",
+        "bottomColor": "아이보리",
+        "allowedColors": {
+          "top": [
+            "핑크"
+          ],
+          "bottom": [
+            "아이보리"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "실제 제품 기준 미디, 실물보다 길게 생성 금지",
+        "topSilhouette": "슬림 뷔스티에",
+        "bottomSilhouette": "하이웨이스트 스트레이트",
+        "topDetails": [
+          "프린트 배색",
+          "컵라인",
+          "허리 버클"
+        ],
+        "bottomDetails": [
+          "링 버클",
+          "스트레이트 라인"
+        ],
+        "fabricKeywords": [
+          "우븐",
+          "은은한 광택"
+        ],
+        "mustPreserve": [
+          "프린트 배색",
+          "상의 허리 버클",
+          "하의 링 버클",
+          "실제 상·하의 비율"
+        ],
+        "avoidList": [
+          "실물보다 긴 하의",
+          "롱 스커트",
+          "없는 프린트",
+          "버클 누락"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      },
+      "scores": {
+        "colorMatch": "O",
+        "lengthMatch": "△",
+        "detailMatch": "△",
+        "fabricMatch": "△",
+        "silhouetteMatch": "O"
+      },
+      "evaluation": {
+        "passCount": 2,
+        "hardFail": false,
+        "hardFailReasons": [],
+        "recommendation": "보류"
+      },
+      "status": "보류",
+      "approved": false,
+      "memo": "1안. 하의 기장과 버클 위치 재확인",
+      "regenerationMemo": "실제 하의보다 길어지지 않도록 보정",
+      "generationBlocked": false
+    },
+    {
       "candidateId": "S939_N260195_model_draft_02",
       "targetCode": "S939_N260195",
       "topCode": "S939",
@@ -91,8 +183,101 @@
       },
       "status": "조건부 승인",
       "approved": false,
-      "memo": "원단 광택 최종 확인",
+      "memo": "2안. 원단 광택 최종 확인",
       "regenerationMemo": "",
+      "generationBlocked": false
+    },
+    {
+      "candidateId": "S940_S729_model_draft_01",
+      "targetCode": "S940_S729",
+      "topCode": "S940",
+      "topName": "화이트 브이넥 퍼프 탑",
+      "topColor": "화이트",
+      "bottomCode": "S729",
+      "bottomName": "포켓 버튼 플리츠 미니스커트",
+      "bottomColor": "블랙",
+      "topImages": [
+        "assets/thumb-fe572a8e0774.webp",
+        "assets/thumb-e42e490b79ef.webp"
+      ],
+      "bottomImages": [
+        "assets/thumb-c599c4da9e71.webp",
+        "assets/thumb-664e54d4d78b.webp"
+      ],
+      "referenceImages": [
+        "assets/thumb-0a4b33313ab0.webp"
+      ],
+      "candidateImage": "",
+      "analysis": {
+        "topCode": "S940",
+        "bottomCode": "S729",
+        "topColor": "화이트",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "화이트"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "브이넥 퍼프 소매 랩",
+        "bottomSilhouette": "하이웨이스트 A라인 플리츠",
+        "topDetails": [
+          "브이넥",
+          "퍼프 소매",
+          "랩 밑단"
+        ],
+        "bottomDetails": [
+          "포켓 플랩 2개",
+          "원형 버튼 2개",
+          "가로 절개",
+          "하단 플리츠"
+        ],
+        "fabricKeywords": [
+          "텍스처 우븐",
+          "구조감 있는 원단"
+        ],
+        "mustPreserve": [
+          "상의 원단 텍스처",
+          "포켓",
+          "버튼",
+          "플리츠",
+          "미니 기장"
+        ],
+        "avoidList": [
+          "화이트 스커트",
+          "핑크 스커트",
+          "포켓 누락",
+          "미디 기장"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      },
+      "scores": {
+        "colorMatch": "O",
+        "lengthMatch": "O",
+        "detailMatch": "△",
+        "fabricMatch": "△",
+        "silhouetteMatch": "△"
+      },
+      "evaluation": {
+        "passCount": 2,
+        "hardFail": false,
+        "hardFailReasons": [],
+        "recommendation": "보류"
+      },
+      "status": "보류",
+      "approved": false,
+      "memo": "1안. 블랙 스커트 구조 점검",
+      "regenerationMemo": "포켓·버튼·플리츠 위치 보정",
       "generationBlocked": false
     },
     {
@@ -184,7 +369,7 @@
       },
       "status": "조건부 승인",
       "approved": false,
-      "memo": "A안. 하의 포켓·버튼·절개 위치 추가 대조",
+      "memo": "2안. 하의 포켓·버튼·절개 위치 추가 대조",
       "regenerationMemo": "상의 원단 텍스처와 하의 구조를 더 정확히 반영",
       "generationBlocked": false
     },
@@ -277,8 +462,101 @@
       },
       "status": "조건부 승인",
       "approved": false,
-      "memo": "B안. 프릴 폭·리본 크기·단추 간격 보완",
+      "memo": "1안. 프릴 폭·리본 크기·단추 간격 보완",
       "regenerationMemo": "블랙 튤 레이어와 실제 프릴 폭을 보존",
+      "generationBlocked": false
+    },
+    {
+      "candidateId": "S941_N260007_model_draft_04",
+      "targetCode": "S941_N260007",
+      "topCode": "S941",
+      "topName": "연핑크 프릴 오프숄더 탑",
+      "topColor": "연핑크",
+      "bottomCode": "N260007",
+      "bottomName": "블랙 튤/샤 미니스커트",
+      "bottomColor": "블랙",
+      "topImages": [
+        "assets/thumb-d0829b044fea.webp",
+        "assets/thumb-37358a876b94.webp",
+        "assets/thumb-f4465cea515b.webp"
+      ],
+      "bottomImages": [
+        "assets/thumb-cb30fbcabeaf.webp",
+        "assets/thumb-9f3e28b46c02.webp"
+      ],
+      "referenceImages": [
+        "assets/thumb-3c9c4213431b.webp"
+      ],
+      "candidateImage": "",
+      "analysis": {
+        "topCode": "S941",
+        "bottomCode": "N260007",
+        "topColor": "연핑크",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "연핑크"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "오프숄더 프릴",
+        "bottomSilhouette": "하이웨이스트 튤 레이어",
+        "topDetails": [
+          "프릴 폭",
+          "리본",
+          "진주 단추"
+        ],
+        "bottomDetails": [
+          "3단 허리 밴드",
+          "작은 리본 2개",
+          "튤 밑단"
+        ],
+        "fabricKeywords": [
+          "쉬폰",
+          "튤/샤"
+        ],
+        "mustPreserve": [
+          "연핑크 상의",
+          "프릴 라인",
+          "상의 리본",
+          "블랙 튤 스커트",
+          "허리 리본/밴딩"
+        ],
+        "avoidList": [
+          "핑크 스커트",
+          "회색 하의",
+          "롱 기장",
+          "무지 슬림 스커트"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      },
+      "scores": {
+        "colorMatch": "O",
+        "lengthMatch": "△",
+        "detailMatch": "△",
+        "fabricMatch": "O",
+        "silhouetteMatch": "△"
+      },
+      "evaluation": {
+        "passCount": 2,
+        "hardFail": false,
+        "hardFailReasons": [],
+        "recommendation": "보류"
+      },
+      "status": "재생성",
+      "approved": false,
+      "memo": "2안. 블랙 하의는 유지됐으나 레이어 재검토",
+      "regenerationMemo": "핑크 하의 금지, 실제 튤 볼륨과 리본 위치 유지",
       "generationBlocked": false
     },
     {
@@ -378,6 +656,187 @@
       "generationBlocked": true
     },
     {
+      "candidateId": "S942_TIA-S799_vendorref_02",
+      "targetCode": "S942_TIA-S799",
+      "topCode": "S942",
+      "topName": "펄 러플 슬리브리스 탑",
+      "topColor": "아이보리",
+      "bottomCode": "TIA-S799",
+      "bottomName": "곡선 허리 장식 블랙 미니스커트",
+      "bottomColor": "블랙",
+      "topImages": [
+        "assets/thumb-074b9697c5de.webp",
+        "assets/thumb-60d60444a6f8.webp"
+      ],
+      "bottomImages": [
+        "assets/thumb-60b5ea518211.webp",
+        "assets/thumb-9d318be908a8.webp",
+        "assets/thumb-752ee1ce8bef.webp"
+      ],
+      "referenceImages": [],
+      "candidateImage": "",
+      "analysis": {
+        "topCode": "S942",
+        "bottomCode": "TIA-S799",
+        "topColor": "아이보리",
+        "bottomColor": "블랙",
+        "allowedColors": {
+          "top": [
+            "아이보리",
+            "화이트"
+          ],
+          "bottom": [
+            "블랙"
+          ]
+        },
+        "topLength": "비대칭 크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "슬리브리스 입체 러플",
+        "bottomSilhouette": "하이웨이스트 슬림 미니",
+        "topDetails": [
+          "입체 러플",
+          "얇은 스트랩",
+          "비대칭 뾰족 밑단"
+        ],
+        "bottomDetails": [
+          "곡선형 이중 허리 장식",
+          "작은 리본 2개"
+        ],
+        "fabricKeywords": [
+          "펄",
+          "스팽글",
+          "새틴 터치"
+        ],
+        "mustPreserve": [
+          "상의 펄감",
+          "입체 러플",
+          "실제 하의 허리선",
+          "블랙 컬러"
+        ],
+        "avoidList": [
+          "아이보리 니트 스커트",
+          "회색 하의",
+          "미디 기장",
+          "허리 장식 누락"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      },
+      "scores": {
+        "colorMatch": "",
+        "lengthMatch": "",
+        "detailMatch": "",
+        "fabricMatch": "",
+        "silhouetteMatch": ""
+      },
+      "evaluation": {
+        "passCount": 0,
+        "hardFail": false,
+        "hardFailReasons": [],
+        "recommendation": "보류"
+      },
+      "status": "reference 재선정",
+      "approved": false,
+      "memo": "실제 하의 reference 승인 대기",
+      "regenerationMemo": "reference 확정 전 model draft 생성 금지",
+      "generationBlocked": true
+    },
+    {
+      "candidateId": "S943_TIA-S800_model_draft_01",
+      "targetCode": "S943_TIA-S800",
+      "topCode": "S943",
+      "topName": "블랙 배색 컵라인 코르셋 탑",
+      "topColor": "블랙",
+      "bottomCode": "TIA-S800",
+      "bottomName": "화이트 포인트 미니스커트",
+      "bottomColor": "화이트",
+      "topImages": [
+        "assets/thumb-fc8f8c469d7c.webp",
+        "assets/thumb-29c312c17b2e.webp"
+      ],
+      "bottomImages": [
+        "assets/thumb-fb5c109c40d5.webp",
+        "assets/thumb-d2e1239c18e0.webp"
+      ],
+      "referenceImages": [
+        "assets/thumb-dd9b512302ce.webp"
+      ],
+      "candidateImage": "",
+      "analysis": {
+        "topCode": "S943",
+        "bottomCode": "TIA-S800",
+        "topColor": "블랙",
+        "bottomColor": "화이트",
+        "allowedColors": {
+          "top": [
+            "블랙"
+          ],
+          "bottom": [
+            "화이트"
+          ]
+        },
+        "topLength": "크롭",
+        "bottomLength": "미니",
+        "topSilhouette": "슬림 코르셋",
+        "bottomSilhouette": "화이트 미니스커트",
+        "topDetails": [
+          "화이트 파이핑 컵라인",
+          "셔링",
+          "세로 절개"
+        ],
+        "bottomDetails": [
+          "실제 포인트 디테일",
+          "실제 허리선"
+        ],
+        "fabricKeywords": [
+          "슬림 우븐",
+          "니트"
+        ],
+        "mustPreserve": [
+          "블랙+화이트 조합",
+          "컵라인 배색",
+          "셔링",
+          "하의 미니 기장"
+        ],
+        "avoidList": [
+          "그레이",
+          "소라",
+          "어색한 회색 톤",
+          "미디 기장"
+        ],
+        "generationRules": [
+          "Use the real product images as the primary reference.",
+          "Do not invent new colors.",
+          "Do not simplify or replace the actual skirt silhouette.",
+          "Preserve the actual length, pockets, buttons, ribbons, frills and seam positions.",
+          "Vendor references are for pose and mood only, never product details."
+        ]
+      },
+      "scores": {
+        "colorMatch": "O",
+        "lengthMatch": "O",
+        "detailMatch": "△",
+        "fabricMatch": "△",
+        "silhouetteMatch": "O"
+      },
+      "evaluation": {
+        "passCount": 3,
+        "hardFail": false,
+        "hardFailReasons": [],
+        "recommendation": "조건부 승인"
+      },
+      "status": "보류",
+      "approved": false,
+      "memo": "1안. 컵라인과 하의 포인트 재확인",
+      "regenerationMemo": "그레이 톤 없이 블랙+화이트 유지",
+      "generationBlocked": false
+    },
+    {
       "candidateId": "S943_TIA-S800_model_draft_02",
       "targetCode": "S943_TIA-S800",
       "topCode": "S943",
@@ -463,10 +922,10 @@
       },
       "status": "승인",
       "approved": true,
-      "memo": "블랙+화이트 조합과 실제 하의 디테일 유지",
+      "memo": "2안. 블랙+화이트 조합과 실제 하의 디테일 유지",
       "regenerationMemo": "",
       "generationBlocked": false
     }
   ],
-  "itemCount": 5
+  "itemCount": 10
 }
