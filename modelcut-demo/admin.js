@@ -27,6 +27,7 @@
   const arrayAnalysisFields = new Set(["topDetails", "bottomDetails", "fabricKeywords", "mustPreserve", "avoidList"]);
   const images = { top: [], bottom: [], reference: [], candidate: [] };
   const editedAnalysis = new Set();
+  let analysisGenerated = false;
 
   const byId = id => document.getElementById(id);
   const value = id => byId(id).value.trim();
@@ -36,6 +37,24 @@
     const target = byId("statusLine");
     target.textContent = message;
     target.classList.toggle("error", error);
+    if (error) byId("saveSuccess").classList.add("hidden");
+  }
+
+  function fillAdvancedDefaults() {
+    const defaults = {
+      fabricKeywords: "실제 제품 사진 기준 원단 질감",
+      topDetails: "실제 상의 이미지의 프릴, 리본, 버튼, 컵라인, 절개 등 핵심 디테일 보존",
+      bottomDetails: "실제 하의 이미지의 허리선, 포켓, 버튼, 플리츠, 튤 레이어 등 핵심 디테일 보존",
+      topLength: "실제 상의 이미지 기준 기장",
+      bottomLength: "실제 하의 이미지 기준 기장",
+      topSilhouette: "실제 상의 이미지 기준 실루엣",
+      bottomSilhouette: "실제 하의 이미지 기준 실루엣",
+      mustPreserve: [value("topColor") && `상의 ${value("topColor")} 컬러`, value("bottomColor") && `하의 ${value("bottomColor")} 컬러`, "실제 기장", "실제 실루엣", "이미지에 보이는 핵심 디테일"].filter(Boolean).join(", "),
+      avoidList: "입력에 없는 컬러, 실제에 없는 디테일, 기장 변경, 실루엣 변경",
+    };
+    Object.entries(defaults).forEach(([field, defaultValue]) => {
+      if (!value(field)) byId(field).value = defaultValue;
+    });
   }
 
   function analysisControl(field) {
@@ -48,11 +67,14 @@
   }
 
   function generateAnalysis(force = false) {
+    fillAdvancedDefaults();
     if (force) editedAnalysis.clear();
     Object.entries(sourceAnalysisMap).forEach(([field, sourceId]) => {
       const sourceValue = value(sourceId);
       setAnalysisValue(field, arrayAnalysisFields.has(field) ? store.splitKeywords(sourceValue) : sourceValue, force);
     });
+    analysisGenerated = true;
+    byId("analysisResult").classList.remove("hidden");
     return collectAnalysis();
   }
 
@@ -135,6 +157,7 @@ ${imageRoleLines("reference")}
 ${value("memo") || "없음"}`;
     byId("prompt").value = prompt;
     if (byId("status").value === "입력중") byId("status").value = "프롬프트 준비";
+    byId("promptResult").classList.remove("hidden");
     setStatus("상품 분석을 반영한 생성 프롬프트를 만들었습니다.");
     return prompt;
   }
@@ -167,9 +190,11 @@ ${value("memo") || "없음"}`;
   }
 
   function validateJob(job) {
-    const missing = ["jobId", "topCode", "bottomCode", "topName", "bottomName", "topColor", "bottomColor"].filter(field => !job[field]);
-    if (missing.length) throw new Error(`필수 입력 누락: ${missing.join(", ")}`);
-    if (!job.images.top.length || !job.images.bottom.length) throw new Error("상의와 하의 이미지를 각각 1장 이상 선택하세요.");
+    const labels = { jobId: "작업 ID", topCode: "상의 코드", bottomCode: "하의 코드", topName: "상의 상품명", bottomName: "하의 상품명", topColor: "상의 컬러", bottomColor: "하의 컬러" };
+    const missing = Object.keys(labels).filter(field => !job[field]).map(field => labels[field]);
+    if (!job.images.top.length) missing.push("상의 이미지");
+    if (!job.images.bottom.length) missing.push("하의 이미지");
+    if (missing.length) throw new Error(`저장할 수 없습니다.\n${missing.join(", ")}를 확인해주세요.`);
     if (job.images.top.length > 5 || job.images.bottom.length > 5 || job.images.reference.length > 3 || job.images.candidate.length > 3) throw new Error("이미지 최대 장수를 초과했습니다.");
   }
 
@@ -189,13 +214,18 @@ ${value("memo") || "없음"}`;
     editedAnalysis.clear();
     Object.entries(job.analysis || {}).forEach(([field, fieldValue]) => setAnalysisValue(field, fieldValue, true));
     byId("prompt").value = job.prompt || "";
+    analysisGenerated = Boolean(job.analysis && Object.keys(job.analysis).length);
+    byId("analysisResult").classList.toggle("hidden", !analysisGenerated);
+    byId("promptResult").classList.toggle("hidden", !job.prompt);
+    byId("advancedSettings").open = false;
+    byId("saveSuccess").classList.add("hidden");
     setStatus(`${jobId} 작업을 편집 모드로 불러왔습니다.`);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   async function renderJobList() {
     const jobs = await store.listJobs();
-    byId("jobList").innerHTML = jobs.length ? jobs.map(job => `<article class="job-item"><strong>${escapeHtml(job.jobId)}</strong><span>${escapeHtml(job.topCode)} + ${escapeHtml(job.bottomCode)} · ${escapeHtml(job.status)}</span><button type="button" data-load-job="${escapeHtml(job.jobId)}">입력값 편집</button></article>`).join("") : '<p class="empty">저장된 사용자 작업이 없습니다.</p>';
+    byId("jobList").innerHTML = jobs.length ? jobs.map(job => `<article class="job-item"><strong>${escapeHtml(job.jobId)}</strong><span>${escapeHtml(job.topCode)} + ${escapeHtml(job.bottomCode)}</span><span>상태: ${escapeHtml(job.status)}</span><div class="job-actions"><a href="index.html#card-${encodeURIComponent(job.jobId)}_candidate_01">검토판에서 보기</a><button type="button" class="delete" data-delete-job="${escapeHtml(job.jobId)}">삭제</button></div><button type="button" class="edit-button" data-load-job="${escapeHtml(job.jobId)}">입력값 편집</button></article>`).join("") : '<p class="empty">아직 저장된 작업이 없습니다.<br><br>왼쪽에서 상품코드와 이미지를 넣고<br>[작업 저장하기]를 누르면 여기에 표시됩니다.</p>';
   }
 
   function resetForm() {
@@ -208,6 +238,11 @@ ${value("memo") || "없음"}`;
     document.querySelectorAll("[data-analysis]").forEach(control => control.value = "");
     byId("prompt").value = "";
     byId("status").value = "입력중";
+    analysisGenerated = false;
+    byId("analysisResult").classList.add("hidden");
+    byId("promptResult").classList.add("hidden");
+    byId("advancedSettings").open = false;
+    byId("saveSuccess").classList.add("hidden");
     setStatus("새 작업 입력을 시작합니다.");
   }
 
@@ -233,17 +268,40 @@ ${value("memo") || "없음"}`;
     images[card.dataset.type][Number(card.dataset.index)].role = event.target.value;
   }));
 
-  Object.values(sourceAnalysisMap).forEach(sourceId => byId(sourceId).addEventListener("input", () => generateAnalysis(false)));
+  document.querySelectorAll("[data-upload-type]").forEach(dropzone => {
+    dropzone.addEventListener("dragover", event => { event.preventDefault(); dropzone.classList.add("dragover"); });
+    dropzone.addEventListener("dragleave", () => dropzone.classList.remove("dragover"));
+    dropzone.addEventListener("drop", async event => {
+      event.preventDefault();
+      dropzone.classList.remove("dragover");
+      try { await addFiles(dropzone.dataset.uploadType, event.dataTransfer.files); }
+      catch (error) { setStatus(`이미지 처리 실패: ${error.message}`, true); }
+    });
+  });
+
+  Object.values(sourceAnalysisMap).forEach(sourceId => byId(sourceId).addEventListener("input", () => { if (analysisGenerated) generateAnalysis(false); }));
   document.querySelectorAll("[data-analysis]").forEach(control => control.addEventListener("input", () => editedAnalysis.add(control.dataset.analysis)));
-  byId("generateAnalysis").addEventListener("click", () => { generateAnalysis(true); setStatus("상품 분석 요약을 입력값으로 다시 생성했습니다."); });
+  byId("generateAnalysis").addEventListener("click", () => { generateAnalysis(true); setStatus("상품 분석 자동 생성이 완료되었습니다. 필요하면 결과를 직접 수정하세요."); });
   byId("generatePrompt").addEventListener("click", generatePrompt);
+  byId("copyPrompt").addEventListener("click", async () => {
+    const prompt = byId("prompt").value.trim() || generatePrompt();
+    try {
+      await navigator.clipboard.writeText(prompt);
+      setStatus("프롬프트를 클립보드에 복사했습니다.");
+    } catch {
+      byId("prompt").focus();
+      byId("prompt").select();
+      document.execCommand("copy");
+      setStatus("프롬프트를 클립보드에 복사했습니다.");
+    }
+  });
   byId("downloadPrompt").addEventListener("click", () => {
     const prompt = byId("prompt").value.trim() || generatePrompt();
     const filename = `${value("jobId") || "modelcut_job"}_prompt.txt`;
     store.downloadText(prompt, filename);
     setStatus(`${filename} 다운로드를 시작했습니다.`);
   });
-  byId("resetForm").addEventListener("click", resetForm);
+  byId("resetTop").addEventListener("click", resetForm);
 
   byId("jobForm").addEventListener("submit", async event => {
     event.preventDefault();
@@ -253,7 +311,11 @@ ${value("memo") || "없음"}`;
       validateJob(job);
       await store.putJob(job);
       await renderJobList();
-      setStatus(`${job.jobId} 작업을 IndexedDB에 저장했습니다. 검토판에서 바로 확인할 수 있습니다.`);
+      const message = `저장 완료: ${job.jobId} 작업이 브라우저에 저장되었습니다.\n검토판에서 확인할 수 있습니다.`;
+      setStatus(message);
+      byId("savedMessage").textContent = message;
+      byId("savedReviewLink").href = `index.html#card-${encodeURIComponent(job.jobId)}_candidate_01`;
+      byId("saveSuccess").classList.remove("hidden");
     } catch (error) {
       setStatus(error.message, true);
     }
@@ -262,6 +324,13 @@ ${value("memo") || "없음"}`;
   byId("jobList").addEventListener("click", event => {
     const button = event.target.closest("[data-load-job]");
     if (button) loadJob(button.dataset.loadJob).catch(error => setStatus(error.message, true));
+    const deleteButton = event.target.closest("[data-delete-job]");
+    if (deleteButton && confirm(`${deleteButton.dataset.deleteJob} 작업을 브라우저에서 삭제할까요?`)) {
+      store.deleteJob(deleteButton.dataset.deleteJob).then(() => {
+        if (value("jobId") === deleteButton.dataset.deleteJob) resetForm();
+        return renderJobList();
+      }).then(() => setStatus(`${deleteButton.dataset.deleteJob} 작업을 삭제했습니다.`)).catch(error => setStatus(error.message, true));
+    }
   });
 
   byId("exportJobs").addEventListener("click", async () => {
@@ -287,7 +356,6 @@ ${value("memo") || "없음"}`;
     event.target.value = "";
   });
 
-  generateAnalysis(true);
   renderJobList().catch(error => setStatus(`저장소 초기화 실패: ${error.message}`, true));
   store.subscribe(() => renderJobList());
 })();

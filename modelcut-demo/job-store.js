@@ -81,6 +81,15 @@
     announceChange();
   }
 
+  async function deleteJob(jobId) {
+    const database = await openDatabase();
+    const transaction = database.transaction(STORE_NAME, "readwrite");
+    transaction.objectStore(STORE_NAME).delete(jobId);
+    await transactionComplete(transaction);
+    database.close();
+    announceChange();
+  }
+
   function fileToImage(file, role) {
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
@@ -161,6 +170,7 @@
     getJob,
     putJob,
     importJobs,
+    deleteJob,
     listReviewItems,
     fileToImage,
     splitKeywords,
