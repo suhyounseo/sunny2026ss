@@ -3,8 +3,8 @@
 
   const store = window.ModelcutStore;
   const limits = { top: 5, bottom: 5, reference: 3, candidate: 3 };
-  const fileInputs = { top: "topFiles", bottom: "bottomFiles", reference: "referenceFiles", candidate: "candidateFiles" };
-  const previewTargets = { top: "topPreviews", bottom: "bottomPreviews", reference: "referencePreviews", candidate: "candidatePreviews" };
+  const fileInputs = { top: "topFiles", bottom: "bottomFiles", candidate: "candidateFiles" };
+  const previewTargets = { top: "topPreviews", bottom: "bottomPreviews", candidate: "candidatePreviews" };
   const roleOptions = {
     top: ["상의 정면", "상의 디테일", "상의 후면", "상의 원단", "상의 기타"],
     bottom: ["하의 정면", "하의 디테일", "하의 후면", "하의 원단", "하의 기타"],
@@ -118,8 +118,8 @@
     const analysis = generateAnalysis(false);
     const prompt = `[NICE 모델컷 생성 작업]
 작업 ID: ${value("jobId") || "미입력"}
-상의: ${value("topCode")} / ${value("topName")} / ${analysis.topColor}
-하의: ${value("bottomCode")} / ${value("bottomName")} / ${analysis.bottomColor}
+상의: ${value("topCode")} / ${value("topName") || "상품명 미입력"} / ${analysis.topColor || "컬러 미입력"}
+하의: ${value("bottomCode")} / ${value("bottomName") || "상품명 미입력"} / ${analysis.bottomColor || "컬러 미입력"}
 
 [실제 제품 이미지 역할]
 상의 이미지:
@@ -190,48 +190,24 @@ ${value("memo") || "없음"}`;
   }
 
   function validateJob(job) {
-    const labels = { jobId: "작업 ID", topCode: "상의 코드", bottomCode: "하의 코드", topName: "상의 상품명", bottomName: "하의 상품명", topColor: "상의 컬러", bottomColor: "하의 컬러" };
+    const labels = { jobId: "작업 ID", topCode: "상의 코드", bottomCode: "하의 코드" };
     const missing = Object.keys(labels).filter(field => !job[field]).map(field => labels[field]);
     if (!job.images.top.length) missing.push("상의 이미지");
     if (!job.images.bottom.length) missing.push("하의 이미지");
+    if (!job.images.candidate.length) missing.push("생성 모델컷 후보 이미지");
     if (missing.length) throw new Error(`저장할 수 없습니다.\n${missing.join(", ")}를 확인해주세요.`);
     if (job.images.top.length > 5 || job.images.bottom.length > 5 || job.images.reference.length > 3 || job.images.candidate.length > 3) throw new Error("이미지 최대 장수를 초과했습니다.");
   }
 
-  function fillField(id, nextValue) {
-    byId(id).value = Array.isArray(nextValue) ? nextValue.join(", ") : (nextValue || "");
-  }
-
-  async function loadJob(jobId) {
-    const job = await store.getJob(jobId);
-    if (!job) return;
-    ["jobId", "topCode", "bottomCode", "topName", "bottomName", "topColor", "bottomColor", "topLength", "bottomLength", "topSilhouette", "bottomSilhouette", "memo", "status"].forEach(field => fillField(field, job[field]));
-    ["fabricKeywords", "topDetails", "bottomDetails", "mustPreserve", "avoidList"].forEach(field => fillField(field, job[field]));
-    Object.keys(images).forEach(type => {
-      images[type] = structuredClone(job.images?.[type] || []);
-      renderPreviews(type);
-    });
-    editedAnalysis.clear();
-    Object.entries(job.analysis || {}).forEach(([field, fieldValue]) => setAnalysisValue(field, fieldValue, true));
-    byId("prompt").value = job.prompt || "";
-    analysisGenerated = Boolean(job.analysis && Object.keys(job.analysis).length);
-    byId("analysisResult").classList.toggle("hidden", !analysisGenerated);
-    byId("promptResult").classList.toggle("hidden", !job.prompt);
-    byId("advancedSettings").open = false;
-    byId("saveSuccess").classList.add("hidden");
-    setStatus(`${jobId} 작업을 편집 모드로 불러왔습니다.`);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
   async function renderJobList() {
     const jobs = await store.listJobs();
-    byId("jobList").innerHTML = jobs.length ? jobs.map(job => `<article class="job-item"><strong>${escapeHtml(job.jobId)}</strong><span>${escapeHtml(job.topCode)} + ${escapeHtml(job.bottomCode)}</span><span>상태: ${escapeHtml(job.status)}</span><div class="job-actions"><a href="index.html#card-${encodeURIComponent(job.jobId)}_candidate_01">검토판에서 보기</a><button type="button" class="delete" data-delete-job="${escapeHtml(job.jobId)}">삭제</button></div><button type="button" class="edit-button" data-load-job="${escapeHtml(job.jobId)}">입력값 편집</button></article>`).join("") : '<p class="empty">아직 저장된 작업이 없습니다.<br><br>왼쪽에서 상품코드와 이미지를 넣고<br>[작업 저장하기]를 누르면 여기에 표시됩니다.</p>';
+    byId("jobList").innerHTML = jobs.length ? jobs.map(job => `<article class="job-item"><strong>${escapeHtml(job.jobId)}</strong><span>${escapeHtml(job.topCode)} + ${escapeHtml(job.bottomCode)}</span><span>상태: ${escapeHtml(job.status)}</span><div class="job-actions"><a href="index.html#card-${encodeURIComponent(job.jobId)}_candidate_01">검토판에서 보기</a><button type="button" class="delete" data-delete-job="${escapeHtml(job.jobId)}">삭제</button></div></article>`).join("") : '<p class="empty">아직 저장된 작업이 없습니다.<br><br>왼쪽에서 상품코드와 이미지를 넣고<br>[작업 저장하기]를 누르면 여기에 표시됩니다.</p>';
   }
 
   function resetForm() {
     byId("jobForm").reset();
-    Object.keys(images).forEach(type => {
-      images[type] = [];
+    Object.keys(images).forEach(type => { images[type] = []; });
+    Object.keys(previewTargets).forEach(type => {
       renderPreviews(type);
     });
     editedAnalysis.clear();
@@ -283,6 +259,11 @@ ${value("memo") || "없음"}`;
   document.querySelectorAll("[data-analysis]").forEach(control => control.addEventListener("input", () => editedAnalysis.add(control.dataset.analysis)));
   byId("generateAnalysis").addEventListener("click", () => { generateAnalysis(true); setStatus("상품 분석 자동 생성이 완료되었습니다. 필요하면 결과를 직접 수정하세요."); });
   byId("generatePrompt").addEventListener("click", generatePrompt);
+  byId("focusImages").addEventListener("click", () => {
+    byId("imageStep").scrollIntoView({ behavior: "smooth", block: "start" });
+    byId("topFiles").focus();
+    setStatus("상의, 하의, 생성 모델컷 후보 이미지를 차례로 넣어주세요.");
+  });
   byId("copyPrompt").addEventListener("click", async () => {
     const prompt = byId("prompt").value.trim() || generatePrompt();
     try {
@@ -311,7 +292,7 @@ ${value("memo") || "없음"}`;
       validateJob(job);
       await store.putJob(job);
       await renderJobList();
-      const message = `저장 완료: ${job.jobId} 작업이 브라우저에 저장되었습니다.\n검토판에서 확인할 수 있습니다.`;
+      const message = "저장 완료: 작업이 브라우저에 저장되었습니다. 검토판에서 확인할 수 있습니다.";
       setStatus(message);
       byId("savedMessage").textContent = message;
       byId("savedReviewLink").href = `index.html#card-${encodeURIComponent(job.jobId)}_candidate_01`;
@@ -322,8 +303,6 @@ ${value("memo") || "없음"}`;
   });
 
   byId("jobList").addEventListener("click", event => {
-    const button = event.target.closest("[data-load-job]");
-    if (button) loadJob(button.dataset.loadJob).catch(error => setStatus(error.message, true));
     const deleteButton = event.target.closest("[data-delete-job]");
     if (deleteButton && confirm(`${deleteButton.dataset.deleteJob} 작업을 브라우저에서 삭제할까요?`)) {
       store.deleteJob(deleteButton.dataset.deleteJob).then(() => {

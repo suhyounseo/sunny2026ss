@@ -6,6 +6,8 @@
   const scoreFields = ["colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "silhouetteMatch"];
   const statuses = ["입력중", "프롬프트 준비", "생성 대기", "후보 검토", "승인 후보", "조건부 승인", "재생성", "반려", "승인", "보류", "reference 재선정", "제외"];
   let states = safeStoredStates();
+  let showSamples = false;
+  let sampleData = null;
 
   const byId = id => document.getElementById(id);
   const escapeHtml = input => String(input ?? "").replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
@@ -21,7 +23,24 @@
 
   function gallery(label, imageSources) {
     const validImages = (imageSources || []).filter(Boolean);
-    return `<section class="group"><h3>${escapeHtml(label)} · ${validImages.length}장</h3><div class="gallery">${validImages.map(source => `<img src="${escapeHtml(source)}" alt="${escapeHtml(label)}" loading="lazy">`).join("") || '<div class="empty">이미지 연결 대기</div>'}</div></section>`;
+    return `<section class="group"><h3>${escapeHtml(label)} · ${validImages.length}장</h3><div class="gallery">${validImages.map(source => `<img src="${escapeHtml(source)}" alt="${escapeHtml(label)}" loading="lazy">`).join("") || '<div class="image-empty">이미지 연결 대기</div>'}</div></section>`;
+  }
+
+  function readable(value) {
+    if (Array.isArray(value)) return value.join(", ") || "미입력";
+    return String(value || "미입력");
+  }
+
+  function analysisDetails(item) {
+    const analysis = item.analysis || {};
+    const fields = [
+      ["상의 컬러", analysis.topColor || item.topColor], ["하의 컬러", analysis.bottomColor || item.bottomColor],
+      ["상의 기장", analysis.topLength], ["하의 기장", analysis.bottomLength],
+      ["상의 실루엣", analysis.topSilhouette], ["하의 실루엣", analysis.bottomSilhouette],
+      ["상의 디테일", analysis.topDetails], ["하의 디테일", analysis.bottomDetails],
+      ["소재", analysis.fabricKeywords], ["반드시 보존", analysis.mustPreserve], ["생성 금지", analysis.avoidList],
+    ];
+    return `<details class="analysis"><summary>상품 분석${item.referenceCount ? ` · 참고 ${item.referenceCount}장` : ""}</summary><ul class="analysis-list">${fields.map(([label, value]) => `<li><strong>${label}</strong><br>${escapeHtml(readable(value))}</li>`).join("")}</ul></details>`;
   }
 
   function renderItem(item) {
@@ -29,8 +48,8 @@
     const state = { ...item, ...saved, scores: { ...item.scores, ...(saved.scores || {}) } };
     const checks = scoreFields.map(field => `<label class="check"><span>${({ colorMatch: "컬러", lengthMatch: "기장", detailMatch: "디테일", fabricMatch: "원단", silhouetteMatch: "실루엣" })[field]}</span><select data-score="${field}">${options(["O", "△", "X", ""], state.scores[field])}</select></label>`).join("");
     const userBadge = item.source === "admin" ? '<span class="source">사용자 작업</span>' : "";
-    const promptDetails = item.prompt ? `<details class="analysis"><summary>모델컷 생성 프롬프트</summary><pre>${escapeHtml(item.prompt)}</pre></details>` : "";
-    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName)} + ${escapeHtml(item.bottomName)}</h2><p class="combo">${escapeHtml(item.topCode)} · ${escapeHtml(item.topColor)} / ${escapeHtml(item.bottomCode)} · ${escapeHtml(item.bottomColor)}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="comparison">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}${gallery(item.candidateRole || "생성 모델컷", item.candidateImage ? [item.candidateImage] : [])}</div><div class="checks">${checks}</div><div class="edit"><label>검토 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div><details class="analysis"><summary>상품 분석${item.referenceCount ? ` · 참고 ${item.referenceCount}장` : ""}</summary><pre>${escapeHtml(JSON.stringify(item.analysis, null, 2))}</pre></details>${promptDetails}</article>`;
+    const promptDetails = item.prompt ? `<details class="analysis"><summary>모델컷 생성 프롬프트 보기</summary><div class="prompt-text">${escapeHtml(item.prompt)}</div></details>` : "";
+    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName || item.topCode)} + ${escapeHtml(item.bottomName || item.bottomCode)}</h2><p class="combo">${escapeHtml(item.topCode)}${item.topColor ? ` · ${escapeHtml(item.topColor)}` : ""} / ${escapeHtml(item.bottomCode)}${item.bottomColor ? ` · ${escapeHtml(item.bottomColor)}` : ""}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="comparison">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}${gallery(item.candidateRole || "생성 모델컷", item.candidateImage ? [item.candidateImage] : [])}</div><div class="checks">${checks}</div><div class="edit"><label>검토 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div>${analysisDetails(item)}${promptDetails}</article>`;
   }
 
   function enforce(card, scores) {
@@ -62,19 +81,23 @@
 
   async function loadBoard() {
     try {
-      const response = await fetch("data/review_items.json");
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const sample = await response.json();
       const userItems = await store.listReviewItems();
-      const items = [...sample.items, ...userItems];
-      byId("title").textContent = sample.title;
-      byId("notice").textContent = `${sample.notice} · 샘플 ${sample.items.length}건 · 사용자 후보 ${userItems.length}건 · 전체 ${items.length}건`;
-      byId("grid").innerHTML = items.map(renderItem).join("");
+      if (showSamples && !sampleData) {
+        const response = await fetch("data/review_items.json");
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        sampleData = await response.json();
+      }
+      const samples = showSamples ? (sampleData?.items || []) : [];
+      const items = [...userItems, ...samples];
+      byId("notice").textContent = showSamples ? `저장 작업 ${userItems.length}건을 상단에 표시했습니다. · 테스트 샘플 ${samples.length}건 표시 중` : `저장 작업 ${userItems.length}건만 표시 중입니다. 테스트 샘플 10건은 기본 화면에서 숨겨져 있습니다.`;
+      byId("toggleSamples").textContent = showSamples ? "샘플 숨기기" : "샘플 데이터 불러오기";
+      byId("grid").innerHTML = items.length ? items.map(renderItem).join("") : '<div class="board-empty"><h2>아직 저장된 작업이 없습니다.</h2><p>새 작업 만들기에서 상품코드와 이미지를 넣고 저장하면<br>이곳에 검토 카드가 나타납니다.</p><a class="button" href="admin.html">새 작업 만들기</a></div>';
       document.querySelectorAll(".card").forEach(card => {
         const scores = {};
         card.querySelectorAll("[data-score]").forEach(control => scores[control.dataset.score] = control.value);
         enforce(card, scores);
       });
+      if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({ block: "start" });
     } catch (error) {
       byId("grid").innerHTML = `<div class="error">README의 HTTP 서버 명령으로 열어 주세요. (${escapeHtml(error.message)})</div>`;
     }
@@ -82,6 +105,10 @@
 
   byId("grid").addEventListener("change", saveReviewState);
   byId("grid").addEventListener("input", saveReviewState);
+  byId("toggleSamples").addEventListener("click", async () => {
+    showSamples = !showSamples;
+    await loadBoard();
+  });
   byId("export").addEventListener("click", () => {
     saveReviewState();
     store.downloadText(JSON.stringify({ schemaVersion: 1, items: states }, null, 2), "modelcut_review_state.json", "application/json;charset=utf-8");
