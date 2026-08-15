@@ -43,13 +43,26 @@
     return `<details class="analysis"><summary>상품 분석${item.referenceCount ? ` · 참고 ${item.referenceCount}장` : ""}</summary><ul class="analysis-list">${fields.map(([label, value]) => `<li><strong>${label}</strong><br>${escapeHtml(readable(value))}</li>`).join("")}</ul></details>`;
   }
 
+  function requestSummary(item) {
+    const request = item.generationRequest;
+    if (!request) return '<section class="request-summary legacy"><div><span class="request-label">3 · 모델컷 생성 요청</span><h3>기존 테스트 데이터</h3></div><p>생성 요청 패키지가 없는 이전 샘플입니다.</p></section>';
+    const preserve = readable(request.analysis?.mustPreserve);
+    const avoid = readable(request.analysis?.avoidList);
+    return `<section class="request-summary"><div><span class="request-label">3 · 모델컷 생성 요청</span><h3>생성 요청 패키지 준비 완료</h3></div><div class="request-stats"><span>상의 ${request.topImages?.length || 0}장</span><span>하의 ${request.bottomImages?.length || 0}장</span><span>참고 ${request.referenceImages?.length || 0}장</span><span>정면 전신컷</span></div><p><strong>반드시 보존</strong> ${escapeHtml(preserve)}</p><p><strong>생성 금지</strong> ${escapeHtml(avoid)}</p></section>`;
+  }
+
+  function candidateGallery(item) {
+    const candidates = item.candidateImages?.length ? item.candidateImages : (item.candidateImage ? [{ src: item.candidateImage, role: item.candidateRole || "후보 1" }] : []);
+    return `<section class="candidate-section"><div class="section-heading"><span>4 · 생성 결과</span><h3>생성된 모델컷 후보 · ${candidates.length}장</h3></div><div class="candidate-gallery">${candidates.map((candidate, index) => `<figure><img src="${escapeHtml(candidate.src)}" alt="${escapeHtml(candidate.role || `후보 ${index + 1}`)}" loading="lazy"><figcaption>${escapeHtml(candidate.role || `후보 ${index + 1}`)}</figcaption></figure>`).join("") || '<div class="image-empty">생성 결과 업로드 대기</div>'}</div></section>`;
+  }
+
   function renderItem(item) {
     const saved = states[item.candidateId] || {};
     const state = { ...item, ...saved, scores: { ...item.scores, ...(saved.scores || {}) } };
     const checks = scoreFields.map(field => `<label class="check"><span>${({ colorMatch: "컬러", lengthMatch: "기장", detailMatch: "디테일", fabricMatch: "원단", silhouetteMatch: "실루엣" })[field]}</span><select data-score="${field}">${options(["O", "△", "X", ""], state.scores[field])}</select></label>`).join("");
     const userBadge = item.source === "admin" ? '<span class="source">사용자 작업</span>' : "";
     const promptDetails = item.prompt ? `<details class="analysis"><summary>모델컷 생성 프롬프트 보기</summary><div class="prompt-text">${escapeHtml(item.prompt)}</div></details>` : "";
-    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName || item.topCode)} + ${escapeHtml(item.bottomName || item.bottomCode)}</h2><p class="combo">${escapeHtml(item.topCode)}${item.topColor ? ` · ${escapeHtml(item.topColor)}` : ""} / ${escapeHtml(item.bottomCode)}${item.bottomColor ? ` · ${escapeHtml(item.bottomColor)}` : ""}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="comparison">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}${gallery(item.candidateRole || "생성 모델컷", item.candidateImage ? [item.candidateImage] : [])}</div><div class="checks">${checks}</div><div class="edit"><label>검토 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div>${analysisDetails(item)}${promptDetails}</article>`;
+    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName || item.topCode)} + ${escapeHtml(item.bottomName || item.bottomCode)}</h2><p class="combo">${escapeHtml(item.topCode)}${item.topColor ? ` · ${escapeHtml(item.topColor)}` : ""} / ${escapeHtml(item.bottomCode)}${item.bottomColor ? ` · ${escapeHtml(item.bottomColor)}` : ""}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="input-heading"><span>1–2 · 실제 제품 입력</span><strong>생성 전</strong></div><div class="comparison inputs">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}</div>${requestSummary(item)}${candidateGallery(item)}<div class="qa-heading"><span>5 · 검수 상태</span><strong>생성 후 검토</strong></div><div class="checks">${checks}</div><div class="edit"><label>승인/보류 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div>${analysisDetails(item)}${promptDetails}</article>`;
   }
 
   function enforce(card, scores) {

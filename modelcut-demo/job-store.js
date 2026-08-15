@@ -126,9 +126,9 @@
   }
 
   function reviewItemsForJob(job) {
-    const candidates = job.images?.candidate?.length ? job.images.candidate : [null];
-    return candidates.map((candidate, index) => ({
-      candidateId: `${job.jobId}_candidate_${String(index + 1).padStart(2, "0")}`,
+    const candidates = job.images?.candidate || [];
+    return [{
+      candidateId: `${job.jobId}_candidate_01`,
       targetCode: job.jobId,
       topCode: job.topCode,
       topName: job.topName,
@@ -139,10 +139,13 @@
       topImages: (job.images?.top || []).map(imageSource),
       bottomImages: (job.images?.bottom || []).map(imageSource),
       referenceImages: (job.images?.reference || []).map(imageSource),
-      candidateImage: imageSource(candidate),
-      candidateRole: candidate?.role || `생성 후보 ${index + 1}`,
+      candidateImage: imageSource(candidates[0]),
+      candidateImages: candidates.map(image => ({ src: imageSource(image), role: image.role, name: image.name })),
+      candidateRole: "생성된 모델컷 후보",
       analysis: job.analysis || {},
       prompt: job.prompt || "",
+      generationRequest: job.generationRequest || null,
+      requestCreatedAt: job.requestCreatedAt || job.updatedAt || "",
       scores: { colorMatch: "", lengthMatch: "", detailMatch: "", fabricMatch: "", silhouetteMatch: "" },
       evaluation: { passCount: 0, hardFail: false, hardFailReasons: [], recommendation: "후보 검토" },
       status: job.status || "입력중",
@@ -151,7 +154,7 @@
       regenerationMemo: "",
       source: "admin",
       referenceCount: (job.images?.reference || []).length,
-    }));
+    }];
   }
 
   async function listReviewItems() {
