@@ -1,0 +1,42 @@
+{
+  "jobId": "MVP_S941_N260007",
+  "storedInputs": {
+    "top": [
+      {
+        "id": "",
+        "name": "thumb-0a4b33313ab0.webp",
+        "role": "상의 정면",
+        "mimeType": "image/webp",
+        "size": 13092,
+        "path": "inputs/tops/top_01.webp"
+      },
+      {
+        "id": "",
+        "name": "thumb-29c312c17b2e.webp",
+        "role": "상의 디테일",
+        "mimeType": "image/webp",
+        "size": 9864,
+        "path": "inputs/tops/top_02.webp"
+      }
+    ],
+    "bottom": [
+      {
+        "id": "",
+        "name": "thumb-37358a876b94.webp",
+        "role": "하의 정면",
+        "mimeType": "image/webp",
+        "size": 9338,
+        "path": "inputs/bottoms/bottom_01.webp"
+      },
+      {
+        "id": "",
+        "name": "thumb-3979bca45c87.webp",
+        "role": "하의 디테일",
+        "mimeType": "image/webp",
+        "size": 8558,
+        "path": "inputs/bottoms/bottom_02.webp"
+      }
+    ],
+    "reference": []
+  }
+}

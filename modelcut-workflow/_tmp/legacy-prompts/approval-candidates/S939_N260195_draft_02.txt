@@ -1,0 +1,4 @@
+Use case: identity-preserve
+Input images: S939_04.jpg = primary actual top; N260195_04.jpg = primary actual skirt; vendor_reference_05.png = secondary fit reference only.
+Create a front-facing full-body adult East Asian fashion model cut. Preserve the actual pale-pink watercolor floral print, wide white straps, sweetheart cup line, front seams/buttons and crop length of S939. Preserve the actual ivory high-waist straight skirt, silver ring buckle, front slit and knee-to-just-below-knee length of N260195. Product fidelity is more important than atmosphere. No invented color, trim, print, logo, text or watermark. Never lengthen the skirt to mid-calf or ankle.
+Use the vendor image only to check how the cup line, straps and fitted top length sit on a body. Do not copy its model, face, hair, pose, accessories, background, black color or black skirt.

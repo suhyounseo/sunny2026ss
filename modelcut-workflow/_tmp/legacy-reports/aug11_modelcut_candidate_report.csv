@@ -1,0 +1,10 @@
+﻿targetCode,targetName,targetType,targetColor,matchCode,matchName,matchType,matchColor,priority,draftImage,approved,memo
+S939,프린트 배색 뷔스티에 탑,TOP,핑크 / 블랙,N260195,링 포인트 미디 스커트,SKIRT,아이보리,1,S939_N260195_model_draft_01.png,false,1차 모델컷 생성
+S939,프린트 배색 뷔스티에 탑,TOP,핑크 / 블랙,N260007,투피스 하의,BOTTOM_FROM_TWO_PIECE,블랙,2,,false,대체 코디 후보
+S939,프린트 배색 뷔스티에 탑,TOP,핑크 / 블랙,N260006,투피스 하의,BOTTOM_FROM_TWO_PIECE,핑크 / 화이트,3,,false,대체 코디 후보
+S940,브이넥 랩 크롭 탑,TOP,화이트 / 옐로우,S729,플리츠 미니 스커트,BOTTOM_FROM_TWO_PIECE,화이트,1,S940_S729_model_draft_01.png,false,1차 모델컷 생성; S729 하의만 참고
+S940,브이넥 랩 크롭 탑,TOP,화이트 / 옐로우,S730,투피스 하의,BOTTOM_FROM_TWO_PIECE,옐로우,2,,false,옐로우 대체 코디 후보
+S941,프릴 오프숄더 탑,TOP,연핑크 / 와인,N260007,리본 밴드 튤 미니 스커트,BOTTOM_FROM_TWO_PIECE,블랙,1,S941_N260007_model_draft_01.png,false,실제 컬러 기준 수정본 생성
+S941,프릴 오프숄더 탑,TOP,연핑크 / 와인,N260195,링 포인트 미디 스커트,SKIRT,아이보리,2,,false,대체 코디 후보
+S942,러플 포인트 탑,TOP,아이보리,TIA-S799,언발 니트 미니 스커트,SKIRT,아이보리,1,S942_TIA-S799_model_draft_01.png,false,1차 모델컷 생성
+S943,배색 코르셋 탑,TOP,블루그레이 / 블랙,TIA-S800,셔링 리본 미니 스커트,SKIRT,화이트,1,S943_TIA-S800_model_draft_01.png,false,실제 블랙 상의 + 실제 화이트 하의 기준 수정본 생성

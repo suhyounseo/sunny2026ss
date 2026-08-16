@@ -1,0 +1,37 @@
+[
+  {
+    "targetCode": "S939", "topCode": "S939", "bottomCode": "N260195", "color": "핑크 + 아이보리",
+    "candidate": "output/drafts/S939_N260195_model_draft_02.png",
+    "topReference": "input/aug11/S939/S939_04.jpg", "bottomReference": "refs/showroom/N260195/N260195_04.jpg",
+    "colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "approval": "승인 후보",
+    "memo": "스커트를 실제 제품처럼 무릎 바로 아래 길이로 수정. 거래처 컷은 상의 착용 비율만 참고하고 모델·배경·하의는 미사용"
+  },
+  {
+    "targetCode": "S940", "topCode": "S940", "bottomCode": "S729", "color": "화이트 + 화이트",
+    "candidate": "output/drafts/S940_S729_vendorref_01.png",
+    "topReference": "input/aug11/S940/S940_04.jpg", "bottomReference": "refs/showroom/S729/S729_09.jpg",
+    "colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "approval": "승인 후보",
+    "memo": "거래처 옐로우 착용컷에서 랩·퍼프소매 비율만 참고한 새 후보 채택. 거래처 컬러·모델·하의·배경은 미사용"
+  },
+  {
+    "targetCode": "S941", "topCode": "S941", "bottomCode": "N260007", "color": "연핑크 + 블랙",
+    "candidate": "output/drafts/S941_N260007_vendorref_01.png",
+    "topReference": "input/aug11/S941/S941_04.jpg", "bottomReference": "refs/showroom/N260007/N260007_04.jpg",
+    "colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "approval": "승인 후보",
+    "memo": "거래처 컷에서 오프숄더·프릴 착용 위치만 참고한 새 후보 채택. 거래처 모델·포즈·배경·핑크 하의는 미사용"
+  },
+  {
+    "targetCode": "S942", "topCode": "S942", "bottomCode": "TIA-S799", "color": "아이보리 + 아이보리",
+    "candidate": "output/drafts/S942_TIA-S799_model_draft_01.png",
+    "topReference": "input/aug11/S942/S942_01.jpg", "bottomReference": "refs/showroom/TIA-S799/TIA-S799_09.jpg",
+    "colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "approval": "승인 후보",
+    "memo": "실제 펄·스팽글·러플과 아이보리 미니 길이 유지. 거래처 컷은 원단 반응과 밑단 비율만 참고"
+  },
+  {
+    "targetCode": "S943", "topCode": "S943", "bottomCode": "TIA-S800", "color": "블랙 + 화이트",
+    "candidate": "output/drafts/S943_TIA-S800_model_draft_02.png",
+    "topReference": "input/aug11/S943/S943_09.jpg", "bottomReference": "refs/showroom/TIA-S800/TIA-S800_07.jpg",
+    "colorMatch": "O", "lengthMatch": "O", "detailMatch": "O", "approval": "승인 후보",
+    "memo": "어색한 그레이·소라 조합을 폐기하고 실제 블랙·화이트 조합으로 수정. 거래처 컷은 컵라인·허리 길이만 참고"
+  }
+]

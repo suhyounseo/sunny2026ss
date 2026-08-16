@@ -1,0 +1,49 @@
+[
+  {
+    "targetCode": "S939",
+    "targetType": "TOP",
+    "targetName": "프린트 배색 뷔스티에 탑",
+    "exclude": false,
+    "generateNow": true,
+    "colorOptions": ["핑크", "블랙"],
+    "promptTop": "핑크 플라워 프린트 크롭 뷔스티에 탑. 두꺼운 화이트 스트랩, 스위트하트 라인, 앞 버튼 디테일.",
+    "matchCandidates": [
+      {"matchCode": "N260195", "matchName": "링 포인트 미디 스커트", "matchType": "SKIRT", "matchColor": "아이보리", "priority": 1, "promptBottom": "아이보리 하이웨이스트 미디 스커트. 허리 링 포인트, 앞트임, 슬림 실루엣.", "note": "1차 모델컷 생성"},
+      {"matchCode": "N260007", "matchName": "투피스 하의", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "블랙", "priority": 2, "promptBottom": "블랙 계열 투피스 하의.", "note": "대체 코디 후보"},
+      {"matchCode": "N260006", "matchName": "투피스 하의", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "핑크 / 화이트", "priority": 3, "promptBottom": "핑크 또는 화이트 계열 투피스 하의.", "note": "대체 코디 후보"}
+    ]
+  },
+  {
+    "targetCode": "S940", "targetType": "TOP", "targetName": "브이넥 랩 크롭 탑", "exclude": false, "generateNow": true,
+    "colorOptions": ["화이트", "옐로우"], "promptTop": "화이트 브이넥 랩 크롭 탑. 짧은 반소매, 살짝 퍼프감 있는 어깨, 크로스 밑단.",
+    "matchCandidates": [
+      {"matchCode": "S729", "matchName": "플리츠 미니 스커트", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "화이트", "priority": 1, "promptBottom": "화이트 하이웨이스트 플리츠 미니 스커트. 깔끔하고 여성스러운 투피스 무드.", "note": "1차 모델컷 생성; S729 하의만 참고"},
+      {"matchCode": "S730", "matchName": "투피스 하의", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "옐로우", "priority": 2, "promptBottom": "옐로우 계열 투피스 하의.", "note": "옐로우 대체 코디 후보"}
+    ]
+  },
+  {
+    "targetCode": "S941", "targetType": "TOP", "targetName": "프릴 오프숄더 탑", "exclude": false, "generateNow": true,
+    "colorOptions": ["연핑크", "와인"], "promptTop": "연핑크 오프숄더 프릴 크롭 탑. 리본 포인트와 앞 버튼 디테일.",
+    "matchCandidates": [
+      {"matchCode": "N260007", "matchName": "리본 밴드 튤 미니 스커트", "matchType": "BOTTOM_FROM_TWO_PIECE", "matchColor": "블랙", "priority": 1, "promptBottom": "실제 제품 사진과 같은 블랙 하이웨이스트 튤 미니 스커트. 여러 겹 허리 밴드와 작은 블랙 리본 2개.", "note": "실제 컬러 기준 수정본 생성"},
+      {"matchCode": "N260195", "matchName": "링 포인트 미디 스커트", "matchType": "SKIRT", "matchColor": "아이보리", "priority": 2, "promptBottom": "아이보리 미디 스커트.", "note": "대체 코디 후보"}
+    ]
+  },
+  {
+    "targetCode": "S942", "targetType": "TOP", "targetName": "러플 포인트 탑", "exclude": false, "generateNow": true,
+    "colorOptions": ["아이보리"], "promptTop": "아이보리 펄감의 러플 포인트 슬리브리스 탑. 얇은 스트랩, 입체 러플, 반짝이는 소재감, 비대칭 밑단.",
+    "matchCandidates": [
+      {"matchCode": "TIA-S799", "matchName": "언발 니트 미니 스커트", "matchType": "SKIRT", "matchColor": "아이보리", "priority": 1, "promptBottom": "아이보리 계열 언발 니트 미니 스커트. 부드러운 니트 텍스처와 슬림 실루엣.", "note": "1차 모델컷 생성"}
+    ]
+  },
+  {
+    "targetCode": "S943", "targetType": "TOP", "targetName": "배색 코르셋 탑", "exclude": false, "generateNow": true,
+    "colorOptions": ["블루그레이", "블랙"], "promptTop": "블루그레이 코르셋 뷔스티에 탑. 화이트 배색 브라 라인, 얇은 어깨끈, 슬림 코르셋 라인.",
+    "matchCandidates": [
+      {"matchCode": "TIA-S800", "matchName": "셔링 리본 미니 스커트", "matchType": "SKIRT", "matchColor": "화이트", "priority": 1, "promptBottom": "실제 제품 사진과 같은 화이트 하이웨이스트 슬림 미니 스커트. 오른쪽 허리의 가로 셔링과 작은 리본 장식.", "note": "실제 블랙 상의 + 실제 화이트 하의 기준 수정본 생성"}
+    ]
+  },
+  {"targetCode": "S944", "targetType": "UNKNOWN", "targetName": "작업 제외", "exclude": true, "generateNow": false, "colorOptions": [], "matchCandidates": [], "reason": "사장님 요청으로 이번 모델컷 작업 제외"},
+  {"targetCode": "S945", "targetType": "SKIRT", "targetName": "드레이프 랩 미니 스커트", "exclude": false, "generateNow": false, "colorOptions": ["화이트", "핑크", "민트", "블랙"], "matchCandidates": [], "reason": "상의 확정 후 생성"},
+  {"targetCode": "S946", "targetType": "SKIRT", "targetName": "스팽글 미니 스커트", "exclude": false, "generateNow": false, "colorOptions": ["아이보리", "핑크", "소라"], "matchCandidates": [], "reason": "상의 확정 후 생성"}
+]

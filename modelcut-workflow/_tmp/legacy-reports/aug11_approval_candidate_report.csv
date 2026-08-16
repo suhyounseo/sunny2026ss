@@ -1,0 +1,7 @@
+﻿productCode,topCode,bottomCode,color,actualColorMatch,lengthMatch,detailMatch,finalStatus,approvalCandidate,revisionNeeded,excluded,candidateImage,memo
+S939,S939,N260195,핑크 + 아이보리,O,O,O,승인 후보,true,false,false,output/drafts/S939_N260195_model_draft_02.png,스커트를 실제 제품처럼 무릎 바로 아래 길이로 수정. 거래처 컷은 상의 착용 비율만 참고하고 모델·배경·하의는 미사용
+S940,S940,S729,화이트 + 화이트,O,O,O,승인 후보,true,false,false,output/drafts/S940_S729_vendorref_01.png,거래처 옐로우 착용컷에서 랩·퍼프소매 비율만 참고한 새 후보 채택. 거래처 컬러·모델·하의·배경은 미사용
+S941,S941,N260007,연핑크 + 블랙,O,O,O,승인 후보,true,false,false,output/drafts/S941_N260007_vendorref_01.png,거래처 컷에서 오프숄더·프릴 착용 위치만 참고한 새 후보 채택. 거래처 모델·포즈·배경·핑크 하의는 미사용
+S942,S942,TIA-S799,아이보리 + 아이보리,O,O,O,승인 후보,true,false,false,output/drafts/S942_TIA-S799_model_draft_01.png,실제 펄·스팽글·러플과 아이보리 미니 길이 유지. 거래처 컷은 원단 반응과 밑단 비율만 참고
+S943,S943,TIA-S800,블랙 + 화이트,O,O,O,승인 후보,true,false,false,output/drafts/S943_TIA-S800_model_draft_02.png,어색한 그레이·소라 조합을 폐기하고 실제 블랙·화이트 조합으로 수정. 거래처 컷은 컵라인·허리 길이만 참고
+S944,,,,,,,제외,false,false,true,,작업지시서에 따라 제외
