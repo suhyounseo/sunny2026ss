@@ -2,6 +2,7 @@
   "use strict";
 
   const store = window.ModelcutStore;
+  const API_BASE = "http://127.0.0.1:8787";
   const reviewKey = "nice-modelcut-review-v1";
   const scoreFields = ["colorMatch", "lengthMatch", "detailMatch", "fabricMatch", "silhouetteMatch"];
   const statuses = ["입력중", "프롬프트 준비", "생성 대기", "후보 검토", "승인 후보", "조건부 승인", "재생성", "반려", "승인", "보류", "reference 재선정", "제외"];
@@ -62,7 +63,43 @@
     const checks = scoreFields.map(field => `<label class="check"><span>${({ colorMatch: "컬러", lengthMatch: "기장", detailMatch: "디테일", fabricMatch: "원단", silhouetteMatch: "실루엣" })[field]}</span><select data-score="${field}">${options(["O", "△", "X", ""], state.scores[field])}</select></label>`).join("");
     const userBadge = item.source === "admin" ? '<span class="source">사용자 작업</span>' : "";
     const promptDetails = item.prompt ? `<details class="analysis"><summary>모델컷 생성 프롬프트 보기</summary><div class="prompt-text">${escapeHtml(item.prompt)}</div></details>` : "";
-    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName || item.topCode)} + ${escapeHtml(item.bottomName || item.bottomCode)}</h2><p class="combo">${escapeHtml(item.topCode)}${item.topColor ? ` · ${escapeHtml(item.topColor)}` : ""} / ${escapeHtml(item.bottomCode)}${item.bottomColor ? ` · ${escapeHtml(item.bottomColor)}` : ""}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="input-heading"><span>1–2 · 실제 제품 입력</span><strong>생성 전</strong></div><div class="comparison inputs">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}</div>${requestSummary(item)}${candidateGallery(item)}<div class="qa-heading"><span>5 · 검수 상태</span><strong>생성 후 검토</strong></div><div class="checks">${checks}</div><div class="edit"><label>승인/보류 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div>${analysisDetails(item)}${promptDetails}</article>`;
+    const references = item.referenceImages?.length ? `<div class="comparison inputs">${gallery("포즈·배경 참고", item.referenceImages)}</div>` : "";
+    const regenerate = item.source === "admin" ? `<div class="server-action"><button class="button secondary" type="button" data-regenerate="${escapeHtml(item.targetCode)}">재생성 메모 반영해 후보 다시 만들기</button><span data-generation-message>로컬 생성 서버(127.0.0.1:8787)를 사용합니다.</span></div>` : "";
+    return `<article id="card-${escapeHtml(item.candidateId)}" class="card${item.source === "admin" ? " user-card" : ""}" data-id="${escapeHtml(item.candidateId)}"><div class="card-head"><div><p class="code">${escapeHtml(item.candidateId)}${userBadge}</p><h2>${escapeHtml(item.topName || item.topCode)} + ${escapeHtml(item.bottomName || item.bottomCode)}</h2><p class="combo">${escapeHtml(item.topCode)}${item.topColor ? ` · ${escapeHtml(item.topColor)}` : ""} / ${escapeHtml(item.bottomCode)}${item.bottomColor ? ` · ${escapeHtml(item.bottomColor)}` : ""}</p></div><select name="status" class="status">${options(statuses, state.status)}</select></div><div class="input-heading"><span>1–2 · 실제 제품 입력</span><strong>생성 전</strong></div><div class="comparison inputs">${gallery("실제 상의", item.topImages)}${gallery("실제 하의", item.bottomImages)}</div>${references}${requestSummary(item)}${candidateGallery(item)}<div class="qa-heading"><span>5 · 검수 상태</span><strong>생성 후 검토</strong></div><div class="checks">${checks}</div><div class="edit"><label>승인/보류 메모<textarea name="memo" rows="3">${escapeHtml(state.memo)}</textarea></label><label>재생성 메모<textarea name="regenerationMemo" rows="3">${escapeHtml(state.regenerationMemo)}</textarea></label><label class="approve"><input type="checkbox" name="approved"${state.approved ? " checked" : ""}> 최종 승인</label></div>${regenerate}${analysisDetails(item)}${promptDetails}</article>`;
+  }
+
+  async function api(path, options = {}) {
+    const response = await fetch(`${API_BASE}${path}`, { ...options, headers: { "Content-Type": "application/json", ...(options.headers || {}) } });
+    let body = {}; try { body = await response.json(); } catch { /* no body */ }
+    if (!response.ok) throw new Error(body.detail || `서버 오류 HTTP ${response.status}`);
+    return body;
+  }
+
+  function blobToDataUrl(blob) { return new Promise((resolve, reject) => { const reader = new FileReader(); reader.onload = () => resolve(reader.result); reader.onerror = () => reject(reader.error); reader.readAsDataURL(blob); }); }
+
+  async function waitForRegeneration(jobId, card, button) {
+    const message = card.querySelector("[data-generation-message]");
+    while (true) {
+      const state = await api(`/api/jobs/${encodeURIComponent(jobId)}/status`);
+      message.textContent = `${state.status} · ${state.message || ""}`;
+      if (state.status === "실패") throw new Error(state.error || "재생성 실패");
+      if (state.status === "완료") break;
+      await new Promise(resolve => setTimeout(resolve, 1500));
+    }
+    const candidates = await api(`/api/jobs/${encodeURIComponent(jobId)}/candidates`);
+    const job = await store.getJob(jobId);
+    if (!job) throw new Error("브라우저에 저장된 원본 작업을 찾을 수 없습니다.");
+    job.images.candidate = [];
+    for (const candidate of candidates) {
+      const response = await fetch(`${API_BASE}${candidate.url}`);
+      if (!response.ok) throw new Error(`후보 이미지 로드 실패: HTTP ${response.status}`);
+      const blob = await response.blob();
+      job.images.candidate.push({ id: crypto.randomUUID?.() || `${Date.now()}-${candidate.index}`, name: candidate.fileName, role: `후보 ${candidate.index}`, type: blob.type || "image/png", size: blob.size, dataUrl: await blobToDataUrl(blob), serverUrl: `${API_BASE}${candidate.url}` });
+    }
+    job.status = "후보 검토";
+    await store.putJob(job);
+    button.disabled = false;
+    await loadBoard();
   }
 
   function enforce(card, scores) {
@@ -118,6 +155,21 @@
 
   byId("grid").addEventListener("change", saveReviewState);
   byId("grid").addEventListener("input", saveReviewState);
+  byId("grid").addEventListener("click", async event => {
+    const button = event.target.closest("[data-regenerate]");
+    if (!button) return;
+    const card = button.closest(".card");
+    const memo = card.querySelector('[name="regenerationMemo"]').value.trim();
+    if (!memo) return alert("재생성 메모를 먼저 입력하세요.");
+    saveReviewState(); button.disabled = true;
+    try {
+      await api(`/api/jobs/${encodeURIComponent(button.dataset.regenerate)}/regenerate`, { method: "POST", body: JSON.stringify({ regenerationMemo: memo, candidateCount: 3 }) });
+      await waitForRegeneration(button.dataset.regenerate, card, button);
+    } catch (error) {
+      button.disabled = false;
+      card.querySelector("[data-generation-message]").textContent = `재생성 실패 · ${error.message}`;
+    }
+  });
   byId("toggleSamples").addEventListener("click", async () => {
     showSamples = !showSamples;
     await loadBoard();

@@ -30,8 +30,11 @@ modelcut-workflow/input/references/*
 modelcut-workflow/output/drafts/
 modelcut-workflow/output/revised/
 modelcut-workflow/output/temp/
+modelcut-workflow/output/generation_jobs/
 modelcut-workflow/output/analysis/*.local.json
 modelcut-workflow/_tmp/
+modelcut-workflow/.venv/
+modelcut-workflow/.env
 modelcut-workflow/refs/products/**/*.jpg
 modelcut-workflow/refs/products/**/*.jpeg
 modelcut-workflow/refs/products/**/*.png

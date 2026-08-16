@@ -2,7 +2,7 @@
 
 실제 상의·하의 사진을 여러 장 대조해 상품 일치도 중심의 모델컷 후보를 준비하고 검토하는 독립 테스트 시스템입니다. 분위기보다 컬러, 기장, 실루엣, 디테일, 원단 일치를 우선합니다.
 
-이 MVP는 `modelcut-workflow-test` 브랜치용입니다. 루트 쇼룸의 `products.json`, `index.html`, `app.js`, `style.css`를 읽거나 수정하지 않으며, 승인 결과를 운영 쇼룸에 자동 반영하지 않습니다. 실제 AI 이미지 생성과 재생성 API 연결은 2단계 범위입니다.
+이 MVP는 `modelcut-workflow-test` 브랜치용입니다. 루트 쇼룸의 `products.json`, `index.html`, `app.js`, `style.css`를 수정하지 않으며, 승인 결과를 운영 쇼룸에 자동 반영하지 않습니다. 로컬 FastAPI 서버와 OpenAI 이미지 provider를 통해 생성·상태 조회·자동 후보 연결·재생성을 실행합니다.
 
 ## 폴더 구조
 
@@ -26,6 +26,13 @@ modelcut-workflow/
     approved/              명시적으로 승인된 결과만 이동
   templates/
     review_board_template.html  원본 템플릿
+  server/
+    app.py                  FastAPI 작업·생성·상태·후보 API
+    image_provider.py       교체 가능한 OpenAI/test provider
+    storage.py              작업별 입력·요청·후보·로그 저장
+    schemas.py              API 데이터 계약
+    settings.py             .env 기반 서버 설정
+    requirements.txt        로컬 서버 의존성
   tools/
     modelcut_workflow.py    입력 검증·검토 상태 저장
     generate_analysis.py    생성 전 상품 분석
@@ -55,9 +62,9 @@ http://127.0.0.1:8765/modelcut-demo/admin.html
 2. 실제 상의 3~5장과 실제 하의 3~5장을 올리고 각 이미지에 정면·후면·디테일·원단 역할을 지정합니다. 포즈·배경·거래처 분위기 참고 이미지는 선택 사항입니다.
 3. `상품 분석 만들기`를 누릅니다. 상품명·컬러·소재·디테일·기장·실루엣·보존/금지 요소는 선택 입력 안에 있으며 비어 있는 값은 실제 사진 기준 문구로 채워집니다.
 4. `모델컷 생성 요청 만들기`를 눌러 역할 기반 실전 프롬프트와 생성 요청 패키지를 준비합니다.
-5. `generation_prompt.txt`, `generation_request.json`, `reference_images_manifest.json`을 내려받고 원본 이미지와 함께 외부 이미지 생성툴 또는 코덱스에 전달합니다.
-6. 생성된 모델컷을 `생성된 모델컷 업로드`에 최대 3장 다시 올립니다. 후보 1·2·3 역할이 자동 지정됩니다.
-7. `작업 저장하기`를 눌러 생성 요청과 결과를 현재 브라우저의 IndexedDB에 함께 저장합니다.
+5. `모델컷 생성 실행`을 누릅니다. 로컬 API가 상의 최대 3장, 하의 최대 3장, 참고 최대 2장을 실제 생성 provider에 전달합니다.
+6. 대기중 → 생성중 → 완료/실패 상태와 후보별 진행률을 확인합니다. 완료 후보 1~3장은 관리자 미리보기와 IndexedDB에 자동 연결됩니다. 수동 업로드는 외부 결과를 가져올 때의 보조 경로입니다.
+7. `작업 저장하기`를 눌러 생성 요청과 결과를 브라우저 IndexedDB와 `output/generation_jobs/<jobId>/`에 함께 저장합니다.
 8. `검토판에서 확인하기`를 눌러 실제 제품 입력 → 생성 요청 요약 → 생성 결과 후보 → 검수 상태를 한 카드에서 확인합니다.
 9. 검토판에서 상태, O/△/X 점수, 승인 체크, 승인/보류 메모, 재생성 메모를 입력합니다.
 10. 검토판의 기존 샘플 10건은 기본으로 숨겨집니다. 테스트할 때만 `샘플 데이터 불러오기`를 누릅니다.
@@ -70,9 +77,9 @@ http://127.0.0.1:8765/modelcut-demo/admin.html
 - `generation_request.json`: 작업 코드, 이미지 파일 목록, 상품 분석, `generationInstruction`을 담은 API 연결용 계약
 - `reference_images_manifest.json`: 원본 이미지 파일명·역할·형식·크기·순서와 역할별 사용 지시
 
-JSON에는 이미지 데이터 URL을 중복 내장하지 않습니다. 다운로드한 원본 이미지와 manifest를 함께 전달하는 구조이며, 이후 로컬 백엔드나 이미지 생성 API를 연결할 수 있도록 `schemaVersion: 2` 작업 구조를 사용합니다.
+다운로드용 요청 JSON에는 이미지 manifest를 담고, 서버 전송 계약에는 실제 이미지 data URL을 포함합니다. 서버는 이를 파일로 분리 저장하고 `request.json`에는 대용량 원문 대신 상대 경로를 기록합니다. 현재 계약은 `schemaVersion: 3`입니다.
 
-이미지와 사용자 작업은 서버에 저장되지 않습니다. IndexedDB는 현재 브라우저·도메인에 종속되며 브라우저 데이터 삭제 시 사라질 수 있으므로 중요한 작업은 반드시 JSON으로 백업합니다. 이미지가 포함된 JSON은 파일 크기가 커질 수 있습니다. 이미지 포함 ZIP 작업팩은 2단계 확장 범위입니다.
+브라우저 작업은 IndexedDB에, 생성 작업은 로컬 파일 시스템에도 저장됩니다. IndexedDB는 현재 브라우저·도메인에 종속되므로 JSON 내보내기로 별도 백업할 수 있습니다. API 키는 프론트 코드나 JSON에 넣지 않고 서버의 `.env`에서만 읽습니다.
 
 ## 입력 형식
 
@@ -91,7 +98,44 @@ JSON에는 이미지 데이터 URL을 중복 내장하지 않습니다. 다운�
 
 샘플에는 S939의 과도한 스커트 연장, S941의 핑크 하의, S942의 잘못된 하의 reference, S943의 없는 그레이/소라 톤을 금지 규칙으로 포함했습니다. S942는 실제 reference 승인 전 생성 차단 상태입니다.
 
-## 실행
+## 로컬 생성 서버 실행
+
+Python 3.11 이상에서 별도 가상환경을 권장합니다. `modelcut-workflow/.env.example`을 `.env`로 복사하고 `OPENAI_API_KEY`에 로컬 키를 입력합니다. `.env`와 생성 원본은 Git에서 제외됩니다.
+
+```powershell
+cd modelcut-workflow
+python -m venv .venv
+.\.venv\Scripts\python -m pip install -r server\requirements.txt
+Copy-Item server\.env.example .env
+# .env의 OPENAI_API_KEY를 입력
+.\.venv\Scripts\python server\app.py
+```
+
+또는 같은 환경에서 다음 명령을 사용할 수 있습니다.
+
+```powershell
+uvicorn server.app:app --reload --host 127.0.0.1 --port 8787
+```
+
+서버 기본 주소는 `http://127.0.0.1:8787`입니다. API는 작업 저장/조회/목록/삭제, 생성, 상태, 재생성, 후보 조회를 제공합니다. 기본 provider는 `openai`, 모델은 `gpt-image-2`입니다. 생성 호출마다 상의 정면·디테일·후면/원단 우선 최대 3장, 하의 최대 3장, 포즈·배경 참고 최대 2장만 선택합니다.
+
+실제 API 비용 없이 배관만 점검하려면 `.env`에서 `MODELCUT_PROVIDER=test`를 사용할 수 있습니다. 이 공급자는 결과 전면에 `MODELCUT TEST PROVIDER / DIAGNOSTIC ONLY`를 표시하는 입력 접촉판만 만들며 실제 모델컷이나 승인 후보가 아닙니다.
+
+작업별 파일은 다음 위치에 저장됩니다.
+
+```text
+output/generation_jobs/<jobId>/
+  request.json
+  prompt.txt
+  manifest.json
+  inputs/tops/
+  inputs/bottoms/
+  inputs/references/
+  generated/candidate_01.png ... candidate_03.png
+  logs/generation_log.json
+```
+
+## 정적 화면 실행
 
 Python 3.11 이상과 데모 썸네일 생성용 Pillow가 필요합니다. 저장소 루트에서 먼저 워크플로우 폴더로 이동합니다.
 
@@ -117,9 +161,9 @@ python -m http.server 8765 --bind 127.0.0.1
 
 1. 입력: 실제 상의 최대 5장, 실제 하의 최대 5장, 포즈·배경 참고 최대 3장에 역할을 지정합니다.
 2. 상품 분석: 컬러·기장·실루엣·디테일·원단·필수 보존·금지 목록을 생성합니다.
-3. 생성 요청: 세 개의 요청 파일을 만들고 외부 생성툴 또는 코덱스에 원본 이미지와 함께 전달합니다. MVP에서는 생성 API를 자동 호출하지 않습니다.
-4. 결과 업로드: 외부에서 생성한 모델컷 후보를 최대 3장 업로드하고 생성 요청과 함께 저장합니다.
-5. 검토: 생성 전 제품 이미지, 생성 요청 요약, 생성 후 후보를 보고 상태·점수·승인/보류·재생성 메모를 관리합니다.
+3. 생성 요청·실행: 세 요청 파일을 만들고 로컬 API에 원본 이미지·분석·프롬프트를 전송합니다.
+4. 결과 확인: 후보 1~3장이 자동 미리보기에 채워집니다. 필요하면 외부 결과를 수동 업로드할 수도 있습니다.
+5. 검토·재생성: 생성 전 제품/참고 이미지, 요청 요약, 생성 후보를 대조하고 상태·점수·승인/보류 메모를 저장합니다. 재생성 메모는 기존 입력·분석과 함께 서버 프롬프트에 강제 추가됩니다.
 
 정적 페이지의 변경값은 해당 브라우저의 `localStorage`에 저장됩니다. “검토 상태 JSON 내보내기”로 공유 가능한 파일을 받습니다. 저장소 데이터에 명시적으로 반영할 때는 다음 CLI를 사용합니다.
 
@@ -230,3 +274,26 @@ https://<account>.github.io/<repository>/modelcut-demo/
 | 검토 메모 유지 | 통과 | 상태 `보류`, 승인/보류 메모, 재생성 메모 입력 후 새로고침 복원 확인 |
 | 샘플 기본 숨김 | 통과 | 사용자 작업이 먼저 표시되며 기존 샘플은 별도 버튼을 누를 때만 표시 |
 | 쇼룸 운영 파일 보호 | 통과 | 루트 `products.json`, `index.html`, `app.js`, `style.css`를 수정하지 않음 |
+
+## 로컬 생성 실행 시스템 테스트 결과
+
+테스트 일자: 2026-08-16
+
+실행 명령:
+
+```powershell
+cd modelcut-workflow
+python -m server.test_mvp
+```
+
+| 항목 | 결과 | 확인 내용 |
+|---|---|---|
+| S939 + N260195 | 진단 통과 | 요청/입력/강제 규칙 저장, 흰색 계열·미니 기장 규칙 포함, 후보 파일·로그 생성 |
+| S941 + N260007 | 진단 통과 | 핑크 하의 금지, 블랙 하의·오프숄더 프릴/리본 보존 규칙 포함, 후보 파일·로그 생성 |
+| S943 + TIA-S800 | 진단 통과 | 그레이/소라 금지, 블랙+화이트·가슴 배색 라인 보존 규칙 포함, 후보 파일·로그 생성 |
+| S942 reference 차단 | 통과 | `referenceApproved=false`인 경우 생성 전 `GenerationBlockedError` 발생 확인 |
+| 생성 provider 배관 | 통과 | 입력 저장 → 우선 참조 선택 → 후보 생성 → 진행 로그 → 후보 조회 구조 확인 |
+| 실제 OpenAI 생성 | 환경 대기 | 현재 실행 환경에 `OPENAI_API_KEY`가 없어 유료 실제 후보 호출은 수행하지 않음. 키와 서버 의존성 설치 후 동일 버튼/API 경로로 실행 가능 |
+| 쇼룸 운영 파일 보호 | 통과 | Git 변경 목록에 루트 `products.json`, `index.html`, `app.js`, `style.css` 없음 |
+
+진단 테스트의 후보 이미지는 의도적으로 큰 워터마크가 들어간 접촉판이며 상품 모델컷으로 사용할 수 없습니다. 실제 결과 품질 검증과 세 조합의 상품 일치도 판정은 OpenAI provider 실행 후 사람 검수로 완료해야 합니다.
