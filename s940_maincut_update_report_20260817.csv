@@ -1,0 +1,3 @@
+﻿code,name,oldMainImage,newMainImage,oldThumbImage,newThumbImage,note
+S940-WHITE,화이트 브이넥 퍼프 크롭 블라우스,assets/aug11/S940-WHITE/S940-WHITE_01.png,assets/aug11/S940-WHITE/S940-WHITE_02.png,assets/aug11/S940-WHITE/S940-WHITE_01.png,assets/aug11/S940-WHITE/S940-WHITE_02.png,"2번째 사진을 mainImage/thumbImage로 지정, cuts 맨 앞 유지"
+S940-YELLOW,옐로우 브이넥 퍼프 크롭 블라우스,assets/aug11/S940-YELLOW/S940-YELLOW_01.png,assets/aug11/S940-YELLOW/S940-YELLOW_02.png,assets/aug11/S940-YELLOW/S940-YELLOW_01.png,assets/aug11/S940-YELLOW/S940-YELLOW_02.png,"2번째 사진을 mainImage/thumbImage로 지정, cuts 맨 앞 유지"
