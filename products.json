@@ -251556,44 +251556,39 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/aug11/S944-BLACK/S944-BLACK_02.jpg",
-        "cut": "상세 1",
-        "source": "assets/aug11/S944-BLACK/S944-BLACK_02.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-BLACK/S944-BLACK_03.jpg",
-        "cut": "상세 2",
-        "source": "assets/aug11/S944-BLACK/S944-BLACK_03.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-BLACK/S944-BLACK_04.jpg",
-        "cut": "상세 3",
-        "source": "assets/aug11/S944-BLACK/S944-BLACK_04.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-BLACK/S944-BLACK_05.jpg",
-        "cut": "상세 4",
-        "source": "assets/aug11/S944-BLACK/S944-BLACK_05.jpg"
-      },
-      {
         "url": "assets/aug11/S944-BLACK/S944-BLACK_06.png",
-        "cut": "상세 5",
+        "cut": "모델컷 1",
         "source": "assets/aug11/S944-BLACK/S944-BLACK_06.png"
       },
       {
         "url": "assets/aug11/S944-BLACK/S944-BLACK_07.png",
-        "cut": "상세 6",
+        "cut": "모델컷 2",
         "source": "assets/aug11/S944-BLACK/S944-BLACK_07.png"
       },
       {
         "url": "assets/aug11/S944-BLACK/S944-BLACK_08.png",
-        "cut": "상세 7",
+        "cut": "모델컷 3",
         "source": "assets/aug11/S944-BLACK/S944-BLACK_08.png"
       },
       {
+        "url": "assets/aug11/S944-BLACK/S944-BLACK_03.jpg",
+        "cut": "제품컷 4",
+        "source": "assets/aug11/S944-BLACK/S944-BLACK_03.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-BLACK/S944-BLACK_05.jpg",
+        "cut": "제품컷 5",
+        "source": "assets/aug11/S944-BLACK/S944-BLACK_05.jpg"
+      },
+      {
         "url": "assets/aug11/S944-BLACK/S944-BLACK_01.jpg",
-        "cut": "대표컷",
+        "cut": "제품컷 6",
         "source": "assets/aug11/S944-BLACK/S944-BLACK_01.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-BLACK/S944-BLACK_02.jpg",
+        "cut": "제품컷 7",
+        "source": "assets/aug11/S944-BLACK/S944-BLACK_02.jpg"
       }
     ],
     "mainCopy": "블랙 슬림핏 테일러드 자켓",
@@ -251620,8 +251615,8 @@
     "zipper": "문의",
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/aug11/S944-BLACK/S944-BLACK_01.jpg",
-    "thumbImage": "assets/aug11/S944-BLACK/S944-BLACK_01.jpg",
+    "mainImage": "assets/aug11/S944-BLACK/S944-BLACK_04.jpg",
+    "thumbImage": "assets/aug11/S944-BLACK/S944-BLACK_04.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "brand": "NICE",
@@ -251695,54 +251690,49 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_02.jpg",
-        "cut": "상세 1",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_02.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_03.jpg",
-        "cut": "상세 2",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_03.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_04.jpg",
-        "cut": "상세 3",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_04.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_05.jpg",
-        "cut": "상세 4",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_05.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_06.jpg",
-        "cut": "상세 5",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_06.jpg"
-      },
-      {
-        "url": "assets/aug11/S944-WHITE/S944-WHITE_07.jpg",
-        "cut": "상세 6",
-        "source": "assets/aug11/S944-WHITE/S944-WHITE_07.jpg"
-      },
-      {
         "url": "assets/aug11/S944-WHITE/S944-WHITE_08.png",
-        "cut": "상세 7",
+        "cut": "모델컷 1",
         "source": "assets/aug11/S944-WHITE/S944-WHITE_08.png"
       },
       {
         "url": "assets/aug11/S944-WHITE/S944-WHITE_09.png",
-        "cut": "상세 8",
+        "cut": "모델컷 2",
         "source": "assets/aug11/S944-WHITE/S944-WHITE_09.png"
       },
       {
         "url": "assets/aug11/S944-WHITE/S944-WHITE_10.png",
-        "cut": "상세 9",
+        "cut": "모델컷 3",
         "source": "assets/aug11/S944-WHITE/S944-WHITE_10.png"
       },
       {
+        "url": "assets/aug11/S944-WHITE/S944-WHITE_03.jpg",
+        "cut": "제품컷 4",
+        "source": "assets/aug11/S944-WHITE/S944-WHITE_03.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-WHITE/S944-WHITE_04.jpg",
+        "cut": "제품컷 5",
+        "source": "assets/aug11/S944-WHITE/S944-WHITE_04.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-WHITE/S944-WHITE_05.jpg",
+        "cut": "제품컷 6",
+        "source": "assets/aug11/S944-WHITE/S944-WHITE_05.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-WHITE/S944-WHITE_07.jpg",
+        "cut": "제품컷 7",
+        "source": "assets/aug11/S944-WHITE/S944-WHITE_07.jpg"
+      },
+      {
         "url": "assets/aug11/S944-WHITE/S944-WHITE_01.jpg",
-        "cut": "대표컷",
+        "cut": "제품컷 8",
         "source": "assets/aug11/S944-WHITE/S944-WHITE_01.jpg"
+      },
+      {
+        "url": "assets/aug11/S944-WHITE/S944-WHITE_02.jpg",
+        "cut": "제품컷 9",
+        "source": "assets/aug11/S944-WHITE/S944-WHITE_02.jpg"
       }
     ],
     "mainCopy": "화이트 슬림핏 테일러드 자켓",
@@ -251769,8 +251759,8 @@
     "zipper": "문의",
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/aug11/S944-WHITE/S944-WHITE_01.jpg",
-    "thumbImage": "assets/aug11/S944-WHITE/S944-WHITE_01.jpg",
+    "mainImage": "assets/aug11/S944-WHITE/S944-WHITE_06.jpg",
+    "thumbImage": "assets/aug11/S944-WHITE/S944-WHITE_06.jpg",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "brand": "NICE",
@@ -252115,29 +252105,24 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/aug11/S945-SORA/S945-SORA_02.jpg",
-        "cut": "상세 1",
-        "source": "assets/aug11/S945-SORA/S945-SORA_02.jpg"
-      },
-      {
         "url": "assets/aug11/S945-SORA/S945-SORA_03.jpg",
-        "cut": "상세 2",
+        "cut": "제품컷 1",
         "source": "assets/aug11/S945-SORA/S945-SORA_03.jpg"
       },
       {
         "url": "assets/aug11/S945-SORA/S945-SORA_04.jpg",
-        "cut": "상세 3",
+        "cut": "제품컷 2",
         "source": "assets/aug11/S945-SORA/S945-SORA_04.jpg"
       },
       {
-        "url": "assets/aug11/S945-SORA/S945-SORA_05.png",
-        "cut": "상세 4",
-        "source": "assets/aug11/S945-SORA/S945-SORA_05.png"
+        "url": "assets/aug11/S945-SORA/S945-SORA_01.jpg",
+        "cut": "제품컷 3",
+        "source": "assets/aug11/S945-SORA/S945-SORA_01.jpg"
       },
       {
-        "url": "assets/aug11/S945-SORA/S945-SORA_01.jpg",
-        "cut": "대표컷",
-        "source": "assets/aug11/S945-SORA/S945-SORA_01.jpg"
+        "url": "assets/aug11/S945-SORA/S945-SORA_02.jpg",
+        "cut": "제품컷 4",
+        "source": "assets/aug11/S945-SORA/S945-SORA_02.jpg"
       }
     ],
     "mainCopy": "소라 새틴 셔링 랩 미디스커트",
@@ -252164,8 +252149,8 @@
     "zipper": "문의",
     "contactType": "kakao",
     "contactUrl": "",
-    "mainImage": "assets/aug11/S945-SORA/S945-SORA_01.jpg",
-    "thumbImage": "assets/aug11/S945-SORA/S945-SORA_01.jpg",
+    "mainImage": "assets/aug11/S945-SORA/S945-SORA_05.png",
+    "thumbImage": "assets/aug11/S945-SORA/S945-SORA_05.png",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "brand": "NICE",
