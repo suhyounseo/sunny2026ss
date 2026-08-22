@@ -1060,70 +1060,70 @@
     "images": [],
     "cuts": [
       {
-        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
-        "cut": "상품컷 1",
-        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
-        "originalFile": "시스템BL마리포사SK5.jpg"
-      },
-      {
-        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_02.jpg",
-        "cut": "상품컷 2",
-        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_02.jpg",
-        "originalFile": "시스템BL마리포사SK7.jpg"
-      },
-      {
-        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_03.jpg",
-        "cut": "상품컷 3",
-        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_03.jpg",
-        "originalFile": "시스템BL마리포사SK8.jpg"
-      },
-      {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_04.jpg",
-        "cut": "상품컷 4",
+        "cut": "메인컷",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_04.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림01.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_05.jpg",
-        "cut": "상품컷 5",
+        "cut": "상품컷 2",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_05.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림02.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_06.jpg",
-        "cut": "상품컷 6",
+        "cut": "상품컷 3",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_06.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림03.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_07.jpg",
-        "cut": "상품컷 7",
+        "cut": "상품컷 4",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_07.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림05.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_08.jpg",
-        "cut": "상품컷 8",
+        "cut": "상품컷 5",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_08.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림08.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_09.jpg",
-        "cut": "상품컷 9",
+        "cut": "상품컷 6",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_09.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림09.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_10.jpg",
-        "cut": "상품컷 10",
+        "cut": "상품컷 7",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_10.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림10.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_11.jpg",
-        "cut": "상품컷 11",
+        "cut": "상품컷 8",
         "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_11.jpg",
         "originalFile": "시스템BL마리포사SK블랙크림12.jpg"
+      },
+      {
+        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
+        "originalFile": "시스템BL마리포사SK5.jpg"
+      },
+      {
+        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_02.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_02.jpg",
+        "originalFile": "시스템BL마리포사SK7.jpg"
+      },
+      {
+        "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_03.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_03.jpg",
+        "originalFile": "시스템BL마리포사SK8.jpg"
       },
       {
         "url": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_12.jpg",
@@ -1132,8 +1132,8 @@
         "originalFile": "시스템BL마리포사SK블랙크림17.jpg"
       }
     ],
-    "mainImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
-    "thumbImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
+    "mainImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_04.jpg",
+    "thumbImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_04.jpg",
     "mainCopy": "우아하게 퍼지는 크림 플레어 스커트",
     "desc": "부드러운 크림 컬러의 플레어 스커트입니다. 블라우스와 매치했을 때 허리선은 깔끔하게 잡히고 스커트 라인은 우아하게 퍼져 고급스러운 데이트룩과 파티룩으로 좋습니다.",
     "description": "부드러운 크림 컬러의 플레어 스커트입니다. 블라우스와 매치했을 때 허리선은 깔끔하게 잡히고 스커트 라인은 우아하게 퍼져 고급스러운 데이트룩과 파티룩으로 좋습니다.",
@@ -1165,11 +1165,11 @@
     "size77Available": true,
     "size88Available": true,
     "designGroupId": "AUG16-MARIPOSA-SK",
-    "referenceMemo": "시스템BL 코디컷 포함",
+    "referenceMemo": "시스템BL 코디컷 포함 / 2026-08-22: 마리포사SK 크림 4번째 사진 메인컷 지정, 기존 1~3번 마네킹컷은 마지막 제품컷 전으로 이동.",
     "uploadDate": "2026-08-16",
     "sourceInfo": "8월 16일 제품정보.xlsx",
     "translations": {},
-    "cardImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_01.jpg",
+    "cardImage": "assets/aug16/photos/MARIPOSA_SK_CREAM/MARIPOSA_SK_CREAM_04.jpg",
     "photoStatus": "actual_product_photos_applied"
   },
   {
