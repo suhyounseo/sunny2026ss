@@ -33,7 +33,7 @@ const I18N = {
     searchPlaceholder: '화이트, 홀터넥, 레이스, 미디, 제시카 검색',
     item: 'items',
     picks: 'picks',
-    productCode: '상품코드',
+    productCode: '상품번호',
     similarSearch: '비슷한 옷 검색',
     noPhoto: '문의 가능',
     priceInquiry: '가격문의',
@@ -1830,6 +1830,7 @@ function openDetail(code) {
     <section class="copy">
       <div class="tags">${labelTags.map(x => `<span>${localizedLabelText(x)}</span>`).join('')}</div>
       <h2>${displayName(p)}</h2>
+      <div class="detail-code-badge" aria-label="${t('productCode')} ${displayCode(p)}"><span>${t('productCode')}</span><strong>${displayCode(p)}</strong></div>
       ${detailPriceBlock(p)}
       ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
       <div class="detail-lead">
