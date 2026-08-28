@@ -1,5 +1,4667 @@
 [
   {
+    "code": "JINI-001",
+    "customerCode": "JINI-001",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-001",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-001",
+    "name": "아이보리 레이스 브이넥 언발 미디원피스",
+    "storeName": "아이보리 레이스 브이넥 언발 미디원피스",
+    "productName": "아이보리 레이스 브이넥 언발 미디원피스",
+    "category": "MIDI",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "아이보리",
+    "variantColor": "아이보리",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 레이스+폴리혼방 / 신축성: 있음 / 캡여부: 없음 / 안감: 부분 / 비침: 하의 없음 / 상의 시스루 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 129000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "레이스원피스",
+      "아이보리",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "styleTags": [
+      "아이보리",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": true,
+    "priority": 43000,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_01.jpg",
+        "originalFile": "JINI-00101.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_02.jpg",
+        "originalFile": "JINI-00102.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_03.jpg",
+        "originalFile": "JINI-00103.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_04.jpg",
+        "originalFile": "JINI-00104.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_05.jpg",
+        "originalFile": "JINI-00105.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_06.jpg",
+        "originalFile": "JINI-00106.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_07.jpg",
+        "originalFile": "JINI-00107.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_08.jpg",
+        "originalFile": "JINI-00108.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_09.jpg",
+        "originalFile": "JINI-00109.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-001/JINI-001_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-001/JINI-001_10.jpg",
+        "originalFile": "JINI-00110.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-001/JINI-001_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-001/JINI-001_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-001/JINI-001_01.jpg",
+    "mainCopy": "아이보리 레이스 브이넥 언발 미디원피스",
+    "desc": "아이보리 컬러의 레이스 상의와 슬림한 스커트 라인이 조화롭게 이어지는 원피스입니다. 브이넥 라인이 목선을 여리하게 살려주고, 골드 버튼 포인트가 더해져 단정하면서도 고급스러운 분위기를 연출합니다. 언발란스하게 떨어지는 스커트 라인이 다리선을 길어 보이게 해주며, 여성스럽고 우아한 파티룩으로 착용하기 좋습니다.",
+    "description": "아이보리 컬러의 레이스 상의와 슬림한 스커트 라인이 조화롭게 이어지는 원피스입니다. 브이넥 라인이 목선을 여리하게 살려주고, 골드 버튼 포인트가 더해져 단정하면서도 고급스러운 분위기를 연출합니다. 언발란스하게 떨어지는 스커트 라인이 다리선을 길어 보이게 해주며, 여성스럽고 우아한 파티룩으로 착용하기 좋습니다.",
+    "points": [
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "whyYoullLoveIt": "아이보리 컬러의 레이스 상의와 슬림한 스커트 라인이 조화롭게 이어지는 원피스입니다. 브이넥 라인이 목선을 여리하게 살려주고, 골드 버튼 포인트가 더해져 단정하면서도 고급스러운 분위기를 연출합니다. 언발란스하게 떨어지는 스커트 라인이 다리선을 길어 보이게 해주며, 여성스럽고 우아한 파티룩으로 착용하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "레이스+폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "하의 없음 / 상의 시스루",
+    "lining": "부분",
+    "cap": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-LACE-OPS",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "40",
+            "허리단면": "30",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "42.5",
+            "허리단면": "32.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "45",
+            "허리단면": "35",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스+폴리혼방",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "부분",
+          "비침": "하의 없음 / 상의 시스루",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "레이스+폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "레이스원피스",
+      "아이보리",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "없음",
+    "안감": "부분",
+    "비침": "하의 없음 / 상의 시스루",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-002",
+    "customerCode": "JINI-002",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-002",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-002",
+    "name": "핑크 레이스 브이넥 언발 미디원피스",
+    "storeName": "핑크 레이스 브이넥 언발 미디원피스",
+    "productName": "핑크 레이스 브이넥 언발 미디원피스",
+    "category": "MIDI",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 레이스+폴리혼방 / 신축성: 있음 / 캡여부: 없음 / 안감: 부분 / 비침: 하의 없음 / 상의 시스루 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 129000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "레이스원피스",
+      "핑크",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "styleTags": [
+      "핑크",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": true,
+    "priority": 42999,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_01.jpg",
+        "originalFile": "JINI-00201.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_02.jpg",
+        "originalFile": "JINI-00202.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_03.jpg",
+        "originalFile": "JINI-00203.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_04.jpg",
+        "originalFile": "JINI-00204.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_05.jpg",
+        "originalFile": "JINI-00205.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_06.jpg",
+        "originalFile": "JINI-00206.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_07.jpg",
+        "originalFile": "JINI-00207.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_08.jpg",
+        "originalFile": "JINI-00208.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_09.jpg",
+        "originalFile": "JINI-00209.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_10.jpg",
+        "originalFile": "JINI-00210.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-002/JINI-002_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-002/JINI-002_11.jpg",
+        "originalFile": "JINI-00211.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-002/JINI-002_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-002/JINI-002_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-002/JINI-002_01.jpg",
+    "mainCopy": "핑크 레이스 브이넥 언발 미디원피스",
+    "desc": "부드러운 핑크 컬러와 입체감 있는 레이스 상의가 사랑스러운 분위기를 만들어주는 원피스입니다. 브이넥 라인이 얼굴선을 깔끔하게 살려주고, 허리 라인을 잡아주는 디자인으로 전체 실루엣이 슬림하게 표현됩니다. 언발 스커트 라인이 여성스럽게 떨어져 움직임이 예쁘고, 촬영룩이나 방송룩처럼 화면에서 화사하게 보이는 스타일로 추천드립니다.",
+    "description": "부드러운 핑크 컬러와 입체감 있는 레이스 상의가 사랑스러운 분위기를 만들어주는 원피스입니다. 브이넥 라인이 얼굴선을 깔끔하게 살려주고, 허리 라인을 잡아주는 디자인으로 전체 실루엣이 슬림하게 표현됩니다. 언발 스커트 라인이 여성스럽게 떨어져 움직임이 예쁘고, 촬영룩이나 방송룩처럼 화면에서 화사하게 보이는 스타일로 추천드립니다.",
+    "points": [
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "whyYoullLoveIt": "부드러운 핑크 컬러와 입체감 있는 레이스 상의가 사랑스러운 분위기를 만들어주는 원피스입니다. 브이넥 라인이 얼굴선을 깔끔하게 살려주고, 허리 라인을 잡아주는 디자인으로 전체 실루엣이 슬림하게 표현됩니다. 언발 스커트 라인이 여성스럽게 떨어져 움직임이 예쁘고, 촬영룩이나 방송룩처럼 화면에서 화사하게 보이는 스타일로 추천드립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "레이스+폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "하의 없음 / 상의 시스루",
+    "lining": "부분",
+    "cap": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-LACE-OPS",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "40",
+            "허리단면": "30",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "42.5",
+            "허리단면": "32.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "100",
+            "소매길이": "36",
+            "가슴단면": "45",
+            "허리단면": "35",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "레이스+폴리혼방",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "부분",
+          "비침": "하의 없음 / 상의 시스루",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "레이스+폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "레이스원피스",
+      "핑크",
+      "레이스",
+      "브이넥",
+      "언발라인"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "없음",
+    "안감": "부분",
+    "비침": "하의 없음 / 상의 시스루",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-003",
+    "customerCode": "JINI-003",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-003",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-003",
+    "name": "레이스 브이넥 크롭 블라우스",
+    "storeName": "레이스 브이넥 크롭 블라우스",
+    "productName": "레이스 브이넥 크롭 블라우스",
+    "category": "TOP",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
+    "length": "크롭",
+    "fit": "슬림핏",
+    "color": "핑크 / 아이보리 / 소라 / 블랙",
+    "variantColor": "핑크 / 아이보리 / 소라 / 블랙",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 부분 / 비침: 있음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 104000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "블라우스",
+      "크롭블라우스",
+      "레이스블라우스",
+      "핑크 / 아이보리 / 소라 / 블랙",
+      "레이스",
+      "브이넥",
+      "크롭"
+    ],
+    "styleTags": [
+      "핑크 / 아이보리 / 소라 / 블랙",
+      "지니",
+      "신상",
+      "크롭",
+      "슬림핏",
+      "레이스",
+      "브이넥"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": true,
+    "priority": 42998,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_01.jpg",
+        "originalFile": "JINI-00414.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_02.jpg",
+        "originalFile": "JINI-00426.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_03.jpg",
+        "originalFile": "JINI-00428.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_04.jpg",
+        "originalFile": "JINI-00430.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_05.jpg",
+        "originalFile": "JINI-00431.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_06.jpg",
+        "originalFile": "JINI-00407.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_07.jpg",
+        "originalFile": "JINI-00408.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_08.jpg",
+        "originalFile": "JINI-00409.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_09.jpg",
+        "originalFile": "JINI-00410.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_10.jpg",
+        "originalFile": "JINI-00411.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_11.jpg",
+        "originalFile": "JINI-00412.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_12.jpg",
+        "originalFile": "JINI-00413.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_13.jpg",
+        "originalFile": "JINI-00402.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_14.jpg",
+        "originalFile": "JINI-00403.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_15.jpg",
+        "cut": "상품컷 15",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_15.jpg",
+        "originalFile": "JINI-00404.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_16.jpg",
+        "cut": "상품컷 16",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_16.jpg",
+        "originalFile": "JINI-00405.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_17.jpg",
+        "cut": "상품컷 17",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_17.jpg",
+        "originalFile": "JINI-00406.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_18.jpg",
+        "cut": "상품컷 18",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_18.jpg",
+        "originalFile": "JINI-00417.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_19.jpg",
+        "originalFile": "JINI-00418.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_20.jpg",
+        "cut": "상품컷 20",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_20.jpg",
+        "originalFile": "JINI-00419.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_21.jpg",
+        "cut": "상품컷 21",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_21.jpg",
+        "originalFile": "JINI-00420.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_22.jpg",
+        "cut": "상품컷 22",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_22.jpg",
+        "originalFile": "JINI-00421.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_23.jpg",
+        "cut": "상품컷 23",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_23.jpg",
+        "originalFile": "JINI-00422.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_24.jpg",
+        "cut": "상품컷 24",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_24.jpg",
+        "originalFile": "JINI-00423.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_25.jpg",
+        "cut": "상품컷 25",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_25.jpg",
+        "originalFile": "JINI-00424.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-003/JINI-003_26.jpg",
+        "cut": "상품컷 26",
+        "source": "assets/jini_aug28/photos/JINI-003/JINI-003_26.jpg",
+        "originalFile": "JINI-00425.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-003/JINI-003_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-003/JINI-003_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-003/JINI-003_01.jpg",
+    "mainCopy": "레이스 브이넥 크롭 블라우스",
+    "desc": "입체감 있는 레이스 소재와 브이넥 라인이 여성스러운 분위기를 살려주는 크롭 블라우스입니다. 골드 버튼 포인트가 더해져 단품으로도 고급스럽게 보이며, 어깨와 소매 라인의 레이스 디테일이 러블리한 느낌을 더해줍니다. 미니스커트와 매치하면 셋업처럼 완성도 있는 파티룩으로 연출할 수 있고, 컬러별로 분위기가 달라 다양한 스타일링이 가능합니다.",
+    "description": "입체감 있는 레이스 소재와 브이넥 라인이 여성스러운 분위기를 살려주는 크롭 블라우스입니다. 골드 버튼 포인트가 더해져 단품으로도 고급스럽게 보이며, 어깨와 소매 라인의 레이스 디테일이 러블리한 느낌을 더해줍니다. 미니스커트와 매치하면 셋업처럼 완성도 있는 파티룩으로 연출할 수 있고, 컬러별로 분위기가 달라 다양한 스타일링이 가능합니다.",
+    "points": [
+      "레이스",
+      "브이넥",
+      "크롭"
+    ],
+    "whyYoullLoveIt": "입체감 있는 레이스 소재와 브이넥 라인이 여성스러운 분위기를 살려주는 크롭 블라우스입니다. 골드 버튼 포인트가 더해져 단품으로도 고급스럽게 보이며, 어깨와 소매 라인의 레이스 디테일이 러블리한 느낌을 더해줍니다. 미니스커트와 매치하면 셋업처럼 완성도 있는 파티룩으로 연출할 수 있고, 컬러별로 분위기가 달라 다양한 스타일링이 가능합니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "있음",
+    "lining": "부분",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-LACE-BLOUSE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "41",
+            "소매길이": "23",
+            "가슴단면": "39",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "41",
+            "소매길이": "23",
+            "가슴단면": "41.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "41",
+            "소매길이": "23",
+            "가슴단면": "44",
+            "허리단면": "37"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "블라우스",
+      "크롭블라우스",
+      "레이스블라우스",
+      "핑크 / 아이보리 / 소라 / 블랙",
+      "레이스",
+      "브이넥",
+      "크롭"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "부분",
+    "비침": "있음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-004",
+    "customerCode": "JINI-004",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-004",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-004",
+    "name": "골드버튼 플리츠 미니스커트",
+    "storeName": "골드버튼 플리츠 미니스커트",
+    "productName": "골드버튼 플리츠 미니스커트",
+    "category": "SKIRT",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "아이보리 / 블랙",
+    "variantColor": "아이보리 / 블랙",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 104000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "스커트",
+      "미니스커트",
+      "플리츠스커트",
+      "아이보리 / 블랙",
+      "골드버튼",
+      "플리츠"
+    ],
+    "styleTags": [
+      "아이보리 / 블랙",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "골드버튼",
+      "플리츠",
+      "미니스커트"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42997,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_01.jpg",
+        "originalFile": "JINI-00401.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_02.jpg",
+        "originalFile": "JINI-00415.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_03.jpg",
+        "originalFile": "JINI-00416.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_04.jpg",
+        "originalFile": "JINI-00427.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_05.jpg",
+        "originalFile": "JINI-00429.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_06.jpg",
+        "originalFile": "JINI-00409.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_07.jpg",
+        "originalFile": "JINI-00411.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_08.jpg",
+        "originalFile": "JINI-00412.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-004/JINI-004_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-004/JINI-004_09.jpg",
+        "originalFile": "JINI-00413.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-004/JINI-004_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-004/JINI-004_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-004/JINI-004_01.jpg",
+    "mainCopy": "골드버튼 플리츠 미니스커트",
+    "desc": "골드 버튼 포인트와 밑단 플리츠 디테일이 돋보이는 미니스커트입니다. 허리 라인을 단정하게 잡아주고, 앞판은 깔끔하게 떨어지면서 밑단 플리츠가 은근한 포인트를 더해줍니다. 레이스 블라우스나 크롭탑과 매치하면 고급스러운 셋업 느낌의 파티룩으로 연출하기 좋습니다.",
+    "description": "골드 버튼 포인트와 밑단 플리츠 디테일이 돋보이는 미니스커트입니다. 허리 라인을 단정하게 잡아주고, 앞판은 깔끔하게 떨어지면서 밑단 플리츠가 은근한 포인트를 더해줍니다. 레이스 블라우스나 크롭탑과 매치하면 고급스러운 셋업 느낌의 파티룩으로 연출하기 좋습니다.",
+    "points": [
+      "골드버튼",
+      "플리츠",
+      "미니스커트"
+    ],
+    "whyYoullLoveIt": "골드 버튼 포인트와 밑단 플리츠 디테일이 돋보이는 미니스커트입니다. 허리 라인을 단정하게 잡아주고, 앞판은 깔끔하게 떨어지면서 밑단 플리츠가 은근한 포인트를 더해줍니다. 레이스 블라우스나 크롭탑과 매치하면 고급스러운 셋업 느낌의 파티룩으로 연출하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-GOLD-BUTTON-SKIRT",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "39",
+            "허리단면": "30",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "39",
+            "허리단면": "32.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "39",
+            "허리단면": "35",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "스커트",
+      "미니스커트",
+      "플리츠스커트",
+      "아이보리 / 블랙",
+      "골드버튼",
+      "플리츠"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-005",
+    "customerCode": "JINI-005",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-005",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-005",
+    "name": "핑크 스트라이프 오프숄더 슬림 미디원피스",
+    "storeName": "핑크 스트라이프 오프숄더 슬림 미디원피스",
+    "productName": "핑크 스트라이프 오프숄더 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 117000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "핑크",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "핑크",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "오프숄더",
+      "스트라이프"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42996,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-005/JINI-005_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-005/JINI-005_01.jpg",
+        "originalFile": "JINI-0051.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-005/JINI-005_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-005/JINI-005_02.jpg",
+        "originalFile": "JINI-0052.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-005/JINI-005_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-005/JINI-005_03.jpg",
+        "originalFile": "JINI-0053.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-005/JINI-005_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-005/JINI-005_04.jpg",
+        "originalFile": "JINI-0054.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-005/JINI-005_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-005/JINI-005_05.jpg",
+        "originalFile": "JINI-0055.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-005/JINI-005_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-005/JINI-005_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-005/JINI-005_01.jpg",
+    "mainCopy": "핑크 스트라이프 오프숄더 슬림 미디원피스",
+    "desc": "부드러운 핑크 컬러에 스트라이프 패턴이 더해진 오프숄더 미디원피스입니다. 어깨 라인이 자연스럽게 드러나는 디자인으로 여성스러운 분위기가 살아나며, 가슴 쪽 하트 포인트가 러블리한 느낌을 더해줍니다. 전체적으로 슬림하게 떨어지는 핏이라 바디라인을 예쁘게 살려줍니다.",
+    "description": "부드러운 핑크 컬러에 스트라이프 패턴이 더해진 오프숄더 미디원피스입니다. 어깨 라인이 자연스럽게 드러나는 디자인으로 여성스러운 분위기가 살아나며, 가슴 쪽 하트 포인트가 러블리한 느낌을 더해줍니다. 전체적으로 슬림하게 떨어지는 핏이라 바디라인을 예쁘게 살려줍니다.",
+    "points": [
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "부드러운 핑크 컬러에 스트라이프 패턴이 더해진 오프숄더 미디원피스입니다. 어깨 라인이 자연스럽게 드러나는 디자인으로 여성스러운 분위기가 살아나며, 가슴 쪽 하트 포인트가 러블리한 느낌을 더해줍니다. 전체적으로 슬림하게 떨어지는 핏이라 바디라인을 예쁘게 살려줍니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "좋음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "핑크",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "좋음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-006",
+    "customerCode": "JINI-006",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-006",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-006",
+    "name": "블랙 스트라이프 오프숄더 슬림 미디원피스",
+    "storeName": "블랙 스트라이프 오프숄더 슬림 미디원피스",
+    "productName": "블랙 스트라이프 오프숄더 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 117000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "블랙",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "블랙",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "오프숄더",
+      "스트라이프"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42995,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_01.jpg",
+        "originalFile": "JINI-0061.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_02.jpg",
+        "originalFile": "JINI-0062.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_03.jpg",
+        "originalFile": "JINI-0063.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_04.jpg",
+        "originalFile": "JINI-0064.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_05.jpg",
+        "originalFile": "JINI-0065.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-006/JINI-006_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-006/JINI-006_06.jpg",
+        "originalFile": "JINI-0066.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-006/JINI-006_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-006/JINI-006_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-006/JINI-006_01.jpg",
+    "mainCopy": "블랙 스트라이프 오프숄더 슬림 미디원피스",
+    "desc": "블랙 컬러에 화이트 스트라이프가 들어간 슬림 미디원피스입니다. 오프숄더 디자인이 어깨 라인을 시원하게 살려주고, 사선으로 겹쳐지는 상체 라인이 바디라인을 더욱 슬림하게 보여줍니다. 하트 포인트가 더해져 시크하면서도 러블리한 분위기를 함께 연출할 수 있습니다.",
+    "description": "블랙 컬러에 화이트 스트라이프가 들어간 슬림 미디원피스입니다. 오프숄더 디자인이 어깨 라인을 시원하게 살려주고, 사선으로 겹쳐지는 상체 라인이 바디라인을 더욱 슬림하게 보여줍니다. 하트 포인트가 더해져 시크하면서도 러블리한 분위기를 함께 연출할 수 있습니다.",
+    "points": [
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "블랙 컬러에 화이트 스트라이프가 들어간 슬림 미디원피스입니다. 오프숄더 디자인이 어깨 라인을 시원하게 살려주고, 사선으로 겹쳐지는 상체 라인이 바디라인을 더욱 슬림하게 보여줍니다. 하트 포인트가 더해져 시크하면서도 러블리한 분위기를 함께 연출할 수 있습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "좋음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "블랙",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "좋음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-007",
+    "customerCode": "JINI-007",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-007",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-007",
+    "name": "민트 스트라이프 오프숄더 슬림 미디원피스",
+    "storeName": "민트 스트라이프 오프숄더 슬림 미디원피스",
+    "productName": "민트 스트라이프 오프숄더 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "민트",
+    "variantColor": "민트",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 117000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "민트",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "민트",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "오프숄더",
+      "스트라이프"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42994,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_01.jpg",
+        "originalFile": "JINI-0071.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_02.jpg",
+        "originalFile": "JINI-0072.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_03.jpg",
+        "originalFile": "JINI-0073.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_04.jpg",
+        "originalFile": "JINI-0074.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_05.jpg",
+        "originalFile": "JINI-0075.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_06.jpg",
+        "originalFile": "JINI-0076.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_07.jpg",
+        "originalFile": "JINI-0077.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-007/JINI-007_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-007/JINI-007_08.jpg",
+        "originalFile": "JINI-0078.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-007/JINI-007_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-007/JINI-007_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-007/JINI-007_01.jpg",
+    "mainCopy": "민트 스트라이프 오프숄더 슬림 미디원피스",
+    "desc": "화사한 민트 컬러와 스트라이프 패턴이 산뜻한 분위기를 주는 오프숄더 미디원피스입니다. 어깨 라인이 드러나는 디자인과 슬림한 실루엣이 여성스러우면서도 시원한 느낌을 줍니다. 하트 포인트가 더해져 러블리한 매력이 살아납니다.",
+    "description": "화사한 민트 컬러와 스트라이프 패턴이 산뜻한 분위기를 주는 오프숄더 미디원피스입니다. 어깨 라인이 드러나는 디자인과 슬림한 실루엣이 여성스러우면서도 시원한 느낌을 줍니다. 하트 포인트가 더해져 러블리한 매력이 살아납니다.",
+    "points": [
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "화사한 민트 컬러와 스트라이프 패턴이 산뜻한 분위기를 주는 오프숄더 미디원피스입니다. 어깨 라인이 드러나는 디자인과 슬림한 실루엣이 여성스러우면서도 시원한 느낌을 줍니다. 하트 포인트가 더해져 러블리한 매력이 살아납니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "좋음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "106",
+            "소매길이": "9",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "좋음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "오프숄더원피스",
+      "민트",
+      "오프숄더",
+      "스트라이프",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "좋음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-008",
+    "customerCode": "JINI-008",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-008",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-008",
+    "name": "그레이 체크플리츠 슬림 미니원피스",
+    "storeName": "그레이 체크플리츠 슬림 미니원피스",
+    "productName": "그레이 체크플리츠 슬림 미니원피스",
+    "category": "MINI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "그레이",
+    "variantColor": "그레이",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "체크원피스",
+      "그레이",
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "그레이",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "체크",
+      "플리츠"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42993,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_01.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이07메인.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_02.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이01.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_03.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_04.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_05.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_06.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_07.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_08.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이10.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_09.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이11.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_10.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이12.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_11.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이13.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_12.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이02 .jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-008/JINI-008_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-008/JINI-008_13.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 그레이04.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-008/JINI-008_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-008/JINI-008_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-008/JINI-008_01.jpg",
+    "mainCopy": "그레이 체크플리츠 슬림 미니원피스",
+    "desc": "그레이 체크 패턴과 플리츠 스커트 라인이 돋보이는 슬림 미니원피스입니다. 상체는 몸에 맞게 잡아주고, 스커트 밑단은 플리츠로 가볍게 퍼져 발랄하면서도 세련된 분위기를 연출합니다. 체크 패턴 특유의 단정함이 있어 방송룩, 데이트룩, 캐주얼 파티룩으로 활용하기 좋습니다.",
+    "description": "그레이 체크 패턴과 플리츠 스커트 라인이 돋보이는 슬림 미니원피스입니다. 상체는 몸에 맞게 잡아주고, 스커트 밑단은 플리츠로 가볍게 퍼져 발랄하면서도 세련된 분위기를 연출합니다. 체크 패턴 특유의 단정함이 있어 방송룩, 데이트룩, 캐주얼 파티룩으로 활용하기 좋습니다.",
+    "points": [
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "그레이 체크 패턴과 플리츠 스커트 라인이 돋보이는 슬림 미니원피스입니다. 상체는 몸에 맞게 잡아주고, 스커트 밑단은 플리츠로 가볍게 퍼져 발랄하면서도 세련된 분위기를 연출합니다. 체크 패턴 특유의 단정함이 있어 방송룩, 데이트룩, 캐주얼 파티룩으로 활용하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "약간",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-CHECK-PLEATS",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "31",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "33.5",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "36",
+            "힙단면": "-"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "체크원피스",
+      "그레이",
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "약간",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-009",
+    "customerCode": "JINI-009",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-009",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-009",
+    "name": "레드 체크플리츠 슬림 미니원피스",
+    "storeName": "레드 체크플리츠 슬림 미니원피스",
+    "productName": "레드 체크플리츠 슬림 미니원피스",
+    "category": "MINI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "레드",
+    "variantColor": "레드",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "체크원피스",
+      "레드",
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "레드",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "체크",
+      "플리츠"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42992,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_01.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드 메인.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_02.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드 전신 컷.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_03.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드1.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_04.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드3.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_05.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드4.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_06.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드5.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_07.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드6.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-009/JINI-009_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-009/JINI-009_08.jpg",
+        "originalFile": "체크플리츠 슬림 원피스 레드7.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-009/JINI-009_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-009/JINI-009_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-009/JINI-009_01.jpg",
+    "mainCopy": "레드 체크플리츠 슬림 미니원피스",
+    "desc": "레드 체크 패턴이 포인트 되는 슬림 미니원피스입니다. 상체는 슬림하게 잡아주고, 플리츠 스커트 라인이 발랄한 분위기를 더해줍니다. 레드 컬러 특유의 눈에 띄는 느낌이 있어 촬영룩, 방송룩, 파티룩처럼 포인트가 필요한 스타일링에 잘 어울립니다.",
+    "description": "레드 체크 패턴이 포인트 되는 슬림 미니원피스입니다. 상체는 슬림하게 잡아주고, 플리츠 스커트 라인이 발랄한 분위기를 더해줍니다. 레드 컬러 특유의 눈에 띄는 느낌이 있어 촬영룩, 방송룩, 파티룩처럼 포인트가 필요한 스타일링에 잘 어울립니다.",
+    "points": [
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "레드 체크 패턴이 포인트 되는 슬림 미니원피스입니다. 상체는 슬림하게 잡아주고, 플리츠 스커트 라인이 발랄한 분위기를 더해줍니다. 레드 컬러 특유의 눈에 띄는 느낌이 있어 촬영룩, 방송룩, 파티룩처럼 포인트가 필요한 스타일링에 잘 어울립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "약간",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-CHECK-PLEATS",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "31",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "33.5",
+            "힙단면": "-"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "76",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "36",
+            "힙단면": "-"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "체크원피스",
+      "레드",
+      "체크",
+      "플리츠",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "약간",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-010",
+    "customerCode": "JINI-010",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-010",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-010",
+    "name": "핑크 리본라인 슬림 미디원피스",
+    "storeName": "핑크 리본라인 슬림 미디원피스",
+    "productName": "핑크 리본라인 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "핑크",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "styleTags": [
+      "핑크",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "리본라인",
+      "새틴"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42991,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_01.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크01.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_02.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크02.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_03.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_04.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크04.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_05.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_06.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_07.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크07.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_08.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_09.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_10.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크10.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_11.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크11.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_12.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크12.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_13.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크13.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-010/JINI-010_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/jini_aug28/photos/JINI-010/JINI-010_14.jpg",
+        "originalFile": "리본라인 슬림 투피스 핑크14.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-010/JINI-010_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-010/JINI-010_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-010/JINI-010_01.jpg",
+    "mainCopy": "핑크 리본라인 슬림 미디원피스",
+    "desc": "부드러운 핑크 컬러에 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 바디라인을 따라 떨어지는 핏이 여성스럽고 글램한 분위기를 만들어주며, 리본 디테일이 러블리한 느낌을 더해줍니다. 파티룩, 방송룩, 촬영룩으로 추천드립니다.",
+    "description": "부드러운 핑크 컬러에 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 바디라인을 따라 떨어지는 핏이 여성스럽고 글램한 분위기를 만들어주며, 리본 디테일이 러블리한 느낌을 더해줍니다. 파티룩, 방송룩, 촬영룩으로 추천드립니다.",
+    "points": [
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "whyYoullLoveIt": "부드러운 핑크 컬러에 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 바디라인을 따라 떨어지는 핏이 여성스럽고 글램한 분위기를 만들어주며, 리본 디테일이 러블리한 느낌을 더해줍니다. 파티룩, 방송룩, 촬영룩으로 추천드립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "새틴",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-RIBBON-LINE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "39",
+            "허리단면": "30",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "41.5",
+            "허리단면": "32.5",
+            "힙단면": "45.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "35",
+            "힙단면": "48"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "새틴",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "핑크",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-011",
+    "customerCode": "JINI-011",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-011",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-011",
+    "name": "소라 리본라인 슬림 미디원피스",
+    "storeName": "소라 리본라인 슬림 미디원피스",
+    "productName": "소라 리본라인 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "소라",
+    "variantColor": "소라",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "소라",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "styleTags": [
+      "소라",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "리본라인",
+      "새틴"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42990,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_01.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라1.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_02.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라2.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_03.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라3.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_04.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라4.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_05.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라5.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_06.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라6.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_07.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라7.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-011/JINI-011_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-011/JINI-011_08.jpg",
+        "originalFile": "리본라인 슬림 투피스 소라8.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-011/JINI-011_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-011/JINI-011_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-011/JINI-011_01.jpg",
+    "mainCopy": "소라 리본라인 슬림 미디원피스",
+    "desc": "맑은 소라 컬러에 리본 라인 포인트가 더해진 슬림 미디원피스입니다. 시원하고 청순한 컬러감이 돋보이며, 몸매 라인을 자연스럽게 살려주는 핏으로 여성스러운 분위기를 연출합니다. 방송룩, 촬영룩, 파티룩처럼 밝고 산뜻한 느낌이 필요한 스타일에 잘 어울립니다.",
+    "description": "맑은 소라 컬러에 리본 라인 포인트가 더해진 슬림 미디원피스입니다. 시원하고 청순한 컬러감이 돋보이며, 몸매 라인을 자연스럽게 살려주는 핏으로 여성스러운 분위기를 연출합니다. 방송룩, 촬영룩, 파티룩처럼 밝고 산뜻한 느낌이 필요한 스타일에 잘 어울립니다.",
+    "points": [
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "whyYoullLoveIt": "맑은 소라 컬러에 리본 라인 포인트가 더해진 슬림 미디원피스입니다. 시원하고 청순한 컬러감이 돋보이며, 몸매 라인을 자연스럽게 살려주는 핏으로 여성스러운 분위기를 연출합니다. 방송룩, 촬영룩, 파티룩처럼 밝고 산뜻한 느낌이 필요한 스타일에 잘 어울립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "새틴",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-RIBBON-LINE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "39",
+            "허리단면": "30",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "41.5",
+            "허리단면": "32.5",
+            "힙단면": "45.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "35",
+            "힙단면": "48"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "새틴",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "소라",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-012",
+    "customerCode": "JINI-012",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-012",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-012",
+    "name": "아이보리 리본라인 슬림 미디원피스",
+    "storeName": "아이보리 리본라인 슬림 미디원피스",
+    "productName": "아이보리 리본라인 슬림 미디원피스",
+    "category": "MIDI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "아이보리",
+    "variantColor": "아이보리",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "아이보리",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "styleTags": [
+      "아이보리",
+      "지니",
+      "신상",
+      "미디",
+      "슬림핏",
+      "리본라인",
+      "새틴"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42989,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_01.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이01.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_02.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이02.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_03.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_04.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이04.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_05.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_06.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_07.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이07.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_08.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_09.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_10.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이10.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_11.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이11.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_12.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이12.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-012/JINI-012_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-012/JINI-012_13.jpg",
+        "originalFile": "리본라인 슬림 투피스 아이13.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-012/JINI-012_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-012/JINI-012_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-012/JINI-012_01.jpg",
+    "mainCopy": "아이보리 리본라인 슬림 미디원피스",
+    "desc": "아이보리 컬러에 블랙 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 밝은 컬러감이 얼굴빛을 화사하게 살려주고, 리본 라인이 전체 실루엣에 포인트를 더해줍니다. 깔끔하면서도 여성스러운 분위기로 파티룩, 방송룩, 셀프웨딩 느낌의 화이트룩으로 활용하기 좋습니다.",
+    "description": "아이보리 컬러에 블랙 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 밝은 컬러감이 얼굴빛을 화사하게 살려주고, 리본 라인이 전체 실루엣에 포인트를 더해줍니다. 깔끔하면서도 여성스러운 분위기로 파티룩, 방송룩, 셀프웨딩 느낌의 화이트룩으로 활용하기 좋습니다.",
+    "points": [
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "whyYoullLoveIt": "아이보리 컬러에 블랙 리본 라인 포인트가 들어간 슬림 미디원피스입니다. 밝은 컬러감이 얼굴빛을 화사하게 살려주고, 리본 라인이 전체 실루엣에 포인트를 더해줍니다. 깔끔하면서도 여성스러운 분위기로 파티룩, 방송룩, 셀프웨딩 느낌의 화이트룩으로 활용하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "새틴",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-RIBBON-LINE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "39",
+            "허리단면": "30",
+            "힙단면": "43"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "41.5",
+            "허리단면": "32.5",
+            "힙단면": "45.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "105",
+            "소매길이": "-",
+            "가슴단면": "44",
+            "허리단면": "35",
+            "힙단면": "48"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "새틴",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "새틴",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미디원피스",
+      "슬림원피스",
+      "아이보리",
+      "리본라인",
+      "슬림핏",
+      "새틴"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-013",
+    "customerCode": "JINI-013",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-013",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-013",
+    "name": "아이보리 로즈자수 러플 미니원피스",
+    "storeName": "아이보리 로즈자수 러플 미니원피스",
+    "productName": "아이보리 로즈자수 러플 미니원피스",
+    "category": "MINI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "아이보리",
+    "variantColor": "아이보리",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "아이보리",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "styleTags": [
+      "아이보리",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "로즈자수",
+      "러플"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42988,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_01.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이3 메인.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_02.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이1.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_03.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이2.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_04.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이6.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_05.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이4.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_06.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이5.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_07.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이7.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-013/JINI-013_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-013/JINI-013_08.jpg",
+        "originalFile": "로즈자수 러플 원피스 아이8.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-013/JINI-013_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-013/JINI-013_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-013/JINI-013_01.jpg",
+    "mainCopy": "아이보리 로즈자수 러플 미니원피스",
+    "desc": "아이보리 컬러에 로즈 자수와 러플 디테일이 더해진 미니원피스입니다. 입체적인 자수 포인트가 고급스러운 느낌을 주고, 어깨 러플 라인이 얼굴 주변을 화사하게 살려줍니다. 여성스럽고 러블리한 분위기가 강해 파티룩, 촬영룩, 데이트룩으로 추천하기 좋습니다.",
+    "description": "아이보리 컬러에 로즈 자수와 러플 디테일이 더해진 미니원피스입니다. 입체적인 자수 포인트가 고급스러운 느낌을 주고, 어깨 러플 라인이 얼굴 주변을 화사하게 살려줍니다. 여성스럽고 러블리한 분위기가 강해 파티룩, 촬영룩, 데이트룩으로 추천하기 좋습니다.",
+    "points": [
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "whyYoullLoveIt": "아이보리 컬러에 로즈 자수와 러플 디테일이 더해진 미니원피스입니다. 입체적인 자수 포인트가 고급스러운 느낌을 주고, 어깨 러플 라인이 얼굴 주변을 화사하게 살려줍니다. 여성스럽고 러블리한 분위기가 강해 파티룩, 촬영룩, 데이트룩으로 추천하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "31",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "33.5",
+            "힙단면": "44.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "36",
+            "힙단면": "47"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "아이보리",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-014",
+    "customerCode": "JINI-014",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-014",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-014",
+    "name": "핑크 로즈자수 러플 미니원피스",
+    "storeName": "핑크 로즈자수 러플 미니원피스",
+    "productName": "핑크 로즈자수 러플 미니원피스",
+    "category": "MINI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "핑크",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "styleTags": [
+      "핑크",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "로즈자수",
+      "러플"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42987,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_01.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크02 메인컷.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_02.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크01.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_03.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_04.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크07 .jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_05.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_06.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_07.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크10.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_08.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_09.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크04.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_10.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-014/JINI-014_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-014/JINI-014_11.jpg",
+        "originalFile": "로즈자수 러플 원피스 핑크11.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-014/JINI-014_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-014/JINI-014_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-014/JINI-014_01.jpg",
+    "mainCopy": "핑크 로즈자수 러플 미니원피스",
+    "desc": "핑크 컬러에 로즈 자수와 러플 디테일이 들어간 러블리한 미니원피스입니다. 입체감 있는 자수 패턴과 어깨 러플이 여성스러운 분위기를 강조해주며, 핑크 컬러 특유의 화사함이 더해져 촬영룩이나 방송룩으로 좋습니다.",
+    "description": "핑크 컬러에 로즈 자수와 러플 디테일이 들어간 러블리한 미니원피스입니다. 입체감 있는 자수 패턴과 어깨 러플이 여성스러운 분위기를 강조해주며, 핑크 컬러 특유의 화사함이 더해져 촬영룩이나 방송룩으로 좋습니다.",
+    "points": [
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "whyYoullLoveIt": "핑크 컬러에 로즈 자수와 러플 디테일이 들어간 러블리한 미니원피스입니다. 입체감 있는 자수 패턴과 어깨 러플이 여성스러운 분위기를 강조해주며, 핑크 컬러 특유의 화사함이 더해져 촬영룩이나 방송룩으로 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "31",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "33.5",
+            "힙단면": "44.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "36",
+            "힙단면": "47"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "핑크",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-015",
+    "customerCode": "JINI-015",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-015",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-015",
+    "name": "민트 로즈자수 러플 미니원피스",
+    "storeName": "민트 로즈자수 러플 미니원피스",
+    "productName": "민트 로즈자수 러플 미니원피스",
+    "category": "MINI",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "민트",
+    "variantColor": "민트",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 126000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "민트",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "styleTags": [
+      "민트",
+      "지니",
+      "신상",
+      "미니",
+      "슬림핏",
+      "로즈자수",
+      "러플"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42986,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_01.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트01.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_02.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트02.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_03.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_04.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트07.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_05.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_06.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_07.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트11.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_08.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트12.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_09.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트13.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_10.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트04.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_11.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_12.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-015/JINI-015_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-015/JINI-015_13.jpg",
+        "originalFile": "로즈자수 러플 원피스 민트10.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-015/JINI-015_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-015/JINI-015_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-015/JINI-015_01.jpg",
+    "mainCopy": "민트 로즈자수 러플 미니원피스",
+    "desc": "민트 컬러에 로즈 자수와 러플 디테일이 들어간 미니원피스입니다. 산뜻하고 맑은 컬러감이 얼굴빛을 화사하게 살려주며, 입체적인 자수와 어깨 러플이 러블리한 분위기를 만들어줍니다. 파티룩, 방송룩, 촬영룩처럼 화사한 포인트가 필요한 스타일에 추천드립니다.",
+    "description": "민트 컬러에 로즈 자수와 러플 디테일이 들어간 미니원피스입니다. 산뜻하고 맑은 컬러감이 얼굴빛을 화사하게 살려주며, 입체적인 자수와 어깨 러플이 러블리한 분위기를 만들어줍니다. 파티룩, 방송룩, 촬영룩처럼 화사한 포인트가 필요한 스타일에 추천드립니다.",
+    "points": [
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "whyYoullLoveIt": "민트 컬러에 로즈 자수와 러플 디테일이 들어간 미니원피스입니다. 산뜻하고 맑은 컬러감이 얼굴빛을 화사하게 살려주며, 입체적인 자수와 어깨 러플이 러블리한 분위기를 만들어줍니다. 파티룩, 방송룩, 촬영룩처럼 화사한 포인트가 필요한 스타일에 추천드립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "40",
+            "허리단면": "31",
+            "힙단면": "42"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "42.5",
+            "허리단면": "33.5",
+            "힙단면": "44.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "80",
+            "소매길이": "-",
+            "가슴단면": "45",
+            "허리단면": "36",
+            "힙단면": "47"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "미니원피스",
+      "러플원피스",
+      "민트",
+      "로즈자수",
+      "러플",
+      "미니"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-020",
+    "customerCode": "JINI-020",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-020",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-020",
+    "name": "핑크 비즈라인 시스루 슬림원피스",
+    "storeName": "핑크 비즈라인 시스루 슬림원피스",
+    "productName": "핑크 비즈라인 시스루 슬림원피스",
+    "category": "LONG",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "롱",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 131000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "핑크",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "핑크",
+      "지니",
+      "신상",
+      "롱",
+      "슬림핏",
+      "비즈라인",
+      "시스루무드"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42985,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_01.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크01메인컷.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_02.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크02.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_03.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크05.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_04.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크08.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_05.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크11.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_06.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크12.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_07.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크13.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_08.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크03.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_09.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크04.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_10.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크06.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_11.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크07.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_12.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크09.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_13.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크10.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-020/JINI-020_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/jini_aug28/photos/JINI-020/JINI-020_14.jpg",
+        "originalFile": "비즈라인 시스루 원피스핑크14.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-020/JINI-020_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-020/JINI-020_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-020/JINI-020_01.jpg",
+    "mainCopy": "핑크 비즈라인 시스루 슬림원피스",
+    "desc": "핑크 컬러에 비즈 라인 포인트가 더해진 시스루 무드의 슬림원피스입니다. 바디라인을 따라 떨어지는 핏이 글램한 분위기를 살려주고, 비즈 디테일이 은은한 포인트가 되어 고급스럽게 보입니다. 파티룩, 클럽룩, 방송룩처럼 화려한 분위기가 필요한 자리에 추천드립니다.",
+    "description": "핑크 컬러에 비즈 라인 포인트가 더해진 시스루 무드의 슬림원피스입니다. 바디라인을 따라 떨어지는 핏이 글램한 분위기를 살려주고, 비즈 디테일이 은은한 포인트가 되어 고급스럽게 보입니다. 파티룩, 클럽룩, 방송룩처럼 화려한 분위기가 필요한 자리에 추천드립니다.",
+    "points": [
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "핑크 컬러에 비즈 라인 포인트가 더해진 시스루 무드의 슬림원피스입니다. 바디라인을 따라 떨어지는 핏이 글램한 분위기를 살려주고, 비즈 디테일이 은은한 포인트가 되어 고급스럽게 보입니다. 파티룩, 클럽룩, 방송룩처럼 화려한 분위기가 필요한 자리에 추천드립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-BEADS-SHEER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "38",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "40.5",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "43",
+            "허리단면": "36",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "핑크",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-021",
+    "customerCode": "JINI-021",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-021",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-021",
+    "name": "베이지 비즈라인 시스루 슬림원피스",
+    "storeName": "베이지 비즈라인 시스루 슬림원피스",
+    "productName": "베이지 비즈라인 시스루 슬림원피스",
+    "category": "LONG",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "롱",
+    "fit": "슬림핏",
+    "color": "베이지",
+    "variantColor": "베이지",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 131000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "베이지",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "베이지",
+      "지니",
+      "신상",
+      "롱",
+      "슬림핏",
+      "비즈라인",
+      "시스루무드"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42984,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_01.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지메인컷.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_02.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지1.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_03.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지3.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_04.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지4.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_05.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지5.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_06.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지6.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_07.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지7.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_08.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지8.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-021/JINI-021_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/jini_aug28/photos/JINI-021/JINI-021_09.jpg",
+        "originalFile": "비즈라인 시스루 원피스 베이지9.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-021/JINI-021_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-021/JINI-021_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-021/JINI-021_01.jpg",
+    "mainCopy": "베이지 비즈라인 시스루 슬림원피스",
+    "desc": "은은한 베이지 컬러에 비즈 라인 포인트가 들어간 시스루 무드의 슬림원피스입니다. 차분한 컬러감이 고급스럽고, 바디라인을 따라 떨어지는 실루엣이 세련된 분위기를 만들어줍니다. 과하게 튀지 않으면서도 포인트가 살아 있어 파티룩, 방송룩, 촬영룩으로 활용하기 좋습니다.",
+    "description": "은은한 베이지 컬러에 비즈 라인 포인트가 들어간 시스루 무드의 슬림원피스입니다. 차분한 컬러감이 고급스럽고, 바디라인을 따라 떨어지는 실루엣이 세련된 분위기를 만들어줍니다. 과하게 튀지 않으면서도 포인트가 살아 있어 파티룩, 방송룩, 촬영룩으로 활용하기 좋습니다.",
+    "points": [
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "은은한 베이지 컬러에 비즈 라인 포인트가 들어간 시스루 무드의 슬림원피스입니다. 차분한 컬러감이 고급스럽고, 바디라인을 따라 떨어지는 실루엣이 세련된 분위기를 만들어줍니다. 과하게 튀지 않으면서도 포인트가 살아 있어 파티룩, 방송룩, 촬영룩으로 활용하기 좋습니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-BEADS-SHEER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "38",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "40.5",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "43",
+            "허리단면": "36",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "베이지",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
+    "code": "JINI-022",
+    "customerCode": "JINI-022",
+    "origin": "지니",
+    "supplier": "지니",
+    "vendor": "지니",
+    "folder": "JINI-022",
+    "zipFolder": "지니.zip / JINI-015.zip",
+    "supplierProductNo": "JINI-022",
+    "name": "소라 비즈라인 시스루 슬림원피스",
+    "storeName": "소라 비즈라인 시스루 슬림원피스",
+    "productName": "소라 비즈라인 시스루 슬림원피스",
+    "category": "LONG",
+    "collection": "",
+    "collectionName": "",
+    "collectionDescription": "",
+    "length": "롱",
+    "fit": "슬림핏",
+    "color": "소라",
+    "variantColor": "소라",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 131000,
+    "tags": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "소라",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "styleTags": [
+      "소라",
+      "지니",
+      "신상",
+      "롱",
+      "슬림핏",
+      "비즈라인",
+      "시스루무드"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
+    "isPopular": false,
+    "mainDisplay": true,
+    "featured": false,
+    "priority": 42983,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/jini_aug28/photos/JINI-022/JINI-022_01.jpg",
+        "cut": "상품컷 1",
+        "source": "assets/jini_aug28/photos/JINI-022/JINI-022_01.jpg",
+        "originalFile": "비즈라인 시스루 원피스소라1.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-022/JINI-022_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/jini_aug28/photos/JINI-022/JINI-022_02.jpg",
+        "originalFile": "비즈라인 시스루 원피스소라2.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-022/JINI-022_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/jini_aug28/photos/JINI-022/JINI-022_03.jpg",
+        "originalFile": "비즈라인 시스루 원피스소라3.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-022/JINI-022_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/jini_aug28/photos/JINI-022/JINI-022_04.jpg",
+        "originalFile": "비즈라인 시스루 원피스소라4.jpg"
+      },
+      {
+        "url": "assets/jini_aug28/photos/JINI-022/JINI-022_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/jini_aug28/photos/JINI-022/JINI-022_05.jpg",
+        "originalFile": "비즈라인 시스루 원피스소라5.jpg"
+      }
+    ],
+    "mainImage": "assets/jini_aug28/photos/JINI-022/JINI-022_01.jpg",
+    "thumbImage": "assets/jini_aug28/photos/JINI-022/JINI-022_01.jpg",
+    "cardImage": "assets/jini_aug28/photos/JINI-022/JINI-022_01.jpg",
+    "mainCopy": "소라 비즈라인 시스루 슬림원피스",
+    "desc": "맑은 소라 컬러와 비즈 라인 포인트가 조화를 이루는 시스루 무드의 슬림원피스입니다. 밝고 청량한 컬러감이 얼굴빛을 화사하게 살려주며, 슬림한 실루엣이 여성스러운 라인을 강조해줍니다. 촬영룩, 방송룩, 파티룩처럼 화면에서 예쁘게 보이는 스타일로 추천드립니다.",
+    "description": "맑은 소라 컬러와 비즈 라인 포인트가 조화를 이루는 시스루 무드의 슬림원피스입니다. 밝고 청량한 컬러감이 얼굴빛을 화사하게 살려주며, 슬림한 실루엣이 여성스러운 라인을 강조해줍니다. 촬영룩, 방송룩, 파티룩처럼 화면에서 예쁘게 보이는 스타일로 추천드립니다.",
+    "points": [
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "whyYoullLoveIt": "맑은 소라 컬러와 비즈 라인 포인트가 조화를 이루는 시스루 무드의 슬림원피스입니다. 밝고 청량한 컬러감이 얼굴빛을 화사하게 살려주며, 슬림한 실루엣이 여성스러운 라인을 강조해줍니다. 촬영룩, 방송룩, 파티룩처럼 화면에서 예쁘게 보이는 스타일로 추천드립니다.",
+    "recommend": "파티룩, 방송룩, 촬영룩, 클럽룩 등 포인트가 필요한 스타일링에 추천드립니다.",
+    "fabric": "폴리혼방",
+    "fabricNote": "업로드한 JINI product information 이미지 기준으로 소재/착용정보 반영",
+    "stretch": "있음",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "NICE",
+    "lineName": "JINI 2026 AUGUST",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "JINI-AUG28-BEADS-SHEER",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "uploadDate": "2026-08-28",
+    "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "실제 제품사진 적용",
+    "measurements": [],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "38",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "40.5",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "130",
+            "소매길이": "-",
+            "가슴단면": "43",
+            "허리단면": "36",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
+    "searchKeywords": [
+      "NEW",
+      "지니신상",
+      "8월신상",
+      "파티룩",
+      "방송룩",
+      "촬영룩",
+      "클럽룩",
+      "S사이즈",
+      "M사이즈",
+      "L사이즈",
+      "77가능",
+      "원피스",
+      "롱원피스",
+      "시스루원피스",
+      "소라",
+      "비즈라인",
+      "시스루무드",
+      "슬림핏"
+    ],
+    "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "있음",
+    "비침": "없음",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼"
+  },
+  {
     "code": "SIL001",
     "customerCode": "SIL001",
     "origin": "실루엣",
