@@ -70,8 +70,8 @@
     "new": true,
     "newArrival": true,
     "isPopular": false,
-    "mainDisplay": true,
-    "featured": true,
+    "mainDisplay": false,
+    "featured": false,
     "priority": 43000,
     "images": [],
     "cuts": [
@@ -166,7 +166,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-LACE-OPS",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 신상 섹션 대표 3개 상품으로 노출.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -254,7 +254,10 @@
     "안감": "부분",
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-002",
@@ -327,8 +330,8 @@
     "new": true,
     "newArrival": true,
     "isPopular": false,
-    "mainDisplay": true,
-    "featured": true,
+    "mainDisplay": false,
+    "featured": false,
     "priority": 42999,
     "images": [],
     "cuts": [
@@ -429,7 +432,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-LACE-OPS",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 신상 섹션 대표 3개 상품으로 노출.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -517,7 +520,10 @@
     "안감": "부분",
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-003",
@@ -589,8 +595,8 @@
     "new": true,
     "newArrival": true,
     "isPopular": false,
-    "mainDisplay": true,
-    "featured": true,
+    "mainDisplay": false,
+    "featured": false,
     "priority": 42998,
     "images": [],
     "cuts": [
@@ -781,7 +787,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-LACE-BLOUSE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 신상 섹션 대표 3개 상품으로 노출.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -865,7 +871,10 @@
     "안감": "부분",
     "비침": "있음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-004",
@@ -892,9 +901,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 104000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -937,9 +944,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42997,
+    "priority": 41996,
     "images": [],
     "cuts": [
       {
@@ -1027,7 +1034,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-GOLD-BUTTON-SKIRT",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -1081,9 +1088,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1105,7 +1110,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-005",
@@ -1132,9 +1140,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 117000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1177,9 +1183,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42996,
+    "priority": 41995,
     "images": [],
     "cuts": [
       {
@@ -1243,7 +1249,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -1306,9 +1312,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1331,7 +1335,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-006",
@@ -1358,9 +1365,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 117000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1403,9 +1408,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42995,
+    "priority": 41994,
     "images": [],
     "cuts": [
       {
@@ -1475,7 +1480,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -1538,9 +1543,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1563,7 +1566,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-007",
@@ -1590,9 +1596,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 좋음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 117000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1635,9 +1639,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42994,
+    "priority": 41993,
     "images": [],
     "cuts": [
       {
@@ -1719,7 +1723,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-STRIPE-OFFSHOULDER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -1782,9 +1786,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1807,7 +1809,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-008",
@@ -1834,9 +1839,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -1879,9 +1882,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42993,
+    "priority": 41992,
     "images": [],
     "cuts": [
       {
@@ -1993,7 +1996,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-CHECK-PLEATS",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -2056,9 +2059,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2081,7 +2082,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-009",
@@ -2108,9 +2112,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2153,9 +2155,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42992,
+    "priority": 41991,
     "images": [],
     "cuts": [
       {
@@ -2237,7 +2239,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-CHECK-PLEATS",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -2300,9 +2302,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2325,7 +2325,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-010",
@@ -2352,9 +2355,7 @@
     "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2397,9 +2398,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42991,
+    "priority": 41990,
     "images": [],
     "cuts": [
       {
@@ -2517,7 +2518,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-RIBBON-LINE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -2580,9 +2581,7 @@
     ],
     "material": "새틴",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2605,7 +2604,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-011",
@@ -2632,9 +2634,7 @@
     "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2677,9 +2677,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42990,
+    "priority": 41989,
     "images": [],
     "cuts": [
       {
@@ -2761,7 +2761,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-RIBBON-LINE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -2824,9 +2824,7 @@
     ],
     "material": "새틴",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2849,7 +2847,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-012",
@@ -2876,9 +2877,7 @@
     "wearInfo": "소재: 새틴 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -2921,9 +2920,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42989,
+    "priority": 41988,
     "images": [],
     "cuts": [
       {
@@ -3035,7 +3034,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-RIBBON-LINE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -3098,9 +3097,7 @@
     ],
     "material": "새틴",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3123,7 +3120,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-013",
@@ -3150,9 +3150,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3195,9 +3193,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42988,
+    "priority": 41987,
     "images": [],
     "cuts": [
       {
@@ -3279,7 +3277,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -3342,9 +3340,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3367,7 +3363,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-014",
@@ -3394,9 +3393,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3439,9 +3436,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42987,
+    "priority": 41986,
     "images": [],
     "cuts": [
       {
@@ -3541,7 +3538,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -3604,9 +3601,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3629,7 +3624,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-015",
@@ -3656,9 +3654,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 126000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3701,9 +3697,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42986,
+    "priority": 41985,
     "images": [],
     "cuts": [
       {
@@ -3815,7 +3811,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-ROSE-RUFFLE",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -3878,9 +3874,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3903,7 +3897,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-020",
@@ -3930,9 +3927,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 131000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -3975,9 +3970,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42985,
+    "priority": 41980,
     "images": [],
     "cuts": [
       {
@@ -4095,7 +4090,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-BEADS-SHEER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -4158,9 +4153,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -4183,7 +4176,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-021",
@@ -4210,9 +4206,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 131000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -4255,9 +4249,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42984,
+    "priority": 41979,
     "images": [],
     "cuts": [
       {
@@ -4345,7 +4339,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-BEADS-SHEER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -4408,9 +4402,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -4433,7 +4425,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-022",
@@ -4460,9 +4455,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 131000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -4505,9 +4498,9 @@
     "new": false,
     "newArrival": false,
     "isPopular": false,
-    "mainDisplay": true,
+    "mainDisplay": false,
     "featured": false,
-    "priority": 42983,
+    "priority": 41978,
     "images": [],
     "cuts": [
       {
@@ -4571,7 +4564,7 @@
     "size77Available": true,
     "size88Available": false,
     "designGroupId": "JINI-AUG28-BEADS-SHEER",
-    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용.",
+    "referenceMemo": "사용자 제공 제품명/가격표와 제품정보 이미지를 기준으로 쇼룸 등록용으로 정리. 신상 섹션 대표 3개는 JINI-001~003, 나머지는 전체보기 상단 노출용 priority 적용. / 전체보기 상단 노출용. 신상 섹션 제외.",
     "uploadDate": "2026-08-28",
     "sourceInfo": "지니.zip / JINI-015.zip / Desktop(8).zip product information",
     "translations": {},
@@ -4634,9 +4627,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -4659,7 +4650,10 @@
     "안감": "있음",
     "비침": "없음",
     "두께감": "보통",
-    "지퍼": "뒷지퍼"
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "SIL001",
