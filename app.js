@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_7';
+const VERSION = 'luxe_refresh_0829_8';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -139,8 +139,8 @@ const I18N = {
     commonNote: 'For stock, measurements, and fitting advice, send us the product code on KakaoTalk.',
     productAsk: 'Product Inquiry', instaAsk: 'Instagram DM', similarTitle: 'Similar Styles', similarDesc: 'Based on {name}, we gathered {profile}styles.', close: 'Close',
     empty: 'No matching products. Send your preferred style on KakaoTalk and we will recommend similar items.', dataFail: 'Product data could not be loaded.',
-    communityCopy: 'Dongdaemun Migliore NICE<br>Party looks · Stage outfits · Club looks · Broadcast styling',
-    communityGuide: 'The showroom includes both in-store selections and items listed on Naver.',
+    communityCopy: 'There are many beautiful clothes, but the one that suits you is here.<br>Check NICE new arrivals and styling picks in the showroom first.',
+    communityGuide: 'Send us the product code for any item you like.<br>We will quickly check stock, size, and fitting availability.',
     kakaoAsk: 'KakaoTalk Inquiry', smartstoreGo: 'View Naver items', vipAuth: 'VIP Access', vipViewSameDay: 'View Same-Day Items', vipClear: 'Clear VIP', vipTitle: 'VIP Access',
     vipDesc: 'View selections available only to VIP customers.', vipPlaceholder: 'Enter VIP code', cancel: 'Cancel', verify: 'Verify', vipOk: 'VIP access confirmed.', vipError: 'Invalid VIP code.',
     fittingAvailable: 'Fitting available', sameDay: 'Same-day',
@@ -187,8 +187,8 @@ const I18N = {
     commonNote: '库存、实测和试穿建议请带商品代码通过 KakaoTalk 咨询。',
     productAsk: '商品咨询', instaAsk: 'Instagram 私信', similarTitle: '相似款推荐', similarDesc: '以 {name} 为参考，为您整理了 {profile}风格。', close: '关闭',
     empty: '没有符合条件的商品。请通过 KakaoTalk 发送想要的风格，我们会推荐相似款。', dataFail: '无法加载商品数据。',
-    communityCopy: '东大门 Migliore NICE<br>派对造型 · 舞台服 · 夜店风 · 直播服装',
-    communityGuide: '展厅同时展示门店精选款和 Naver 上架商品。',
+    communityCopy: '好看的衣服很多，但适合你的那一件就在这里。<br>请先在展厅确认 NICE 精选新款和推荐搭配。',
+    communityGuide: '喜欢的商品请连同商品代码一起咨询。<br>我们会快速确认库存、尺码和试穿情况。',
     kakaoAsk: 'KakaoTalk 咨询', smartstoreGo: '查看 Naver 商品', vipAuth: 'VIP 认证', vipViewSameDay: '查看当日发货', vipClear: '解除认证', vipTitle: 'VIP 认证',
     vipDesc: '显示仅 VIP 顾客可见的精选商品。', vipPlaceholder: '请输入认证码', cancel: '取消', verify: '认证', vipOk: 'VIP 认证完成。', vipError: '认证码不正确。',
     fittingAvailable: '可试穿', sameDay: '当日发货',
@@ -235,8 +235,8 @@ const I18N = {
     commonNote: '在庫、実寸、フィッティング相談は商品コードと一緒にKakaoTalkでお問い合わせください。',
     productAsk: '商品問い合わせ', instaAsk: 'Instagram DM', similarTitle: '似た服のおすすめ', similarDesc: '{name}を基準に{profile}スタイルを集めました。', close: '閉じる',
     empty: '条件に合う商品がありません。希望スタイルをKakaoTalkで送っていただければ似た商品をご提案します。', dataFail: '商品データを読み込めませんでした。',
-    communityCopy: '東大門ミリオレ NICE<br>パーティールック · ステージ衣装 · クラブルック · 配信用衣装',
-    communityGuide: 'ショールームには店頭セレクトとNaver掲載商品が一緒に紹介されています。',
+    communityCopy: 'きれいな服はたくさんありますが、自分に似合う一着はここにあります。<br>NICEが選んだ新作とおすすめコーデをショールームで先にご確認ください。',
+    communityGuide: '気になる商品は商品コードと一緒にお問い合わせください。<br>在庫・サイズ・試着可否をすぐにご案内します。',
     kakaoAsk: 'KakaoTalk問い合わせ', smartstoreGo: 'Naver掲載商品を見る', vipAuth: 'VIP認証', vipViewSameDay: '当日発送商品を見る', vipClear: '認証解除', vipTitle: 'VIP認証',
     vipDesc: 'VIPのお客様限定のセレクションを表示します。', vipPlaceholder: '認証コードを入力してください', cancel: 'キャンセル', verify: '認証', vipOk: 'VIP認証が完了しました。', vipError: '認証コードが正しくありません。',
     fittingAvailable: '試着可', sameDay: '当日発送',
@@ -650,6 +650,61 @@ function cleanText(value, fallback = '') {
     .trim();
   return text || fallback;
 }
+
+const FALLBACK_LOCALIZE = {
+  en: {
+    '아이보리':'Ivory','화이트':'White','블랙':'Black','핑크':'Pink','소라':'Sky Blue','민트':'Mint','베이지':'Beige','그레이':'Gray','레드':'Red','네이비':'Navy','블루':'Blue','와인':'Wine','카키':'Khaki','브라운':'Brown','크림':'Cream','옐로우':'Yellow',
+    '롱드레스':'Long Dress','롱원피스':'Long Dress','미디원피스':'Midi Dress','미니원피스':'Mini Dress','원피스':'Dress','투피스':'Two-Piece','블라우스':'Blouse','스커트':'Skirt','탑':'Top',
+    '레이스':'Lace','브이넥':'V-neck','오프숄더':'Off-shoulder','홀터':'Halter','홀터넥':'Halter Neck','슬림':'Slim','슬림핏':'Slim Fit','플레어':'Flare','머메이드':'Mermaid','셔링':'Shirring','러플':'Ruffle','리본':'Ribbon','리본라인':'Ribbon Line','비즈':'Beads','비즈라인':'Beaded Line','시스루':'Sheer','새틴':'Satin','체크':'Check','스트라이프':'Stripe','플리츠':'Pleats','골드버튼':'Gold Button','버튼':'Button','자수':'Embroidery','로즈자수':'Rose Embroidery','언발':'Asymmetric','크롭':'Cropped','하이웨스트':'High-waist','컷아웃':'Cut-out','커버업':'Cover-up',
+    '고급':'Luxury','럭셔리':'Luxury','파티룩':'Party Look','방송룩':'Broadcast Look','무대의상':'Stage Outfit','클럽룩':'Club Look','데이트룩':'Date Look','촬영룩':'Photo Look',
+    '미니':'Mini','미디':'Midi','롱':'Long','정보 대기':'Ask','확인 예정':'Ask','문의':'Ask','가능':'Available','있음':'Yes','없음':'No','보통':'Regular','좋음':'Good','약간':'Light'
+  },
+  zh: {
+    '아이보리':'象牙白','화이트':'白色','블랙':'黑色','핑크':'粉色','소라':'天蓝色','민트':'薄荷色','베이지':'米色','그레이':'灰色','레드':'红色','네이비':'藏青色','블루':'蓝色','와인':'酒红色','카키':'卡其色','브라운':'棕色','크림':'奶油色','옐로우':'黄色',
+    '롱드레스':'长款礼服','롱원피스':'长款连衣裙','미디원피스':'中长连衣裙','미니원피스':'迷你连衣裙','원피스':'连衣裙','투피스':'套装','블라우스':'衬衫','스커트':'半身裙','탑':'上衣',
+    '레이스':'蕾丝','브이넥':'V领','오프숄더':'露肩','홀터':'挂脖','홀터넥':'挂脖','슬림':'修身','슬림핏':'修身版型','플레어':'伞摆','머메이드':'鱼尾','셔링':'褶皱','러플':'荷叶边','리본':'蝴蝶结','리본라인':'蝴蝶结线条','비즈':'珠饰','비즈라인':'珠饰线条','시스루':'透视','새틴':'缎面','체크':'格纹','스트라이프':'条纹','플리츠':'百褶','골드버튼':'金色纽扣','버튼':'纽扣','자수':'刺绣','로즈자수':'玫瑰刺绣','언발':'不规则','크롭':'短款','하이웨스트':'高腰','컷아웃':'镂空','커버업':'罩衫',
+    '고급':'高级','럭셔리':'高级','파티룩':'派对造型','방송룩':'直播造型','무대의상':'舞台服','클럽룩':'夜店风','데이트룩':'约会造型','촬영룩':'拍摄造型',
+    '미니':'迷你','미디':'中长','롱':'长款','정보 대기':'咨询','확인 예정':'咨询','문의':'咨询','가능':'可用','있음':'有','없음':'无','보통':'普通','좋음':'好','약간':'略有'
+  },
+  ja: {
+    '아이보리':'アイボリー','화이트':'ホワイト','블랙':'ブラック','핑크':'ピンク','소라':'スカイブルー','민트':'ミント','베이지':'ベージュ','그레이':'グレー','레드':'レッド','네이비':'ネイビー','블루':'ブルー','와인':'ワイン','카키':'カーキ','브라운':'ブラウン','크림':'クリーム','옐로우':'イエロー',
+    '롱드레스':'ロングドレス','롱원피스':'ロングワンピース','미디원피스':'ミディワンピース','미니원피스':'ミニワンピース','원피스':'ワンピース','투피스':'ツーピース','블라우스':'ブラウス','스커트':'スカート','탑':'トップス',
+    '레이스':'レース','브이넥':'Vネック','오프숄더':'オフショルダー','홀터':'ホルター','홀터넥':'ホルターネック','슬림':'スリム','슬림핏':'スリムフィット','플레어':'フレア','머메이드':'マーメイド','셔링':'シャーリング','러플':'ラッフル','리본':'リボン','리본라인':'リボンライン','비즈':'ビーズ','비즈라인':'ビーズライン','시스루':'シアー','새틴':'サテン','체크':'チェック','스트라이프':'ストライプ','플리츠':'プリーツ','골드버튼':'ゴールドボタン','버튼':'ボタン','자수':'刺繍','로즈자수':'ローズ刺繍','언발':'アシンメトリー','크롭':'クロップド','하이웨스트':'ハイウエスト','컷아웃':'カットアウト','커버업':'カバーアップ',
+    '고급':'ラグジュアリー','럭셔리':'ラグジュアリー','파티룩':'パーティールック','방송룩':'配信用ルック','무대의상':'ステージ衣装','클럽룩':'クラブルック','데이트룩':'デートルック','촬영룩':'撮影ルック',
+    '미니':'ミニ','미디':'ミディ','롱':'ロング','정보 대기':'お問い合わせ','확인 예정':'お問い合わせ','문의':'お問い合わせ','가능':'対応','있음':'あり','없음':'なし','보통':'普通','좋음':'良い','약간':'少し'
+  }
+};
+function localizeKoreanText(text) {
+  const raw = cleanText(text || '');
+  if (!raw) return '';
+  if (LANG === 'ko' || !/[가-힣]/.test(raw)) return raw;
+  const dict = FALLBACK_LOCALIZE[LANG] || {};
+  let out = raw;
+  Object.keys(dict).sort((a, b) => b.length - a.length).forEach(k => {
+    out = out.replaceAll(k, dict[k]);
+  });
+  out = out
+    .replace(/\s*\/\s*/g, ' / ')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/[가-힣]+/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\s+([,/])/g, '$1')
+    .replace(/([,/])\s+/g, '$1 ')
+    .trim();
+  return out || raw.replace(/[가-힣]+/g, '').trim() || t('ask');
+}
+function localizedFallbackDescription(p, field) {
+  if (LANG === 'ko') return '';
+  const color = localizeKoreanText(p.color || (Array.isArray(p.colors) ? p.colors.join(' / ') : ''));
+  const length = localizeKoreanText(p.length || '');
+  const name = localizeKoreanText(p.name || p.productName || p.storeName || '');
+  if (LANG === 'en') return `${name || 'Selected style'} from NICE. Please send the product code to check stock, size, and fitting availability.`;
+  if (LANG === 'zh') return `${name || 'NICE精选款'}。请发送商品代码，我们会为您确认库存、尺码和试穿情况。`;
+  if (LANG === 'ja') return `${name || 'NICEセレクト'}。商品コードを送っていただければ、在庫・サイズ・試着可否をご案内します。`;
+  return [color, length, name].filter(Boolean).join(' ');
+}
+
+
 function displayName(p) {
   return cleanText(localizedProductValue(p, 'name') || localizedProductValue(p, 'storeName') || localizedProductValue(p, 'productName') || p.code, p.code);
 }
@@ -664,9 +719,9 @@ function displayColors(p) {
   return colors.length ? colors.join(' / ') : safeText(localizedProductValue(p, 'color'));
 }
 function sizeDetail(p) {
-  const size = cleanText(p.size || '');
-  const info = cleanText(p.sizeInfo || '');
-  if (!safeText(info)) return safeText(size) || '문의';
+  const size = localizeKoreanText(cleanText(p.size || ''));
+  const info = localizeKoreanText(cleanText(p.sizeInfo || ''));
+  if (!safeText(info)) return safeText(size) || t('ask');
   if (size && info && size !== info) return `${size} / ${info}`;
   return size || info || t('ask');
 }
@@ -690,13 +745,15 @@ function localizedProductValue(p, field, fallback = '') {
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
   const value = tr && tr[field] ? tr[field] : '';
   if (value && !/[가-힣]/.test(String(value))) return value;
-  return fallback || '';
+  if (['desc', 'description', 'mainCopy', 'recommend'].includes(field)) return localizedFallbackDescription(p, field);
+  const source = p && p[field] ? p[field] : fallback;
+  return localizeKoreanText(source || fallback || '');
 }
 function localizedProductArray(p, field) {
   if (LANG === 'ko') return Array.isArray(p[field]) ? p[field] : [];
   const tr = p && p.translations && p.translations[LANG] ? p.translations[LANG] : null;
   if (tr && Array.isArray(tr[field])) return tr[field].filter(x => !/[가-힣]/.test(String(x)));
-  return [];
+  return Array.isArray(p[field]) ? p[field].map(localizeKoreanText).filter(Boolean) : [];
 }
 function localizedSizeTables(p) {
   if (LANG === 'ko') return Array.isArray(p.sizeTables) ? p.sizeTables : [];
@@ -718,7 +775,7 @@ function localizedSizeBadge(text) {
 function localizedLabelText(text) {
   if (text === '럭셔리') return t('luxury');
   if (/77|88/.test(text)) return localizedSizeBadge(text);
-  return text;
+  return localizeKoreanText(text);
 }
 function filterLabel(key) {
   return (FILTER_LABELS[LANG] && FILTER_LABELS[LANG][key]) || LABEL[key] || key;
@@ -771,10 +828,10 @@ function detailPriceBlock(p) {
 }
 function simpleSize(p) {
   const size = safeText(p.size);
-  if (size) return size;
+  if (size) return localizeKoreanText(size);
   const info = safeText(p.sizeInfo);
   if (!info) return t('ask');
-  return info.split('/')[0].trim() || t('ask');
+  return localizeKoreanText(info.split('/')[0].trim()) || t('ask');
 }
 function publicPoints(p) {
   const seen = new Set();
@@ -1251,7 +1308,7 @@ function meta(p) {
   return [localizedProductValue(p, 'length'), displayColors(p), size ? 'SIZE ' + size : '', localizedSizeBadge(sizeBadgeText(p))]
     .filter(Boolean)
     .slice(0, 3)
-    .map(x => `<span>${cleanText(x)}</span>`)
+    .map(x => `<span>${localizeKoreanText(cleanText(x))}</span>`)
     .join('');
 }
 function priceBlock(p) {
@@ -1480,11 +1537,45 @@ function renderHome() {
   count.textContent = '';
   intro.textContent = '';
   grid.className = 'home luxe-home';
+  const homeText = {
+    ko: {
+      newDesc: '최근 입고된 대표 스타일입니다.',
+      pickDesc: '나이스가 추천하는 스타일입니다.',
+      allDesc: '전체 상품을 확인할 수 있습니다.',
+      newMore: 'NEW ARRIVAL 더 보기',
+      pickMore: '추천상품 보기',
+      allMore: '전체보기'
+    },
+    en: {
+      newDesc: 'Selected new arrivals from NICE.',
+      pickDesc: 'Styles recommended by NICE.',
+      allDesc: 'Browse the full collection.',
+      newMore: 'View NEW ARRIVAL',
+      pickMore: 'View NICE PICK',
+      allMore: 'View All'
+    },
+    zh: {
+      newDesc: 'NICE精选新款。',
+      pickDesc: 'NICE推荐款式。',
+      allDesc: '查看全部商品。',
+      newMore: '查看NEW ARRIVAL',
+      pickMore: '查看推荐款',
+      allMore: '查看全部'
+    },
+    ja: {
+      newDesc: 'NICEが選んだ新作スタイルです。',
+      pickDesc: 'NICEおすすめのスタイルです。',
+      allDesc: '全商品をご覧いただけます。',
+      newMore: 'NEW ARRIVALを見る',
+      pickMore: 'おすすめを見る',
+      allMore: '全商品を見る'
+    }
+  }[LANG] || {};
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('NEW ARRIVAL', '최근 입고된 대표 스타일입니다.', fresh, 'COL_AUGUST', 'NEW ARRIVAL 더 보기')}
-    ${sectionBlock('NICE PICK', '나이스가 추천하는 스타일입니다.', editorItems, 'BEST', '추천상품 보기')}
-    ${sectionBlock('ALL PRODUCTS', '전체 상품을 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}
+    ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
+    ${sectionBlock('NICE PICK', homeText.pickDesc, editorItems, 'BEST', homeText.pickMore)}
+    ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
     const href = a.getAttribute('href');
