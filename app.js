@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_6';
+const VERSION = 'luxe_refresh_0829_7';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -299,7 +299,7 @@ const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
   BEST: 'NICE PICK',
-  NEW: '신상',
+  NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
   MINI: '미니',
   MIDI: '미디',
@@ -315,7 +315,7 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', '신상', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
+const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -1167,7 +1167,7 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
-  if (/^(신상|new|new arrival)$/i.test(rawSearch)) return isNew(p) || isAugustNewProduct(p);
+  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
   const supplierAlias = {
@@ -1224,7 +1224,7 @@ function match(p) {
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'NEW') f = isCurrentNewProduct(p);
+  else if (FILTER === 'NEW') f = isAugustNewProduct(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
@@ -1482,7 +1482,7 @@ function renderHome() {
   grid.className = 'home luxe-home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('신상', '최근 입고된 대표 스타일입니다.', fresh, 'COL_AUGUST', '신상 더 보기')}
+    ${sectionBlock('NEW ARRIVAL', '최근 입고된 대표 스타일입니다.', fresh, 'COL_AUGUST', 'NEW ARRIVAL 더 보기')}
     ${sectionBlock('NICE PICK', '나이스가 추천하는 스타일입니다.', editorItems, 'BEST', '추천상품 보기')}
     ${sectionBlock('ALL PRODUCTS', '전체 상품을 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}
     ${communityBlock()}`;
