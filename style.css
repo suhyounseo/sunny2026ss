@@ -1442,7 +1442,7 @@ body{
   background:#171310;
   color:#fff;
 }
-.dm-guide,.community-panel,.collection-grid{
+.dm-guide,.collection-grid{
   display:none !important;
 }
 .modal{
@@ -1492,4 +1492,34 @@ body{
   .name{font-size:13px}
   .price{font-size:16px}
   .quick-chip,.chip{font-size:11px;padding:7px 10px}
+}
+
+
+
+/* Minimal Luxe fix 2026-08-29
+   - HOME 상단 NICE COLLECTION 중복 제거
+   - 고객용 문구 자연화
+   - 커뮤니티 영역 복원
+*/
+body.luxe-home-active .head,
+body.luxe-home-active > .wrap > .intro{
+  display:none !important;
+}
+body.luxe-home-active .luxe-home{
+  margin-top:22px;
+}
+.luxe-home .community-panel{
+  display:grid !important;
+  margin-top:50px;
+  border-radius:0;
+  border:1px solid var(--line);
+  box-shadow:none;
+  background:#fffefb;
+}
+.luxe-home .community-card{
+  border-radius:0;
+}
+@media(max-width:720px){
+  body.luxe-home-active .luxe-home{margin-top:16px}
+  .luxe-home .community-panel{display:block !important;margin-top:36px}
 }

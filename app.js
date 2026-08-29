@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_1';
+const VERSION = 'luxe_refresh_0829_2';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1491,27 +1491,34 @@ function smartStoreItems(visible) {
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
 function renderHome() {
+  document.body.classList.add('luxe-home-active');
   const visible = PRODUCTS.filter(visibleToAudience);
   const editorItems = editorSelectItems(visible);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
   const gallery = sortProducts(visible).slice(0, 16);
-  title.textContent = 'NICE COLLECTION';
-  count.textContent = `${visible.length} ${t('item')}`;
-  intro.textContent = LANG === 'ko'
-    ? '상품 이미지 중심으로 정리한 NICE 신상·셀렉션 쇼룸입니다.'
-    : sectionIntro();
+  title.textContent = '';
+  count.textContent = '';
+  intro.textContent = '';
   grid.className = 'home luxe-home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('신상', '최근 입고 상품 중 대표 스타일만 간결하게 보여드립니다.', fresh, 'NEW', '신상 더 보기')}
-    ${sectionBlock('NICE PICK', '파티룩, 방송룩, 무대의상으로 추천하는 셀렉션입니다.', editorItems, 'BEST', '추천상품 보기')}
-    ${sectionBlock('ALL PRODUCTS', '전체 상품은 이미지 중심으로 빠르게 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}`;
+    ${sectionBlock('신상', '최근 입고된 대표 스타일입니다.', fresh, 'NEW', '신상 더 보기')}
+    ${sectionBlock('NICE PICK', '나이스가 추천하는 스타일입니다.', editorItems, 'BEST', '추천상품 보기')}
+    ${sectionBlock('ALL PRODUCTS', '전체 상품을 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}
+    ${communityBlock()}`;
+  $$('[data-external]').forEach(a => a.onclick = e => {
+    const href = a.getAttribute('href');
+    if (!href || href === '#') return;
+    const opened = window.open(href, '_blank');
+    if (opened) e.preventDefault();
+  });
   $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
   bindVipControls();
 }
 function render() {
+  document.body.classList.remove('luxe-home-active');
   title.textContent = sectionName();
   intro.textContent = sectionIntro();
   if (FILTER === 'HOME' && !q.value.trim()) return renderHome();
