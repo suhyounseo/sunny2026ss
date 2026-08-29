@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_4';
+const VERSION = 'luxe_refresh_0829_5';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -345,6 +345,7 @@ const EDITOR_SELECT_PINNED_CODES = [
   'JES-384',
   'JES-381'
 ];
+const CURRENT_NEW_CODES = ['JINI-001', 'JINI-003'];
 const NEW_ARRIVAL_PINNED_CODES = [
   'JINI-001',
   'JINI-003',
@@ -596,6 +597,7 @@ const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isAugustNewProduct(p) || isJulyNewProduct(p);
+const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
 const vipUntil = () => Number(localStorage.getItem(VIP_STORAGE_KEY) || 0);
@@ -1091,49 +1093,9 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const editorGroupKeys = new Set(
-    visible
-      .filter(p => editorCodes.has(codeOf(p)))
-      .map(designGroupKey)
-  );
-  const pinned = chooseUniqueByDesignGroup(
-    NEW_ARRIVAL_PINNED_CODES
-      .map(code => visible.find(p => codeOf(p) === code))
-      .filter(p => p && isNew(p)),
-    8
-  );
-  const pinnedCodes = new Set(pinned.map(codeOf));
-  const pinnedGroupKeys = new Set(pinned.map(designGroupKey));
-  const july = chooseUniqueByDesignGroup(
-    sortProducts(
-      visible.filter(p =>
-        isRecentNewProduct(p) &&
-        isNew(p) &&
-        !pinnedCodes.has(codeOf(p)) &&
-        !pinnedGroupKeys.has(designGroupKey(p)) &&
-        !editorCodes.has(codeOf(p)) &&
-        !editorGroupKeys.has(designGroupKey(p))
-      )
-    ),
-    Math.max(0, 8 - pinned.length)
-  );
-  const julyCodes = new Set(july.map(codeOf));
-  const julyGroupKeys = new Set(july.map(designGroupKey));
-  const fallback = chooseUniqueByDesignGroup(
-    sortProducts(
-      visible.filter(p =>
-        isNew(p) &&
-        !pinnedCodes.has(codeOf(p)) &&
-        !pinnedGroupKeys.has(designGroupKey(p)) &&
-        !julyCodes.has(codeOf(p)) &&
-        !julyGroupKeys.has(designGroupKey(p)) &&
-        !editorCodes.has(codeOf(p)) &&
-        !editorGroupKeys.has(designGroupKey(p))
-      )
-    ),
-    Math.max(0, 8 - pinned.length - july.length)
-  );
-  return [...pinned, ...july, ...fallback].slice(0, 8);
+  return CURRENT_NEW_CODES
+    .map(code => visible.find(p => codeOf(p) === code))
+    .filter(Boolean);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -1249,7 +1211,7 @@ function match(p) {
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'NEW') f = isNew(p);
+  else if (FILTER === 'NEW') f = isCurrentNewProduct(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
