@@ -13,7 +13,7 @@
     "productName": "아이보리 레이스 브이넥 언발 미디원피스",
     "category": "MIDI",
     "collection": "AUGUST_NEW",
-    "collectionName": "8월 신상 셀렉션",
+    "collectionName": "신상 셀렉션",
     "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
     "length": "미디",
     "fit": "슬림핏",
@@ -24,9 +24,7 @@
     "wearInfo": "소재: 레이스+폴리혼방 / 신축성: 있음 / 캡여부: 없음 / 안감: 부분 / 비침: 하의 없음 / 상의 시스루 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 129000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -41,7 +39,9 @@
       "아이보리",
       "레이스",
       "브이넥",
-      "언발라인"
+      "언발라인",
+      "NEW",
+      "8월신상"
     ],
     "styleTags": [
       "아이보리",
@@ -72,7 +72,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 43000,
+    "priority": 45000,
     "images": [],
     "cuts": [
       {
@@ -199,9 +199,7 @@
     ],
     "material": "레이스+폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -216,7 +214,9 @@
       "아이보리",
       "레이스",
       "브이넥",
-      "언발라인"
+      "언발라인",
+      "NEW",
+      "8월신상"
     ],
     "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
     "신축성": "있음",
@@ -242,8 +242,8 @@
     "storeName": "핑크 레이스 브이넥 언발 미디원피스",
     "productName": "핑크 레이스 브이넥 언발 미디원피스",
     "category": "MIDI",
-    "collection": "AUGUST_NEW",
-    "collectionName": "8월 신상 셀렉션",
+    "collection": "",
+    "collectionName": "",
     "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
     "length": "미디",
     "fit": "슬림핏",
@@ -254,9 +254,7 @@
     "wearInfo": "소재: 레이스+폴리혼방 / 신축성: 있음 / 캡여부: 없음 / 안감: 부분 / 비침: 하의 없음 / 상의 시스루 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 129000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -296,13 +294,13 @@
       "77"
     ],
     "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
+    "isNew": false,
+    "new": false,
+    "newArrival": false,
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 42999,
+    "priority": 44783,
     "images": [],
     "cuts": [
       {
@@ -429,9 +427,7 @@
     ],
     "material": "레이스+폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -473,7 +469,7 @@
     "productName": "레이스 브이넥 크롭 블라우스",
     "category": "TOP",
     "collection": "AUGUST_NEW",
-    "collectionName": "8월 신상 셀렉션",
+    "collectionName": "신상 셀렉션",
     "collectionDescription": "8월 28일 추가 입고된 지니 신상 대표 3개입니다.",
     "length": "크롭",
     "fit": "슬림핏",
@@ -484,9 +480,7 @@
     "wearInfo": "소재: 폴리혼방 / 신축성: 있음 / 캡여부: 있음 / 안감: 부분 / 비침: 있음 / 두께감: 보통 / 지퍼: 뒷지퍼",
     "price": 104000,
     "tags": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -501,7 +495,9 @@
       "핑크 / 아이보리 / 소라 / 블랙",
       "레이스",
       "브이넥",
-      "크롭"
+      "크롭",
+      "NEW",
+      "8월신상"
     ],
     "styleTags": [
       "핑크 / 아이보리 / 소라 / 블랙",
@@ -531,7 +527,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 42998,
+    "priority": 44999,
     "images": [],
     "cuts": [
       {
@@ -654,9 +650,7 @@
     ],
     "material": "폴리혼방",
     "searchKeywords": [
-      "NEW",
       "지니신상",
-      "8월신상",
       "파티룩",
       "방송룩",
       "촬영룩",
@@ -671,7 +665,9 @@
       "핑크 / 아이보리 / 소라 / 블랙",
       "레이스",
       "브이넥",
-      "크롭"
+      "크롭",
+      "NEW",
+      "8월신상"
     ],
     "sourceInfoNote": "제품정보 이미지는 갤러리에 노출하지 않고 실측/착용정보 데이터로만 반영",
     "신축성": "있음",
@@ -754,7 +750,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41996,
+    "priority": 44798,
     "images": [],
     "cuts": [
       {
@@ -969,7 +965,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41995,
+    "priority": 44797,
     "images": [],
     "cuts": [
       {
@@ -1194,7 +1190,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41994,
+    "priority": 44796,
     "images": [],
     "cuts": [
       {
@@ -1419,7 +1415,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41993,
+    "priority": 44795,
     "images": [],
     "cuts": [
       {
@@ -1644,7 +1640,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41992,
+    "priority": 44794,
     "images": [],
     "cuts": [
       {
@@ -1869,7 +1865,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41991,
+    "priority": 44793,
     "images": [],
     "cuts": [
       {
@@ -2094,7 +2090,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41990,
+    "priority": 44792,
     "images": [],
     "cuts": [
       {
@@ -2319,7 +2315,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41989,
+    "priority": 44791,
     "images": [],
     "cuts": [
       {
@@ -2544,7 +2540,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41988,
+    "priority": 44790,
     "images": [],
     "cuts": [
       {
@@ -2769,7 +2765,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41987,
+    "priority": 44789,
     "images": [],
     "cuts": [
       {
@@ -2994,7 +2990,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41986,
+    "priority": 44788,
     "images": [],
     "cuts": [
       {
@@ -3219,7 +3215,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41985,
+    "priority": 44787,
     "images": [],
     "cuts": [
       {
@@ -3444,7 +3440,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41980,
+    "priority": 44786,
     "images": [],
     "cuts": [
       {
@@ -3669,7 +3665,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41979,
+    "priority": 44785,
     "images": [],
     "cuts": [
       {
@@ -3894,7 +3890,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 41978,
+    "priority": 44784,
     "images": [],
     "cuts": [
       {

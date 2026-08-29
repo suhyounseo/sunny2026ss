@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_3';
+const VERSION = 'luxe_refresh_0829_4';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -346,6 +346,8 @@ const EDITOR_SELECT_PINNED_CODES = [
   'JES-381'
 ];
 const NEW_ARRIVAL_PINNED_CODES = [
+  'JINI-001',
+  'JINI-003',
   'JES-384',
   'JES-381',
   'JES-380',
@@ -1094,42 +1096,44 @@ function newArrivalItems(visible, editorCodes) {
       .filter(p => editorCodes.has(codeOf(p)))
       .map(designGroupKey)
   );
+  const pinned = chooseUniqueByDesignGroup(
+    NEW_ARRIVAL_PINNED_CODES
+      .map(code => visible.find(p => codeOf(p) === code))
+      .filter(p => p && isNew(p)),
+    8
+  );
+  const pinnedCodes = new Set(pinned.map(codeOf));
+  const pinnedGroupKeys = new Set(pinned.map(designGroupKey));
   const july = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
         isRecentNewProduct(p) &&
         isNew(p) &&
+        !pinnedCodes.has(codeOf(p)) &&
+        !pinnedGroupKeys.has(designGroupKey(p)) &&
         !editorCodes.has(codeOf(p)) &&
         !editorGroupKeys.has(designGroupKey(p))
       )
     ),
-    8
+    Math.max(0, 8 - pinned.length)
   );
   const julyCodes = new Set(july.map(codeOf));
   const julyGroupKeys = new Set(july.map(designGroupKey));
-  const pinned = chooseUniqueByDesignGroup(
-    NEW_ARRIVAL_PINNED_CODES
-      .map(code => visible.find(p => codeOf(p) === code))
-      .filter(p => p && !editorCodes.has(codeOf(p)) && !editorGroupKeys.has(designGroupKey(p)) && !julyCodes.has(codeOf(p)) && !julyGroupKeys.has(designGroupKey(p))),
-    Math.max(0, 8 - july.length)
-  );
-  const pinnedCodes = new Set(pinned.map(codeOf));
-  const pinnedGroupKeys = new Set(pinned.map(designGroupKey));
   const fallback = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
         isNew(p) &&
-        !editorCodes.has(codeOf(p)) &&
-        !editorGroupKeys.has(designGroupKey(p)) &&
         !pinnedCodes.has(codeOf(p)) &&
         !pinnedGroupKeys.has(designGroupKey(p)) &&
         !julyCodes.has(codeOf(p)) &&
-        !julyGroupKeys.has(designGroupKey(p))
+        !julyGroupKeys.has(designGroupKey(p)) &&
+        !editorCodes.has(codeOf(p)) &&
+        !editorGroupKeys.has(designGroupKey(p))
       )
     ),
-    Math.max(0, 8 - july.length - pinned.length)
+    Math.max(0, 8 - pinned.length - july.length)
   );
-  return [...july, ...pinned, ...fallback].slice(0, 8);
+  return [...pinned, ...july, ...fallback].slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
