@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_5';
+const VERSION = 'luxe_refresh_0829_6';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1093,9 +1093,22 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  return CURRENT_NEW_CODES
+  const pinned = CURRENT_NEW_CODES
     .map(code => visible.find(p => codeOf(p) === code))
     .filter(Boolean);
+  const pinnedCodes = new Set(pinned.map(codeOf));
+  const pinnedGroups = new Set(pinned.map(designGroupKey));
+  const august = chooseUniqueByDesignGroup(
+    sortProducts(
+      visible.filter(p =>
+        isAugustNewProduct(p) &&
+        !pinnedCodes.has(codeOf(p)) &&
+        !pinnedGroups.has(designGroupKey(p))
+      )
+    ),
+    Math.max(0, 8 - pinned.length)
+  );
+  return [...pinned, ...august].slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -1469,7 +1482,7 @@ function renderHome() {
   grid.className = 'home luxe-home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('신상', '최근 입고된 대표 스타일입니다.', fresh, 'NEW', '신상 더 보기')}
+    ${sectionBlock('신상', '최근 입고된 대표 스타일입니다.', fresh, 'COL_AUGUST', '신상 더 보기')}
     ${sectionBlock('NICE PICK', '나이스가 추천하는 스타일입니다.', editorItems, 'BEST', '추천상품 보기')}
     ${sectionBlock('ALL PRODUCTS', '전체 상품을 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}
     ${communityBlock()}`;
