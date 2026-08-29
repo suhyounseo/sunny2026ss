@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'anc88_0811_3';
+const VERSION = 'luxe_refresh_0829_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -30,7 +30,7 @@ const LANGS = [
 ];
 const I18N = {
   ko: {
-    searchPlaceholder: '화이트, 홀터넥, 레이스, 미디, 제시카 검색',
+    searchPlaceholder: '상품번호, 컬러, 원피스, 블라우스 검색',
     item: 'items',
     picks: 'picks',
     productCode: '상품번호',
@@ -120,8 +120,8 @@ const I18N = {
     photoRuleContactCopy: '마음에 드는 상품은 캡처 또는 상품코드로 문의해 주세요.',
     imagePrev: '이전 사진',
     imageNext: '다음 사진',
-    newDesc: '나이스가 선별한 신상 디자인입니다. 컬러와 옵션은 상품 상세에서 확인해주세요.',
-    collectionAugust: '8월 신상만 모은 셀렉션',
+    newDesc: 'NICE가 엄선한 신상 중심 셀렉션입니다.',
+    collectionAugust: '최근 입고된 신상 셀렉션',
     collectionJuly: '7월 신상만 모은 셀렉션',
     collectionA: '6월 마지막 신상 제품만 모은 셀렉션',
     collectionB: '투피스와 세트 아이템으로 완성하는 스타일링',
@@ -294,19 +294,19 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NEW', 'COSTUME'];
+const FILTERS_BASE = ['HOME', 'ALL', 'NEW', 'MINI', 'MIDI', 'LONG', 'TWO_PIECE'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
-  BEST: 'BEST PICK',
-  NEW: 'NEW ARRIVAL',
+  BEST: 'NICE PICK',
+  NEW: '신상',
   COSTUME: 'Costume',
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
   LONG: '롱드레스',
   COL_JESSICA: '제시카 입고',
-  COL_AUGUST: '8월 신상',
+  COL_AUGUST: '신상',
   COL_JULY: '7월 신상',
   COL_A: 'COLLECTION A',
   COL_B: 'COLLECTION B',
@@ -315,7 +315,7 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', '미니원피스', '미디원피스', '롱드레스', 'A라인', '슬림핏', '럭셔리', '투피스', '코스튬', '화이트룩', '당일배송', '77/88가능'];
+const QUICK_BASE = ['전체', '신상', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -1188,6 +1188,7 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
+  if (/^(신상|new|new arrival)$/i.test(rawSearch)) return isNew(p) || isAugustNewProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
   const supplierAlias = {
@@ -1300,7 +1301,7 @@ function sectionBlock(label, desc, items, moreFilter = '', moreText = t('viewAll
   if (!items.length) return '';
   const previewItems = items.slice(0, 8);
   const moreButton = moreFilter ? `<button class="section-more" type="button" data-f="${moreFilter}">${moreText}</button>` : '';
-  return `<section class="show-section home-preview-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div><span>${previewItems.length} ${t('picks')}</span></div><div class="rail home-preview-rail">${previewItems.map(p => productCard(p, true)).join('')}</div>${moreButton}</section>`;
+  return `<section class="show-section home-preview-section luxe-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div></div><div class="rail home-preview-rail">${previewItems.map(p => productCard(p, true)).join('')}</div>${moreButton}</section>`;
 }
 function imageListFor(p) {
   const isInfoImage = im => {
@@ -1491,32 +1492,21 @@ function smartStoreItems(visible) {
 }
 function renderHome() {
   const visible = PRODUCTS.filter(visibleToAudience);
-  const smartItems = smartStoreItems(visible);
-  const smartCodes = new Set(smartItems.map(codeOf));
-  const editorItems = editorSelectItems(visible.filter(p => !smartCodes.has(codeOf(p))));
-  const editorCodes = new Set([...editorItems.map(codeOf), ...smartCodes]);
-  const fresh = newArrivalItems(visible.filter(p => !smartCodes.has(codeOf(p))), editorCodes);
-  title.textContent = 'SHOWROOM';
+  const editorItems = editorSelectItems(visible);
+  const editorCodes = new Set(editorItems.map(codeOf));
+  const fresh = newArrivalItems(visible, editorCodes);
+  const gallery = sortProducts(visible).slice(0, 16);
+  title.textContent = 'NICE COLLECTION';
   count.textContent = `${visible.length} ${t('item')}`;
-  intro.textContent = sectionIntro();
-  grid.className = 'home';
+  intro.textContent = LANG === 'ko'
+    ? '상품 이미지 중심으로 정리한 NICE 신상·셀렉션 쇼룸입니다.'
+    : sectionIntro();
+  grid.className = 'home luxe-home';
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${dmGuideBlock()}
-    ${sectionBlock(t('smartstoreBest'), t('smartstoreDesc'), smartItems, 'ALL', t('viewAllProducts'))}
-    ${sectionBlock('New Arrival', t('newDesc'), fresh, 'COL_AUGUST', t('augustMore'))}
-    ${sectionBlock("Editor's Pick", t('editorDesc'), editorItems, 'BEST', t('editorsMore'))}
-    ${collectionBlock()}
-    ${communityBlock()}`;
-  $$('.collection-card').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
-  $$('[data-external]').forEach(a => a.onclick = e => {
-    const href = a.getAttribute('href');
-    if (!href || href === '#') return;
-    // Keep normal anchor navigation as fallback, but explicitly open external links
-    // for browsers that ignore nested tap targets. This helps desktop and mobile.
-    const opened = window.open(href, '_blank');
-    if (opened) e.preventDefault();
-  });
+    ${sectionBlock('신상', '최근 입고 상품 중 대표 스타일만 간결하게 보여드립니다.', fresh, 'NEW', '신상 더 보기')}
+    ${sectionBlock('NICE PICK', '파티룩, 방송룩, 무대의상으로 추천하는 셀렉션입니다.', editorItems, 'BEST', '추천상품 보기')}
+    ${sectionBlock('ALL PRODUCTS', '전체 상품은 이미지 중심으로 빠르게 확인할 수 있습니다.', gallery, 'ALL', '전체보기')}`;
   $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
   bindCards();
   bindVipControls();

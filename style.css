@@ -1171,3 +1171,325 @@ body.zoom-open{overflow:hidden!important;}
 .product-info-image-box .product-info-note{margin:0 0 12px;color:#6d5b4f;font-size:13px;font-weight:800;line-height:1.55;word-break:keep-all}
 .product-info-image-box img{width:100%;height:auto;margin:10px 0 0;border:1px solid #eadfd5;border-radius:14px;background:#fff;box-shadow:0 8px 18px rgba(32,22,16,.05)}
 @media(max-width:720px){.product-info-image-box{padding:14px}.product-info-image-box .product-info-note{font-size:12.5px}}
+
+
+
+/* NICE Minimal Luxe Refresh 2026-08-29
+   - 상단 배너 제거
+   - 상품 이미지 중심
+   - 버튼/배지/그림자 최소화
+   - 명품관 느낌의 여백과 차분한 톤
+*/
+:root{
+  --bg:#fbfaf7;
+  --paper:#fffefb;
+  --card:#fffefb;
+  --line:#e8e0d6;
+  --line2:#d8cbbd;
+  --text:#171310;
+  --sub:#7a6d62;
+  --accent:#16120f;
+  --gold:#a98557;
+  --rose:#b89486;
+  --ink:#171310;
+  --shadow:0 10px 34px rgba(28,22,18,.055);
+}
+body{
+  background:linear-gradient(180deg,#fbfaf7 0%,#f7f2eb 100%);
+  letter-spacing:-.015em;
+}
+.hero,.hero-minimal{
+  display:none !important;
+}
+.wrap{
+  max-width:1480px;
+  padding:18px 18px 86px;
+}
+.sticky-tools{
+  margin:0 -18px 26px;
+  padding:16px 18px 14px;
+  background:rgba(251,250,247,.94);
+  border-bottom:1px solid rgba(216,203,189,.78);
+  box-shadow:0 8px 24px rgba(23,19,16,.045);
+  backdrop-filter:blur(18px);
+}
+.sticky-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  margin-bottom:12px;
+}
+.sticky-brand{
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:19px;
+  letter-spacing:.22em;
+  font-weight:700;
+  color:#171310;
+}
+.lang-switcher{
+  margin:0;
+}
+.lang-chip{
+  height:28px;
+  border-radius:0;
+  background:transparent;
+  border:0;
+  color:#8a7a6d;
+  font-size:11px;
+  letter-spacing:.06em;
+}
+.lang-chip.on{
+  background:transparent;
+  color:#171310;
+  border-bottom:1px solid #171310;
+}
+.search{
+  height:48px;
+  border-radius:0;
+  border:0;
+  border-bottom:1px solid #cfc2b4;
+  background:transparent;
+  padding:0 2px;
+  font-size:16px;
+}
+.search:focus{
+  border-bottom-color:#171310;
+}
+.quick{
+  gap:6px;
+  padding:12px 0 0;
+}
+.quick-chip{
+  border:1px solid #e2d8ce;
+  background:rgba(255,255,255,.55);
+  color:#5c5149;
+  border-radius:999px;
+  padding:8px 12px;
+  font-size:12px;
+  font-weight:650;
+  box-shadow:none;
+}
+.quick-chip:hover{
+  background:#171310;
+  color:#fff;
+  border-color:#171310;
+}
+.sticky-tools .chips{
+  gap:6px;
+  padding:10px 0 0;
+}
+.chip{
+  border-radius:999px;
+  border:1px solid #e2d8ce;
+  background:transparent;
+  color:#65584e;
+  padding:8px 14px;
+  font-weight:650;
+  letter-spacing:.01em;
+}
+.chip.on,.chip:hover{
+  background:#171310;
+  color:#fff;
+  border-color:#171310;
+}
+.head{
+  margin:28px 0 6px;
+  align-items:flex-end;
+}
+.head h2{
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:clamp(30px,4vw,54px);
+  font-weight:500;
+  letter-spacing:.11em;
+}
+.count{
+  color:#8b7a6b;
+  font-size:13px;
+}
+.intro{
+  max-width:760px;
+  margin:0 0 34px;
+  color:#7a6d62;
+  line-height:1.7;
+}
+.home .show-section{
+  margin:0 0 54px;
+}
+.section-head{
+  margin:0 0 18px;
+  padding:0;
+}
+.section-head h3{
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:clamp(22px,2.8vw,36px);
+  font-weight:500;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.section-head p{
+  font-size:14px;
+  color:#82756a;
+}
+.rail{
+  grid-auto-columns:minmax(230px,290px);
+  gap:18px;
+  padding:0 0 20px;
+}
+.rail::-webkit-scrollbar{height:4px}
+.rail::-webkit-scrollbar-thumb{background:#cdbdab}
+.home-preview-rail{
+  max-height:none;
+}
+.grid{
+  gap:28px 18px;
+}
+@media(min-width:820px){
+  .grid{gap:34px 20px}
+}
+@media(min-width:1180px){
+  .grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:38px 22px}
+}
+.card{
+  background:transparent;
+  border:0;
+  border-radius:0;
+  box-shadow:none;
+  overflow:visible;
+  cursor:pointer;
+}
+.card:hover{
+  transform:translateY(-2px);
+}
+.photo{
+  aspect-ratio:3/4.18;
+  background:#eee8df;
+  border-radius:2px;
+  overflow:hidden;
+  box-shadow:0 12px 30px rgba(28,22,18,.07);
+}
+.photo img{
+  transition:transform .45s ease;
+}
+.card:hover .photo img{
+  transform:scale(1.025);
+}
+.info{
+  padding:13px 2px 0;
+}
+.code{
+  margin:0 0 7px;
+  padding:0;
+  border-radius:0;
+  background:transparent;
+  color:#9a8774;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.08em;
+}
+.name{
+  min-height:auto;
+  font-size:15px;
+  line-height:1.48;
+  font-weight:720;
+  color:#171310;
+}
+.meta{
+  gap:5px;
+  margin-top:7px;
+}
+.meta span{
+  background:transparent;
+  border:0;
+  border-radius:0;
+  padding:0;
+  color:#8a7c70;
+  font-size:12px;
+}
+.price{
+  margin-top:8px;
+  font-size:18px;
+  font-weight:760;
+  letter-spacing:.02em;
+}
+.card-badges{
+  display:none;
+}
+.card-similar{
+  display:none !important;
+}
+.card.compact .name{
+  font-size:14px;
+  min-height:auto;
+}
+.card.compact .price{
+  font-size:17px;
+}
+.section-more{
+  width:auto;
+  min-height:42px;
+  margin:14px auto 0;
+  padding:0 24px;
+  border-radius:0;
+  border:1px solid #171310;
+  background:transparent;
+  color:#171310;
+  font-size:13px;
+  font-weight:700;
+  box-shadow:none;
+}
+.section-more:hover{
+  background:#171310;
+  color:#fff;
+}
+.dm-guide,.community-panel,.collection-grid{
+  display:none !important;
+}
+.modal{
+  background:rgba(18,14,10,.62);
+}
+.panel{
+  border-radius:0;
+  background:#fffefa;
+  box-shadow:0 30px 90px rgba(0,0,0,.28);
+}
+.modal-top{
+  background:rgba(255,254,250,.95);
+  border-bottom:1px solid #e4dbd0;
+}
+.brand{
+  font-family:Georgia,'Times New Roman',serif;
+  letter-spacing:.18em;
+  font-weight:600;
+}
+.close{
+  border-radius:0;
+  background:transparent;
+}
+.visual{
+  background:#f1ebe3;
+}
+.main img{
+  border-radius:2px;
+  box-shadow:none;
+}
+.copy{
+  background:#fffefa;
+}
+.detail-price{
+  color:#171310;
+}
+.badge{
+  border-radius:0;
+}
+@media(max-width:720px){
+  .wrap{padding:12px 12px 68px}
+  .sticky-tools{margin:0 -12px 22px;padding:13px 12px 12px}
+  .sticky-brand{font-size:15px;letter-spacing:.18em}
+  .head{margin-top:22px}
+  .rail{grid-auto-columns:minmax(190px,72vw);gap:14px}
+  .grid{gap:28px 13px}
+  .name{font-size:13px}
+  .price{font-size:16px}
+  .quick-chip,.chip{font-size:11px;padding:7px 10px}
+}
