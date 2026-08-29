@@ -1523,3 +1523,69 @@ body.luxe-home-active .luxe-home{
   body.luxe-home-active .luxe-home{margin-top:16px}
   .luxe-home .community-panel{display:block !important;margin-top:36px}
 }
+
+
+
+/* Community message update 2026-08-29 */
+.luxe-home .community-panel{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(135deg,#fffefb 0%,#f6efe6 100%);
+  border:1px solid #ded1c2;
+  padding:42px 48px;
+}
+.luxe-home .community-panel:before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:7px;
+  background:linear-gradient(180deg,#171310,#b89667);
+}
+.luxe-home .community-title{
+  color:#b89667;
+  font-family:Georgia,'Times New Roman',serif;
+  font-size:clamp(34px,5vw,70px);
+  line-height:.95;
+  letter-spacing:.1em;
+  margin:0 0 24px;
+}
+.luxe-home .community-copy{
+  color:#171310 !important;
+  font-size:clamp(20px,2.1vw,31px);
+  line-height:1.42;
+  font-weight:850;
+  letter-spacing:-.035em;
+  margin:0 0 28px;
+  word-break:keep-all;
+}
+.luxe-home .community-guide{
+  color:#6f5d4f !important;
+  font-size:clamp(15px,1.35vw,20px);
+  line-height:1.7;
+  font-weight:760;
+  margin:0;
+  word-break:keep-all;
+}
+.luxe-home .community-links{
+  position:relative;
+  z-index:1;
+}
+.luxe-home .community-link{
+  box-shadow:0 12px 30px rgba(23,19,16,.06);
+}
+@media(max-width:720px){
+  .luxe-home .community-panel{
+    padding:30px 22px;
+  }
+  .luxe-home .community-title{
+    font-size:34px;
+    letter-spacing:.08em;
+    margin-bottom:18px;
+  }
+  .luxe-home .community-copy{
+    font-size:21px;
+  }
+  .luxe-home .community-guide{
+    font-size:15px;
+  }
+}

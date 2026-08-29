@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxe_refresh_0829_2';
+const VERSION = 'luxe_refresh_0829_3';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -70,8 +70,8 @@ const I18N = {
     close: '닫기',
     empty: '조건에 맞는 상품이 없습니다. 카카오톡으로 원하시는 스타일을 보내주시면 비슷한 상품을 추천드릴게요.',
     dataFail: '상품 데이터를 불러오지 못했습니다.',
-    communityCopy: '동대문 밀리오레 NICE<br>파티룩 · 무대의상 · 클럽룩 · 방송의상 전문',
-    communityGuide: '쇼룸에는 매장 셀렉션과 네이버 등록 상품이 함께 소개됩니다.',
+    communityCopy: '예쁜 옷은 많지만, 나에게 어울리는 옷은 여기에 있습니다.<br>NICE가 고른 신상과 추천 코디를 쇼룸에서 먼저 확인해보세요.',
+    communityGuide: '마음에 드는 상품은 상품번호와 함께 문의해 주세요.<br>재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다.',
     kakaoAsk: '카카오톡 문의',
     vipAuth: 'VIP 인증',
     smartstoreGo: '네이버 등록상품 보기',
