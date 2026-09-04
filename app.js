@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'delete_tiara_discontinued_0901_1';
+const VERSION = 'sep01_tiara_upload_0904_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -286,6 +286,7 @@ let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
   // 쇼룸 메인 컬렉션은 항상 6개만 유지합니다.
+  { key: 'SEPTEMBER_NEW', filter: 'COL_SEPTEMBER', title: '9월 신상', name: 'September New Selection', desc: '이번 9월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'AUGUST_NEW', filter: 'COL_AUGUST', title: '8월 신상', name: 'August New Selection', desc: '이번 8월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
@@ -594,9 +595,11 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
-const isRecentNewProduct = p => isAugustNewProduct(p) || isJulyNewProduct(p);
+const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
+const isNewArrivalProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
@@ -785,6 +788,7 @@ function quickLabel(key) {
 }
 function localizedCollection(c) {
   const descMap = {
+    SEPTEMBER_NEW: 'collectionSeptember',
     AUGUST_NEW: 'collectionAugust',
     JULY_NEW: 'collectionJuly',
     A: 'collectionA',
@@ -1150,22 +1154,23 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const pinned = CURRENT_NEW_CODES
-    .map(code => visible.find(p => codeOf(p) === code))
-    .filter(Boolean);
-  const pinnedCodes = new Set(pinned.map(codeOf));
-  const pinnedGroups = new Set(pinned.map(designGroupKey));
+  const september = chooseUniqueByDesignGroup(
+    sortProducts(visible.filter(p => isSeptemberNewProduct(p))),
+    8
+  );
+  const septemberCodes = new Set(september.map(codeOf));
+  const septemberGroups = new Set(september.map(designGroupKey));
   const august = chooseUniqueByDesignGroup(
     sortProducts(
       visible.filter(p =>
         isAugustNewProduct(p) &&
-        !pinnedCodes.has(codeOf(p)) &&
-        !pinnedGroups.has(designGroupKey(p))
+        !septemberCodes.has(codeOf(p)) &&
+        !septemberGroups.has(designGroupKey(p))
       )
     ),
-    Math.max(0, 8 - pinned.length)
+    Math.max(0, 8 - september.length)
   );
-  return [...pinned, ...august].slice(0, 8);
+  return [...september, ...august].slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -1224,7 +1229,7 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
-  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p);
+  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isNewArrivalProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
   const supplierAlias = {
@@ -1276,12 +1281,13 @@ function match(p) {
   let f = true;
   if (FILTER === 'ALL') f = true;
   else if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
+  else if (FILTER === 'COL_SEPTEMBER') f = isSeptemberNewProduct(p);
   else if (FILTER === 'COL_AUGUST') f = isAugustNewProduct(p);
   else if (FILTER === 'COL_JULY') f = isJulyNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'NEW') f = isAugustNewProduct(p);
+  else if (FILTER === 'NEW') f = isNewArrivalProduct(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');

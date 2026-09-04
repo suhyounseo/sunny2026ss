@@ -205460,5 +205460,1544 @@
     "translations": {},
     "newArrival": true,
     "priority": 9883
+  },
+  {
+    "code": "S978",
+    "customerCode": "S978",
+    "origin": "티아라",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "folder": "S978번",
+    "zipFolder": "9월 1일 제품정리/티아라/S978번",
+    "supplierProductNo": "S978",
+    "name": "진주 플라워 라인 크롭 니트 가디건",
+    "storeName": "진주 플라워 라인 크롭 니트 가디건",
+    "productName": "진주 플라워 라인 크롭 니트 가디건",
+    "category": "TOP",
+    "collection": "SEPTEMBER_NEW",
+    "collectionName": "9월 신상 셀렉션",
+    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "length": "크롭",
+    "fit": "여리핏",
+    "color": "아이보리 / 옐로우 / 핑크 / 민트",
+    "variantColor": "아이보리 / 옐로우 / 핑크 / 민트",
+    "size": "FREE",
+    "sizeInfo": "FREE / 상세 사이즈는 문의해 주세요.",
+    "wearInfo": "부드러운 니트 조직 / 진주 라인 / 플라워 장식 / 크롭 기장 / 상세 착용 정보는 문의해 주세요.",
+    "price": 68000,
+    "tags": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "크롭가디건",
+      "니트가디건",
+      "진주가디건",
+      "플라워가디건",
+      "파스텔가디건",
+      "데이트룩",
+      "파티룩",
+      "방송룩",
+      "러블리룩",
+      "여리핏",
+      "블라우스",
+      "가디건",
+      "상의"
+    ],
+    "styleTags": [
+      "아이보리 / 옐로우 / 핑크 / 민트",
+      "티아라",
+      "9월신상",
+      "크롭",
+      "여리핏"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩"
+    ],
+    "sizeTags": [
+      "FREE"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 47020,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep01_tiara/S978/S978_01.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep01_tiara/S978/S978_01.png",
+        "originalFile": "s978-yellow-ivory-tweed-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_02.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep01_tiara/S978/S978_02.png",
+        "originalFile": "s978-ivory-pink-tweed-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_03.png",
+        "cut": "모델컷 3",
+        "source": "assets/sep01_tiara/S978/S978_03.png",
+        "originalFile": "s978-pink-skirt-pink-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_04.png",
+        "cut": "모델컷 4",
+        "source": "assets/sep01_tiara/S978/S978_04.png",
+        "originalFile": "s978-pink-ivory-flower-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_05.png",
+        "cut": "모델컷 5",
+        "source": "assets/sep01_tiara/S978/S978_05.png",
+        "originalFile": "s978-mint-gray-pleated-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_06.png",
+        "cut": "모델컷 6",
+        "source": "assets/sep01_tiara/S978/S978_06.png",
+        "originalFile": "s978-mint-skirt-ivory-gray-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_07.png",
+        "cut": "모델컷 7",
+        "source": "assets/sep01_tiara/S978/S978_07.png",
+        "originalFile": "s978-yellow-skirt-pink-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_08.png",
+        "cut": "모델컷 8",
+        "source": "assets/sep01_tiara/S978/S978_08.png",
+        "originalFile": "s978-pink-skirt-ivory-gray-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_09.png",
+        "cut": "모델컷 9",
+        "source": "assets/sep01_tiara/S978/S978_09.png",
+        "originalFile": "s978-mint-skirt-pink-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_10.png",
+        "cut": "모델컷 10",
+        "source": "assets/sep01_tiara/S978/S978_10.png",
+        "originalFile": "s978-ivory-skirt-ivory-gray-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_11.png",
+        "cut": "모델컷 11",
+        "source": "assets/sep01_tiara/S978/S978_11.png",
+        "originalFile": "s978-yellow-skirt-ivory-gray-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_12.png",
+        "cut": "모델컷 12",
+        "source": "assets/sep01_tiara/S978/S978_12.png",
+        "originalFile": "s978-ivory-skirt-pink-tweed.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_13.png",
+        "cut": "상품컷 13",
+        "source": "assets/sep01_tiara/S978/S978_13.png",
+        "originalFile": "collage2.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_14.png",
+        "cut": "상품컷 14",
+        "source": "assets/sep01_tiara/S978/S978_14.png",
+        "originalFile": "collage3.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_15.png",
+        "cut": "상품컷 15",
+        "source": "assets/sep01_tiara/S978/S978_15.png",
+        "originalFile": "collage4.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_16.jpg",
+        "cut": "상품컷 16",
+        "source": "assets/sep01_tiara/S978/S978_16.jpg",
+        "originalFile": "S978번01.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_17.jpg",
+        "cut": "상품컷 17",
+        "source": "assets/sep01_tiara/S978/S978_17.jpg",
+        "originalFile": "S978번02.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_18.jpg",
+        "cut": "상품컷 18",
+        "source": "assets/sep01_tiara/S978/S978_18.jpg",
+        "originalFile": "S978번03.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/sep01_tiara/S978/S978_19.jpg",
+        "originalFile": "S978번04.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_20.jpg",
+        "cut": "상품컷 20",
+        "source": "assets/sep01_tiara/S978/S978_20.jpg",
+        "originalFile": "S978번05.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_21.jpg",
+        "cut": "상품컷 21",
+        "source": "assets/sep01_tiara/S978/S978_21.jpg",
+        "originalFile": "S978번06.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_22.jpg",
+        "cut": "상품컷 22",
+        "source": "assets/sep01_tiara/S978/S978_22.jpg",
+        "originalFile": "S978번07.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_23.jpg",
+        "cut": "상품컷 23",
+        "source": "assets/sep01_tiara/S978/S978_23.jpg",
+        "originalFile": "S978번08.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_24.jpg",
+        "cut": "상품컷 24",
+        "source": "assets/sep01_tiara/S978/S978_24.jpg",
+        "originalFile": "S978번09.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_25.jpg",
+        "cut": "상품컷 25",
+        "source": "assets/sep01_tiara/S978/S978_25.jpg",
+        "originalFile": "S978번10.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_26.jpg",
+        "cut": "상품컷 26",
+        "source": "assets/sep01_tiara/S978/S978_26.jpg",
+        "originalFile": "S978번11.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_27.jpg",
+        "cut": "상품컷 27",
+        "source": "assets/sep01_tiara/S978/S978_27.jpg",
+        "originalFile": "S978번12.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S978/S978_28.png",
+        "cut": "상품컷 28",
+        "source": "assets/sep01_tiara/S978/S978_28.png",
+        "originalFile": "collage.png"
+      }
+    ],
+    "mainImage": "assets/sep01_tiara/S978/S978_01.png",
+    "thumbImage": "assets/sep01_tiara/S978/S978_01.png",
+    "cardImage": "assets/sep01_tiara/S978/S978_01.png",
+    "mainCopy": "진주 라인과 플라워 장식이 포인트가 되는 러블리한 크롭 니트 가디건입니다.",
+    "desc": "부드러운 니트 조직에 진주 라인과 플라워 장식이 더해진 크롭 가디건입니다. 짧은 기장감이 허리선을 높아 보이게 해주고, 파스텔 컬러감이 여성스럽고 화사한 분위기를 만들어줍니다. 원피스 위에 걸치거나 나시, 스커트와 함께 매치하기 좋아 데이트룩, 파티룩, 방송룩 포인트 아이템으로 추천드립니다.",
+    "description": "부드러운 니트 조직에 진주 라인과 플라워 장식이 더해진 크롭 가디건입니다. 짧은 기장감이 허리선을 높아 보이게 해주고, 파스텔 컬러감이 여성스럽고 화사한 분위기를 만들어줍니다. 원피스 위에 걸치거나 나시, 스커트와 함께 매치하기 좋아 데이트룩, 파티룩, 방송룩 포인트 아이템으로 추천드립니다.",
+    "points": [
+      "진주 라인과 플라워 장식이 포인트가 되는 러블리한 크롭 니트 가디건입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "진주 라인과 플라워 장식이 포인트가 되는 러블리한 크롭 니트 가디건입니다.",
+    "recommend": "부드러운 니트 조직에 진주 라인과 플라워 장식이 더해진 크롭 가디건입니다.",
+    "fabric": "문의",
+    "fabricNote": "부드러운 니트 조직 / 진주 라인 / 플라워 장식 / 크롭 기장 / 상세 착용 정보는 문의해 주세요.",
+    "stretch": "문의",
+    "see": "문의",
+    "lining": "문의",
+    "cap": "문의",
+    "thickness": "문의",
+    "zipper": "문의",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "티아라",
+    "lineName": "9월 1일 티아라 신상",
+    "size77Available": false,
+    "size88Available": false,
+    "designGroupId": "S978",
+    "referenceMemo": "9월 1일 제품 검토.xlsx 기준 / 티아라 제품만 쇼룸 등록",
+    "uploadDate": "2026-09-04",
+    "sourceInfo": "9월 1일 제품정리.zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "모델컷/제품컷 반영",
+    "measurements": [],
+    "measurementInfo": "FREE / 상세 사이즈는 문의해 주세요.",
+    "sizeTables": [],
+    "wearTables": [],
+    "material": "문의",
+    "searchKeywords": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "크롭가디건",
+      "니트가디건",
+      "진주가디건",
+      "플라워가디건",
+      "파스텔가디건",
+      "데이트룩",
+      "파티룩",
+      "방송룩",
+      "러블리룩",
+      "여리핏",
+      "블라우스",
+      "가디건",
+      "상의",
+      "진주 플라워 라인 크롭 니트 가디건",
+      "S978",
+      "아이보리 / 옐로우 / 핑크 / 민트"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "문의",
+    "캡여부": "문의",
+    "안감": "문의",
+    "비침": "문의",
+    "두께감": "문의",
+    "지퍼": "문의",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
+  },
+  {
+    "code": "S979",
+    "customerCode": "S979",
+    "origin": "티아라",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "folder": "S979번",
+    "zipFolder": "9월 1일 제품정리/티아라/S979번",
+    "supplierProductNo": "S979",
+    "name": "파스텔 플라워 비즈 시스루 가디건",
+    "storeName": "파스텔 플라워 비즈 시스루 가디건",
+    "productName": "파스텔 플라워 비즈 시스루 가디건",
+    "category": "TOP",
+    "collection": "SEPTEMBER_NEW",
+    "collectionName": "9월 신상 셀렉션",
+    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "length": "크롭",
+    "fit": "여리핏",
+    "color": "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
+    "variantColor": "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
+    "size": "FREE",
+    "sizeInfo": "FREE / 상세 사이즈는 문의해 주세요.",
+    "wearInfo": "시스루 소재 / 플라워 비즈 장식 / 브이넥 라인 / 상세 착용 정보는 문의해 주세요.",
+    "price": "",
+    "tags": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "시스루가디건",
+      "비즈가디건",
+      "플라워가디건",
+      "파스텔가디건",
+      "가디건",
+      "방송룩",
+      "파티룩",
+      "데이트룩",
+      "커버업",
+      "여리핏",
+      "블라우스",
+      "상의"
+    ],
+    "styleTags": [
+      "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
+      "티아라",
+      "9월신상",
+      "크롭",
+      "여리핏"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩"
+    ],
+    "sizeTags": [
+      "FREE"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 47030,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep01_tiara/S979/S979_01.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep01_tiara/S979/S979_01.png",
+        "originalFile": "s979-white-skirt-white-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_02.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep01_tiara/S979/S979_02.png",
+        "originalFile": "s979-lavender-skirt-black-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_03.png",
+        "cut": "모델컷 3",
+        "source": "assets/sep01_tiara/S979/S979_03.png",
+        "originalFile": "s979-pink-skirt-white-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_04.png",
+        "cut": "모델컷 4",
+        "source": "assets/sep01_tiara/S979/S979_04.png",
+        "originalFile": "s979-pink-skirt-black-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_05.png",
+        "cut": "모델컷 5",
+        "source": "assets/sep01_tiara/S979/S979_05.png",
+        "originalFile": "s979-white-black-tiered-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_06.png",
+        "cut": "모델컷 6",
+        "source": "assets/sep01_tiara/S979/S979_06.png",
+        "originalFile": "s979-mint-skirt-white-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_07.png",
+        "cut": "모델컷 7",
+        "source": "assets/sep01_tiara/S979/S979_07.png",
+        "originalFile": "s979-mint-white-pleated-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_08.png",
+        "cut": "모델컷 8",
+        "source": "assets/sep01_tiara/S979/S979_08.png",
+        "originalFile": "s979-cream-pink-tweed-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_09.png",
+        "cut": "모델컷 9",
+        "source": "assets/sep01_tiara/S979/S979_09.png",
+        "originalFile": "s979-lavender-gray-pleated-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_10.png",
+        "cut": "모델컷 10",
+        "source": "assets/sep01_tiara/S979/S979_10.png",
+        "originalFile": "s979-pink-ivory-flower-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_11.png",
+        "cut": "모델컷 11",
+        "source": "assets/sep01_tiara/S979/S979_11.png",
+        "originalFile": "s979-mint-skirt-black-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_12.png",
+        "cut": "모델컷 12",
+        "source": "assets/sep01_tiara/S979/S979_12.png",
+        "originalFile": "s979-white-skirt-black-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_13.png",
+        "cut": "모델컷 13",
+        "source": "assets/sep01_tiara/S979/S979_13.png",
+        "originalFile": "s979-lavender-skirt-white-tiered.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_14.png",
+        "cut": "모델컷 14",
+        "source": "assets/sep01_tiara/S979/S979_14.png",
+        "originalFile": "s979-blue-white-tiered-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_15.png",
+        "cut": "상품컷 15",
+        "source": "assets/sep01_tiara/S979/S979_15.png",
+        "originalFile": "collage1.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_16.png",
+        "cut": "상품컷 16",
+        "source": "assets/sep01_tiara/S979/S979_16.png",
+        "originalFile": "collage2.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_17.png",
+        "cut": "상품컷 17",
+        "source": "assets/sep01_tiara/S979/S979_17.png",
+        "originalFile": "collage3.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_18.png",
+        "cut": "상품컷 18",
+        "source": "assets/sep01_tiara/S979/S979_18.png",
+        "originalFile": "collage4.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/sep01_tiara/S979/S979_19.jpg",
+        "originalFile": "S979번01.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_20.jpg",
+        "cut": "상품컷 20",
+        "source": "assets/sep01_tiara/S979/S979_20.jpg",
+        "originalFile": "S979번02.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_21.jpg",
+        "cut": "상품컷 21",
+        "source": "assets/sep01_tiara/S979/S979_21.jpg",
+        "originalFile": "S979번03.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_22.jpg",
+        "cut": "상품컷 22",
+        "source": "assets/sep01_tiara/S979/S979_22.jpg",
+        "originalFile": "S979번04.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_23.jpg",
+        "cut": "상품컷 23",
+        "source": "assets/sep01_tiara/S979/S979_23.jpg",
+        "originalFile": "S979번05.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_24.jpg",
+        "cut": "상품컷 24",
+        "source": "assets/sep01_tiara/S979/S979_24.jpg",
+        "originalFile": "S979번06.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_25.jpg",
+        "cut": "상품컷 25",
+        "source": "assets/sep01_tiara/S979/S979_25.jpg",
+        "originalFile": "S979번07.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_26.jpg",
+        "cut": "상품컷 26",
+        "source": "assets/sep01_tiara/S979/S979_26.jpg",
+        "originalFile": "S979번08.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_27.jpg",
+        "cut": "상품컷 27",
+        "source": "assets/sep01_tiara/S979/S979_27.jpg",
+        "originalFile": "S979번09.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_28.jpg",
+        "cut": "상품컷 28",
+        "source": "assets/sep01_tiara/S979/S979_28.jpg",
+        "originalFile": "S979번10.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_29.jpg",
+        "cut": "상품컷 29",
+        "source": "assets/sep01_tiara/S979/S979_29.jpg",
+        "originalFile": "S979번11.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_30.jpg",
+        "cut": "상품컷 30",
+        "source": "assets/sep01_tiara/S979/S979_30.jpg",
+        "originalFile": "S979번12.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_31.jpg",
+        "cut": "상품컷 31",
+        "source": "assets/sep01_tiara/S979/S979_31.jpg",
+        "originalFile": "S979번13.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_32.jpg",
+        "cut": "상품컷 32",
+        "source": "assets/sep01_tiara/S979/S979_32.jpg",
+        "originalFile": "S979번14.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_33.jpg",
+        "cut": "상품컷 33",
+        "source": "assets/sep01_tiara/S979/S979_33.jpg",
+        "originalFile": "S979번15.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_34.jpg",
+        "cut": "상품컷 34",
+        "source": "assets/sep01_tiara/S979/S979_34.jpg",
+        "originalFile": "S979번16.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_35.jpg",
+        "cut": "상품컷 35",
+        "source": "assets/sep01_tiara/S979/S979_35.jpg",
+        "originalFile": "S979번17.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_36.jpg",
+        "cut": "상품컷 36",
+        "source": "assets/sep01_tiara/S979/S979_36.jpg",
+        "originalFile": "S979번18.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_37.jpg",
+        "cut": "상품컷 37",
+        "source": "assets/sep01_tiara/S979/S979_37.jpg",
+        "originalFile": "S979번19.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_38.jpg",
+        "cut": "상품컷 38",
+        "source": "assets/sep01_tiara/S979/S979_38.jpg",
+        "originalFile": "S979번20.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S979/S979_39.png",
+        "cut": "상품컷 39",
+        "source": "assets/sep01_tiara/S979/S979_39.png",
+        "originalFile": "collage.png"
+      }
+    ],
+    "mainImage": "assets/sep01_tiara/S979/S979_01.png",
+    "thumbImage": "assets/sep01_tiara/S979/S979_01.png",
+    "cardImage": "assets/sep01_tiara/S979/S979_01.png",
+    "mainCopy": "파스텔 컬러와 플라워 비즈 디테일이 사랑스럽게 어우러진 시스루 가디건입니다.",
+    "desc": "은은한 비침감이 있는 가벼운 소재에 플라워 비즈 장식이 더해진 시스루 가디건입니다. 브이넥 라인과 앞중심 장식이 상체를 여리하게 보여주고, 소매 끝의 포인트 디테일이 사진에서도 예쁘게 살아납니다. 나시, 원피스, 스커트 위에 가볍게 걸치기 좋아 파티룩, 방송룩, 데이트룩, 봄가을 포인트룩으로 추천드립니다.",
+    "description": "은은한 비침감이 있는 가벼운 소재에 플라워 비즈 장식이 더해진 시스루 가디건입니다. 브이넥 라인과 앞중심 장식이 상체를 여리하게 보여주고, 소매 끝의 포인트 디테일이 사진에서도 예쁘게 살아납니다. 나시, 원피스, 스커트 위에 가볍게 걸치기 좋아 파티룩, 방송룩, 데이트룩, 봄가을 포인트룩으로 추천드립니다.",
+    "points": [
+      "파스텔 컬러와 플라워 비즈 디테일이 사랑스럽게 어우러진 시스루 가디건입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "파스텔 컬러와 플라워 비즈 디테일이 사랑스럽게 어우러진 시스루 가디건입니다.",
+    "recommend": "은은한 비침감이 있는 가벼운 소재에 플라워 비즈 장식이 더해진 시스루 가디건입니다.",
+    "fabric": "문의",
+    "fabricNote": "시스루 소재 / 플라워 비즈 장식 / 브이넥 라인 / 상세 착용 정보는 문의해 주세요.",
+    "stretch": "문의",
+    "see": "문의",
+    "lining": "문의",
+    "cap": "문의",
+    "thickness": "문의",
+    "zipper": "문의",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "티아라",
+    "lineName": "9월 1일 티아라 신상",
+    "size77Available": false,
+    "size88Available": false,
+    "designGroupId": "S979",
+    "referenceMemo": "9월 1일 제품 검토.xlsx 기준 / 티아라 제품만 쇼룸 등록",
+    "uploadDate": "2026-09-04",
+    "sourceInfo": "9월 1일 제품정리.zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "모델컷/제품컷 반영",
+    "measurements": [],
+    "measurementInfo": "FREE / 상세 사이즈는 문의해 주세요.",
+    "sizeTables": [],
+    "wearTables": [],
+    "material": "문의",
+    "searchKeywords": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "시스루가디건",
+      "비즈가디건",
+      "플라워가디건",
+      "파스텔가디건",
+      "가디건",
+      "방송룩",
+      "파티룩",
+      "데이트룩",
+      "커버업",
+      "여리핏",
+      "블라우스",
+      "상의",
+      "파스텔 플라워 비즈 시스루 가디건",
+      "S979",
+      "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "문의",
+    "캡여부": "문의",
+    "안감": "문의",
+    "비침": "문의",
+    "두께감": "문의",
+    "지퍼": "문의",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
+  },
+  {
+    "code": "S980",
+    "customerCode": "S980",
+    "origin": "티아라",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "folder": "S980번",
+    "zipFolder": "9월 1일 제품정리/티아라/S980번",
+    "supplierProductNo": "S980",
+    "name": "배색 카라넥 슬림 블라우스",
+    "storeName": "배색 카라넥 슬림 블라우스",
+    "productName": "배색 카라넥 슬림 블라우스",
+    "category": "TOP",
+    "collection": "SEPTEMBER_NEW",
+    "collectionName": "9월 신상 셀렉션",
+    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "length": "상의",
+    "fit": "슬림핏",
+    "color": "그레이 / 네이비 / 블랙",
+    "variantColor": "그레이 / 네이비 / 블랙",
+    "size": "S / M",
+    "sizeInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "wearInfo": "배색 카라 / 소매 배색 / 슬림핏 / 상세 착용 정보는 문의해 주세요.",
+    "price": "",
+    "tags": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "블라우스",
+      "카라블라우스",
+      "배색블라우스",
+      "슬림블라우스",
+      "데이트룩",
+      "방송룩",
+      "모임룩",
+      "블랙블라우스",
+      "그레이블라우스",
+      "여성블라우스",
+      "파티룩",
+      "가디건",
+      "상의"
+    ],
+    "styleTags": [
+      "그레이 / 네이비 / 블랙",
+      "티아라",
+      "9월신상",
+      "상의",
+      "슬림핏"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 47010,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep01_tiara/S980/S980_01.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep01_tiara/S980/S980_01.png",
+        "originalFile": "black-black-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_02.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep01_tiara/S980/S980_02.png",
+        "originalFile": "black-ivory-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_03.png",
+        "cut": "모델컷 3",
+        "source": "assets/sep01_tiara/S980/S980_03.png",
+        "originalFile": "black-mocha-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_04.png",
+        "cut": "모델컷 4",
+        "source": "assets/sep01_tiara/S980/S980_04.png",
+        "originalFile": "gray-black-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_05.png",
+        "cut": "모델컷 5",
+        "source": "assets/sep01_tiara/S980/S980_05.png",
+        "originalFile": "gray-ivory-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_06.png",
+        "cut": "모델컷 6",
+        "source": "assets/sep01_tiara/S980/S980_06.png",
+        "originalFile": "gray-mocha-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_07.png",
+        "cut": "모델컷 7",
+        "source": "assets/sep01_tiara/S980/S980_07.png",
+        "originalFile": "navy-black-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_08.png",
+        "cut": "모델컷 8",
+        "source": "assets/sep01_tiara/S980/S980_08.png",
+        "originalFile": "navy-ivory-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_09.png",
+        "cut": "모델컷 9",
+        "source": "assets/sep01_tiara/S980/S980_09.png",
+        "originalFile": "navy-mocha-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_10.png",
+        "cut": "상품컷 10",
+        "source": "assets/sep01_tiara/S980/S980_10.png",
+        "originalFile": "collage1.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_11.png",
+        "cut": "상품컷 11",
+        "source": "assets/sep01_tiara/S980/S980_11.png",
+        "originalFile": "collage2.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/sep01_tiara/S980/S980_12.jpg",
+        "originalFile": "S980번01.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/sep01_tiara/S980/S980_13.jpg",
+        "originalFile": "S980번02.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/sep01_tiara/S980/S980_14.jpg",
+        "originalFile": "S980번03.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_15.jpg",
+        "cut": "상품컷 15",
+        "source": "assets/sep01_tiara/S980/S980_15.jpg",
+        "originalFile": "S980번04.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_16.jpg",
+        "cut": "상품컷 16",
+        "source": "assets/sep01_tiara/S980/S980_16.jpg",
+        "originalFile": "S980번05.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_17.jpg",
+        "cut": "상품컷 17",
+        "source": "assets/sep01_tiara/S980/S980_17.jpg",
+        "originalFile": "S980번06.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_18.jpg",
+        "cut": "상품컷 18",
+        "source": "assets/sep01_tiara/S980/S980_18.jpg",
+        "originalFile": "S980번07.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/sep01_tiara/S980/S980_19.jpg",
+        "originalFile": "S980번08.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_20.jpg",
+        "cut": "상품컷 20",
+        "source": "assets/sep01_tiara/S980/S980_20.jpg",
+        "originalFile": "S980번09.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_21.jpg",
+        "cut": "상품컷 21",
+        "source": "assets/sep01_tiara/S980/S980_21.jpg",
+        "originalFile": "S980번10.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_22.jpg",
+        "cut": "상품컷 22",
+        "source": "assets/sep01_tiara/S980/S980_22.jpg",
+        "originalFile": "S980번11.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_23.jpg",
+        "cut": "상품컷 23",
+        "source": "assets/sep01_tiara/S980/S980_23.jpg",
+        "originalFile": "S980번12.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S980/S980_24.png",
+        "cut": "상품컷 24",
+        "source": "assets/sep01_tiara/S980/S980_24.png",
+        "originalFile": "collage.png"
+      }
+    ],
+    "mainImage": "assets/sep01_tiara/S980/S980_01.png",
+    "thumbImage": "assets/sep01_tiara/S980/S980_01.png",
+    "cardImage": "assets/sep01_tiara/S980/S980_01.png",
+    "mainCopy": "셔츠 카라 배색과 소매 배색 포인트가 깔끔하게 들어간 슬림 블라우스입니다.",
+    "desc": "셔츠 카라를 레이어드한 듯한 배색 디자인의 슬림 블라우스입니다. 브이넥으로 내려오는 카라 라인이 목선을 시원하게 보여주고, 소매 끝 배색 디테일이 단정하면서도 세련된 포인트를 줍니다. 스커트와 매치하면 여성스러운 출근룩·데이트룩으로, 슬림한 하의와 매치하면 깔끔한 방송룩으로 활용하기 좋습니다.",
+    "description": "셔츠 카라를 레이어드한 듯한 배색 디자인의 슬림 블라우스입니다. 브이넥으로 내려오는 카라 라인이 목선을 시원하게 보여주고, 소매 끝 배색 디테일이 단정하면서도 세련된 포인트를 줍니다. 스커트와 매치하면 여성스러운 출근룩·데이트룩으로, 슬림한 하의와 매치하면 깔끔한 방송룩으로 활용하기 좋습니다.",
+    "points": [
+      "셔츠 카라 배색과 소매 배색 포인트가 깔끔하게 들어간 슬림 블라우스입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "셔츠 카라 배색과 소매 배색 포인트가 깔끔하게 들어간 슬림 블라우스입니다.",
+    "recommend": "셔츠 카라를 레이어드한 듯한 배색 디자인의 슬림 블라우스입니다.",
+    "fabric": "문의",
+    "fabricNote": "배색 카라 / 소매 배색 / 슬림핏 / 상세 착용 정보는 문의해 주세요.",
+    "stretch": "문의",
+    "see": "문의",
+    "lining": "문의",
+    "cap": "문의",
+    "thickness": "문의",
+    "zipper": "문의",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "티아라",
+    "lineName": "9월 1일 티아라 신상",
+    "size77Available": false,
+    "size88Available": false,
+    "designGroupId": "S980",
+    "referenceMemo": "9월 1일 제품 검토.xlsx 기준 / 티아라 제품만 쇼룸 등록",
+    "uploadDate": "2026-09-04",
+    "sourceInfo": "9월 1일 제품정리.zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "모델컷/제품컷 반영",
+    "measurements": [],
+    "measurementInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "sizeTables": [],
+    "wearTables": [],
+    "material": "문의",
+    "searchKeywords": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "블라우스",
+      "카라블라우스",
+      "배색블라우스",
+      "슬림블라우스",
+      "데이트룩",
+      "방송룩",
+      "모임룩",
+      "블랙블라우스",
+      "그레이블라우스",
+      "여성블라우스",
+      "파티룩",
+      "가디건",
+      "상의",
+      "배색 카라넥 슬림 블라우스",
+      "S980",
+      "그레이 / 네이비 / 블랙"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "문의",
+    "캡여부": "문의",
+    "안감": "문의",
+    "비침": "문의",
+    "두께감": "문의",
+    "지퍼": "문의",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
+  },
+  {
+    "code": "S981",
+    "customerCode": "S981",
+    "origin": "티아라",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "folder": "S981번",
+    "zipFolder": "9월 1일 제품정리/티아라/S981번",
+    "supplierProductNo": "S981",
+    "name": "레이스 브라탑 배색 시스루 가디건 세트",
+    "storeName": "레이스 브라탑 배색 시스루 가디건 세트",
+    "productName": "레이스 브라탑 배색 시스루 가디건 세트",
+    "category": "TWO PIECE",
+    "collection": "SEPTEMBER_NEW",
+    "collectionName": "9월 신상 셀렉션",
+    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "length": "크롭",
+    "fit": "슬림핏",
+    "color": "아이보리 / 블랙",
+    "variantColor": "아이보리 / 블랙",
+    "size": "S / M",
+    "sizeInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "wearInfo": "브라탑 세트 / 레이스 시스루 / 배색 라인 / 상세 착용 정보는 문의해 주세요.",
+    "price": 54000,
+    "tags": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "브라탑세트",
+      "시스루가디건",
+      "레이스가디건",
+      "투피스",
+      "클럽룩",
+      "파티룩",
+      "방송룩",
+      "섹시탑",
+      "배색가디건",
+      "커버업",
+      "세트룩"
+    ],
+    "styleTags": [
+      "아이보리 / 블랙",
+      "티아라",
+      "9월신상",
+      "크롭",
+      "슬림핏"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 47040,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep01_tiara/S981/S981_01.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep01_tiara/S981/S981_01.png",
+        "originalFile": "s981-ivory-skirt-charcoal-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_02.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep01_tiara/S981/S981_02.png",
+        "originalFile": "s981-black-skirt-white-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_03.png",
+        "cut": "모델컷 3",
+        "source": "assets/sep01_tiara/S981/S981_03.png",
+        "originalFile": "s981-ivory-skirt-white-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_04.png",
+        "cut": "모델컷 4",
+        "source": "assets/sep01_tiara/S981/S981_04.png",
+        "originalFile": "s981-black-ivory-tweed-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_05.png",
+        "cut": "모델컷 5",
+        "source": "assets/sep01_tiara/S981/S981_05.png",
+        "originalFile": "s981-ivory-black-flower-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_06.png",
+        "cut": "모델컷 6",
+        "source": "assets/sep01_tiara/S981/S981_06.png",
+        "originalFile": "s981-black-skirt-charcoal-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_07.png",
+        "cut": "모델컷 7",
+        "source": "assets/sep01_tiara/S981/S981_07.png",
+        "originalFile": "s981-black-skirt-black-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_08.png",
+        "cut": "모델컷 8",
+        "source": "assets/sep01_tiara/S981/S981_08.png",
+        "originalFile": "s981-ivory-skirt-camel-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_09.png",
+        "cut": "모델컷 9",
+        "source": "assets/sep01_tiara/S981/S981_09.png",
+        "originalFile": "s981-black-skirt-camel-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_10.png",
+        "cut": "모델컷 10",
+        "source": "assets/sep01_tiara/S981/S981_10.png",
+        "originalFile": "s981-ivory-skirt-black-pleated.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_11.png",
+        "cut": "상품컷 11",
+        "source": "assets/sep01_tiara/S981/S981_11.png",
+        "originalFile": "collage1.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_12.png",
+        "cut": "상품컷 12",
+        "source": "assets/sep01_tiara/S981/S981_12.png",
+        "originalFile": "collage2.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_13.png",
+        "cut": "상품컷 13",
+        "source": "assets/sep01_tiara/S981/S981_13.png",
+        "originalFile": "collage3.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/sep01_tiara/S981/S981_14.jpg",
+        "originalFile": "S981번01.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_15.jpg",
+        "cut": "상품컷 15",
+        "source": "assets/sep01_tiara/S981/S981_15.jpg",
+        "originalFile": "S981번02.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_16.jpg",
+        "cut": "상품컷 16",
+        "source": "assets/sep01_tiara/S981/S981_16.jpg",
+        "originalFile": "S981번03.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_17.jpg",
+        "cut": "상품컷 17",
+        "source": "assets/sep01_tiara/S981/S981_17.jpg",
+        "originalFile": "S981번04.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_18.jpg",
+        "cut": "상품컷 18",
+        "source": "assets/sep01_tiara/S981/S981_18.jpg",
+        "originalFile": "S981번05.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/sep01_tiara/S981/S981_19.jpg",
+        "originalFile": "S981번06.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_20.jpg",
+        "cut": "상품컷 20",
+        "source": "assets/sep01_tiara/S981/S981_20.jpg",
+        "originalFile": "S981번07.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_21.jpg",
+        "cut": "상품컷 21",
+        "source": "assets/sep01_tiara/S981/S981_21.jpg",
+        "originalFile": "S981번08.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_22.jpg",
+        "cut": "상품컷 22",
+        "source": "assets/sep01_tiara/S981/S981_22.jpg",
+        "originalFile": "S981번09.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_23.jpg",
+        "cut": "상품컷 23",
+        "source": "assets/sep01_tiara/S981/S981_23.jpg",
+        "originalFile": "S981번10.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_24.jpg",
+        "cut": "상품컷 24",
+        "source": "assets/sep01_tiara/S981/S981_24.jpg",
+        "originalFile": "S981번11.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_25.jpg",
+        "cut": "상품컷 25",
+        "source": "assets/sep01_tiara/S981/S981_25.jpg",
+        "originalFile": "S981번12.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_26.jpg",
+        "cut": "상품컷 26",
+        "source": "assets/sep01_tiara/S981/S981_26.jpg",
+        "originalFile": "S981번13.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_27.jpg",
+        "cut": "상품컷 27",
+        "source": "assets/sep01_tiara/S981/S981_27.jpg",
+        "originalFile": "S981번14.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S981/S981_28.png",
+        "cut": "상품컷 28",
+        "source": "assets/sep01_tiara/S981/S981_28.png",
+        "originalFile": "collage.png"
+      }
+    ],
+    "mainImage": "assets/sep01_tiara/S981/S981_01.png",
+    "thumbImage": "assets/sep01_tiara/S981/S981_01.png",
+    "cardImage": "assets/sep01_tiara/S981/S981_01.png",
+    "mainCopy": "배색 라인과 레이스 시스루 소재가 돋보이는 브라탑 가디건 세트입니다.",
+    "desc": "브라탑과 시스루 가디건이 함께 구성된 레이스 세트 스타일입니다. 가디건의 배색 라인이 상체를 깔끔하게 잡아주고, 레이스 소재의 은은한 비침감이 여성스럽고 세련된 분위기를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 클럽룩, 파티룩, 방송룩으로 포인트 있게 연출됩니다.",
+    "description": "브라탑과 시스루 가디건이 함께 구성된 레이스 세트 스타일입니다. 가디건의 배색 라인이 상체를 깔끔하게 잡아주고, 레이스 소재의 은은한 비침감이 여성스럽고 세련된 분위기를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 클럽룩, 파티룩, 방송룩으로 포인트 있게 연출됩니다.",
+    "points": [
+      "배색 라인과 레이스 시스루 소재가 돋보이는 브라탑 가디건 세트입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "배색 라인과 레이스 시스루 소재가 돋보이는 브라탑 가디건 세트입니다.",
+    "recommend": "브라탑과 시스루 가디건이 함께 구성된 레이스 세트 스타일입니다.",
+    "fabric": "문의",
+    "fabricNote": "브라탑 세트 / 레이스 시스루 / 배색 라인 / 상세 착용 정보는 문의해 주세요.",
+    "stretch": "문의",
+    "see": "문의",
+    "lining": "문의",
+    "cap": "문의",
+    "thickness": "문의",
+    "zipper": "문의",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "티아라",
+    "lineName": "9월 1일 티아라 신상",
+    "size77Available": false,
+    "size88Available": false,
+    "designGroupId": "S981",
+    "referenceMemo": "9월 1일 제품 검토.xlsx 기준 / 티아라 제품만 쇼룸 등록",
+    "uploadDate": "2026-09-04",
+    "sourceInfo": "9월 1일 제품정리.zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "모델컷/제품컷 반영",
+    "measurements": [],
+    "measurementInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "sizeTables": [],
+    "wearTables": [],
+    "material": "문의",
+    "searchKeywords": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "브라탑세트",
+      "시스루가디건",
+      "레이스가디건",
+      "투피스",
+      "클럽룩",
+      "파티룩",
+      "방송룩",
+      "섹시탑",
+      "배색가디건",
+      "커버업",
+      "세트룩",
+      "레이스 브라탑 배색 시스루 가디건 세트",
+      "S981",
+      "아이보리 / 블랙"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "문의",
+    "캡여부": "문의",
+    "안감": "문의",
+    "비침": "문의",
+    "두께감": "문의",
+    "지퍼": "문의",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
+  },
+  {
+    "code": "S982",
+    "customerCode": "S982",
+    "origin": "티아라",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "folder": "S982번",
+    "zipFolder": "9월 1일 제품정리/티아라/S982번",
+    "supplierProductNo": "S982",
+    "name": "레이스 브라탑 시스루 가디건 세트",
+    "storeName": "레이스 브라탑 시스루 가디건 세트",
+    "productName": "레이스 브라탑 시스루 가디건 세트",
+    "category": "TWO PIECE",
+    "collection": "SEPTEMBER_NEW",
+    "collectionName": "9월 신상 셀렉션",
+    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "length": "크롭",
+    "fit": "슬림핏",
+    "color": "아이보리 / 블랙",
+    "variantColor": "아이보리 / 블랙",
+    "size": "S / M",
+    "sizeInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "wearInfo": "브라탑 세트 / 레이스 시스루 / 가디건 세트 / 상세 착용 정보는 문의해 주세요.",
+    "price": 104000,
+    "tags": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "레이스가디건",
+      "브라탑세트",
+      "시스루가디건",
+      "투피스",
+      "클럽룩",
+      "파티룩",
+      "방송룩",
+      "섹시탑",
+      "커버업",
+      "블랙룩",
+      "세트룩"
+    ],
+    "styleTags": [
+      "아이보리 / 블랙",
+      "티아라",
+      "9월신상",
+      "크롭",
+      "슬림핏"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 47050,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep01_tiara/S982/S982_01.png",
+        "cut": "상품컷 1",
+        "source": "assets/sep01_tiara/S982/S982_01.png",
+        "originalFile": "s982-black-white-pleated-basic.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_02.png",
+        "cut": "상품컷 2",
+        "source": "assets/sep01_tiara/S982/S982_02.png",
+        "originalFile": "s982-ivory-skirt-pink-flower.png"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/sep01_tiara/S982/S982_03.jpg",
+        "originalFile": "S982번01.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_04.jpg",
+        "cut": "상품컷 4",
+        "source": "assets/sep01_tiara/S982/S982_04.jpg",
+        "originalFile": "S982번02.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_05.jpg",
+        "cut": "상품컷 5",
+        "source": "assets/sep01_tiara/S982/S982_05.jpg",
+        "originalFile": "S982번03.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_06.jpg",
+        "cut": "상품컷 6",
+        "source": "assets/sep01_tiara/S982/S982_06.jpg",
+        "originalFile": "S982번04.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_07.jpg",
+        "cut": "상품컷 7",
+        "source": "assets/sep01_tiara/S982/S982_07.jpg",
+        "originalFile": "S982번05.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/sep01_tiara/S982/S982_08.jpg",
+        "originalFile": "S982번06.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_09.jpg",
+        "cut": "상품컷 9",
+        "source": "assets/sep01_tiara/S982/S982_09.jpg",
+        "originalFile": "S982번07.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_10.jpg",
+        "cut": "상품컷 10",
+        "source": "assets/sep01_tiara/S982/S982_10.jpg",
+        "originalFile": "S982번08.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_11.jpg",
+        "cut": "상품컷 11",
+        "source": "assets/sep01_tiara/S982/S982_11.jpg",
+        "originalFile": "S982번09.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_12.jpg",
+        "cut": "상품컷 12",
+        "source": "assets/sep01_tiara/S982/S982_12.jpg",
+        "originalFile": "S982번10.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_13.jpg",
+        "cut": "상품컷 13",
+        "source": "assets/sep01_tiara/S982/S982_13.jpg",
+        "originalFile": "S982번11.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_14.jpg",
+        "cut": "상품컷 14",
+        "source": "assets/sep01_tiara/S982/S982_14.jpg",
+        "originalFile": "S982번12.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_15.jpg",
+        "cut": "상품컷 15",
+        "source": "assets/sep01_tiara/S982/S982_15.jpg",
+        "originalFile": "S982번13.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_16.jpg",
+        "cut": "상품컷 16",
+        "source": "assets/sep01_tiara/S982/S982_16.jpg",
+        "originalFile": "S982번14.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_17.jpg",
+        "cut": "상품컷 17",
+        "source": "assets/sep01_tiara/S982/S982_17.jpg",
+        "originalFile": "S982번15.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_18.jpg",
+        "cut": "상품컷 18",
+        "source": "assets/sep01_tiara/S982/S982_18.jpg",
+        "originalFile": "S982번16.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_19.jpg",
+        "cut": "상품컷 19",
+        "source": "assets/sep01_tiara/S982/S982_19.jpg",
+        "originalFile": "S982번17.jpg"
+      },
+      {
+        "url": "assets/sep01_tiara/S982/S982_20.png",
+        "cut": "상품컷 20",
+        "source": "assets/sep01_tiara/S982/S982_20.png",
+        "originalFile": "collage.png"
+      }
+    ],
+    "mainImage": "assets/sep01_tiara/S982/S982_01.png",
+    "thumbImage": "assets/sep01_tiara/S982/S982_01.png",
+    "cardImage": "assets/sep01_tiara/S982/S982_01.png",
+    "mainCopy": "브라탑과 레이스 시스루 가디건이 함께 매치되는 여성스러운 세트룩입니다.",
+    "desc": "섬세한 레이스 소재의 가디건과 브라탑이 함께 구성된 세트 스타일입니다. 가디건의 은은한 시스루감이 상체 라인을 가볍게 감싸주고, 브라탑은 단품으로도 포인트 있게 활용할 수 있습니다. 스커트나 슬림 팬츠와 매치하면 클럽룩, 파티룩, 방송룩으로 세련되게 연출됩니다.",
+    "description": "섬세한 레이스 소재의 가디건과 브라탑이 함께 구성된 세트 스타일입니다. 가디건의 은은한 시스루감이 상체 라인을 가볍게 감싸주고, 브라탑은 단품으로도 포인트 있게 활용할 수 있습니다. 스커트나 슬림 팬츠와 매치하면 클럽룩, 파티룩, 방송룩으로 세련되게 연출됩니다.",
+    "points": [
+      "브라탑과 레이스 시스루 가디건이 함께 매치되는 여성스러운 세트룩입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "브라탑과 레이스 시스루 가디건이 함께 매치되는 여성스러운 세트룩입니다.",
+    "recommend": "섬세한 레이스 소재의 가디건과 브라탑이 함께 구성된 세트 스타일입니다.",
+    "fabric": "문의",
+    "fabricNote": "브라탑 세트 / 레이스 시스루 / 가디건 세트 / 상세 착용 정보는 문의해 주세요.",
+    "stretch": "문의",
+    "see": "문의",
+    "lining": "문의",
+    "cap": "문의",
+    "thickness": "문의",
+    "zipper": "문의",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "티아라",
+    "lineName": "9월 1일 티아라 신상",
+    "size77Available": false,
+    "size88Available": false,
+    "designGroupId": "S982",
+    "referenceMemo": "9월 1일 제품 검토.xlsx 기준 / 티아라 제품만 쇼룸 등록",
+    "uploadDate": "2026-09-04",
+    "sourceInfo": "9월 1일 제품정리.zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "제품컷 반영",
+    "measurements": [],
+    "measurementInfo": "S / M / 상세 사이즈는 문의해 주세요.",
+    "sizeTables": [],
+    "wearTables": [],
+    "material": "문의",
+    "searchKeywords": [
+      "NEW",
+      "9월신상",
+      "티아라신상",
+      "티아라",
+      "레이스가디건",
+      "브라탑세트",
+      "시스루가디건",
+      "투피스",
+      "클럽룩",
+      "파티룩",
+      "방송룩",
+      "섹시탑",
+      "커버업",
+      "블랙룩",
+      "세트룩",
+      "레이스 브라탑 시스루 가디건 세트",
+      "S982",
+      "아이보리 / 블랙"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "문의",
+    "캡여부": "문의",
+    "안감": "문의",
+    "비침": "문의",
+    "두께감": "문의",
+    "지퍼": "문의",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   }
 ]
