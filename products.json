@@ -205474,9 +205474,9 @@
     "storeName": "진주 플라워 라인 크롭 니트 가디건",
     "productName": "진주 플라워 라인 크롭 니트 가디건",
     "category": "TOP",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "크롭",
     "fit": "여리핏",
     "color": "아이보리 / 옐로우 / 핑크 / 민트",
@@ -205502,7 +205502,10 @@
       "여리핏",
       "블라우스",
       "가디건",
-      "상의"
+      "상의",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "아이보리 / 옐로우 / 핑크 / 민트",
@@ -205526,7 +205529,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 47020,
+    "priority": 899600,
     "images": [],
     "cuts": [
       {
@@ -205758,7 +205761,10 @@
       "상의",
       "진주 플라워 라인 크롭 니트 가디건",
       "S978",
-      "아이보리 / 옐로우 / 핑크 / 민트"
+      "아이보리 / 옐로우 / 핑크 / 민트",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -205784,9 +205790,9 @@
     "storeName": "파스텔 플라워 비즈 시스루 가디건",
     "productName": "파스텔 플라워 비즈 시스루 가디건",
     "category": "TOP",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "크롭",
     "fit": "여리핏",
     "color": "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
@@ -205811,7 +205817,10 @@
       "커버업",
       "여리핏",
       "블라우스",
-      "상의"
+      "상의",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
@@ -205835,7 +205844,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 47030,
+    "priority": 899800,
     "images": [],
     "cuts": [
       {
@@ -206073,9 +206082,9 @@
         "originalFile": "collage.png"
       }
     ],
-    "mainImage": "assets/sep01_tiara/S979/S979_01.png",
-    "thumbImage": "assets/sep01_tiara/S979/S979_01.png",
-    "cardImage": "assets/sep01_tiara/S979/S979_01.png",
+    "mainImage": "assets/sep01_tiara/S979/S979_05.png",
+    "thumbImage": "assets/sep01_tiara/S979/S979_05.png",
+    "cardImage": "assets/sep01_tiara/S979/S979_05.png",
     "mainCopy": "파스텔 컬러와 플라워 비즈 디테일이 사랑스럽게 어우러진 시스루 가디건입니다.",
     "desc": "은은한 비침감이 있는 가벼운 소재에 플라워 비즈 장식이 더해진 시스루 가디건입니다. 브이넥 라인과 앞중심 장식이 상체를 여리하게 보여주고, 소매 끝의 포인트 디테일이 사진에서도 예쁘게 살아납니다. 나시, 원피스, 스커트 위에 가볍게 걸치기 좋아 파티룩, 방송룩, 데이트룩, 봄가을 포인트룩으로 추천드립니다.",
     "description": "은은한 비침감이 있는 가벼운 소재에 플라워 비즈 장식이 더해진 시스루 가디건입니다. 브이넥 라인과 앞중심 장식이 상체를 여리하게 보여주고, 소매 끝의 포인트 디테일이 사진에서도 예쁘게 살아납니다. 나시, 원피스, 스커트 위에 가볍게 걸치기 좋아 파티룩, 방송룩, 데이트룩, 봄가을 포인트룩으로 추천드립니다.",
@@ -206132,7 +206141,10 @@
       "상의",
       "파스텔 플라워 비즈 시스루 가디건",
       "S979",
-      "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더"
+      "아이보리 / 핑크 / 소라 / 크림 / 민트 / 라벤더",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -206158,9 +206170,9 @@
     "storeName": "배색 카라넥 슬림 블라우스",
     "productName": "배색 카라넥 슬림 블라우스",
     "category": "TOP",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "상의",
     "fit": "슬림핏",
     "color": "그레이 / 네이비 / 블랙",
@@ -206186,7 +206198,10 @@
       "여성블라우스",
       "파티룩",
       "가디건",
-      "상의"
+      "상의",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "그레이 / 네이비 / 블랙",
@@ -206211,7 +206226,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 47010,
+    "priority": 899700,
     "images": [],
     "cuts": [
       {
@@ -206359,9 +206374,9 @@
         "originalFile": "collage.png"
       }
     ],
-    "mainImage": "assets/sep01_tiara/S980/S980_01.png",
-    "thumbImage": "assets/sep01_tiara/S980/S980_01.png",
-    "cardImage": "assets/sep01_tiara/S980/S980_01.png",
+    "mainImage": "assets/sep01_tiara/S980/S980_02.png",
+    "thumbImage": "assets/sep01_tiara/S980/S980_02.png",
+    "cardImage": "assets/sep01_tiara/S980/S980_02.png",
     "mainCopy": "셔츠 카라 배색과 소매 배색 포인트가 깔끔하게 들어간 슬림 블라우스입니다.",
     "desc": "셔츠 카라를 레이어드한 듯한 배색 디자인의 슬림 블라우스입니다. 브이넥으로 내려오는 카라 라인이 목선을 시원하게 보여주고, 소매 끝 배색 디테일이 단정하면서도 세련된 포인트를 줍니다. 스커트와 매치하면 여성스러운 출근룩·데이트룩으로, 슬림한 하의와 매치하면 깔끔한 방송룩으로 활용하기 좋습니다.",
     "description": "셔츠 카라를 레이어드한 듯한 배색 디자인의 슬림 블라우스입니다. 브이넥으로 내려오는 카라 라인이 목선을 시원하게 보여주고, 소매 끝 배색 디테일이 단정하면서도 세련된 포인트를 줍니다. 스커트와 매치하면 여성스러운 출근룩·데이트룩으로, 슬림한 하의와 매치하면 깔끔한 방송룩으로 활용하기 좋습니다.",
@@ -206419,7 +206434,10 @@
       "상의",
       "배색 카라넥 슬림 블라우스",
       "S980",
-      "그레이 / 네이비 / 블랙"
+      "그레이 / 네이비 / 블랙",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -206445,9 +206463,9 @@
     "storeName": "레이스 브라탑 배색 시스루 가디건 세트",
     "productName": "레이스 브라탑 배색 시스루 가디건 세트",
     "category": "TWO PIECE",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "크롭",
     "fit": "슬림핏",
     "color": "아이보리 / 블랙",
@@ -206471,7 +206489,10 @@
       "섹시탑",
       "배색가디건",
       "커버업",
-      "세트룩"
+      "세트룩",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "아이보리 / 블랙",
@@ -206497,7 +206518,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 47040,
+    "priority": 899900,
     "images": [],
     "cuts": [
       {
@@ -206669,9 +206690,9 @@
         "originalFile": "collage.png"
       }
     ],
-    "mainImage": "assets/sep01_tiara/S981/S981_01.png",
-    "thumbImage": "assets/sep01_tiara/S981/S981_01.png",
-    "cardImage": "assets/sep01_tiara/S981/S981_01.png",
+    "mainImage": "assets/sep01_tiara/S981/S981_04.png",
+    "thumbImage": "assets/sep01_tiara/S981/S981_04.png",
+    "cardImage": "assets/sep01_tiara/S981/S981_04.png",
     "mainCopy": "배색 라인과 레이스 시스루 소재가 돋보이는 브라탑 가디건 세트입니다.",
     "desc": "브라탑과 시스루 가디건이 함께 구성된 레이스 세트 스타일입니다. 가디건의 배색 라인이 상체를 깔끔하게 잡아주고, 레이스 소재의 은은한 비침감이 여성스럽고 세련된 분위기를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 클럽룩, 파티룩, 방송룩으로 포인트 있게 연출됩니다.",
     "description": "브라탑과 시스루 가디건이 함께 구성된 레이스 세트 스타일입니다. 가디건의 배색 라인이 상체를 깔끔하게 잡아주고, 레이스 소재의 은은한 비침감이 여성스럽고 세련된 분위기를 더해줍니다. 미니스커트나 슬림 스커트와 매치하면 클럽룩, 파티룩, 방송룩으로 포인트 있게 연출됩니다.",
@@ -206727,7 +206748,10 @@
       "세트룩",
       "레이스 브라탑 배색 시스루 가디건 세트",
       "S981",
-      "아이보리 / 블랙"
+      "아이보리 / 블랙",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -206753,9 +206777,9 @@
     "storeName": "레이스 브라탑 시스루 가디건 세트",
     "productName": "레이스 브라탑 시스루 가디건 세트",
     "category": "TWO PIECE",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 티아라 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "크롭",
     "fit": "슬림핏",
     "color": "아이보리 / 블랙",
@@ -206779,7 +206803,10 @@
       "섹시탑",
       "커버업",
       "블랙룩",
-      "세트룩"
+      "세트룩",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "아이보리 / 블랙",
@@ -206805,7 +206832,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 47050,
+    "priority": 900000,
     "images": [],
     "cuts": [
       {
@@ -206929,9 +206956,9 @@
         "originalFile": "collage.png"
       }
     ],
-    "mainImage": "assets/sep01_tiara/S982/S982_01.png",
-    "thumbImage": "assets/sep01_tiara/S982/S982_01.png",
-    "cardImage": "assets/sep01_tiara/S982/S982_01.png",
+    "mainImage": "assets/sep01_tiara/S982/S982_02.png",
+    "thumbImage": "assets/sep01_tiara/S982/S982_02.png",
+    "cardImage": "assets/sep01_tiara/S982/S982_02.png",
     "mainCopy": "브라탑과 레이스 시스루 가디건이 함께 매치되는 여성스러운 세트룩입니다.",
     "desc": "섬세한 레이스 소재의 가디건과 브라탑이 함께 구성된 세트 스타일입니다. 가디건의 은은한 시스루감이 상체 라인을 가볍게 감싸주고, 브라탑은 단품으로도 포인트 있게 활용할 수 있습니다. 스커트나 슬림 팬츠와 매치하면 클럽룩, 파티룩, 방송룩으로 세련되게 연출됩니다.",
     "description": "섬세한 레이스 소재의 가디건과 브라탑이 함께 구성된 세트 스타일입니다. 가디건의 은은한 시스루감이 상체 라인을 가볍게 감싸주고, 브라탑은 단품으로도 포인트 있게 활용할 수 있습니다. 스커트나 슬림 팬츠와 매치하면 클럽룩, 파티룩, 방송룩으로 세련되게 연출됩니다.",
@@ -206987,7 +207014,10 @@
       "세트룩",
       "레이스 브라탑 시스루 가디건 세트",
       "S982",
-      "아이보리 / 블랙"
+      "아이보리 / 블랙",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207013,9 +207043,9 @@
     "storeName": "핑크 엔젤 프릴 플레어 미니원피스",
     "productName": "핑크 엔젤 프릴 플레어 미니원피스",
     "category": "MINI",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미니",
     "fit": "플레어핏",
     "color": "핑크",
@@ -207038,7 +207068,10 @@
       "파티룩",
       "방송룩",
       "여성원피스",
-      "원피스"
+      "원피스",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "핑크",
@@ -207064,7 +207097,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46990,
+    "priority": 899200,
     "images": [],
     "cuts": [
       {
@@ -207149,7 +207182,10 @@
       "원피스",
       "핑크 엔젤 프릴 플레어 미니원피스",
       "SIL-ANGEL-PINK",
-      "핑크"
+      "핑크",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207175,9 +207211,9 @@
     "storeName": "소라 엔젤 프릴 플레어 미니원피스",
     "productName": "소라 엔젤 프릴 플레어 미니원피스",
     "category": "MINI",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미니",
     "fit": "플레어핏",
     "color": "소라",
@@ -207200,7 +207236,10 @@
       "파티룩",
       "방송룩",
       "여성원피스",
-      "원피스"
+      "원피스",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "소라",
@@ -207226,7 +207265,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46989,
+    "priority": 899100,
     "images": [],
     "cuts": [
       {
@@ -207317,7 +207356,10 @@
       "원피스",
       "소라 엔젤 프릴 플레어 미니원피스",
       "SIL-ANGEL-SORA",
-      "소라"
+      "소라",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207343,9 +207385,9 @@
     "storeName": "라비앙 리본 플레어 미니투피스",
     "productName": "라비앙 리본 플레어 미니투피스",
     "category": "TWO PIECE",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미니",
     "fit": "플레어핏",
     "color": "블랙 / 아이보리",
@@ -207369,7 +207411,10 @@
       "데이트룩",
       "블랙룩",
       "화이트룩",
-      "세트룩"
+      "세트룩",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "블랙 / 아이보리",
@@ -207395,7 +207440,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46980,
+    "priority": 899500,
     "images": [],
     "cuts": [
       {
@@ -207517,7 +207562,10 @@
       "세트룩",
       "라비앙 리본 플레어 미니투피스",
       "SIL-LAVIEN",
-      "블랙 / 아이보리"
+      "블랙 / 아이보리",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207543,9 +207591,9 @@
     "storeName": "아이보리 카일리 슬림 리본 미니투피스",
     "productName": "아이보리 카일리 슬림 리본 미니투피스",
     "category": "TWO PIECE",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미니",
     "fit": "슬림핏",
     "color": "아이보리",
@@ -207570,7 +207618,10 @@
       "화이트룩",
       "섹시투피스",
       "투피스",
-      "세트룩"
+      "세트룩",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "아이보리",
@@ -207596,7 +207647,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46970,
+    "priority": 899400,
     "images": [],
     "cuts": [
       {
@@ -207701,7 +207752,10 @@
       "세트룩",
       "아이보리 카일리 슬림 리본 미니투피스",
       "SIL-KYLIE-IVORY",
-      "아이보리"
+      "아이보리",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207727,9 +207781,9 @@
     "storeName": "핑크 카일리 슬림 리본 미니투피스",
     "productName": "핑크 카일리 슬림 리본 미니투피스",
     "category": "TWO PIECE",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미니",
     "fit": "슬림핏",
     "color": "핑크",
@@ -207754,7 +207808,10 @@
       "러블리룩",
       "섹시투피스",
       "투피스",
-      "세트룩"
+      "세트룩",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "핑크",
@@ -207780,7 +207837,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46969,
+    "priority": 899300,
     "images": [],
     "cuts": [
       {
@@ -207873,7 +207930,10 @@
       "세트룩",
       "핑크 카일리 슬림 리본 미니투피스",
       "SIL-KYLIE-PINK",
-      "핑크"
+      "핑크",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",
@@ -207899,9 +207959,9 @@
     "storeName": "아보 스퀘어넥 슬림 미디원피스",
     "productName": "아보 스퀘어넥 슬림 미디원피스",
     "category": "MIDI",
-    "collection": "SEPTEMBER_NEW",
-    "collectionName": "9월 신상 셀렉션",
-    "collectionDescription": "9월 1일 추가 입고된 실루엣 신상 셀렉션입니다.",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
     "length": "미디",
     "fit": "슬림핏",
     "color": "블랙 / 화이트",
@@ -207925,7 +207985,10 @@
       "방송룩",
       "고급원피스",
       "모임룩",
-      "원피스"
+      "원피스",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "styleTags": [
       "블랙 / 화이트",
@@ -207951,7 +208014,7 @@
     "isPopular": false,
     "mainDisplay": false,
     "featured": false,
-    "priority": 46960,
+    "priority": 899000,
     "images": [],
     "cuts": [
       {
@@ -208061,7 +208124,10 @@
       "원피스",
       "아보 스퀘어넥 슬림 미디원피스",
       "SIL-ABO2",
-      "블랙 / 화이트"
+      "블랙 / 화이트",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL"
     ],
     "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
     "신축성": "문의",

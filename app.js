@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'price_match_fix_0904_1';
+const VERSION = 'rank_main_slim_0904_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1154,23 +1154,11 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const september = chooseUniqueByDesignGroup(
-    sortProducts(visible.filter(p => isSeptemberNewProduct(p))),
+  const fresh = chooseUniqueByDesignGroup(
+    sortProducts(visible.filter(p => isAugustNewProduct(p))),
     8
   );
-  const septemberCodes = new Set(september.map(codeOf));
-  const septemberGroups = new Set(september.map(designGroupKey));
-  const august = chooseUniqueByDesignGroup(
-    sortProducts(
-      visible.filter(p =>
-        isAugustNewProduct(p) &&
-        !septemberCodes.has(codeOf(p)) &&
-        !septemberGroups.has(designGroupKey(p))
-      )
-    ),
-    Math.max(0, 8 - september.length)
-  );
-  return [...september, ...august].slice(0, 8);
+  return fresh.slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -1229,7 +1217,7 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
-  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isNewArrivalProduct(p);
+  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p) || isNewArrivalProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
   const supplierAlias = {
