@@ -208139,5 +208139,551 @@
     "best": false,
     "isBest": false,
     "bestItem": false
+  },
+  {
+    "code": "S977-BK",
+    "customerCode": "S977-BK",
+    "origin": "펄",
+    "supplier": "펄",
+    "vendor": "펄",
+    "folder": "S977번 black",
+    "zipFolder": "펄(1).zip/펄/S977번 black",
+    "supplierProductNo": "S977",
+    "name": "블랙 레이스 브이넥 슬림 블라우스",
+    "storeName": "블랙 레이스 브이넥 슬림 블라우스",
+    "productName": "블랙 레이스 브이넥 슬림 블라우스",
+    "category": "TOP",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
+    "length": "크롭",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) 총길이 43 / 소매 42 / 가슴 41 / 허리 31, 66(M) 총길이 43 / 소매 42 / 가슴 43.5 / 허리 33.5, 77(L) 총길이 43 / 소매 42 / 가슴 46 / 허리 36",
+    "wearInfo": "소재: 레이스 / 신축성 있음 / 캡 있음 / 안감 부분 / 비침 시스루 / 두께감 보통 / 지퍼 뒷지퍼",
+    "price": 81000,
+    "tags": [
+      "NEW",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL",
+      "펄신상",
+      "펄",
+      "블랙블라우스",
+      "레이스블라우스",
+      "브이넥블라우스",
+      "슬림블라우스",
+      "시스루블라우스",
+      "크롭블라우스",
+      "파티룩",
+      "클럽룩",
+      "방송룩",
+      "섹시블라우스",
+      "블라우스",
+      "상의"
+    ],
+    "styleTags": [
+      "블랙",
+      "펄",
+      "8월신상",
+      "크롭",
+      "슬림핏",
+      "레이스",
+      "브이넥"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 898900,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+        "cut": "전면컷",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+        "originalFile": "S977번 black 전면컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_02.jpg",
+        "originalFile": "S977번 black 제품컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_03.jpg",
+        "originalFile": "S977번 black 제품컷2.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_04.jpg",
+        "cut": "측면컷",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_04.jpg",
+        "originalFile": "S977번 black 측면컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_05.jpg",
+        "cut": "뒤컷",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_05.jpg",
+        "originalFile": "S977번 black 뒤컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
+        "cut": "상품컷 6",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
+        "originalFile": "s977-black-deli-black.png"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+        "cut": "상품컷 7",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+        "originalFile": "s977-black-deli-ivory MAINCUT.png"
+      }
+    ],
+    "mainImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+    "thumbImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+    "cardImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+    "mainCopy": "섬세한 레이스 텍스처와 브이넥 라인이 여성스럽게 어우러진 블랙 슬림 블라우스입니다.",
+    "desc": "섬세한 레이스 소재가 고급스럽게 들어간 브이넥 슬림 블라우스입니다. 퍼프 느낌의 소매 라인과 크롭 기장감이 상체를 예쁘게 잡아주고, 블랙 컬러 특유의 시크함이 클럽룩·파티룩·방송룩에 잘 어울립니다. 스커트나 슬림한 하의와 매치하면 은근한 시스루 포인트가 살아나는 스타일입니다.",
+    "description": "섬세한 레이스 소재가 고급스럽게 들어간 브이넥 슬림 블라우스입니다. 퍼프 느낌의 소매 라인과 크롭 기장감이 상체를 예쁘게 잡아주고, 블랙 컬러 특유의 시크함이 클럽룩·파티룩·방송룩에 잘 어울립니다. 스커트나 슬림한 하의와 매치하면 은근한 시스루 포인트가 살아나는 스타일입니다.",
+    "points": [
+      "섬세한 레이스 텍스처와 브이넥 라인이 여성스럽게 어우러진 블랙 슬림 블라우스입니다.",
+      "55/66/77 사이즈가 준비된 레이스 블라우스입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "섬세한 레이스 텍스처와 브이넥 라인이 여성스럽게 어우러진 블랙 슬림 블라우스입니다.",
+    "recommend": "섬세한 레이스 소재가 고급스럽게 들어간 브이넥 슬림 블라우스입니다.",
+    "fabric": "레이스",
+    "fabricNote": "소재: 레이스 / 신축성 있음 / 캡 있음 / 안감 부분 / 비침 시스루 / 두께감 보통 / 지퍼 뒷지퍼",
+    "stretch": "있음",
+    "see": "시스루",
+    "lining": "부분",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "펄",
+    "lineName": "S977 레이스 브이넥 슬림 블라우스",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "S977",
+    "referenceMemo": "펄 S977 / 가격 81,000원 / 고객용에는 매입가 표현 미노출",
+    "uploadDate": "2026-09-05",
+    "sourceInfo": "펄(1).zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "제품컷 반영",
+    "measurements": [
+      {
+        "size": "55(S)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "41",
+        "허리단면": "31"
+      },
+      {
+        "size": "66(M)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "43.5",
+        "허리단면": "33.5"
+      },
+      {
+        "size": "77(L)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "46",
+        "허리단면": "36"
+      }
+    ],
+    "measurementInfo": "55(S) 총길이 43 / 소매 42 / 가슴 41 / 허리 31, 66(M) 총길이 43 / 소매 42 / 가슴 43.5 / 허리 33.5, 77(L) 총길이 43 / 소매 42 / 가슴 46 / 허리 36",
+    "sizeTables": [
+      {
+        "size": "55(S)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "41",
+        "허리단면": "31"
+      },
+      {
+        "size": "66(M)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "43.5",
+        "허리단면": "33.5"
+      },
+      {
+        "size": "77(L)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "46",
+        "허리단면": "36"
+      }
+    ],
+    "wearTables": [
+      {
+        "항목": "신축성",
+        "값": "있음"
+      },
+      {
+        "항목": "캡여부",
+        "값": "있음"
+      },
+      {
+        "항목": "안감",
+        "값": "부분"
+      },
+      {
+        "항목": "비침",
+        "값": "시스루"
+      },
+      {
+        "항목": "두께감",
+        "값": "보통"
+      },
+      {
+        "항목": "지퍼",
+        "값": "뒷지퍼"
+      }
+    ],
+    "material": "레이스",
+    "searchKeywords": [
+      "NEW",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL",
+      "펄신상",
+      "펄",
+      "블랙블라우스",
+      "레이스블라우스",
+      "브이넥블라우스",
+      "슬림블라우스",
+      "시스루블라우스",
+      "크롭블라우스",
+      "파티룩",
+      "클럽룩",
+      "방송룩",
+      "섹시블라우스",
+      "블라우스",
+      "상의",
+      "블랙 레이스 브이넥 슬림 블라우스",
+      "S977-BK",
+      "S977",
+      "블랙",
+      "레이스 브이넥 블라우스"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "부분",
+    "비침": "시스루",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
+  },
+  {
+    "code": "S977-BE",
+    "customerCode": "S977-BE",
+    "origin": "펄",
+    "supplier": "펄",
+    "vendor": "펄",
+    "folder": "S977번 beige",
+    "zipFolder": "펄(1).zip/펄/S977번 beige",
+    "supplierProductNo": "S977",
+    "name": "베이지 레이스 브이넥 슬림 블라우스",
+    "storeName": "베이지 레이스 브이넥 슬림 블라우스",
+    "productName": "베이지 레이스 브이넥 슬림 블라우스",
+    "category": "TOP",
+    "collection": "AUGUST_NEW",
+    "collectionName": "8월 신상 셀렉션",
+    "collectionDescription": "최근 추가된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.",
+    "length": "크롭",
+    "fit": "슬림핏",
+    "color": "베이지",
+    "variantColor": "베이지",
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) 총길이 43 / 소매 42 / 가슴 41 / 허리 31, 66(M) 총길이 43 / 소매 42 / 가슴 43.5 / 허리 33.5, 77(L) 총길이 43 / 소매 42 / 가슴 46 / 허리 36",
+    "wearInfo": "소재: 레이스 / 신축성 있음 / 캡 있음 / 안감 부분 / 비침 시스루 / 두께감 보통 / 지퍼 뒷지퍼",
+    "price": 81000,
+    "tags": [
+      "NEW",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL",
+      "펄신상",
+      "펄",
+      "베이지블라우스",
+      "레이스블라우스",
+      "브이넥블라우스",
+      "슬림블라우스",
+      "시스루블라우스",
+      "크롭블라우스",
+      "데이트룩",
+      "파티룩",
+      "방송룩",
+      "여리핏",
+      "블라우스",
+      "상의"
+    ],
+    "styleTags": [
+      "베이지",
+      "펄",
+      "8월신상",
+      "크롭",
+      "슬림핏",
+      "레이스",
+      "브이넥"
+    ],
+    "sceneTags": [
+      "파티룩",
+      "방송룩",
+      "데이트룩",
+      "클럽룩"
+    ],
+    "sizeTags": [
+      "S",
+      "M",
+      "L",
+      "77"
+    ],
+    "stockStatus": "문의",
+    "isNew": true,
+    "new": true,
+    "newArrival": true,
+    "isPopular": false,
+    "mainDisplay": false,
+    "featured": false,
+    "priority": 898800,
+    "images": [],
+    "cuts": [
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+        "cut": "전면컷",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+        "originalFile": "S977번 beige 전면컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_02.jpg",
+        "cut": "상품컷 2",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_02.jpg",
+        "originalFile": "S977번 beige 제품컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_03.jpg",
+        "cut": "상품컷 3",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_03.jpg",
+        "originalFile": "S977번 beige 제품컷2.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_04.jpg",
+        "cut": "측면컷",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_04.jpg",
+        "originalFile": "S977번 beige 측면컷 .jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_05.jpg",
+        "cut": "측면컷",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_05.jpg",
+        "originalFile": "S977번 beige 측면확대.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_06.jpg",
+        "cut": "뒤컷",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_06.jpg",
+        "originalFile": "S977번 beige 뒤컷.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_07.jpg",
+        "cut": "소매확대",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_07.jpg",
+        "originalFile": "S977번 beige 소매확대.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_08.jpg",
+        "cut": "상품컷 8",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_08.jpg",
+        "originalFile": "S977번 beige 하단확대.jpg"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+        "cut": "상품컷 9",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+        "originalFile": "s977-beige-deli-black MAINCUT.png"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
+        "cut": "상품컷 10",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
+        "originalFile": "s977-beige-deli-ivory.png"
+      }
+    ],
+    "mainImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+    "thumbImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+    "cardImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+    "mainCopy": "은은한 베이지 레이스가 여성스럽고 고급스럽게 느껴지는 브이넥 슬림 블라우스입니다.",
+    "desc": "은은한 베이지 컬러와 섬세한 레이스 소재가 어우러진 브이넥 슬림 블라우스입니다. 상체 라인을 깔끔하게 잡아주면서 레이스 특유의 여리한 분위기를 살려주고, 크롭 기장감이 허리선을 높아 보이게 연출합니다. 데이트룩, 파티룩, 방송룩, 모임룩 포인트 아이템으로 추천드립니다.",
+    "description": "은은한 베이지 컬러와 섬세한 레이스 소재가 어우러진 브이넥 슬림 블라우스입니다. 상체 라인을 깔끔하게 잡아주면서 레이스 특유의 여리한 분위기를 살려주고, 크롭 기장감이 허리선을 높아 보이게 연출합니다. 데이트룩, 파티룩, 방송룩, 모임룩 포인트 아이템으로 추천드립니다.",
+    "points": [
+      "은은한 베이지 레이스가 여성스럽고 고급스럽게 느껴지는 브이넥 슬림 블라우스입니다.",
+      "55/66/77 사이즈가 준비된 레이스 블라우스입니다.",
+      "상품번호와 함께 문의해 주시면 재고·사이즈·피팅 가능 여부를 빠르게 안내해드립니다."
+    ],
+    "whyYoullLoveIt": "은은한 베이지 레이스가 여성스럽고 고급스럽게 느껴지는 브이넥 슬림 블라우스입니다.",
+    "recommend": "은은한 베이지 컬러와 섬세한 레이스 소재가 어우러진 브이넥 슬림 블라우스입니다.",
+    "fabric": "레이스",
+    "fabricNote": "소재: 레이스 / 신축성 있음 / 캡 있음 / 안감 부분 / 비침 시스루 / 두께감 보통 / 지퍼 뒷지퍼",
+    "stretch": "있음",
+    "see": "시스루",
+    "lining": "부분",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "contactType": "kakao",
+    "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": true,
+    "brand": "펄",
+    "lineName": "S977 레이스 브이넥 슬림 블라우스",
+    "size77Available": true,
+    "size88Available": false,
+    "designGroupId": "S977",
+    "referenceMemo": "펄 S977 / 가격 81,000원 / 고객용에는 매입가 표현 미노출",
+    "uploadDate": "2026-09-05",
+    "sourceInfo": "펄(1).zip",
+    "translations": {},
+    "referenceImages": [],
+    "photoStatus": "제품컷 반영",
+    "measurements": [
+      {
+        "size": "55(S)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "41",
+        "허리단면": "31"
+      },
+      {
+        "size": "66(M)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "43.5",
+        "허리단면": "33.5"
+      },
+      {
+        "size": "77(L)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "46",
+        "허리단면": "36"
+      }
+    ],
+    "measurementInfo": "55(S) 총길이 43 / 소매 42 / 가슴 41 / 허리 31, 66(M) 총길이 43 / 소매 42 / 가슴 43.5 / 허리 33.5, 77(L) 총길이 43 / 소매 42 / 가슴 46 / 허리 36",
+    "sizeTables": [
+      {
+        "size": "55(S)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "41",
+        "허리단면": "31"
+      },
+      {
+        "size": "66(M)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "43.5",
+        "허리단면": "33.5"
+      },
+      {
+        "size": "77(L)",
+        "총길이": "43",
+        "소매길이": "42",
+        "가슴단면": "46",
+        "허리단면": "36"
+      }
+    ],
+    "wearTables": [
+      {
+        "항목": "신축성",
+        "값": "있음"
+      },
+      {
+        "항목": "캡여부",
+        "값": "있음"
+      },
+      {
+        "항목": "안감",
+        "값": "부분"
+      },
+      {
+        "항목": "비침",
+        "값": "시스루"
+      },
+      {
+        "항목": "두께감",
+        "값": "보통"
+      },
+      {
+        "항목": "지퍼",
+        "값": "뒷지퍼"
+      }
+    ],
+    "material": "레이스",
+    "searchKeywords": [
+      "NEW",
+      "8월신상",
+      "신상",
+      "NEW ARRIVAL",
+      "펄신상",
+      "펄",
+      "베이지블라우스",
+      "레이스블라우스",
+      "브이넥블라우스",
+      "슬림블라우스",
+      "시스루블라우스",
+      "크롭블라우스",
+      "데이트룩",
+      "파티룩",
+      "방송룩",
+      "여리핏",
+      "블라우스",
+      "상의",
+      "베이지 레이스 브이넥 슬림 블라우스",
+      "S977-BE",
+      "S977",
+      "베이지",
+      "레이스 브이넥 블라우스"
+    ],
+    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "신축성": "있음",
+    "캡여부": "있음",
+    "안감": "부분",
+    "비침": "시스루",
+    "두께감": "보통",
+    "지퍼": "뒷지퍼",
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   }
 ]
