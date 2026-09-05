@@ -208216,6 +208216,18 @@
     "images": [],
     "cuts": [
       {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+        "originalFile": "s977-black-deli-ivory MAINCUT.png"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
+        "originalFile": "s977-black-deli-black.png"
+      },
+      {
         "url": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
         "cut": "전면컷",
         "source": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
@@ -208223,13 +208235,13 @@
       },
       {
         "url": "assets/sep05_pearl/S977-BK/S977-BK_02.jpg",
-        "cut": "상품컷 2",
+        "cut": "상품컷 4",
         "source": "assets/sep05_pearl/S977-BK/S977-BK_02.jpg",
         "originalFile": "S977번 black 제품컷.jpg"
       },
       {
         "url": "assets/sep05_pearl/S977-BK/S977-BK_03.jpg",
-        "cut": "상품컷 3",
+        "cut": "상품컷 5",
         "source": "assets/sep05_pearl/S977-BK/S977-BK_03.jpg",
         "originalFile": "S977번 black 제품컷2.jpg"
       },
@@ -208244,23 +208256,11 @@
         "cut": "뒤컷",
         "source": "assets/sep05_pearl/S977-BK/S977-BK_05.jpg",
         "originalFile": "S977번 black 뒤컷.jpg"
-      },
-      {
-        "url": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
-        "cut": "상품컷 6",
-        "source": "assets/sep05_pearl/S977-BK/S977-BK_06.png",
-        "originalFile": "s977-black-deli-black.png"
-      },
-      {
-        "url": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
-        "cut": "상품컷 7",
-        "source": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
-        "originalFile": "s977-black-deli-ivory MAINCUT.png"
       }
     ],
-    "mainImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
-    "thumbImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
-    "cardImage": "assets/sep05_pearl/S977-BK/S977-BK_01.jpg",
+    "mainImage": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+    "thumbImage": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
+    "cardImage": "assets/sep05_pearl/S977-BK/S977-BK_07.png",
     "mainCopy": "섬세한 레이스 텍스처와 브이넥 라인이 여성스럽게 어우러진 블랙 슬림 블라우스입니다.",
     "desc": "섬세한 레이스 소재가 고급스럽게 들어간 브이넥 슬림 블라우스입니다. 퍼프 느낌의 소매 라인과 크롭 기장감이 상체를 예쁘게 잡아주고, 블랙 컬러 특유의 시크함이 클럽룩·파티룩·방송룩에 잘 어울립니다. 스커트나 슬림한 하의와 매치하면 은근한 시스루 포인트가 살아나는 스타일입니다.",
     "description": "섬세한 레이스 소재가 고급스럽게 들어간 브이넥 슬림 블라우스입니다. 퍼프 느낌의 소매 라인과 크롭 기장감이 상체를 예쁘게 잡아주고, 블랙 컬러 특유의 시크함이 클럽룩·파티룩·방송룩에 잘 어울립니다. 스커트나 슬림한 하의와 매치하면 은근한 시스루 포인트가 살아나는 스타일입니다.",
@@ -208293,7 +208293,7 @@
     "sourceInfo": "펄(1).zip",
     "translations": {},
     "referenceImages": [],
-    "photoStatus": "제품컷 반영",
+    "photoStatus": "모델컷 우선 정렬 / 제품컷 보조",
     "measurements": [
       {
         "size": "55(S)",
@@ -208480,6 +208480,18 @@
     "images": [],
     "cuts": [
       {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+        "cut": "모델컷 1",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+        "originalFile": "s977-beige-deli-black MAINCUT.png"
+      },
+      {
+        "url": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
+        "cut": "모델컷 2",
+        "source": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
+        "originalFile": "s977-beige-deli-ivory.png"
+      },
+      {
         "url": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
         "cut": "전면컷",
         "source": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
@@ -208487,13 +208499,13 @@
       },
       {
         "url": "assets/sep05_pearl/S977-BE/S977-BE_02.jpg",
-        "cut": "상품컷 2",
+        "cut": "상품컷 4",
         "source": "assets/sep05_pearl/S977-BE/S977-BE_02.jpg",
         "originalFile": "S977번 beige 제품컷.jpg"
       },
       {
         "url": "assets/sep05_pearl/S977-BE/S977-BE_03.jpg",
-        "cut": "상품컷 3",
+        "cut": "상품컷 5",
         "source": "assets/sep05_pearl/S977-BE/S977-BE_03.jpg",
         "originalFile": "S977번 beige 제품컷2.jpg"
       },
@@ -208523,26 +208535,14 @@
       },
       {
         "url": "assets/sep05_pearl/S977-BE/S977-BE_08.jpg",
-        "cut": "상품컷 8",
+        "cut": "하단확대",
         "source": "assets/sep05_pearl/S977-BE/S977-BE_08.jpg",
         "originalFile": "S977번 beige 하단확대.jpg"
-      },
-      {
-        "url": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
-        "cut": "상품컷 9",
-        "source": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
-        "originalFile": "s977-beige-deli-black MAINCUT.png"
-      },
-      {
-        "url": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
-        "cut": "상품컷 10",
-        "source": "assets/sep05_pearl/S977-BE/S977-BE_10.png",
-        "originalFile": "s977-beige-deli-ivory.png"
       }
     ],
-    "mainImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
-    "thumbImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
-    "cardImage": "assets/sep05_pearl/S977-BE/S977-BE_01.jpg",
+    "mainImage": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+    "thumbImage": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
+    "cardImage": "assets/sep05_pearl/S977-BE/S977-BE_09.png",
     "mainCopy": "은은한 베이지 레이스가 여성스럽고 고급스럽게 느껴지는 브이넥 슬림 블라우스입니다.",
     "desc": "은은한 베이지 컬러와 섬세한 레이스 소재가 어우러진 브이넥 슬림 블라우스입니다. 상체 라인을 깔끔하게 잡아주면서 레이스 특유의 여리한 분위기를 살려주고, 크롭 기장감이 허리선을 높아 보이게 연출합니다. 데이트룩, 파티룩, 방송룩, 모임룩 포인트 아이템으로 추천드립니다.",
     "description": "은은한 베이지 컬러와 섬세한 레이스 소재가 어우러진 브이넥 슬림 블라우스입니다. 상체 라인을 깔끔하게 잡아주면서 레이스 특유의 여리한 분위기를 살려주고, 크롭 기장감이 허리선을 높아 보이게 연출합니다. 데이트룩, 파티룩, 방송룩, 모임룩 포인트 아이템으로 추천드립니다.",
@@ -208575,7 +208575,7 @@
     "sourceInfo": "펄(1).zip",
     "translations": {},
     "referenceImages": [],
-    "photoStatus": "제품컷 반영",
+    "photoStatus": "모델컷 우선 정렬 / 제품컷 보조",
     "measurements": [
       {
         "size": "55(S)",
