@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'sep09_204_upload_0910_1';
+const VERSION = 'set_price_merge_nan_fix_0910_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -729,9 +729,11 @@ function sizeDetail(p) {
   return size || info || t('ask');
 }
 function money(n) {
-  if (!n) return t('priceInquiry');
-  if (LANG === 'ko') return Number(n).toLocaleString('ko-KR') + '원';
-  return '₩' + Number(n).toLocaleString('en-US');
+  if (n === null || n === undefined || n === '') return t('priceInquiry');
+  const value = Number(String(n).replace(/[^0-9.-]/g, ''));
+  if (!Number.isFinite(value) || value <= 0) return t('priceInquiry');
+  if (LANG === 'ko') return value.toLocaleString('ko-KR') + '원';
+  return '₩' + value.toLocaleString('en-US');
 }
 function safeText(value) {
   const text = cleanText(value || '');
@@ -1306,7 +1308,8 @@ function meta(p) {
     .join('');
 }
 function priceBlock(p) {
-  if (p.price) return `<div class="price">${money(p.price)}</div>`;
+  const priceText = money(p.price);
+  if (priceText !== t('priceInquiry')) return `<div class="price">${priceText}</div>`;
   return `<div class="price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 function productCard(p, compact = false) {
