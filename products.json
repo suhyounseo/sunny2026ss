@@ -451,11 +451,9 @@
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49985
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-003",
@@ -678,11 +676,9 @@
     "비침": "있음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49986
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-004",
@@ -2695,11 +2691,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49963
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-013",
@@ -5291,12 +5285,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49993
+    "지퍼": "확인 예정"
   },
   {
     "code": "JES-503",
@@ -6318,12 +6307,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49992
+    "지퍼": "확인 예정"
   },
   {
     "code": "JES-511",
@@ -8739,12 +8723,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49991
+    "지퍼": "확인 예정"
   },
   {
     "code": "S961",
@@ -10061,12 +10040,7 @@
       "앞지퍼",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49990
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S965",
@@ -10362,12 +10336,7 @@
       "보통",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49989
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S966",
@@ -17313,12 +17282,7 @@
       "슬림핏",
       "블랙슬림벨트미니원피스"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49988
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S971",
@@ -17647,12 +17611,7 @@
     ],
     "cardImage": "assets/aug16/photos/S972/S972_01.jpg",
     "photoStatus": "actual_product_photos_applied",
-    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49987
+    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지"
   },
   {
     "code": "JES-301",
@@ -22068,12 +22027,7 @@
           }
         ]
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49953
+    }
   },
   {
     "code": "JES-311",
@@ -25369,12 +25323,7 @@
           }
         ]
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49952
+    }
   },
   {
     "code": "JES-318",
@@ -46274,12 +46223,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49972
+    }
   },
   {
     "code": "N260224",
@@ -47183,10 +47127,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "nicePick": true,
-    "nicePickPriority": 49962
+    }
   },
   {
     "code": "N260002",
@@ -47843,9 +47784,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "nicePickPriority": 49961
+    }
   },
   {
     "code": "N260003",
@@ -48495,10 +48434,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "nicePick": true,
-    "nicePickPriority": 49960
+    }
   },
   {
     "code": "N260004",
@@ -53418,11 +53354,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49951
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260012",
@@ -60079,12 +60011,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49970
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "origin": "도트리본BL 델리SK",
@@ -61295,11 +61222,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49974
+    }
   },
   {
     "code": "N260035",
@@ -62783,11 +62706,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49965
+    }
   },
   {
     "code": "N260038",
@@ -63307,11 +63226,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49964
+    }
   },
   {
     "code": "N260039",
@@ -63987,10 +63902,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "nicePick": true,
-    "nicePickPriority": 49959
+    }
   },
   {
     "code": "S401",
@@ -64646,11 +64558,7 @@
           }
         ]
       }
-    },
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49958
+    }
   },
   {
     "code": "N260040",
@@ -71715,12 +71623,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49968
+    }
   },
   {
     "code": "N260082",
@@ -73183,12 +73086,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49967
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260092",
@@ -73448,12 +73346,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49966
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260093",
@@ -74157,12 +74050,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49969
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260111",
@@ -82321,12 +82209,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49973
+    }
   },
   {
     "code": "N260195",
@@ -89067,12 +88950,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49971
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-325",
@@ -116647,12 +116525,7 @@
         ]
       }
     },
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49979
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "S727",
@@ -117492,12 +117365,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49976
+    }
   },
   {
     "code": "S730",
@@ -130672,12 +130540,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49978
+    }
   },
   {
     "code": "N260227",
@@ -131239,12 +131102,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49977
+    }
   },
   {
     "code": "N260229",
@@ -134468,7 +134326,7 @@
     "isNew": false,
     "new": false,
     "isPopular": false,
-    "best": true,
+    "best": false,
     "mainDisplay": false,
     "featured": false,
     "desc": "고급스러운 그레이 컬러와 슬림한 미디 라인이 돋보이는 투피스 스타일입니다. 크롭 상의와 H라인 스커트 조합으로 허리라인을 예쁘게 살려주며, 세련된 홀복, 모임룩, 파티룩으로 추천드립니다.",
@@ -134700,11 +134558,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49975
+    }
   },
   {
     "code": "N260236",
@@ -136350,10 +136204,7 @@
       }
     },
     "sameDayAvailable": true,
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49957
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "IMN-003",
@@ -160618,12 +160469,7 @@
           }
         ]
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49981
+    }
   },
   {
     "code": "TIA-S777",
@@ -172111,12 +171957,7 @@
           }
         ]
       }
-    },
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49980
+    }
   },
   {
     "code": "TIA-S818",
@@ -184324,9 +184165,9 @@
       "리본 없이 깔끔한 세련미",
       "클럽·파티·방송룩 추천"
     ],
-    "best": true,
-    "bestItem": true,
-    "isBest": true,
+    "best": false,
+    "bestItem": false,
+    "isBest": false,
     "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
     "sizeTables": [
       {
@@ -184851,9 +184692,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "nicePickPriority": 49982
+    }
   },
   {
     "code": "GRA-S888",
@@ -185089,12 +184928,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49956
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S889",
@@ -185330,12 +185164,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49955
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S890",
@@ -185571,12 +185400,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49954
+    "thickness": "얇음"
   },
   {
     "code": "SEY-S907",
@@ -199883,12 +199707,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49983
+    "thickness": "보통"
   },
   {
     "code": "PEARL-S914",
@@ -201719,12 +201538,7 @@
     "sameDayAvailable": true,
     "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
     "storeStockPriority": true,
-    "priority": 9000,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49984
+    "priority": 9000
   },
   {
     "code": "JES-193",
@@ -205646,621 +205460,5 @@
     "translations": {},
     "newArrival": true,
     "priority": 9883
-  },
-  {
-    "code": "SIL-KYLIE-IVORY",
-    "customerCode": "SIL-KYLIE-IVORY",
-    "origin": "실루엣",
-    "supplier": "실루엣",
-    "vendor": "실루엣",
-    "name": "SIL-KYLIE-IVORY NICE 신상 셀렉션",
-    "storeName": "SIL-KYLIE-IVORY NICE 신상 셀렉션",
-    "productName": "SIL-KYLIE-IVORY NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/SIL-KYLIE-IVORY.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/SIL-KYLIE-IVORY.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/SIL-KYLIE-IVORY.png",
-        "originalFile": "SIL-KYLIE-IVORY.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/SIL-KYLIE-IVORY.png",
-    "thumbImage": "assets/nicepick_0911/SIL-KYLIE-IVORY.png",
-    "cardImage": "assets/nicepick_0911/SIL-KYLIE-IVORY.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49994
-  },
-  {
-    "code": "T007",
-    "customerCode": "T007",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T007 NICE 신상 셀렉션",
-    "storeName": "T007 NICE 신상 셀렉션",
-    "productName": "T007 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T007.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T007.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T007.png",
-        "originalFile": "T007.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T007.png",
-    "thumbImage": "assets/nicepick_0911/T007.png",
-    "cardImage": "assets/nicepick_0911/T007.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 50000
-  },
-  {
-    "code": "T025",
-    "customerCode": "T025",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T025 NICE 신상 셀렉션",
-    "storeName": "T025 NICE 신상 셀렉션",
-    "productName": "T025 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T025.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T025.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T025.png",
-        "originalFile": "T025.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T025.png",
-    "thumbImage": "assets/nicepick_0911/T025.png",
-    "cardImage": "assets/nicepick_0911/T025.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49996
-  },
-  {
-    "code": "T030",
-    "customerCode": "T030",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T030 NICE 신상 셀렉션",
-    "storeName": "T030 NICE 신상 셀렉션",
-    "productName": "T030 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T030.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T030.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T030.png",
-        "originalFile": "T030.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T030.png",
-    "thumbImage": "assets/nicepick_0911/T030.png",
-    "cardImage": "assets/nicepick_0911/T030.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49999
-  },
-  {
-    "code": "T036",
-    "customerCode": "T036",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T036 NICE 신상 셀렉션",
-    "storeName": "T036 NICE 신상 셀렉션",
-    "productName": "T036 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T036.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T036.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T036.png",
-        "originalFile": "T036.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T036.png",
-    "thumbImage": "assets/nicepick_0911/T036.png",
-    "cardImage": "assets/nicepick_0911/T036.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49998
-  },
-  {
-    "code": "T039",
-    "customerCode": "T039",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T039 NICE 신상 셀렉션",
-    "storeName": "T039 NICE 신상 셀렉션",
-    "productName": "T039 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T039.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T039.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T039.png",
-        "originalFile": "T039.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T039.png",
-    "thumbImage": "assets/nicepick_0911/T039.png",
-    "cardImage": "assets/nicepick_0911/T039.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49997
-  },
-  {
-    "code": "T044",
-    "customerCode": "T044",
-    "origin": "티아라",
-    "supplier": "티아라",
-    "vendor": "티아라",
-    "name": "T044 NICE 신상 셀렉션",
-    "storeName": "T044 NICE 신상 셀렉션",
-    "productName": "T044 NICE 신상 셀렉션",
-    "category": "NICE PICK",
-    "collection": "AUGUST_NEW",
-    "collectionName": "NEW ARRIVAL",
-    "collectionDescription": "최근 입고된 NICE 신상 셀렉션입니다.",
-    "length": "",
-    "fit": "핏 상담 추천",
-    "color": "문의",
-    "variantColor": "문의",
-    "size": "55 / 66 / 77 확인",
-    "sizeInfo": "상세 사이즈는 매장 문의",
-    "wearInfo": "피팅 가능 여부는 상품코드로 문의해 주세요.",
-    "price": "",
-    "tags": [
-      "NEW",
-      "8월신상",
-      "나이스픽",
-      "핏추천",
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "styleTags": [
-      "나이스픽",
-      "신상",
-      "핏추천"
-    ],
-    "sceneTags": [
-      "파티룩",
-      "클럽룩",
-      "방송룩",
-      "촬영룩"
-    ],
-    "sizeTags": [
-      "55",
-      "66",
-      "77"
-    ],
-    "stockStatus": "문의",
-    "isNew": true,
-    "new": true,
-    "newArrival": true,
-    "isPopular": false,
-    "mainDisplay": false,
-    "featured": false,
-    "priority": 46000,
-    "images": [
-      "assets/nicepick_0911/T044.png"
-    ],
-    "cuts": [
-      {
-        "url": "assets/nicepick_0911/T044.png",
-        "cut": "상품컷 1",
-        "source": "assets/nicepick_0911/T044.png",
-        "originalFile": "T044.png"
-      }
-    ],
-    "mainImage": "assets/nicepick_0911/T044.png",
-    "thumbImage": "assets/nicepick_0911/T044.png",
-    "cardImage": "assets/nicepick_0911/T044.png",
-    "mainCopy": "실제 피팅 시 라인이 예쁜 NICE 추천 신상입니다.",
-    "desc": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "description": "손님이 입었을 때 핏과 분위기를 우선으로 고른 NICE 추천 신상입니다. 재고·사이즈·피팅 가능 여부는 상품코드와 함께 문의해 주세요.",
-    "points": [
-      "핏추천",
-      "신상",
-      "나이스픽"
-    ],
-    "recommend": "파티룩, 클럽룩, 방송룩, 촬영룩에 추천드립니다.",
-    "contactType": "kakao",
-    "isFittingAvailable": true,
-    "brand": "NICE",
-    "uploadDate": "2026-09-10",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49995
   }
 ]
