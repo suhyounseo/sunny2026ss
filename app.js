@@ -13,7 +13,63 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'set_price_merge_nan_fix_0910_1';
+const VERSION = 'nicespick_only_final_0911_1';
+
+const NICE_PICK_PREVIEW_LIMIT = 8;
+const NICE_PICK_TOTAL_LIMIT = 50;
+const NICE_PICK_CODES = [
+  "T007",
+  "T030",
+  "T036",
+  "T039",
+  "T025",
+  "T044",
+  "SIL-KYLIE-IVORY",
+  "JES-502",
+  "JES-510",
+  "JES-557",
+  "S964",
+  "S965",
+  "S970",
+  "S972",
+  "JINI-003",
+  "JINI-002",
+  "JES-176",
+  "PEARL-S913",
+  "HIYA-S787",
+  "TIA-S776",
+  "TIA-S817",
+  "S726",
+  "N260226",
+  "N260228",
+  "S729",
+  "N260235",
+  "N260034",
+  "N260194",
+  "N260222",
+  "N260216",
+  "N260033",
+  "N260093",
+  "N260081",
+  "N260090",
+  "N260092",
+  "N260037",
+  "N260038",
+  "JINI-012",
+  "JINI-001",
+  "JINI-004",
+  "JINI-005",
+  "JINI-006",
+  "JINI-007",
+  "GRA-S888",
+  "GRA-S889",
+  "GRA-S890",
+  "N260001",
+  "N260002",
+  "N260003",
+  "N260039"
+];
+
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -1136,7 +1192,16 @@ function uniqueByDesignGroup(items) {
 function chooseUniqueByDesignGroup(list, limit) {
   return uniqueByDesignGroup(list.filter(p => mainImg(p))).slice(0, limit);
 }
+function nicePickProducts(visible = PRODUCTS.filter(visibleToAudience)) {
+  const byCode = new Map(visible.map(p => [codeOf(p), p]));
+  return NICE_PICK_CODES
+    .map(code => byCode.get(code))
+    .filter(p => p && mainImg(p))
+    .slice(0, NICE_PICK_TOTAL_LIMIT);
+}
 function editorSelectItems(visible) {
+  const picked = nicePickProducts(visible);
+  if (picked.length) return picked.slice(0, NICE_PICK_TOTAL_LIMIT);
   const excluded = new Set(EDITOR_SELECT_EXCLUDED_CODES);
   const pinned = EDITOR_SELECT_PINNED_CODES
     .map(code => visible.find(p => codeOf(p) === code))
@@ -1278,7 +1343,7 @@ function match(p) {
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
   else if (FILTER === 'NEW') f = isNewArrivalProduct(p);
-  else if (FILTER === 'BEST') f = isBest(p);
+  else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
@@ -1527,6 +1592,7 @@ function renderHome() {
   document.body.classList.add('luxe-home-active');
   const visible = PRODUCTS.filter(visibleToAudience);
   const editorItems = editorSelectItems(visible);
+  const editorPreview = editorItems.slice(0, NICE_PICK_PREVIEW_LIMIT);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
   const gallery = sortProducts(visible).slice(0, 16);
@@ -1537,10 +1603,10 @@ function renderHome() {
   const homeText = {
     ko: {
       newDesc: '최근 입고된 대표 스타일입니다.',
-      pickDesc: '나이스가 추천하는 스타일입니다.',
+      pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
       newMore: 'NEW ARRIVAL 더 보기',
-      pickMore: '추천상품 보기',
+      pickMore: 'NICE PICK 50 보기',
       allMore: '전체보기'
     },
     en: {
@@ -1571,7 +1637,7 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
-    ${sectionBlock('NICE PICK', homeText.pickDesc, editorItems, 'BEST', homeText.pickMore)}
+    ${sectionBlock('NICE PICK', homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
