@@ -13,62 +13,63 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nicepick_8_preview_50_more_0911_1';
+const VERSION = 'nicepick_only_restore_0911_1';
+
 
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
 const NICE_PICK_CODES = [
-  "S958",
-  "S957",
-  "SIL003",
-  "S955",
-  "S963",
-  "S968",
-  "JINI-001",
-  "JES-505",
+  "T007",
+  "T030",
+  "T036",
+  "T039",
+  "T025",
+  "T044",
+  "SIL-KYLIE-IVORY",
   "JES-502",
-  "JES-551",
-  "S971",
-  "S964",
-  "SIL001",
-  "S956",
-  "S967",
-  "JES-508",
-  "JINI-003",
-  "S972",
-  "JES-533",
-  "JES-534",
-  "JES-544",
-  "JES-550",
+  "JES-510",
   "JES-557",
-  "JES-530",
-  "JES-532",
-  "JES-514",
-  "JES-523",
-  "JES-546",
-  "JES-549",
-  "JES-301",
-  "JES-302",
-  "JES-304",
-  "JES-308",
+  "S964",
+  "S965",
+  "S970",
+  "S972",
+  "JINI-003",
+  "JINI-002",
+  "JES-176",
+  "PEARL-S913",
+  "HIYA-S787",
+  "TIA-S776",
+  "TIA-S817",
+  "S726",
+  "N260226",
+  "N260228",
+  "S729",
+  "N260235",
+  "N260034",
+  "N260194",
+  "N260222",
+  "N260216",
+  "N260033",
+  "N260093",
+  "N260081",
+  "N260090",
+  "N260092",
+  "N260037",
+  "N260038",
+  "JINI-012",
+  "N260001",
+  "N260002",
+  "N260003",
+  "N260039",
+  "S401",
+  "IMN-002",
+  "GRA-S888",
+  "GRA-S889",
+  "GRA-S890",
   "JES-310",
-  "JES-312",
   "JES-317",
-  "JES-318",
-  "JES-319",
-  "JES-321",
-  "JES-322",
-  "JES-323",
-  "JES-324",
-  "JINI-004",
-  "JINI-005",
-  "JINI-006",
-  "JINI-007",
-  "JINI-008",
-  "JINI-009",
-  "JINI-010",
-  "JINI-011"
+  "N260011"
 ];
 
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
@@ -1188,23 +1189,16 @@ function chooseUniqueByDesignGroup(list, limit) {
   return uniqueByDesignGroup(list.filter(p => mainImg(p))).slice(0, limit);
 }
 function editorSelectItems(visible) {
+  const picked = nicePickProducts(visible);
+  if (picked.length) return picked.slice(0, NICE_PICK_TOTAL_LIMIT);
   const excluded = new Set(EDITOR_SELECT_EXCLUDED_CODES);
-  const pinned = EDITOR_SELECT_PINNED_CODES
-    .map(code => visible.find(p => codeOf(p) === code))
-    .filter(p => p && mainImg(p));
-  const pinnedCodes = new Set(pinned.map(codeOf));
-  const need = Math.max(0, EDITOR_SELECT_LIMIT - pinned.length);
   const fallback = choose(
     sortProducts(
-      visible.filter(p =>
-        isBest(p) &&
-        !excluded.has(codeOf(p)) &&
-        !pinnedCodes.has(codeOf(p))
-      )
+      visible.filter(p => isBest(p) && !excluded.has(codeOf(p)))
     ),
-    need
+    NICE_PICK_TOTAL_LIMIT
   );
-  return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
+  return fallback.slice(0, NICE_PICK_TOTAL_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
   const pinned = CURRENT_NEW_CODES
@@ -1339,7 +1333,7 @@ function match(p) {
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
   else if (FILTER === 'NEW') f = isAugustNewProduct(p);
-  else if (FILTER === 'BEST') f = isBest(p);
+  else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
@@ -1584,646 +1578,11 @@ function smartStoreItems(visible) {
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
 
-function nicePickProducts(){
-  const byCode = new Map(products.map(p => [String(p.code || p.id || '').trim(), p]));
-  const picked = NICE_PICK_CODES.map(code => byCode.get(code)).filter(Boolean);
-  if(picked.length) return picked;
-  return products.filter(p => /BEST|추천|NICE|PICK|NEW|재고보유|IN_STOCK/.test(JSON.stringify(p))).slice(0, NICE_PICK_TOTAL_LIMIT);
+function nicePickProducts(visible = PRODUCTS.filter(visibleToAudience)) {
+  const byCode = new Map(visible.map(p => [codeOf(p), p]));
+  return NICE_PICK_CODES
+    .map(code => byCode.get(code))
+    .filter(p => p && mainImg(p))
+    .slice(0, NICE_PICK_TOTAL_LIMIT);
 }
-
-function isNicePickViewKey(key){
-  return ['NICE_PICK','NICEPICK','NICE_PICKS','PICK','BEST','RECOMMEND'].includes(String(key || '').toUpperCase());
-}
-
-
-function renderHome() {
-  document.body.classList.add('luxe-home-active');
-  const visible = PRODUCTS.filter(visibleToAudience);
-  const editorItems = editorSelectItems(visible);
-  const editorCodes = new Set(editorItems.map(codeOf));
-  const fresh = newArrivalItems(visible, editorCodes);
-  const gallery = sortProducts(visible).slice(0, 16);
-  title.textContent = '';
-  count.textContent = '';
-  intro.textContent = '';
-  grid.className = 'home luxe-home';
-  const homeText = {
-    ko: {
-      newDesc: '최근 입고된 대표 스타일입니다.',
-      pickDesc: '나이스가 추천하는 스타일입니다.',
-      allDesc: '전체 상품을 확인할 수 있습니다.',
-      newMore: 'NEW ARRIVAL 더 보기',
-      pickMore: '추천상품 보기',
-      allMore: '전체보기'
-    },
-    en: {
-      newDesc: 'Selected new arrivals from NICE.',
-      pickDesc: 'Styles recommended by NICE.',
-      allDesc: 'Browse the full collection.',
-      newMore: 'View NEW ARRIVAL',
-      pickMore: 'View NICE PICK',
-      allMore: 'View All'
-    },
-    zh: {
-      newDesc: 'NICE精选新款。',
-      pickDesc: 'NICE推荐款式。',
-      allDesc: '查看全部商品。',
-      newMore: '查看NEW ARRIVAL',
-      pickMore: '查看推荐款',
-      allMore: '查看全部'
-    },
-    ja: {
-      newDesc: 'NICEが選んだ新作スタイルです。',
-      pickDesc: 'NICEおすすめのスタイルです。',
-      allDesc: '全商品をご覧いただけます。',
-      newMore: 'NEW ARRIVALを見る',
-      pickMore: 'おすすめを見る',
-      allMore: '全商品を見る'
-    }
-  }[LANG] || {};
-  grid.innerHTML = `
-    ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
-    ${sectionBlock('NICE PICK', homeText.pickDesc, editorItems, 'BEST', homeText.pickMore)}
-    ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
-    ${communityBlock()}`;
-  $$('[data-external]').forEach(a => a.onclick = e => {
-    const href = a.getAttribute('href');
-    if (!href || href === '#') return;
-    const opened = window.open(href, '_blank');
-    if (opened) e.preventDefault();
-  });
-  $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
-  bindCards();
-  bindVipControls();
-}
-function render() {
-  document.body.classList.remove('luxe-home-active');
-  title.textContent = sectionName();
-  intro.textContent = sectionIntro();
-  if (FILTER === 'HOME' && !q.value.trim()) return renderHome();
-  grid.className = 'grid';
-  const searchActive = !!q.value.trim();
-  const visible = PRODUCTS.filter(visibleToAudience);
-  let list;
-  if (!searchActive && FILTER === 'BEST') {
-    list = editorSelectItems(visible);
-  } else if (!searchActive && FILTER === 'NEW') {
-    const editorCodes = new Set(editorSelectItems(visible).map(codeOf));
-    list = newArrivalItems(visible, editorCodes);
-  } else {
-    list = sortProducts(PRODUCTS.filter(match));
-  }
-  count.textContent = `${list.length} ${t('item')}`;
-  if (!list.length) {
-    grid.innerHTML = `${dmGuideBlock()}<div class="empty">${t('empty')}</div>`;
-    return;
-  }
-  grid.innerHTML = `${dmGuideBlock()}${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
-  bindCards();
-}
-function points(p) {
-  const localPoints = localizedProductArray(p, 'points');
-  if (localPoints.length) return localPoints.map(x => cleanText(x)).slice(0, 4);
-  const text = cleanText(localizedProductValue(p, 'desc') || localizedProductValue(p, 'description') || localizedProductValue(p, 'mainCopy') || '');
-  const parts = text.replaceAll(' / ', '. ').split(/(?<=\.)\s+/).map(x => x.trim()).filter(Boolean);
-  const picked = parts.filter(x => !/재고|촬영 환경|방문 전|DM 문의|온라인 쇼룸용/.test(x)).slice(0, 3);
-  return picked.length ? picked : ['매장 피팅과 사이즈 확인 후 구매 가능합니다.', '카카오톡으로 재고와 가격을 빠르게 안내드립니다.'];
-}
-function editorNote(p) {
-  return cleanText(localizedProductValue(p, 'editorsNote') || localizedProductValue(p, 'desc') || localizedProductValue(p, 'description') || localizedProductValue(p, 'mainCopy') || 'NICE PICK');
-}
-function contactText(p, mode = 'product') {
-  const prefix = t('contactPrefix');
-  return `${prefix}\n${t('productCode')}: ${displayCode(p)}\n${displayName(p)}\n${t('contactStockSizePrice')}`;
-}
-function copyContact(p, mode) {
-  const text = contactText(p, mode);
-  if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(text).catch(() => fallbackCopy(text));
-  } else {
-    fallbackCopy(text);
-  }
-}
-function fallbackCopy(text) {
-  const area = document.createElement('textarea');
-  area.value = text;
-  area.setAttribute('readonly', '');
-  area.style.position = 'fixed';
-  area.style.left = '-9999px';
-  document.body.appendChild(area);
-  area.select();
-  try {
-    document.execCommand('copy');
-  } catch (err) {
-    // Link navigation still works if browser copy is unavailable.
-  }
-  area.remove();
-}
-function contactProduct(p, mode = 'product') {
-  copyContact(p, mode);
-  window.open(KAKAO_URL, '_blank', 'noopener');
-}
-function coordinatedBlock(p) {
-  const links = Array.isArray(p.coordinatedWith) ? p.coordinatedWith : [];
-  const rows = links
-    .map(item => {
-      const target = PRODUCTS.find(x => codeOf(x) === item.code);
-      if (!target || !visibleToAudience(target)) return '';
-      const label = cleanText(item.label || t('coordinatedLook'));
-      const name = cleanText(item.name || displayName(target));
-      const image = mainImg(target) || cardImg(target);
-      return '<button class="coord-link" type="button" data-code="' + codeOf(target) + '">' +
-        (image ? '<img class="coord-thumb" loading="lazy" decoding="async" src="' + img(image) + '" alt="' + name + '">' : '') +
-        '<span class="coord-copy"><em>' + label + '</em><b>' + name + '</b></span>' +
-        '<strong>' + t('viewProduct') + '</strong>' +
-      '</button>';
-    })
-    .filter(Boolean);
-  if (!rows.length) return '';
-  return '<div class="box coord-box"><div class="coord-title">' + t('coordinatedLook') + '</div>' + rows.join('') + '</div>';
-}
-function optionColorValue(name) {
-  const text = String(name || '').toLowerCase();
-  const map = [
-    ['아이보리', '#fff6e6'], ['화이트', '#ffffff'], ['크림베이지', '#f3e4cc'], ['베이지', '#d6b98c'],
-    ['블랙', '#111111'], ['네이비', '#102044'], ['블루', '#4f8fd8'], ['스카이블루', '#9fd1f5'], ['소라', '#a9d8f7'],
-    ['핑크베이지', '#e8b9ad'], ['연핑크', '#f7cddd'], ['핑크', '#f4a7bf'], ['로즈', '#d85b79'], ['레드', '#d82632'], ['와인', '#7b1f35'],
-    ['민트', '#a8e0cf'], ['세이지', '#a8bfa3'], ['그린', '#257a4a'], ['라임', '#cce85a'],
-    ['옐로우', '#f3d34a'], ['엘로우', '#f3d34a'], ['오렌지', '#f28a3a'], ['브라운', '#7a4f32'],
-    ['라벤더', '#c7b4e8'], ['연보라', '#c9b6ee'], ['보라', '#8f60c7'], ['그레이', '#9ca3af'], ['실버', '#cfd4dc']
-  ];
-  const hits = [];
-  map.forEach(([key, value]) => {
-    if (text.includes(key.toLowerCase()) && !hits.includes(value)) hits.push(value);
-  });
-  if (!hits.length) return '#fce7f3';
-  if (hits.length === 1) return hits[0];
-  const step = 100 / hits.length;
-  return 'linear-gradient(135deg, ' + hits.map((color, i) => `${color} ${Math.round(i * step)}%, ${color} ${Math.round((i + 1) * step)}%`).join(', ') + ')';
-}
-function colorOptionStyle(label) {
-  const swatch = optionColorValue(label);
-  return `style="--option-color:${swatch};"`;
-}
-function colorOptionsBlock(p) {
-  if (!p.designGroupId) return '';
-  const variants = PRODUCTS
-    .filter(item => item.designGroupId && item.designGroupId === p.designGroupId && visibleToAudience(item))
-    .sort((a, b) => codeOf(a).localeCompare(codeOf(b), 'ko'));
-  if (variants.length < 2) return '';
-  const buttons = variants.map(item => {
-    const selected = codeOf(item) === codeOf(p);
-    const label = cleanText(localizedProductValue(item, 'variantColor') || localizedProductValue(item, 'color') || displayName(item));
-    return `<button class="color-option ${selected ? 'on' : ''}" type="button" data-code="${codeOf(item)}" aria-pressed="${selected}" ${colorOptionStyle(label)}><span class="color-swatch" aria-hidden="true"></span><span>${label}</span></button>`;
-  }).join('');
-  return `<div class="box color-options-box"><b>${t('sameDesignColors')}</b><div class="color-options">${buttons}</div></div>`;
-}
-function showSimilar(p) {
-  SIMILAR_CODE = codeOf(p);
-  render();
-  requestAnimationFrame(() => {
-    const shelf = $('.similar-shelf');
-    if (shelf) shelf.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  });
-}
-function closeDetail(fromHistory = false) {
-  if (!modal.classList.contains('open')) return;
-  modal.classList.remove('open');
-  document.body.classList.remove('detail-open');
-  if (modalHistoryOpen && !fromHistory) {
-    modalHistoryOpen = false;
-    history.back();
-  } else if (fromHistory) {
-    modalHistoryOpen = false;
-  }
-}
-function openModalHistory(code) {
-  if (!modalHistoryOpen) {
-    history.pushState({ niceModal: true, code }, '', `#${code}`);
-    modalHistoryOpen = true;
-  } else {
-    history.replaceState({ niceModal: true, code }, '', `#${code}`);
-  }
-}
-
-function setDetailImage(index) {
-  if (!currentImages.length) return;
-  currentImageIndex = (index + currentImages.length) % currentImages.length;
-  const next = currentImages[currentImageIndex];
-  const main = $('#mainImage', detail);
-  if (main && next) {
-    const nextSrc = img(next.url);
-    main.src = nextSrc;
-    main.dataset.full = nextSrc;
-    main.dataset.index = String(currentImageIndex);
-    main.alt = `${displayName(currentProduct || {})} ${currentImageIndex + 1}`.trim();
-  }
-  $$('.thumb', detail).forEach((x, j) => {
-    const on = currentImageIndex === j;
-    x.classList.toggle('on', on);
-    x.setAttribute('aria-current', on ? 'true' : 'false');
-    if (on && typeof x.scrollIntoView === 'function') {
-      x.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-    }
-  });
-  const counter = $('.image-counter', detail);
-  if (counter) counter.textContent = `${currentImageIndex + 1} / ${currentImages.length}`;
-}
-function moveDetailImage(delta) {
-  setDetailImage(currentImageIndex + delta);
-}
-
-function bindDetailSwipe() {
-  const main = $('.detail-main', detail);
-  if (!main || main.dataset.swipeBound === '1') return;
-  main.dataset.swipeBound = '1';
-  let startX = 0;
-  let startY = 0;
-  main.addEventListener('pointerdown', e => {
-    startX = e.clientX;
-    startY = e.clientY;
-  }, { passive: true });
-  main.addEventListener('pointerup', e => {
-    if (!startX) return;
-    const dx = e.clientX - startX;
-    const dy = e.clientY - startY;
-    startX = 0;
-    startY = 0;
-    if (Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy) * 1.2) {
-      moveDetailImage(dx < 0 ? 1 : -1);
-    }
-  }, { passive: true });
-}
-
-
-function openImageZoom(src, alt) {
-  if (!src) return;
-  let zoom = document.getElementById('imageZoomModal');
-  if (!zoom) {
-    zoom = document.createElement('div');
-    zoom.id = 'imageZoomModal';
-    zoom.className = 'image-zoom-modal';
-    zoom.innerHTML = `<button class="image-zoom-close" type="button" aria-label="${t('close')}">×</button><img class="image-zoom-img" alt="">`;
-    document.body.appendChild(zoom);
-    zoom.addEventListener('click', e => {
-      if (e.target === zoom || e.target.classList.contains('image-zoom-close')) {
-        closeImageZoom();
-      }
-    });
-  }
-  const im = zoom.querySelector('.image-zoom-img');
-  im.src = src;
-  im.alt = alt || '';
-  zoom.classList.add('open');
-  document.body.classList.add('zoom-open');
-}
-
-function currentDetailImageSrc() {
-  const fromList = currentImages && currentImages[currentImageIndex] && currentImages[currentImageIndex].url;
-  if (fromList) return img(fromList);
-  const main = $('#mainImage', detail);
-  return main ? (main.dataset.full || main.currentSrc || main.src) : '';
-}
-
-function openCurrentDetailImage() {
-  const main = $('#mainImage', detail);
-  const src = currentDetailImageSrc();
-  const alt = main ? main.alt : displayName(currentProduct || {});
-  openImageZoom(src, alt);
-}
-
-
-function closeImageZoom() {
-  const zoom = document.getElementById('imageZoomModal');
-  if (zoom) zoom.classList.remove('open');
-  document.body.classList.remove('zoom-open');
-}
-
-if (!window.__niceImageZoomEscBound) {
-  window.__niceImageZoomEscBound = true;
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeImageZoom();
-  });
-}
-
-function bindDetailZoom() {
-  const main = $('.detail-main', detail);
-  if (!main || main.dataset.zoomBound === '1') return;
-  main.dataset.zoomBound = '1';
-  let touchStartX = 0;
-  let touchStartY = 0;
-  let touchMoved = false;
-
-  main.addEventListener('touchstart', e => {
-    const t0 = e.touches && e.touches[0];
-    if (!t0) return;
-    touchStartX = t0.clientX;
-    touchStartY = t0.clientY;
-    touchMoved = false;
-  }, { passive: true });
-
-  main.addEventListener('touchmove', e => {
-    const t0 = e.touches && e.touches[0];
-    if (!t0) return;
-    if (Math.abs(t0.clientX - touchStartX) > 12 || Math.abs(t0.clientY - touchStartY) > 12) {
-      touchMoved = true;
-    }
-  }, { passive: true });
-
-  main.addEventListener('touchend', e => {
-    if (touchMoved) return;
-    if (e.target.closest && e.target.closest('.image-nav')) return;
-    if (e.target.closest && e.target.closest('#mainImage, .detail-main')) {
-      e.preventDefault();
-      e.stopPropagation();
-      openCurrentDetailImage();
-    }
-  }, { passive: false });
-
-  main.addEventListener('click', e => {
-    if (e.target.closest && e.target.closest('.image-nav')) return;
-    if (e.target.closest && e.target.closest('#mainImage, .detail-main')) {
-      e.preventDefault();
-      e.stopPropagation();
-      openCurrentDetailImage();
-    }
-  });
-}
-
-function openDetail(code) {
-  const p = PRODUCTS.find(x => codeOf(x) === code);
-  if (!p || !visibleToAudience(p)) return;
-  currentProduct = p;
-  currentImages = imageListFor(p);
-  currentImageIndex = 0;
-  const labelTags = [isNew(p) ? 'NEW' : '', (p.steady || hasTag(p, 'STEADY')) ? 'STEADY' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
-  const pointItems = publicPoints(p);
-  detail.innerHTML = `<div class="body">
-    <section class="visual">
-      <div class="main detail-main">${currentImages[0] ? `<img id="mainImage" class="zoomable-image" loading="eager" decoding="async" data-index="0" src="${img(currentImages[0].url)}" data-full="${img(currentImages[0].url)}" alt="${displayName(p)}">` : 'NO IMAGE'}${currentImages.length > 1 ? `<button class="image-nav image-prev" type="button" data-dir="-1" aria-label="${t('imagePrev')}">‹</button><button class="image-nav image-next" type="button" data-dir="1" aria-label="${t('imageNext')}">›</button><span class="image-counter">1 / ${currentImages.length}</span>` : ''}</div>
-      <div class="thumbs">${currentImages.map((im, i) => `<button class="thumb ${i === 0 ? 'on' : ''}" type="button" data-i="${i}" aria-current="${i === 0 ? 'true' : 'false'}"><img loading="lazy" decoding="async" src="${img(im.url)}" alt="${displayName(p)} ${i + 1}"></button>`).join('')}</div>
-    </section>
-    <section class="copy">
-      <div class="tags">${labelTags.map(x => `<span>${localizedLabelText(x)}</span>`).join('')}</div>
-      <h2>${displayName(p)}</h2>
-      <div class="detail-code-badge" aria-label="${t('productCode')} ${displayCode(p)}"><span>${t('productCode')}</span><strong>${displayCode(p)}</strong></div>
-      ${detailPriceBlock(p)}
-      ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
-      <div class="detail-lead">
-        <span class="lead-label">NICE PICK</span>
-        <p>${detailLeadCopy(p)}</p>
-      </div>
-      <div class="detail-highlight">
-        ${detailHighlightItems(p, pointItems).map(x => `<span>${x}</span>`).join('')}
-      </div>
-      <div class="spec">
-        ${specCells(p)}
-      </div>
-      ${sizeGuideBlock(p)}
-      ${wearInfoBlock(p)}
-      ${productInfoImageBlock(p)}
-      ${colorOptionsBlock(p)}
-      ${coordinatedBlock(p)}
-      <p class="common-note">${t('commonNote')}</p>
-      <div class="cta detail-cta">
-        <button class="kakao detail-contact" type="button" data-mode="product"><span class="kakao-logo">TALK</span><span>${t('productAsk')}</span></button>
-        <a class="insta" href="${INSTA_URL}" target="_blank" rel="noopener noreferrer">${instaIcon()}<span>${t('instaAsk')}</span></a>
-      </div>
-    </section>
-  </div>`;
-  modal.classList.add('open');
-  document.body.classList.add('detail-open');
-  openModalHistory(code);
-  $$('.thumb', detail).forEach(b => b.onclick = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    setDetailImage(Number(b.dataset.i));
-  });
-  $$('.image-nav', detail).forEach(b => b.onclick = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    moveDetailImage(Number(b.dataset.dir));
-  });
-  bindDetailSwipe();
-  bindDetailZoom();
-  $$('.detail-contact', detail).forEach(b => b.onclick = () => contactProduct(p, b.dataset.mode));
-  $$('.color-option', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
-  $$('.coord-link', detail).forEach(b => b.onclick = () => openDetail(b.dataset.code));
-}
-function bindCards() {
-  $$('.card').forEach(el => el.onclick = () => openDetail(el.dataset.code));
-  $$('.card-similar').forEach(btn => btn.onclick = e => {
-    e.stopPropagation();
-    const p = PRODUCTS.find(x => codeOf(x) === btn.dataset.code);
-    if (p) showSimilar(p);
-  });
-  $$('.similar-close').forEach(btn => btn.onclick = () => {
-    SIMILAR_CODE = '';
-    render();
-  });
-}
-function openVipModal() {
-  if (!vipModal) return;
-  vipInput.value = '';
-  vipMessage.textContent = '';
-  vipMessage.className = 'vip-message';
-  vipModal.classList.add('open');
-  setTimeout(() => vipInput.focus(), 60);
-}
-function closeVipModal() {
-  if (vipModal) vipModal.classList.remove('open');
-}
-function bindVipControls() {
-  $$('.vip-open').forEach(el => el.onclick = () => {
-    if (isVipActive()) applyView('SAME_DAY', { push: true, scroll: true });
-    else openVipModal();
-  });
-  $$('.vip-clear').forEach(el => el.onclick = () => {
-    clearVip();
-    FILTER = 'HOME';
-    q.value = '';
-    buildQuick();
-    buildChips();
-    render();
-  });
-}
-$('#close').onclick = () => closeDetail();
-
-detail.addEventListener('click', e => {
-  const nav = e.target.closest && e.target.closest('.image-nav');
-  if (nav) {
-    e.preventDefault();
-    e.stopPropagation();
-    moveDetailImage(Number(nav.dataset.dir || 0));
-    return;
-  }
-  const thumb = e.target.closest && e.target.closest('.thumb');
-  if (thumb) {
-    e.preventDefault();
-    e.stopPropagation();
-    setDetailImage(Number(thumb.dataset.i || 0));
-  }
-});
-
-document.addEventListener('keydown', e => {
-  if (!modal.classList.contains('open')) return;
-  const tag = (document.activeElement && document.activeElement.tagName || '').toLowerCase();
-  if (['input', 'textarea', 'select'].includes(tag)) return;
-  if (e.key === 'ArrowLeft') {
-    e.preventDefault();
-    moveDetailImage(-1);
-  } else if (e.key === 'ArrowRight') {
-    e.preventDefault();
-    moveDetailImage(1);
-  }
-});
-
-modal.onclick = e => { if (e.target === modal) closeDetail(); };
-chips.onclick = e => {
-  const b = e.target.closest('.chip');
-  if (!b) return;
-  applyView(b.dataset.f, { push: true, scroll: true });
-};
-quick.onclick = e => {
-  const b = e.target.closest('.quick-chip');
-  if (!b) return;
-  if (b.dataset.q === '전체') {
-    applyView('ALL', { search: '', push: true, scroll: true });
-    return;
-  }
-  applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
-};
-if (langSwitcher) {
-  langSwitcher.onclick = e => {
-    const b = e.target.closest('.lang-chip');
-    if (!b) return;
-    setLanguage(b.dataset.lang);
-  };
-}
-q.oninput = () => {
-  const hasSearch = !!q.value.trim();
-  if (hasSearch && FILTER === 'HOME') FILTER = 'ALL';
-  if (!hasSearch) FILTER = 'HOME';
-  buildChips();
-  render();
-  const nextUrl = hasSearch ? `#view-${FILTER.toLowerCase()}` : location.pathname;
-  const nextState = { niceView: true, filter: FILTER, search: q.value };
-  if (hasSearch && !searchHistoryActive) {
-    // 제품번호 검색 후 뒤로가기를 눌렀을 때 브라우저 밖으로 나가지 않고 쇼룸 홈으로 돌아가도록 검색 상태를 1회 push합니다.
-    history.pushState(nextState, '', nextUrl);
-    searchHistoryActive = true;
-  } else {
-    history.replaceState(nextState, '', nextUrl);
-    searchHistoryActive = hasSearch;
-  }
-};
-if (vipModal) {
-  $('#vipClose').onclick = closeVipModal;
-  $('#vipCancel').onclick = closeVipModal;
-  $('#vipSubmit').onclick = () => {
-    if (vipInput.value.trim().toUpperCase() === vipCode()) {
-      setVipActive();
-      vipMessage.textContent = t('vipOk');
-      vipMessage.className = 'vip-message ok';
-      setTimeout(() => {
-        closeVipModal();
-        FILTER = 'HOME';
-        q.value = '';
-        buildQuick();
-        buildChips();
-        render();
-      }, 500);
-    } else {
-      vipMessage.textContent = t('vipError');
-      vipMessage.className = 'vip-message error';
-    }
-  };
-  vipModal.onclick = e => { if (e.target === vipModal) closeVipModal(); };
-  vipInput.onkeydown = e => { if (e.key === 'Enter') $('#vipSubmit').click(); };
-}
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    closeDetail();
-    closeVipModal();
-  }
-});
-window.addEventListener('popstate', e => {
-  if (modal.classList.contains('open')) {
-    closeDetail(true);
-    return;
-  }
-  const state = e.state && e.state.niceView ? e.state : { filter: 'HOME', search: '' };
-  FILTER = state.filter || 'HOME';
-  q.value = state.search || '';
-  searchHistoryActive = !!q.value.trim();
-  buildChips();
-  render();
-});
-fetch('./products.json?v=' + VERSION)
-  .then(r => r.json())
-  .then(d => {
-    PRODUCTS = d.map(normalizeProduct);
-    history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
-    updateStaticLanguage();
-    buildLangSwitcher();
-    buildQuick();
-    buildChips();
-    render();
-  })
-  .catch(() => {
-    grid.innerHTML = `<div class="empty">${t('dataFail')}</div>`;
-  });
-
-
-function applyNicePickPreviewLimit(){
-  try{
-    const home = document.querySelector('.home, .home-sections, #home, main') || document;
-    const headings = Array.from(document.querySelectorAll('h1,h2,h3,.section-title,.home-title,.luxe-title,.rail-title,.block-title'));
-    const niceHead = headings.find(el => /NICE\s*PICK|나이스\s*픽|나이스픽/i.test(el.textContent || ''));
-    if(!niceHead) return;
-    const section = niceHead.closest('section,.home-section,.luxe-section,.rail,.collection-block,.block') || niceHead.parentElement;
-    if(!section) return;
-    const cards = Array.from(section.querySelectorAll('.card,.product-card,[data-code],[data-product-code]')).filter(el => !el.classList.contains('more-card'));
-    cards.forEach((card, idx) => {
-      if(idx >= NICE_PICK_PREVIEW_LIMIT) card.style.display = 'none';
-    });
-    const links = Array.from(section.querySelectorAll('a,button'));
-    const more = links.find(el => /더보기|MORE|VIEW/i.test(el.textContent || ''));
-    if(more){
-      more.textContent = /[A-Za-z]/.test(more.textContent || '') ? 'VIEW 50 NICE PICKS' : '나이스픽 더보기';
-      more.setAttribute('data-category','NICE_PICK');
-      more.setAttribute('data-collection','NICE_PICK');
-      if(more.tagName === 'A') more.setAttribute('href', '#NICE_PICK');
-      more.onclick = (e) => {
-        e.preventDefault();
-        showNicePickAll();
-      };
-    }
-  }catch(e){ console.warn('nice pick preview adjust failed', e); }
-}
-
-function showNicePickAll(){
-  try{
-    const list = nicePickProducts().slice(0, NICE_PICK_TOTAL_LIMIT);
-    if(typeof renderProducts === 'function'){
-      renderProducts(list, { title: 'NICE PICK 50' });
-    }else if(typeof renderGrid === 'function'){
-      renderGrid(list);
-    }else if(typeof setCollection === 'function'){
-      setCollection('NICE_PICK');
-    }else{
-      location.hash = 'NICE_PICK';
-    }
-    document.body.classList.remove('luxe-home-active');
-    window.scrollTo({top:0, behavior:'smooth'});
-  }catch(e){
-    location.hash = 'NICE_PICK';
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => setTimeout(applyNicePickPreviewLimit, 80));
-window.addEventListener('hashchange', () => {
-  if(isNicePickViewKey((location.hash || '').replace('#',''))) setTimeout(showNicePickAll, 30);
-});
 
