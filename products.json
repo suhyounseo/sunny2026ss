@@ -225,11 +225,9 @@
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49962
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-002",
@@ -453,11 +451,9 @@
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49985
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-003",
@@ -680,11 +676,9 @@
     "비침": "있음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49986
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-004",
@@ -897,11 +891,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49961
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-005",
@@ -1124,11 +1116,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49960
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-006",
@@ -1351,11 +1341,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49959
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-007",
@@ -1578,11 +1566,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49958
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-008",
@@ -2705,11 +2691,9 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49963
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "JINI-013",
@@ -5301,12 +5285,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49993
+    "지퍼": "확인 예정"
   },
   {
     "code": "JES-503",
@@ -6328,12 +6307,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49992
+    "지퍼": "확인 예정"
   },
   {
     "code": "JES-511",
@@ -8749,12 +8723,7 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49991
+    "지퍼": "확인 예정"
   },
   {
     "code": "S961",
@@ -10071,12 +10040,7 @@
       "앞지퍼",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49990
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S965",
@@ -10372,12 +10336,7 @@
       "보통",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49989
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S966",
@@ -17323,12 +17282,7 @@
       "슬림핏",
       "블랙슬림벨트미니원피스"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49988
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
   },
   {
     "code": "S971",
@@ -17657,12 +17611,7 @@
     ],
     "cardImage": "assets/aug16/photos/S972/S972_01.jpg",
     "photoStatus": "actual_product_photos_applied",
-    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49987
+    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지"
   },
   {
     "code": "JES-301",
@@ -46274,12 +46223,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49972
+    }
   },
   {
     "code": "N260224",
@@ -47183,10 +47127,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "nicePickPriority": 49954
+    }
   },
   {
     "code": "N260002",
@@ -47843,9 +47784,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "nicePickPriority": 49953
+    }
   },
   {
     "code": "N260003",
@@ -48495,10 +48434,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "nicePickPriority": 49952
+    }
   },
   {
     "code": "N260004",
@@ -60075,12 +60011,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49970
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "origin": "도트리본BL 델리SK",
@@ -61291,11 +61222,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49974
+    }
   },
   {
     "code": "N260035",
@@ -62779,11 +62706,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49965
+    }
   },
   {
     "code": "N260038",
@@ -63303,11 +63226,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49964
+    }
   },
   {
     "code": "N260039",
@@ -63983,10 +63902,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "nicePickPriority": 49951
+    }
   },
   {
     "code": "S401",
@@ -71707,12 +71623,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49968
+    }
   },
   {
     "code": "N260082",
@@ -73175,12 +73086,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49967
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260092",
@@ -73440,12 +73346,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49966
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260093",
@@ -74149,12 +74050,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49969
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "N260111",
@@ -82313,12 +82209,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49973
+    }
   },
   {
     "code": "N260195",
@@ -89059,12 +88950,7 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49971
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "JES-325",
@@ -116639,12 +116525,7 @@
         ]
       }
     },
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49979
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
   },
   {
     "code": "S727",
@@ -117484,12 +117365,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49976
+    }
   },
   {
     "code": "S730",
@@ -130664,12 +130540,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49978
+    }
   },
   {
     "code": "N260227",
@@ -131231,12 +131102,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49977
+    }
   },
   {
     "code": "N260229",
@@ -131905,27 +131771,16 @@
     "contactType": "kakao",
     "contactUrl": "",
     "images": [
-      "assets/N260230_01.jpg",
       "assets/N260230_02.jpg",
-      "assets/N260230_03.jpg",
       "assets/N260230_04.jpg",
       "assets/N260230_05.jpg",
-      "assets/N260230_06.jpg"
+      "assets/N260230_06.jpg",
+      "assets/N260230_01.jpg"
     ],
-    "mainImage": "assets/N260230_01.jpg",
-    "thumbImage": "assets/N260230_01.jpg",
-    "thumbnail": "assets/N260230_01.jpg",
+    "mainImage": "assets/N260230_02.jpg",
+    "thumbImage": "assets/N260230_02.jpg",
+    "thumbnail": "assets/N260230_02.jpg",
     "cuts": [
-      {
-        "url": "assets/N260230_02.jpg",
-        "cut": "상세컷",
-        "source": "Desktop(6).zip"
-      },
-      {
-        "url": "assets/N260230_03.jpg",
-        "cut": "상세컷",
-        "source": "Desktop(6).zip"
-      },
       {
         "url": "assets/N260230_04.jpg",
         "cut": "상세컷",
@@ -131939,6 +131794,11 @@
       {
         "url": "assets/N260230_06.jpg",
         "cut": "제품/디테일컷",
+        "source": "Desktop(6).zip"
+      },
+      {
+        "url": "assets/N260230_01.jpg",
+        "cut": "상세컷",
         "source": "Desktop(6).zip"
       }
     ],
@@ -134460,7 +134320,7 @@
     "isNew": false,
     "new": false,
     "isPopular": false,
-    "best": true,
+    "best": false,
     "mainDisplay": false,
     "featured": false,
     "desc": "고급스러운 그레이 컬러와 슬림한 미디 라인이 돋보이는 투피스 스타일입니다. 크롭 상의와 H라인 스커트 조합으로 허리라인을 예쁘게 살려주며, 세련된 홀복, 모임룩, 파티룩으로 추천드립니다.",
@@ -134692,11 +134552,7 @@
         "sizeTables": [],
         "wearTables": []
       }
-    },
-    "nicePick": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49975
+    }
   },
   {
     "code": "N260236",
@@ -160607,12 +160463,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49981
+    }
   },
   {
     "code": "TIA-S777",
@@ -172100,12 +171951,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49980
+    }
   },
   {
     "code": "TIA-S818",
@@ -184313,9 +184159,9 @@
       "리본 없이 깔끔한 세련미",
       "클럽·파티·방송룩 추천"
     ],
-    "best": true,
-    "bestItem": true,
-    "isBest": true,
+    "best": false,
+    "bestItem": false,
+    "isBest": false,
     "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
     "sizeTables": [
       {
@@ -184840,9 +184686,7 @@
           }
         ]
       }
-    },
-    "nicePick": true,
-    "nicePickPriority": 49982
+    }
   },
   {
     "code": "GRA-S888",
@@ -185078,12 +184922,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49957
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S889",
@@ -185319,12 +185158,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49956
+    "thickness": "얇음"
   },
   {
     "code": "GRA-S890",
@@ -185560,12 +185394,7 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49955
+    "thickness": "얇음"
   },
   {
     "code": "SEY-S907",
@@ -199872,12 +199701,7 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통",
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49983
+    "thickness": "보통"
   },
   {
     "code": "PEARL-S914",
@@ -201708,12 +201532,7 @@
     "sameDayAvailable": true,
     "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
     "storeStockPriority": true,
-    "priority": 9000,
-    "nicePick": true,
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePickPriority": 49984
+    "priority": 9000
   },
   {
     "code": "JES-193",
@@ -207939,11 +207758,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49994
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "SIL-KYLIE-PINK",
@@ -210201,11 +210018,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 50000
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "T008",
@@ -211343,11 +211158,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49999
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "T031",
@@ -217717,11 +217530,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49996
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "T026",
@@ -219176,13 +218987,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
+    "best": false,
+    "isBest": false,
+    "bestItem": false,
     "componentPriceInfo": "상의 45,000원 + 하의 63,000원 구성입니다.",
-    "setPriceNote": "상의 45,000원 + 하의 63,000원 구성입니다.",
-    "nicePick": true,
-    "nicePickPriority": 49995
+    "setPriceNote": "상의 45,000원 + 하의 63,000원 구성입니다."
   },
   {
     "code": "T045",
@@ -222571,11 +222380,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49998
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "T037",
@@ -223159,11 +222966,9 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": true,
-    "isBest": true,
-    "bestItem": true,
-    "nicePick": true,
-    "nicePickPriority": 49997
+    "best": false,
+    "isBest": false,
+    "bestItem": false
   },
   {
     "code": "T001",
