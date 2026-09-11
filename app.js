@@ -13,64 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nicepick_8_preview_50_more_0911_1';
-
-
-const NICE_PICK_PREVIEW_LIMIT = 8;
-const NICE_PICK_TOTAL_LIMIT = 50;
-const NICE_PICK_CODES = [
-  "S958",
-  "S957",
-  "SIL003",
-  "S955",
-  "S963",
-  "S968",
-  "JINI-001",
-  "JES-505",
-  "JES-502",
-  "JES-551",
-  "S971",
-  "S964",
-  "SIL001",
-  "S956",
-  "S967",
-  "JES-508",
-  "JINI-003",
-  "S972",
-  "JES-533",
-  "JES-534",
-  "JES-544",
-  "JES-550",
-  "JES-557",
-  "JES-530",
-  "JES-532",
-  "JES-514",
-  "JES-523",
-  "JES-546",
-  "JES-549",
-  "JES-301",
-  "JES-302",
-  "JES-304",
-  "JES-308",
-  "JES-310",
-  "JES-312",
-  "JES-317",
-  "JES-318",
-  "JES-319",
-  "JES-321",
-  "JES-322",
-  "JES-323",
-  "JES-324",
-  "JINI-004",
-  "JINI-005",
-  "JINI-006",
-  "JINI-007",
-  "JINI-008",
-  "JINI-009",
-  "JINI-010",
-  "JINI-011"
-];
-
+const VERSION = 'set_price_merge_nan_fix_0910_1';
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
 const INSTA_URL = 'https://www.instagram.com/dongdaemun_migliore_nice/';
 const BLOG_URL = 'https://blog.naver.com/dongdaemun_nice';
@@ -343,6 +286,7 @@ let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 const COLLECTIONS = [
   // 쇼룸 메인 컬렉션은 항상 6개만 유지합니다.
+  { key: 'SEPTEMBER_NEW', filter: 'COL_SEPTEMBER', title: '9월 신상', name: 'September New Selection', desc: '이번 9월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'AUGUST_NEW', filter: 'COL_AUGUST', title: '8월 신상', name: 'August New Selection', desc: '이번 8월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'JULY_NEW', filter: 'COL_JULY', title: '7월 신상', name: 'July New Selection', desc: '이번 7월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
   { key: 'A', filter: 'COL_A', title: 'Collection A', name: 'June Final New Arrival', desc: '6월 마지막 신상 제품만 모은 셀렉션' },
@@ -651,9 +595,11 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
-const isRecentNewProduct = p => isAugustNewProduct(p) || isJulyNewProduct(p);
+const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
+const isNewArrivalProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
@@ -783,9 +729,11 @@ function sizeDetail(p) {
   return size || info || t('ask');
 }
 function money(n) {
-  if (!n) return t('priceInquiry');
-  if (LANG === 'ko') return Number(n).toLocaleString('ko-KR') + '원';
-  return '₩' + Number(n).toLocaleString('en-US');
+  if (n === null || n === undefined || n === '') return t('priceInquiry');
+  const value = Number(String(n).replace(/[^0-9.-]/g, ''));
+  if (!Number.isFinite(value) || value <= 0) return t('priceInquiry');
+  if (LANG === 'ko') return value.toLocaleString('ko-KR') + '원';
+  return '₩' + value.toLocaleString('en-US');
 }
 function safeText(value) {
   const text = cleanText(value || '');
@@ -842,6 +790,7 @@ function quickLabel(key) {
 }
 function localizedCollection(c) {
   const descMap = {
+    SEPTEMBER_NEW: 'collectionSeptember',
     AUGUST_NEW: 'collectionAugust',
     JULY_NEW: 'collectionJuly',
     A: 'collectionA',
@@ -1207,22 +1156,11 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const pinned = CURRENT_NEW_CODES
-    .map(code => visible.find(p => codeOf(p) === code))
-    .filter(Boolean);
-  const pinnedCodes = new Set(pinned.map(codeOf));
-  const pinnedGroups = new Set(pinned.map(designGroupKey));
-  const august = chooseUniqueByDesignGroup(
-    sortProducts(
-      visible.filter(p =>
-        isAugustNewProduct(p) &&
-        !pinnedCodes.has(codeOf(p)) &&
-        !pinnedGroups.has(designGroupKey(p))
-      )
-    ),
-    Math.max(0, 8 - pinned.length)
+  const fresh = chooseUniqueByDesignGroup(
+    sortProducts(visible.filter(p => isAugustNewProduct(p))),
+    8
   );
-  return [...pinned, ...august].slice(0, 8);
+  return fresh.slice(0, 8);
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
@@ -1281,7 +1219,7 @@ function matchesSearch(p, rawSearch) {
   const search = norm(rawSearch);
   if (!search) return true;
   if (/^(전체|all)$/i.test(rawSearch)) return true;
-  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p);
+  if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p) || isNewArrivalProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
   const supplierAlias = {
@@ -1333,12 +1271,13 @@ function match(p) {
   let f = true;
   if (FILTER === 'ALL') f = true;
   else if (FILTER === 'COL_A') f = isJuneFinalNewProduct(p);
+  else if (FILTER === 'COL_SEPTEMBER') f = isSeptemberNewProduct(p);
   else if (FILTER === 'COL_AUGUST') f = isAugustNewProduct(p);
   else if (FILTER === 'COL_JULY') f = isJulyNewProduct(p);
   else if (FILTER === 'COL_B') f = p.collection === 'B';
   else if (FILTER === 'COL_C') f = p.collection === 'C';
   else if (FILTER === 'COL_D') f = isMiniDressEditProduct(p);
-  else if (FILTER === 'NEW') f = isAugustNewProduct(p);
+  else if (FILTER === 'NEW') f = isNewArrivalProduct(p);
   else if (FILTER === 'BEST') f = isBest(p);
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
@@ -1369,7 +1308,8 @@ function meta(p) {
     .join('');
 }
 function priceBlock(p) {
-  if (p.price) return `<div class="price">${money(p.price)}</div>`;
+  const priceText = money(p.price);
+  if (priceText !== t('priceInquiry')) return `<div class="price">${priceText}</div>`;
   return `<div class="price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 function productCard(p, compact = false) {
@@ -1583,19 +1523,6 @@ function smartStoreItems(visible) {
   const pinned = SMARTSTORE_PINNED_CODES.map(code => visibleMap.get(code)).filter(Boolean);
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
-
-function nicePickProducts(){
-  const byCode = new Map(products.map(p => [String(p.code || p.id || '').trim(), p]));
-  const picked = NICE_PICK_CODES.map(code => byCode.get(code)).filter(Boolean);
-  if(picked.length) return picked;
-  return products.filter(p => /BEST|추천|NICE|PICK|NEW|재고보유|IN_STOCK/.test(JSON.stringify(p))).slice(0, NICE_PICK_TOTAL_LIMIT);
-}
-
-function isNicePickViewKey(key){
-  return ['NICE_PICK','NICEPICK','NICE_PICKS','PICK','BEST','RECOMMEND'].includes(String(key || '').toUpperCase());
-}
-
-
 function renderHome() {
   document.body.classList.add('luxe-home-active');
   const visible = PRODUCTS.filter(visibleToAudience);
@@ -2174,56 +2101,3 @@ fetch('./products.json?v=' + VERSION)
   .catch(() => {
     grid.innerHTML = `<div class="empty">${t('dataFail')}</div>`;
   });
-
-
-function applyNicePickPreviewLimit(){
-  try{
-    const home = document.querySelector('.home, .home-sections, #home, main') || document;
-    const headings = Array.from(document.querySelectorAll('h1,h2,h3,.section-title,.home-title,.luxe-title,.rail-title,.block-title'));
-    const niceHead = headings.find(el => /NICE\s*PICK|나이스\s*픽|나이스픽/i.test(el.textContent || ''));
-    if(!niceHead) return;
-    const section = niceHead.closest('section,.home-section,.luxe-section,.rail,.collection-block,.block') || niceHead.parentElement;
-    if(!section) return;
-    const cards = Array.from(section.querySelectorAll('.card,.product-card,[data-code],[data-product-code]')).filter(el => !el.classList.contains('more-card'));
-    cards.forEach((card, idx) => {
-      if(idx >= NICE_PICK_PREVIEW_LIMIT) card.style.display = 'none';
-    });
-    const links = Array.from(section.querySelectorAll('a,button'));
-    const more = links.find(el => /더보기|MORE|VIEW/i.test(el.textContent || ''));
-    if(more){
-      more.textContent = /[A-Za-z]/.test(more.textContent || '') ? 'VIEW 50 NICE PICKS' : '나이스픽 더보기';
-      more.setAttribute('data-category','NICE_PICK');
-      more.setAttribute('data-collection','NICE_PICK');
-      if(more.tagName === 'A') more.setAttribute('href', '#NICE_PICK');
-      more.onclick = (e) => {
-        e.preventDefault();
-        showNicePickAll();
-      };
-    }
-  }catch(e){ console.warn('nice pick preview adjust failed', e); }
-}
-
-function showNicePickAll(){
-  try{
-    const list = nicePickProducts().slice(0, NICE_PICK_TOTAL_LIMIT);
-    if(typeof renderProducts === 'function'){
-      renderProducts(list, { title: 'NICE PICK 50' });
-    }else if(typeof renderGrid === 'function'){
-      renderGrid(list);
-    }else if(typeof setCollection === 'function'){
-      setCollection('NICE_PICK');
-    }else{
-      location.hash = 'NICE_PICK';
-    }
-    document.body.classList.remove('luxe-home-active');
-    window.scrollTo({top:0, behavior:'smooth'});
-  }catch(e){
-    location.hash = 'NICE_PICK';
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => setTimeout(applyNicePickPreviewLimit, 80));
-window.addEventListener('hashchange', () => {
-  if(isNicePickViewKey((location.hash || '').replace('#',''))) setTimeout(showNicePickAll, 30);
-});
-
