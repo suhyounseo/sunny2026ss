@@ -225,9 +225,11 @@
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49962
   },
   {
     "code": "JINI-002",
@@ -451,9 +453,11 @@
     "비침": "하의 없음 / 상의 시스루",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49985
   },
   {
     "code": "JINI-003",
@@ -676,9 +680,11 @@
     "비침": "있음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49986
   },
   {
     "code": "JINI-004",
@@ -891,9 +897,11 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49961
   },
   {
     "code": "JINI-005",
@@ -1116,9 +1124,11 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49960
   },
   {
     "code": "JINI-006",
@@ -1341,9 +1351,11 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49959
   },
   {
     "code": "JINI-007",
@@ -1566,9 +1578,11 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49958
   },
   {
     "code": "JINI-008",
@@ -2691,9 +2705,11 @@
     "비침": "없음",
     "두께감": "보통",
     "지퍼": "뒷지퍼",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49963
   },
   {
     "code": "JINI-013",
@@ -5285,7 +5301,12 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정"
+    "지퍼": "확인 예정",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49993
   },
   {
     "code": "JES-503",
@@ -6307,7 +6328,12 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정"
+    "지퍼": "확인 예정",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49992
   },
   {
     "code": "JES-511",
@@ -8723,7 +8749,12 @@
     "안감": "확인 예정",
     "비침": "확인 예정",
     "두께감": "확인 예정",
-    "지퍼": "확인 예정"
+    "지퍼": "확인 예정",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49991
   },
   {
     "code": "S961",
@@ -10040,7 +10071,12 @@
       "앞지퍼",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49990
   },
   {
     "code": "S965",
@@ -10336,7 +10372,12 @@
       "보통",
       "뒷지퍼"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49989
   },
   {
     "code": "S966",
@@ -17282,7 +17323,12 @@
       "슬림핏",
       "블랙슬림벨트미니원피스"
     ],
-    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영"
+    "sourceInfoNote": "8월 16일 제품정보 캡처 기준 실측/착용정보 반영",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49988
   },
   {
     "code": "S971",
@@ -17611,7 +17657,12 @@
     ],
     "cardImage": "assets/aug16/photos/S972/S972_01.jpg",
     "photoStatus": "actual_product_photos_applied",
-    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지"
+    "sourceInfoNote": "이번 제품정보 캡처에 상세 실측표가 없어 기존 정보 유지",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49987
   },
   {
     "code": "JES-301",
@@ -46223,7 +46274,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49972
   },
   {
     "code": "N260224",
@@ -47127,7 +47183,10 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "nicePickPriority": 49954
   },
   {
     "code": "N260002",
@@ -47784,7 +47843,9 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "nicePickPriority": 49953
   },
   {
     "code": "N260003",
@@ -48434,7 +48495,10 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "nicePickPriority": 49952
   },
   {
     "code": "N260004",
@@ -60011,7 +60075,12 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49970
   },
   {
     "origin": "도트리본BL 델리SK",
@@ -61222,7 +61291,11 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49974
   },
   {
     "code": "N260035",
@@ -62706,7 +62779,11 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49965
   },
   {
     "code": "N260038",
@@ -63226,7 +63303,11 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49964
   },
   {
     "code": "N260039",
@@ -63902,7 +63983,10 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "nicePickPriority": 49951
   },
   {
     "code": "S401",
@@ -71623,7 +71707,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49968
   },
   {
     "code": "N260082",
@@ -73086,7 +73175,12 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49967
   },
   {
     "code": "N260092",
@@ -73346,7 +73440,12 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49966
   },
   {
     "code": "N260093",
@@ -74050,7 +74149,12 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49969
   },
   {
     "code": "N260111",
@@ -82209,7 +82313,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49973
   },
   {
     "code": "N260195",
@@ -88950,7 +89059,12 @@
     },
     "sameDayAvailable": true,
     "stockStatus": "당일발송 가능",
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49971
   },
   {
     "code": "JES-325",
@@ -116525,7 +116639,12 @@
         ]
       }
     },
-    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요."
+    "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49979
   },
   {
     "code": "S727",
@@ -117365,7 +117484,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49976
   },
   {
     "code": "S730",
@@ -130540,7 +130664,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49978
   },
   {
     "code": "N260227",
@@ -131102,7 +131231,12 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49977
   },
   {
     "code": "N260229",
@@ -131771,16 +131905,27 @@
     "contactType": "kakao",
     "contactUrl": "",
     "images": [
+      "assets/N260230_01.jpg",
       "assets/N260230_02.jpg",
+      "assets/N260230_03.jpg",
       "assets/N260230_04.jpg",
       "assets/N260230_05.jpg",
-      "assets/N260230_06.jpg",
-      "assets/N260230_01.jpg"
+      "assets/N260230_06.jpg"
     ],
-    "mainImage": "assets/N260230_02.jpg",
-    "thumbImage": "assets/N260230_02.jpg",
-    "thumbnail": "assets/N260230_02.jpg",
+    "mainImage": "assets/N260230_01.jpg",
+    "thumbImage": "assets/N260230_01.jpg",
+    "thumbnail": "assets/N260230_01.jpg",
     "cuts": [
+      {
+        "url": "assets/N260230_02.jpg",
+        "cut": "상세컷",
+        "source": "Desktop(6).zip"
+      },
+      {
+        "url": "assets/N260230_03.jpg",
+        "cut": "상세컷",
+        "source": "Desktop(6).zip"
+      },
       {
         "url": "assets/N260230_04.jpg",
         "cut": "상세컷",
@@ -131794,11 +131939,6 @@
       {
         "url": "assets/N260230_06.jpg",
         "cut": "제품/디테일컷",
-        "source": "Desktop(6).zip"
-      },
-      {
-        "url": "assets/N260230_01.jpg",
-        "cut": "상세컷",
         "source": "Desktop(6).zip"
       }
     ],
@@ -134320,7 +134460,7 @@
     "isNew": false,
     "new": false,
     "isPopular": false,
-    "best": false,
+    "best": true,
     "mainDisplay": false,
     "featured": false,
     "desc": "고급스러운 그레이 컬러와 슬림한 미디 라인이 돋보이는 투피스 스타일입니다. 크롭 상의와 H라인 스커트 조합으로 허리라인을 예쁘게 살려주며, 세련된 홀복, 모임룩, 파티룩으로 추천드립니다.",
@@ -134552,7 +134692,11 @@
         "sizeTables": [],
         "wearTables": []
       }
-    }
+    },
+    "nicePick": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49975
   },
   {
     "code": "N260236",
@@ -160463,7 +160607,12 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49981
   },
   {
     "code": "TIA-S777",
@@ -171951,7 +172100,12 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49980
   },
   {
     "code": "TIA-S818",
@@ -184159,9 +184313,9 @@
       "리본 없이 깔끔한 세련미",
       "클럽·파티·방송룩 추천"
     ],
-    "best": false,
-    "bestItem": false,
-    "isBest": false,
+    "best": true,
+    "bestItem": true,
+    "isBest": true,
     "lastReviewNote": "2026-07-14 PI 파일 기준 제품정보 반영",
     "sizeTables": [
       {
@@ -184686,7 +184840,9 @@
           }
         ]
       }
-    }
+    },
+    "nicePick": true,
+    "nicePickPriority": 49982
   },
   {
     "code": "GRA-S888",
@@ -184922,7 +185078,12 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음"
+    "thickness": "얇음",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49957
   },
   {
     "code": "GRA-S889",
@@ -185158,7 +185319,12 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음"
+    "thickness": "얇음",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49956
   },
   {
     "code": "GRA-S890",
@@ -185394,7 +185560,12 @@
     "stretch": "약간",
     "cap": "없음",
     "lining": "없음",
-    "thickness": "얇음"
+    "thickness": "얇음",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49955
   },
   {
     "code": "SEY-S907",
@@ -199701,7 +199872,12 @@
     "cap": "있음",
     "lining": "있음",
     "see": "없음",
-    "thickness": "보통"
+    "thickness": "보통",
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49983
   },
   {
     "code": "PEARL-S914",
@@ -201532,7 +201708,12 @@
     "sameDayAvailable": true,
     "sameDayNote": "매장 재고 기준 당일배송 가능 상품입니다. 재고는 상품코드와 함께 문의해 주세요.",
     "storeStockPriority": true,
-    "priority": 9000
+    "priority": 9000,
+    "nicePick": true,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePickPriority": 49984
   },
   {
     "code": "JES-193",
@@ -207758,9 +207939,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49994
   },
   {
     "code": "SIL-KYLIE-PINK",
@@ -208701,9 +208884,9 @@
     "color": "그레이",
     "variantColor": "그레이",
     "size": "55(S) / 66(M) / 77(L)",
-    "sizeInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상의·하의 상세 실측표 반영",
+    "wearInfo": "상의: 폴리혼방 / 신축성 약간 / 캡 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 뒷지퍼. 하의: 폴리혼방 / 신축성 약간 / 안감 있음 / 비침 없음 / 두께감 보통 / 옆지퍼.",
+    "price": 171000,
     "tags": [
       "NEW",
       "8월신상",
@@ -208813,14 +208996,14 @@
     ],
     "whyYoullLoveIt": "더블버튼 베스트와 플리츠 미니스커트가 단정하게 어우러진 세련된 미니투피스입니다.",
     "recommend": "카라 셔츠에 더블버튼 베스트를 레이어드한 듯한 디자인이 포멀하면서도 여성스러운 분위기를 줍니다.",
-    "fabric": "문의",
+    "fabric": "폴리혼방",
     "fabricNote": "상세 소재는 문의해 주세요.",
-    "stretch": "문의",
-    "see": "문의",
-    "lining": "문의",
-    "cap": "문의",
-    "thickness": "문의",
-    "zipper": "문의",
+    "stretch": "약간",
+    "see": "상의 있음 / 하의 없음",
+    "lining": "상의 부분 / 하의 있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "상의 뒷지퍼 / 하의 옆지퍼",
     "contactType": "kakao",
     "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
     "isSameDayDelivery": false,
@@ -208837,10 +209020,97 @@
     "referenceImages": [],
     "photoStatus": "이미지 반영",
     "measurements": [],
-    "measurementInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "sizeTables": [],
-    "wearTables": [],
-    "material": "문의",
+    "measurementInfo": "상의·하의 상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "40",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "42.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "45",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "하의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "42",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "42",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "42",
+            "허리단면": "36",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "하의 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
     "searchKeywords": [
       "NEW",
       "8월신상",
@@ -208861,7 +209131,7 @@
       "T009",
       "그레이 더블버튼 베스트 플리츠 미니투피스"
     ],
-    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "sourceInfoNote": "2026-09-12 제품정보 이미지 기준으로 실측/착용정보 반영",
     "신축성": "문의",
     "캡여부": "문의",
     "안감": "문의",
@@ -208870,7 +209140,10 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "componentPriceInfo": "상의 99,000원 + 하의 72,000원 구성입니다.",
+    "setPriceNote": "상의 99,000원 + 하의 72,000원 구성입니다.",
+    "priceNote": "상의 99,000원 + 하의 72,000원 구성입니다."
   },
   {
     "code": "T010",
@@ -208893,9 +209166,9 @@
     "color": "블랙",
     "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L)",
-    "sizeInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "sizeInfo": "55(S), 66(M), 77(L) / 상의·하의 상세 실측표 반영",
+    "wearInfo": "상의: 폴리혼방 / 신축성 약간 / 캡 있음 / 안감 부분 / 비침 있음 / 두께감 보통 / 뒷지퍼. 하의: 폴리혼방 / 신축성 약간 / 안감 있음 / 비침 없음 / 두께감 보통 / 옆지퍼.",
+    "price": 171000,
     "tags": [
       "NEW",
       "8월신상",
@@ -209009,14 +209282,14 @@
     ],
     "whyYoullLoveIt": "화이트 셔츠 배색과 블랙 스트라이프 베스트, 플리츠 미니스커트가 세련되게 어우러진 미니투피스입니다.",
     "recommend": "화이트 셔츠 배색 상의에 블랙 스트라이프 베스트 디자인이 더해진 미니투피스입니다.",
-    "fabric": "문의",
+    "fabric": "폴리혼방",
     "fabricNote": "상세 소재는 문의해 주세요.",
-    "stretch": "문의",
-    "see": "문의",
-    "lining": "문의",
-    "cap": "문의",
-    "thickness": "문의",
-    "zipper": "문의",
+    "stretch": "약간",
+    "see": "상의 있음 / 하의 없음",
+    "lining": "상의 부분 / 하의 있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "상의 뒷지퍼 / 하의 옆지퍼",
     "contactType": "kakao",
     "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
     "isSameDayDelivery": false,
@@ -209033,10 +209306,97 @@
     "referenceImages": [],
     "photoStatus": "이미지 반영",
     "measurements": [],
-    "measurementInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "sizeTables": [],
-    "wearTables": [],
-    "material": "문의",
+    "measurementInfo": "상의·하의 상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "40",
+            "허리단면": "32"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "42.5",
+            "허리단면": "34.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "40",
+            "소매길이": "59",
+            "가슴단면": "45",
+            "허리단면": "37"
+          }
+        ]
+      },
+      {
+        "title": "하의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "42",
+            "허리단면": "31",
+            "힙단면": "41"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "42",
+            "허리단면": "33.5",
+            "힙단면": "43.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "42",
+            "허리단면": "36",
+            "힙단면": "46"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "부분",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      },
+      {
+        "title": "하의 착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
     "searchKeywords": [
       "NEW",
       "8월신상",
@@ -209060,7 +209420,7 @@
       "T010",
       "블랙 스트라이프 배색 베스트 플리츠 미니투피스"
     ],
-    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "sourceInfoNote": "2026-09-12 제품정보 이미지 기준으로 실측/착용정보 반영",
     "신축성": "문의",
     "캡여부": "문의",
     "안감": "문의",
@@ -209069,7 +209429,10 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "componentPriceInfo": "상의 99,000원 + 하의 72,000원 구성입니다.",
+    "setPriceNote": "상의 99,000원 + 하의 72,000원 구성입니다.",
+    "priceNote": "상의 99,000원 + 하의 72,000원 구성입니다."
   },
   {
     "code": "T011",
@@ -210018,9 +210381,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 50000
   },
   {
     "code": "T008",
@@ -211158,9 +211523,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49999
   },
   {
     "code": "T031",
@@ -211371,9 +211738,9 @@
     "color": "핑크",
     "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L)",
-    "sizeInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "sizeInfo": "55(S), 66(M), 77(L) / 총길이 103cm / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 132000,
     "tags": [
       "NEW",
       "8월신상",
@@ -211482,14 +211849,14 @@
     ],
     "whyYoullLoveIt": "상체 셔링과 슬림한 라인이 여성스럽게 잡히는 핑크 미디원피스입니다.",
     "recommend": "부드러운 핑크 컬러와 앞중심 셔링 디테일이 바디라인을 자연스럽게 보정해줍니다.",
-    "fabric": "문의",
+    "fabric": "폴리혼방",
     "fabricNote": "상세 소재는 문의해 주세요.",
-    "stretch": "문의",
-    "see": "문의",
-    "lining": "문의",
-    "cap": "문의",
-    "thickness": "문의",
-    "zipper": "문의",
+    "stretch": "약간",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
     "isSameDayDelivery": false,
@@ -211505,11 +211872,87 @@
     "translations": {},
     "referenceImages": [],
     "photoStatus": "이미지 반영",
-    "measurements": [],
-    "measurementInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "sizeTables": [],
-    "wearTables": [],
-    "material": "문의",
+    "measurements": [
+      {
+        "사이즈": "55(S)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "39",
+        "허리단면": "31",
+        "힙단면": "40"
+      },
+      {
+        "사이즈": "66(M)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "41.5",
+        "허리단면": "33.5",
+        "힙단면": "42.5"
+      },
+      {
+        "사이즈": "77(L)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "44",
+        "허리단면": "36",
+        "힙단면": "45"
+      }
+    ],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "39",
+            "허리단면": "31",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "44",
+            "허리단면": "36",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
     "searchKeywords": [
       "NEW",
       "8월신상",
@@ -211529,7 +211972,7 @@
       "T032",
       "핑크 스퀘어넥  셔링 슬림 미디원피스"
     ],
-    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "sourceInfoNote": "2026-09-12 제품정보 이미지 기준으로 실측/착용정보 반영",
     "신축성": "문의",
     "캡여부": "문의",
     "안감": "문의",
@@ -211538,7 +211981,8 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "priceNote": "132,000원"
   },
   {
     "code": "T033",
@@ -211561,9 +212005,9 @@
     "color": "블랙",
     "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L)",
-    "sizeInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "sizeInfo": "55(S), 66(M), 77(L) / 총길이 103cm / 상세 실측표 반영",
+    "wearInfo": "소재: 폴리혼방 / 신축성: 약간 / 캡여부: 있음 / 안감: 있음 / 비침: 없음 / 두께감: 보통 / 지퍼: 뒷지퍼",
+    "price": 132000,
     "tags": [
       "NEW",
       "8월신상",
@@ -211672,14 +212116,14 @@
     ],
     "whyYoullLoveIt": "스퀘어넥과 셔링 포인트가 슬림하게 잡히는 블랙 미디원피스입니다.",
     "recommend": "블랙 컬러의 시크함과 몸매를 잡아주는 슬림 실루엣이 돋보입니다.",
-    "fabric": "문의",
+    "fabric": "폴리혼방",
     "fabricNote": "상세 소재는 문의해 주세요.",
-    "stretch": "문의",
-    "see": "문의",
-    "lining": "문의",
-    "cap": "문의",
-    "thickness": "문의",
-    "zipper": "문의",
+    "stretch": "약간",
+    "see": "없음",
+    "lining": "있음",
+    "cap": "있음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
     "contactType": "kakao",
     "contactUrl": "https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-",
     "isSameDayDelivery": false,
@@ -211695,11 +212139,87 @@
     "translations": {},
     "referenceImages": [],
     "photoStatus": "이미지 반영",
-    "measurements": [],
-    "measurementInfo": "55(S), 66(M), 77(L) / 상세 사이즈는 문의해 주세요.",
-    "sizeTables": [],
-    "wearTables": [],
-    "material": "문의",
+    "measurements": [
+      {
+        "사이즈": "55(S)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "39",
+        "허리단면": "31",
+        "힙단면": "40"
+      },
+      {
+        "사이즈": "66(M)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "41.5",
+        "허리단면": "33.5",
+        "힙단면": "42.5"
+      },
+      {
+        "사이즈": "77(L)",
+        "총길이": "103",
+        "소매길이": "31",
+        "가슴단면": "44",
+        "허리단면": "36",
+        "힙단면": "45"
+      }
+    ],
+    "measurementInfo": "상세 실측표 반영",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "소매길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "39",
+            "허리단면": "31",
+            "힙단면": "40"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "41.5",
+            "허리단면": "33.5",
+            "힙단면": "42.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "103",
+            "소매길이": "31",
+            "가슴단면": "44",
+            "허리단면": "36",
+            "힙단면": "45"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "폴리혼방",
+          "신축성": "약간",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "material": "폴리혼방",
     "searchKeywords": [
       "NEW",
       "8월신상",
@@ -211719,7 +212239,7 @@
       "T033",
       "블랙 스퀘어넥 셔링 슬림 미디원피스"
     ],
-    "sourceInfoNote": "고객용에는 수입/매입가 표현 미노출",
+    "sourceInfoNote": "2026-09-12 제품정보 이미지 기준으로 실측/착용정보 반영",
     "신축성": "문의",
     "캡여부": "문의",
     "안감": "문의",
@@ -211728,7 +212248,8 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "priceNote": "132,000원"
   },
   {
     "code": "SEP09-S980",
@@ -217530,9 +218051,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49996
   },
   {
     "code": "T026",
@@ -217557,7 +218080,7 @@
     "size": "55(S) / 66(M)",
     "sizeInfo": "55(S), 66(M) / 상세 사이즈는 문의해 주세요.",
     "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "price": 194000,
     "tags": [
       "NEW",
       "8월신상",
@@ -217733,7 +218256,11 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "componentPriceInfo": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "setPriceNote": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "priceNote": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "updateMemo": "2026-09-12 가격 반영: 상의 106,000원 + 하의 88,000원. 사이즈/착용 정보는 별도 이미지 확인 필요."
   },
   {
     "code": "T027",
@@ -217758,7 +218285,7 @@
     "size": "55(S) / 66(M)",
     "sizeInfo": "55(S), 66(M) / 상세 사이즈는 문의해 주세요.",
     "wearInfo": "상세 착용 정보는 문의해 주세요.",
-    "price": "",
+    "price": 194000,
     "tags": [
       "NEW",
       "8월신상",
@@ -217934,7 +218461,11 @@
     "지퍼": "문의",
     "best": false,
     "isBest": false,
-    "bestItem": false
+    "bestItem": false,
+    "componentPriceInfo": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "setPriceNote": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "priceNote": "상의 106,000원 + 하의 88,000원 구성입니다.",
+    "updateMemo": "2026-09-12 가격 반영: 상의 106,000원 + 하의 88,000원. 사이즈/착용 정보는 별도 이미지 확인 필요."
   },
   {
     "code": "T040",
@@ -218987,11 +219518,13 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false,
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
     "componentPriceInfo": "상의 45,000원 + 하의 63,000원 구성입니다.",
-    "setPriceNote": "상의 45,000원 + 하의 63,000원 구성입니다."
+    "setPriceNote": "상의 45,000원 + 하의 63,000원 구성입니다.",
+    "nicePick": true,
+    "nicePickPriority": 49995
   },
   {
     "code": "T045",
@@ -222380,9 +222913,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49998
   },
   {
     "code": "T037",
@@ -222966,9 +223501,11 @@
     "비침": "문의",
     "두께감": "문의",
     "지퍼": "문의",
-    "best": false,
-    "isBest": false,
-    "bestItem": false
+    "best": true,
+    "isBest": true,
+    "bestItem": true,
+    "nicePick": true,
+    "nicePickPriority": 49997
   },
   {
     "code": "T001",
