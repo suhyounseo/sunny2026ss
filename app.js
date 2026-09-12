@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nicespick_only_final_0911_1';
+const VERSION = 'jessica_info_allview_20260912_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -1164,6 +1164,8 @@ function rankProduct(p) {
   if (isJessicaStoreStockProduct(p)) score += 22000;
   // 8월 신상은 전체(ALL)에서도 먼저 보이도록 우선 가중치를 줍니다.
   if (isAugustNewProduct(p)) score += 12000;
+  // 9/12 제시카 등록분은 NEW ARRIVAL에는 넣지 않고, 전체상품에서 기존 신상 바로 아래에 노출합니다.
+  if (p.collection === 'JESSICA_SEP12') score += 11000;
   if (p.mainDisplay) score += 10000;
   if (isJulyNewProduct(p)) score += 9000;
   if (p.featured) score += 7000;
