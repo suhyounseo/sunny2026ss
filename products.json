@@ -233994,17 +233994,17 @@
     "folder": "ANC-5001",
     "zipFolder": "ANC-5001",
     "supplierProductNo": "5001",
-    "name": "앙크최 26FW 미니 원피스 5001",
-    "storeName": "앙크최 26FW 미니 원피스 5001",
-    "productName": "앙크최 26FW 미니 원피스 5001",
+    "name": "옐로우 배색 블랙 포인트 미니원피스",
+    "storeName": "옐로우 배색 블랙 포인트 미니원피스",
+    "productName": "옐로우 배색 블랙 포인트 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "옐로우 / 블랙",
+    "variantColor": "옐로우 / 블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234090,19 +234090,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5001/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5001/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "옐로우와 블랙의 선명한 배색이 돋보이는 A라인 미니원피스입니다. 대비감 있는 컬러 조합이 무대에서 또렷하게 보이며 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "옐로우와 블랙의 선명한 배색이 돋보이는 A라인 미니원피스입니다. 대비감 있는 컬러 조합이 무대에서 또렷하게 보이며 방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "옐로우·블랙 배색",
+      "블랙 포인트",
+      "A라인 실루엣"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "옐로우·블랙 배색",
+      "블랙 포인트",
+      "A라인 실루엣"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "옐로우·블랙 배색, 블랙 포인트, A라인 실루엣",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234130,7 +234130,9 @@
       "ANC-5001",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "옐로우·블랙 배색, 블랙 포인트, A라인 실루엣",
+    "asymmetric": false
   },
   {
     "code": "ANC-5002",
@@ -234141,17 +234143,17 @@
     "folder": "ANC-5002",
     "zipFolder": "ANC-5002",
     "supplierProductNo": "5002",
-    "name": "앙크최 26FW 미니 원피스 5002",
-    "storeName": "앙크최 26FW 미니 원피스 5002",
-    "productName": "앙크최 26FW 미니 원피스 5002",
+    "name": "브이넥 화이트 리본 포인트 미니원피스",
+    "storeName": "브이넥 화이트 리본 포인트 미니원피스",
+    "productName": "브이넥 화이트 리본 포인트 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234236,19 +234238,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5002/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5002/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 바디에 화이트 리본과 배색 포인트를 더한 슬림 미니원피스입니다. 선명한 컬러 대비와 여성스러운 상체 디테일이 돋보여 방송·무대·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 바디에 화이트 리본과 배색 포인트를 더한 슬림 미니원피스입니다. 선명한 컬러 대비와 여성스러운 상체 디테일이 돋보여 방송·무대·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "화이트 리본 포인트",
+      "배색",
+      "퍼프숄더"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "화이트 리본 포인트",
+      "배색",
+      "퍼프숄더"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "V넥, 화이트 리본 포인트, 배색, 퍼프숄더",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234276,7 +234280,9 @@
       "ANC-5002",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "V넥, 화이트 리본 포인트, 배색, 퍼프숄더",
+    "asymmetric": false
   },
   {
     "code": "ANC-5003",
@@ -234287,17 +234293,17 @@
     "folder": "ANC-5003",
     "zipFolder": "ANC-5003",
     "supplierProductNo": "5003",
-    "name": "앙크최 26FW 미니 원피스 5003",
-    "storeName": "앙크최 26FW 미니 원피스 5003",
-    "productName": "앙크최 26FW 미니 원피스 5003",
+    "name": "셔링 스트랩 끈포인트 미니원피스",
+    "storeName": "셔링 스트랩 끈포인트 미니원피스",
+    "productName": "셔링 스트랩 끈포인트 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트",
+    "variantColor": "화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234376,19 +234382,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5003/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5003/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "가슴 셔링과 스트랩 디테일이 여성스러운 화이트 슬림 미니원피스. 볼레로를 레이어드한 듯한 상체 디자인이 포인트로, 깔끔하면서도 섹시한 무대·파티룩을 연출합니다.",
+    "description": "가슴 셔링과 스트랩 디테일이 여성스러운 화이트 슬림 미니원피스. 볼레로를 레이어드한 듯한 상체 디자인이 포인트로, 깔끔하면서도 섹시한 무대·파티룩을 연출합니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "가슴 셔링",
+      "얇은 스트랩",
+      "볼레로형 소매 레이어드",
+      "슬림 실루엣"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "가슴 셔링",
+      "얇은 스트랩",
+      "볼레로형 소매 레이어드",
+      "슬림 실루엣"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "가슴 셔링, 얇은 스트랩, 볼레로형 소매 레이어드, 슬림 실루엣",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234416,7 +234424,9 @@
       "ANC-5003",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "가슴 셔링, 얇은 스트랩, 볼레로형 소매 레이어드, 슬림 실루엣",
+    "asymmetric": false
   },
   {
     "code": "ANC-5004",
@@ -234427,17 +234437,17 @@
     "folder": "ANC-5004",
     "zipFolder": "ANC-5004",
     "supplierProductNo": "5004",
-    "name": "앙크최 26FW 미니 원피스 5004",
-    "storeName": "앙크최 26FW 미니 원피스 5004",
-    "productName": "앙크최 26FW 미니 원피스 5004",
+    "name": "랩 드레이프 언발 미니원피스",
+    "storeName": "랩 드레이프 언발 미니원피스",
+    "productName": "랩 드레이프 언발 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234522,19 +234532,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5004/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5004/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "랩 스타일 V넥과 허리 셔링이 바디라인을 잡아주는 블랙 슬림 미니원피스. 사이드 드레이프와 언발 밑단이 움직임을 살려 세련된 무대·방송룩으로 활용하기 좋습니다.",
+    "description": "랩 스타일 V넥과 허리 셔링이 바디라인을 잡아주는 블랙 슬림 미니원피스. 사이드 드레이프와 언발 밑단이 움직임을 살려 세련된 무대·방송룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "랩 V넥",
+      "허리 셔링",
+      "사이드 드레이프",
+      "언발 밑단",
+      "7부소매"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "랩 V넥",
+      "허리 셔링",
+      "사이드 드레이프",
+      "언발 밑단",
+      "7부소매"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "랩 V넥, 허리 셔링, 사이드 드레이프, 언발 밑단, 7부소매",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234562,7 +234576,9 @@
       "ANC-5004",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "랩 V넥, 허리 셔링, 사이드 드레이프, 언발 밑단, 7부소매",
+    "asymmetric": true
   },
   {
     "code": "ANC-5005",
@@ -234573,17 +234589,17 @@
     "folder": "ANC-5005",
     "zipFolder": "ANC-5005",
     "supplierProductNo": "5005",
-    "name": "앙크최 26FW 미니 원피스 5005",
-    "storeName": "앙크최 26FW 미니 원피스 5005",
-    "productName": "앙크최 26FW 미니 원피스 5005",
+    "name": "레이스 레이어드 서스펜더 미니원피스",
+    "storeName": "레이스 레이어드 서스펜더 미니원피스",
+    "productName": "레이스 레이어드 서스펜더 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "딥그린 / 아이보리",
+    "variantColor": "딥그린 / 아이보리",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234668,19 +234684,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5005/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5005/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "아이보리 레이스 상의와 딥그린 서스펜더형 원피스를 레이어드한 듯한 A라인 미니원피스. 클래식하면서도 소녀스러운 무드가 있어 무대·행사·방송 의상으로 활용하기 좋습니다.",
+    "description": "아이보리 레이스 상의와 딥그린 서스펜더형 원피스를 레이어드한 듯한 A라인 미니원피스. 클래식하면서도 소녀스러운 무드가 있어 무대·행사·방송 의상으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "아이보리 레이스 이너",
+      "깊은 U라인 서스펜더형 바디",
+      "골드버튼",
+      "플레어 스커트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "아이보리 레이스 이너",
+      "깊은 U라인 서스펜더형 바디",
+      "골드버튼",
+      "플레어 스커트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "아이보리 레이스 이너, 깊은 U라인 서스펜더형 바디, 골드버튼, 플레어 스커트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234708,7 +234726,9 @@
       "ANC-5005",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "아이보리 레이스 이너, 깊은 U라인 서스펜더형 바디, 골드버튼, 플레어 스커트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5006",
@@ -234719,17 +234739,17 @@
     "folder": "ANC-5006",
     "zipFolder": "ANC-5006",
     "supplierProductNo": "5006",
-    "name": "앙크최 26FW 미니 원피스 5006",
-    "storeName": "앙크최 26FW 미니 원피스 5006",
-    "productName": "앙크최 26FW 미니 원피스 5006",
+    "name": "스퀘어넥 핑크 배색 미니원피스",
+    "storeName": "스퀘어넥 핑크 배색 미니원피스",
+    "productName": "스퀘어넥 핑크 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핑크 / 블랙",
+    "variantColor": "핑크 / 블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234814,19 +234834,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5006/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5006/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "부드러운 핑크 톤 상체와 블랙 스커트의 배색이 돋보이는 슬림 미니원피스. 스퀘어넥이 목선을 시원하게 보여주고 허리 대비가 선명해 단정한 섹시함을 연출합니다.",
+    "description": "부드러운 핑크 톤 상체와 블랙 스커트의 배색이 돋보이는 슬림 미니원피스. 스퀘어넥이 목선을 시원하게 보여주고 허리 대비가 선명해 단정한 섹시함을 연출합니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "핑크 상체 배색",
+      "블랙 하이웨이스트 스커트",
+      "7부소매",
+      "슬림 실루엣"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "핑크 상체 배색",
+      "블랙 하이웨이스트 스커트",
+      "7부소매",
+      "슬림 실루엣"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "스퀘어넥, 핑크 상체 배색, 블랙 하이웨이스트 스커트, 7부소매, 슬림 실루엣",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234854,7 +234878,9 @@
       "ANC-5006",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "스퀘어넥, 핑크 상체 배색, 블랙 하이웨이스트 스커트, 7부소매, 슬림 실루엣",
+    "asymmetric": false
   },
   {
     "code": "ANC-5007",
@@ -234865,17 +234891,17 @@
     "folder": "ANC-5007",
     "zipFolder": "ANC-5007",
     "supplierProductNo": "5007",
-    "name": "앙크최 26FW 미니 원피스 5007",
-    "storeName": "앙크최 26FW 미니 원피스 5007",
-    "productName": "앙크최 26FW 미니 원피스 5007",
+    "name": "레드 블랙 배색 레이스 미니원피스",
+    "storeName": "레드 블랙 배색 레이스 미니원피스",
+    "productName": "레드 블랙 배색 레이스 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "레드 / 블랙",
+    "variantColor": "레드 / 블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -234954,19 +234980,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5007/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5007/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레드와 블랙 레이스의 강한 대비가 매력적인 A라인 미니원피스. 레이스 소매와 티어드 밑단이 움직임을 살려 무대·파티에서 시선을 끌기 좋은 디자인입니다.",
+    "description": "레드와 블랙 레이스의 강한 대비가 매력적인 A라인 미니원피스. 레이스 소매와 티어드 밑단이 움직임을 살려 무대·파티에서 시선을 끌기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "블랙 레이스 소매",
+      "레이스 V넥",
+      "레드 바디",
+      "이중 티어드 밑단",
+      "레이스 트리밍"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "블랙 레이스 소매",
+      "레이스 V넥",
+      "레드 바디",
+      "이중 티어드 밑단",
+      "레이스 트리밍"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "블랙 레이스 소매, 레이스 V넥, 레드 바디, 이중 티어드 밑단, 레이스 트리밍",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -234994,7 +235024,9 @@
       "ANC-5007",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "블랙 레이스 소매, 레이스 V넥, 레드 바디, 이중 티어드 밑단, 레이스 트리밍",
+    "asymmetric": false
   },
   {
     "code": "ANC-5008",
@@ -235005,17 +235037,17 @@
     "folder": "ANC-5008",
     "zipFolder": "ANC-5008",
     "supplierProductNo": "5008",
-    "name": "앙크최 26FW 미니 원피스 5008",
-    "storeName": "앙크최 26FW 미니 원피스 5008",
-    "productName": "앙크최 26FW 미니 원피스 5008",
+    "name": "브이넥 러플 화이트 블랙 배색 미니원피스",
+    "storeName": "브이넥 러플 화이트 블랙 배색 미니원피스",
+    "productName": "브이넥 러플 화이트 블랙 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 블랙",
+    "variantColor": "화이트 / 블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235100,19 +235132,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5008/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5008/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화사한 화이트 러플 상체와 블랙 슬림 스커트를 배색한 블라우스형 미니원피스. 얼굴 주변을 밝게 살려주고 단정한 실루엣으로 방송·행사·무대룩에 잘 어울립니다.",
+    "description": "화사한 화이트 러플 상체와 블랙 슬림 스커트를 배색한 블라우스형 미니원피스. 얼굴 주변을 밝게 살려주고 단정한 실루엣으로 방송·행사·무대룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "프론트 러플",
+      "골드버튼",
+      "화이트 블라우스형 상체",
+      "블랙 슬림 스커트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "프론트 러플",
+      "골드버튼",
+      "화이트 블라우스형 상체",
+      "블랙 슬림 스커트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "V넥, 프론트 러플, 골드버튼, 화이트 블라우스형 상체, 블랙 슬림 스커트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235140,7 +235176,9 @@
       "ANC-5008",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "V넥, 프론트 러플, 골드버튼, 화이트 블라우스형 상체, 블랙 슬림 스커트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5009",
@@ -235151,17 +235189,17 @@
     "folder": "ANC-5009",
     "zipFolder": "ANC-5009",
     "supplierProductNo": "5009",
-    "name": "앙크최 26FW 미니 원피스 5009",
-    "storeName": "앙크최 26FW 미니 원피스 5009",
-    "productName": "앙크최 26FW 미니 원피스 5009",
+    "name": "셔츠카라 골드버튼 미니원피스",
+    "storeName": "셔츠카라 골드버튼 미니원피스",
+    "productName": "셔츠카라 골드버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "핑크 / 화이트",
+    "variantColor": "핑크 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235246,19 +235284,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5009/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5009/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 셔츠카라와 커프스가 단정한 포인트를 주는 핑크 A라인 미니원피스. 골드버튼과 플레어 실루엣이 클래식하면서도 사랑스러운 무드를 완성합니다.",
+    "description": "화이트 셔츠카라와 커프스가 단정한 포인트를 주는 핑크 A라인 미니원피스. 골드버튼과 플레어 실루엣이 클래식하면서도 사랑스러운 무드를 완성합니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "화이트 셔츠카라",
+      "화이트 커프스",
+      "골드버튼",
+      "퍼프숄더",
+      "플레어 스커트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "화이트 셔츠카라",
+      "화이트 커프스",
+      "골드버튼",
+      "퍼프숄더",
+      "플레어 스커트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "화이트 셔츠카라, 화이트 커프스, 골드버튼, 퍼프숄더, 플레어 스커트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235286,7 +235328,9 @@
       "ANC-5009",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "화이트 셔츠카라, 화이트 커프스, 골드버튼, 퍼프숄더, 플레어 스커트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5010",
@@ -235297,17 +235341,17 @@
     "folder": "ANC-5010",
     "zipFolder": "ANC-5010",
     "supplierProductNo": "5010",
-    "name": "앙크최 26FW 미니 원피스 5010",
-    "storeName": "앙크최 26FW 미니 원피스 5010",
-    "productName": "앙크최 26FW 미니 원피스 5010",
+    "name": "그레이 트위드 포켓 버튼 원피스",
+    "storeName": "그레이 트위드 포켓 버튼 원피스",
+    "productName": "그레이 트위드 포켓 버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "그레이 / 아이보리",
+    "variantColor": "그레이 / 아이보리",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235393,19 +235437,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5010/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5010/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "클래식한 트위드 소재에 아이보리 배색과 골드버튼을 더한 슬림 미니원피스. 단정하면서도 화려한 포인트가 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "클래식한 트위드 소재에 아이보리 배색과 골드버튼을 더한 슬림 미니원피스. 단정하면서도 화려한 포인트가 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트위드 텍스처",
+      "아이보리 배색 트리밍",
+      "골드버튼",
+      "포켓 장식",
+      "7부소매"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트위드 텍스처",
+      "아이보리 배색 트리밍",
+      "골드버튼",
+      "포켓 장식",
+      "7부소매"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "트위드 텍스처, 아이보리 배색 트리밍, 골드버튼, 포켓 장식, 7부소매",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235433,7 +235481,9 @@
       "ANC-5010",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "트위드 텍스처, 아이보리 배색 트리밍, 골드버튼, 포켓 장식, 7부소매",
+    "asymmetric": false
   },
   {
     "code": "ANC-5011",
@@ -235444,17 +235494,17 @@
     "folder": "ANC-5011",
     "zipFolder": "ANC-5011",
     "supplierProductNo": "5011",
-    "name": "앙크최 26FW 미니 원피스 5011",
-    "storeName": "앙크최 26FW 미니 원피스 5011",
-    "productName": "앙크최 26FW 미니 원피스 5011",
+    "name": "와인 러플 더블버튼 미니원피스",
+    "storeName": "와인 러플 더블버튼 미니원피스",
+    "productName": "와인 러플 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "와인",
+    "variantColor": "와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235539,19 +235589,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5011/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5011/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "와인 컬러에 러플·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "와인 컬러에 러플·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "러플, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235579,7 +235629,9 @@
       "ANC-5011",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "러플, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5012",
@@ -235590,17 +235642,17 @@
     "folder": "ANC-5012",
     "zipFolder": "ANC-5012",
     "supplierProductNo": "5012",
-    "name": "앙크최 26FW 미니 원피스 5012",
-    "storeName": "앙크최 26FW 미니 원피스 5012",
-    "productName": "앙크최 26FW 미니 원피스 5012",
+    "name": "레몬 스퀘어넥 셔링 미니원피스",
+    "storeName": "레몬 스퀘어넥 셔링 미니원피스",
+    "productName": "레몬 스퀘어넥 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "레몬",
+    "variantColor": "레몬",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235685,19 +235737,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5012/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5012/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레몬 컬러에 스퀘어넥·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레몬 컬러에 스퀘어넥·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "셔링"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "셔링"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "스퀘어넥, 셔링",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235725,7 +235775,9 @@
       "ANC-5012",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "스퀘어넥, 셔링",
+    "asymmetric": false
   },
   {
     "code": "ANC-5013",
@@ -235736,17 +235788,17 @@
     "folder": "ANC-5013",
     "zipFolder": "ANC-5013",
     "supplierProductNo": "5013",
-    "name": "앙크최 26FW 미니 원피스 5013",
-    "storeName": "앙크최 26FW 미니 원피스 5013",
-    "productName": "앙크최 26FW 미니 원피스 5013",
+    "name": "블루 프릴 더블버튼 미니원피스",
+    "storeName": "블루 프릴 더블버튼 미니원피스",
+    "productName": "블루 프릴 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블루",
+    "variantColor": "블루",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235831,19 +235883,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5013/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5013/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블루 컬러에 프릴·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블루 컬러에 프릴·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "프릴, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -235871,7 +235923,9 @@
       "ANC-5013",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "프릴, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5014",
@@ -235882,17 +235936,17 @@
     "folder": "ANC-5014",
     "zipFolder": "ANC-5014",
     "supplierProductNo": "5014",
-    "name": "앙크최 26FW 미니 원피스 5014",
-    "storeName": "앙크최 26FW 미니 원피스 5014",
-    "productName": "앙크최 26FW 미니 원피스 5014",
+    "name": "블랙 화이트리본 배색 미니원피스",
+    "storeName": "블랙 화이트리본 배색 미니원피스",
+    "productName": "블랙 화이트리본 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -235977,19 +236031,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5014/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5014/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 화이트 컬러에 리본·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 화이트 컬러에 리본·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "리본, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236017,7 +236069,9 @@
       "ANC-5014",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "리본, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5015",
@@ -236028,17 +236082,17 @@
     "folder": "ANC-5015",
     "zipFolder": "ANC-5015",
     "supplierProductNo": "5015",
-    "name": "앙크최 26FW 미니 원피스 5015",
-    "storeName": "앙크최 26FW 미니 원피스 5015",
-    "productName": "앙크최 26FW 미니 원피스 5015",
+    "name": "핑크 테일러드 랩 리본 미니원피스",
+    "storeName": "핑크 테일러드 랩 리본 미니원피스",
+    "productName": "핑크 테일러드 랩 리본 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236117,19 +236171,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5015/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5015/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 랩·리본 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 랩·리본 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "랩",
+      "리본"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "랩",
+      "리본"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "랩, 리본",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236157,7 +236209,9 @@
       "ANC-5015",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "랩, 리본",
+    "asymmetric": false
   },
   {
     "code": "ANC-5016",
@@ -236168,17 +236222,17 @@
     "folder": "ANC-5016",
     "zipFolder": "ANC-5016",
     "supplierProductNo": "5016",
-    "name": "앙크최 26FW 미니 원피스 5016",
-    "storeName": "앙크최 26FW 미니 원피스 5016",
-    "productName": "앙크최 26FW 미니 원피스 5016",
+    "name": "블랙 화이트레이스카라 미니원피스",
+    "storeName": "블랙 화이트레이스카라 미니원피스",
+    "productName": "블랙 화이트레이스카라 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236263,19 +236317,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5016/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5016/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 화이트 컬러에 카라·레이스 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 화이트 컬러에 카라·레이스 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "레이스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "레이스"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 레이스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236303,7 +236355,9 @@
       "ANC-5016",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 레이스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5017",
@@ -236314,17 +236368,17 @@
     "folder": "ANC-5017",
     "zipFolder": "ANC-5017",
     "supplierProductNo": "5017",
-    "name": "앙크최 26FW 미니 원피스 5017",
-    "storeName": "앙크최 26FW 미니 원피스 5017",
-    "productName": "앙크최 26FW 미니 원피스 5017",
+    "name": "레드 블랙배색 레이스 미니원피스",
+    "storeName": "레드 블랙배색 레이스 미니원피스",
+    "productName": "레드 블랙배색 레이스 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 레드",
+    "variantColor": "블랙 / 레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236403,19 +236457,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5017/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5017/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 레드 컬러에 레이스·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 레드 컬러에 레이스·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236443,7 +236495,9 @@
       "ANC-5017",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5018",
@@ -236454,17 +236508,17 @@
     "folder": "ANC-5018",
     "zipFolder": "ANC-5018",
     "supplierProductNo": "5018",
-    "name": "앙크최 26FW 미니 원피스 5018",
-    "storeName": "앙크최 26FW 미니 원피스 5018",
-    "productName": "앙크최 26FW 미니 원피스 5018",
+    "name": "블랙 버튼 크롭 머메이드 원피스",
+    "storeName": "블랙 버튼 크롭 머메이드 원피스",
+    "productName": "블랙 버튼 크롭 머메이드 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236543,19 +236597,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5018/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5018/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 버튼·크롭·머메이드 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 버튼·크롭·머메이드 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "크롭",
+      "머메이드"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "크롭",
+      "머메이드"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "버튼, 크롭, 머메이드",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236583,7 +236637,9 @@
       "ANC-5018",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "버튼, 크롭, 머메이드",
+    "asymmetric": false
   },
   {
     "code": "ANC-5019",
@@ -236594,17 +236650,17 @@
     "folder": "ANC-5019",
     "zipFolder": "ANC-5019",
     "supplierProductNo": "5019",
-    "name": "앙크최 26FW 미니 원피스 5019",
-    "storeName": "앙크최 26FW 미니 원피스 5019",
-    "productName": "앙크최 26FW 미니 원피스 5019",
+    "name": "화이트 크롭탑 핑크 셔링 원피스",
+    "storeName": "화이트 크롭탑 핑크 셔링 원피스",
+    "productName": "화이트 크롭탑 핑크 셔링 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 핑크",
+    "variantColor": "화이트 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236689,19 +236745,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5019/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5019/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 핑크 컬러에 셔링·크롭 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 핑크 컬러에 셔링·크롭 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "크롭"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "크롭"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 크롭",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236729,7 +236783,9 @@
       "ANC-5019",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 크롭",
+    "asymmetric": false
   },
   {
     "code": "ANC-5020",
@@ -236740,17 +236796,17 @@
     "folder": "ANC-5020",
     "zipFolder": "ANC-5020",
     "supplierProductNo": "5020",
-    "name": "앙크최 26FW 미디 원피스 5020",
-    "storeName": "앙크최 26FW 미디 원피스 5020",
-    "productName": "앙크최 26FW 미디 원피스 5020",
+    "name": "블랙 레이스배색 슬릿 미디원피스",
+    "storeName": "블랙 레이스배색 슬릿 미디원피스",
+    "productName": "블랙 레이스배색 슬릿 미디원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236835,19 +236891,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5020/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5020/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·슬릿·배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·슬릿·배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "슬릿",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "슬릿",
+      "배색"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "레이스, 슬릿, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -236875,7 +236931,9 @@
       "ANC-5020",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 슬릿, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5021",
@@ -236886,17 +236944,17 @@
     "folder": "ANC-5021",
     "zipFolder": "ANC-5021",
     "supplierProductNo": "5021",
-    "name": "앙크최 26FW 미니 원피스 5021",
-    "storeName": "앙크최 26FW 미니 원피스 5021",
-    "productName": "앙크최 26FW 미니 원피스 5021",
+    "name": "코랄 셔링 슬릿 미니원피스",
+    "storeName": "코랄 셔링 슬릿 미니원피스",
+    "productName": "코랄 셔링 슬릿 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "코랄",
+    "variantColor": "코랄",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -236975,19 +237033,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5021/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5021/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "코랄 컬러에 셔링·슬릿 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "코랄 컬러에 셔링·슬릿 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237015,7 +237071,9 @@
       "ANC-5021",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 슬릿",
+    "asymmetric": false
   },
   {
     "code": "ANC-5022",
@@ -237026,17 +237084,17 @@
     "folder": "ANC-5022",
     "zipFolder": "ANC-5022",
     "supplierProductNo": "5022",
-    "name": "앙크최 26FW 미니 원피스 5022",
-    "storeName": "앙크최 26FW 미니 원피스 5022",
-    "productName": "앙크최 26FW 미니 원피스 5022",
+    "name": "블랙 레이스넥 골드버튼 미니원피스",
+    "storeName": "블랙 레이스넥 골드버튼 미니원피스",
+    "productName": "블랙 레이스넥 골드버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237121,19 +237179,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5022/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5022/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스넥과 골드버튼 디테일이 돋보이는 A라인 미니원피스입니다. 클래식한 버튼 포인트와 여성스러운 레이스가 어우러져 무대·방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 컬러에 레이스넥과 골드버튼 디테일이 돋보이는 A라인 미니원피스입니다. 클래식한 버튼 포인트와 여성스러운 레이스가 어우러져 무대·방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "골드버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "골드버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 골드버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237161,7 +237219,9 @@
       "ANC-5022",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 골드버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5023",
@@ -237172,17 +237232,17 @@
     "folder": "ANC-5023",
     "zipFolder": "ANC-5023",
     "supplierProductNo": "5023",
-    "name": "앙크최 26FW 미니 원피스 5023",
-    "storeName": "앙크최 26FW 미니 원피스 5023",
-    "productName": "앙크최 26FW 미니 원피스 5023",
+    "name": "핑크 화이트리본 배색 미니원피스",
+    "storeName": "핑크 화이트리본 배색 미니원피스",
+    "productName": "핑크 화이트리본 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 핑크",
+    "variantColor": "화이트 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237268,19 +237328,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5023/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5023/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 핑크 컬러에 리본·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 핑크 컬러에 리본·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "리본, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237308,7 +237366,9 @@
       "ANC-5023",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "리본, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5024",
@@ -237319,17 +237379,17 @@
     "folder": "ANC-5024",
     "zipFolder": "ANC-5024",
     "supplierProductNo": "5024",
-    "name": "앙크최 26FW 미니 원피스 5024",
-    "storeName": "앙크최 26FW 미니 원피스 5024",
-    "productName": "앙크최 26FW 미니 원피스 5024",
+    "name": "블랙 시스루 레이스 티어드 미니원피스",
+    "storeName": "블랙 시스루 레이스 티어드 미니원피스",
+    "productName": "블랙 시스루 레이스 티어드 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237408,19 +237468,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5024/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5024/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·시스루·티어드 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·시스루·티어드 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루",
+      "티어드"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루",
+      "티어드"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 시스루, 티어드",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237448,7 +237508,9 @@
       "ANC-5024",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 시스루, 티어드",
+    "asymmetric": false
   },
   {
     "code": "ANC-5025",
@@ -237459,17 +237521,17 @@
     "folder": "ANC-5025",
     "zipFolder": "ANC-5025",
     "supplierProductNo": "5025",
-    "name": "앙크최 26FW 미니 원피스 5025",
-    "storeName": "앙크최 26FW 미니 원피스 5025",
-    "productName": "앙크최 26FW 미니 원피스 5025",
+    "name": "와인 화이트레이스 프릴 미니원피스",
+    "storeName": "와인 화이트레이스 프릴 미니원피스",
+    "productName": "와인 화이트레이스 프릴 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "화이트 / 와인",
+    "variantColor": "화이트 / 와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237554,19 +237616,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5025/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5025/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 와인 컬러에 레이스·프릴 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 와인 컬러에 레이스·프릴 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "프릴"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "프릴"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 프릴",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237594,7 +237654,9 @@
       "ANC-5025",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 프릴",
+    "asymmetric": false
   },
   {
     "code": "ANC-5026",
@@ -237605,17 +237667,17 @@
     "folder": "ANC-5026",
     "zipFolder": "ANC-5026",
     "supplierProductNo": "5026",
-    "name": "앙크최 26FW 미니 원피스 5026",
-    "storeName": "앙크최 26FW 미니 원피스 5026",
-    "productName": "앙크최 26FW 미니 원피스 5026",
+    "name": "블랙 브이넥 셔링 미니원피스",
+    "storeName": "블랙 브이넥 셔링 미니원피스",
+    "productName": "블랙 브이넥 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237700,19 +237762,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5026/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5026/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 브이넥·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 브이넥·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "브이넥",
+      "셔링"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "브이넥",
+      "셔링"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "브이넥, 셔링",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237740,7 +237800,9 @@
       "ANC-5026",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "브이넥, 셔링",
+    "asymmetric": false
   },
   {
     "code": "ANC-5027",
@@ -237751,17 +237813,17 @@
     "folder": "ANC-5027",
     "zipFolder": "ANC-5027",
     "supplierProductNo": "5027",
-    "name": "앙크최 26FW 미니 원피스 5027",
-    "storeName": "앙크최 26FW 미니 원피스 5027",
-    "productName": "앙크최 26FW 미니 원피스 5027",
+    "name": "골드펄 프릴 더블버튼 미니원피스",
+    "storeName": "골드펄 프릴 더블버튼 미니원피스",
+    "productName": "골드펄 프릴 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "골드",
+    "variantColor": "골드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237846,19 +237908,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5027/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5027/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "골드 컬러에 프릴·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "골드 컬러에 프릴·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "프릴, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -237886,7 +237948,9 @@
       "ANC-5027",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "프릴, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5028",
@@ -237897,17 +237961,17 @@
     "folder": "ANC-5028",
     "zipFolder": "ANC-5028",
     "supplierProductNo": "5028",
-    "name": "앙크최 26FW 미니 원피스 5028",
-    "storeName": "앙크최 26FW 미니 원피스 5028",
-    "productName": "앙크최 26FW 미니 원피스 5028",
+    "name": "블랙 랩 셔링 슬릿 미디원피스",
+    "storeName": "블랙 랩 셔링 슬릿 미디원피스",
+    "productName": "블랙 랩 셔링 슬릿 미디원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
-    "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -237986,19 +238050,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5028/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5028/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 셔링·슬릿·랩 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 셔링·슬릿·랩 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿",
+      "랩"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿",
+      "랩"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 슬릿, 랩",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238026,7 +238090,9 @@
       "ANC-5028",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 슬릿, 랩",
+    "asymmetric": false
   },
   {
     "code": "ANC-5029",
@@ -238037,17 +238103,17 @@
     "folder": "ANC-5029",
     "zipFolder": "ANC-5029",
     "supplierProductNo": "5029",
-    "name": "앙크최 26FW 미니 원피스 5029",
-    "storeName": "앙크최 26FW 미니 원피스 5029",
-    "productName": "앙크최 26FW 미니 원피스 5029",
+    "name": "핑크 레이스 버튼 미니원피스",
+    "storeName": "핑크 레이스 버튼 미니원피스",
+    "productName": "핑크 레이스 버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238132,19 +238198,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5029/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5029/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 레이스·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 레이스·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238172,7 +238236,9 @@
       "ANC-5029",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5030",
@@ -238183,17 +238249,17 @@
     "folder": "ANC-5030",
     "zipFolder": "ANC-5030",
     "supplierProductNo": "5030",
-    "name": "앙크최 26FW 미니 원피스 5030",
-    "storeName": "앙크최 26FW 미니 원피스 5030",
-    "productName": "앙크최 26FW 미니 원피스 5030",
+    "name": "블랙 레이스 셔링 미니원피스",
+    "storeName": "블랙 레이스 셔링 미니원피스",
+    "productName": "블랙 레이스 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238272,19 +238338,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5030/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5030/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·셔링 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "셔링"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "셔링"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 셔링",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238312,7 +238376,9 @@
       "ANC-5030",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 셔링",
+    "asymmetric": false
   },
   {
     "code": "ANC-5031",
@@ -238323,17 +238389,17 @@
     "folder": "ANC-5031",
     "zipFolder": "ANC-5031",
     "supplierProductNo": "5031",
-    "name": "앙크최 26FW 미니 원피스 5031",
-    "storeName": "앙크최 26FW 미니 원피스 5031",
-    "productName": "앙크최 26FW 미니 원피스 5031",
+    "name": "머스타드 랩 셔링 미니원피스",
+    "storeName": "머스타드 랩 셔링 미니원피스",
+    "productName": "머스타드 랩 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "머스타드",
+    "variantColor": "머스타드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238418,19 +238484,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5031/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5031/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "머스타드 컬러에 셔링·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "머스타드 컬러에 셔링·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 랩",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238458,7 +238522,9 @@
       "ANC-5031",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 랩",
+    "asymmetric": false
   },
   {
     "code": "ANC-5032",
@@ -238469,17 +238535,17 @@
     "folder": "ANC-5032",
     "zipFolder": "ANC-5032",
     "supplierProductNo": "5032",
-    "name": "앙크최 26FW 미니 원피스 5032",
-    "storeName": "앙크최 26FW 미니 원피스 5032",
-    "productName": "앙크최 26FW 미니 원피스 5032",
+    "name": "블랙 화이트프릴 레이스업 미니원피스",
+    "storeName": "블랙 화이트프릴 레이스업 미니원피스",
+    "productName": "블랙 화이트프릴 레이스업 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238558,19 +238624,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5032/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5032/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 화이트 컬러에 레이스·프릴 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 화이트 컬러에 레이스·프릴 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "프릴"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "프릴"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 프릴",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238598,7 +238662,9 @@
       "ANC-5032",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 프릴",
+    "asymmetric": false
   },
   {
     "code": "ANC-5033",
@@ -238609,17 +238675,17 @@
     "folder": "ANC-5033",
     "zipFolder": "ANC-5033",
     "supplierProductNo": "5033",
-    "name": "앙크최 26FW 미니 원피스 5033",
-    "storeName": "앙크최 26FW 미니 원피스 5033",
-    "productName": "앙크최 26FW 미니 원피스 5033",
+    "name": "네이비 골드버튼 포켓 미니원피스",
+    "storeName": "네이비 골드버튼 포켓 미니원피스",
+    "productName": "네이비 골드버튼 포켓 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "네이비",
+    "variantColor": "네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238704,19 +238770,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5033/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5033/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "네이비 컬러에 골드버튼과 포켓 디테일을 더한 A라인 미니원피스입니다. 단정하면서도 또렷한 포인트가 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "네이비 컬러에 골드버튼과 포켓 디테일을 더한 A라인 미니원피스입니다. 단정하면서도 또렷한 포인트가 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "포켓"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "포켓"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "골드버튼, 버튼, 포켓",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238744,7 +238810,9 @@
       "ANC-5033",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "골드버튼, 버튼, 포켓",
+    "asymmetric": false
   },
   {
     "code": "ANC-5034",
@@ -238755,17 +238823,17 @@
     "folder": "ANC-5034",
     "zipFolder": "ANC-5034",
     "supplierProductNo": "5034",
-    "name": "앙크최 26FW 미니 원피스 5034",
-    "storeName": "앙크최 26FW 미니 원피스 5034",
-    "productName": "앙크최 26FW 미니 원피스 5034",
+    "name": "화이트 레이스소매 레드 배색 미니원피스",
+    "storeName": "화이트 레이스소매 레드 배색 미니원피스",
+    "productName": "화이트 레이스소매 레드 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 레드",
+    "variantColor": "화이트 / 레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238850,19 +238918,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5034/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5034/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 레드 컬러에 레이스·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 레드 컬러에 레이스·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -238890,7 +238956,9 @@
       "ANC-5034",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5035",
@@ -238901,17 +238969,17 @@
     "folder": "ANC-5035",
     "zipFolder": "ANC-5035",
     "supplierProductNo": "5035",
-    "name": "앙크최 26FW 미니 원피스 5035",
-    "storeName": "앙크최 26FW 미니 원피스 5035",
-    "productName": "앙크최 26FW 미니 원피스 5035",
+    "name": "레드 화이트레이스 배색 미니원피스",
+    "storeName": "레드 화이트레이스 배색 미니원피스",
+    "productName": "레드 화이트레이스 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "화이트 / 레드",
+    "variantColor": "화이트 / 레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -238990,19 +239058,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5035/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5035/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 레드 컬러에 레이스·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 레드 컬러에 레이스·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239030,7 +239096,9 @@
       "ANC-5035",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5036",
@@ -239041,17 +239109,17 @@
     "folder": "ANC-5036",
     "zipFolder": "ANC-5036",
     "supplierProductNo": "5036",
-    "name": "앙크최 26FW 미니 원피스 5036",
-    "storeName": "앙크최 26FW 미니 원피스 5036",
-    "productName": "앙크최 26FW 미니 원피스 5036",
+    "name": "블랙 모노그램 하트넥 미니원피스",
+    "storeName": "블랙 모노그램 하트넥 미니원피스",
+    "productName": "블랙 모노그램 하트넥 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239136,19 +239204,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5036/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5036/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 하트넥·모노그램 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 하트넥·모노그램 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "모노그램"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "모노그램"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "하트넥, 모노그램",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239176,7 +239242,9 @@
       "ANC-5036",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 모노그램",
+    "asymmetric": false
   },
   {
     "code": "ANC-5037",
@@ -239187,17 +239255,17 @@
     "folder": "ANC-5037",
     "zipFolder": "ANC-5037",
     "supplierProductNo": "5037",
-    "name": "앙크최 26FW 미니 원피스 5037",
-    "storeName": "앙크최 26FW 미니 원피스 5037",
-    "productName": "앙크최 26FW 미니 원피스 5037",
+    "name": "레드 체크 레이스배색 미니원피스",
+    "storeName": "레드 체크 레이스배색 미니원피스",
+    "productName": "레드 체크 레이스배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "레드",
+    "variantColor": "레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239276,19 +239344,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5037/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5037/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레드 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레드 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 체크, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239316,7 +239384,9 @@
       "ANC-5037",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 체크, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5038",
@@ -239327,17 +239397,17 @@
     "folder": "ANC-5038",
     "zipFolder": "ANC-5038",
     "supplierProductNo": "5038",
-    "name": "앙크최 26FW 미니 원피스 5038",
-    "storeName": "앙크최 26FW 미니 원피스 5038",
-    "productName": "앙크최 26FW 미니 원피스 5038",
+    "name": "화이트 프릴 크롭 배색 미니원피스",
+    "storeName": "화이트 프릴 크롭 배색 미니원피스",
+    "productName": "화이트 프릴 크롭 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트",
+    "variantColor": "화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239422,19 +239492,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5038/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5038/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 컬러에 프릴·크롭·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 컬러에 프릴·크롭·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "크롭",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "크롭",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "프릴, 크롭, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239462,7 +239532,9 @@
       "ANC-5038",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "프릴, 크롭, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5039",
@@ -239473,17 +239545,17 @@
     "folder": "ANC-5039",
     "zipFolder": "ANC-5039",
     "supplierProductNo": "5039",
-    "name": "앙크최 26FW 미니 원피스 5039",
-    "storeName": "앙크최 26FW 미니 원피스 5039",
-    "productName": "앙크최 26FW 미니 원피스 5039",
+    "name": "핫핑크 셔링 슬릿 미니원피스",
+    "storeName": "핫핑크 셔링 슬릿 미니원피스",
+    "productName": "핫핑크 셔링 슬릿 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핫핑크",
+    "variantColor": "핫핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239568,19 +239640,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5039/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5039/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핫핑크 컬러에 셔링과 슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 강한 컬러감과 바디라인을 살리는 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
+    "description": "핫핑크 컬러에 셔링과 슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 강한 컬러감과 바디라인을 살리는 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239608,7 +239678,9 @@
       "ANC-5039",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 슬릿",
+    "asymmetric": false
   },
   {
     "code": "ANC-5040",
@@ -239619,17 +239691,17 @@
     "folder": "ANC-5040",
     "zipFolder": "ANC-5040",
     "supplierProductNo": "5040",
-    "name": "앙크최 26FW 미니 원피스 5040",
-    "storeName": "앙크최 26FW 미니 원피스 5040",
-    "productName": "앙크최 26FW 미니 원피스 5040",
+    "name": "화이트 리본포인트 미니원피스",
+    "storeName": "화이트 리본포인트 미니원피스",
+    "productName": "화이트 리본포인트 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "화이트",
+    "variantColor": "화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239708,19 +239780,15 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5040/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5040/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 컬러에 리본 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 컬러에 리본 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "리본",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239748,7 +239816,9 @@
       "ANC-5040",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "리본",
+    "asymmetric": false
   },
   {
     "code": "ANC-5041",
@@ -239759,17 +239829,17 @@
     "folder": "ANC-5041",
     "zipFolder": "ANC-5041",
     "supplierProductNo": "5041",
-    "name": "앙크최 26FW 미니 원피스 5041",
-    "storeName": "앙크최 26FW 미니 원피스 5041",
-    "productName": "앙크최 26FW 미니 원피스 5041",
+    "name": "블랙 체인 시스루 레이스 미니원피스",
+    "storeName": "블랙 체인 시스루 레이스 미니원피스",
+    "productName": "블랙 체인 시스루 레이스 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239854,19 +239924,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5041/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5041/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·시스루 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·시스루 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 시스루",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -239894,7 +239962,9 @@
       "ANC-5041",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 시스루",
+    "asymmetric": false
   },
   {
     "code": "ANC-5042",
@@ -239905,17 +239975,17 @@
     "folder": "ANC-5042",
     "zipFolder": "ANC-5042",
     "supplierProductNo": "5042",
-    "name": "앙크최 26FW 미니 원피스 5042",
-    "storeName": "앙크최 26FW 미니 원피스 5042",
-    "productName": "앙크최 26FW 미니 원피스 5042",
+    "name": "옐로우 모노그램 셔링 미니원피스",
+    "storeName": "옐로우 모노그램 셔링 미니원피스",
+    "productName": "옐로우 모노그램 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "옐로우",
+    "variantColor": "옐로우",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -239994,19 +240064,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5042/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5042/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "옐로우 컬러에 셔링·모노그램 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "옐로우 컬러에 셔링·모노그램 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "모노그램"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "모노그램"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 모노그램",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240034,7 +240102,9 @@
       "ANC-5042",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 모노그램",
+    "asymmetric": false
   },
   {
     "code": "ANC-5043",
@@ -240045,17 +240115,17 @@
     "folder": "ANC-5043",
     "zipFolder": "ANC-5043",
     "supplierProductNo": "5043",
-    "name": "앙크최 26FW 미니 원피스 5043",
-    "storeName": "앙크최 26FW 미니 원피스 5043",
-    "productName": "앙크최 26FW 미니 원피스 5043",
+    "name": "블랙 러플 더블버튼 미니원피스",
+    "storeName": "블랙 러플 더블버튼 미니원피스",
+    "productName": "블랙 러플 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240140,19 +240210,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5043/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5043/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 러플·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 러플·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "러플, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240180,7 +240250,9 @@
       "ANC-5043",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "러플, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5044",
@@ -240191,17 +240263,17 @@
     "folder": "ANC-5044",
     "zipFolder": "ANC-5044",
     "supplierProductNo": "5044",
-    "name": "앙크최 26FW 미니 원피스 5044",
-    "storeName": "앙크최 26FW 미니 원피스 5044",
-    "productName": "앙크최 26FW 미니 원피스 5044",
+    "name": "브이넥 핑크 랩 미니원피스",
+    "storeName": "브이넥 핑크 랩 미니원피스",
+    "productName": "브이넥 핑크 랩 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240286,19 +240358,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5044/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5044/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 브이넥·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 브이넥·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "브이넥",
+      "랩"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "브이넥",
+      "랩"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "브이넥, 랩",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240326,7 +240396,9 @@
       "ANC-5044",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "브이넥, 랩",
+    "asymmetric": false
   },
   {
     "code": "ANC-5045",
@@ -240337,17 +240409,17 @@
     "folder": "ANC-5045",
     "zipFolder": "ANC-5045",
     "supplierProductNo": "5045",
-    "name": "앙크최 26FW 미니 원피스 5045",
-    "storeName": "앙크최 26FW 미니 원피스 5045",
-    "productName": "앙크최 26FW 미니 원피스 5045",
+    "name": "블랙 마린 타이 미니원피스",
+    "storeName": "블랙 마린 타이 미니원피스",
+    "productName": "블랙 마린 타이 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240432,19 +240504,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5045/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5045/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 타이·마린 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 타이·마린 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "마린"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "마린"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "타이, 마린",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240472,7 +240542,9 @@
       "ANC-5045",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "타이, 마린",
+    "asymmetric": false
   },
   {
     "code": "ANC-5046",
@@ -240483,17 +240555,17 @@
     "folder": "ANC-5046",
     "zipFolder": "ANC-5046",
     "supplierProductNo": "5046",
-    "name": "앙크최 26FW 미니 원피스 5046",
-    "storeName": "앙크최 26FW 미니 원피스 5046",
-    "productName": "앙크최 26FW 미니 원피스 5046",
+    "name": "핑크 컷아웃넥 미니원피스",
+    "storeName": "핑크 컷아웃넥 미니원피스",
+    "productName": "핑크 컷아웃넥 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240572,19 +240644,15 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5046/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5046/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 컷아웃넥 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 컷아웃넥 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "컷아웃넥"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "컷아웃넥"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "컷아웃넥",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240612,7 +240680,9 @@
       "ANC-5046",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "컷아웃넥",
+    "asymmetric": false
   },
   {
     "code": "ANC-5047",
@@ -240623,17 +240693,17 @@
     "folder": "ANC-5047",
     "zipFolder": "ANC-5047",
     "supplierProductNo": "5047",
-    "name": "앙크최 26FW 미니 원피스 5047",
-    "storeName": "앙크최 26FW 미니 원피스 5047",
-    "productName": "앙크최 26FW 미니 원피스 5047",
+    "name": "네이비 화이트카라 더블버튼 미니원피스",
+    "storeName": "네이비 화이트카라 더블버튼 미니원피스",
+    "productName": "네이비 화이트카라 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "화이트 / 네이비",
+    "variantColor": "화이트 / 네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240724,19 +240794,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5047/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5047/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 네이비 컬러에 카라·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 네이비 컬러에 카라·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240764,7 +240834,9 @@
       "ANC-5047",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5048",
@@ -240775,17 +240847,17 @@
     "folder": "ANC-5048",
     "zipFolder": "ANC-5048",
     "supplierProductNo": "5048",
-    "name": "앙크최 26FW 미니 원피스 5048",
-    "storeName": "앙크최 26FW 미니 원피스 5048",
-    "productName": "앙크최 26FW 미니 원피스 5048",
+    "name": "핑크 화이트배색 더블버튼 미니원피스",
+    "storeName": "핑크 화이트배색 더블버튼 미니원피스",
+    "productName": "핑크 화이트배색 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 핑크",
+    "variantColor": "화이트 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -240858,19 +240930,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5048/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5048/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 핑크 컬러에 더블버튼·버튼·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 핑크 컬러에 더블버튼·버튼·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "더블버튼, 버튼, 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -240898,7 +240970,9 @@
       "ANC-5048",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "더블버튼, 버튼, 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5049",
@@ -240909,17 +240983,17 @@
     "folder": "ANC-5049",
     "zipFolder": "ANC-5049",
     "supplierProductNo": "5049",
-    "name": "앙크최 26FW 미디 원피스 5049",
-    "storeName": "앙크최 26FW 미디 원피스 5049",
-    "productName": "앙크최 26FW 미디 원피스 5049",
+    "name": "네이비 글리터 슬릿 미디원피스",
+    "storeName": "네이비 글리터 슬릿 미디원피스",
+    "productName": "네이비 글리터 슬릿 미디원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "네이비",
+    "variantColor": "네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241004,19 +241078,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5049/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5049/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "네이비 컬러에 슬릿·글리터 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "네이비 컬러에 슬릿·글리터 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "슬릿",
+      "글리터"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "슬릿",
+      "글리터"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "슬릿, 글리터",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241044,7 +241116,9 @@
       "ANC-5049",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "슬릿, 글리터",
+    "asymmetric": false
   },
   {
     "code": "ANC-5050",
@@ -241055,17 +241129,17 @@
     "folder": "ANC-5050",
     "zipFolder": "ANC-5050",
     "supplierProductNo": "5050",
-    "name": "앙크최 26FW 미니 원피스 5050",
-    "storeName": "앙크최 26FW 미니 원피스 5050",
-    "productName": "앙크최 26FW 미니 원피스 5050",
+    "name": "블랙 핑크레이스 더블버튼 미니원피스",
+    "storeName": "블랙 핑크레이스 더블버튼 미니원피스",
+    "productName": "블랙 핑크레이스 더블버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 핑크",
+    "variantColor": "블랙 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241156,19 +241230,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5050/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5050/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 핑크 컬러에 레이스·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 핑크 컬러에 레이스·더블버튼·버튼 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "더블버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "더블버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 더블버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241196,7 +241270,9 @@
       "ANC-5050",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 더블버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5051",
@@ -241207,17 +241283,17 @@
     "folder": "ANC-5051",
     "zipFolder": "ANC-5051",
     "supplierProductNo": "5051",
-    "name": "앙크최 26FW 미니 원피스 5051",
-    "storeName": "앙크최 26FW 미니 원피스 5051",
-    "productName": "앙크최 26FW 미니 원피스 5051",
+    "name": "화이트 레이스 크롭 핑크 러플 원피스",
+    "storeName": "화이트 레이스 크롭 핑크 러플 원피스",
+    "productName": "화이트 레이스 크롭 핑크 러플 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 핑크",
+    "variantColor": "화이트 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241296,19 +241372,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5051/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5051/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 핑크 컬러에 레이스·러플·크롭 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 핑크 컬러에 레이스·러플·크롭 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "크롭"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "크롭"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 러플, 크롭",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241336,7 +241412,9 @@
       "ANC-5051",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 러플, 크롭",
+    "asymmetric": false
   },
   {
     "code": "ANC-5052",
@@ -241347,17 +241425,17 @@
     "folder": "ANC-5052",
     "zipFolder": "ANC-5052",
     "supplierProductNo": "5052",
-    "name": "앙크최 26FW 미니 원피스 5052",
-    "storeName": "앙크최 26FW 미니 원피스 5052",
-    "productName": "앙크최 26FW 미니 원피스 5052",
+    "name": "네이비 리본 튤배색 원피스",
+    "storeName": "네이비 리본 튤배색 원피스",
+    "productName": "네이비 리본 튤배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "네이비",
+    "variantColor": "네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241436,19 +241514,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5052/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5052/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "네이비 컬러에 리본·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "네이비 컬러에 리본·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "튤",
+      "배색",
+      "밑단 튤 포인트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "튤",
+      "배색",
+      "밑단 튤 포인트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "리본, 튤, 배색, 밑단 튤 포인트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241476,7 +241556,9 @@
       "ANC-5052",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "리본, 튤, 배색, 밑단 튤 포인트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5053",
@@ -241487,17 +241569,17 @@
     "folder": "ANC-5053",
     "zipFolder": "ANC-5053",
     "supplierProductNo": "5053",
-    "name": "앙크최 26FW 미디 원피스 5053",
-    "storeName": "앙크최 26FW 미디 원피스 5053",
-    "productName": "앙크최 26FW 미디 원피스 5053",
+    "name": "와인 하트넥 셔링 슬릿 원피스",
+    "storeName": "와인 하트넥 셔링 슬릿 원피스",
+    "productName": "와인 하트넥 셔링 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "와인",
+    "variantColor": "와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241582,19 +241664,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5053/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5053/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "와인 컬러에 하트넥·셔링·슬릿 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "와인 컬러에 하트넥·셔링·슬릿 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "셔링",
+      "슬릿",
+      "사이드 셔링"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "셔링",
+      "슬릿",
+      "사이드 셔링"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "하트넥, 셔링, 슬릿, 사이드 셔링",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241622,7 +241706,9 @@
       "ANC-5053",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 셔링, 슬릿, 사이드 셔링",
+    "asymmetric": false
   },
   {
     "code": "ANC-5054",
@@ -241633,17 +241719,17 @@
     "folder": "ANC-5054",
     "zipFolder": "ANC-5054",
     "supplierProductNo": "5054",
-    "name": "앙크최 26FW 미니 원피스 5054",
-    "storeName": "앙크최 26FW 미니 원피스 5054",
-    "productName": "앙크최 26FW 미니 원피스 5054",
+    "name": "화이트 골드버튼 크롭 블랙 셔링 원피스",
+    "storeName": "화이트 골드버튼 크롭 블랙 셔링 원피스",
+    "productName": "화이트 골드버튼 크롭 블랙 셔링 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 블랙",
+    "variantColor": "화이트 / 블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241722,19 +241808,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5054/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5054/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트와 블랙의 선명한 배색에 골드버튼과 셔링 디테일을 더한 슬림핏 미니원피스입니다. 대비감 있는 컬러와 크롭형 상체 디자인이 무대·방송·파티룩에 잘 어울립니다.",
+    "description": "화이트와 블랙의 선명한 배색에 골드버튼과 셔링 디테일을 더한 슬림핏 미니원피스입니다. 대비감 있는 컬러와 크롭형 상체 디자인이 무대·방송·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "골드버튼",
+      "버튼",
+      "크롭",
+      "미니원피스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "골드버튼",
+      "버튼",
+      "크롭",
+      "미니원피스"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 골드버튼, 버튼, 크롭, 미니원피스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241762,7 +241852,9 @@
       "ANC-5054",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 골드버튼, 버튼, 크롭, 미니원피스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5055",
@@ -241773,17 +241865,17 @@
     "folder": "ANC-5055",
     "zipFolder": "ANC-5055",
     "supplierProductNo": "5055",
-    "name": "앙크최 26FW 미니 원피스 5055",
-    "storeName": "앙크최 26FW 미니 원피스 5055",
-    "productName": "앙크최 26FW 미니 원피스 5055",
+    "name": "블루 스트립 리본 셔링 원피스",
+    "storeName": "블루 스트립 리본 셔링 원피스",
+    "productName": "블루 스트립 리본 셔링 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블루",
+    "variantColor": "블루",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -241862,19 +241954,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5055/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5055/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블루 컬러에 셔링·리본·빅리본 포인트 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블루 컬러에 셔링·리본·빅리본 포인트 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "리본",
+      "빅리본 포인트",
+      "미니원피스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "리본",
+      "빅리본 포인트",
+      "미니원피스"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 리본, 빅리본 포인트, 미니원피스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -241902,7 +241996,9 @@
       "ANC-5055",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 리본, 빅리본 포인트, 미니원피스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5056",
@@ -241913,17 +242009,17 @@
     "folder": "ANC-5056",
     "zipFolder": "ANC-5056",
     "supplierProductNo": "5056",
-    "name": "앙크최 26FW 미니 원피스 5056",
-    "storeName": "앙크최 26FW 미니 원피스 5056",
-    "productName": "앙크최 26FW 미니 원피스 5056",
+    "name": "블랙 레이스소매 골드버튼 원피스",
+    "storeName": "블랙 레이스소매 골드버튼 원피스",
+    "productName": "블랙 레이스소매 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242008,19 +242104,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5056/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5056/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스소매와 골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 시크하면서도 여성스러운 디테일이 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 컬러에 레이스소매와 골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 시크하면서도 여성스러운 디테일이 있어 방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "골드버튼",
+      "버튼",
+      "미니원피스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "골드버튼",
+      "버튼",
+      "미니원피스"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 골드버튼, 버튼, 미니원피스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242048,7 +242146,9 @@
       "ANC-5056",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 골드버튼, 버튼, 미니원피스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5057",
@@ -242059,17 +242159,17 @@
     "folder": "ANC-5057",
     "zipFolder": "ANC-5057",
     "supplierProductNo": "5057",
-    "name": "앙크최 26FW 미니 원피스 5057",
-    "storeName": "앙크최 26FW 미니 원피스 5057",
-    "productName": "앙크최 26FW 미니 원피스 5057",
+    "name": "베이지 트렌치 벨트 원피스",
+    "storeName": "베이지 트렌치 벨트 원피스",
+    "productName": "베이지 트렌치 벨트 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "베이지",
+    "variantColor": "베이지",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242155,19 +242255,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5057/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5057/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "베이지 컬러에 트렌치·벨트·테일러드카라 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "베이지 컬러에 트렌치·벨트·테일러드카라 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트렌치",
+      "벨트",
+      "테일러드카라"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트렌치",
+      "벨트",
+      "테일러드카라"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "트렌치, 벨트, 테일러드카라",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242195,7 +242295,9 @@
       "ANC-5057",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "트렌치, 벨트, 테일러드카라",
+    "asymmetric": false
   },
   {
     "code": "ANC-5058",
@@ -242206,17 +242308,17 @@
     "folder": "ANC-5058",
     "zipFolder": "ANC-5058",
     "supplierProductNo": "5058",
-    "name": "앙크최 26FW 미디 원피스 5058",
-    "storeName": "앙크최 26FW 미디 원피스 5058",
-    "productName": "앙크최 26FW 미디 원피스 5058",
+    "name": "체크 레이스배색 레드 슬릿 미디원피스",
+    "storeName": "체크 레이스배색 레드 슬릿 미디원피스",
+    "productName": "체크 레이스배색 레드 슬릿 미디원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "레드",
+    "variantColor": "레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242295,19 +242397,25 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5058/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5058/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "레드 컬러에 레이스·슬릿·체크 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레드 컬러에 레이스·슬릿·체크 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "슬릿",
+      "체크",
+      "배색",
+      "이번 시즌 투피스 없음",
+      "미디원피스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "슬릿",
+      "체크",
+      "배색",
+      "이번 시즌 투피스 없음",
+      "미디원피스"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "레이스, 슬릿, 체크, 배색, 이번 시즌 투피스 없음, 미디원피스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242335,7 +242443,9 @@
       "ANC-5058",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 슬릿, 체크, 배색, 이번 시즌 투피스 없음, 미디원피스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5059",
@@ -242346,17 +242456,17 @@
     "folder": "ANC-5059",
     "zipFolder": "ANC-5059",
     "supplierProductNo": "5059",
-    "name": "앙크최 26FW 미니 원피스 5059",
-    "storeName": "앙크최 26FW 미니 원피스 5059",
-    "productName": "앙크최 26FW 미니 원피스 5059",
+    "name": "블랙 시스루 하트넥 원피스",
+    "storeName": "블랙 시스루 하트넥 원피스",
+    "productName": "블랙 시스루 하트넥 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
-    "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "length": "미디",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242441,19 +242551,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5059/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5059/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 하트넥·시스루·넥 시스루 배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 하트넥·시스루·넥 시스루 배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "시스루",
+      "넥 시스루 배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "시스루",
+      "넥 시스루 배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "하트넥, 시스루, 넥 시스루 배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242481,7 +242591,9 @@
       "ANC-5059",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 시스루, 넥 시스루 배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5060",
@@ -242492,17 +242604,17 @@
     "folder": "ANC-5060",
     "zipFolder": "ANC-5060",
     "supplierProductNo": "5060",
-    "name": "앙크최 26FW 미니 원피스 5060",
-    "storeName": "앙크최 26FW 미니 원피스 5060",
-    "productName": "앙크최 26FW 미니 원피스 5060",
+    "name": "그린 모노그램 버튼 포켓 원피스",
+    "storeName": "그린 모노그램 버튼 포켓 원피스",
+    "productName": "그린 모노그램 버튼 포켓 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "그린",
+    "variantColor": "그린",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242581,19 +242693,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5060/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5060/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "그린 컬러에 버튼·모노그램·포켓 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "그린 컬러에 버튼·모노그램·포켓 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "모노그램",
+      "포켓"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "모노그램",
+      "포켓"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "버튼, 모노그램, 포켓",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242621,7 +242733,9 @@
       "ANC-5060",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "버튼, 모노그램, 포켓",
+    "asymmetric": false
   },
   {
     "code": "ANC-5061",
@@ -242632,17 +242746,17 @@
     "folder": "ANC-5061",
     "zipFolder": "ANC-5061",
     "supplierProductNo": "5061",
-    "name": "앙크최 26FW 미디 원피스 5061",
-    "storeName": "앙크최 26FW 미디 원피스 5061",
-    "productName": "앙크최 26FW 미디 원피스 5061",
+    "name": "와인 랩 리본 셔링 원피스",
+    "storeName": "와인 랩 리본 셔링 원피스",
+    "productName": "와인 랩 리본 셔링 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
-    "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "와인",
+    "variantColor": "와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242727,19 +242841,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5061/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5061/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "와인 컬러에 셔링·랩·리본 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "와인 컬러에 셔링·랩·리본 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩",
+      "리본",
+      "허리 롱리본"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩",
+      "리본",
+      "허리 롱리본"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "셔링, 랩, 리본, 허리 롱리본",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242767,7 +242883,9 @@
       "ANC-5061",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 랩, 리본, 허리 롱리본",
+    "asymmetric": false
   },
   {
     "code": "ANC-5062",
@@ -242778,17 +242896,17 @@
     "folder": "ANC-5062",
     "zipFolder": "ANC-5062",
     "supplierProductNo": "5062",
-    "name": "앙크최 26FW 미니 원피스 5062",
-    "storeName": "앙크최 26FW 미니 원피스 5062",
-    "productName": "앙크최 26FW 미니 원피스 5062",
+    "name": "핑크 레이스 블랙 러플 원피스",
+    "storeName": "핑크 레이스 블랙 러플 원피스",
+    "productName": "핑크 레이스 블랙 러플 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 핑크",
+    "variantColor": "블랙 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -242873,19 +242991,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5062/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5062/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 핑크 컬러에 레이스·러플·사이드 러플 스커트 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 핑크 컬러에 레이스·러플·사이드 러플 스커트 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "사이드 러플 스커트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "사이드 러플 스커트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 러플, 사이드 러플 스커트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -242913,7 +243031,9 @@
       "ANC-5062",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 러플, 사이드 러플 스커트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5063",
@@ -242924,17 +243044,17 @@
     "folder": "ANC-5063",
     "zipFolder": "ANC-5063",
     "supplierProductNo": "5063",
-    "name": "앙크최 26FW 미니 원피스 5063",
-    "storeName": "앙크최 26FW 미니 원피스 5063",
-    "productName": "앙크최 26FW 미니 원피스 5063",
+    "name": "블랙 화이트카라 골드버튼 미니원피스",
+    "storeName": "블랙 화이트카라 골드버튼 미니원피스",
+    "productName": "블랙 화이트카라 골드버튼 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243019,19 +243139,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5063/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5063/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 바디에 화이트카라와 골드버튼 포인트를 더한 A라인 미니원피스입니다. 선명한 배색과 클래식한 버튼 디테일이 무대·방송·행사룩에 잘 어울립니다.",
+    "description": "블랙 바디에 화이트카라와 골드버튼 포인트를 더한 A라인 미니원피스입니다. 선명한 배색과 클래식한 버튼 디테일이 무대·방송·행사룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "프릴카라 포인트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "프릴카라 포인트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 골드버튼, 버튼, 프릴카라 포인트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243059,7 +243181,9 @@
       "ANC-5063",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 골드버튼, 버튼, 프릴카라 포인트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5064",
@@ -243070,17 +243194,17 @@
     "folder": "ANC-5064",
     "zipFolder": "ANC-5064",
     "supplierProductNo": "5064",
-    "name": "앙크최 26FW 미니 원피스 5064",
-    "storeName": "앙크최 26FW 미니 원피스 5064",
-    "productName": "앙크최 26FW 미니 원피스 5064",
+    "name": "레드 마린 타이 미니원피스",
+    "storeName": "레드 마린 타이 미니원피스",
+    "productName": "레드 마린 타이 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "레드",
+    "variantColor": "레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243171,19 +243295,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5064/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5064/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레드 컬러에 타이·마린·스트라이프 타이 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레드 컬러에 타이·마린·스트라이프 타이 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "마린",
+      "스트라이프 타이"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "마린",
+      "스트라이프 타이"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "타이, 마린, 스트라이프 타이",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243211,7 +243335,9 @@
       "ANC-5064",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "타이, 마린, 스트라이프 타이",
+    "asymmetric": false
   },
   {
     "code": "ANC-5065",
@@ -243222,17 +243348,17 @@
     "folder": "ANC-5065",
     "zipFolder": "ANC-5065",
     "supplierProductNo": "5065",
-    "name": "앙크최 26FW 미디 원피스 5065",
-    "storeName": "앙크최 26FW 미디 원피스 5065",
-    "productName": "앙크최 26FW 미디 원피스 5065",
+    "name": "블랙 시스루 레이스 랩 언발 원피스",
+    "storeName": "블랙 시스루 레이스 랩 언발 원피스",
+    "productName": "블랙 시스루 레이스 랩 언발 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243311,19 +243437,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5065/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5065/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·시스루·랩 디테일이 돋보이는 슬림핏 미디 원피스입니다. 사선으로 떨어지는 언발 밑단과 디테일이 움직임을 살려 더욱 세련된 실루엣을 연출합니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·시스루·랩 디테일이 돋보이는 슬림핏 미디 원피스입니다. 사선으로 떨어지는 언발 밑단과 디테일이 움직임을 살려 더욱 세련된 실루엣을 연출합니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루",
+      "랩",
+      "언발 O"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "시스루",
+      "랩",
+      "언발 O"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "레이스, 시스루, 랩, 언발 O",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243351,7 +243479,9 @@
       "ANC-5065",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 시스루, 랩, 언발 O",
+    "asymmetric": true
   },
   {
     "code": "ANC-5066",
@@ -243362,17 +243492,17 @@
     "folder": "ANC-5066",
     "zipFolder": "ANC-5066",
     "supplierProductNo": "5066",
-    "name": "앙크최 26FW 미니 원피스 5066",
-    "storeName": "앙크최 26FW 미니 원피스 5066",
-    "productName": "앙크최 26FW 미니 원피스 5066",
+    "name": "그린 랩 러플 미니원피스",
+    "storeName": "그린 랩 러플 미니원피스",
+    "productName": "그린 랩 러플 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "그린",
+    "variantColor": "그린",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243457,19 +243587,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5066/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5066/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "그린 컬러에 러플·랩·사이드 러플 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "그린 컬러에 러플·랩·사이드 러플 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "랩",
+      "사이드 러플"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "랩",
+      "사이드 러플"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "러플, 랩, 사이드 러플",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243497,7 +243627,9 @@
       "ANC-5066",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "러플, 랩, 사이드 러플",
+    "asymmetric": false
   },
   {
     "code": "ANC-5067",
@@ -243508,17 +243640,17 @@
     "folder": "ANC-5067",
     "zipFolder": "ANC-5067",
     "supplierProductNo": "5067",
-    "name": "앙크최 26FW 미니 원피스 5067",
-    "storeName": "앙크최 26FW 미니 원피스 5067",
-    "productName": "앙크최 26FW 미니 원피스 5067",
+    "name": "블랙 체크 레이스배색 미니원피스",
+    "storeName": "블랙 체크 레이스배색 미니원피스",
+    "productName": "블랙 체크 레이스배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243615,19 +243747,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5067/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5067/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "밑단 튤"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "밑단 튤"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 체크, 배색, 밑단 튤",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243655,7 +243789,9 @@
       "ANC-5067",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 체크, 배색, 밑단 튤",
+    "asymmetric": false
   },
   {
     "code": "ANC-5068",
@@ -243666,17 +243802,17 @@
     "folder": "ANC-5068",
     "zipFolder": "ANC-5068",
     "supplierProductNo": "5068",
-    "name": "앙크최 26FW 미디 원피스 5068",
-    "storeName": "앙크최 26FW 미디 원피스 5068",
-    "productName": "앙크최 26FW 미디 원피스 5068",
+    "name": "머스타드 시스루 하트넥 미디원피스",
+    "storeName": "머스타드 시스루 하트넥 미디원피스",
+    "productName": "머스타드 시스루 하트넥 미디원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "머스타드",
+    "variantColor": "머스타드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243767,19 +243903,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5068/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5068/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "머스타드 컬러에 하트넥·시스루·블랙 시스루 넥 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "머스타드 컬러에 하트넥·시스루·블랙 시스루 넥 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "시스루",
+      "블랙 시스루 넥"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "시스루",
+      "블랙 시스루 넥"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "하트넥, 시스루, 블랙 시스루 넥",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243807,7 +243943,9 @@
       "ANC-5068",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 시스루, 블랙 시스루 넥",
+    "asymmetric": false
   },
   {
     "code": "ANC-5069",
@@ -243818,17 +243956,17 @@
     "folder": "ANC-5069",
     "zipFolder": "ANC-5069",
     "supplierProductNo": "5069",
-    "name": "앙크최 26FW 미니 원피스 5069",
-    "storeName": "앙크최 26FW 미니 원피스 5069",
-    "productName": "앙크최 26FW 미니 원피스 5069",
+    "name": "레드 체크 V넥 카라 원피스",
+    "storeName": "레드 체크 V넥 카라 원피스",
+    "productName": "레드 체크 V넥 카라 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "레드",
+    "variantColor": "레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -243907,19 +244045,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5069/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5069/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레드 컬러에 V넥·카라·체크 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레드 컬러에 V넥·카라·체크 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "카라",
+      "체크",
+      "크롭 상의+네이비 스커트",
+      "미니원피스"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "카라",
+      "체크",
+      "크롭 상의+네이비 스커트",
+      "미니원피스"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "V넥, 카라, 체크, 크롭 상의+네이비 스커트, 미니원피스",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -243947,7 +244089,9 @@
       "ANC-5069",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "V넥, 카라, 체크, 크롭 상의+네이비 스커트, 미니원피스",
+    "asymmetric": false
   },
   {
     "code": "ANC-5070",
@@ -243958,17 +244102,17 @@
     "folder": "ANC-5070",
     "zipFolder": "ANC-5070",
     "supplierProductNo": "5070",
-    "name": "앙크최 26FW 미니 원피스 5070",
-    "storeName": "앙크최 26FW 미니 원피스 5070",
-    "productName": "앙크최 26FW 미니 원피스 5070",
+    "name": "블랙 핑크레이스 배색 미니원피스",
+    "storeName": "블랙 핑크레이스 배색 미니원피스",
+    "productName": "블랙 핑크레이스 배색 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 핑크",
+    "variantColor": "블랙 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244053,19 +244197,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5070/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5070/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 핑크 컬러에 레이스·배색·핑크 레이스소매 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 핑크 컬러에 레이스·배색·핑크 레이스소매 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색",
+      "핑크 레이스소매"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색",
+      "핑크 레이스소매"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 배색, 핑크 레이스소매",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244093,7 +244237,9 @@
       "ANC-5070",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 배색, 핑크 레이스소매",
+    "asymmetric": false
   },
   {
     "code": "ANC-5071",
@@ -244104,17 +244250,17 @@
     "folder": "ANC-5071",
     "zipFolder": "ANC-5071",
     "supplierProductNo": "5071",
-    "name": "앙크최 26FW 미디 원피스 5071",
-    "storeName": "앙크최 26FW 미디 원피스 5071",
-    "productName": "앙크최 26FW 미디 원피스 5071",
+    "name": "V넥 연핑크 랩 벨트 원피스",
+    "storeName": "V넥 연핑크 랩 벨트 원피스",
+    "productName": "V넥 연핑크 랩 벨트 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "연핑크",
+    "variantColor": "연핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244193,19 +244339,25 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5071/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5071/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "연핑크 컬러에 V넥·랩·벨트 디테일이 돋보이는 슬림핏 미디원피스입니다. 언발런스 스커트와 슬릿이 움직임을 살려 세련된 무대·방송·파티룩을 연출합니다.",
+    "description": "연핑크 컬러에 V넥·랩·벨트 디테일이 돋보이는 슬림핏 미디원피스입니다. 언발런스 스커트와 슬릿이 움직임을 살려 세련된 무대·방송·파티룩을 연출합니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "랩",
+      "벨트",
+      "랩라인",
+      "허리 벨트",
+      "슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "V넥",
+      "랩",
+      "벨트",
+      "랩라인",
+      "허리 벨트",
+      "슬릿"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "V넥, 랩, 벨트, 랩라인, 허리 벨트, 슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244233,7 +244385,9 @@
       "ANC-5071",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "V넥, 랩, 벨트, 랩라인, 허리 벨트, 슬릿",
+    "asymmetric": true
   },
   {
     "code": "ANC-5072",
@@ -244244,17 +244398,17 @@
     "folder": "ANC-5072",
     "zipFolder": "ANC-5072",
     "supplierProductNo": "5072",
-    "name": "앙크최 26FW 미니 원피스 5072",
-    "storeName": "앙크최 26FW 미니 원피스 5072",
-    "productName": "앙크최 26FW 미니 원피스 5072",
+    "name": "블랙 화이트배색 카라 버튼 원피스",
+    "storeName": "블랙 화이트배색 카라 버튼 원피스",
+    "productName": "블랙 화이트배색 카라 버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244339,19 +244493,25 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5072/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5072/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 화이트 컬러에 카라·버튼·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 화이트 컬러에 카라·버튼·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "버튼",
+      "배색",
+      "화이트 상의배색",
+      "골드버튼",
+      "밑단 튤"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "버튼",
+      "배색",
+      "화이트 상의배색",
+      "골드버튼",
+      "밑단 튤"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 버튼, 배색, 화이트 상의배색, 골드버튼, 밑단 튤",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244379,7 +244539,9 @@
       "ANC-5072",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 버튼, 배색, 화이트 상의배색, 골드버튼, 밑단 튤",
+    "asymmetric": false
   },
   {
     "code": "ANC-5073",
@@ -244390,17 +244552,17 @@
     "folder": "ANC-5073",
     "zipFolder": "ANC-5073",
     "supplierProductNo": "5073",
-    "name": "앙크최 26FW 미디 원피스 5073",
-    "storeName": "앙크최 26FW 미디 원피스 5073",
-    "productName": "앙크최 26FW 미디 원피스 5073",
+    "name": "딥그린 하트넥 셔링 슬릿 원피스",
+    "storeName": "딥그린 하트넥 셔링 슬릿 원피스",
+    "productName": "딥그린 하트넥 셔링 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
-    "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "length": "미니",
+    "fit": "슬림핏",
+    "color": "딥그린",
+    "variantColor": "딥그린",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244479,19 +244641,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5073/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5073/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "딥그린 컬러에 하트넥과 셔링·슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 선명한 컬러와 바디라인을 살리는 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
+    "description": "딥그린 컬러에 하트넥과 셔링·슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 선명한 컬러와 바디라인을 살리는 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "셔링",
+      "슬릿",
+      "사이드 셔링"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "셔링",
+      "슬릿",
+      "사이드 셔링"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "하트넥, 셔링, 슬릿, 사이드 셔링",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244519,7 +244683,9 @@
       "ANC-5073",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 셔링, 슬릿, 사이드 셔링",
+    "asymmetric": false
   },
   {
     "code": "ANC-5074",
@@ -244530,17 +244696,17 @@
     "folder": "ANC-5074",
     "zipFolder": "ANC-5074",
     "supplierProductNo": "5074",
-    "name": "앙크최 26FW 미니 원피스 5074",
-    "storeName": "앙크최 26FW 미니 원피스 5074",
-    "productName": "앙크최 26FW 미니 원피스 5074",
+    "name": "라벤더 화이트레이스 배색 버튼 원피스",
+    "storeName": "라벤더 화이트레이스 배색 버튼 원피스",
+    "productName": "라벤더 화이트레이스 배색 버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 라벤더",
+    "variantColor": "화이트 / 라벤더",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244619,19 +244785,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5074/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5074/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 라벤더 컬러에 레이스·버튼·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 라벤더 컬러에 레이스·버튼·배색 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "버튼",
+      "배색",
+      "레이스 상의배색",
+      "더블버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "버튼",
+      "배색",
+      "레이스 상의배색",
+      "더블버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 버튼, 배색, 레이스 상의배색, 더블버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244659,7 +244829,9 @@
       "ANC-5074",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 버튼, 배색, 레이스 상의배색, 더블버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5075",
@@ -244670,17 +244842,17 @@
     "folder": "ANC-5075",
     "zipFolder": "ANC-5075",
     "supplierProductNo": "5075",
-    "name": "앙크최 26FW 미니 원피스 5075",
-    "storeName": "앙크최 26FW 미니 원피스 5075",
-    "productName": "앙크최 26FW 미니 원피스 5075",
+    "name": "네이비 체크 골드버튼 원피스",
+    "storeName": "네이비 체크 골드버튼 원피스",
+    "productName": "네이비 체크 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "네이비",
+    "variantColor": "네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244765,19 +244937,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5075/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5075/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "네이비 체크 배색과 골드버튼 포인트가 돋보이는 A라인 미니원피스입니다. 클래식한 체크와 버튼 디테일이 어우러져 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "네이비 체크 배색과 골드버튼 포인트가 돋보이는 A라인 미니원피스입니다. 클래식한 체크와 버튼 디테일이 어우러져 방송·행사·파티룩으로 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "체크",
+      "체크 상의배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "체크",
+      "체크 상의배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "골드버튼, 버튼, 체크, 체크 상의배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244805,7 +244979,9 @@
       "ANC-5075",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "골드버튼, 버튼, 체크, 체크 상의배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5076",
@@ -244816,17 +244992,17 @@
     "folder": "ANC-5076",
     "zipFolder": "ANC-5076",
     "supplierProductNo": "5076",
-    "name": "앙크최 26FW 미니 원피스 5076",
-    "storeName": "앙크최 26FW 미니 원피스 5076",
-    "productName": "앙크최 26FW 미니 원피스 5076",
+    "name": "연핑크 골드버튼 원피스",
+    "storeName": "연핑크 골드버튼 원피스",
+    "productName": "연핑크 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "연핑크",
+    "variantColor": "연핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -244905,19 +245081,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5076/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5076/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "연핑크 컬러에 세로 골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 깔끔하게 떨어지는 실루엣과 버튼 디테일이 무대·방송·행사룩에 잘 어울립니다.",
+    "description": "연핑크 컬러에 세로 골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 깔끔하게 떨어지는 실루엣과 버튼 디테일이 무대·방송·행사룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "세로 골드버튼 포인트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "골드버튼",
+      "버튼",
+      "세로 골드버튼 포인트"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "골드버튼, 버튼, 세로 골드버튼 포인트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -244945,7 +245121,9 @@
       "ANC-5076",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "골드버튼, 버튼, 세로 골드버튼 포인트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5077",
@@ -244956,17 +245134,17 @@
     "folder": "ANC-5077",
     "zipFolder": "ANC-5077",
     "supplierProductNo": "5077",
-    "name": "앙크최 26FW 미니 원피스 5077",
-    "storeName": "앙크최 26FW 미니 원피스 5077",
-    "productName": "앙크최 26FW 미니 원피스 5077",
+    "name": "블랙 스트라이프 스퀘어넥 더블 버튼 원피스",
+    "storeName": "블랙 스트라이프 스퀘어넥 더블 버튼 원피스",
+    "productName": "블랙 스트라이프 스퀘어넥 더블 버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245045,19 +245223,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5077/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5077/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 스퀘어넥·버튼·스트라이프 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 스퀘어넥·버튼·스트라이프 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "버튼",
+      "스트라이프",
+      "골드버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "버튼",
+      "스트라이프",
+      "골드버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "스퀘어넥, 버튼, 스트라이프, 골드버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245085,7 +245265,9 @@
       "ANC-5077",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "스퀘어넥, 버튼, 스트라이프, 골드버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5078",
@@ -245096,17 +245278,17 @@
     "folder": "ANC-5078",
     "zipFolder": "ANC-5078",
     "supplierProductNo": "5078",
-    "name": "앙크최 26FW 미니 원피스 5078",
-    "storeName": "앙크최 26FW 미니 원피스 5078",
-    "productName": "앙크최 26FW 미니 원피스 5078",
+    "name": "블랙 더블버튼 튤배색 원피스",
+    "storeName": "블랙 더블버튼 튤배색 원피스",
+    "productName": "블랙 더블버튼 튤배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245191,19 +245373,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5078/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5078/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 더블버튼·버튼·튤 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 더블버튼·버튼·튤 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "튤",
+      "배색",
+      "밑단 튤"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "튤",
+      "배색",
+      "밑단 튤"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "더블버튼, 버튼, 튤, 배색, 밑단 튤",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245231,7 +245417,9 @@
       "ANC-5078",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "더블버튼, 버튼, 튤, 배색, 밑단 튤",
+    "asymmetric": false
   },
   {
     "code": "ANC-5079",
@@ -245242,17 +245430,17 @@
     "folder": "ANC-5079",
     "zipFolder": "ANC-5079",
     "supplierProductNo": "5079",
-    "name": "앙크최 26FW 미니 원피스 5079",
-    "storeName": "앙크최 26FW 미니 원피스 5079",
-    "productName": "앙크최 26FW 미니 원피스 5079",
+    "name": "핑크 랩 러플 셔링 원피스",
+    "storeName": "핑크 랩 러플 셔링 원피스",
+    "productName": "핑크 랩 러플 셔링 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245337,19 +245525,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5079/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5079/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 러플·셔링·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 러플·셔링·랩 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "셔링",
+      "랩",
+      "사이드 러플"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "러플",
+      "셔링",
+      "랩",
+      "사이드 러플"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "러플, 셔링, 랩, 사이드 러플",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245377,7 +245567,9 @@
       "ANC-5079",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "러플, 셔링, 랩, 사이드 러플",
+    "asymmetric": false
   },
   {
     "code": "ANC-5080",
@@ -245388,17 +245580,17 @@
     "folder": "ANC-5080",
     "zipFolder": "ANC-5080",
     "supplierProductNo": "5080",
-    "name": "앙크최 26FW 미니 원피스 5080",
-    "storeName": "앙크최 26FW 미니 원피스 5080",
-    "productName": "앙크최 26FW 미니 원피스 5080",
+    "name": "블랙 레이스 와인 러플 원피스",
+    "storeName": "블랙 레이스 와인 러플 원피스",
+    "productName": "블랙 레이스 와인 러플 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 와인",
+    "variantColor": "블랙 / 와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245483,19 +245675,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5080/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5080/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 와인 컬러에 레이스·러플·레이스 상의 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 와인 컬러에 레이스·러플·레이스 상의 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "레이스 상의",
+      "사이드 러플"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "러플",
+      "레이스 상의",
+      "사이드 러플"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 러플, 레이스 상의, 사이드 러플",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245523,7 +245717,9 @@
       "ANC-5080",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 러플, 레이스 상의, 사이드 러플",
+    "asymmetric": false
   },
   {
     "code": "ANC-5081",
@@ -245534,17 +245730,17 @@
     "folder": "ANC-5081",
     "zipFolder": "ANC-5081",
     "supplierProductNo": "5081",
-    "name": "앙크최 26FW 미디 원피스 5081",
-    "storeName": "앙크최 26FW 미디 원피스 5081",
-    "productName": "앙크최 26FW 미디 원피스 5081",
+    "name": "옐로우 체크 와인 슬릿 원피스",
+    "storeName": "옐로우 체크 와인 슬릿 원피스",
+    "productName": "옐로우 체크 와인 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "옐로우 / 와인",
+    "variantColor": "옐로우 / 와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245641,19 +245837,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5081/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5081/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "옐로우 / 와인 컬러에 슬릿·체크·체크 상의배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "옐로우 / 와인 컬러에 슬릿·체크·체크 상의배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "슬릿",
+      "체크",
+      "체크 상의배색",
+      "와인 스커트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "슬릿",
+      "체크",
+      "체크 상의배색",
+      "와인 스커트"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "슬릿, 체크, 체크 상의배색, 와인 스커트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245681,7 +245879,9 @@
       "ANC-5081",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "슬릿, 체크, 체크 상의배색, 와인 스커트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5082",
@@ -245692,17 +245892,17 @@
     "folder": "ANC-5082",
     "zipFolder": "ANC-5082",
     "supplierProductNo": "5082",
-    "name": "앙크최 26FW 미니 원피스 5082",
-    "storeName": "앙크최 26FW 미니 원피스 5082",
-    "productName": "앙크최 26FW 미니 원피스 5082",
+    "name": "블랙 트렌치 벨트 미니원피스",
+    "storeName": "블랙 트렌치 벨트 미니원피스",
+    "productName": "블랙 트렌치 벨트 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245781,19 +245981,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5082/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5082/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 트렌치·벨트·테일러드카라 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 트렌치·벨트·테일러드카라 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트렌치",
+      "벨트",
+      "테일러드카라"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "트렌치",
+      "벨트",
+      "테일러드카라"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "트렌치, 벨트, 테일러드카라",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245821,7 +246021,9 @@
       "ANC-5082",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "트렌치, 벨트, 테일러드카라",
+    "asymmetric": false
   },
   {
     "code": "ANC-5083",
@@ -245832,17 +246034,17 @@
     "folder": "ANC-5083",
     "zipFolder": "ANC-5083",
     "supplierProductNo": "5083",
-    "name": "앙크최 26FW 미니 원피스 5083",
-    "storeName": "앙크최 26FW 미니 원피스 5083",
-    "productName": "앙크최 26FW 미니 원피스 5083",
+    "name": "아이보리 타이 더블버튼 원피스",
+    "storeName": "아이보리 타이 더블버튼 원피스",
+    "productName": "아이보리 타이 더블버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "아이보리",
+    "variantColor": "아이보리",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -245921,19 +246123,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5083/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5083/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "아이보리 컬러에 타이·더블버튼·버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "아이보리 컬러에 타이·더블버튼·버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "더블버튼",
+      "버튼",
+      "타이넥"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "타이",
+      "더블버튼",
+      "버튼",
+      "타이넥"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "타이, 더블버튼, 버튼, 타이넥",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -245961,7 +246165,9 @@
       "ANC-5083",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "타이, 더블버튼, 버튼, 타이넥",
+    "asymmetric": false
   },
   {
     "code": "ANC-5084",
@@ -245972,17 +246178,17 @@
     "folder": "ANC-5084",
     "zipFolder": "ANC-5084",
     "supplierProductNo": "5084",
-    "name": "앙크최 26FW 미니 원피스 5084",
-    "storeName": "앙크최 26FW 미니 원피스 5084",
-    "productName": "앙크최 26FW 미니 원피스 5084",
+    "name": "블랙 화이트카라 골드버튼 원피스",
+    "storeName": "블랙 화이트카라 골드버튼 원피스",
+    "productName": "블랙 화이트카라 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246061,19 +246267,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5084/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5084/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 바디에 화이트카라와 골드버튼 포인트를 더한 A라인 미니원피스입니다. 선명한 배색과 클래식한 디테일로 무대·방송·행사·파티룩에 활용하기 좋습니다.",
+    "description": "블랙 바디에 화이트카라와 골드버튼 포인트를 더한 A라인 미니원피스입니다. 선명한 배색과 클래식한 디테일로 무대·방송·행사·파티룩에 활용하기 좋습니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "화이트카라"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "화이트카라"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 골드버튼, 버튼, 화이트카라",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246101,7 +246309,9 @@
       "ANC-5084",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 골드버튼, 버튼, 화이트카라",
+    "asymmetric": false
   },
   {
     "code": "ANC-5085",
@@ -246112,17 +246322,17 @@
     "folder": "ANC-5085",
     "zipFolder": "ANC-5085",
     "supplierProductNo": "5085",
-    "name": "앙크최 26FW 미니 원피스 5085",
-    "storeName": "앙크최 26FW 미니 원피스 5085",
-    "productName": "앙크최 26FW 미니 원피스 5085",
+    "name": "화이트 블랙레이스 배색 원피스",
+    "storeName": "화이트 블랙레이스 배색 원피스",
+    "productName": "화이트 블랙레이스 배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙 / 화이트",
+    "variantColor": "블랙 / 화이트",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246201,19 +246411,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5085/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5085/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 화이트 컬러에 레이스·배색·V넥 블랙 레이스배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 화이트 컬러에 레이스·배색·V넥 블랙 레이스배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색",
+      "V넥 블랙 레이스배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "배색",
+      "V넥 블랙 레이스배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 배색, V넥 블랙 레이스배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246241,7 +246451,9 @@
       "ANC-5085",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 배색, V넥 블랙 레이스배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5086",
@@ -246252,17 +246464,17 @@
     "folder": "ANC-5086",
     "zipFolder": "ANC-5086",
     "supplierProductNo": "5086",
-    "name": "앙크최 26FW 미디 원피스 5086",
-    "storeName": "앙크최 26FW 미디 원피스 5086",
-    "productName": "앙크최 26FW 미디 원피스 5086",
+    "name": "그린 체크 블랙레이스 배색 원피스",
+    "storeName": "그린 체크 블랙레이스 배색 원피스",
+    "productName": "그린 체크 블랙레이스 배색 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 그린",
+    "variantColor": "블랙 / 그린",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246341,19 +246553,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5086/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5086/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "블랙 / 그린 컬러에 레이스·체크·배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 그린 컬러에 레이스·체크·배색 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "레이스소매",
+      "벨트 포인트"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "레이스소매",
+      "벨트 포인트"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "레이스, 체크, 배색, 레이스소매, 벨트 포인트",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246381,7 +246597,9 @@
       "ANC-5086",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 체크, 배색, 레이스소매, 벨트 포인트",
+    "asymmetric": false
   },
   {
     "code": "ANC-5087",
@@ -246392,17 +246610,17 @@
     "folder": "ANC-5087",
     "zipFolder": "ANC-5087",
     "supplierProductNo": "5087",
-    "name": "앙크최 26FW 미니 원피스 5087",
-    "storeName": "앙크최 26FW 미니 원피스 5087",
-    "productName": "앙크최 26FW 미니 원피스 5087",
+    "name": "핑크 화이트배색 더블버튼 원피스",
+    "storeName": "핑크 화이트배색 더블버튼 원피스",
+    "productName": "핑크 화이트배색 더블버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "화이트 / 핑크",
+    "variantColor": "화이트 / 핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246481,19 +246699,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5087/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5087/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 핑크 컬러에 더블버튼·버튼·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 핑크 컬러에 더블버튼·버튼·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "배색",
+      "화이트 상의배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "더블버튼",
+      "버튼",
+      "배색",
+      "화이트 상의배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "더블버튼, 버튼, 배색, 화이트 상의배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246521,7 +246741,9 @@
       "ANC-5087",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "더블버튼, 버튼, 배색, 화이트 상의배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5088",
@@ -246532,17 +246754,17 @@
     "folder": "ANC-5088",
     "zipFolder": "ANC-5088",
     "supplierProductNo": "5088",
-    "name": "앙크최 26FW 미니 원피스 5088",
-    "storeName": "앙크최 26FW 미니 원피스 5088",
-    "productName": "앙크최 26FW 미니 원피스 5088",
+    "name": "블랙 오프숄더 레이스 골드버튼 원피스",
+    "storeName": "블랙 오프숄더 레이스 골드버튼 원피스",
+    "productName": "블랙 오프숄더 레이스 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246621,19 +246843,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5088/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5088/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 오프숄더·레이스·골드버튼 디테일이 돋보이는 슬림핏 미니원피스입니다. 화려하면서도 시크한 무드로 무대·방송·파티룩에 잘 어울립니다.",
+    "description": "블랙 컬러에 오프숄더·레이스·골드버튼 디테일이 돋보이는 슬림핏 미니원피스입니다. 화려하면서도 시크한 무드로 무대·방송·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "오프숄더",
+      "레이스",
+      "골드버튼",
+      "버튼"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "오프숄더",
+      "레이스",
+      "골드버튼",
+      "버튼"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "오프숄더, 레이스, 골드버튼, 버튼",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246661,7 +246885,9 @@
       "ANC-5088",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "오프숄더, 레이스, 골드버튼, 버튼",
+    "asymmetric": false
   },
   {
     "code": "ANC-5089",
@@ -246672,17 +246898,17 @@
     "folder": "ANC-5089",
     "zipFolder": "ANC-5089",
     "supplierProductNo": "5089",
-    "name": "앙크최 26FW 미니 원피스 5089",
-    "storeName": "앙크최 26FW 미니 원피스 5089",
-    "productName": "앙크최 26FW 미니 원피스 5089",
+    "name": "그레이 화이트프릴 리본 버튼 원피스",
+    "storeName": "그레이 화이트프릴 리본 버튼 원피스",
+    "productName": "그레이 화이트프릴 리본 버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "화이트 / 그레이",
+    "variantColor": "화이트 / 그레이",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246761,19 +246987,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5089/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5089/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "화이트 / 그레이 컬러에 프릴·리본·버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "화이트 / 그레이 컬러에 프릴·리본·버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "리본",
+      "버튼",
+      "프릴카라"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "프릴",
+      "리본",
+      "버튼",
+      "프릴카라"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "프릴, 리본, 버튼, 프릴카라",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246801,7 +247029,9 @@
       "ANC-5089",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "프릴, 리본, 버튼, 프릴카라",
+    "asymmetric": false
   },
   {
     "code": "ANC-5090",
@@ -246812,17 +247042,17 @@
     "folder": "ANC-5090",
     "zipFolder": "ANC-5090",
     "supplierProductNo": "5090",
-    "name": "앙크최 26FW 미니 원피스 5090",
-    "storeName": "앙크최 26FW 미니 원피스 5090",
-    "productName": "앙크최 26FW 미니 원피스 5090",
+    "name": "레드 레이스 튤배색 원피스",
+    "storeName": "레드 레이스 튤배색 원피스",
+    "productName": "레드 레이스 튤배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "레드",
+    "variantColor": "레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -246908,19 +247138,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5090/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5090/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "레드 컬러에 레이스·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "레드 컬러에 레이스·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "튤",
+      "배색",
+      "올레이스",
+      "밑단 튤"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "튤",
+      "배색",
+      "올레이스",
+      "밑단 튤"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 튤, 배색, 올레이스, 밑단 튤",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -246948,7 +247182,9 @@
       "ANC-5090",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 튤, 배색, 올레이스, 밑단 튤",
+    "asymmetric": false
   },
   {
     "code": "ANC-5091",
@@ -246959,17 +247195,17 @@
     "folder": "ANC-5091",
     "zipFolder": "ANC-5091",
     "supplierProductNo": "5091",
-    "name": "앙크최 26FW 미니 원피스 5091",
-    "storeName": "앙크최 26FW 미니 원피스 5091",
-    "productName": "앙크최 26FW 미니 원피스 5091",
+    "name": "블랙 레드패턴 하트넥 원피스",
+    "storeName": "블랙 레드패턴 하트넥 원피스",
+    "productName": "블랙 레드패턴 하트넥 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙 / 레드",
+    "variantColor": "블랙 / 레드",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247048,19 +247284,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5091/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5091/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 / 레드 컬러에 하트넥·레드 도트/하트 패턴 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 / 레드 컬러에 하트넥·레드 도트/하트 패턴 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "레드 도트/하트 패턴"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "레드 도트/하트 패턴"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "하트넥, 레드 도트/하트 패턴",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247088,7 +247322,9 @@
       "ANC-5091",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 레드 도트/하트 패턴",
+    "asymmetric": false
   },
   {
     "code": "ANC-5092",
@@ -247099,17 +247335,17 @@
     "folder": "ANC-5092",
     "zipFolder": "ANC-5092",
     "supplierProductNo": "5092",
-    "name": "앙크최 26FW 미디 원피스 5092",
-    "storeName": "앙크최 26FW 미디 원피스 5092",
-    "productName": "앙크최 26FW 미디 원피스 5092",
+    "name": "블랙 체인넥 슬릿 원피스",
+    "storeName": "블랙 체인넥 슬릿 원피스",
+    "productName": "블랙 체인넥 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247188,19 +247424,17 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5092/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5092/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "블랙 컬러에 체인넥·슬릿 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 체인넥·슬릿 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "체인넥",
+      "슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "체인넥",
+      "슬릿"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "체인넥, 슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247228,7 +247462,9 @@
       "ANC-5092",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "체인넥, 슬릿",
+    "asymmetric": false
   },
   {
     "code": "ANC-5093",
@@ -247239,17 +247475,17 @@
     "folder": "ANC-5093",
     "zipFolder": "ANC-5093",
     "supplierProductNo": "5093",
-    "name": "앙크최 26FW 미니 원피스 5093",
-    "storeName": "앙크최 26FW 미니 원피스 5093",
-    "productName": "앙크최 26FW 미니 원피스 5093",
+    "name": "그린 체크 카라 골드버튼 원피스",
+    "storeName": "그린 체크 카라 골드버튼 원피스",
+    "productName": "그린 체크 카라 골드버튼 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "그린",
+    "variantColor": "그린",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247328,19 +247564,25 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5093/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5093/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "그린 컬러에 체크 상의배색과 카라·골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 클래식한 체크와 선명한 컬러감이 방송·행사·파티룩에 잘 어울립니다.",
+    "description": "그린 컬러에 체크 상의배색과 카라·골드버튼 포인트를 더한 슬림핏 미니원피스입니다. 클래식한 체크와 선명한 컬러감이 방송·행사·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "체크",
+      "체크 상의배색",
+      "그린 하의"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "카라",
+      "골드버튼",
+      "버튼",
+      "체크",
+      "체크 상의배색",
+      "그린 하의"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "카라, 골드버튼, 버튼, 체크, 체크 상의배색, 그린 하의",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247368,7 +247610,9 @@
       "ANC-5093",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "카라, 골드버튼, 버튼, 체크, 체크 상의배색, 그린 하의",
+    "asymmetric": false
   },
   {
     "code": "ANC-5094",
@@ -247379,17 +247623,17 @@
     "folder": "ANC-5094",
     "zipFolder": "ANC-5094",
     "supplierProductNo": "5094",
-    "name": "앙크최 26FW 미디 원피스 5094",
-    "storeName": "앙크최 26FW 미디 원피스 5094",
-    "productName": "앙크최 26FW 미디 원피스 5094",
+    "name": "와인 리본 숄더 셔링 슬릿 원피스",
+    "storeName": "와인 리본 숄더 셔링 슬릿 원피스",
+    "productName": "와인 리본 숄더 셔링 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "와인",
+    "variantColor": "와인",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247468,19 +247712,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5094/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5094/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "와인 컬러에 셔링·슬릿·리본 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "와인 컬러에 셔링·슬릿·리본 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿",
+      "리본",
+      "숄더 리본"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "슬릿",
+      "리본",
+      "숄더 리본"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "셔링, 슬릿, 리본, 숄더 리본",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247508,7 +247754,9 @@
       "ANC-5094",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 슬릿, 리본, 숄더 리본",
+    "asymmetric": false
   },
   {
     "code": "ANC-5095",
@@ -247519,17 +247767,17 @@
     "folder": "ANC-5095",
     "zipFolder": "ANC-5095",
     "supplierProductNo": "5095",
-    "name": "앙크최 26FW 미니 원피스 5095",
-    "storeName": "앙크최 26FW 미니 원피스 5095",
-    "productName": "앙크최 26FW 미니 원피스 5095",
+    "name": "블랙 리본 튤배색 원피스",
+    "storeName": "블랙 리본 튤배색 원피스",
+    "productName": "블랙 리본 튤배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247614,19 +247862,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5095/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5095/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 리본·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 리본·튤·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "튤",
+      "배색",
+      "가슴 리본",
+      "밑단 튤"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "리본",
+      "튤",
+      "배색",
+      "가슴 리본",
+      "밑단 튤"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "리본, 튤, 배색, 가슴 리본, 밑단 튤",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247654,7 +247906,9 @@
       "ANC-5095",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "리본, 튤, 배색, 가슴 리본, 밑단 튤",
+    "asymmetric": false
   },
   {
     "code": "ANC-5096",
@@ -247665,17 +247919,17 @@
     "folder": "ANC-5096",
     "zipFolder": "ANC-5096",
     "supplierProductNo": "5096",
-    "name": "앙크최 26FW 미니 원피스 5096",
-    "storeName": "앙크최 26FW 미니 원피스 5096",
-    "productName": "앙크최 26FW 미니 원피스 5096",
+    "name": "핫핑크 하트넥 슬릿 원피스",
+    "storeName": "핫핑크 하트넥 슬릿 원피스",
+    "productName": "핫핑크 하트넥 슬릿 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "핫핑크",
+    "variantColor": "핫핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247755,19 +248009,19 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5096/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5096/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핫핑크 컬러에 하트넥과 앞슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 선명한 컬러와 여성스러운 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
+    "description": "핫핑크 컬러에 하트넥과 앞슬릿 디테일이 돋보이는 슬림핏 미니원피스입니다. 선명한 컬러와 여성스러운 실루엣으로 무대·방송·파티룩에 잘 어울립니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "슬릿",
+      "앞슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "하트넥",
+      "슬릿",
+      "앞슬릿"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "하트넥, 슬릿, 앞슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247795,7 +248049,9 @@
       "ANC-5096",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "하트넥, 슬릿, 앞슬릿",
+    "asymmetric": false
   },
   {
     "code": "ANC-5097",
@@ -247806,17 +248062,17 @@
     "folder": "ANC-5097",
     "zipFolder": "ANC-5097",
     "supplierProductNo": "5097",
-    "name": "앙크최 26FW 미디 원피스 5097",
-    "storeName": "앙크최 26FW 미디 원피스 5097",
-    "productName": "앙크최 26FW 미디 원피스 5097",
+    "name": "그레이 체크 스퀘어넥 슬릿 원피스",
+    "storeName": "그레이 체크 스퀘어넥 슬릿 원피스",
+    "productName": "그레이 체크 스퀘어넥 슬릿 원피스",
     "category": "MIDI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미디",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "그레이",
+    "variantColor": "그레이",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -247901,19 +248157,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5097/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5097/main.jpg",
     "mainCopy": "앙크최 26FW 미디 원피스",
-    "desc": "앙크최 26FW 미디 원피스입니다.",
-    "description": "앙크최 26FW 미디 원피스입니다.",
+    "desc": "그레이 컬러에 스퀘어넥·슬릿·체크 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "그레이 컬러에 스퀘어넥·슬릿·체크 디테일이 돋보이는 슬림핏 미디 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "슬릿",
+      "체크",
+      "앞슬릿"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미디 기장",
-      "파티·무대·방송 스타일링"
+      "스퀘어넥",
+      "슬릿",
+      "체크",
+      "앞슬릿"
     ],
-    "recommend": "미디 원피스",
+    "recommend": "스퀘어넥, 슬릿, 체크, 앞슬릿",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -247941,7 +248199,9 @@
       "ANC-5097",
       "26FW",
       "미디원피스"
-    ]
+    ],
+    "designFeatures": "스퀘어넥, 슬릿, 체크, 앞슬릿",
+    "asymmetric": false
   },
   {
     "code": "ANC-5098",
@@ -247952,17 +248212,17 @@
     "folder": "ANC-5098",
     "zipFolder": "ANC-5098",
     "supplierProductNo": "5098",
-    "name": "앙크최 26FW 미니 원피스 5098",
-    "storeName": "앙크최 26FW 미니 원피스 5098",
-    "productName": "앙크최 26FW 미니 원피스 5098",
+    "name": "네이비 랩 셔링 미니원피스",
+    "storeName": "네이비 랩 셔링 미니원피스",
+    "productName": "네이비 랩 셔링 미니원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "네이비",
+    "variantColor": "네이비",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -248041,19 +248301,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5098/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5098/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "네이비 컬러에 셔링·랩·랩라인 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "네이비 컬러에 셔링·랩·랩라인 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩",
+      "랩라인",
+      "사선 밑단"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "셔링",
+      "랩",
+      "랩라인",
+      "사선 밑단"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "셔링, 랩, 랩라인, 사선 밑단",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -248081,7 +248343,9 @@
       "ANC-5098",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "셔링, 랩, 랩라인, 사선 밑단",
+    "asymmetric": true
   },
   {
     "code": "ANC-5099",
@@ -248092,17 +248356,17 @@
     "folder": "ANC-5099",
     "zipFolder": "ANC-5099",
     "supplierProductNo": "5099",
-    "name": "앙크최 26FW 미니 원피스 5099",
-    "storeName": "앙크최 26FW 미니 원피스 5099",
-    "productName": "앙크최 26FW 미니 원피스 5099",
+    "name": "핑크 체크 레이스배색 원피스",
+    "storeName": "핑크 체크 레이스배색 원피스",
+    "productName": "핑크 체크 레이스배색 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "A라인",
+    "color": "핑크",
+    "variantColor": "핑크",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -248187,19 +248451,23 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5099/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5099/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "핑크 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "핑크 컬러에 레이스·체크·배색 디테일이 돋보이는 A라인 미니 원피스입니다. 허리선을 정돈하면서 스커트가 자연스럽게 퍼져 움직임이 예쁘게 살아납니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "레이스 넥",
+      "허리배색"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "레이스",
+      "체크",
+      "배색",
+      "레이스 넥",
+      "허리배색"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "레이스, 체크, 배색, 레이스 넥, 허리배색",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -248227,7 +248495,9 @@
       "ANC-5099",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "레이스, 체크, 배색, 레이스 넥, 허리배색",
+    "asymmetric": false
   },
   {
     "code": "ANC-5100",
@@ -248238,17 +248508,17 @@
     "folder": "ANC-5100",
     "zipFolder": "ANC-5100",
     "supplierProductNo": "5100",
-    "name": "앙크최 26FW 미니 원피스 5100",
-    "storeName": "앙크최 26FW 미니 원피스 5100",
-    "productName": "앙크최 26FW 미니 원피스 5100",
+    "name": "블랙 사이드버튼 포인트 원피스",
+    "storeName": "블랙 사이드버튼 포인트 원피스",
+    "productName": "블랙 사이드버튼 포인트 원피스",
     "category": "MINI",
     "collection": "ANC_26FW3",
     "collectionName": "앙크최 26FW",
     "collectionDescription": "앙크최 26FW 셀렉션",
     "length": "미니",
-    "fit": "슬림/글램",
-    "color": "",
-    "variantColor": "",
+    "fit": "슬림핏",
+    "color": "블랙",
+    "variantColor": "블랙",
     "size": "55(S) / 66(M) / 77(L) / 88(XL)",
     "sizeInfo": "55(S) / 66(M) / 77(L) / 88(XL) · 77(L)부터 +10,000원",
     "wearInfo": "상세 착용정보는 매장 문의",
@@ -248327,19 +248597,21 @@
     "thumbImage": "assets/products/ank/26fw3/ANC-5100/main.jpg",
     "cardImage": "assets/products/ank/26fw3/ANC-5100/main.jpg",
     "mainCopy": "앙크최 26FW 미니 원피스",
-    "desc": "앙크최 26FW 미니 원피스입니다.",
-    "description": "앙크최 26FW 미니 원피스입니다.",
+    "desc": "블랙 컬러에 버튼·사이드버튼·사이드 골드버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
+    "description": "블랙 컬러에 버튼·사이드버튼·사이드 골드버튼 디테일이 돋보이는 슬림핏 미니 원피스입니다. 바디라인을 따라 깔끔하게 떨어지는 실루엣으로 여성스러운 라인을 강조해줍니다. 무대·방송·행사·파티룩으로 활용하기 좋은 디자인입니다.",
     "points": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "사이드버튼",
+      "사이드 골드버튼",
+      "V넥"
     ],
     "whyYoullLoveIt": [
-      "앙크최 26FW 신상품",
-      "미니 기장",
-      "파티·무대·방송 스타일링"
+      "버튼",
+      "사이드버튼",
+      "사이드 골드버튼",
+      "V넥"
     ],
-    "recommend": "미니 원피스",
+    "recommend": "버튼, 사이드버튼, 사이드 골드버튼, V넥",
     "fabric": "",
     "fabricNote": "",
     "stretch": "",
@@ -248367,6 +248639,8 @@
       "ANC-5100",
       "26FW",
       "미니원피스"
-    ]
+    ],
+    "designFeatures": "버튼, 사이드버튼, 사이드 골드버튼, V넥",
+    "asymmetric": false
   }
 ]
