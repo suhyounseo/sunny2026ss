@@ -372,7 +372,7 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
+const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능', '앙크최'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -1223,11 +1223,15 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
-  const fresh = chooseUniqueByDesignGroup(
-    sortProducts(visible.filter(p => isAugustNewProduct(p))),
+  const ancPinnedCodes = ['ANC-5001', 'ANC-5023', 'ANC-5010', 'ANC-5057', 'ANC-5090', 'ANC-5096'];
+  const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
+  const ancPinned = ancPinnedCodes.map(code => visibleMap.get(code)).filter(Boolean);
+  const ancSet = new Set(ancPinned.map(codeOf));
+  const existingFresh = chooseUniqueByDesignGroup(
+    sortProducts(visible.filter(p => isAugustNewProduct(p) && !ancSet.has(codeOf(p)))),
     8
   );
-  return fresh.slice(0, 8);
+  return [...ancPinned, ...existingFresh];
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
