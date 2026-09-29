@@ -351,7 +351,7 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW', 'LUXURY_NEW'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
@@ -359,6 +359,7 @@ const LABEL = {
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
   ANC_NEW: '앙크최 신상',
+  LUXURY_NEW: '럭셔리 신상',
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
@@ -652,6 +653,7 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상');
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -1457,6 +1459,7 @@ function sectionName() {
   if (FILTER === 'BEST') return filterLabel('BEST');
   if (FILTER === 'COSTUME') return filterLabel('COSTUME');
   if (FILTER === 'ANC_NEW') return filterLabel('ANC_NEW');
+  if (FILTER === 'LUXURY_NEW') return filterLabel('LUXURY_NEW');
   if (FILTER === 'MINI') return 'MINI DRESS';
   if (FILTER === 'MIDI') return 'MIDI DRESS';
   if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
@@ -1470,6 +1473,7 @@ function sectionIntro() {
   if (FILTER === 'BEST') return t('bestIntro');
   if (FILTER === 'COSTUME') return t('costumeIntro');
   if (FILTER === 'ANC_NEW') return '앙크최 26FW 신상만 모아보는 메뉴입니다.';
+  if (FILTER === 'LUXURY_NEW') return '9월 29일 고급원피스 거래처 신상 전체를 모아보는 메뉴입니다.';
   if (FILTER === 'MINI') return t('miniIntro');
   if (FILTER === 'MIDI') return t('midiIntro');
   if (FILTER === 'TWO_PIECE') return t('twoPieceIntro');
@@ -1544,6 +1548,7 @@ function match(p) {
   else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
+  else if (FILTER === 'LUXURY_NEW') f = isLuxuryNew929Product(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   else if (FILTER === 'TWO_PIECE') f = p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
