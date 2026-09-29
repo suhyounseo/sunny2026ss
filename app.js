@@ -351,13 +351,14 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'NEW', 'MINI', 'MIDI', 'LONG', 'TWO_PIECE'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
-  BEST: 'NICE PICK',
+  BEST: "EDITOR'S PICK",
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
+  ANC_NEW: '앙크최 신상',
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
@@ -372,7 +373,7 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능', '앙크최'];
+const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -665,6 +666,192 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
+function isCurrentAnkProduct(p) {
+  const match = codeOf(p).match(/^ANC-(\d{4})$/);
+  if (!match) return false;
+  const no = Number(match[1]);
+  return no >= 5001 && no <= 5100;
+}
+function ancNumericValue(value) {
+  const raw = String(value ?? '').trim();
+  if (!raw || raw === '-') return null;
+  const match = raw.replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
+  return match ? Number(match[0]) : null;
+}
+function ancFormatValue(value) {
+  if (value === null || value === undefined || !Number.isFinite(Number(value))) return '-';
+  const n = Number(value);
+  return Number.isInteger(n) ? String(n) : String(Math.round(n * 10) / 10);
+}
+function ancRowValue(row, patterns) {
+  if (!row || typeof row !== 'object') return '';
+  const key = Object.keys(row).find(k => patterns.some(re => re.test(String(k))));
+  return key ? row[key] : '';
+}
+function ancSourceRow(rows, sizeNo, alpha) {
+  return (rows || []).find(row => {
+    const value = ancRowValue(row, [/사이즈/i, /^size$/i]);
+    const text = String(value || '').trim().toUpperCase();
+    return text.includes(String(sizeNo)) || text === alpha || text.startsWith(alpha + '(');
+  }) || null;
+}
+const ANC_MEASURED_DATA = {
+  'ANC-5001': { length:'84', sleeve:'42', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방+망사', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5004': { length:'80-83', sleeve:'45', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['38','40.5','43'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5005': { length:'82', sleeve:'61', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5008': { length:'85', sleeve:'43', chest:['40','42.5','45'], waist:['31','33.5','36'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5011': { length:'80', sleeve:'42', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼', note:'같은 디자인 다른 컬러 5043' },
+  'ANC-5016': { length:'83', sleeve:'41', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'레이스+망사', stretch:'좋음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5020': { length:'97', sleeve:'56', chest:['40','42.5','45'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5021': { length:'80', sleeve:'40', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5022': { length:'84', sleeve:'42', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방+망사', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5025': { length:'80', sleeve:'42', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5029': { length:'84', sleeve:'43', chest:['37','39.5','42'], waist:['29','31.5','34'], hip:['-','-','-'], material:'레이스+망사', stretch:'좋음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5030': { length:'83', sleeve:'44', chest:['39','41.5','44'], waist:['31','33.5','36'], hip:['41','43.5','46'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'시스루(상)', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5031': { length:'80-83', sleeve:'45', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['38','40.5','43'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5032': { length:'80', sleeve:'43', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5033': { length:'80', sleeve:'42', chest:['39','41.5','44'], waist:['31','33.5','36'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5035': { length:'80', sleeve:'56', chest:['38','40.5','43'], waist:['29','31.5','34'], hip:['-','-','-'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5039': { length:'80', sleeve:'40', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5040': { length:'83', sleeve:'41', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'망사+폴리혼방', stretch:'좋음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5041': { length:'84', sleeve:'43', chest:['39','41.5','44'], waist:['29','31.5','34'], hip:['37','39.5','42'], material:'레이스', stretch:'있음', cap:'있음', lining:'있음', see:'있음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5043': { length:'78', sleeve:'42', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5050': { length:'82', sleeve:'61', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5051': { length:'85', sleeve:'44', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'시스루(상)', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5056': { length:'85', sleeve:'48', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5060': { length:'78', sleeve:'44', chest:['40','42.5','45'], waist:['31','33.5','36'], hip:['-','-','-'], material:'폴리혼방', stretch:'약간', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5062': { length:'85', sleeve:'44', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'시스루(상)', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5063': { length:'81', sleeve:'42', chest:['39','40.5','43'], waist:['30','32.5','35'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5069': { length:'83', sleeve:'41', chest:['40','42.5','45'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5070': { length:'84', sleeve:'60', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5071': { length:'앞82-116 / 뒤90-98', sleeve:'43', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼', note:'언밸런스 앞/뒤 총길이' },
+  'ANC-5073': { length:'80', sleeve:'40', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼', note:'같은 디자인 다른 컬러 5021' },
+  'ANC-5075': { length:'80', sleeve:'56', chest:['38','40.5','43'], waist:['29','31.5','34'], hip:['-','-','-'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5077': { length:'80', sleeve:'40', chest:['39','41.5','44'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5078': { length:'83', sleeve:'43', chest:['39','40.5','44'], waist:['30','32.5','35'], hip:['-','-','-'], material:'망사+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5080': { length:'85', sleeve:'44', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'레이스+폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'시스루(상)', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5090': { length:'84', sleeve:'45', chest:['38','40.5','43'], waist:['30','32.5','35'], hip:['-','-','-'], material:'망사+레이스', stretch:'좋음', cap:'있음', lining:'있음', see:'있음', thickness:'보통', zipper:'뒷지퍼' },
+  'ANC-5093': { length:'83', sleeve:'41', chest:['40','42.5','45'], waist:['30','32.5','35'], hip:['40','42.5','45'], material:'폴리혼방', stretch:'있음', cap:'있음', lining:'있음', see:'없음', thickness:'보통', zipper:'뒷지퍼' }
+};
+
+function normalizeCurrentAnkProduct(p) {
+  if (!isCurrentAnkProduct(p)) return p;
+
+  const measured = ANC_MEASURED_DATA[codeOf(p)];
+  if (measured) {
+    const sizes = ['55(S)', '66(M)', '77(L)'];
+    p.size = '55(S) / 66(M) / 77(L)';
+    p.sizeInfo = p.size;
+    p.sizeTags = ['55', '66', '77'];
+    p.size77Available = true;
+    p.size88Available = false;
+    p.measurementInfo = '실측 단위 cm / 측정방법에 따라 1~2cm 오차 가능';
+    p.material = measured.material;
+    p.fabric = measured.material;
+    p.stretch = measured.stretch;
+    p.cap = measured.cap;
+    p.lining = measured.lining;
+    p.see = measured.see;
+    p.thickness = measured.thickness;
+    p.zipper = measured.zipper;
+    p.sizeTables = [{
+      title: '사이즈 정보',
+      columns: ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'],
+      rows: sizes.map((size, i) => ({
+        '사이즈': size,
+        '총길이': measured.length,
+        '소매길이': measured.sleeve,
+        '가슴단면': measured.chest[i],
+        '허리단면': measured.waist[i],
+        '힙단면': measured.hip[i]
+      }))
+    }];
+    p.wearTables = [{
+      title: '착용 정보',
+      items: {
+        '소재': measured.material,
+        '신축성': measured.stretch,
+        '캡여부': measured.cap,
+        '안감': measured.lining,
+        '비침': measured.see,
+        '두께감': measured.thickness,
+        '지퍼': measured.zipper
+      }
+    }];
+    return p;
+  }
+
+  const sourceTables = Array.isArray(p.sizeTables) ? p.sizeTables : [];
+  const sourceRows = sourceTables.flatMap(group => Array.isArray(group && group.rows) ? group.rows : []);
+  const base55 = ancSourceRow(sourceRows, 55, 'S');
+
+  const specs = [
+    { sizeNo: 55, alpha: 'S', step: 0 },
+    { sizeNo: 66, alpha: 'M', step: 1 },
+    { sizeNo: 77, alpha: 'L', step: 2 }
+  ];
+  const read = (row, type) => {
+    const map = {
+      total: [/총장/i, /총길이/i, /기장/i, /^length$/i],
+      sleeve: [/소매/i, /팔길이/i, /^sleeve$/i],
+      chest: [/가슴/i, /^chest$/i, /^bust$/i],
+      waist: [/허리/i, /^waist$/i],
+      hip: [/힙/i, /^hip$/i]
+    };
+    return ancRowValue(row, map[type]);
+  };
+  const calculated = (type, step) => {
+    if (!base55) return '-';
+    const base = ancNumericValue(read(base55, type));
+    if (base === null) return '-';
+    if (type === 'total' || type === 'sleeve') return ancFormatValue(base);
+    return ancFormatValue(base + (2.5 * step));
+  };
+  const valueFor = (row, type, step) => {
+    const actual = ancNumericValue(read(row, type));
+    if (actual !== null) return ancFormatValue(actual);
+    return calculated(type, step);
+  };
+
+  const rows = specs.map(spec => {
+    const actualRow = ancSourceRow(sourceRows, spec.sizeNo, spec.alpha);
+    return {
+      '사이즈': `${spec.sizeNo}(${spec.alpha})`,
+      '총길이': valueFor(actualRow, 'total', spec.step),
+      '소매길이': valueFor(actualRow, 'sleeve', spec.step),
+      '가슴단면': valueFor(actualRow, 'chest', spec.step),
+      '허리단면': valueFor(actualRow, 'waist', spec.step),
+      '힙단면': valueFor(actualRow, 'hip', spec.step)
+    };
+  });
+
+  p.size = '55(S) / 66(M) / 77(L)';
+  p.sizeInfo = '55(S) / 66(M) / 77(L)';
+  p.sizeTags = ['55', '66', '77'];
+  p.size77Available = true;
+  p.size88Available = false;
+  p.sizeTables = [{
+    title: '실측',
+    columns: ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'],
+    rows
+  }];
+
+  if (!Array.isArray(p.wearTables) || !p.wearTables.length) {
+    p.wearTables = [{
+      title: '착용 정보',
+      items: {
+        '소재': safeText(p.fabric || p.material) || '-',
+        '신축성': safeText(p.stretch) || '-',
+        '캡여부': safeText(p.cap) || '-',
+        '안감': safeText(p.lining) || '-',
+        '비침': safeText(p.see) || '-',
+        '두께감': safeText(p.thickness) || '-',
+        '지퍼': safeText(p.zipper) || '-'
+      }
+    }];
+  }
+  return p;
+}
 const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p)) || /^GINI-/.test(codeOf(p)) || COLLECTION_A_EXTRA_CODES.includes(codeOf(p));
 const isMiniDressEditProduct = p => {
   const text = productText(p);
@@ -1113,6 +1300,7 @@ function isSize77Available(p) {
   return (p.sizeTags || []).some(x => String(x) === '77') || /(^|[^0-9])77([^0-9]|$)/.test(String(p.size || p.sizeInfo || ''));
 }
 function isSize88Available(p) {
+  if (isCurrentAnkProduct(p)) return false;
   if (p.size88Available === true) return true;
   if (isJessicaProduct(p) || isTiaraProduct(p)) return false;
   if (isWideSizeSupplier(p)) return true;
@@ -1235,6 +1423,7 @@ function newArrivalItems(visible, editorCodes) {
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
+  normalizeCurrentAnkProduct(p);
   return p;
 }
 function filters() {
@@ -1267,6 +1456,7 @@ function sectionName() {
   if (FILTER === 'NEW') return filterLabel('NEW');
   if (FILTER === 'BEST') return filterLabel('BEST');
   if (FILTER === 'COSTUME') return filterLabel('COSTUME');
+  if (FILTER === 'ANC_NEW') return filterLabel('ANC_NEW');
   if (FILTER === 'MINI') return 'MINI DRESS';
   if (FILTER === 'MIDI') return 'MIDI DRESS';
   if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
@@ -1279,6 +1469,7 @@ function sectionIntro() {
   if (FILTER === 'NEW') return t('newIntro');
   if (FILTER === 'BEST') return t('bestIntro');
   if (FILTER === 'COSTUME') return t('costumeIntro');
+  if (FILTER === 'ANC_NEW') return '앙크최 26FW 신상만 모아보는 메뉴입니다.';
   if (FILTER === 'MINI') return t('miniIntro');
   if (FILTER === 'MIDI') return t('midiIntro');
   if (FILTER === 'TWO_PIECE') return t('twoPieceIntro');
@@ -1293,6 +1484,7 @@ function matchesSearch(p, rawSearch) {
   if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p) || isNewArrivalProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
+  if (/^앙크최\s*신상$/i.test(rawSearch)) return isCurrentAnkProduct(p);
   const supplierAlias = {
     '앙크': ['앙크', '앙크최', 'anc', 'ank'],
     '앙크최': ['앙크', '앙크최', 'anc', 'ank'],
@@ -1351,6 +1543,7 @@ function match(p) {
   else if (FILTER === 'NEW') f = isNewArrivalProduct(p);
   else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
+  else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   else if (FILTER === 'TWO_PIECE') f = p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
@@ -1612,7 +1805,7 @@ function renderHome() {
       pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
       newMore: 'NEW ARRIVAL 더 보기',
-      pickMore: 'NICE PICK 50 보기',
+      pickMore: "EDITOR'S PICK 보기",
       allMore: '전체보기'
     },
     en: {
@@ -1620,7 +1813,7 @@ function renderHome() {
       pickDesc: 'Styles recommended by NICE.',
       allDesc: 'Browse the full collection.',
       newMore: 'View NEW ARRIVAL',
-      pickMore: 'View NICE PICK',
+      pickMore: "View EDITOR'S PICK",
       allMore: 'View All'
     },
     zh: {
@@ -1643,7 +1836,7 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
-    ${sectionBlock('NICE PICK', homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
+    ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
