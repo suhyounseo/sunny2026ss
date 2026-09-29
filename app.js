@@ -351,11 +351,11 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'NEW', 'MINI', 'MIDI', 'LONG', 'TWO_PIECE'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
-  BEST: 'NICE PICK',
+  BEST: "EDITOR'S PICK",
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
   MINI: '미니',
@@ -372,7 +372,7 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능', '앙크최'];
+const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능', '앙크최 신상'];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -665,6 +665,109 @@ const setVipActive = () => localStorage.setItem(VIP_STORAGE_KEY, String(Date.now
 const clearVip = () => localStorage.removeItem(VIP_STORAGE_KEY);
 const visibleToAudience = p => (isVipActive() || p.vipOnly !== true) && !!mainImg(p);
 const isAnkProduct = p => /^ANC-/.test(codeOf(p));
+function isCurrentAnkProduct(p) {
+  const match = codeOf(p).match(/^ANC-(\d{4})$/);
+  if (!match) return false;
+  const no = Number(match[1]);
+  return no >= 5001 && no <= 5100;
+}
+function ancNumericValue(value) {
+  const raw = String(value ?? '').trim();
+  if (!raw || raw === '-') return null;
+  const match = raw.replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
+  return match ? Number(match[0]) : null;
+}
+function ancFormatValue(value) {
+  if (value === null || value === undefined || !Number.isFinite(Number(value))) return '-';
+  const n = Number(value);
+  return Number.isInteger(n) ? String(n) : String(Math.round(n * 10) / 10);
+}
+function ancRowValue(row, patterns) {
+  if (!row || typeof row !== 'object') return '';
+  const key = Object.keys(row).find(k => patterns.some(re => re.test(String(k))));
+  return key ? row[key] : '';
+}
+function ancSourceRow(rows, sizeNo, alpha) {
+  return (rows || []).find(row => {
+    const value = ancRowValue(row, [/사이즈/i, /^size$/i]);
+    const text = String(value || '').trim().toUpperCase();
+    return text.includes(String(sizeNo)) || text === alpha || text.startsWith(alpha + '(');
+  }) || null;
+}
+function normalizeCurrentAnkProduct(p) {
+  if (!isCurrentAnkProduct(p)) return p;
+
+  const sourceTables = Array.isArray(p.sizeTables) ? p.sizeTables : [];
+  const sourceRows = sourceTables.flatMap(group => Array.isArray(group && group.rows) ? group.rows : []);
+  const base55 = ancSourceRow(sourceRows, 55, 'S');
+
+  const specs = [
+    { sizeNo: 55, alpha: 'S', step: 0 },
+    { sizeNo: 66, alpha: 'M', step: 1 },
+    { sizeNo: 77, alpha: 'L', step: 2 }
+  ];
+  const read = (row, type) => {
+    const map = {
+      total: [/총장/i, /총길이/i, /기장/i, /^length$/i],
+      sleeve: [/소매/i, /팔길이/i, /^sleeve$/i],
+      chest: [/가슴/i, /^chest$/i, /^bust$/i],
+      waist: [/허리/i, /^waist$/i],
+      hip: [/힙/i, /^hip$/i]
+    };
+    return ancRowValue(row, map[type]);
+  };
+  const calculated = (type, step) => {
+    if (!base55) return '-';
+    const base = ancNumericValue(read(base55, type));
+    if (base === null) return '-';
+    if (type === 'total' || type === 'sleeve') return ancFormatValue(base);
+    return ancFormatValue(base + (2.5 * step));
+  };
+  const valueFor = (row, type, step) => {
+    const actual = ancNumericValue(read(row, type));
+    if (actual !== null) return ancFormatValue(actual);
+    return calculated(type, step);
+  };
+
+  const rows = specs.map(spec => {
+    const actualRow = ancSourceRow(sourceRows, spec.sizeNo, spec.alpha);
+    return {
+      '사이즈': `${spec.sizeNo}(${spec.alpha})`,
+      '총길이': valueFor(actualRow, 'total', spec.step),
+      '소매길이': valueFor(actualRow, 'sleeve', spec.step),
+      '가슴단면': valueFor(actualRow, 'chest', spec.step),
+      '허리단면': valueFor(actualRow, 'waist', spec.step),
+      '힙단면': valueFor(actualRow, 'hip', spec.step)
+    };
+  });
+
+  p.size = '55(S) / 66(M) / 77(L)';
+  p.sizeInfo = '55(S) / 66(M) / 77(L)';
+  p.sizeTags = ['55', '66', '77'];
+  p.size77Available = true;
+  p.size88Available = false;
+  p.sizeTables = [{
+    title: '실측',
+    columns: ['사이즈', '총길이', '소매길이', '가슴단면', '허리단면', '힙단면'],
+    rows
+  }];
+
+  if (!Array.isArray(p.wearTables) || !p.wearTables.length) {
+    p.wearTables = [{
+      title: '착용 정보',
+      items: {
+        '소재': safeText(p.fabric || p.material) || '-',
+        '신축성': safeText(p.stretch) || '-',
+        '캡여부': safeText(p.cap) || '-',
+        '안감': safeText(p.lining) || '-',
+        '비침': safeText(p.see) || '-',
+        '두께감': safeText(p.thickness) || '-',
+        '지퍼': safeText(p.zipper) || '-'
+      }
+    }];
+  }
+  return p;
+}
 const isJuneFinalNewProduct = p => /^S\d{3}$/.test(codeOf(p)) || /^GINI-/.test(codeOf(p)) || COLLECTION_A_EXTRA_CODES.includes(codeOf(p));
 const isMiniDressEditProduct = p => {
   const text = productText(p);
@@ -1113,6 +1216,7 @@ function isSize77Available(p) {
   return (p.sizeTags || []).some(x => String(x) === '77') || /(^|[^0-9])77([^0-9]|$)/.test(String(p.size || p.sizeInfo || ''));
 }
 function isSize88Available(p) {
+  if (isCurrentAnkProduct(p)) return false;
   if (p.size88Available === true) return true;
   if (isJessicaProduct(p) || isTiaraProduct(p)) return false;
   if (isWideSizeSupplier(p)) return true;
@@ -1235,6 +1339,7 @@ function newArrivalItems(visible, editorCodes) {
 }
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
+  normalizeCurrentAnkProduct(p);
   return p;
 }
 function filters() {
@@ -1293,6 +1398,7 @@ function matchesSearch(p, rawSearch) {
   if (/^(신상|new|new arrival|NEW ARRIVAL)$/i.test(rawSearch)) return isAugustNewProduct(p) || isNewArrivalProduct(p);
   if (isManualSearchExcluded(p, rawSearch)) return false;
   if (isManualSearchIncluded(p, rawSearch)) return true;
+  if (/^앙크최\s*신상$/i.test(rawSearch)) return isCurrentAnkProduct(p);
   const supplierAlias = {
     '앙크': ['앙크', '앙크최', 'anc', 'ank'],
     '앙크최': ['앙크', '앙크최', 'anc', 'ank'],
@@ -1612,7 +1718,7 @@ function renderHome() {
       pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
       newMore: 'NEW ARRIVAL 더 보기',
-      pickMore: 'NICE PICK 50 보기',
+      pickMore: "EDITOR'S PICK 보기",
       allMore: '전체보기'
     },
     en: {
@@ -1620,7 +1726,7 @@ function renderHome() {
       pickDesc: 'Styles recommended by NICE.',
       allDesc: 'Browse the full collection.',
       newMore: 'View NEW ARRIVAL',
-      pickMore: 'View NICE PICK',
+      pickMore: "View EDITOR'S PICK",
       allMore: 'View All'
     },
     zh: {
@@ -1643,7 +1749,7 @@ function renderHome() {
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
-    ${sectionBlock('NICE PICK', homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
+    ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
