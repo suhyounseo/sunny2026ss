@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'jessica_info_allview_20260912_1';
+const VERSION = 'newitem929_20260929_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -2352,10 +2352,14 @@ window.addEventListener('popstate', e => {
   buildChips();
   render();
 });
-fetch('./products.json?v=' + VERSION)
-  .then(r => r.json())
-  .then(d => {
-    PRODUCTS = d.map(normalizeProduct);
+Promise.all([
+  fetch('./products.json?v=' + VERSION).then(r => r.json()),
+  fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+])
+  .then(([baseProducts, new929]) => {
+    const merged = new Map();
+    [...new929, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
+    PRODUCTS = [...merged.values()].map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
     buildLangSwitcher();
