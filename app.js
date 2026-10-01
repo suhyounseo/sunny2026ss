@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxurynew_copy_20261001_1';
+const VERSION = 'luxurynew_home_copy_20261001_2';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -1843,8 +1843,8 @@ function renderHome() {
   grid.className = 'home luxe-home';
   const homeText = {
     ko: {
-      luxuryNewDesc: '9월 29일 업데이트한 고급 라인 신상을 먼저 확인해보세요.',
-      luxuryNewMore: '럭셔리 신상 전체보기',
+      luxuryNewDesc: '최근 업데이트한 고급 신상을 확인해보세요.',
+      luxuryNewMore: 'LUXURY NEW 전체보기',
       newDesc: '최근 입고된 대표 스타일입니다.',
       pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
