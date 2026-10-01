@@ -1589,3 +1589,22 @@ body.luxe-home-active .luxe-home{
     font-size:15px;
   }
 }
+
+
+/* Showroom discovery refinement 2026-10-01 */
+.badge.kind{background:#263f36;color:#f7fff9;border:1px solid #263f36}
+.price{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap}
+.price-prefix{display:inline-flex;align-items:center;justify-content:center;min-height:24px;padding:0 8px;border-radius:999px;background:#263f36;color:#fff;font-size:11px;font-weight:950;letter-spacing:.08em;vertical-align:middle}
+.detail-set-prefix{margin-right:8px;transform:translateY(-3px)}
+.component-price-box{display:flex;flex-direction:column;gap:7px;margin:-4px 0 18px;padding:13px 15px;border:1px solid #dac7b4;border-radius:14px;background:#fff8f1}
+.component-price-box b{color:#7b5e43;font-size:12px;font-weight:950;letter-spacing:.08em}
+.component-price-box span{color:#2f251f;font-size:14px;font-weight:850;line-height:1.55;word-break:keep-all}
+.luxe-home .show-section:first-of-type{padding:20px 18px 16px;border:1px solid #d9c5ad;border-radius:16px;background:linear-gradient(135deg,#fffaf2 0%,#f4ece1 100%)}
+.luxe-home .show-section:first-of-type .section-head h3{color:#6d4f2d}
+.luxe-home .show-section:first-of-type .section-more{background:#6d4f2d;border-color:#6d4f2d}
+@media(max-width:720px){
+  .price-prefix{min-height:22px;padding:0 7px;font-size:10px}
+  .component-price-box{margin:-2px 0 14px;padding:12px 13px}
+  .component-price-box span{font-size:13px}
+  .luxe-home .show-section:first-of-type{padding:16px 12px 12px;border-radius:12px}
+}
