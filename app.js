@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'showroom_discovery_20261001_1';
+const VERSION = 'luxurynew_copy_20261001_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -359,7 +359,7 @@ const LABEL = {
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
   ANC_NEW: '앙크최 신상',
-  LUXURY_NEW: '럭셔리 신상',
+  LUXURY_NEW: 'LUXURY NEW',
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
@@ -1477,7 +1477,7 @@ function sectionIntro() {
   if (FILTER === 'BEST') return t('bestIntro');
   if (FILTER === 'COSTUME') return t('costumeIntro');
   if (FILTER === 'ANC_NEW') return '앙크최 26FW 신상만 모아보는 메뉴입니다.';
-  if (FILTER === 'LUXURY_NEW') return '9월 29일 고급원피스 거래처 신상 전체를 모아보는 메뉴입니다.';
+  if (FILTER === 'LUXURY_NEW') return '최근 입고될 럭셔리룩 신상을 모아보는 메뉴입니다.';
   if (FILTER === 'MINI') return t('miniIntro');
   if (FILTER === 'MIDI') return t('midiIntro');
   if (FILTER === 'TWO_PIECE') return t('twoPieceIntro');
