@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 't122_t124_info_match_20261001_1';
+const VERSION = 'silhouette_new_pending_20261001_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -653,7 +653,7 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
-const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상');
+const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || p.sourceInfo === 'Silhouette' || hasTag(p, 'LUXURY_NEW');
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -1427,9 +1427,24 @@ function newArrivalItems(visible, editorCodes) {
   );
   return [...ancPinned, ...existingFresh];
 }
+const SILHOUETTE_N260035_MANNEQUIN = 'Silhouette/N260035/N260035_1.jpg';
+function appendSilhouetteMannequinCut(p) {
+  if (codeOf(p) !== 'N260035') return p;
+  const path = SILHOUETTE_N260035_MANNEQUIN;
+  const images = Array.isArray(p.images) ? [...p.images] : [];
+  if (!images.some(x => String(x || '').split('?')[0] === path)) images.push(path);
+  p.images = images;
+  const cuts = Array.isArray(p.cuts) ? [...p.cuts] : [];
+  if (!cuts.some(x => x && String(x.url || '').split('?')[0] === path)) {
+    cuts.push({ url: path, source: path, cut: '마네킹컷' });
+  }
+  p.cuts = cuts;
+  return p;
+}
 function normalizeProduct(p) {
   if (!p.collection && p.category === 'MINI') p.collection = 'A';
   normalizeCurrentAnkProduct(p);
+  appendSilhouetteMannequinCut(p);
   return p;
 }
 function filters() {
@@ -1657,12 +1672,18 @@ function imageListFor(p) {
     if (b.cut === '대표') return 1;
     return Number(productCutWords.test([a.cut, a.url].join(' '))) - Number(productCutWords.test([b.cut, b.url].join(' ')));
   });
-  return ordered.filter(im => {
+  const result = ordered.filter(im => {
     const key = String(im.url || '').split('?')[0].replace(/\\/g, '/').toLowerCase();
     if (!key || seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+  if (codeOf(p) === 'N260035') {
+    const target = SILHOUETTE_N260035_MANNEQUIN.toLowerCase();
+    const index = result.findIndex(im => String(im.url || '').split('?')[0].replace(/\\/g, '/').toLowerCase() === target);
+    if (index >= 0) result.push(result.splice(index, 1)[0]);
+  }
+  return result;
 }
 function detailPhotoGuide(images) {
   const labels = LANG === 'ko' ? ['대표 핏', '전신/길이', '상반신 포인트', '소재/디테일'] : LANG === 'en' ? ['Main fit', 'Full length', 'Upper detail', 'Fabric detail'] : LANG === 'zh' ? ['主版型', '全身长度', '上身重点', '面料细节'] : ['メインフィット', '全身丈', '上半身ポイント', '素材ディテール'];
@@ -2406,11 +2427,12 @@ window.addEventListener('popstate', e => {
 });
 Promise.all([
   fetch('./products.json?v=' + VERSION).then(r => r.json()),
-  fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-silhouette.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929]) => {
+  .then(([baseProducts, new929, silhouetteNew]) => {
     const merged = new Map();
-    [...new929, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
+    [...new929, ...silhouetteNew, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
     PRODUCTS = [...merged.values()].map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
