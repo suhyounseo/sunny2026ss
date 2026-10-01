@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'luxurynew_home_copy_20261001_2';
+const VERSION = '929_price_corrections_20261001_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
