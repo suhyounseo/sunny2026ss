@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'newitem929_prices_20260930_1';
+const VERSION = 'showroom_discovery_20261001_1';
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -1074,7 +1074,10 @@ function updateStaticLanguage() {
   if (vipSubmit) vipSubmit.textContent = t('verify');
 }
 function detailPriceBlock(p) {
-  if (p.price) return `<div class="detail-price">${money(p.price)}</div>`;
+  if (p.price) {
+    const prefix = isSetProduct(p) ? '<span class="price-prefix detail-set-prefix">SET</span>' : '';
+    return `<div class="detail-price">${prefix}${money(p.price)}</div>`;
+  }
   return `<div class="detail-price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 function simpleSize(p) {
@@ -1122,6 +1125,7 @@ function cleanDetailText(text) {
     .replace(/피팅\s*상담\s*권장/g, '')
     .replace(/사이즈\s*상담\s*권장/g, '')
     .replace(/카카오톡으로[^.。]*[.。]?/g, '')
+    .replace(/구성별\s*가격\s*[:：][^\n]*/g, '')
     .replace(/\s*상품입니다\.?$/g, ' 상품입니다.')
     .replace(/\s{2,}/g, ' ')
     .replace(/[,\s]+$/g, '')
@@ -1556,9 +1560,38 @@ function match(p) {
   else if (FILTER === 'SAME_DAY') f = isSameDayVisible(p);
   return f && matchesSearch(p, rawSearch) && visibleToAudience(p);
 }
+function productKindLabel(p) {
+  const text = [
+    p.name, p.storeName, p.productName, p.category, p.length, p.folder, p.customerCode,
+    ...(Array.isArray(p.tags) ? p.tags : [])
+  ].filter(Boolean).join(' ');
+  if (/3\s*피스|3PS|세트/i.test(text)) return '세트';
+  if (/투피스|TWO\s*PIECE|TPS/i.test(text)) return '투피스';
+  if (/자켓|재킷|JK/i.test(text)) return '자켓';
+  if (/블라우스|BLOUSE/i.test(text)) return '블라우스';
+  if (/스커트|SKIRT/i.test(text)) return '스커트';
+  if (isLongDressProduct(p) || /롱원피스|롱드레스/i.test(text)) return '롱';
+  if (p.category === 'MIDI' || p.length === '미디' || /미디원피스|미디드레스/i.test(text)) return '미디';
+  if (p.category === 'MINI' || p.length === '미니' || /미니원피스|미니드레스/i.test(text)) return '미니';
+  return '';
+}
+function isSetProduct(p) {
+  const text = [p.name, p.storeName, p.productName, p.category, p.folder, p.customerCode].filter(Boolean).join(' ');
+  return !!p.componentPriceText || /투피스|3\s*피스|세트|TWO\s*PIECE|TPS|3PS/i.test(text);
+}
+function componentPriceBlock(p) {
+  const text = safeText(p.componentPriceText);
+  if (!text) return '';
+  const clean = text.replace(/^구성별\s*가격\s*[:：]?\s*/i, '').trim();
+  if (!clean) return '';
+  return `<div class="component-price-box"><b>구성별 가격</b><span>${clean}</span></div>`;
+}
+
 function badges(p) {
   const out = [];
   if (isNew(p)) out.push('<span class="badge gold">NEW</span>');
+  const kind = productKindLabel(p);
+  if (kind) out.push(`<span class="badge kind">${kind}</span>`);
   if (p.steady || hasTag(p, 'STEADY')) out.push('<span class="badge">STEADY</span>');
   if (isBest(p)) out.push('<span class="badge">BEST</span>');
   if (isFittingAvailable(p)) out.push(`<span class="badge light">${t('fittingAvailable')}</span>`);
@@ -1578,7 +1611,10 @@ function meta(p) {
 }
 function priceBlock(p) {
   const priceText = money(p.price);
-  if (priceText !== t('priceInquiry')) return `<div class="price">${priceText}</div>`;
+  if (priceText !== t('priceInquiry')) {
+    const prefix = isSetProduct(p) ? '<span class="price-prefix">SET</span>' : '';
+    return `<div class="price">${prefix}${priceText}</div>`;
+  }
   return `<div class="price price-inquiry"><strong>${t('priceInquiry')}</strong><span>${t('priceInquiryNote')}</span></div>`;
 }
 function productCard(p, compact = false) {
@@ -1799,6 +1835,7 @@ function renderHome() {
   const editorPreview = editorItems.slice(0, NICE_PICK_PREVIEW_LIMIT);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
+  const luxuryNew = sortProducts(visible.filter(isLuxuryNew929Product)).slice(0, 16);
   const gallery = sortProducts(visible).slice(0, 16);
   title.textContent = '';
   count.textContent = '';
@@ -1806,6 +1843,8 @@ function renderHome() {
   grid.className = 'home luxe-home';
   const homeText = {
     ko: {
+      luxuryNewDesc: '9월 29일 업데이트한 고급 라인 신상을 먼저 확인해보세요.',
+      luxuryNewMore: '럭셔리 신상 전체보기',
       newDesc: '최근 입고된 대표 스타일입니다.',
       pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
@@ -1814,6 +1853,8 @@ function renderHome() {
       allMore: '전체보기'
     },
     en: {
+      luxuryNewDesc: 'Explore the latest premium arrivals updated on September 29.',
+      luxuryNewMore: 'View Luxury New',
       newDesc: 'Selected new arrivals from NICE.',
       pickDesc: 'Styles recommended by NICE.',
       allDesc: 'Browse the full collection.',
@@ -1822,6 +1863,8 @@ function renderHome() {
       allMore: 'View All'
     },
     zh: {
+      luxuryNewDesc: '先查看9月29日更新的高级新款。',
+      luxuryNewMore: '查看高级新款',
       newDesc: 'NICE精选新款。',
       pickDesc: 'NICE推荐款式。',
       allDesc: '查看全部商品。',
@@ -1830,6 +1873,8 @@ function renderHome() {
       allMore: '查看全部'
     },
     ja: {
+      luxuryNewDesc: '9月29日に更新したプレミアム新作を先にご覧ください。',
+      luxuryNewMore: 'ラグジュアリー新作を見る',
       newDesc: 'NICEが選んだ新作スタイルです。',
       pickDesc: 'NICEおすすめのスタイルです。',
       allDesc: '全商品をご覧いただけます。',
@@ -1840,6 +1885,7 @@ function renderHome() {
   }[LANG] || {};
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
+    ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
@@ -2166,6 +2212,7 @@ function openDetail(code) {
       <h2>${displayName(p)}</h2>
       <div class="detail-code-badge" aria-label="${t('productCode')} ${displayCode(p)}"><span>${t('productCode')}</span><strong>${displayCode(p)}</strong></div>
       ${detailPriceBlock(p)}
+      ${componentPriceBlock(p)}
       ${!p.price ? `<p class="detail-price-note">${t('detailPriceNote')}</p>` : ''}
       <div class="detail-lead">
         <span class="lead-label">NICE PICK</span>
