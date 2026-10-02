@@ -80,7 +80,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "셔츠 카라 + 허리 셔링",
+      "잘록한 허리선",
+      "플레어 미니 실루엣"
+    ]
   },
   {
     "code": "S90601IV",
@@ -163,7 +168,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "화사한 아이보리",
+      "셔츠 카라 + 허리 셔링",
+      "풍성한 플레어 라인"
+    ]
   },
   {
     "code": "S90601P",
@@ -246,7 +256,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "러블리 핑크 컬러",
+      "셔츠 카라 + 허리 셔링",
+      "플레어 미니 실루엣"
+    ]
   },
   {
     "code": "S90602B",
@@ -384,8 +399,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
+    "points": [
+      "은은한 새틴 무드",
+      "슬림 셔링 라인",
+      "상의+하의 세트"
+    ]
   },
   {
     "code": "S90602CR",
@@ -517,8 +537,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
+    "points": [
+      "크림 새틴 무드",
+      "슬림 셔링 라인",
+      "상의+하의 세트"
+    ]
   },
   {
     "code": "S90801B",
@@ -613,7 +638,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "화이트 카라 배색",
+      "프론트 버튼 포인트",
+      "슬림 미니원피스"
+    ]
   },
   {
     "code": "S90801P",
@@ -708,7 +738,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "핑크+화이트 배색",
+      "셔츠형 버튼 디테일",
+      "슬림 미니원피스"
+    ]
   },
   {
     "code": "S91501B",
@@ -792,8 +827,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
+    "points": [
+      "세로 비즈 포인트",
+      "카라 슬림핏",
+      "상의+하의 세트"
+    ]
   },
   {
     "code": "S91501W",
@@ -877,8 +917,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
+    "points": [
+      "화이트 비즈 라인",
+      "카라 슬림핏",
+      "상의+하의 세트"
+    ]
   },
   {
     "code": "S92901G",
@@ -973,7 +1018,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "스트랩리스 넥",
+      "바디 셔링",
+      "슬림 미디 실루엣"
+    ]
   },
   {
     "code": "S92901V",
@@ -1062,7 +1112,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 6500,
+    "points": [
+      "모카베이지 컬러",
+      "스트랩리스 넥",
+      "바디 셔링 미디핏"
+    ]
   },
   {
     "code": "S92902B",
@@ -1194,8 +1249,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원",
+    "points": [
+      "블랙+화이트 배색",
+      "포켓 포인트",
+      "셔츠 투피스"
+    ]
   },
   {
     "code": "S92902W",
@@ -1327,8 +1387,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원",
+    "points": [
+      "화이트+블랙 배색",
+      "포켓 포인트",
+      "셔츠 투피스"
+    ]
   },
   {
     "code": "S93001",
@@ -1454,8 +1519,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "타이넥 포인트",
+      "이중 티어드 스커트",
+      "플레어 미니투피스"
+    ]
   },
   {
     "code": "S93001B",
@@ -1575,8 +1645,13 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "올블랙 타이넥",
+      "티어드 플레어",
+      "미니투피스"
+    ]
   },
   {
     "code": "S93001W",
@@ -1696,7 +1771,12 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000,
-    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원"
+    "priority": 6500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "화이트+블랙 배색",
+      "타이넥 포인트",
+      "플레어 미니투피스"
+    ]
   }
 ]
