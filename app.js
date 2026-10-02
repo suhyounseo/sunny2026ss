@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_home_placement_fix_20261002_1';
+const VERSION = 'silhouette_home_selected_luxury_20261002_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -669,7 +669,9 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
-const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상');
+const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
+const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
+const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p));
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -1668,9 +1670,9 @@ function productCard(p, compact = false) {
 function choose(list, limit) {
   return list.filter(p => mainImg(p)).slice(0, limit);
 }
-function sectionBlock(label, desc, items, moreFilter = '', moreText = t('viewAllProducts')) {
+function sectionBlock(label, desc, items, moreFilter = '', moreText = t('viewAllProducts'), previewLimit = 8) {
   if (!items.length) return '';
-  const previewItems = items.slice(0, 8);
+  const previewItems = items.slice(0, previewLimit);
   const moreButton = moreFilter ? `<button class="section-more" type="button" data-f="${moreFilter}">${moreText}</button>` : '';
   return `<section class="show-section home-preview-section luxe-section"><div class="section-head"><div><h3>${label}</h3><p>${desc}</p></div></div><div class="rail home-preview-rail">${previewItems.map(p => productCard(p, true)).join('')}</div>${moreButton}</section>`;
 }
@@ -1874,7 +1876,11 @@ function renderHome() {
   const editorPreview = editorItems.slice(0, NICE_PICK_PREVIEW_LIMIT);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
-  const luxuryNew = sortProducts(visible.filter(isLuxuryNew929Product)).slice(0, 16);
+  const luxuryExisting = sortProducts(visible.filter(p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상'))).slice(0, 8);
+  const luxurySelectedSilhouette = SILHOUETTE_HOME_LUXURY_CODES
+    .map(code => visible.find(p => codeOf(p) === code))
+    .filter(Boolean);
+  const luxuryNew = [...luxuryExisting, ...luxurySelectedSilhouette.filter(p => !luxuryExisting.some(x => codeOf(x) === codeOf(p)))];
   const gallery = sortProducts(visible).slice(0, 16);
   title.textContent = '';
   count.textContent = '';
@@ -1924,7 +1930,7 @@ function renderHome() {
   }[LANG] || {};
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore)}
+    ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 11)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
