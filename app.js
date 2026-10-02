@@ -13,7 +13,22 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_new_pending_20261001_1';
+const VERSION = 'price_update_20261002_2';
+
+const PRODUCT_OVERRIDES_20261002 = {
+  'SIL-ABO2': { price: 135000 },
+  'N260239': { price: 92000, componentPriceText: '구성별 가격: 상의 29,000원 / 하의 63,000원' },
+  'N260237': { price: 135000 },
+  'N260238': { price: 135000 },
+  'N260236': { price: 149000, componentPriceText: '구성별 가격: 상의 77,000원 / 하의 72,000원' },
+  'N260235': { price: 149000, componentPriceText: '구성별 가격: 상의 77,000원 / 하의 72,000원' },
+  'S92902W': { price: 136000, componentPriceText: '구성별 가격: 상의 68,000원 / 하의 68,000원' },
+  'S92902B': { price: 136000, componentPriceText: '구성별 가격: 상의 68,000원 / 하의 68,000원' }
+};
+function applyProductOverrides(p) {
+  const override = PRODUCT_OVERRIDES_20261002[codeOf(p)];
+  return override ? { ...p, ...override, sourceInfoNote: '2026-10-02 사용자 확정 판매가격 반영' } : p;
+}
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
@@ -2433,7 +2448,7 @@ Promise.all([
   .then(([baseProducts, new929, silhouetteNew]) => {
     const merged = new Map();
     [...new929, ...silhouetteNew, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
-    PRODUCTS = [...merged.values()].map(normalizeProduct);
+    PRODUCTS = [...merged.values()].map(applyProductOverrides).map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
     buildLangSwitcher();
