@@ -78,7 +78,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "셔츠 카라 + 허리 셔링",
       "잘록한 허리선",
@@ -164,7 +164,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "화사한 아이보리",
       "셔츠 카라 + 허리 셔링",
@@ -250,7 +250,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "러블리 핑크 컬러",
       "셔츠 카라 + 허리 셔링",
@@ -391,7 +391,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
     "points": [
       "은은한 새틴 무드",
@@ -527,7 +527,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
     "points": [
       "크림 새틴 무드",
@@ -626,7 +626,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "화이트 카라 배색",
       "프론트 버튼 포인트",
@@ -724,7 +724,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "핑크+화이트 배색",
       "셔츠형 버튼 디테일",
@@ -811,7 +811,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
     "points": [
       "세로 비즈 포인트",
@@ -899,7 +899,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
     "points": [
       "화이트 비즈 라인",
@@ -998,7 +998,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "스트랩리스 넥",
       "바디 셔링",
@@ -1090,7 +1090,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "points": [
       "모카베이지 컬러",
       "스트랩리스 넥",
@@ -1111,7 +1111,7 @@
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 162000,
+    "price": 136000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1225,8 +1225,8 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
-    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원",
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 68,000원",
     "points": [
       "블랙+화이트 배색",
       "포켓 포인트",
@@ -1247,7 +1247,7 @@
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 162000,
+    "price": 136000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1361,8 +1361,8 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
-    "componentPriceText": "구성별 가격: 상의 81,000원 / 하의 81,000원",
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 68,000원",
     "points": [
       "화이트+블랙 배색",
       "포켓 포인트",
@@ -1491,7 +1491,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
     "points": [
       "타이넥 포인트",
@@ -1615,7 +1615,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
     "points": [
       "올블랙 타이넥",
@@ -1739,7 +1739,7 @@
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": 6500,
+    "priority": 11500,
     "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
     "points": [
       "화이트+블랙 배색",
