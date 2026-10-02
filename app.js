@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'price_update_20261002_2';
+const VERSION = 'silhouette_featured_20261002_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -33,6 +33,7 @@ function applyProductOverrides(p) {
 const NICE_PICK_PREVIEW_LIMIT = 8;
 const NICE_PICK_TOTAL_LIMIT = 50;
 const NICE_PICK_CODES = [
+  "S92902W",
   "T007",
   "T030",
   "T036",
@@ -1432,15 +1433,17 @@ function editorSelectItems(visible) {
   return [...pinned, ...fallback].slice(0, EDITOR_SELECT_LIMIT);
 }
 function newArrivalItems(visible, editorCodes) {
+  const silhouettePinnedCodes = ['S92901V', 'S93001'];
   const ancPinnedCodes = ['ANC-5001', 'ANC-5023', 'ANC-5010', 'ANC-5057', 'ANC-5090', 'ANC-5096'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
+  const silhouettePinned = silhouettePinnedCodes.map(code => visibleMap.get(code)).filter(Boolean);
   const ancPinned = ancPinnedCodes.map(code => visibleMap.get(code)).filter(Boolean);
-  const ancSet = new Set(ancPinned.map(codeOf));
+  const pinnedSet = new Set([...silhouettePinned, ...ancPinned].map(codeOf));
   const existingFresh = chooseUniqueByDesignGroup(
-    sortProducts(visible.filter(p => isAugustNewProduct(p) && !ancSet.has(codeOf(p)))),
+    sortProducts(visible.filter(p => isAugustNewProduct(p) && !pinnedSet.has(codeOf(p)))),
     8
   );
-  return [...ancPinned, ...existingFresh];
+  return [...silhouettePinned, ...ancPinned, ...existingFresh];
 }
 const SILHOUETTE_N260035_MANNEQUIN = 'Silhouette/N260035/N260035_1.jpg';
 function appendSilhouetteMannequinCut(p) {
