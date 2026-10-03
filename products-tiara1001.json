@@ -1,0 +1,4118 @@
+[
+  {
+    "code": "T179",
+    "customerCode": "T179",
+    "sourceCode": "T179 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T179 TPS",
+    "name": "화이트 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "storeName": "화이트 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "productName": "화이트 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 108000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+    "cardImage": "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS2.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS3.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS4.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS5.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS6.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS7.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS8.jpg",
+      "product/tiara1001/T179 TPS/T179 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS2.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS3.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS4.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS5.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS6.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS7.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS8.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T179 TPS/T179 TPS9.jpg",
+        "source": "product/tiara1001/T179 TPS/T179 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "화이트/블랙",
+      "T179"
+    ],
+    "searchKeywords": [
+      "T179",
+      "티아라",
+      "투피스",
+      "화이트/블랙",
+      "화이트 랩셔링 탑 & 더블벨트 레더 미니 투피스"
+    ],
+    "desc": "부드럽게 흐르는 랩 스타일 화이트 탑과 블랙 레더 무드 미니스커트의 조합. 허리의 더블 벨트와 포켓 디테일이 포인트가 되어 시크하고 세련된 실루엣을 연출합니다.",
+    "description": "부드럽게 흐르는 랩 스타일 화이트 탑과 블랙 레더 무드 미니스커트의 조합. 허리의 더블 벨트와 포켓 디테일이 포인트가 되어 시크하고 세련된 실루엣을 연출합니다.",
+    "mainCopy": "부드럽게 흐르는 랩 스타일 화이트 탑과 블랙 레더 무드 미니스커트의 조합. 허리의 더블 벨트와 포켓 디테일이 포인트가 되어 시크하고 세련된 실루엣을 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트/블랙",
+    "color": "화이트/블랙",
+    "componentPrices": [
+      {
+        "name": "상의",
+        "price": 45000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 상의 45,000원 / 스커트 63,000원",
+    "designGroupId": "TIA-T179-T180"
+  },
+  {
+    "code": "T180",
+    "customerCode": "T180",
+    "sourceCode": "T180 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T180 TPS",
+    "name": "아이보리 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "storeName": "아이보리 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "productName": "아이보리 랩셔링 탑 & 더블벨트 레더 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 108000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+    "cardImage": "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS2.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS3.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS4.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS5.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS6.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS7.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS8.jpg",
+      "product/tiara1001/T180 TPS/T180 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS2.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS3.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS4.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS5.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS6.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS7.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS8.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T180 TPS/T180 TPS9.jpg",
+        "source": "product/tiara1001/T180 TPS/T180 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "아이보리/블랙",
+      "T180"
+    ],
+    "searchKeywords": [
+      "T180",
+      "티아라",
+      "투피스",
+      "아이보리/블랙",
+      "아이보리 랩셔링 탑 & 더블벨트 레더 미니 투피스"
+    ],
+    "desc": "차분한 아이보리 랩 탑에 블랙 레더 무드 스커트를 매치한 투피스. 여성스러운 상의와 구조적인 벨트 스커트가 대비되어 고급스러운 섹시미가 돋보입니다.",
+    "description": "차분한 아이보리 랩 탑에 블랙 레더 무드 스커트를 매치한 투피스. 여성스러운 상의와 구조적인 벨트 스커트가 대비되어 고급스러운 섹시미가 돋보입니다.",
+    "mainCopy": "차분한 아이보리 랩 탑에 블랙 레더 무드 스커트를 매치한 투피스. 여성스러운 상의와 구조적인 벨트 스커트가 대비되어 고급스러운 섹시미가 돋보입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리/블랙",
+    "color": "아이보리/블랙",
+    "componentPrices": [
+      {
+        "name": "상의",
+        "price": 45000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 상의 45,000원 / 스커트 63,000원",
+    "designGroupId": "TIA-T179-T180"
+  },
+  {
+    "code": "T181",
+    "customerCode": "T181",
+    "sourceCode": "T181",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T181",
+    "name": "화이트 크로스 비즈 밴디지 미니원피스",
+    "storeName": "화이트 크로스 비즈 밴디지 미니원피스",
+    "productName": "화이트 크로스 비즈 밴디지 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 81000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T181/T1811.jpg",
+    "thumbImage": "product/tiara1001/T181/T1811.jpg",
+    "cardImage": "product/tiara1001/T181/T1811.jpg",
+    "images": [
+      "product/tiara1001/T181/T1811.jpg",
+      "product/tiara1001/T181/T1812.jpg",
+      "product/tiara1001/T181/T1813.jpg",
+      "product/tiara1001/T181/T1814.jpg",
+      "product/tiara1001/T181/T1815.jpg",
+      "product/tiara1001/T181/T1816.jpg",
+      "product/tiara1001/T181/T1817.jpg",
+      "product/tiara1001/T181/T1818.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T181/T1811.jpg",
+        "source": "product/tiara1001/T181/T1811.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T181/T1812.jpg",
+        "source": "product/tiara1001/T181/T1812.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T181/T1813.jpg",
+        "source": "product/tiara1001/T181/T1813.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T181/T1814.jpg",
+        "source": "product/tiara1001/T181/T1814.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T181/T1815.jpg",
+        "source": "product/tiara1001/T181/T1815.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T181/T1816.jpg",
+        "source": "product/tiara1001/T181/T1816.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T181/T1817.jpg",
+        "source": "product/tiara1001/T181/T1817.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T181/T1818.jpg",
+        "source": "product/tiara1001/T181/T1818.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "화이트",
+      "T181"
+    ],
+    "searchKeywords": [
+      "T181",
+      "티아라",
+      "원피스",
+      "화이트",
+      "화이트 크로스 비즈 밴디지 미니원피스"
+    ],
+    "desc": "가슴선을 감싸는 크로스 디자인과 전체적으로 촘촘하게 장식된 비즈 디테일이 돋보이는 미니원피스. 바디라인을 강조하는 슬림 실루엣으로 화려한 무대·파티룩에 잘 어울립니다.",
+    "description": "가슴선을 감싸는 크로스 디자인과 전체적으로 촘촘하게 장식된 비즈 디테일이 돋보이는 미니원피스. 바디라인을 강조하는 슬림 실루엣으로 화려한 무대·파티룩에 잘 어울립니다.",
+    "mainCopy": "가슴선을 감싸는 크로스 디자인과 전체적으로 촘촘하게 장식된 비즈 디테일이 돋보이는 미니원피스. 바디라인을 강조하는 슬림 실루엣으로 화려한 무대·파티룩에 잘 어울립니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트",
+    "color": "화이트",
+    "designGroupId": "TIA-T181-T182"
+  },
+  {
+    "code": "T182",
+    "customerCode": "T182",
+    "sourceCode": "T182",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T182",
+    "name": "블랙 크로스 비즈 밴디지 미니원피스",
+    "storeName": "블랙 크로스 비즈 밴디지 미니원피스",
+    "productName": "블랙 크로스 비즈 밴디지 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 81000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T182/T1821.jpg",
+    "thumbImage": "product/tiara1001/T182/T1821.jpg",
+    "cardImage": "product/tiara1001/T182/T1821.jpg",
+    "images": [
+      "product/tiara1001/T182/T1821.jpg",
+      "product/tiara1001/T182/T1822.jpg",
+      "product/tiara1001/T182/T1823.jpg",
+      "product/tiara1001/T182/T1824.jpg",
+      "product/tiara1001/T182/T1825.jpg",
+      "product/tiara1001/T182/T1826.jpg",
+      "product/tiara1001/T182/T1827.jpg",
+      "product/tiara1001/T182/T1828.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T182/T1821.jpg",
+        "source": "product/tiara1001/T182/T1821.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T182/T1822.jpg",
+        "source": "product/tiara1001/T182/T1822.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T182/T1823.jpg",
+        "source": "product/tiara1001/T182/T1823.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T182/T1824.jpg",
+        "source": "product/tiara1001/T182/T1824.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T182/T1825.jpg",
+        "source": "product/tiara1001/T182/T1825.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T182/T1826.jpg",
+        "source": "product/tiara1001/T182/T1826.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T182/T1827.jpg",
+        "source": "product/tiara1001/T182/T1827.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T182/T1828.jpg",
+        "source": "product/tiara1001/T182/T1828.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "블랙",
+      "T182"
+    ],
+    "searchKeywords": [
+      "T182",
+      "티아라",
+      "원피스",
+      "블랙",
+      "블랙 크로스 비즈 밴디지 미니원피스"
+    ],
+    "desc": "블랙 바탕 위 반짝이는 비즈 라인이 더해진 글램 미니원피스. 크로스된 바스트 디자인과 슬림한 핏이 실루엣을 또렷하게 살려줍니다.",
+    "description": "블랙 바탕 위 반짝이는 비즈 라인이 더해진 글램 미니원피스. 크로스된 바스트 디자인과 슬림한 핏이 실루엣을 또렷하게 살려줍니다.",
+    "mainCopy": "블랙 바탕 위 반짝이는 비즈 라인이 더해진 글램 미니원피스. 크로스된 바스트 디자인과 슬림한 핏이 실루엣을 또렷하게 살려줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "블랙",
+    "color": "블랙",
+    "designGroupId": "TIA-T181-T182"
+  },
+  {
+    "code": "T183",
+    "customerCode": "T183",
+    "sourceCode": "T183 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T183 TPS",
+    "name": "화이트 비즈 프릴 오프숄더 투피스",
+    "storeName": "화이트 비즈 프릴 오프숄더 투피스",
+    "productName": "화이트 비즈 프릴 오프숄더 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 135000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+    "cardImage": "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS2.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS3.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS4.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS5.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS6.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS7.jpg",
+      "product/tiara1001/T183 TPS/T183 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS2.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS3.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS4.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS5.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS6.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS7.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T183 TPS/T183 TPS8.jpg",
+        "source": "product/tiara1001/T183 TPS/T183 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "화이트",
+      "T183"
+    ],
+    "searchKeywords": [
+      "T183",
+      "티아라",
+      "투피스",
+      "화이트",
+      "화이트 비즈 프릴 오프숄더 투피스"
+    ],
+    "desc": "풍성한 프릴과 비즈 트리밍이 돋보이는 화이트 오프숄더 탑과 미니스커트 구성. 깨끗한 화이트 컬러에 화려한 장식이 더해져 무대와 행사룩으로 존재감 있는 스타일입니다.",
+    "description": "풍성한 프릴과 비즈 트리밍이 돋보이는 화이트 오프숄더 탑과 미니스커트 구성. 깨끗한 화이트 컬러에 화려한 장식이 더해져 무대와 행사룩으로 존재감 있는 스타일입니다.",
+    "mainCopy": "풍성한 프릴과 비즈 트리밍이 돋보이는 화이트 오프숄더 탑과 미니스커트 구성. 깨끗한 화이트 컬러에 화려한 장식이 더해져 무대와 행사룩으로 존재감 있는 스타일입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트",
+    "color": "화이트",
+    "componentPrices": [
+      {
+        "name": "상의",
+        "price": 72000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 상의 72,000원 / 스커트 63,000원",
+    "designGroupId": "TIA-T183-T185"
+  },
+  {
+    "code": "T184",
+    "customerCode": "T184",
+    "sourceCode": "T184 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T184 TPS",
+    "name": "아이보리 비즈 프릴 오프숄더 투피스",
+    "storeName": "아이보리 비즈 프릴 오프숄더 투피스",
+    "productName": "아이보리 비즈 프릴 오프숄더 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 135000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+    "cardImage": "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS2.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS3.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS4.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS5.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS6.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS7.jpg",
+      "product/tiara1001/T184 TPS/T184 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS2.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS3.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS4.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS5.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS6.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS7.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T184 TPS/T184 TPS8.jpg",
+        "source": "product/tiara1001/T184 TPS/T184 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "아이보리/베이지",
+      "T184"
+    ],
+    "searchKeywords": [
+      "T184",
+      "티아라",
+      "투피스",
+      "아이보리/베이지",
+      "아이보리 비즈 프릴 오프숄더 투피스"
+    ],
+    "desc": "아이보리 프릴 탑과 은은한 베이지톤 미니스커트가 조화를 이루는 여성스러운 투피스. 넥라인과 스커트 밑단의 비즈 장식이 고급스러운 포인트를 더합니다.",
+    "description": "아이보리 프릴 탑과 은은한 베이지톤 미니스커트가 조화를 이루는 여성스러운 투피스. 넥라인과 스커트 밑단의 비즈 장식이 고급스러운 포인트를 더합니다.",
+    "mainCopy": "아이보리 프릴 탑과 은은한 베이지톤 미니스커트가 조화를 이루는 여성스러운 투피스. 넥라인과 스커트 밑단의 비즈 장식이 고급스러운 포인트를 더합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리/베이지",
+    "color": "아이보리/베이지",
+    "componentPrices": [
+      {
+        "name": "상의",
+        "price": 72000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 상의 72,000원 / 스커트 63,000원",
+    "designGroupId": "TIA-T183-T185"
+  },
+  {
+    "code": "T185",
+    "customerCode": "T185",
+    "sourceCode": "T185 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T185 TPS",
+    "name": "블랙 비즈 프릴 오프숄더 투피스",
+    "storeName": "블랙 비즈 프릴 오프숄더 투피스",
+    "productName": "블랙 비즈 프릴 오프숄더 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 135000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+    "cardImage": "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS2.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS3.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS4.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS5.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS6.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS7.jpg",
+      "product/tiara1001/T185 TPS/T185 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS2.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS3.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS4.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS5.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS6.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS7.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T185 TPS/T185 TPS8.jpg",
+        "source": "product/tiara1001/T185 TPS/T185 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "블랙",
+      "T185"
+    ],
+    "searchKeywords": [
+      "T185",
+      "티아라",
+      "투피스",
+      "블랙",
+      "블랙 비즈 프릴 오프숄더 투피스"
+    ],
+    "desc": "블랙 프릴 오프숄더 탑과 슬림 미니스커트 구성. 넥라인과 스커트 밑단을 따라 장식된 비즈 디테일이 블랙 컬러에 화려함을 더해줍니다.",
+    "description": "블랙 프릴 오프숄더 탑과 슬림 미니스커트 구성. 넥라인과 스커트 밑단을 따라 장식된 비즈 디테일이 블랙 컬러에 화려함을 더해줍니다.",
+    "mainCopy": "블랙 프릴 오프숄더 탑과 슬림 미니스커트 구성. 넥라인과 스커트 밑단을 따라 장식된 비즈 디테일이 블랙 컬러에 화려함을 더해줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "블랙",
+    "color": "블랙",
+    "componentPrices": [
+      {
+        "name": "상의",
+        "price": 72000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 상의 72,000원 / 스커트 63,000원",
+    "designGroupId": "TIA-T183-T185"
+  },
+  {
+    "code": "T186",
+    "customerCode": "T186",
+    "sourceCode": "T186 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T186 TPS",
+    "name": "화이트 벨티드 트렌치 자켓 & 미니 투피스",
+    "storeName": "화이트 벨티드 트렌치 자켓 & 미니 투피스",
+    "productName": "화이트 벨티드 트렌치 자켓 & 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+    "cardImage": "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS2.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS3.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS4.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS5.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS6.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS7.jpg",
+      "product/tiara1001/T186 TPS/T186 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS2.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS3.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS4.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS5.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS6.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS7.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T186 TPS/T186 TPS8.jpg",
+        "source": "product/tiara1001/T186 TPS/T186 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "화이트",
+      "T186"
+    ],
+    "searchKeywords": [
+      "T186",
+      "티아라",
+      "투피스",
+      "화이트",
+      "화이트 벨티드 트렌치 자켓 & 미니 투피스"
+    ],
+    "desc": "트렌치 디자인을 짧고 여성스럽게 재해석한 화이트 투피스. 더블 버튼과 와이드 벨트가 허리선을 강조해 깔끔하면서도 세련된 실루엣을 완성합니다.",
+    "description": "트렌치 디자인을 짧고 여성스럽게 재해석한 화이트 투피스. 더블 버튼과 와이드 벨트가 허리선을 강조해 깔끔하면서도 세련된 실루엣을 완성합니다.",
+    "mainCopy": "트렌치 디자인을 짧고 여성스럽게 재해석한 화이트 투피스. 더블 버튼과 와이드 벨트가 허리선을 강조해 깔끔하면서도 세련된 실루엣을 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트",
+    "color": "화이트",
+    "designGroupId": "TIA-T186-T187"
+  },
+  {
+    "code": "T187",
+    "customerCode": "T187",
+    "sourceCode": "T187 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T187 TPS",
+    "name": "베이지 벨티드 트렌치 자켓 & 미니 투피스",
+    "storeName": "베이지 벨티드 트렌치 자켓 & 미니 투피스",
+    "productName": "베이지 벨티드 트렌치 자켓 & 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+    "cardImage": "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS2.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS3.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS4.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS5.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS6.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS7.jpg",
+      "product/tiara1001/T187 TPS/T187 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS2.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS3.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS4.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS5.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS6.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS7.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T187 TPS/T187 TPS8.jpg",
+        "source": "product/tiara1001/T187 TPS/T187 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "베이지",
+      "T187"
+    ],
+    "searchKeywords": [
+      "T187",
+      "티아라",
+      "투피스",
+      "베이지",
+      "베이지 벨티드 트렌치 자켓 & 미니 투피스"
+    ],
+    "desc": "클래식한 베이지 컬러의 크롭 트렌치 자켓과 미니스커트 세트. 허리를 잡아주는 벨트와 입체적인 페플럼 라인이 여성스러운 실루엣을 연출합니다.",
+    "description": "클래식한 베이지 컬러의 크롭 트렌치 자켓과 미니스커트 세트. 허리를 잡아주는 벨트와 입체적인 페플럼 라인이 여성스러운 실루엣을 연출합니다.",
+    "mainCopy": "클래식한 베이지 컬러의 크롭 트렌치 자켓과 미니스커트 세트. 허리를 잡아주는 벨트와 입체적인 페플럼 라인이 여성스러운 실루엣을 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "베이지",
+    "color": "베이지",
+    "designGroupId": "TIA-T186-T187"
+  },
+  {
+    "code": "T188",
+    "customerCode": "T188",
+    "sourceCode": "T188",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T188",
+    "name": "화이트 블랙라인 리본 니트 미니원피스",
+    "storeName": "화이트 블랙라인 리본 니트 미니원피스",
+    "productName": "화이트 블랙라인 리본 니트 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 72000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T188/T1881.jpg",
+    "thumbImage": "product/tiara1001/T188/T1881.jpg",
+    "cardImage": "product/tiara1001/T188/T1881.jpg",
+    "images": [
+      "product/tiara1001/T188/T1881.jpg",
+      "product/tiara1001/T188/T1882.jpg",
+      "product/tiara1001/T188/T1883.jpg",
+      "product/tiara1001/T188/T1884.jpg",
+      "product/tiara1001/T188/T1885.jpg",
+      "product/tiara1001/T188/T1886.jpg",
+      "product/tiara1001/T188/T1887.jpg",
+      "product/tiara1001/T188/T1888.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T188/T1881.jpg",
+        "source": "product/tiara1001/T188/T1881.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T188/T1882.jpg",
+        "source": "product/tiara1001/T188/T1882.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T188/T1883.jpg",
+        "source": "product/tiara1001/T188/T1883.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T188/T1884.jpg",
+        "source": "product/tiara1001/T188/T1884.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T188/T1885.jpg",
+        "source": "product/tiara1001/T188/T1885.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T188/T1886.jpg",
+        "source": "product/tiara1001/T188/T1886.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T188/T1887.jpg",
+        "source": "product/tiara1001/T188/T1887.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T188/T1888.jpg",
+        "source": "product/tiara1001/T188/T1888.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "화이트/블랙",
+      "T188"
+    ],
+    "searchKeywords": [
+      "T188",
+      "티아라",
+      "원피스",
+      "화이트/블랙",
+      "화이트 블랙라인 리본 니트 미니원피스"
+    ],
+    "desc": "화이트 니트에 블랙 배색과 골드 버튼을 더한 미니원피스. 네크라인의 플라워 리본과 포켓 디테일이 클래식하면서도 사랑스러운 분위기를 완성합니다.",
+    "description": "화이트 니트에 블랙 배색과 골드 버튼을 더한 미니원피스. 네크라인의 플라워 리본과 포켓 디테일이 클래식하면서도 사랑스러운 분위기를 완성합니다.",
+    "mainCopy": "화이트 니트에 블랙 배색과 골드 버튼을 더한 미니원피스. 네크라인의 플라워 리본과 포켓 디테일이 클래식하면서도 사랑스러운 분위기를 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트/블랙",
+    "color": "화이트/블랙"
+  },
+  {
+    "code": "T189",
+    "customerCode": "T189",
+    "sourceCode": "T189 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T189 TPS",
+    "name": "베이지 레이스 진주라인 자켓 & 미니원피스 세트",
+    "storeName": "베이지 레이스 진주라인 자켓 & 미니원피스 세트",
+    "productName": "베이지 레이스 진주라인 자켓 & 미니원피스 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+    "cardImage": "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS2.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS3.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS4.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS5.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS6.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS7.jpg",
+      "product/tiara1001/T189 TPS/T189 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS2.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS3.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS4.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS5.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS6.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS7.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T189 TPS/T189 TPS8.jpg",
+        "source": "product/tiara1001/T189 TPS/T189 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "베이지",
+      "T189"
+    ],
+    "searchKeywords": [
+      "T189",
+      "티아라",
+      "투피스",
+      "베이지",
+      "베이지 레이스 진주라인 자켓 & 미니원피스 세트"
+    ],
+    "desc": "네잎클로버 패턴과 진주 장식이 어우러진 고급스러운 베이지 투피스. 슬림 미니원피스와 크롭 자켓 조합으로 우아하면서도 글래머러스한 분위기를 연출합니다.",
+    "description": "네잎클로버 패턴과 진주 장식이 어우러진 고급스러운 베이지 투피스. 슬림 미니원피스와 크롭 자켓 조합으로 우아하면서도 글래머러스한 분위기를 연출합니다.",
+    "mainCopy": "네잎클로버 패턴과 진주 장식이 어우러진 고급스러운 베이지 투피스. 슬림 미니원피스와 크롭 자켓 조합으로 우아하면서도 글래머러스한 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "베이지",
+    "color": "베이지"
+  },
+  {
+    "code": "T190",
+    "customerCode": "T190",
+    "sourceCode": "T190 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T190 TPS",
+    "name": "핑크 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "storeName": "핑크 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "productName": "핑크 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+    "cardImage": "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS2.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS3.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS4.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS5.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS6.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS7.jpg",
+      "product/tiara1001/T190 TPS/T190 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS2.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS3.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS4.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS5.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS6.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS7.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T190 TPS/T190 TPS8.jpg",
+        "source": "product/tiara1001/T190 TPS/T190 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "핑크",
+      "T190"
+    ],
+    "searchKeywords": [
+      "T190",
+      "티아라",
+      "투피스",
+      "핑크",
+      "핑크 트위드 플라워버튼 베스트 & 플리츠 투피스"
+    ],
+    "desc": "은은하게 반짝이는 핑크 트위드 베스트와 플리츠 미니스커트 구성. 입체 플라워 버튼과 허리 벨트, 페플럼 라인이 사랑스럽고 화려한 포인트를 더합니다.",
+    "description": "은은하게 반짝이는 핑크 트위드 베스트와 플리츠 미니스커트 구성. 입체 플라워 버튼과 허리 벨트, 페플럼 라인이 사랑스럽고 화려한 포인트를 더합니다.",
+    "mainCopy": "은은하게 반짝이는 핑크 트위드 베스트와 플리츠 미니스커트 구성. 입체 플라워 버튼과 허리 벨트, 페플럼 라인이 사랑스럽고 화려한 포인트를 더합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크",
+    "color": "핑크",
+    "designGroupId": "TIA-T190-T191"
+  },
+  {
+    "code": "T191",
+    "customerCode": "T191",
+    "sourceCode": "T191 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T191 TPS",
+    "name": "그레이 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "storeName": "그레이 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "productName": "그레이 트위드 플라워버튼 베스트 & 플리츠 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+    "cardImage": "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS2.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS3.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS4.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS5.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS6.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS7.jpg",
+      "product/tiara1001/T191 TPS/T191 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS2.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS3.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS4.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS5.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS6.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS7.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T191 TPS/T191 TPS8.jpg",
+        "source": "product/tiara1001/T191 TPS/T191 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "그레이",
+      "T191"
+    ],
+    "searchKeywords": [
+      "T191",
+      "티아라",
+      "투피스",
+      "그레이",
+      "그레이 트위드 플라워버튼 베스트 & 플리츠 투피스"
+    ],
+    "desc": "그레이 트위드 베스트와 플리츠 스커트 세트. 플라워 버튼과 벨티드 허리, 페플럼 실루엣이 어우러져 여성스럽고 고급스러운 스타일입니다.",
+    "description": "그레이 트위드 베스트와 플리츠 스커트 세트. 플라워 버튼과 벨티드 허리, 페플럼 실루엣이 어우러져 여성스럽고 고급스러운 스타일입니다.",
+    "mainCopy": "그레이 트위드 베스트와 플리츠 스커트 세트. 플라워 버튼과 벨티드 허리, 페플럼 실루엣이 어우러져 여성스럽고 고급스러운 스타일입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "그레이",
+    "color": "그레이",
+    "designGroupId": "TIA-T190-T191"
+  },
+  {
+    "code": "T192",
+    "customerCode": "T192",
+    "sourceCode": "T192 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T192 TPS",
+    "name": "아이보리 세일러 니트 & 네이비 플리츠 투피스",
+    "storeName": "아이보리 세일러 니트 & 네이비 플리츠 투피스",
+    "productName": "아이보리 세일러 니트 & 네이비 플리츠 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 86000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+    "cardImage": "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS2.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS3.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS4.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS5.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS6.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS7.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS8.jpg",
+      "product/tiara1001/T192 TPS/T192 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS2.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS3.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS4.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS5.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS6.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS7.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS8.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T192 TPS/T192 TPS9.jpg",
+        "source": "product/tiara1001/T192 TPS/T192 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "아이보리/네이비",
+      "T192"
+    ],
+    "searchKeywords": [
+      "T192",
+      "티아라",
+      "투피스",
+      "아이보리/네이비",
+      "아이보리 세일러 니트 & 네이비 플리츠 투피스"
+    ],
+    "desc": "아이보리 세일러 카라 니트와 네이비 플리츠 미니스커트 구성. 배색 라인과 장식 버튼이 더해져 깔끔하면서도 발랄한 프레피 무드를 연출합니다.",
+    "description": "아이보리 세일러 카라 니트와 네이비 플리츠 미니스커트 구성. 배색 라인과 장식 버튼이 더해져 깔끔하면서도 발랄한 프레피 무드를 연출합니다.",
+    "mainCopy": "아이보리 세일러 카라 니트와 네이비 플리츠 미니스커트 구성. 배색 라인과 장식 버튼이 더해져 깔끔하면서도 발랄한 프레피 무드를 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리/네이비",
+    "color": "아이보리/네이비",
+    "designGroupId": "TIA-T192-T194"
+  },
+  {
+    "code": "T193",
+    "customerCode": "T193",
+    "sourceCode": "T193 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T193 TPS",
+    "name": "네이비 세일러 니트 & 플리츠 투피스",
+    "storeName": "네이비 세일러 니트 & 플리츠 투피스",
+    "productName": "네이비 세일러 니트 & 플리츠 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 86000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+    "cardImage": "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS2.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS3.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS4.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS5.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS6.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS7.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS8.jpg",
+      "product/tiara1001/T193 TPS/T193 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS2.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS3.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS4.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS5.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS6.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS7.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS8.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T193 TPS/T193 TPS9.jpg",
+        "source": "product/tiara1001/T193 TPS/T193 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "네이비",
+      "T193"
+    ],
+    "searchKeywords": [
+      "T193",
+      "티아라",
+      "투피스",
+      "네이비",
+      "네이비 세일러 니트 & 플리츠 투피스"
+    ],
+    "desc": "네이비 컬러로 통일한 세일러 니트와 플리츠 스커트 세트. 화이트 배색 라인이 얼굴과 상체를 또렷하게 살려주는 클래식 프레피 스타일입니다.",
+    "description": "네이비 컬러로 통일한 세일러 니트와 플리츠 스커트 세트. 화이트 배색 라인이 얼굴과 상체를 또렷하게 살려주는 클래식 프레피 스타일입니다.",
+    "mainCopy": "네이비 컬러로 통일한 세일러 니트와 플리츠 스커트 세트. 화이트 배색 라인이 얼굴과 상체를 또렷하게 살려주는 클래식 프레피 스타일입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "네이비",
+    "color": "네이비",
+    "designGroupId": "TIA-T192-T194"
+  },
+  {
+    "code": "T194",
+    "customerCode": "T194",
+    "sourceCode": "T194 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T194 TPS",
+    "name": "그레이 세일러 니트 & 플리츠 투피스",
+    "storeName": "그레이 세일러 니트 & 플리츠 투피스",
+    "productName": "그레이 세일러 니트 & 플리츠 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 86000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+    "cardImage": "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS2.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS3.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS4.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS5.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS6.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS7.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS8.jpg",
+      "product/tiara1001/T194 TPS/T194 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS2.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS3.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS4.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS5.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS6.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS7.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS8.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T194 TPS/T194 TPS9.jpg",
+        "source": "product/tiara1001/T194 TPS/T194 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "그레이",
+      "T194"
+    ],
+    "searchKeywords": [
+      "T194",
+      "티아라",
+      "투피스",
+      "그레이",
+      "그레이 세일러 니트 & 플리츠 투피스"
+    ],
+    "desc": "차분한 그레이 컬러의 세일러 니트와 플리츠 미니스커트 구성. 네이비 배색과 골드 버튼을 더해 단정하면서도 세련된 분위기를 완성합니다.",
+    "description": "차분한 그레이 컬러의 세일러 니트와 플리츠 미니스커트 구성. 네이비 배색과 골드 버튼을 더해 단정하면서도 세련된 분위기를 완성합니다.",
+    "mainCopy": "차분한 그레이 컬러의 세일러 니트와 플리츠 미니스커트 구성. 네이비 배색과 골드 버튼을 더해 단정하면서도 세련된 분위기를 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "그레이",
+    "color": "그레이",
+    "designGroupId": "TIA-T192-T194"
+  },
+  {
+    "code": "T195",
+    "customerCode": "T195",
+    "sourceCode": "T195",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T195",
+    "name": "베이지 스트라이프 셔츠 레이스 랩 미니원피스",
+    "storeName": "베이지 스트라이프 셔츠 레이스 랩 미니원피스",
+    "productName": "베이지 스트라이프 셔츠 레이스 랩 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T195/T1951.jpg",
+    "thumbImage": "product/tiara1001/T195/T1951.jpg",
+    "cardImage": "product/tiara1001/T195/T1951.jpg",
+    "images": [
+      "product/tiara1001/T195/T1951.jpg",
+      "product/tiara1001/T195/T1952.jpg",
+      "product/tiara1001/T195/T1953.jpg",
+      "product/tiara1001/T195/T1954.jpg",
+      "product/tiara1001/T195/T1955.jpg",
+      "product/tiara1001/T195/T1956.jpg",
+      "product/tiara1001/T195/T1957.jpg",
+      "product/tiara1001/T195/T1958.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T195/T1951.jpg",
+        "source": "product/tiara1001/T195/T1951.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T195/T1952.jpg",
+        "source": "product/tiara1001/T195/T1952.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T195/T1953.jpg",
+        "source": "product/tiara1001/T195/T1953.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T195/T1954.jpg",
+        "source": "product/tiara1001/T195/T1954.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T195/T1955.jpg",
+        "source": "product/tiara1001/T195/T1955.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T195/T1956.jpg",
+        "source": "product/tiara1001/T195/T1956.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T195/T1957.jpg",
+        "source": "product/tiara1001/T195/T1957.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T195/T1958.jpg",
+        "source": "product/tiara1001/T195/T1958.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "베이지",
+      "T195"
+    ],
+    "searchKeywords": [
+      "T195",
+      "티아라",
+      "원피스",
+      "베이지",
+      "베이지 스트라이프 셔츠 레이스 랩 미니원피스"
+    ],
+    "desc": "셔츠 디자인과 랩 스커트를 하나로 연결한 듯한 미니원피스. 밑단의 화이트 레이스가 은근한 여성미를 더하고 허리 셔링이 슬림한 실루엣을 만들어줍니다.",
+    "description": "셔츠 디자인과 랩 스커트를 하나로 연결한 듯한 미니원피스. 밑단의 화이트 레이스가 은근한 여성미를 더하고 허리 셔링이 슬림한 실루엣을 만들어줍니다.",
+    "mainCopy": "셔츠 디자인과 랩 스커트를 하나로 연결한 듯한 미니원피스. 밑단의 화이트 레이스가 은근한 여성미를 더하고 허리 셔링이 슬림한 실루엣을 만들어줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "베이지",
+    "color": "베이지",
+    "designGroupId": "TIA-T195-T197"
+  },
+  {
+    "code": "T196",
+    "customerCode": "T196",
+    "sourceCode": "T196",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T196",
+    "name": "핑크 스트라이프 셔츠 레이스 랩 미니원피스",
+    "storeName": "핑크 스트라이프 셔츠 레이스 랩 미니원피스",
+    "productName": "핑크 스트라이프 셔츠 레이스 랩 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T196/T1961.jpg",
+    "thumbImage": "product/tiara1001/T196/T1961.jpg",
+    "cardImage": "product/tiara1001/T196/T1961.jpg",
+    "images": [
+      "product/tiara1001/T196/T1961.jpg",
+      "product/tiara1001/T196/T1962.jpg",
+      "product/tiara1001/T196/T1963.jpg",
+      "product/tiara1001/T196/T1964.jpg",
+      "product/tiara1001/T196/T1965.jpg",
+      "product/tiara1001/T196/T1966.jpg",
+      "product/tiara1001/T196/T1967.jpg",
+      "product/tiara1001/T196/T1968.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T196/T1961.jpg",
+        "source": "product/tiara1001/T196/T1961.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T196/T1962.jpg",
+        "source": "product/tiara1001/T196/T1962.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T196/T1963.jpg",
+        "source": "product/tiara1001/T196/T1963.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T196/T1964.jpg",
+        "source": "product/tiara1001/T196/T1964.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T196/T1965.jpg",
+        "source": "product/tiara1001/T196/T1965.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T196/T1966.jpg",
+        "source": "product/tiara1001/T196/T1966.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T196/T1967.jpg",
+        "source": "product/tiara1001/T196/T1967.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T196/T1968.jpg",
+        "source": "product/tiara1001/T196/T1968.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "핑크",
+      "T196"
+    ],
+    "searchKeywords": [
+      "T196",
+      "티아라",
+      "원피스",
+      "핑크",
+      "핑크 스트라이프 셔츠 레이스 랩 미니원피스"
+    ],
+    "desc": "은은한 핑크 스트라이프 셔츠 디자인에 레이스 밑단을 더한 미니원피스. 허리와 힙을 감싸는 랩 디테일이 여성스러운 라인을 강조합니다.",
+    "description": "은은한 핑크 스트라이프 셔츠 디자인에 레이스 밑단을 더한 미니원피스. 허리와 힙을 감싸는 랩 디테일이 여성스러운 라인을 강조합니다.",
+    "mainCopy": "은은한 핑크 스트라이프 셔츠 디자인에 레이스 밑단을 더한 미니원피스. 허리와 힙을 감싸는 랩 디테일이 여성스러운 라인을 강조합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크",
+    "color": "핑크",
+    "designGroupId": "TIA-T195-T197"
+  },
+  {
+    "code": "T197",
+    "customerCode": "T197",
+    "sourceCode": "T197",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T197",
+    "name": "소라그레이 스트라이프 셔츠 레이스 랩 미니원피스",
+    "storeName": "소라그레이 스트라이프 셔츠 레이스 랩 미니원피스",
+    "productName": "소라그레이 스트라이프 셔츠 레이스 랩 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 153000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T197/T1971.jpg",
+    "thumbImage": "product/tiara1001/T197/T1971.jpg",
+    "cardImage": "product/tiara1001/T197/T1971.jpg",
+    "images": [
+      "product/tiara1001/T197/T1971.jpg",
+      "product/tiara1001/T197/T1972.jpg",
+      "product/tiara1001/T197/T1973.jpg",
+      "product/tiara1001/T197/T1974.jpg",
+      "product/tiara1001/T197/T1975.jpg",
+      "product/tiara1001/T197/T1976.jpg",
+      "product/tiara1001/T197/T1977.jpg",
+      "product/tiara1001/T197/T1978.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T197/T1971.jpg",
+        "source": "product/tiara1001/T197/T1971.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T197/T1972.jpg",
+        "source": "product/tiara1001/T197/T1972.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T197/T1973.jpg",
+        "source": "product/tiara1001/T197/T1973.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T197/T1974.jpg",
+        "source": "product/tiara1001/T197/T1974.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T197/T1975.jpg",
+        "source": "product/tiara1001/T197/T1975.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T197/T1976.jpg",
+        "source": "product/tiara1001/T197/T1976.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T197/T1977.jpg",
+        "source": "product/tiara1001/T197/T1977.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T197/T1978.jpg",
+        "source": "product/tiara1001/T197/T1978.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "소라그레이",
+      "T197"
+    ],
+    "searchKeywords": [
+      "T197",
+      "티아라",
+      "원피스",
+      "소라그레이",
+      "소라그레이 스트라이프 셔츠 레이스 랩 미니원피스"
+    ],
+    "desc": "세련된 소라그레이 스트라이프와 화이트 레이스를 조합한 셔츠형 미니원피스. 단정한 상의와 슬림한 랩 스커트 라인의 대비가 매력적인 제품입니다.",
+    "description": "세련된 소라그레이 스트라이프와 화이트 레이스를 조합한 셔츠형 미니원피스. 단정한 상의와 슬림한 랩 스커트 라인의 대비가 매력적인 제품입니다.",
+    "mainCopy": "세련된 소라그레이 스트라이프와 화이트 레이스를 조합한 셔츠형 미니원피스. 단정한 상의와 슬림한 랩 스커트 라인의 대비가 매력적인 제품입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "소라그레이",
+    "color": "소라그레이",
+    "designGroupId": "TIA-T195-T197"
+  },
+  {
+    "code": "T198",
+    "customerCode": "T198",
+    "sourceCode": "T198",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T198",
+    "name": "아이보리 카라 브로치 트위드 미니원피스",
+    "storeName": "아이보리 카라 브로치 트위드 미니원피스",
+    "productName": "아이보리 카라 브로치 트위드 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 88000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T198/T1981.jpg",
+    "thumbImage": "product/tiara1001/T198/T1981.jpg",
+    "cardImage": "product/tiara1001/T198/T1981.jpg",
+    "images": [
+      "product/tiara1001/T198/T1981.jpg",
+      "product/tiara1001/T198/T1982.jpg",
+      "product/tiara1001/T198/T1983.jpg",
+      "product/tiara1001/T198/T1984.jpg",
+      "product/tiara1001/T198/T1985.jpg",
+      "product/tiara1001/T198/T1986.jpg",
+      "product/tiara1001/T198/T1987.jpg",
+      "product/tiara1001/T198/T1988.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T198/T1981.jpg",
+        "source": "product/tiara1001/T198/T1981.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T198/T1982.jpg",
+        "source": "product/tiara1001/T198/T1982.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T198/T1983.jpg",
+        "source": "product/tiara1001/T198/T1983.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T198/T1984.jpg",
+        "source": "product/tiara1001/T198/T1984.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T198/T1985.jpg",
+        "source": "product/tiara1001/T198/T1985.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T198/T1986.jpg",
+        "source": "product/tiara1001/T198/T1986.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T198/T1987.jpg",
+        "source": "product/tiara1001/T198/T1987.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T198/T1988.jpg",
+        "source": "product/tiara1001/T198/T1988.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "아이보리",
+      "T198"
+    ],
+    "searchKeywords": [
+      "T198",
+      "티아라",
+      "원피스",
+      "아이보리",
+      "아이보리 카라 브로치 트위드 미니원피스"
+    ],
+    "desc": "아이보리 트위드 바디에 화이트 카라와 주얼 브로치를 더한 미니원피스. 군더더기 없는 슬림 A라인으로 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "description": "아이보리 트위드 바디에 화이트 카라와 주얼 브로치를 더한 미니원피스. 군더더기 없는 슬림 A라인으로 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "mainCopy": "아이보리 트위드 바디에 화이트 카라와 주얼 브로치를 더한 미니원피스. 군더더기 없는 슬림 A라인으로 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리",
+    "color": "아이보리",
+    "designGroupId": "TIA-T198-T199"
+  },
+  {
+    "code": "T199",
+    "customerCode": "T199",
+    "sourceCode": "T199",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T199",
+    "name": "핑크 카라 브로치 트위드 미니원피스",
+    "storeName": "핑크 카라 브로치 트위드 미니원피스",
+    "productName": "핑크 카라 브로치 트위드 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 88000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T199/T1991.jpg",
+    "thumbImage": "product/tiara1001/T199/T1991.jpg",
+    "cardImage": "product/tiara1001/T199/T1991.jpg",
+    "images": [
+      "product/tiara1001/T199/T1991.jpg",
+      "product/tiara1001/T199/T1992.jpg",
+      "product/tiara1001/T199/T1993.jpg",
+      "product/tiara1001/T199/T1994.jpg",
+      "product/tiara1001/T199/T1995.jpg",
+      "product/tiara1001/T199/T1996.jpg",
+      "product/tiara1001/T199/T1997.jpg",
+      "product/tiara1001/T199/T1998.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T199/T1991.jpg",
+        "source": "product/tiara1001/T199/T1991.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T199/T1992.jpg",
+        "source": "product/tiara1001/T199/T1992.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T199/T1993.jpg",
+        "source": "product/tiara1001/T199/T1993.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T199/T1994.jpg",
+        "source": "product/tiara1001/T199/T1994.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T199/T1995.jpg",
+        "source": "product/tiara1001/T199/T1995.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T199/T1996.jpg",
+        "source": "product/tiara1001/T199/T1996.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T199/T1997.jpg",
+        "source": "product/tiara1001/T199/T1997.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T199/T1998.jpg",
+        "source": "product/tiara1001/T199/T1998.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "핑크",
+      "T199"
+    ],
+    "searchKeywords": [
+      "T199",
+      "티아라",
+      "원피스",
+      "핑크",
+      "핑크 카라 브로치 트위드 미니원피스"
+    ],
+    "desc": "부드러운 핑크 트위드와 배색 카라가 돋보이는 미니원피스. 중앙의 주얼 브로치와 버튼 디테일이 사랑스러운 룩에 고급스러운 포인트를 더합니다.",
+    "description": "부드러운 핑크 트위드와 배색 카라가 돋보이는 미니원피스. 중앙의 주얼 브로치와 버튼 디테일이 사랑스러운 룩에 고급스러운 포인트를 더합니다.",
+    "mainCopy": "부드러운 핑크 트위드와 배색 카라가 돋보이는 미니원피스. 중앙의 주얼 브로치와 버튼 디테일이 사랑스러운 룩에 고급스러운 포인트를 더합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크",
+    "color": "핑크",
+    "designGroupId": "TIA-T198-T199"
+  },
+  {
+    "code": "T200",
+    "customerCode": "T200",
+    "sourceCode": "T200 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T200 3PS",
+    "name": "화이트 & 그레이 후드집업 3피스 세트",
+    "storeName": "화이트 & 그레이 후드집업 3피스 세트",
+    "productName": "화이트 & 그레이 후드집업 3피스 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+    "thumbImage": "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+    "cardImage": "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+    "images": [
+      "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS2.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS3.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS4.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS5.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS6.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS7.jpg",
+      "product/tiara1001/T200 3PS/T200 3PS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS2.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS3.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS4.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS5.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS6.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS7.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T200 3PS/T200 3PS8.jpg",
+        "source": "product/tiara1001/T200 3PS/T200 3PS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "화이트/그레이",
+      "T200"
+    ],
+    "searchKeywords": [
+      "T200",
+      "티아라",
+      "3피스",
+      "화이트/그레이",
+      "화이트 & 그레이 후드집업 3피스 세트"
+    ],
+    "desc": "화이트 크롭 후드집업과 그레이 이너, 와이드 팬츠로 구성된 3피스. 허리 배색과 스트링 디테일이 캐주얼한 셋업에 슬림하고 세련된 느낌을 더합니다.",
+    "description": "화이트 크롭 후드집업과 그레이 이너, 와이드 팬츠로 구성된 3피스. 허리 배색과 스트링 디테일이 캐주얼한 셋업에 슬림하고 세련된 느낌을 더합니다.",
+    "mainCopy": "화이트 크롭 후드집업과 그레이 이너, 와이드 팬츠로 구성된 3피스. 허리 배색과 스트링 디테일이 캐주얼한 셋업에 슬림하고 세련된 느낌을 더합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트/그레이",
+    "color": "화이트/그레이",
+    "designGroupId": "TIA-T200-T203"
+  },
+  {
+    "code": "T201",
+    "customerCode": "T201",
+    "sourceCode": "T201 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T201 3PS",
+    "name": "스카이블루 & 화이트 후드집업 3피스 세트",
+    "storeName": "스카이블루 & 화이트 후드집업 3피스 세트",
+    "productName": "스카이블루 & 화이트 후드집업 3피스 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+    "thumbImage": "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+    "cardImage": "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+    "images": [
+      "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS2.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS3.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS4.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS5.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS6.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS7.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS8.jpg",
+      "product/tiara1001/T201 3PS/T201 3PS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS2.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS3.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS4.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS5.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS6.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS7.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS8.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T201 3PS/T201 3PS9.jpg",
+        "source": "product/tiara1001/T201 3PS/T201 3PS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "스카이블루/화이트",
+      "T201"
+    ],
+    "searchKeywords": [
+      "T201",
+      "티아라",
+      "3피스",
+      "스카이블루/화이트",
+      "스카이블루 & 화이트 후드집업 3피스 세트"
+    ],
+    "desc": "부드러운 스카이블루 후드집업과 화이트 이너, 팬츠 구성의 3피스. 여성스러운 컬러와 편안한 실루엣을 함께 살린 스타일리시한 셋업입니다.",
+    "description": "부드러운 스카이블루 후드집업과 화이트 이너, 팬츠 구성의 3피스. 여성스러운 컬러와 편안한 실루엣을 함께 살린 스타일리시한 셋업입니다.",
+    "mainCopy": "부드러운 스카이블루 후드집업과 화이트 이너, 팬츠 구성의 3피스. 여성스러운 컬러와 편안한 실루엣을 함께 살린 스타일리시한 셋업입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "스카이블루/화이트",
+    "color": "스카이블루/화이트",
+    "designGroupId": "TIA-T200-T203"
+  },
+  {
+    "code": "T202",
+    "customerCode": "T202",
+    "sourceCode": "T202 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T202 3PS",
+    "name": "브라운 & 아이보리 후드집업 3피스 세트",
+    "storeName": "브라운 & 아이보리 후드집업 3피스 세트",
+    "productName": "브라운 & 아이보리 후드집업 3피스 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+    "thumbImage": "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+    "cardImage": "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+    "images": [
+      "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS2.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS3.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS4.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS5.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS6.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS7.jpg",
+      "product/tiara1001/T202 3PS/T202 3PS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS2.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS3.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS4.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS5.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS6.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS7.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T202 3PS/T202 3PS8.jpg",
+        "source": "product/tiara1001/T202 3PS/T202 3PS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "브라운/아이보리",
+      "T202"
+    ],
+    "searchKeywords": [
+      "T202",
+      "티아라",
+      "3피스",
+      "브라운/아이보리",
+      "브라운 & 아이보리 후드집업 3피스 세트"
+    ],
+    "desc": "딥 브라운 후드집업과 아이보리 이너 배색이 돋보이는 3피스. 팬츠 허리까지 컬러 대비를 연결해 세련되고 날씬해 보이는 스포티 룩을 완성합니다.",
+    "description": "딥 브라운 후드집업과 아이보리 이너 배색이 돋보이는 3피스. 팬츠 허리까지 컬러 대비를 연결해 세련되고 날씬해 보이는 스포티 룩을 완성합니다.",
+    "mainCopy": "딥 브라운 후드집업과 아이보리 이너 배색이 돋보이는 3피스. 팬츠 허리까지 컬러 대비를 연결해 세련되고 날씬해 보이는 스포티 룩을 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "브라운/아이보리",
+    "color": "브라운/아이보리",
+    "designGroupId": "TIA-T200-T203"
+  },
+  {
+    "code": "T203",
+    "customerCode": "T203",
+    "sourceCode": "T203 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T203 3PS",
+    "name": "네이비 & 그레이 후드집업 3피스 세트",
+    "storeName": "네이비 & 그레이 후드집업 3피스 세트",
+    "productName": "네이비 & 그레이 후드집업 3피스 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 104000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+    "thumbImage": "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+    "cardImage": "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+    "images": [
+      "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS2.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS3.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS4.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS5.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS6.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS7.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS8.jpg",
+      "product/tiara1001/T203 3PS/T203 3PS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS2.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS3.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS4.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS5.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS6.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS7.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS8.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T203 3PS/T203 3PS9.jpg",
+        "source": "product/tiara1001/T203 3PS/T203 3PS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "네이비/그레이",
+      "T203"
+    ],
+    "searchKeywords": [
+      "T203",
+      "티아라",
+      "3피스",
+      "네이비/그레이",
+      "네이비 & 그레이 후드집업 3피스 세트"
+    ],
+    "desc": "네이비 크롭 후드집업에 그레이 이너와 배색 허리 팬츠를 구성한 3피스. 편안한 스타일에 컬러 대비를 더해 도시적이고 시크한 분위기를 연출합니다.",
+    "description": "네이비 크롭 후드집업에 그레이 이너와 배색 허리 팬츠를 구성한 3피스. 편안한 스타일에 컬러 대비를 더해 도시적이고 시크한 분위기를 연출합니다.",
+    "mainCopy": "네이비 크롭 후드집업에 그레이 이너와 배색 허리 팬츠를 구성한 3피스. 편안한 스타일에 컬러 대비를 더해 도시적이고 시크한 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "네이비/그레이",
+    "color": "네이비/그레이",
+    "designGroupId": "TIA-T200-T203"
+  },
+  {
+    "code": "T204",
+    "customerCode": "T204",
+    "sourceCode": "T204 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T204 3PS",
+    "name": "베이지 셔츠 & 니트숄 미니 3피스",
+    "storeName": "베이지 셔츠 & 니트숄 미니 3피스",
+    "productName": "베이지 셔츠 & 니트숄 미니 3피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": null,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+    "thumbImage": "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+    "cardImage": "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+    "images": [
+      "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS2.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS3.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS4.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS5.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS6.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS7.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS8.jpg",
+      "product/tiara1001/T204 3PS/T204 3PS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS2.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS3.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS4.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS5.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS6.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS7.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS8.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T204 3PS/T204 3PS9.jpg",
+        "source": "product/tiara1001/T204 3PS/T204 3PS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "베이지",
+      "T204"
+    ],
+    "searchKeywords": [
+      "T204",
+      "티아라",
+      "3피스",
+      "베이지",
+      "베이지 셔츠 & 니트숄 미니 3피스"
+    ],
+    "desc": "베이지 셔츠와 미니스커트에 니트 숄을 더한 3피스 구성. 차분한 컬러와 클래식한 셔츠 디자인이 어우러져 자연스럽고 세련된 데일리 셋업입니다.",
+    "description": "베이지 셔츠와 미니스커트에 니트 숄을 더한 3피스 구성. 차분한 컬러와 클래식한 셔츠 디자인이 어우러져 자연스럽고 세련된 데일리 셋업입니다.",
+    "mainCopy": "베이지 셔츠와 미니스커트에 니트 숄을 더한 3피스 구성. 차분한 컬러와 클래식한 셔츠 디자인이 어우러져 자연스럽고 세련된 데일리 셋업입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "베이지",
+    "color": "베이지",
+    "designGroupId": "TIA-T204-T205"
+  },
+  {
+    "code": "T205",
+    "customerCode": "T205",
+    "sourceCode": "T205 3PS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T205 3PS",
+    "name": "블루 셔츠 & 네이비 니트숄 미니 3피스",
+    "storeName": "블루 셔츠 & 네이비 니트숄 미니 3피스",
+    "productName": "블루 셔츠 & 네이비 니트숄 미니 3피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": null,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+    "thumbImage": "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+    "cardImage": "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+    "images": [
+      "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS02.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS03.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS04.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS05.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS06.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS07.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS08.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS09.jpg",
+      "product/tiara1001/T205 3PS/T205 3PS10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS01.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS02.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS02.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS03.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS03.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS04.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS04.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS05.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS05.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS06.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS06.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS07.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS07.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS08.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS08.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS09.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS09.jpg",
+        "cut": "상세컷 8"
+      },
+      {
+        "url": "product/tiara1001/T205 3PS/T205 3PS10.jpg",
+        "source": "product/tiara1001/T205 3PS/T205 3PS10.jpg",
+        "cut": "상세컷 9"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "3피스",
+      "3피스세트",
+      "블루/네이비",
+      "T205"
+    ],
+    "searchKeywords": [
+      "T205",
+      "티아라",
+      "3피스",
+      "블루/네이비",
+      "블루 셔츠 & 네이비 니트숄 미니 3피스"
+    ],
+    "desc": "선명한 블루 셔츠와 네이비 니트 숄, 배색 미니스커트로 구성된 3피스. 컬러 대비가 확실해 캐주얼하면서도 감각적인 스타일링이 가능합니다.",
+    "description": "선명한 블루 셔츠와 네이비 니트 숄, 배색 미니스커트로 구성된 3피스. 컬러 대비가 확실해 캐주얼하면서도 감각적인 스타일링이 가능합니다.",
+    "mainCopy": "선명한 블루 셔츠와 네이비 니트 숄, 배색 미니스커트로 구성된 3피스. 컬러 대비가 확실해 캐주얼하면서도 감각적인 스타일링이 가능합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "블루/네이비",
+    "color": "블루/네이비",
+    "designGroupId": "TIA-T204-T205"
+  },
+  {
+    "code": "T206",
+    "customerCode": "T206",
+    "sourceCode": "T206 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T206 TPS",
+    "name": "화이트 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "storeName": "화이트 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "productName": "화이트 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 162000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+    "cardImage": "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS2.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS3.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS4.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS5.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS6.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS7.jpg",
+      "product/tiara1001/T206 TPS/T206 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS2.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS3.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS4.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS5.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS6.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS7.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T206 TPS/T206 TPS8.jpg",
+        "source": "product/tiara1001/T206 TPS/T206 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "화이트",
+      "T206"
+    ],
+    "searchKeywords": [
+      "T206",
+      "티아라",
+      "투피스",
+      "화이트",
+      "화이트 펀칭니트 키홀탑 & 레이스 미니 투피스"
+    ],
+    "desc": "바스트의 키홀 디자인이 포인트인 화이트 펀칭 니트 탑과 미니스커트 세트. 소매 리본과 스커트 레이스 밑단이 여성스럽고 섹시한 무드를 동시에 살려줍니다.",
+    "description": "바스트의 키홀 디자인이 포인트인 화이트 펀칭 니트 탑과 미니스커트 세트. 소매 리본과 스커트 레이스 밑단이 여성스럽고 섹시한 무드를 동시에 살려줍니다.",
+    "mainCopy": "바스트의 키홀 디자인이 포인트인 화이트 펀칭 니트 탑과 미니스커트 세트. 소매 리본과 스커트 레이스 밑단이 여성스럽고 섹시한 무드를 동시에 살려줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "화이트",
+    "color": "화이트",
+    "designGroupId": "TIA-T206-T207"
+  },
+  {
+    "code": "T207",
+    "customerCode": "T207",
+    "sourceCode": "T207 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T207 TPS",
+    "name": "베이지 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "storeName": "베이지 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "productName": "베이지 펀칭니트 키홀탑 & 레이스 미니 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 162000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+    "cardImage": "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS2.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS3.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS4.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS5.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS6.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS7.jpg",
+      "product/tiara1001/T207 TPS/T207 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS2.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS3.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS4.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS5.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS6.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS7.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T207 TPS/T207 TPS8.jpg",
+        "source": "product/tiara1001/T207 TPS/T207 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "베이지",
+      "T207"
+    ],
+    "searchKeywords": [
+      "T207",
+      "티아라",
+      "투피스",
+      "베이지",
+      "베이지 펀칭니트 키홀탑 & 레이스 미니 투피스"
+    ],
+    "desc": "따뜻한 베이지 컬러의 펀칭 니트 투피스. 깊게 이어지는 키홀 디테일과 소매 리본, 레이스 밑단이 바디라인을 여성스럽게 강조합니다.",
+    "description": "따뜻한 베이지 컬러의 펀칭 니트 투피스. 깊게 이어지는 키홀 디테일과 소매 리본, 레이스 밑단이 바디라인을 여성스럽게 강조합니다.",
+    "mainCopy": "따뜻한 베이지 컬러의 펀칭 니트 투피스. 깊게 이어지는 키홀 디테일과 소매 리본, 레이스 밑단이 바디라인을 여성스럽게 강조합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "베이지",
+    "color": "베이지",
+    "designGroupId": "TIA-T206-T207"
+  },
+  {
+    "code": "T208",
+    "customerCode": "T208",
+    "sourceCode": "T208 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T208 TPS",
+    "name": "핑크 트위드 빅리본 레이스 투피스",
+    "storeName": "핑크 트위드 빅리본 레이스 투피스",
+    "productName": "핑크 트위드 빅리본 레이스 투피스",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 198000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+    "cardImage": "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS2.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS3.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS4.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS5.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS6.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS7.jpg",
+      "product/tiara1001/T208 TPS/T208 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS2.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS3.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS4.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS5.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS6.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS7.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T208 TPS/T208 TPS8.jpg",
+        "source": "product/tiara1001/T208 TPS/T208 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "핑크/화이트",
+      "T208"
+    ],
+    "searchKeywords": [
+      "T208",
+      "티아라",
+      "투피스",
+      "핑크/화이트",
+      "핑크 트위드 빅리본 레이스 투피스"
+    ],
+    "desc": "사랑스러운 핑크 트위드 크롭 자켓과 미니스커트 구성. 가슴의 화이트 빅리본과 소매의 풍성한 레이스 커프스가 시선을 끄는 화려한 스타일입니다.",
+    "description": "사랑스러운 핑크 트위드 크롭 자켓과 미니스커트 구성. 가슴의 화이트 빅리본과 소매의 풍성한 레이스 커프스가 시선을 끄는 화려한 스타일입니다.",
+    "mainCopy": "사랑스러운 핑크 트위드 크롭 자켓과 미니스커트 구성. 가슴의 화이트 빅리본과 소매의 풍성한 레이스 커프스가 시선을 끄는 화려한 스타일입니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크/화이트",
+    "color": "핑크/화이트",
+    "componentPrices": [
+      {
+        "name": "자켓",
+        "price": 135000
+      },
+      {
+        "name": "스커트",
+        "price": 63000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 자켓 135,000원 / 스커트 63,000원"
+  },
+  {
+    "code": "T209",
+    "customerCode": "T209",
+    "sourceCode": "T209",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T209",
+    "name": "아이보리 레이스 프릴 플레어 미니원피스",
+    "storeName": "아이보리 레이스 프릴 플레어 미니원피스",
+    "productName": "아이보리 레이스 프릴 플레어 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 122000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T209/T2091.jpg",
+    "thumbImage": "product/tiara1001/T209/T2091.jpg",
+    "cardImage": "product/tiara1001/T209/T2091.jpg",
+    "images": [
+      "product/tiara1001/T209/T2091.jpg",
+      "product/tiara1001/T209/T2092.jpg",
+      "product/tiara1001/T209/T2093.jpg",
+      "product/tiara1001/T209/T2094.jpg",
+      "product/tiara1001/T209/T2095.jpg",
+      "product/tiara1001/T209/T2096.jpg",
+      "product/tiara1001/T209/T2097.jpg",
+      "product/tiara1001/T209/T2098.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T209/T2091.jpg",
+        "source": "product/tiara1001/T209/T2091.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T209/T2092.jpg",
+        "source": "product/tiara1001/T209/T2092.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T209/T2093.jpg",
+        "source": "product/tiara1001/T209/T2093.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T209/T2094.jpg",
+        "source": "product/tiara1001/T209/T2094.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T209/T2095.jpg",
+        "source": "product/tiara1001/T209/T2095.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T209/T2096.jpg",
+        "source": "product/tiara1001/T209/T2096.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T209/T2097.jpg",
+        "source": "product/tiara1001/T209/T2097.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T209/T2098.jpg",
+        "source": "product/tiara1001/T209/T2098.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "아이보리",
+      "T209"
+    ],
+    "searchKeywords": [
+      "T209",
+      "티아라",
+      "원피스",
+      "아이보리",
+      "아이보리 레이스 프릴 플레어 미니원피스"
+    ],
+    "desc": "레이스가 믹스된 풍성한 프릴 네크라인과 잘록한 허리선이 돋보이는 아이보리 미니원피스. 자연스럽게 퍼지는 플레어 스커트가 여성스럽고 로맨틱한 실루엣을 완성합니다.",
+    "description": "레이스가 믹스된 풍성한 프릴 네크라인과 잘록한 허리선이 돋보이는 아이보리 미니원피스. 자연스럽게 퍼지는 플레어 스커트가 여성스럽고 로맨틱한 실루엣을 완성합니다.",
+    "mainCopy": "레이스가 믹스된 풍성한 프릴 네크라인과 잘록한 허리선이 돋보이는 아이보리 미니원피스. 자연스럽게 퍼지는 플레어 스커트가 여성스럽고 로맨틱한 실루엣을 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리",
+    "color": "아이보리"
+  },
+  {
+    "code": "T210",
+    "customerCode": "T210",
+    "sourceCode": "T210 TPS",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T210 TPS",
+    "name": "옐로우 배색카라 트위드 자켓 & 스커트 세트",
+    "storeName": "옐로우 배색카라 트위드 자켓 & 스커트 세트",
+    "productName": "옐로우 배색카라 트위드 자켓 & 스커트 세트",
+    "category": "TWO PIECE",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 345000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+    "thumbImage": "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+    "cardImage": "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+    "images": [
+      "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS2.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS3.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS4.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS5.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS6.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS7.jpg",
+      "product/tiara1001/T210 TPS/T210 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS2.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS3.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS4.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS5.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS6.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS7.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T210 TPS/T210 TPS8.jpg",
+        "source": "product/tiara1001/T210 TPS/T210 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "투피스",
+      "투피스",
+      "옐로우/아이보리",
+      "T210"
+    ],
+    "searchKeywords": [
+      "T210",
+      "티아라",
+      "투피스",
+      "옐로우/아이보리",
+      "옐로우 배색카라 트위드 자켓 & 스커트 세트"
+    ],
+    "desc": "화사한 옐로우 트위드 자켓과 미니스커트 세트. 아이보리 배색 카라와 포켓, 스커트 밑단 디테일을 더해 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "description": "화사한 옐로우 트위드 자켓과 미니스커트 세트. 아이보리 배색 카라와 포켓, 스커트 밑단 디테일을 더해 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "mainCopy": "화사한 옐로우 트위드 자켓과 미니스커트 세트. 아이보리 배색 카라와 포켓, 스커트 밑단 디테일을 더해 단정하면서도 럭셔리한 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "옐로우/아이보리",
+    "color": "옐로우/아이보리"
+  },
+  {
+    "code": "T211",
+    "customerCode": "T211",
+    "sourceCode": "T211",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T211",
+    "name": "아이보리 배색카라 트위드 플레어 미니원피스",
+    "storeName": "아이보리 배색카라 트위드 플레어 미니원피스",
+    "productName": "아이보리 배색카라 트위드 플레어 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 158000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T211/T211 1.jpg",
+    "thumbImage": "product/tiara1001/T211/T211 1.jpg",
+    "cardImage": "product/tiara1001/T211/T211 1.jpg",
+    "images": [
+      "product/tiara1001/T211/T211 1.jpg",
+      "product/tiara1001/T211/T211 2.jpg",
+      "product/tiara1001/T211/T211 3.jpg",
+      "product/tiara1001/T211/T211 4.jpg",
+      "product/tiara1001/T211/T211 5.jpg",
+      "product/tiara1001/T211/T211 6.jpg",
+      "product/tiara1001/T211/T211 7.jpg",
+      "product/tiara1001/T211/T211 8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T211/T211 1.jpg",
+        "source": "product/tiara1001/T211/T211 1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 2.jpg",
+        "source": "product/tiara1001/T211/T211 2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 3.jpg",
+        "source": "product/tiara1001/T211/T211 3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 4.jpg",
+        "source": "product/tiara1001/T211/T211 4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 5.jpg",
+        "source": "product/tiara1001/T211/T211 5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 6.jpg",
+        "source": "product/tiara1001/T211/T211 6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 7.jpg",
+        "source": "product/tiara1001/T211/T211 7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T211/T211 8.jpg",
+        "source": "product/tiara1001/T211/T211 8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "아이보리",
+      "T211"
+    ],
+    "searchKeywords": [
+      "T211",
+      "티아라",
+      "원피스",
+      "아이보리",
+      "아이보리 배색카라 트위드 플레어 미니원피스"
+    ],
+    "desc": "아이보리 트위드와 배색 카라·커프스가 어우러진 미니원피스. 허리에서 자연스럽게 퍼지는 플레어 실루엣과 진주 느낌 버튼이 우아한 분위기를 완성합니다.",
+    "description": "아이보리 트위드와 배색 카라·커프스가 어우러진 미니원피스. 허리에서 자연스럽게 퍼지는 플레어 실루엣과 진주 느낌 버튼이 우아한 분위기를 완성합니다.",
+    "mainCopy": "아이보리 트위드와 배색 카라·커프스가 어우러진 미니원피스. 허리에서 자연스럽게 퍼지는 플레어 실루엣과 진주 느낌 버튼이 우아한 분위기를 완성합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "아이보리",
+    "color": "아이보리",
+    "designGroupId": "TIA-T211-T213"
+  },
+  {
+    "code": "T212",
+    "customerCode": "T212",
+    "sourceCode": "T212",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T212",
+    "name": "핑크 배색카라 트위드 플레어 미니원피스",
+    "storeName": "핑크 배색카라 트위드 플레어 미니원피스",
+    "productName": "핑크 배색카라 트위드 플레어 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 158000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T212/T212 1.jpg",
+    "thumbImage": "product/tiara1001/T212/T212 1.jpg",
+    "cardImage": "product/tiara1001/T212/T212 1.jpg",
+    "images": [
+      "product/tiara1001/T212/T212 1.jpg",
+      "product/tiara1001/T212/T212 2.jpg",
+      "product/tiara1001/T212/T212 3.jpg",
+      "product/tiara1001/T212/T212 4.jpg",
+      "product/tiara1001/T212/T212 5.jpg",
+      "product/tiara1001/T212/T212 6.jpg",
+      "product/tiara1001/T212/T212 7.jpg",
+      "product/tiara1001/T212/T212 TPS8.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T212/T212 1.jpg",
+        "source": "product/tiara1001/T212/T212 1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 2.jpg",
+        "source": "product/tiara1001/T212/T212 2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 3.jpg",
+        "source": "product/tiara1001/T212/T212 3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 4.jpg",
+        "source": "product/tiara1001/T212/T212 4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 5.jpg",
+        "source": "product/tiara1001/T212/T212 5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 6.jpg",
+        "source": "product/tiara1001/T212/T212 6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 7.jpg",
+        "source": "product/tiara1001/T212/T212 7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T212/T212 TPS8.jpg",
+        "source": "product/tiara1001/T212/T212 TPS8.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "핑크",
+      "T212"
+    ],
+    "searchKeywords": [
+      "T212",
+      "티아라",
+      "원피스",
+      "핑크",
+      "핑크 배색카라 트위드 플레어 미니원피스"
+    ],
+    "desc": "부드러운 핑크 트위드에 아이보리 카라와 커프스를 배색한 미니원피스. 클래식한 버튼과 포켓 디테일이 고급스럽고 여성스러운 인상을 줍니다.",
+    "description": "부드러운 핑크 트위드에 아이보리 카라와 커프스를 배색한 미니원피스. 클래식한 버튼과 포켓 디테일이 고급스럽고 여성스러운 인상을 줍니다.",
+    "mainCopy": "부드러운 핑크 트위드에 아이보리 카라와 커프스를 배색한 미니원피스. 클래식한 버튼과 포켓 디테일이 고급스럽고 여성스러운 인상을 줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크",
+    "color": "핑크",
+    "designGroupId": "TIA-T211-T213"
+  },
+  {
+    "code": "T213",
+    "customerCode": "T213",
+    "sourceCode": "T213",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T213",
+    "name": "스카이블루 배색카라 트위드 플레어 미니원피스",
+    "storeName": "스카이블루 배색카라 트위드 플레어 미니원피스",
+    "productName": "스카이블루 배색카라 트위드 플레어 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 158000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T213/T2131.jpg",
+    "thumbImage": "product/tiara1001/T213/T2131.jpg",
+    "cardImage": "product/tiara1001/T213/T2131.jpg",
+    "images": [
+      "product/tiara1001/T213/T2131.jpg",
+      "product/tiara1001/T213/T2132.jpg",
+      "product/tiara1001/T213/T2133.jpg",
+      "product/tiara1001/T213/T2134.jpg",
+      "product/tiara1001/T213/T2135.jpg",
+      "product/tiara1001/T213/T2136.jpg",
+      "product/tiara1001/T213/T2137.jpg",
+      "product/tiara1001/T213/T2138.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T213/T2131.jpg",
+        "source": "product/tiara1001/T213/T2131.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T213/T2132.jpg",
+        "source": "product/tiara1001/T213/T2132.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T213/T2133.jpg",
+        "source": "product/tiara1001/T213/T2133.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T213/T2134.jpg",
+        "source": "product/tiara1001/T213/T2134.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T213/T2135.jpg",
+        "source": "product/tiara1001/T213/T2135.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T213/T2136.jpg",
+        "source": "product/tiara1001/T213/T2136.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T213/T2137.jpg",
+        "source": "product/tiara1001/T213/T2137.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T213/T2138.jpg",
+        "source": "product/tiara1001/T213/T2138.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "스카이블루",
+      "T213"
+    ],
+    "searchKeywords": [
+      "T213",
+      "티아라",
+      "원피스",
+      "스카이블루",
+      "스카이블루 배색카라 트위드 플레어 미니원피스"
+    ],
+    "desc": "화사한 스카이블루 트위드에 아이보리 카라와 커프스를 더한 미니원피스. 슬림하게 잡힌 허리와 플레어 밑단이 여성스러운 실루엣을 강조합니다.",
+    "description": "화사한 스카이블루 트위드에 아이보리 카라와 커프스를 더한 미니원피스. 슬림하게 잡힌 허리와 플레어 밑단이 여성스러운 실루엣을 강조합니다.",
+    "mainCopy": "화사한 스카이블루 트위드에 아이보리 카라와 커프스를 더한 미니원피스. 슬림하게 잡힌 허리와 플레어 밑단이 여성스러운 실루엣을 강조합니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "스카이블루",
+    "color": "스카이블루",
+    "designGroupId": "TIA-T211-T213"
+  },
+  {
+    "code": "T214",
+    "customerCode": "T214",
+    "sourceCode": "T214",
+    "supplier": "티아라",
+    "origin": "티아라",
+    "vendor": "티아라",
+    "folder": "T214",
+    "name": "핑크 트위드 브이넥 빅리본 미니원피스",
+    "storeName": "핑크 트위드 브이넥 빅리본 미니원피스",
+    "productName": "핑크 트위드 브이넥 빅리본 미니원피스",
+    "category": "MINI",
+    "collection": "TIARA_20261001",
+    "collectionName": "티아라 신상",
+    "collectionDescription": "티아라 10월 신상",
+    "price": 122000,
+    "size": "",
+    "sizeInfo": "",
+    "wearInfo": "",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-01",
+    "sourceInfo": "product/tiara1001",
+    "mainImage": "product/tiara1001/T214/T2141.jpg",
+    "thumbImage": "product/tiara1001/T214/T2141.jpg",
+    "cardImage": "product/tiara1001/T214/T2141.jpg",
+    "images": [
+      "product/tiara1001/T214/T2141.jpg",
+      "product/tiara1001/T214/T2142.jpg",
+      "product/tiara1001/T214/T2143.jpg",
+      "product/tiara1001/T214/T2144.jpg",
+      "product/tiara1001/T214/T2145.jpg",
+      "product/tiara1001/T214/T2146.jpg",
+      "product/tiara1001/T214/T2147.jpg",
+      "product/tiara1001/T214/T2148.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/tiara1001/T214/T2141.jpg",
+        "source": "product/tiara1001/T214/T2141.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/tiara1001/T214/T2142.jpg",
+        "source": "product/tiara1001/T214/T2142.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/tiara1001/T214/T2143.jpg",
+        "source": "product/tiara1001/T214/T2143.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/tiara1001/T214/T2144.jpg",
+        "source": "product/tiara1001/T214/T2144.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/tiara1001/T214/T2145.jpg",
+        "source": "product/tiara1001/T214/T2145.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/tiara1001/T214/T2146.jpg",
+        "source": "product/tiara1001/T214/T2146.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/tiara1001/T214/T2147.jpg",
+        "source": "product/tiara1001/T214/T2147.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/tiara1001/T214/T2148.jpg",
+        "source": "product/tiara1001/T214/T2148.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "신상",
+      "NEW",
+      "원피스",
+      "미니원피스",
+      "핑크/화이트",
+      "T214"
+    ],
+    "searchKeywords": [
+      "T214",
+      "티아라",
+      "원피스",
+      "핑크/화이트",
+      "핑크 트위드 브이넥 빅리본 미니원피스"
+    ],
+    "desc": "핑크 트위드에 화이트 빅리본을 더한 포인트 미니원피스. 볼륨감 있는 어깨와 잘록한 허리, A라인 실루엣이 사랑스럽고 화려한 분위기를 만들어줍니다.",
+    "description": "핑크 트위드에 화이트 빅리본을 더한 포인트 미니원피스. 볼륨감 있는 어깨와 잘록한 허리, A라인 실루엣이 사랑스럽고 화려한 분위기를 만들어줍니다.",
+    "mainCopy": "핑크 트위드에 화이트 빅리본을 더한 포인트 미니원피스. 볼륨감 있는 어깨와 잘록한 허리, A라인 실루엣이 사랑스럽고 화려한 분위기를 만들어줍니다.",
+    "sourceInfoNote": "2026-10-03 구글시트 검토표 기준 상품명·설명·가격 반영",
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingProductInfo": true,
+    "priority": 11600,
+    "variantColor": "핑크/화이트",
+    "color": "핑크/화이트"
+  }
+]
