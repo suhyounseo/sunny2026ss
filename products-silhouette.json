@@ -83,7 +83,10 @@
       "셔츠 카라 + 허리 셔링",
       "잘록한 허리선",
       "플레어 미니 실루엣"
-    ]
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90601IV",
@@ -169,7 +172,10 @@
       "화사한 아이보리",
       "셔츠 카라 + 허리 셔링",
       "풍성한 플레어 라인"
-    ]
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "아이보리",
+    "color": "아이보리"
   },
   {
     "code": "S90601P",
@@ -255,7 +261,10 @@
       "러블리 핑크 컬러",
       "셔츠 카라 + 허리 셔링",
       "플레어 미니 실루엣"
-    ]
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "핑크",
+    "color": "핑크"
   },
   {
     "code": "S90602B",
@@ -397,7 +406,10 @@
       "은은한 새틴 무드",
       "슬림 셔링 라인",
       "상의+하의 세트"
-    ]
+    ],
+    "designGroupId": "SIL-S90602",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90602CR",
@@ -533,7 +545,10 @@
       "크림 새틴 무드",
       "슬림 셔링 라인",
       "상의+하의 세트"
-    ]
+    ],
+    "designGroupId": "SIL-S90602",
+    "variantColor": "크림",
+    "color": "크림"
   },
   {
     "code": "S90801B",
@@ -631,7 +646,10 @@
       "화이트 카라 배색",
       "프론트 버튼 포인트",
       "슬림 미니원피스"
-    ]
+    ],
+    "designGroupId": "SIL-S90801",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90801P",
@@ -729,7 +747,10 @@
       "핑크+화이트 배색",
       "셔츠형 버튼 디테일",
       "슬림 미니원피스"
-    ]
+    ],
+    "designGroupId": "SIL-S90801",
+    "variantColor": "핑크",
+    "color": "핑크"
   },
   {
     "code": "S91501B",
@@ -817,7 +838,10 @@
       "세로 비즈 포인트",
       "카라 슬림핏",
       "상의+하의 세트"
-    ]
+    ],
+    "designGroupId": "SIL-S91501",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S91501W",
@@ -905,7 +929,10 @@
       "화이트 비즈 라인",
       "카라 슬림핏",
       "상의+하의 세트"
-    ]
+    ],
+    "designGroupId": "SIL-S91501",
+    "variantColor": "화이트",
+    "color": "화이트"
   },
   {
     "code": "S92901G",
@@ -921,7 +948,7 @@
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 126000,
+    "price": 111000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1003,7 +1030,12 @@
       "스트랩리스 넥",
       "바디 셔링",
       "슬림 미디 실루엣"
-    ]
+    ],
+    "designGroupId": "SIL-S92901",
+    "variantColor": "딥그린",
+    "color": "딥그린",
+    "material": "폴리혼방",
+    "fabric": "폴리혼방"
   },
   {
     "code": "S92901V",
@@ -1019,7 +1051,7 @@
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 126000,
+    "price": 111000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1095,7 +1127,12 @@
       "모카베이지 컬러",
       "스트랩리스 넥",
       "바디 셔링 미디핏"
-    ]
+    ],
+    "designGroupId": "SIL-S92901",
+    "variantColor": "모카베이지",
+    "color": "모카베이지",
+    "material": "폴리혼방",
+    "fabric": "폴리혼방"
   },
   {
     "code": "S92902B",
@@ -1497,7 +1534,10 @@
       "타이넥 포인트",
       "이중 티어드 스커트",
       "플레어 미니투피스"
-    ]
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "그레이",
+    "color": "그레이"
   },
   {
     "code": "S93001B",
@@ -1621,7 +1661,10 @@
       "올블랙 타이넥",
       "티어드 플레어",
       "미니투피스"
-    ]
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S93001W",
@@ -1745,6 +1788,9 @@
       "화이트+블랙 배색",
       "타이넥 포인트",
       "플레어 미니투피스"
-    ]
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "화이트/블랙",
+    "color": "화이트/블랙"
   }
 ]
