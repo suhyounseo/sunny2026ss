@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_legacy_productinfo_20261003_2';
+const VERSION = 'showroom_archive_20261003_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -145,6 +145,23 @@ function applyProductOverrides(p) {
       ? '2026-10-03 실루엣 제품정보 이미지 기준 실측·소재·착용정보 반영'
       : '2026-10-02 사용자 확정 판매가격 반영'
   };
+}
+
+const PERMANENTLY_REMOVED_PRODUCT_CODES = new Set([
+  'S958', 'S957', 'S697', 'S698'
+]);
+
+const ARCHIVED_PRODUCT_CODES = new Set([
+  'S709', 'S710', 'S671', 'S672', 'S670', 'S696', 'S695',
+  'TIA-S852', 'TIA-S851', 'TIA-S850', 'TIA-S774', 'TIA-S773',
+  'TIA-S768', 'TIA-S769', 'TIA-S762', 'TIA-S763',
+  'TIA-S933', 'TIA-S932', 'TIA-S931', 'TIA-S930', 'TIA-S929', 'TIA-S928',
+  'TIA-S902', 'N260125'
+]);
+
+function isShowroomExcludedProduct(p) {
+  const code = codeOf(p);
+  return PERMANENTLY_REMOVED_PRODUCT_CODES.has(code) || ARCHIVED_PRODUCT_CODES.has(code);
 }
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
@@ -2592,7 +2609,7 @@ Promise.all([
   .then(([baseProducts, new929, silhouetteNew]) => {
     const merged = new Map();
     [...new929, ...silhouetteNew, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
-    PRODUCTS = [...merged.values()].map(applyProductOverrides).map(normalizeProduct);
+    PRODUCTS = [...merged.values()].filter(p => !isShowroomExcludedProduct(p)).map(applyProductOverrides).map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
     buildLangSwitcher();
