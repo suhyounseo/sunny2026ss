@@ -6,14 +6,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90601B",
-    "name": "실루엣 신상 S90601B",
-    "storeName": "실루엣 신상 S90601B",
-    "productName": "실루엣 신상 S90601B",
-    "category": "",
+    "name": "블랙 셔링 카라 플레어 미니원피스",
+    "storeName": "블랙 셔링 카라 플레어 미니원피스",
+    "productName": "블랙 셔링 카라 플레어 미니원피스",
+    "category": "MINI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 122000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -58,26 +58,35 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MINI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90601B",
-      "정보확인중"
+      "정보확인중",
+      "블랙 셔링 카라 플레어 미니원피스",
+      "미니원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 잘록하게 잡힌 허리선과 자연스럽게 퍼지는 스커트가 여성스러운 실루엣을 살려주어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 잘록하게 잡힌 허리선과 자연스럽게 퍼지는 스커트가 여성스러운 실루엣을 살려주어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "블랙 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 잘록하게 잡힌 허리선과 자연스럽게 퍼지는 스커트가 여성스러운 실루엣을 살려주어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "셔츠 카라 + 허리 셔링",
+      "잘록한 허리선",
+      "플레어 미니 실루엣"
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90601IV",
@@ -86,14 +95,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90601IV",
-    "name": "실루엣 신상 S90601IV",
-    "storeName": "실루엣 신상 S90601IV",
-    "productName": "실루엣 신상 S90601IV",
-    "category": "",
+    "name": "아이보리 셔링 카라 플레어 미니원피스",
+    "storeName": "아이보리 셔링 카라 플레어 미니원피스",
+    "productName": "아이보리 셔링 카라 플레어 미니원피스",
+    "category": "MINI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 122000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -138,26 +147,35 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MINI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90601IV",
-      "정보확인중"
+      "정보확인중",
+      "아이보리 셔링 카라 플레어 미니원피스",
+      "미니원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "아이보리 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 화사한 컬러감과 풍성하게 퍼지는 스커트 라인이 어우러져 우아하고 여성스러운 분위기를 연출합니다.",
+    "description": "아이보리 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 화사한 컬러감과 풍성하게 퍼지는 스커트 라인이 어우러져 우아하고 여성스러운 분위기를 연출합니다.",
+    "mainCopy": "아이보리 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 화사한 컬러감과 풍성하게 퍼지는 스커트 라인이 어우러져 우아하고 여성스러운 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "화사한 아이보리",
+      "셔츠 카라 + 허리 셔링",
+      "풍성한 플레어 라인"
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "아이보리",
+    "color": "아이보리"
   },
   {
     "code": "S90601P",
@@ -166,14 +184,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90601P",
-    "name": "실루엣 신상 S90601P",
-    "storeName": "실루엣 신상 S90601P",
-    "productName": "실루엣 신상 S90601P",
-    "category": "",
+    "name": "핑크 셔링 카라 플레어 미니원피스",
+    "storeName": "핑크 셔링 카라 플레어 미니원피스",
+    "productName": "핑크 셔링 카라 플레어 미니원피스",
+    "category": "MINI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 122000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -218,26 +236,35 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MINI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90601P",
-      "정보확인중"
+      "정보확인중",
+      "핑크 셔링 카라 플레어 미니원피스",
+      "미니원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "부드러운 핑크 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 사랑스러운 컬러감과 잘록한 허리라인이 돋보여 방송·행사·파티룩으로 잘 어울립니다.",
+    "description": "부드러운 핑크 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 사랑스러운 컬러감과 잘록한 허리라인이 돋보여 방송·행사·파티룩으로 잘 어울립니다.",
+    "mainCopy": "부드러운 핑크 컬러에 셔츠 카라와 허리 셔링을 더한 플레어 미니원피스입니다. 사랑스러운 컬러감과 잘록한 허리라인이 돋보여 방송·행사·파티룩으로 잘 어울립니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "러블리 핑크 컬러",
+      "셔츠 카라 + 허리 셔링",
+      "플레어 미니 실루엣"
+    ],
+    "designGroupId": "SIL-S90601",
+    "variantColor": "핑크",
+    "color": "핑크"
   },
   {
     "code": "S90602B",
@@ -246,14 +273,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90602B",
-    "name": "실루엣 신상 S90602B",
-    "storeName": "실루엣 신상 S90602B",
-    "productName": "실루엣 신상 S90602B",
-    "category": "",
+    "name": "블랙 새틴 셔링 슬림 미니투피스",
+    "storeName": "블랙 새틴 셔링 슬림 미니투피스",
+    "productName": "블랙 새틴 셔링 슬림 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 144000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -352,26 +379,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90602B",
-      "정보확인중"
+      "정보확인중",
+      "블랙 새틴 셔링 슬림 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 바디라인을 매끈하게 살려주어 클럽·방송·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 바디라인을 매끈하게 살려주어 클럽·방송·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "블랙 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 바디라인을 매끈하게 살려주어 클럽·방송·파티룩으로 활용하기 좋습니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
+    "points": [
+      "은은한 새틴 무드",
+      "슬림 셔링 라인",
+      "상의+하의 세트"
+    ],
+    "designGroupId": "SIL-S90602",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90602CR",
@@ -380,14 +418,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90602CR",
-    "name": "실루엣 신상 S90602CR",
-    "storeName": "실루엣 신상 S90602CR",
-    "productName": "실루엣 신상 S90602CR",
-    "category": "",
+    "name": "크림 새틴 셔링 슬림 미니투피스",
+    "storeName": "크림 새틴 셔링 슬림 미니투피스",
+    "productName": "크림 새틴 셔링 슬림 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 144000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -480,26 +518,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90602CR",
-      "정보확인중"
+      "정보확인중",
+      "크림 새틴 셔링 슬림 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "크림 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 부드러운 컬러감과 어우러져 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "description": "크림 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 부드러운 컬러감과 어우러져 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "mainCopy": "크림 컬러의 슬림한 상의와 미니스커트가 한 세트로 구성된 투피스입니다. 은은한 새틴 느낌과 셔링 디테일이 부드러운 컬러감과 어우러져 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 63,000원 / 하의 81,000원",
+    "points": [
+      "크림 새틴 무드",
+      "슬림 셔링 라인",
+      "상의+하의 세트"
+    ],
+    "designGroupId": "SIL-S90602",
+    "variantColor": "크림",
+    "color": "크림"
   },
   {
     "code": "S90801B",
@@ -508,14 +557,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90801B",
-    "name": "실루엣 신상 S90801B",
-    "storeName": "실루엣 신상 S90801B",
-    "productName": "실루엣 신상 S90801B",
-    "category": "",
+    "name": "블랙 화이트카라 배색 버튼 미니원피스",
+    "storeName": "블랙 화이트카라 배색 버튼 미니원피스",
+    "productName": "블랙 화이트카라 배색 버튼 미니원피스",
+    "category": "MINI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 135000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -572,26 +621,35 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MINI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90801B",
-      "정보확인중"
+      "정보확인중",
+      "블랙 화이트카라 배색 버튼 미니원피스",
+      "미니원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 컬러에 화이트 카라와 커프스 배색, 프론트 버튼을 더한 슬림 미니원피스입니다. 선명한 흑백 대비와 정돈된 셔츠형 디테일이 세련된 분위기를 만들어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 컬러에 화이트 카라와 커프스 배색, 프론트 버튼을 더한 슬림 미니원피스입니다. 선명한 흑백 대비와 정돈된 셔츠형 디테일이 세련된 분위기를 만들어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "블랙 컬러에 화이트 카라와 커프스 배색, 프론트 버튼을 더한 슬림 미니원피스입니다. 선명한 흑백 대비와 정돈된 셔츠형 디테일이 세련된 분위기를 만들어 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "화이트 카라 배색",
+      "프론트 버튼 포인트",
+      "슬림 미니원피스"
+    ],
+    "designGroupId": "SIL-S90801",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S90801P",
@@ -600,14 +658,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S90801P",
-    "name": "실루엣 신상 S90801P",
-    "storeName": "실루엣 신상 S90801P",
-    "productName": "실루엣 신상 S90801P",
-    "category": "",
+    "name": "핑크 화이트카라 배색 버튼 미니원피스",
+    "storeName": "핑크 화이트카라 배색 버튼 미니원피스",
+    "productName": "핑크 화이트카라 배색 버튼 미니원피스",
+    "category": "MINI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 135000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -664,26 +722,35 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MINI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S90801P",
-      "정보확인중"
+      "정보확인중",
+      "핑크 화이트카라 배색 버튼 미니원피스",
+      "미니원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "부드러운 핑크 컬러에 화이트 카라와 프론트 버튼을 더한 슬림 미니원피스입니다. 여성스러운 컬러감과 깔끔한 셔츠형 디자인이 어우러져 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "부드러운 핑크 컬러에 화이트 카라와 프론트 버튼을 더한 슬림 미니원피스입니다. 여성스러운 컬러감과 깔끔한 셔츠형 디자인이 어우러져 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "부드러운 핑크 컬러에 화이트 카라와 프론트 버튼을 더한 슬림 미니원피스입니다. 여성스러운 컬러감과 깔끔한 셔츠형 디자인이 어우러져 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "핑크+화이트 배색",
+      "셔츠형 버튼 디테일",
+      "슬림 미니원피스"
+    ],
+    "designGroupId": "SIL-S90801",
+    "variantColor": "핑크",
+    "color": "핑크"
   },
   {
     "code": "S91501B",
@@ -692,14 +759,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S91501B",
-    "name": "실루엣 신상 S91501B",
-    "storeName": "실루엣 신상 S91501B",
-    "productName": "실루엣 신상 S91501B",
-    "category": "",
+    "name": "블랙 비즈라인 카라 슬림 투피스",
+    "storeName": "블랙 비즈라인 카라 슬림 투피스",
+    "productName": "블랙 비즈라인 카라 슬림 투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 162000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -744,26 +811,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S91501B",
-      "정보확인중"
+      "정보확인중",
+      "블랙 비즈라인 카라 슬림 투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 상체를 따라 떨어지는 비즈 라인이 세로선을 강조해 시크하고 세련된 방송·행사룩을 완성합니다.",
+    "description": "블랙 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 상체를 따라 떨어지는 비즈 라인이 세로선을 강조해 시크하고 세련된 방송·행사룩을 완성합니다.",
+    "mainCopy": "블랙 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 상체를 따라 떨어지는 비즈 라인이 세로선을 강조해 시크하고 세련된 방송·행사룩을 완성합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
+    "points": [
+      "세로 비즈 포인트",
+      "카라 슬림핏",
+      "상의+하의 세트"
+    ],
+    "designGroupId": "SIL-S91501",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S91501W",
@@ -772,14 +850,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S91501W",
-    "name": "실루엣 신상 S91501W",
-    "storeName": "실루엣 신상 S91501W",
-    "productName": "실루엣 신상 S91501W",
-    "category": "",
+    "name": "화이트 비즈라인 카라 슬림 투피스",
+    "storeName": "화이트 비즈라인 카라 슬림 투피스",
+    "productName": "화이트 비즈라인 카라 슬림 투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 162000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -824,26 +902,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S91501W",
-      "정보확인중"
+      "정보확인중",
+      "화이트 비즈라인 카라 슬림 투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "화이트 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 세로 비즈 라인이 은은한 포인트를 더해 화사하면서도 정돈된 방송·행사·파티룩을 연출합니다.",
+    "description": "화이트 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 세로 비즈 라인이 은은한 포인트를 더해 화사하면서도 정돈된 방송·행사·파티룩을 연출합니다.",
+    "mainCopy": "화이트 컬러의 카라 상의와 슬림한 하의가 한 세트로 구성된 투피스입니다. 세로 비즈 라인이 은은한 포인트를 더해 화사하면서도 정돈된 방송·행사·파티룩을 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 86,000원 / 하의 76,000원",
+    "points": [
+      "화이트 비즈 라인",
+      "카라 슬림핏",
+      "상의+하의 세트"
+    ],
+    "designGroupId": "SIL-S91501",
+    "variantColor": "화이트",
+    "color": "화이트"
   },
   {
     "code": "S92901G",
@@ -852,14 +941,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S92901G",
-    "name": "실루엣 신상 S92901G",
-    "storeName": "실루엣 신상 S92901G",
-    "productName": "실루엣 신상 S92901G",
-    "category": "",
+    "name": "딥그린 스트랩리스 셔링 미디원피스",
+    "storeName": "딥그린 스트랩리스 셔링 미디원피스",
+    "productName": "딥그린 스트랩리스 셔링 미디원피스",
+    "category": "MIDI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 111000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -916,26 +1005,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MIDI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S92901G",
-      "정보확인중"
+      "정보확인중",
+      "딥그린 스트랩리스 셔링 미디원피스",
+      "미디원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "딥그린 컬러에 스트랩리스 넥과 바디 셔링을 더한 슬림 미디원피스입니다. 곡선을 따라 정돈되는 실루엣과 깊은 컬러감이 어우러져 무대·행사·파티룩으로 잘 어울립니다.",
+    "description": "딥그린 컬러에 스트랩리스 넥과 바디 셔링을 더한 슬림 미디원피스입니다. 곡선을 따라 정돈되는 실루엣과 깊은 컬러감이 어우러져 무대·행사·파티룩으로 잘 어울립니다.",
+    "mainCopy": "딥그린 컬러에 스트랩리스 넥과 바디 셔링을 더한 슬림 미디원피스입니다. 곡선을 따라 정돈되는 실루엣과 깊은 컬러감이 어우러져 무대·행사·파티룩으로 잘 어울립니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "스트랩리스 넥",
+      "바디 셔링",
+      "슬림 미디 실루엣"
+    ],
+    "designGroupId": "SIL-S92901",
+    "variantColor": "딥그린",
+    "color": "딥그린",
+    "material": "폴리혼방",
+    "fabric": "폴리혼방"
   },
   {
     "code": "S92901V",
@@ -944,14 +1044,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S92901V",
-    "name": "실루엣 신상 S92901V",
-    "storeName": "실루엣 신상 S92901V",
-    "productName": "실루엣 신상 S92901V",
-    "category": "",
+    "name": "모카베이지 스트랩리스 셔링 미디원피스",
+    "storeName": "모카베이지 스트랩리스 셔링 미디원피스",
+    "productName": "모카베이지 스트랩리스 셔링 미디원피스",
+    "category": "MIDI",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 111000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1002,26 +1102,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "MIDI"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S92901V",
-      "정보확인중"
+      "정보확인중",
+      "모카베이지 스트랩리스 셔링 미디원피스",
+      "미디원피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "차분한 모카베이지 컬러에 스트랩리스 넥과 셔링을 더한 슬림 미디원피스입니다. 바디라인을 부드럽게 살려주며 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "description": "차분한 모카베이지 컬러에 스트랩리스 넥과 셔링을 더한 슬림 미디원피스입니다. 바디라인을 부드럽게 살려주며 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "mainCopy": "차분한 모카베이지 컬러에 스트랩리스 넥과 셔링을 더한 슬림 미디원피스입니다. 바디라인을 부드럽게 살려주며 여성스럽고 고급스러운 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "points": [
+      "모카베이지 컬러",
+      "스트랩리스 넥",
+      "바디 셔링 미디핏"
+    ],
+    "designGroupId": "SIL-S92901",
+    "variantColor": "모카베이지",
+    "color": "모카베이지",
+    "material": "폴리혼방",
+    "fabric": "폴리혼방"
   },
   {
     "code": "S92902B",
@@ -1030,14 +1141,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S92902B",
-    "name": "실루엣 신상 S92902B",
-    "storeName": "실루엣 신상 S92902B",
-    "productName": "실루엣 신상 S92902B",
-    "category": "",
+    "name": "블랙셔츠 화이트배색 포켓 미니투피스",
+    "storeName": "블랙셔츠 화이트배색 포켓 미니투피스",
+    "productName": "블랙셔츠 화이트배색 포켓 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 136000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1130,26 +1241,34 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S92902B",
-      "정보확인중"
+      "정보확인중",
+      "블랙셔츠 화이트배색 포켓 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 셔츠 상의와 화이트 배색 포켓 미니스커트를 매치한 투피스입니다. 강한 흑백 대비와 구조적인 포켓 디자인이 돋보여 세련된 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "description": "블랙 셔츠 상의와 화이트 배색 포켓 미니스커트를 매치한 투피스입니다. 강한 흑백 대비와 구조적인 포켓 디자인이 돋보여 세련된 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "블랙 셔츠 상의와 화이트 배색 포켓 미니스커트를 매치한 투피스입니다. 강한 흑백 대비와 구조적인 포켓 디자인이 돋보여 세련된 방송·행사·파티룩으로 활용하기 좋습니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 68,000원",
+    "points": [
+      "블랙+화이트 배색",
+      "포켓 포인트",
+      "셔츠 투피스"
+    ]
   },
   {
     "code": "S92902W",
@@ -1158,14 +1277,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S92902W",
-    "name": "실루엣 신상 S92902W",
-    "storeName": "실루엣 신상 S92902W",
-    "productName": "실루엣 신상 S92902W",
-    "category": "",
+    "name": "화이트셔츠 블랙배색 포켓 미니투피스",
+    "storeName": "화이트셔츠 블랙배색 포켓 미니투피스",
+    "productName": "화이트셔츠 블랙배색 포켓 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 136000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1258,26 +1377,34 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S92902W",
-      "정보확인중"
+      "정보확인중",
+      "화이트셔츠 블랙배색 포켓 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "화이트 셔츠 상의와 블랙 배색 포켓 미니스커트를 매치한 투피스입니다. 깔끔한 셔츠 스타일과 선명한 모노톤 배색이 어우러져 세련되고 도시적인 분위기를 연출합니다.",
+    "description": "화이트 셔츠 상의와 블랙 배색 포켓 미니스커트를 매치한 투피스입니다. 깔끔한 셔츠 스타일과 선명한 모노톤 배색이 어우러져 세련되고 도시적인 분위기를 연출합니다.",
+    "mainCopy": "화이트 셔츠 상의와 블랙 배색 포켓 미니스커트를 매치한 투피스입니다. 깔끔한 셔츠 스타일과 선명한 모노톤 배색이 어우러져 세련되고 도시적인 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 68,000원",
+    "points": [
+      "화이트+블랙 배색",
+      "포켓 포인트",
+      "셔츠 투피스"
+    ]
   },
   {
     "code": "S93001",
@@ -1286,14 +1413,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S93001",
-    "name": "실루엣 신상 S93001",
-    "storeName": "실루엣 신상 S93001",
-    "productName": "실루엣 신상 S93001",
-    "category": "",
+    "name": "그레이 타이넥 티어드 플레어 미니투피스",
+    "storeName": "그레이 타이넥 티어드 플레어 미니투피스",
+    "productName": "그레이 타이넥 티어드 플레어 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 149000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1380,26 +1507,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S93001",
-      "정보확인중"
+      "정보확인중",
+      "그레이 타이넥 티어드 플레어 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "그레이 타이넥 상의와 이중 티어드 플레어 미니스커트를 매치한 투피스입니다. 상체는 슬림하게 정리하고 스커트는 풍성하게 퍼져 여성스럽고 경쾌한 실루엣을 연출합니다.",
+    "description": "그레이 타이넥 상의와 이중 티어드 플레어 미니스커트를 매치한 투피스입니다. 상체는 슬림하게 정리하고 스커트는 풍성하게 퍼져 여성스럽고 경쾌한 실루엣을 연출합니다.",
+    "mainCopy": "그레이 타이넥 상의와 이중 티어드 플레어 미니스커트를 매치한 투피스입니다. 상체는 슬림하게 정리하고 스커트는 풍성하게 퍼져 여성스럽고 경쾌한 실루엣을 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "타이넥 포인트",
+      "이중 티어드 스커트",
+      "플레어 미니투피스"
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "그레이",
+    "color": "그레이"
   },
   {
     "code": "S93001B",
@@ -1408,14 +1546,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S93001B",
-    "name": "실루엣 신상 S93001B",
-    "storeName": "실루엣 신상 S93001B",
-    "productName": "실루엣 신상 S93001B",
-    "category": "",
+    "name": "블랙 타이넥 티어드 플레어 미니투피스",
+    "storeName": "블랙 타이넥 티어드 플레어 미니투피스",
+    "productName": "블랙 타이넥 티어드 플레어 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 149000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1496,26 +1634,37 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S93001B",
-      "정보확인중"
+      "정보확인중",
+      "블랙 타이넥 티어드 플레어 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "블랙 타이넥 상의와 풍성한 티어드 플레어 미니스커트가 한 세트로 구성된 투피스입니다. 올블랙의 시크함과 볼륨감 있는 스커트가 어우러져 무대·파티룩으로 존재감 있게 연출됩니다.",
+    "description": "블랙 타이넥 상의와 풍성한 티어드 플레어 미니스커트가 한 세트로 구성된 투피스입니다. 올블랙의 시크함과 볼륨감 있는 스커트가 어우러져 무대·파티룩으로 존재감 있게 연출됩니다.",
+    "mainCopy": "블랙 타이넥 상의와 풍성한 티어드 플레어 미니스커트가 한 세트로 구성된 투피스입니다. 올블랙의 시크함과 볼륨감 있는 스커트가 어우러져 무대·파티룩으로 존재감 있게 연출됩니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "올블랙 타이넥",
+      "티어드 플레어",
+      "미니투피스"
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "블랙",
+    "color": "블랙"
   },
   {
     "code": "S93001W",
@@ -1524,14 +1673,14 @@
     "origin": "실루엣",
     "vendor": "실루엣",
     "folder": "S93001W",
-    "name": "실루엣 신상 S93001W",
-    "storeName": "실루엣 신상 S93001W",
-    "productName": "실루엣 신상 S93001W",
-    "category": "",
+    "name": "화이트 블랙배색 타이넥 플레어 미니투피스",
+    "storeName": "화이트 블랙배색 타이넥 플레어 미니투피스",
+    "productName": "화이트 블랙배색 타이넥 플레어 미니투피스",
+    "category": "TWO_PIECE",
     "collection": "SILHOUETTE_NEW_20261001",
     "collectionName": "실루엣 신상",
     "collectionDescription": "실루엣 신상 임시 등록",
-    "price": 0,
+    "price": 149000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1612,25 +1761,36 @@
       }
     ],
     "tags": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
-      "정보확인중"
+      "정보확인중",
+      "TWO_PIECE",
+      "투피스"
     ],
     "searchKeywords": [
-      "LUXURY_NEW",
       "실루엣",
       "신상",
       "S93001W",
-      "정보확인중"
+      "정보확인중",
+      "화이트 블랙배색 타이넥 플레어 미니투피스",
+      "투피스"
     ],
-    "desc": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "description": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "mainCopy": "실루엣 신상입니다. 제품명·가격·상세정보는 현재 확인 중이며 확인되는 대로 업데이트할 예정입니다.",
-    "sourceInfoNote": "2026-10-01 실루엣 신상 임시등록 / 제품명·가격·상세정보 확인 중",
+    "desc": "화이트 타이넥 상의와 블랙 플레어 미니스커트를 매치한 배색 투피스입니다. 선명한 흑백 조합과 풍성한 스커트 라인이 어우러져 세련되고 발랄한 분위기를 연출합니다.",
+    "description": "화이트 타이넥 상의와 블랙 플레어 미니스커트를 매치한 배색 투피스입니다. 선명한 흑백 조합과 풍성한 스커트 라인이 어우러져 세련되고 발랄한 분위기를 연출합니다.",
+    "mainCopy": "화이트 타이넥 상의와 블랙 플레어 미니스커트를 매치한 배색 투피스입니다. 선명한 흑백 조합과 풍성한 스커트 라인이 어우러져 세련되고 발랄한 분위기를 연출합니다.",
+    "sourceInfoNote": "2026-10-02 사용자 확정 판매가격 및 상품형태 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
     "pendingProductInfo": true,
-    "priority": -5000
+    "priority": 11500,
+    "componentPriceText": "구성별 가격: 상의 68,000원 / 하의 81,000원",
+    "points": [
+      "화이트+블랙 배색",
+      "타이넥 포인트",
+      "플레어 미니투피스"
+    ],
+    "designGroupId": "SIL-S93001",
+    "variantColor": "화이트/블랙",
+    "color": "화이트/블랙"
   }
 ]
