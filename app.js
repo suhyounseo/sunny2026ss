@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'showroom_archive_20261003_1';
+const VERSION = 'tiara_t179_t214_20261003_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -810,7 +810,8 @@ const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p,
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
-const isNewArrivalProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p);
+const isTiaraOctoberNewProduct = p => p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
+const isNewArrivalProduct = p => isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
@@ -2604,11 +2605,12 @@ window.addEventListener('popstate', e => {
 Promise.all([
   fetch('./products.json?v=' + VERSION).then(r => r.json()),
   fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
-  fetch('./products-silhouette.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-silhouette.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-tiara1001.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001]) => {
     const merged = new Map();
-    [...new929, ...silhouetteNew, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
+    [...new929, ...silhouetteNew, ...tiara1001, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
     PRODUCTS = [...merged.values()].filter(p => !isShowroomExcludedProduct(p)).map(applyProductOverrides).map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
