@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_productinfo_20261003_1';
+const VERSION = 'silhouette_legacy_productinfo_20261003_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -25,9 +25,126 @@ const PRODUCT_OVERRIDES_20261002 = {
   'S92902W': { price: 136000, componentPriceText: '구성별 가격: 상의 68,000원 / 하의 68,000원' },
   'S92902B': { price: 136000, componentPriceText: '구성별 가격: 상의 68,000원 / 하의 68,000원' }
 };
+const SILHOUETTE_PRODUCT_INFO_20261003 = {
+  'SIL001': {
+    size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '새틴', material: '새틴',
+    stretch: '있음', cap: '있음', lining: '있음', see: '없음', thickness: '보통', zipper: '뒷지퍼',
+    sizeTables: [{ title: '사이즈 정보', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+      {'사이즈':'55(S)','총길이':'137','소매길이':'-','가슴단면':'38','허리단면':'32','힙단면':'55'},
+      {'사이즈':'66(M)','총길이':'137','소매길이':'-','가슴단면':'40.5','허리단면':'34.5','힙단면':'57.5'},
+      {'사이즈':'77(L)','총길이':'137','소매길이':'-','가슴단면':'43','허리단면':'37','힙단면':'50'}
+    ]}],
+    wearTables: [{ title: '착용 정보', items: {'소재':'새틴','신축성':'있음','캡여부':'있음','안감':'있음','비침':'없음','두께감':'보통','지퍼':'뒷지퍼'} }],
+    designGroupId: 'SIL-001-002'
+  },
+  'SIL002': { sameProductInfo: 'SIL001', designGroupId: 'SIL-001-002' },
+  'SIL-ABO2': {
+    size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '폴리혼방', material: '폴리혼방',
+    stretch: '있음', cap: '있음', lining: '있음', see: '없음', thickness: '보통', zipper: '뒷지퍼',
+    sizeTables: [{ title: '사이즈 정보', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+      {'사이즈':'55(S)','총길이':'102','소매길이':'41','가슴단면':'40','허리단면':'31','힙단면':'40'},
+      {'사이즈':'66(M)','총길이':'102','소매길이':'41','가슴단면':'42.5','허리단면':'33.5','힙단면':'42.5'},
+      {'사이즈':'77(L)','총길이':'102','소매길이':'41','가슴단면':'45','허리단면':'36','힙단면':'45'}
+    ]}],
+    wearTables: [{ title: '착용 정보', items: {'소재':'폴리혼방','신축성':'있음','캡여부':'있음','안감':'있음','비침':'없음','두께감':'보통','지퍼':'뒷지퍼'} }]
+  },
+  'SIL-ANGEL-PINK': {
+    size: 'FREE', sizeInfo: 'FREE', fabric: '폴리혼방', material: '폴리혼방',
+    stretch: '없음', cap: '없음', lining: '있음', see: '있음', thickness: '보통', zipper: '없음',
+    sizeTables: [{ title: '사이즈 정보', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+      {'사이즈':'FREE','총길이':'82','소매길이':'59','가슴단면':'47','허리단면':'44','힙단면':'-'}
+    ]}],
+    wearTables: [{ title: '착용 정보', items: {'소재':'폴리혼방','신축성':'없음','캡여부':'없음','안감':'있음','비침':'있음','두께감':'보통','지퍼':'없음'} }],
+    designGroupId: 'SIL-ANGEL', variantColor: '핑크'
+  },
+  'SIL-ANGEL-SORA': { sameProductInfo: 'SIL-ANGEL-PINK', designGroupId: 'SIL-ANGEL', variantColor: '소라' },
+  'SIL-KYLIE-PINK': {
+    size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '쉬폰+새틴', material: '쉬폰+새틴',
+    stretch: '약간', cap: '없음', lining: '있음', see: '없음', thickness: '보통', zipper: '앞지퍼 / 뒷지퍼',
+    sizeTables: [
+      { title: '상의', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+        {'사이즈':'55(S)','총길이':'43','소매길이':'61','가슴단면':'42','허리단면':'32','힙단면':'-'},
+        {'사이즈':'66(M)','총길이':'43','소매길이':'61','가슴단면':'44.5','허리단면':'34.5','힙단면':'-'},
+        {'사이즈':'77(L)','총길이':'43','소매길이':'61','가슴단면':'47','허리단면':'37','힙단면':'-'}
+      ]},
+      { title: '스커트', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+        {'사이즈':'55(S)','총길이':'40','소매길이':'-','가슴단면':'-','허리단면':'33','힙단면':'44'},
+        {'사이즈':'66(M)','총길이':'40','소매길이':'-','가슴단면':'-','허리단면':'35.5','힙단면':'46.5'},
+        {'사이즈':'77(L)','총길이':'40','소매길이':'-','가슴단면':'-','허리단면':'38','힙단면':'49'}
+      ]}
+    ],
+    wearTables: [
+      { title: '상의 착용 정보', items: {'소재':'쉬폰+새틴','신축성':'약간','캡여부':'없음','안감':'없음','비침':'없음','두께감':'보통','지퍼':'앞지퍼'} },
+      { title: '스커트 착용 정보', items: {'소재':'새틴','신축성':'약간','안감':'있음','비침':'없음','두께감':'보통','지퍼':'뒷지퍼'} }
+    ],
+    designGroupId: 'SIL-KYLIE', variantColor: '핑크'
+  },
+  'SIL-KYLIE-IVORY': { sameProductInfo: 'SIL-KYLIE-PINK', designGroupId: 'SIL-KYLIE', variantColor: '아이보리' },
+  'SIL-LAVIEN': {
+    size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '폴리혼방 / 새틴', material: '폴리혼방 / 새틴',
+    stretch: '약간', cap: '없음', lining: '있음', see: '없음', thickness: '보통', zipper: '뒷지퍼',
+    sizeTables: [
+      { title: '상의', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+        {'사이즈':'55(S)','총길이':'54','소매길이':'61','가슴단면':'46','허리단면':'40','힙단면':'-'},
+        {'사이즈':'66(M)','총길이':'54','소매길이':'61','가슴단면':'48.5','허리단면':'42.5','힙단면':'-'},
+        {'사이즈':'77(L)','총길이':'54','소매길이':'61','가슴단면':'51','허리단면':'45','힙단면':'-'}
+      ]},
+      { title: '스커트', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+        {'사이즈':'55(S)','총길이':'38','소매길이':'-','가슴단면':'-','허리단면':'31','힙단면':'-'},
+        {'사이즈':'66(M)','총길이':'38','소매길이':'-','가슴단면':'-','허리단면':'33.5','힙단면':'-'},
+        {'사이즈':'77(L)','총길이':'38','소매길이':'-','가슴단면':'-','허리단면':'36','힙단면':'-'}
+      ]}
+    ],
+    wearTables: [
+      { title: '상의 착용 정보', items: {'소재':'폴리혼방','신축성':'없음','캡여부':'없음','안감':'없음','비침':'있음','두께감':'보통','지퍼':'없음'} },
+      { title: '스커트 착용 정보', items: {'소재':'새틴','신축성':'약간','안감':'있음','비침':'없음','두께감':'보통','지퍼':'뒷지퍼'} }
+    ]
+  },
+  '마리포사SK-크림': {
+    size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '폴리혼방', material: '폴리혼방',
+    stretch: '없음', lining: '있음', see: '없음', thickness: '보통', zipper: '뒷지퍼',
+    sizeTables: [{ title: '스커트', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+      {'사이즈':'55(S)','총길이':'뒤74-앞77','소매길이':'-','가슴단면':'-','허리단면':'32','힙단면':'50'},
+      {'사이즈':'66(M)','총길이':'뒤74-앞77','소매길이':'-','가슴단면':'-','허리단면':'34.5','힙단면':'52.5'},
+      {'사이즈':'77(L)','총길이':'뒤74-앞77','소매길이':'-','가슴단면':'-','허리단면':'37','힙단면':'55'}
+    ]}],
+    wearTables: [{ title: '스커트 착용 정보', items: {'소재':'폴리혼방','신축성':'없음','안감':'있음','비침':'없음','두께감':'보통','지퍼':'뒷지퍼'} }],
+    designGroupId: 'SIL-MARIPOSA-SK', variantColor: '크림'
+  },
+  '마리포사SK-핑크': { sameProductInfo: '마리포사SK-크림', designGroupId: 'SIL-MARIPOSA-SK', variantColor: '핑크' },
+  '시스템BL-블랙': {
+    size: 'FREE', sizeInfo: 'FREE', fabric: '폴리혼방', material: '폴리혼방',
+    stretch: '없음', cap: '없음', lining: '없음', see: '있음', thickness: '보통', zipper: '없음',
+    sizeTables: [{ title: '사이즈 정보', columns: ['사이즈','총길이','소매길이','가슴단면','허리단면','힙단면'], rows: [
+      {'사이즈':'FREE','총길이':'58','소매길이':'-','가슴단면':'45','허리단면':'45','힙단면':'-'}
+    ]}],
+    wearTables: [{ title: '착용 정보', items: {'소재':'폴리혼방','신축성':'없음','캡여부':'없음','안감':'없음','비침':'있음','두께감':'보통','지퍼':'없음'} }]
+  }
+};
+
+function resolveSilhouetteProductInfo(code) {
+  const direct = SILHOUETTE_PRODUCT_INFO_20261003[code];
+  if (!direct) return null;
+  if (!direct.sameProductInfo) return direct;
+  const base = SILHOUETTE_PRODUCT_INFO_20261003[direct.sameProductInfo] || {};
+  const { sameProductInfo, ...own } = direct;
+  return { ...base, ...own };
+}
+
 function applyProductOverrides(p) {
-  const override = PRODUCT_OVERRIDES_20261002[codeOf(p)];
-  return override ? { ...p, ...override, sourceInfoNote: '2026-10-02 사용자 확정 판매가격 반영' } : p;
+  const code = codeOf(p);
+  const priceOverride = PRODUCT_OVERRIDES_20261002[code] || {};
+  const silhouetteInfo = resolveSilhouetteProductInfo(code) || {};
+  if (!Object.keys(priceOverride).length && !Object.keys(silhouetteInfo).length) return p;
+  return {
+    ...p,
+    ...priceOverride,
+    ...silhouetteInfo,
+    pendingProductInfo: Object.keys(silhouetteInfo).length ? false : p.pendingProductInfo,
+    sourceInfoNote: Object.keys(silhouetteInfo).length
+      ? '2026-10-03 실루엣 제품정보 이미지 기준 실측·소재·착용정보 반영'
+      : '2026-10-02 사용자 확정 판매가격 반영'
+  };
 }
 
 const NICE_PICK_PREVIEW_LIMIT = 8;
@@ -1249,9 +1366,16 @@ function structuredSizeTables(p) {
   const localTables = localizedSizeTables(p);
   if (!Array.isArray(localTables) || !localTables.length) return '';
   const tables = localTables.map(group => {
-    const columns = Array.isArray(group.columns) && group.columns.length ? group.columns : [t('size'), t('totalLength'), t('sleeve'), t('chest'), t('waist'), t('hip')];
+    const rawColumns = Array.isArray(group.columns) && group.columns.length ? group.columns : [t('size'), t('totalLength'), t('sleeve'), t('chest'), t('waist'), t('hip')];
     const rows = Array.isArray(group.rows) ? group.rows : [];
     if (!rows.length) return '';
+    const columns = rawColumns.filter((col, index) => {
+      if (index === 0 || /사이즈|size/i.test(safeText(col))) return true;
+      return rows.some(row => {
+        const value = safeText(row[col]).trim();
+        return value && value !== '-' && value !== '—';
+      });
+    });
     const shortHeader = col => ({ '가슴단면': t('chest'), '허리단면': t('waist'), '힙단면': t('hip'), '소매길이': t('sleeve'), '총길이': t('totalLength'), 'Chest': t('chest'), 'Waist': t('waist'), 'Hip': t('hip'), 'Sleeve': t('sleeve'), 'Length': t('totalLength') }[safeText(col)] || safeText(col));
     const head = columns.map(col => `<th>${shortHeader(col)}</th>`).join('');
     const body = rows.map(row => `<tr>${columns.map(col => `<td>${safeText(row[col]) || '-'}</td>`).join('')}</tr>`).join('');
@@ -1271,7 +1395,18 @@ function sizeGuideBlock(p) {
     const rows = sizeGuideRows(group);
     if (!rows.length) return '';
     const title = /스커트|하의|skirt|bottom/i.test(group) ? t('topBottom') : /상의|블라우스|top|blouse/i.test(group) ? t('topDress') : t('actualSize');
-    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr><th>${t('size')}</th><th>${t('chest')}</th><th>${t('waist')}</th><th>${t('hip')}</th><th>${t('sleeve')}</th><th>${t('totalLength')}</th></tr></thead><tbody>${rows.map(row => `<tr><td>${row.size}</td><td>${row.chest}</td><td>${row.waist}</td><td>${row.hip}</td><td>${row.sleeve}</td><td>${row.length}</td></tr>`).join('')}</tbody></table></div>`;
+    const specs = [
+      { key: 'size', label: t('size') },
+      { key: 'chest', label: t('chest') },
+      { key: 'waist', label: t('waist') },
+      { key: 'hip', label: t('hip') },
+      { key: 'sleeve', label: t('sleeve') },
+      { key: 'length', label: t('totalLength') }
+    ].filter((spec, index) => index === 0 || rows.some(row => {
+      const value = safeText(row[spec.key]).trim();
+      return value && value !== '-' && value !== '—';
+    }));
+    return `<div class="size-table-wrap"><p>${title}</p><table class="size-table"><thead><tr>${specs.map(spec => `<th>${spec.label}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${specs.map(spec => `<td>${safeText(row[spec.key]) || '-'}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
   }).filter(Boolean).join('');
   return `<div class="box size-guide"><b>${t('sizeGuide')}</b>${tables || `<p>${t('sizeAsk')}</p>`}</div>`;
 }
