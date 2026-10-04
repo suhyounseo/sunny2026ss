@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'tiara_new_zone_20261004_1';
+const VERSION = 'style_search_analytics_ready_20261004_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -490,6 +490,48 @@ let searchHistoryActive = false;
 let SIMILAR_CODE = '';
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
+
+let detailOpenedAt = 0;
+let detailOpenedCode = '';
+let searchTrackTimer = 0;
+const pageOpenedAt = Date.now();
+
+function trackShowroomEvent(name, params = {}) {
+  const payload = { ...params, showroom_filter: FILTER, showroom_lang: LANG };
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', name, payload);
+  }
+  window.dataLayer = window.dataLayer || [];
+  if (typeof window.gtag !== 'function') {
+    window.dataLayer.push({ event: name, ...payload });
+  }
+}
+
+function scheduleSearchTracking() {
+  clearTimeout(searchTrackTimer);
+  const term = q.value.trim();
+  if (!term) return;
+  searchTrackTimer = setTimeout(() => {
+    const results = PRODUCTS.filter(match).length;
+    trackShowroomEvent('search', {
+      search_term: term,
+      search_results: results,
+      search_source: 'search_box'
+    });
+  }, 900);
+}
+
+function trackDetailDwell() {
+  if (!detailOpenedAt || !detailOpenedCode) return;
+  const seconds = Math.max(1, Math.round((Date.now() - detailOpenedAt) / 1000));
+  trackShowroomEvent('product_detail_dwell', {
+    item_id: detailOpenedCode,
+    dwell_seconds: seconds
+  });
+  detailOpenedAt = 0;
+  detailOpenedCode = '';
+}
+
 const COLLECTIONS = [
   // 쇼룸 메인 컬렉션은 항상 6개만 유지합니다.
   { key: 'SEPTEMBER_NEW', filter: 'COL_SEPTEMBER', title: '9월 신상', name: 'September New Selection', desc: '이번 9월에 새로 입고된 NICE 신상 셀렉션입니다. 색상, 사이즈, 재고는 카카오톡으로 문의해 주세요.' },
@@ -525,7 +567,11 @@ const LABEL = {
   COL_E: 'COLLECTION E',
   SAME_DAY: '당일발송'
 };
-const QUICK_BASE = ['전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능'];
+const QUICK_BASE = [
+  '전체', 'NEW ARRIVAL', '미니원피스', '미디원피스', '롱드레스', '슬림핏', '럭셔리', '투피스', '블라우스', '스커트', '77/88가능',
+  '머메이드', '탑', '오프숄더', '원숄더', '홀터넥', '스퀘어넥', '카라넥',
+  '민소매', '반소매', '긴소매', '레이스', '리본', '셔링', '프린트'
+];
 const QUICK_VIP = [];
 const QUICK_LABELS = {
   ko: {},
@@ -697,28 +743,34 @@ const COLOR_SEARCH_GROUPS = {
 
 const STYLE_SEARCH_GROUPS = {
   '언발런스': ['언발런스', '언발란스', '언발', '비대칭', 'asymmetric', 'asymmetry'],
-  '홀터넥': ['홀터넥', '홀터', 'halter', 'halterneck'],
+  '홀터넥': ['홀터넥', '홀터', 'halter', 'halterneck', 'halter neck'],
   '미디': ['미디', '미디원피스', 'midi'],
   '미니': ['미니', '미니원피스', 'mini'],
   '드레이프': ['드레이프', '드레이핑', 'drape', 'draped'],
-  '레이스': ['레이스', 'lace'],
+  '레이스': ['레이스', '레이스터치', '레이스 터치', '레이스배색', '레이스트리밍', '레이스포인트', 'lace', 'lace trim', 'lace touch'],
   '자수': ['자수', 'embroidery', 'embroidered'],
-  '오프숄더': ['오프숄더', '오프숄', 'offshoulder', 'off-shoulder'],
-  '원숄더': ['원숄더', 'one shoulder', 'one-shoulder'],
+  '오프숄더': ['오프숄더', '오프숄', '오프숄더넥', 'offshoulder', 'off-shoulder', 'off shoulder'],
+  '원숄더': ['원숄더', '한쪽어깨', 'one shoulder', 'one-shoulder', 'oneshoulder'],
+  '민소매': ['민소매', '나시', '슬리브리스', 'sleeveless', 'sleeveless top', 'tank'],
+  '반소매': ['반소매', '반팔', '숏슬리브', 'short sleeve', 'short-sleeve', 'shortsleeve'],
+  '긴소매': ['긴소매', '긴팔', '장소매', '롱슬리브', 'long sleeve', 'long-sleeve', 'longsleeve'],
+  '탑': ['탑', '상의', '크롭탑', '크롭 탑', 'top', 'crop top', 'croptop'],
   '시스루': ['시스루', 'see-through', 'sheer'],
   '트위드': ['트위드', 'tweed'],
-  '머메이드': ['머메이드', 'mermaid'],
+  '머메이드': ['머메이드', '머메이드핏', '머메이드라인', 'mermaid', 'mermaid fit'],
   '플레어': ['플레어', '플레어핏', 'flare', 'flared'],
   'A라인': ['A라인', '에이라인', 'a-line', 'aline'],
   'H라인': ['H라인', '에이치라인', 'h-line', 'hline'],
   '캉캉': ['캉캉', '캉캉스커트', 'tiered'],
   '프릴': ['프릴', '러플', 'frill', 'ruffle'],
-  '리본': ['리본', 'ribbon', 'bow'],
-  '셔링': ['셔링', 'shirr', 'shirring'],
+  '리본': ['리본', '리본포인트', '리본 포인트', '빅리본', '보우', 'ribbon', 'bow', 'bow detail'],
+  '셔링': ['셔링', '셔링포인트', '셔링 디테일', '주름셔링', 'shirr', 'shirring', 'ruched', 'ruched detail'],
   '슬릿': ['슬릿', '트임', 'slit'],
   '브이넥': ['브이넥', 'V넥', 'v-neck', 'vneck'],
-  '스퀘어넥': ['스퀘어넥', 'square neck', 'squareneck'],
-  '카라': ['카라', 'collar'],
+  '스퀘어넥': ['스퀘어넥', '스퀘어 네크라인', 'square neck', 'squareneck'],
+  '카라': ['카라', '카라넥', '카라 네크라인', '배색카라', '셔츠카라', '세일러카라', 'collar', 'collared'],
+  '라운드넥': ['라운드넥', '라운드 네크라인', 'round neck', 'crew neck'],
+  '하이넥': ['하이넥', '목폴라', '터틀넥', 'high neck', 'turtleneck'],
   '버튼': ['버튼', '단추', 'button'],
   '체인': ['체인', 'chain'],
   '비즈': ['비즈', '큐빅', '스톤', 'beads', 'beaded', 'cubic', 'stone'],
@@ -733,7 +785,7 @@ const STYLE_SEARCH_GROUPS = {
   '벨트': ['벨트', 'belt'],
   '브로치': ['브로치', 'brooch'],
   '플리츠': ['플리츠', '주름', 'pleats', 'pleated'],
-  '프린트': ['프린트', '프린트원단', '패턴', '패턴원단', 'print', 'printed', 'pattern', 'patterned']
+  '프린트': ['프린트', '나염', '나염프린트', '나염 프린트', '패턴', '패턴원단', '플라워프린트', '애니멀프린트', 'print', 'printed', 'pattern', 'patterned']
 };
 function styleSearchGroup(raw) {
   const s = String(raw || '').trim().toLowerCase().replace(/[\s\-_]/g, '');
@@ -2234,6 +2286,7 @@ function showSimilar(p) {
 }
 function closeDetail(fromHistory = false) {
   if (!modal.classList.contains('open')) return;
+  trackDetailDwell();
   modal.classList.remove('open');
   document.body.classList.remove('detail-open');
   if (modalHistoryOpen && !fromHistory) {
@@ -2400,6 +2453,17 @@ function openDetail(code) {
   const p = PRODUCTS.find(x => codeOf(x) === code);
   if (!p || !visibleToAudience(p)) return;
   currentProduct = p;
+  trackDetailDwell();
+  detailOpenedAt = Date.now();
+  detailOpenedCode = codeOf(p);
+  trackShowroomEvent('view_item', {
+    item_id: codeOf(p),
+    item_name: displayName(p),
+    item_category: p.category || '',
+    item_collection: p.collection || '',
+    search_term: q.value.trim() || '',
+    price: Number(p.price || 0)
+  });
   currentImages = imageListFor(p);
   currentImageIndex = 0;
   const labelTags = [isNew(p) ? 'NEW' : '', (p.steady || hasTag(p, 'STEADY')) ? 'STEADY' : '', isBest(p) ? 'BEST' : '', isFittingAvailable(p) ? t('fittingAvailable') : '', isSameDayCandidate(p) ? t('sameDay') : '', sizeBadgeText(p), isLuxuryCandidate(p) ? '럭셔리' : ''].filter(Boolean).slice(0, 5);
@@ -2535,9 +2599,11 @@ quick.onclick = e => {
   const b = e.target.closest('.quick-chip');
   if (!b) return;
   if (b.dataset.q === '전체') {
+    trackShowroomEvent('quick_search_click', { search_term: '전체' });
     applyView('ALL', { search: '', push: true, scroll: true });
     return;
   }
+  trackShowroomEvent('quick_search_click', { search_term: b.dataset.q });
   applyView('ALL', { search: b.dataset.q, push: true, scroll: true });
 };
 if (langSwitcher) {
@@ -2553,6 +2619,7 @@ q.oninput = () => {
   if (!hasSearch) FILTER = 'HOME';
   buildChips();
   render();
+  if (hasSearch) scheduleSearchTracking();
   const nextUrl = hasSearch ? `#view-${FILTER.toLowerCase()}` : location.pathname;
   const nextState = { niceView: true, filter: FILTER, search: q.value };
   if (hasSearch && !searchHistoryActive) {
@@ -2594,6 +2661,12 @@ document.addEventListener('keydown', e => {
     closeVipModal();
   }
 });
+window.addEventListener('pagehide', () => {
+  trackDetailDwell();
+  const seconds = Math.max(1, Math.round((Date.now() - pageOpenedAt) / 1000));
+  trackShowroomEvent('showroom_dwell', { dwell_seconds: seconds });
+});
+
 window.addEventListener('popstate', e => {
   if (modal.classList.contains('open')) {
     closeDetail(true);
