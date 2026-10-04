@@ -4674,21 +4674,7 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
-    "componentPrices": [
-      {
-        "name": "블라우스",
-        "price": 86000
-      },
-      {
-        "name": "스커트",
-        "price": 86000
-      },
-      {
-        "name": "벨트",
-        "price": 12000
-      }
-    ]
+    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
   },
   {
     "code": "T115",
@@ -4800,21 +4786,7 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
-    "componentPrices": [
-      {
-        "name": "블라우스",
-        "price": 86000
-      },
-      {
-        "name": "스커트",
-        "price": 86000
-      },
-      {
-        "name": "벨트",
-        "price": 12000
-      }
-    ]
+    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
   },
   {
     "code": "T116",
@@ -4926,21 +4898,7 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
-    "componentPrices": [
-      {
-        "name": "블라우스",
-        "price": 86000
-      },
-      {
-        "name": "스커트",
-        "price": 86000
-      },
-      {
-        "name": "벨트",
-        "price": 12000
-      }
-    ]
+    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
   },
   {
     "code": "T117",
