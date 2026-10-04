@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'tiara_t179_t214_20261003_1';
+const VERSION = 'tiara_new_zone_20261004_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -501,7 +501,7 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW', 'LUXURY_NEW'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW', 'TIARA_NEW', 'LUXURY_NEW'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
@@ -509,6 +509,7 @@ const LABEL = {
   NEW: 'NEW ARRIVAL',
   COSTUME: 'Costume',
   ANC_NEW: '앙크최 신상',
+  TIARA_NEW: 'Tiara New',
   LUXURY_NEW: 'LUXURY NEW',
   MINI: '미니',
   MIDI: '미디',
@@ -1651,6 +1652,7 @@ function sectionName() {
   if (FILTER === 'BEST') return filterLabel('BEST');
   if (FILTER === 'COSTUME') return filterLabel('COSTUME');
   if (FILTER === 'ANC_NEW') return filterLabel('ANC_NEW');
+  if (FILTER === 'TIARA_NEW') return filterLabel('TIARA_NEW');
   if (FILTER === 'LUXURY_NEW') return filterLabel('LUXURY_NEW');
   if (FILTER === 'MINI') return 'MINI DRESS';
   if (FILTER === 'MIDI') return 'MIDI DRESS';
@@ -1665,6 +1667,7 @@ function sectionIntro() {
   if (FILTER === 'BEST') return t('bestIntro');
   if (FILTER === 'COSTUME') return t('costumeIntro');
   if (FILTER === 'ANC_NEW') return '앙크최 26FW 신상만 모아보는 메뉴입니다.';
+  if (FILTER === 'TIARA_NEW') return '티아라 T179~T214 신상만 모아보는 메뉴입니다.';
   if (FILTER === 'LUXURY_NEW') return '최근 입고될 럭셔리룩 신상을 모아보는 메뉴입니다.';
   if (FILTER === 'MINI') return t('miniIntro');
   if (FILTER === 'MIDI') return t('midiIntro');
@@ -1740,6 +1743,7 @@ function match(p) {
   else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
+  else if (FILTER === 'TIARA_NEW') f = isTiaraOctoberNewProduct(p);
   else if (FILTER === 'LUXURY_NEW') f = isLuxuryNew929Product(p);
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
