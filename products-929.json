@@ -4578,7 +4578,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 185000,
+    "price": 184000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -4671,10 +4671,24 @@
     "desc": "화이트 타이포인트 블랙 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "description": "화이트 타이포인트 블랙 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "mainCopy": "화이트 타이포인트 블랙 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
-    "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
+    "sourceInfoNote": "2026-10-04 사용자 최신 판매가격 확인 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T115",
@@ -4690,7 +4704,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 185000,
+    "price": 184000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -4783,10 +4797,24 @@
     "desc": "스카이블루 타이포인트 그레이 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "description": "스카이블루 타이포인트 그레이 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "mainCopy": "스카이블루 타이포인트 그레이 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
-    "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
+    "sourceInfoNote": "2026-10-04 사용자 최신 판매가격 확인 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T116",
@@ -4802,7 +4830,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 185000,
+    "price": 184000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -4895,10 +4923,24 @@
     "desc": "블랙 타이포인트 화이트 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "description": "블랙 타이포인트 화이트 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
     "mainCopy": "블랙 타이포인트 화이트 미니투피스입니다. 상·하의가 자연스럽게 연결되어 전체 실루엣이 또렷하게 살아나며, 방송·무대·행사·파티룩으로 활용하기 좋은 구성입니다.",
-    "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
+    "sourceInfoNote": "2026-10-04 사용자 최신 판매가격 확인 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T117",
