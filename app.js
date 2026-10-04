@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'style_search_analytics_ready_20261004_1';
+const VERSION = 'tiara_home_section_20261004_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -2090,6 +2090,9 @@ function renderHome() {
     .map(code => visible.find(p => codeOf(p) === code))
     .filter(Boolean);
   const luxuryNew = [...luxuryExisting, ...luxurySelectedSilhouette.filter(p => !luxuryExisting.some(x => codeOf(x) === codeOf(p)))];
+  const tiaraHomeCodes = ['T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
+  const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
+  const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
   const gallery = sortProducts(visible).slice(0, 16);
   title.textContent = '';
   count.textContent = '';
@@ -2100,6 +2103,8 @@ function renderHome() {
       luxuryNewDesc: '최근 업데이트한 고급 신상을 확인해보세요.',
       luxuryNewMore: 'LUXURY NEW 전체보기',
       newDesc: '최근 입고된 대표 스타일입니다.',
+      tiaraDesc: '티아라의 화려하고 여성스러운 최신 스타일을 만나보세요.',
+      tiaraMore: 'TIARA NEW 전체보기',
       pickDesc: '핏이 좋고 누구나 소화하기 좋은 NICE 추천 스타일입니다.',
       allDesc: '전체 상품을 확인할 수 있습니다.',
       newMore: 'NEW ARRIVAL 더 보기',
@@ -2110,6 +2115,8 @@ function renderHome() {
       luxuryNewDesc: 'Explore the latest premium arrivals updated on September 29.',
       luxuryNewMore: 'View Luxury New',
       newDesc: 'Selected new arrivals from NICE.',
+      tiaraDesc: 'Discover the latest glamorous Tiara styles.',
+      tiaraMore: 'View TIARA NEW',
       pickDesc: 'Styles recommended by NICE.',
       allDesc: 'Browse the full collection.',
       newMore: 'View NEW ARRIVAL',
@@ -2120,6 +2127,8 @@ function renderHome() {
       luxuryNewDesc: '先查看9月29日更新的高级新款。',
       luxuryNewMore: '查看高级新款',
       newDesc: 'NICE精选新款。',
+      tiaraDesc: '查看Tiara最新华丽女装。',
+      tiaraMore: '查看TIARA NEW',
       pickDesc: 'NICE推荐款式。',
       allDesc: '查看全部商品。',
       newMore: '查看NEW ARRIVAL',
@@ -2130,6 +2139,8 @@ function renderHome() {
       luxuryNewDesc: '9月29日に更新したプレミアム新作を先にご覧ください。',
       luxuryNewMore: 'ラグジュアリー新作を見る',
       newDesc: 'NICEが選んだ新作スタイルです。',
+      tiaraDesc: 'Tiaraの華やかな最新スタイルをご覧ください。',
+      tiaraMore: 'TIARA NEWを見る',
       pickDesc: 'NICEおすすめのスタイルです。',
       allDesc: '全商品をご覧いただけます。',
       newMore: 'NEW ARRIVALを見る',
@@ -2141,6 +2152,7 @@ function renderHome() {
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 11)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
+    ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
     ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
