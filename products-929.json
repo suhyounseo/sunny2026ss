@@ -1403,7 +1403,21 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 자켓: 117,000원 / 스커트: 950,000원 / 니트: 29,000원"
+    "componentPriceText": "구성별 가격: 자켓 117,000원 / 스커트 95,000원 / 탑 29,000원",
+    "componentPrices": [
+      {
+        "name": "자켓",
+        "price": 117000
+      },
+      {
+        "name": "스커트",
+        "price": 95000
+      },
+      {
+        "name": "탑",
+        "price": 29000
+      }
+    ]
   },
   {
     "code": "T083",
@@ -3889,7 +3903,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 219000,
+    "price": 162000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -3985,7 +3999,17 @@
     "sourceInfoNote": "2026-09-30 가격 포함 CSV 기준 판매가 및 구성별 가격 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 90,000원 / 하의 129,000원"
+    "componentPriceText": "구성별 가격: 블라우스 90,000원 / 스커트 72,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 90000
+      },
+      {
+        "name": "스커트",
+        "price": 72000
+      }
+    ]
   },
   {
     "code": "T109",
@@ -4001,7 +4025,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 219000,
+    "price": 162000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -4091,7 +4115,17 @@
     "sourceInfoNote": "2026-09-30 가격 포함 CSV 기준 판매가 및 구성별 가격 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 90,000원 / 하의 129,000원"
+    "componentPriceText": "구성별 가격: 블라우스 90,000원 / 스커트 72,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 90000
+      },
+      {
+        "name": "스커트",
+        "price": 72000
+      }
+    ]
   },
   {
     "code": "T110",
@@ -4107,7 +4141,7 @@
     "collection": "SEPTEMBER_NEW",
     "collectionName": "9월 29일 신상",
     "collectionDescription": "9월 29일 입고 신상",
-    "price": 219000,
+    "price": 162000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -4203,7 +4237,17 @@
     "sourceInfoNote": "2026-09-30 가격 포함 CSV 기준 판매가 및 구성별 가격 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 90,000원 / 하의 129,000원"
+    "componentPriceText": "구성별 가격: 블라우스 90,000원 / 스커트 72,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 90000
+      },
+      {
+        "name": "스커트",
+        "price": 72000
+      }
+    ]
   },
   {
     "code": "T111",
@@ -4630,7 +4674,21 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T115",
@@ -4742,7 +4800,21 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T116",
@@ -4854,7 +4926,21 @@
     "sourceInfoNote": "2026-10-01 사용자 최신 판매가격 수정 요청 반영",
     "isSameDayDelivery": false,
     "isFittingAvailable": false,
-    "componentPriceText": "구성별 가격: 상의: 86,000원 / 하의: 99,000원"
+    "componentPriceText": "구성별 가격: 블라우스 86,000원 / 스커트 86,000원 / 벨트 12,000원",
+    "componentPrices": [
+      {
+        "name": "블라우스",
+        "price": 86000
+      },
+      {
+        "name": "스커트",
+        "price": 86000
+      },
+      {
+        "name": "벨트",
+        "price": 12000
+      }
+    ]
   },
   {
     "code": "T117",
