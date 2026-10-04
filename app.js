@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'tiara_home_section_20261004_1';
+const VERSION = 'search_data_fix_20261004_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -844,6 +844,10 @@ function ownColorText(p) {
     p.optionColor,
     p.optionName,
     p.displayColor,
+    p.name,
+    p.storeName,
+    p.productName,
+    p.seoName,
     ...(Array.isArray(p.colorOptions) ? p.colorOptions : []),
     ...exactColorTags
   ].filter(Boolean).join(' '));
@@ -1775,7 +1779,9 @@ function matchesSearch(p, rawSearch) {
   if (/^(스커트|skirt)$/i.test(rawSearch)) return p.category === 'SKIRT' || hasTag(p, 'SKIRT');
   if (/^(블라우스|blouse)$/i.test(rawSearch)) {
     const label = [p.name, p.storeName, p.productName, p.seoName, ...(p.tags || [])].join(' ');
-    return (p.category === 'TOP' || hasTag(p, 'TOP')) && /블라우스|blouse/i.test(label);
+    return p.category === 'BLOUSE'
+      || hasTag(p, 'BLOUSE')
+      || ((p.category === 'TOP' || hasTag(p, 'TOP')) && /블라우스|blouse/i.test(label));
   }
   const hay = norm([productText(p), sizeBadgeText(p), isFittingAvailable(p) ? '피팅가능' : '', isSameDayCandidate(p) ? '당일배송 당일발송' : ''].join(' '));
   return hay.includes(search);
