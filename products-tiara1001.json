@@ -1190,7 +1190,7 @@
     "collection": "TIARA_20261001",
     "collectionName": "티아라 신상",
     "collectionDescription": "티아라 10월 신상",
-    "price": 153000,
+    "price": 442000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -1283,7 +1283,18 @@
     "pendingProductInfo": true,
     "priority": 11600,
     "variantColor": "베이지",
-    "color": "베이지"
+    "color": "베이지",
+    "componentPrices": [
+      {
+        "name": "자켓",
+        "price": 206000
+      },
+      {
+        "name": "원피스",
+        "price": 236000
+      }
+    ],
+    "componentPriceText": "구성별 가격: 자켓 206,000원 / 원피스 236,000원"
   },
   {
     "code": "T190",
@@ -2884,7 +2895,7 @@
     "collection": "TIARA_20261001",
     "collectionName": "티아라 신상",
     "collectionDescription": "티아라 10월 신상",
-    "price": null,
+    "price": 81000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -2984,7 +2995,14 @@
     "priority": 11600,
     "variantColor": "베이지",
     "color": "베이지",
-    "designGroupId": "TIA-T204-T205"
+    "designGroupId": "TIA-T204-T205",
+    "componentPrices": [
+      {
+        "name": "세트판매",
+        "price": 81000
+      }
+    ],
+    "componentPriceText": "세트판매: 81,000원"
   },
   {
     "code": "T205",
@@ -3001,7 +3019,7 @@
     "collection": "TIARA_20261001",
     "collectionName": "티아라 신상",
     "collectionDescription": "티아라 10월 신상",
-    "price": null,
+    "price": 81000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -3107,7 +3125,14 @@
     "priority": 11600,
     "variantColor": "블루/네이비",
     "color": "블루/네이비",
-    "designGroupId": "TIA-T204-T205"
+    "designGroupId": "TIA-T204-T205",
+    "componentPrices": [
+      {
+        "name": "세트판매",
+        "price": 81000
+      }
+    ],
+    "componentPriceText": "세트판매: 81,000원"
   },
   {
     "code": "T206",
@@ -3124,7 +3149,7 @@
     "collection": "TIARA_20261001",
     "collectionName": "티아라 신상",
     "collectionDescription": "티아라 10월 신상",
-    "price": 162000,
+    "price": 81000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -3218,7 +3243,14 @@
     "priority": 11600,
     "variantColor": "화이트",
     "color": "화이트",
-    "designGroupId": "TIA-T206-T207"
+    "designGroupId": "TIA-T206-T207",
+    "componentPrices": [
+      {
+        "name": "세트판매",
+        "price": 81000
+      }
+    ],
+    "componentPriceText": "세트판매: 81,000원"
   },
   {
     "code": "T207",
@@ -3235,7 +3267,7 @@
     "collection": "TIARA_20261001",
     "collectionName": "티아라 신상",
     "collectionDescription": "티아라 10월 신상",
-    "price": 162000,
+    "price": 81000,
     "size": "",
     "sizeInfo": "",
     "wearInfo": "",
@@ -3329,7 +3361,14 @@
     "priority": 11600,
     "variantColor": "베이지",
     "color": "베이지",
-    "designGroupId": "TIA-T206-T207"
+    "designGroupId": "TIA-T206-T207",
+    "componentPrices": [
+      {
+        "name": "세트판매",
+        "price": 81000
+      }
+    ],
+    "componentPriceText": "세트판매: 81,000원"
   },
   {
     "code": "T208",
@@ -3442,7 +3481,7 @@
     "color": "핑크/화이트",
     "componentPrices": [
       {
-        "name": "자켓",
+        "name": "블라우스",
         "price": 135000
       },
       {
@@ -3450,7 +3489,7 @@
         "price": 63000
       }
     ],
-    "componentPriceText": "구성별 가격: 자켓 135,000원 / 스커트 63,000원"
+    "componentPriceText": "구성별 가격: 블라우스 135,000원 / 스커트 63,000원"
   },
   {
     "code": "T209",
