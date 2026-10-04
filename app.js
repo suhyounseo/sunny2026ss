@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'detail_feature_chips_20261004_1';
+const VERSION = 'detail_feature_chips_20261004_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -1439,6 +1439,8 @@ function detailHighlightItems(p) {
   ];
 
   for (const [label, words] of featureGroups) {
+    if (label === '셔링' && hay.includes(norm('랩셔링'))) continue;
+    if (label === '벨트' && hay.includes(norm('더블벨트'))) continue;
     if (words.some(word => hay.includes(norm(word)))) add(label);
     if (out.length >= 4) break;
   }
