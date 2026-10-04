@@ -2457,12 +2457,18 @@ function openDetail(code) {
   detailOpenedAt = Date.now();
   detailOpenedCode = codeOf(p);
   trackShowroomEvent('view_item', {
-    item_id: codeOf(p),
-    item_name: displayName(p),
-    item_category: p.category || '',
-    item_collection: p.collection || '',
+    currency: 'KRW',
+    value: Number(p.price || 0),
     search_term: q.value.trim() || '',
-    price: Number(p.price || 0)
+    items: [{
+      item_id: codeOf(p),
+      item_name: displayName(p),
+      item_category: p.category || '',
+      item_category2: p.supplier || p.vendor || '',
+      item_list_name: p.collectionName || p.collection || '',
+      price: Number(p.price || 0),
+      quantity: 1
+    }]
   });
   currentImages = imageListFor(p);
   currentImageIndex = 0;
