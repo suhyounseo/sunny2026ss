@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'product_review_20261005_1';
+const VERSION = 'product_review_20261005_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -265,7 +265,7 @@ const PERMANENTLY_REMOVED_PRODUCT_CODES = new Set([
 const ARCHIVED_PRODUCT_CODES = new Set([
   'S709', 'S710', 'S671', 'S672', 'S670', 'S696', 'S695',
   'TIA-S852', 'TIA-S851', 'TIA-S850', 'TIA-S774', 'TIA-S773',
-  'TIA-S768', 'TIA-S769', 'TIA-S895', 'TIA-S762', 'TIA-S763',
+  'TIA-S768', 'TIA-S769', 'TIA-S762', 'TIA-S763',
   'TIA-S933', 'TIA-S932', 'TIA-S931', 'TIA-S930', 'TIA-S929', 'TIA-S928',
   'TIA-S902', 'N260125'
 ]);
