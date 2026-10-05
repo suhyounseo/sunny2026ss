@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 's961_fix_20261005_1';
+const VERSION = 'product_review_20261005_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -67,6 +67,8 @@ const PRODUCT_OVERRIDES_20261002 = {
     searchKeywords: ['S961','핑크 화이트꼬임 오프숄더 미니원피스','핑크','핑크/화이트','오프숄더','화이트배색','꼬임','슬림핏','미니원피스','파티룩','클럽룩','방송룩']
   }
 };
+const PRODUCT_REVIEW_OVERRIDES_20261005 = Object.fromEntries([{"c":"ANC-5018","cat":"MINI","l":"미니","f":"머메이드 / 슬림핏","co":"블랙","x":"머메이드치마"},{"c":"JES-312","cat":"MINI","l":"미니","f":"머메이드 / 슬림핏","co":"블랙","x":"머메이드치마"},{"c":"JES-319","cat":"MINI","l":"미니","f":"머메이드 / 슬림핏","co":"핑크","x":"머메이드치마"},{"c":"N260047","cat":"LONG","l":"롱","co":"화이트","x":"롱드레스, 탑&오프숄더, 화이트, 스커트 시스루 아이템"},{"c":"N260048","cat":"LONG","l":"롱","f":"A라인","co":"블랙","x":"롱드레스, 탑&오프숄더, 블랙, 스커트 시스루 아이템"},{"c":"N260057","cat":"MINI","l":"미니","co":"민트","x":"오프숄더, 끈나시 원피스,플리츠주름, 리본포인트, 민트"},{"c":"N260058","cat":"MINI","l":"미니","co":"블랙","x":"오프숄더, 끈나시 원피스,플리츠주름, 리본포인트, 블랙"},{"c":"N260085","cat":"MIDI","l":"미디","f":"브이넥 / 슬림핏","co":"아이보리","x":"민소매, 아이보리, 미디원피스, 슬림핏, v넥"},{"c":"N260086","cat":"MIDI","l":"미디","f":"브이넥 / 슬림핏","co":"핑크","x":"민소매, 핑크, 미디원피스, 슬림핏, v넥"},{"c":"N260111","cat":"BLOUSE","f":"카라 / 슬림핏","co":"화이트/블랙"},{"c":"N260116","cat":"TOP","co":"아이보리/블랙"},{"c":"N260161","cat":"LONG","l":"롱","f":"홀터넥 / 슬림핏","co":"핑크"},{"c":"N260162","cat":"LONG","l":"롱","f":"홀터넥 / 슬림핏","co":"그레이"},{"c":"N260186","cat":"LONG","l":"롱","f":"오프숄더 / 끈나시 / 슬림핏","co":"아이보리"},{"c":"N260237","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 머메이드 / 슬림핏","co":"아이보리"},{"c":"N260238","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 머메이드 / 슬림핏","co":"핑크"},{"c":"P019","cat":"LONG","n":"셀린 타이넥 드레이프 롱드레스","l":"롱","f":"타이넥 / 드레이프 / 슬림핏","co":"크림베이지 / 실버그레이 / 블랙","rm":["홀터넥","머메이드","오프숄더","끈나시"]},{"c":"P021","cat":"LONG","l":"롱","f":"탑&오프숄더 / 셔링 / 슬림핏","co":"크림베이지 / 블랙"},{"c":"P029","cat":"LONG","n":"엘린 숄리본 튤레이어드 롱원피스","l":"롱","f":"라운드넥 / 숄리본포인트 / 튤레이어드","co":"아이보리"},{"c":"S961","cat":"MINI","n":"핑크 화이트꼬임 오프숄더 미니원피스","l":"미니","f":"오프숄더 / 배색 / A라인","co":"핑크/화이트","x":"S962와 같은디자인 다른컬러","rm":["원숄더","슬림핏"]},{"c":"S997","cat":"LONG","n":"핑크 숄체인 슬림셔링 롱원피스","l":"롱","f":"어깨체인 / U넥 / 민소매 / 슬림핏","co":"핑크","rm":["원숄더","머메이드"]},{"c":"S998","cat":"LONG","n":"블루 숄체인 슬림셔링 롱원피스","l":"롱","f":"어깨체인 / U넥 / 민소매 / 슬림핏","co":"블루","rm":["원숄더","머메이드"]},{"c":"T011","cat":"MIDI","n":"화이트 진주라운드넥 슬림 머메이드 미디원피스","l":"미디","f":"진주라운드넥 / 머메이드 / 슬림핏","co":"화이트"},{"c":"T012","cat":"MIDI","n":"블랙 진주라운드넥 슬림 머메이드 미디원피스","l":"미디","f":"진주라운드넥 / 머메이드 / 슬림핏","co":"블랙"},{"c":"T128","cat":"TWO_PIECE","l":"미디","f":"오프숄더 / 머메이드","co":"화이트"},{"c":"T129","cat":"TWO_PIECE","l":"미디","f":"오프숄더 / 머메이드","co":"핑크"},{"c":"T130","cat":"TWO_PIECE","n":"블랙 오프숄더 러플 머메이드 투피스","l":"미디","f":"오프숄더 / 머메이드","co":"블랙","rm":["시스루"]},{"c":"TIA-S759","cat":"TOP","n":"골지셔링 슬리브리스 니트탑","co":"아이보리/핑크/엘로우/소라","x":"슬리브리스, 니트탑, 골지셔링"},{"c":"ANC-5028","cat":"MIDI","l":"미디","f":"U넥 / 슬림핏 / 긴소매","co":"블랙"},{"c":"ANC-5059","cat":"MIDI","l":"미디","f":"U넥 / 슬림핏 / 7부소매","co":"블랙"},{"c":"ANC-5061","cat":"MINI","l":"미니","f":"V넥 / 슬림핏 / 7부소매","co":"와인"},{"c":"ANC-5073","cat":"MINI","l":"미니","f":"U넥 / 슬림핏 / 7부소매 / 셔링","co":"딥그린"},{"c":"SUN-S793","cat":"MINI","l":"미니","f":"홀터넥 / 하의시스루 / 셔링","co":"아이보리"},{"c":"SUN-S794","cat":"MINI","l":"미니","f":"홀터넥 / 하의시스루 / 셔링","co":"블랙"},{"c":"T083","cat":"MIDI","l":"미디","f":"홀터넥 / 슬림핏","co":"화이트"},{"c":"T084","cat":"MIDI","l":"미디","f":"홀터넥 / 슬림핏","co":"스카이블루, 민트"},{"c":"T085","cat":"MIDI","l":"미디","f":"홀터넥 / 슬림핏","co":"블랙"},{"c":"T091","cat":"MIDI","l":"미디","f":"오프숄더 / 보석끈나시 / 슬림핏","co":"와인"},{"c":"T092","cat":"MIDI","l":"미디","f":"오프숄더 / 보석끈나시 / 슬림핏","co":"블랙"},{"c":"T093","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 가슴리본","co":"핑크"},{"c":"T094","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 가슴리본","co":"블랙"},{"c":"T105","cat":"MIDI","l":"미디","f":"오프숄더 / 슬림핏","co":"화이트"},{"c":"T106","cat":"MIDI","l":"미디","f":"오프숄더 / 슬림핏","co":"와인"},{"c":"T107","cat":"MIDI","l":"미디","f":"오프숄더 / 슬림핏","co":"블랙"},{"c":"T111","cat":"MIDI","l":"미디","f":"원숄더 / 슬림핏","co":"화이트"},{"c":"T112","cat":"MIDI","l":"미디","f":"원숄더 / 슬림핏","co":"핑크"},{"c":"T113","cat":"MIDI","l":"미디","f":"원숄더 / 슬림핏","co":"네이비"},{"c":"T117-ALT","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 언발런스","co":"브라운"},{"c":"T118","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 언발런스","co":"아이보리"},{"c":"T119","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시 / 언발런스","co":"블랙"},{"c":"T122","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시","co":"화이트"},{"c":"T123","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시","co":"핑크"},{"c":"T124","cat":"MIDI","l":"미디","f":"오프숄더 / 끈나시","co":"블랙"},{"c":"T125","cat":"LONG","n":"베이지 체인숄더 코르셋라인 롱드레스","l":"롱","f":"오프숄더 / 체인숄더 / 슬림핏","co":"베이지"},{"c":"T126","cat":"LONG","n":"핑크 체인숄더 코르셋라인 롱드레스","l":"롱","f":"오프숄더 / 체인숄더 / 슬림핏","co":"핑크"},{"c":"T127","cat":"LONG","n":"딥블루 체인숄더 코르셋라인 롱드레스","l":"롱","f":"오프숄더 / 체인숄더 / 슬림핏","co":"딥블루"},{"c":"T135","cat":"LONG","l":"롱","f":"오프숄더 / 끈나시 / 언발런스","co":"모카"},{"c":"T136","cat":"LONG","l":"롱","f":"오프숄더 / 끈나시 / 언발런스","co":"딥그린"},{"c":"T177","cat":"MIDI","l":"미디","f":"라운드넥 / 시스루 / 슬림핏","co":"아이보리"},{"c":"T178","cat":"MIDI","l":"미디","f":"라운드넥 / 시스루 / 슬림핏","co":"블랙"}] .map(x => [x.c, x]));
+
 const SILHOUETTE_PRODUCT_INFO_20261003 = {
   'SIL001': {
     size: '55(S) / 66(M) / 77(L)', sizeInfo: '55(S) / 66(M) / 77(L)', fabric: '새틴', material: '새틴',
@@ -177,16 +179,83 @@ function applyProductOverrides(p) {
   const code = codeOf(p);
   const priceOverride = PRODUCT_OVERRIDES_20261002[code] || {};
   const silhouetteInfo = resolveSilhouetteProductInfo(code) || {};
-  if (!Object.keys(priceOverride).length && !Object.keys(silhouetteInfo).length) return p;
-  return {
-    ...p,
-    ...priceOverride,
-    ...silhouetteInfo,
-    pendingProductInfo: Object.keys(silhouetteInfo).length ? false : p.pendingProductInfo,
-    sourceInfoNote: Object.keys(silhouetteInfo).length
+  const review = PRODUCT_REVIEW_OVERRIDES_20261005[code] || null;
+  if (!Object.keys(priceOverride).length && !Object.keys(silhouetteInfo).length && !review) return p;
+
+  const reviewOverride = review ? {
+    ...(review.n ? { name: review.n, storeName: review.n, productName: review.n } : {}),
+    ...(review.cat ? { category: review.cat } : {}),
+    ...(review.l ? { length: review.l } : {}),
+    ...(review.f ? { fit: review.f } : {}),
+    ...(review.co ? { color: review.co, variantColor: review.co } : {})
+  } : {};
+
+  const merged = { ...p, ...priceOverride, ...silhouetteInfo, ...reviewOverride };
+  if (review) {
+    const containsRemove = (review.rm || []).map(x => norm(x)).filter(Boolean);
+    const exactRemove = new Set();
+    const target = review.cat || '';
+    if (target !== 'TOP') exactRemove.add(norm('TOP'));
+    if (target !== 'BLOUSE') exactRemove.add(norm('BLOUSE'));
+    if (target !== 'TWO_PIECE') {
+      exactRemove.add(norm('TWO PIECE'));
+      exactRemove.add(norm('TWO_PIECE'));
+    }
+    if (target === 'MINI') ['MIDI','LONG','미디','롱','미디원피스','롱원피스','롱드레스'].forEach(x => exactRemove.add(norm(x)));
+    if (target === 'MIDI') ['MINI','LONG','미니','롱','미니원피스','롱원피스'].forEach(x => exactRemove.add(norm(x)));
+    if (target === 'LONG') ['MINI','MIDI','미니','미디','미니원피스','미디원피스'].forEach(x => exactRemove.add(norm(x)));
+
+    const extras = [code, merged.name, review.l, review.f, review.co, review.x]
+      .filter(Boolean)
+      .flatMap(x => String(x).split(/[,/]+/))
+      .map(x => x.trim())
+      .filter(Boolean);
+
+    const mergeReviewList = value => {
+      const base = Array.isArray(value) ? value : [];
+      const kept = base.filter(item => {
+        const key = norm(item);
+        if (exactRemove.has(key)) return false;
+        if (containsRemove.some(term => key.includes(term))) return false;
+        return true;
+      });
+      return [...new Set([...kept, ...extras])];
+    };
+    merged.tags = mergeReviewList(merged.tags);
+    merged.styleTags = mergeReviewList(merged.styleTags);
+    merged.searchKeywords = mergeReviewList(merged.searchKeywords);
+
+    if (code === 'S961') {
+      merged.mainCopy = '핑크 바디와 화이트 꼬임 배색, 오프숄더 A라인 실루엣이 돋보이는 미니원피스입니다.';
+      merged.desc = '핑크와 화이트의 선명한 배색에 꼬임 디테일을 더한 오프숄더 미니원피스입니다. 허리 아래로 자연스럽게 퍼지는 A라인 실루엣이 경쾌하고 여성스러운 분위기를 만들어줍니다.';
+      merged.description = merged.desc;
+      merged.points = ['오프숄더', '화이트배색', '꼬임', 'A라인'];
+      merged.whyYoullLoveIt = ['오프숄더', '화이트배색', '꼬임', 'A라인'];
+    }
+    if (code === 'T130') {
+      merged.mainCopy = '블랙 오프숄더와 러플 디테일, 머메이드 실루엣이 돋보이는 투피스입니다.';
+      merged.desc = '블랙 컬러의 오프숄더 상의와 러플 디테일이 시선을 끌고, 머메이드 라인이 여성스러운 실루엣을 살려주는 투피스입니다.';
+      merged.description = merged.desc;
+    }
+    if (code === 'TIA-S759') {
+      merged.mainCopy = '골지 조직과 셔링이 포인트인 슬리브리스 니트탑입니다.';
+      merged.desc = '바디라인을 깔끔하게 잡아주는 골지 니트 소재에 셔링 디테일을 더한 슬리브리스 탑입니다. 단독 상의로 코디하기 좋은 아이템입니다.';
+      merged.description = merged.desc;
+    }
+    if (code === 'P019') {
+      merged.mainCopy = '타이넥과 드레이프 라인이 우아하게 이어지는 셀린 롱드레스입니다.';
+      merged.desc = '목선을 감싸는 타이넥 디테일과 부드럽게 흐르는 드레이프 라인이 포인트인 롱드레스입니다. 슬림한 실루엣으로 파티와 행사, 촬영 스타일링에 활용하기 좋습니다.';
+      merged.description = merged.desc;
+    }
+  }
+
+  merged.pendingProductInfo = Object.keys(silhouetteInfo).length ? false : p.pendingProductInfo;
+  merged.sourceInfoNote = review
+    ? '2026-10-05 사용자 검토표 확정값 반영'
+    : Object.keys(silhouetteInfo).length
       ? '2026-10-03 실루엣 제품정보 이미지 기준 실측·소재·착용정보 반영'
-      : '2026-10-02 사용자 확정 판매가격 반영'
-  };
+      : '2026-10-02 사용자 확정 판매가격 반영';
+  return merged;
 }
 
 const PERMANENTLY_REMOVED_PRODUCT_CODES = new Set([
@@ -196,7 +265,7 @@ const PERMANENTLY_REMOVED_PRODUCT_CODES = new Set([
 const ARCHIVED_PRODUCT_CODES = new Set([
   'S709', 'S710', 'S671', 'S672', 'S670', 'S696', 'S695',
   'TIA-S852', 'TIA-S851', 'TIA-S850', 'TIA-S774', 'TIA-S773',
-  'TIA-S768', 'TIA-S769', 'TIA-S762', 'TIA-S763',
+  'TIA-S768', 'TIA-S769', 'TIA-S895', 'TIA-S762', 'TIA-S763',
   'TIA-S933', 'TIA-S932', 'TIA-S931', 'TIA-S930', 'TIA-S929', 'TIA-S928',
   'TIA-S902', 'N260125'
 ]);
