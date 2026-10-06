@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'product_review_20261005_2';
+const VERSION = 'product_review_20261006_3';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'SIL-ABO2': { price: 135000 },
@@ -183,7 +183,7 @@ function applyProductOverrides(p) {
   if (!Object.keys(priceOverride).length && !Object.keys(silhouetteInfo).length && !review) return p;
 
   const reviewOverride = review ? {
-    ...(review.n ? { name: review.n, storeName: review.n, productName: review.n } : {}),
+    ...(review.n ? { name: review.n, storeName: review.n, productName: review.n, seoName: review.n } : {}),
     ...(review.cat ? { category: review.cat } : {}),
     ...(review.l ? { length: review.l } : {}),
     ...(review.f ? { fit: review.f } : {}),
@@ -1494,6 +1494,7 @@ function detailHighlightItems(p) {
     ['오프숄더', ['오프숄더','off shoulder','off-shoulder']],
     ['원숄더', ['원숄더','one shoulder','one-shoulder']],
     ['홀터넥', ['홀터넥','홀터','halter']],
+    ['타이넥', ['타이넥','타이 네크라인','tie neck','tie-neck']],
     ['스퀘어넥', ['스퀘어넥','square neck']],
     ['브이넥', ['브이넥','v넥','v-neck']],
     ['카라', ['카라','collar']],
