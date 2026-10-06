@@ -2866,11 +2866,12 @@ Promise.all([
   fetch('./products.json?v=' + VERSION).then(r => r.json()),
   fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-silhouette.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
-  fetch('./products-tiara1001.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-tiara1001.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-t059.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, t059Patch]) => {
     const merged = new Map();
-    [...new929, ...silhouetteNew, ...tiara1001, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
+    [...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
     PRODUCTS = [...merged.values()].filter(p => !isShowroomExcludedProduct(p)).map(applyProductOverrides).map(normalizeProduct);
     history.replaceState({ niceView: true, filter: FILTER, search: q.value }, '', location.pathname);
     updateStaticLanguage();
