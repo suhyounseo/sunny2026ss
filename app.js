@@ -3003,5 +3003,13 @@ Promise.all([
     render();
   })
   .catch(() => {
+    if (location.protocol === 'file:') {
+      grid.innerHTML = `<section class="file-preview-help">
+        <strong>쇼룸은 웹 미리보기 주소로 열어주세요.</strong>
+        <p>브라우저에서 HTML 파일을 직접 열면 보안 정책 때문에 상품 데이터를 읽을 수 없습니다.</p>
+        <a href="http://127.0.0.1:8765/">정상 쇼룸 미리보기 열기</a>
+      </section>`;
+      return;
+    }
     grid.innerHTML = `<div class="empty">${t('dataFail')}</div>`;
   });

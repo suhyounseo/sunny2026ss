@@ -1692,6 +1692,10 @@ body{padding-bottom:76px;background:var(--showroom-cream)}
 .showroom-contact-bar>span:last-child{margin-left:auto;font-size:26px;font-weight:300}.showroom-contact-icon{display:grid;place-items:center;width:29px;height:25px;border:2px solid currentColor;border-radius:12px;font-size:12px;letter-spacing:1px;line-height:1}
 .modal-top .brand{font-size:18px;font-weight:500;letter-spacing:.2em}
 .detail-highlight span{background:#f8efe7;border-color:#f0dfd2;color:#6a332f}
+.file-preview-help{max-width:720px;margin:24px auto;padding:44px 28px;border:1px solid var(--showroom-line);border-radius:22px;background:#fffdf9;text-align:center;box-shadow:0 18px 46px rgba(31,23,18,.06)}
+.file-preview-help strong{display:block;margin-bottom:12px;font-family:'Noto Serif KR',Georgia,serif;font-size:26px}
+.file-preview-help p{margin:0 0 22px;color:#76665b;line-height:1.7;word-break:keep-all}
+.file-preview-help a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;background:#211b17;color:#fff;text-decoration:none;font-weight:850}
 
 @media(min-width:721px){
   .showroom-pick-grid .photo{aspect-ratio:3/4.1}
