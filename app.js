@@ -2306,6 +2306,36 @@ function smartStoreItems(visible) {
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
 
+const SHOWROOM_HERO_SUPPLIERS = ['펄', '지나', '임마누엘', '티아라', '실루엣', '제시카', '앙크최', '지니', '세윤', '희야', '그레이스', '써니', '예스', '햅번'];
+const SHOWROOM_HERO_PREFERRED_CODES = {
+  '펄': 'T086',
+  '지나': 'T093',
+  '임마누엘': 'S997',
+  '티아라': 'T208',
+  '실루엣': 'S92902W',
+  '제시카': 'JES-502'
+};
+
+function showroomSupplierName(p) {
+  const code = codeOf(p);
+  if (/^JES-/i.test(code)) return '제시카';
+  if (/^ANC-/i.test(code)) return '앙크최';
+  const fields = [p.supplier, p.vendor, p.brand, p.origin, p.folder, p.zipFolder]
+    .filter(Boolean)
+    .map(value => String(value).trim());
+  const known = SHOWROOM_HERO_SUPPLIERS.find(supplier => fields.some(value => value.includes(supplier)));
+  return known || fields[0] || '';
+}
+
+function showroomHeroItems(visible) {
+  const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
+  return SHOWROOM_HERO_SUPPLIERS.map(supplier => {
+    const preferred = visibleMap.get(SHOWROOM_HERO_PREFERRED_CODES[supplier]);
+    if (preferred && showroomSupplierName(preferred) === supplier && mainImg(preferred)) return preferred;
+    return sortProducts(visible.filter(p => showroomSupplierName(p) === supplier && mainImg(p)))[0];
+  }).filter(Boolean);
+}
+
 function showroomHeroBlock(items) {
   const p = items[0];
   if (!p) return '';
@@ -2320,7 +2350,7 @@ function showroomHeroBlock(items) {
       <h2>${copy.statement}</h2>
       <p>${copy.sub}</p>
       <div class="showroom-hero-feature" aria-live="polite">
-        <span id="showroomHeroCode">${displayCode(p)}</span>
+        <span id="showroomHeroCode">${showroomSupplierName(p)} · ${displayCode(p)}</span>
         <strong id="showroomHeroName">${displayName(p)}</strong>
         <b id="showroomHeroPrice">${money(p.price)}</b>
       </div>
@@ -2328,7 +2358,7 @@ function showroomHeroBlock(items) {
         <button class="showroom-hero-detail" type="button" data-code="${codeOf(p)}">${copy.detail}<span aria-hidden="true">›</span></button>
         <a href="${KAKAO_URL}" target="_blank" rel="noopener noreferrer">${copy.ask}</a>
       </div>
-      <div class="showroom-hero-dots" aria-label="대표 상품 선택">${items.map((_, i) => `<button type="button" class="${i === 0 ? 'on' : ''}" data-hero-index="${i}" aria-label="대표 상품 ${i + 1}"></button>`).join('')}</div>
+      <div class="showroom-hero-dots" aria-label="거래처별 대표 상품 선택">${items.map((item, i) => `<button type="button" class="${i === 0 ? 'on' : ''}" data-hero-index="${i}" aria-label="${showroomSupplierName(item)} 대표 상품"></button>`).join('')}</div>
     </div>
     <button class="showroom-hero-product" type="button" data-code="${codeOf(p)}" aria-label="${displayName(p)} 상세보기">
       ${image ? `<img id="showroomHeroImage" loading="eager" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : ''}
@@ -2367,7 +2397,7 @@ function initShowroomHero(items) {
       el.dataset.code = codeOf(p);
     });
     productButton.setAttribute('aria-label', `${displayName(p)} 상세보기`);
-    codeEl.textContent = displayCode(p);
+    codeEl.textContent = `${showroomSupplierName(p)} · ${displayCode(p)}`;
     nameEl.textContent = displayName(p);
     priceEl.textContent = money(p.price);
     captionEl.innerHTML = `<b>${displayCode(p)}</b>${displayName(p)}`;
@@ -2422,8 +2452,7 @@ function renderHome() {
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
   const gallery = sortProducts(visible).slice(0, 16);
-  const heroCodes = ['T086', 'T093', 'S997', 'T208', 'S92902W', 'JES-502'];
-  const heroProducts = heroCodes.map(code => visibleMap.get(code)).filter(p => p && mainImg(p));
+  const heroProducts = showroomHeroItems(visible);
   if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
   title.textContent = '';
   count.textContent = '';
