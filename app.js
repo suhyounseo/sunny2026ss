@@ -657,6 +657,7 @@ let currentProduct = null;
 let modalHistoryOpen = false;
 let searchHistoryActive = false;
 let SIMILAR_CODE = '';
+let showroomHeroTimer = 0;
 let LANG = localStorage.getItem(LANG_STORAGE_KEY) || 'ko';
 if (!I18N[LANG]) LANG = 'ko';
 
@@ -2305,25 +2306,82 @@ function smartStoreItems(visible) {
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
 
-function showroomHeroBlock(p) {
+function showroomHeroBlock(items) {
+  const p = items[0];
   if (!p) return '';
   const image = mainImg(p) || cardImg(p);
   const copy = LANG === 'ko'
-    ? { eyebrow: 'NICE COLLECTION · NEW SEASON', title: '무대에서<br>더 빛나는 옷', sub: '방송 · 무대 · 클럽룩 | 55–88 | 당일 피팅 상담', action: '카카오톡 문의' }
-    : { eyebrow: 'NICE COLLECTION · NEW SEASON', title: 'Made to shine<br>on every stage', sub: 'Stage · party · club looks | Sizes 55–88', action: 'Ask on KakaoTalk' };
-  return `<section class="showroom-hero" aria-label="NICE COLLECTION 대표 상품">
+    ? { eyebrow: 'NICE COLLECTION · CURATED SHOWROOM', title: '<em>NICE</em><br>SIGNATURE EDIT', statement: '가장 빛나는 순간을 위한 셀렉션', sub: '무대와 방송, 특별한 밤을 위해 고른 실루엣을 만나보세요.', detail: '상품 자세히 보기', ask: '피팅 상담' }
+    : { eyebrow: 'NICE COLLECTION · CURATED SHOWROOM', title: '<em>NICE</em><br>SIGNATURE EDIT', statement: 'A selection for your brightest moments', sub: 'Discover silhouettes curated for the stage, screen and special nights.', detail: 'View product', ask: 'Fitting help' };
+  return `<section class="showroom-hero" aria-label="NICE COLLECTION 대표 상품" data-count="${items.length}">
     <div class="showroom-hero-copy">
       <span class="showroom-hero-eyebrow">${copy.eyebrow}</span>
       <h1>${copy.title}</h1>
+      <h2>${copy.statement}</h2>
       <p>${copy.sub}</p>
-      <a href="${KAKAO_URL}" target="_blank" rel="noopener noreferrer"><span>${copy.action}</span><b aria-hidden="true">›</b></a>
-      <div class="showroom-hero-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="showroom-hero-feature" aria-live="polite">
+        <span id="showroomHeroCode">${displayCode(p)}</span>
+        <strong id="showroomHeroName">${displayName(p)}</strong>
+        <b id="showroomHeroPrice">${money(p.price)}</b>
+      </div>
+      <div class="showroom-hero-actions">
+        <button class="showroom-hero-detail" type="button" data-code="${codeOf(p)}">${copy.detail}<span aria-hidden="true">›</span></button>
+        <a href="${KAKAO_URL}" target="_blank" rel="noopener noreferrer">${copy.ask}</a>
+      </div>
+      <div class="showroom-hero-dots" aria-label="대표 상품 선택">${items.map((_, i) => `<button type="button" class="${i === 0 ? 'on' : ''}" data-hero-index="${i}" aria-label="대표 상품 ${i + 1}"></button>`).join('')}</div>
     </div>
     <button class="showroom-hero-product" type="button" data-code="${codeOf(p)}" aria-label="${displayName(p)} 상세보기">
-      ${image ? `<img loading="eager" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : ''}
-      <span>${displayCode(p)} · ${displayName(p)}</span>
+      ${image ? `<img id="showroomHeroImage" loading="eager" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : ''}
+      <span id="showroomHeroCaption"><b>${displayCode(p)}</b>${displayName(p)}</span>
     </button>
   </section>`;
+}
+
+function initShowroomHero(items) {
+  clearInterval(showroomHeroTimer);
+  showroomHeroTimer = 0;
+  const root = $('.showroom-hero');
+  if (!root || items.length < 1) return;
+  const imageEl = $('#showroomHeroImage', root);
+  const productButton = $('.showroom-hero-product', root);
+  const detailButton = $('.showroom-hero-detail', root);
+  const codeEl = $('#showroomHeroCode', root);
+  const nameEl = $('#showroomHeroName', root);
+  const priceEl = $('#showroomHeroPrice', root);
+  const captionEl = $('#showroomHeroCaption', root);
+  const dots = $$('.showroom-hero-dots button', root);
+  let index = 0;
+  const show = nextIndex => {
+    index = (nextIndex + items.length) % items.length;
+    const p = items[index];
+    const image = mainImg(p) || cardImg(p);
+    root.classList.remove('hero-changing');
+    void root.offsetWidth;
+    root.classList.add('hero-changing');
+    if (imageEl && image) {
+      imageEl.src = img(image);
+      imageEl.alt = displayName(p);
+    }
+    [productButton, detailButton].forEach(el => {
+      if (!el) return;
+      el.dataset.code = codeOf(p);
+    });
+    productButton.setAttribute('aria-label', `${displayName(p)} 상세보기`);
+    codeEl.textContent = displayCode(p);
+    nameEl.textContent = displayName(p);
+    priceEl.textContent = money(p.price);
+    captionEl.innerHTML = `<b>${displayCode(p)}</b>${displayName(p)}`;
+    dots.forEach((dot, i) => dot.classList.toggle('on', i === index));
+  };
+  const start = () => {
+    clearInterval(showroomHeroTimer);
+    if (items.length > 1) {
+      showroomHeroTimer = setInterval(() => show(index + 1), 4800);
+    }
+  };
+  [productButton, detailButton].forEach(el => el.onclick = () => openDetail(el.dataset.code));
+  dots.forEach(dot => dot.onclick = () => { show(Number(dot.dataset.heroIndex)); start(); });
+  start();
 }
 
 function showroomCategoryNav() {
@@ -2364,7 +2422,9 @@ function renderHome() {
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
   const gallery = sortProducts(visible).slice(0, 16);
-  const heroProduct = visibleMap.get('T086') || editorPreview.find(p => mainImg(p)) || fresh.find(p => mainImg(p)) || gallery.find(p => mainImg(p));
+  const heroCodes = ['T086', 'T093', 'S997', 'T208', 'S92902W', 'JES-502'];
+  const heroProducts = heroCodes.map(code => visibleMap.get(code)).filter(p => p && mainImg(p));
+  if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
   title.textContent = '';
   count.textContent = '';
   intro.textContent = '';
@@ -2421,7 +2481,7 @@ function renderHome() {
   }[LANG] || {};
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
-    ${showroomHeroBlock(heroProduct)}
+    ${showroomHeroBlock(heroProducts)}
     ${showroomCategoryNav()}
     ${showroomPickGrid(editorItems)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 11)}
@@ -2436,11 +2496,15 @@ function renderHome() {
     if (opened) e.preventDefault();
   });
   $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { search: el.dataset.q || '', push: true, scroll: true }));
-  $$('.showroom-hero-product').forEach(el => el.onclick = () => openDetail(el.dataset.code));
+  initShowroomHero(heroProducts);
   bindCards();
   bindVipControls();
 }
 function render() {
+  if (FILTER !== 'HOME' || q.value.trim()) {
+    clearInterval(showroomHeroTimer);
+    showroomHeroTimer = 0;
+  }
   document.body.classList.remove('luxe-home-active');
   title.textContent = sectionName();
   intro.textContent = sectionIntro();
