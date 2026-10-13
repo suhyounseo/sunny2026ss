@@ -2088,7 +2088,10 @@ function productCard(p, compact = false) {
   const image = cardImg(p);
   const cardBadges = badges(p);
   return `<article class="card ${compact ? 'compact' : ''}" data-code="${codeOf(p)}">
-    <div class="photo">${image ? `<img loading="lazy" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>${t('noPhoto')}</span></div>`}</div>
+    <div class="photo">${image ? `<img loading="lazy" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : `<div class="no-photo"><b>NICE</b><span>${t('noPhoto')}</span></div>`}
+      ${cardBadges ? `<div class="photo-badges">${cardBadges}</div>` : ''}
+      <button class="card-heart" type="button" aria-label="관심 상품">♡</button>
+    </div>
     <div class="info">
       <div class="code">${t('productCode')} ${displayCode(p)}</div>
       <div class="name">${displayName(p)}</div>
@@ -2301,6 +2304,50 @@ function smartStoreItems(visible) {
   const pinned = SMARTSTORE_PINNED_CODES.map(code => visibleMap.get(code)).filter(Boolean);
   return uniqueByDesignGroup(pinned).slice(0, 24);
 }
+
+function showroomHeroBlock(p) {
+  if (!p) return '';
+  const image = mainImg(p) || cardImg(p);
+  const copy = LANG === 'ko'
+    ? { eyebrow: 'NICE COLLECTION · NEW SEASON', title: '무대에서<br>더 빛나는 옷', sub: '방송 · 무대 · 클럽룩 | 55–88 | 당일 피팅 상담', action: '카카오톡 문의' }
+    : { eyebrow: 'NICE COLLECTION · NEW SEASON', title: 'Made to shine<br>on every stage', sub: 'Stage · party · club looks | Sizes 55–88', action: 'Ask on KakaoTalk' };
+  return `<section class="showroom-hero" aria-label="NICE COLLECTION 대표 상품">
+    <div class="showroom-hero-copy">
+      <span class="showroom-hero-eyebrow">${copy.eyebrow}</span>
+      <h1>${copy.title}</h1>
+      <p>${copy.sub}</p>
+      <a href="${KAKAO_URL}" target="_blank" rel="noopener noreferrer"><span>${copy.action}</span><b aria-hidden="true">›</b></a>
+      <div class="showroom-hero-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    </div>
+    <button class="showroom-hero-product" type="button" data-code="${codeOf(p)}" aria-label="${displayName(p)} 상세보기">
+      ${image ? `<img loading="eager" decoding="async" src="${img(image)}" alt="${displayName(p)}">` : ''}
+      <span>${displayCode(p)} · ${displayName(p)}</span>
+    </button>
+  </section>`;
+}
+
+function showroomCategoryNav() {
+  const items = [
+    { filter: 'COL_AUGUST', label: '신상' },
+    { filter: 'COSTUME', label: '무대·방송' },
+    { filter: 'MINI', label: '클럽·파티' },
+    { filter: 'ALL', query: '77/88가능', label: '77·88' },
+    { filter: 'TWO_PIECE', label: '투피스' },
+    { filter: 'LUXURY_NEW', label: '럭셔리' }
+  ];
+  return `<nav class="showroom-category-nav" aria-label="추천 카테고리">
+    ${items.map((item, index) => `<button type="button" class="section-more ${index === 0 ? 'is-active' : ''}" data-f="${item.filter}" ${item.query ? `data-q="${item.query}"` : ''}>${item.label}</button>`).join('')}
+  </nav>`;
+}
+
+function showroomPickGrid(items) {
+  if (!items.length) return '';
+  return `<section class="showroom-pick-section">
+    <div class="section-head showroom-pick-head"><div><span>CURATED FOR YOU</span><h3>이번 주 NICE PICK</h3><p>지금 쇼룸에서 먼저 보여드리고 싶은 스타일입니다.</p></div><button class="section-more showroom-view-all" type="button" data-f="BEST" aria-label="추천 상품 전체보기">›</button></div>
+    <div class="showroom-pick-grid">${items.slice(0, 12).map(p => productCard(p, true)).join('')}</div>
+  </section>`;
+}
+
 function renderHome() {
   document.body.classList.add('luxe-home-active');
   const visible = PRODUCTS.filter(visibleToAudience);
@@ -2317,6 +2364,7 @@ function renderHome() {
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
   const gallery = sortProducts(visible).slice(0, 16);
+  const heroProduct = visibleMap.get('T086') || editorPreview.find(p => mainImg(p)) || fresh.find(p => mainImg(p)) || gallery.find(p => mainImg(p));
   title.textContent = '';
   count.textContent = '';
   intro.textContent = '';
@@ -2373,10 +2421,12 @@ function renderHome() {
   }[LANG] || {};
   grid.innerHTML = `
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
+    ${showroomHeroBlock(heroProduct)}
+    ${showroomCategoryNav()}
+    ${showroomPickGrid(editorItems)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 11)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
-    ${sectionBlock("EDITOR'S PICK", homeText.pickDesc, editorPreview, 'BEST', homeText.pickMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
@@ -2385,7 +2435,8 @@ function renderHome() {
     const opened = window.open(href, '_blank');
     if (opened) e.preventDefault();
   });
-  $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { push: true, scroll: true }));
+  $$('.section-more').forEach(el => el.onclick = () => applyView(el.dataset.f, { search: el.dataset.q || '', push: true, scroll: true }));
+  $$('.showroom-hero-product').forEach(el => el.onclick = () => openDetail(el.dataset.code));
   bindCards();
   bindVipControls();
 }
@@ -2764,6 +2815,13 @@ function openDetail(code) {
 }
 function bindCards() {
   $$('.card').forEach(el => el.onclick = () => openDetail(el.dataset.code));
+  $$('.card-heart').forEach(btn => btn.onclick = e => {
+    e.preventDefault();
+    e.stopPropagation();
+    btn.classList.toggle('on');
+    btn.textContent = btn.classList.contains('on') ? '♥' : '♡';
+    btn.setAttribute('aria-pressed', btn.classList.contains('on') ? 'true' : 'false');
+  });
   $$('.card-similar').forEach(btn => btn.onclick = e => {
     e.stopPropagation();
     const p = PRODUCTS.find(x => codeOf(x) === btn.dataset.code);
