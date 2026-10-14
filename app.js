@@ -2531,6 +2531,16 @@ function renderHome() {
   bindVipControls();
 }
 function render() {
+  const homeReturn = document.getElementById('showroomHomeReturn');
+  if (homeReturn) {
+    const isHome = FILTER === 'HOME' && !q.value.trim();
+    homeReturn.hidden = isHome;
+    const labels = { ko: '홈으로 돌아가기', en: 'Back to Home', zh: '返回首页', ja: 'ホームに戻る' };
+    const label = labels[LANG] || labels.ko;
+    homeReturn.setAttribute('aria-label', label);
+    const span = homeReturn.querySelector('span');
+    if (span) span.textContent = label;
+  }
   if (FILTER !== 'HOME' || q.value.trim()) {
     clearInterval(showroomHeroTimer);
     showroomHeroTimer = 0;
@@ -3006,6 +3016,11 @@ if (langSwitcher) {
     setLanguage(b.dataset.lang);
   };
 }
+const showroomHomeReturn = document.getElementById('showroomHomeReturn');
+if (showroomHomeReturn) showroomHomeReturn.addEventListener('click', () => {
+  searchHistoryActive = false;
+  applyView('HOME', { push: true, scroll: true });
+});
 q.oninput = () => {
   const hasSearch = !!q.value.trim();
   if (hasSearch && FILTER === 'HOME') FILTER = 'ALL';
