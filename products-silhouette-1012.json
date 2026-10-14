@@ -1,0 +1,900 @@
+[
+  {
+    "code": "S1012001B",
+    "customerCode": "S1012001B",
+    "supplier": "실루엣",
+    "origin": "실루엣",
+    "vendor": "실루엣",
+    "folder": "S1012001B",
+    "name": "벨벳 미디 원피스",
+    "storeName": "벨벳 미디 원피스",
+    "productName": "벨벳 미디 원피스",
+    "category": "MIDI",
+    "length": "미디",
+    "collection": "SILHOUETTE_NEW_20261012",
+    "collectionName": "실루엣 10월 12일 신상",
+    "price": 131000,
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-12",
+    "sourceInfo": "Silhouette 1012",
+    "mainImage": "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+    "thumbImage": "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+    "cardImage": "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+    "images": [
+      "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001Bcollage02.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B03.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B04.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B05.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B06.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B07.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B08.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B09.jpg",
+      "product/Silhouette 1012/S1012001B/S1012001B10.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B01.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001Bcollage02.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001Bcollage02.jpg",
+        "cut": "콜라주"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B03.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B03.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B04.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B04.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B05.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B05.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B06.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B06.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B07.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B07.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B08.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B08.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B09.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B09.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001B/S1012001B10.jpg",
+        "source": "product/Silhouette 1012/S1012001B/S1012001B10.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "실루엣",
+      "10월신상",
+      "벨벳",
+      "원피스",
+      "미디원피스",
+      "77가능",
+      "파티룩",
+      "방송룩"
+    ],
+    "searchKeywords": [
+      "S1012001B",
+      "실루엣",
+      "벨벳",
+      "미디원피스",
+      "파티룩",
+      "방송룩"
+    ],
+    "desc": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "description": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "mainCopy": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "points": [
+      "벨벳 소재",
+      "103cm 기장",
+      "뒷지퍼",
+      "55·66·77"
+    ],
+    "designGroupId": "S1012001",
+    "fabric": "벨벳",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "103",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "39"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "103",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "41.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "103",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "44"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "벨벳",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "sizeTags": [
+      "55",
+      "66",
+      "77"
+    ],
+    "size77Available": true,
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingDesignReview": true,
+    "sourceInfoNote": "2026-10-14 제공 사이즈·소재·착용정보 기준. 색상/넥/세부디자인은 사진 확인 전 임시 상품명."
+  },
+  {
+    "code": "S1012001K",
+    "customerCode": "S1012001K",
+    "supplier": "실루엣",
+    "origin": "실루엣",
+    "vendor": "실루엣",
+    "folder": "S1012001K",
+    "name": "벨벳 미디 원피스",
+    "storeName": "벨벳 미디 원피스",
+    "productName": "벨벳 미디 원피스",
+    "category": "MIDI",
+    "length": "미디",
+    "collection": "SILHOUETTE_NEW_20261012",
+    "collectionName": "실루엣 10월 12일 신상",
+    "price": 131000,
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-12",
+    "sourceInfo": "Silhouette 1012",
+    "mainImage": "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+    "thumbImage": "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+    "cardImage": "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+    "images": [
+      "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001Kcollage02.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K03.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K04.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K05.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K06.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K07.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K08.jpg",
+      "product/Silhouette 1012/S1012001K/S1012001K09.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K01.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001Kcollage02.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001Kcollage02.jpg",
+        "cut": "콜라주"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K03.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K03.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K04.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K04.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K05.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K05.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K06.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K06.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K07.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K07.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K08.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K08.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001K/S1012001K09.jpg",
+        "source": "product/Silhouette 1012/S1012001K/S1012001K09.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "실루엣",
+      "10월신상",
+      "벨벳",
+      "원피스",
+      "미디원피스",
+      "77가능",
+      "파티룩",
+      "방송룩"
+    ],
+    "searchKeywords": [
+      "S1012001K",
+      "실루엣",
+      "벨벳",
+      "미디원피스",
+      "파티룩",
+      "방송룩"
+    ],
+    "desc": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "description": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "mainCopy": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "points": [
+      "벨벳 소재",
+      "103cm 기장",
+      "뒷지퍼",
+      "55·66·77"
+    ],
+    "designGroupId": "S1012001",
+    "fabric": "벨벳",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "103",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "39"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "103",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "41.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "103",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "44"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "벨벳",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "sizeTags": [
+      "55",
+      "66",
+      "77"
+    ],
+    "size77Available": true,
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingDesignReview": true,
+    "sourceInfoNote": "2026-10-14 제공 사이즈·소재·착용정보 기준. 색상/넥/세부디자인은 사진 확인 전 임시 상품명."
+  },
+  {
+    "code": "S1012001P",
+    "customerCode": "S1012001P",
+    "supplier": "실루엣",
+    "origin": "실루엣",
+    "vendor": "실루엣",
+    "folder": "S1012001P",
+    "name": "벨벳 미디 원피스",
+    "storeName": "벨벳 미디 원피스",
+    "productName": "벨벳 미디 원피스",
+    "category": "MIDI",
+    "length": "미디",
+    "collection": "SILHOUETTE_NEW_20261012",
+    "collectionName": "실루엣 10월 12일 신상",
+    "price": 131000,
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-12",
+    "sourceInfo": "Silhouette 1012",
+    "mainImage": "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+    "thumbImage": "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+    "cardImage": "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+    "images": [
+      "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001Pcollage02.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P03.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P04.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P05.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P06.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P07.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P08.jpg",
+      "product/Silhouette 1012/S1012001P/S1012001P09.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P01.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001Pcollage02.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001Pcollage02.jpg",
+        "cut": "콜라주"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P03.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P03.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P04.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P04.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P05.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P05.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P06.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P06.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P07.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P07.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P08.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P08.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012001P/S1012001P09.jpg",
+        "source": "product/Silhouette 1012/S1012001P/S1012001P09.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "실루엣",
+      "10월신상",
+      "벨벳",
+      "원피스",
+      "미디원피스",
+      "77가능",
+      "파티룩",
+      "방송룩"
+    ],
+    "searchKeywords": [
+      "S1012001P",
+      "실루엣",
+      "벨벳",
+      "미디원피스",
+      "파티룩",
+      "방송룩"
+    ],
+    "desc": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "description": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "mainCopy": "벨벳 소재를 사용한 103cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "points": [
+      "벨벳 소재",
+      "103cm 기장",
+      "뒷지퍼",
+      "55·66·77"
+    ],
+    "designGroupId": "S1012001",
+    "fabric": "벨벳",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "103",
+            "가슴단면": "38",
+            "허리단면": "29",
+            "힙단면": "39"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "103",
+            "가슴단면": "40.5",
+            "허리단면": "31.5",
+            "힙단면": "41.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "103",
+            "가슴단면": "43",
+            "허리단면": "34",
+            "힙단면": "44"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "벨벳",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "sizeTags": [
+      "55",
+      "66",
+      "77"
+    ],
+    "size77Available": true,
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingDesignReview": true,
+    "sourceInfoNote": "2026-10-14 제공 사이즈·소재·착용정보 기준. 색상/넥/세부디자인은 사진 확인 전 임시 상품명."
+  },
+  {
+    "code": "S1012002B",
+    "customerCode": "S1012002B",
+    "supplier": "실루엣",
+    "origin": "실루엣",
+    "vendor": "실루엣",
+    "folder": "S1012002B",
+    "name": "벨벳 미니 원피스",
+    "storeName": "벨벳 미니 원피스",
+    "productName": "벨벳 미니 원피스",
+    "category": "MINI",
+    "length": "미니",
+    "collection": "SILHOUETTE_NEW_20261012",
+    "collectionName": "실루엣 10월 12일 신상",
+    "price": 111000,
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-12",
+    "sourceInfo": "Silhouette 1012",
+    "mainImage": "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+    "thumbImage": "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+    "cardImage": "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+    "images": [
+      "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002Bcollage02.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B03.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B04.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B05.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B06.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B07.jpg",
+      "product/Silhouette 1012/S1012002B/S1012002B08.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B01.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002Bcollage02.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002Bcollage02.jpg",
+        "cut": "콜라주"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B03.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B03.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B04.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B04.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B05.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B05.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B06.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B06.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B07.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B07.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002B/S1012002B08.jpg",
+        "source": "product/Silhouette 1012/S1012002B/S1012002B08.jpg",
+        "cut": "상세컷 6"
+      }
+    ],
+    "tags": [
+      "실루엣",
+      "10월신상",
+      "벨벳",
+      "원피스",
+      "미니원피스",
+      "77가능",
+      "파티룩",
+      "방송룩"
+    ],
+    "searchKeywords": [
+      "S1012002B",
+      "실루엣",
+      "벨벳",
+      "미니원피스",
+      "파티룩",
+      "방송룩"
+    ],
+    "desc": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "description": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "mainCopy": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "points": [
+      "벨벳 소재",
+      "61cm 기장",
+      "뒷지퍼",
+      "55·66·77"
+    ],
+    "designGroupId": "S1012002",
+    "fabric": "벨벳",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "61",
+            "가슴단면": "37",
+            "허리단면": "30",
+            "힙단면": "38"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "61",
+            "가슴단면": "39.5",
+            "허리단면": "32.5",
+            "힙단면": "40.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "61",
+            "가슴단면": "42",
+            "허리단면": "35",
+            "힙단면": "43"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "벨벳",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "sizeTags": [
+      "55",
+      "66",
+      "77"
+    ],
+    "size77Available": true,
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingDesignReview": true,
+    "sourceInfoNote": "2026-10-14 제공 사이즈·소재·착용정보 기준. 색상/넥/세부디자인은 사진 확인 전 임시 상품명."
+  },
+  {
+    "code": "S1012002V",
+    "customerCode": "S1012002V",
+    "supplier": "실루엣",
+    "origin": "실루엣",
+    "vendor": "실루엣",
+    "folder": "S1012002V",
+    "name": "벨벳 미니 원피스",
+    "storeName": "벨벳 미니 원피스",
+    "productName": "벨벳 미니 원피스",
+    "category": "MINI",
+    "length": "미니",
+    "collection": "SILHOUETTE_NEW_20261012",
+    "collectionName": "실루엣 10월 12일 신상",
+    "price": 111000,
+    "size": "55(S) / 66(M) / 77(L)",
+    "sizeInfo": "55(S) / 66(M) / 77(L)",
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "newArrival": true,
+    "mainDisplay": false,
+    "featured": false,
+    "isPopular": false,
+    "uploadDate": "2026-10-12",
+    "sourceInfo": "Silhouette 1012",
+    "mainImage": "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+    "thumbImage": "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+    "cardImage": "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+    "images": [
+      "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002Vcollage04.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002V02.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002V03.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002V05.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002V06.jpg",
+      "product/Silhouette 1012/S1012002V/S1012002V07.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002Vcollage04.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002Vcollage04.jpg",
+        "cut": "콜라주"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V02.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V02.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V03.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V03.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V05.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V05.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V06.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V06.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/Silhouette 1012/S1012002V/S1012002V07.jpg",
+        "source": "product/Silhouette 1012/S1012002V/S1012002V07.jpg",
+        "cut": "상세컷 5"
+      }
+    ],
+    "tags": [
+      "실루엣",
+      "10월신상",
+      "벨벳",
+      "원피스",
+      "미니원피스",
+      "77가능",
+      "파티룩",
+      "방송룩"
+    ],
+    "searchKeywords": [
+      "S1012002V",
+      "실루엣",
+      "벨벳",
+      "미니원피스",
+      "파티룩",
+      "방송룩"
+    ],
+    "desc": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "description": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "mainCopy": "벨벳 소재를 사용한 61cm 기장의 원피스입니다. 신축성과 캡, 안감이 있으며 뒷지퍼로 여닫을 수 있습니다. 정확한 색상과 디자인 디테일은 상품 사진을 확인해 주세요.",
+    "points": [
+      "벨벳 소재",
+      "61cm 기장",
+      "뒷지퍼",
+      "55·66·77"
+    ],
+    "designGroupId": "S1012002",
+    "fabric": "벨벳",
+    "sizeTables": [
+      {
+        "title": "사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면",
+          "힙단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "61",
+            "가슴단면": "37",
+            "허리단면": "30",
+            "힙단면": "38"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "61",
+            "가슴단면": "39.5",
+            "허리단면": "32.5",
+            "힙단면": "40.5"
+          },
+          {
+            "사이즈": "77(L)",
+            "총길이": "61",
+            "가슴단면": "42",
+            "허리단면": "35",
+            "힙단면": "43"
+          }
+        ]
+      }
+    ],
+    "wearTables": [
+      {
+        "title": "착용 정보",
+        "items": {
+          "소재": "벨벳",
+          "신축성": "있음",
+          "캡여부": "있음",
+          "안감": "있음",
+          "비침": "없음",
+          "두께감": "보통",
+          "지퍼": "뒷지퍼"
+        }
+      }
+    ],
+    "stretch": "있음",
+    "cap": "있음",
+    "lining": "있음",
+    "see": "없음",
+    "thickness": "보통",
+    "zipper": "뒷지퍼",
+    "sizeTags": [
+      "55",
+      "66",
+      "77"
+    ],
+    "size77Available": true,
+    "isSameDayDelivery": false,
+    "isFittingAvailable": false,
+    "pendingDesignReview": true,
+    "sourceInfoNote": "2026-10-14 제공 사이즈·소재·착용정보 기준. 색상/넥/세부디자인은 사진 확인 전 임시 상품명."
+  }
+]
