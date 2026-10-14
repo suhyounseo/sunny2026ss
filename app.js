@@ -719,9 +719,9 @@ const LABEL = {
   ALL: 'ALL',
   BEST: "EDITOR'S PICK",
   NEW: 'NEW ARRIVAL',
-  COSTUME: 'Costume',
-  ANC_NEW: '앙크최 신상',
-  TIARA_NEW: 'Tiara New',
+  COSTUME: 'COSTUME',
+  ANC_NEW: '앙크 NEW',
+  TIARA_NEW: 'TIARA NEW',
   LUXURY_NEW: 'LUXURY NEW',
   MINI: '미니',
   MIDI: '미디',
@@ -2416,12 +2416,13 @@ function initShowroomHero(items) {
 
 function showroomCategoryNav() {
   const items = [
-    { filter: 'COL_AUGUST', label: '신상' },
-    { filter: 'COSTUME', label: '무대·방송' },
-    { filter: 'MINI', label: '클럽·파티' },
-    { filter: 'ALL', query: '77/88가능', label: '77·88' },
-    { filter: 'TWO_PIECE', label: '투피스' },
-    { filter: 'LUXURY_NEW', label: '럭셔리' }
+    { filter: 'BEST', label: "EDITOR'S PICK" },
+    { filter: 'COSTUME', label: 'COSTUME' },
+    { filter: 'ANC_NEW', label: '앙크 NEW' },
+    { filter: 'LUXURY_NEW', label: 'LUXURY NEW' },
+    { filter: 'TIARA_NEW', label: 'TIARA NEW' },
+    { filter: 'NEW', label: 'NEW ARRIVAL' },
+    { filter: 'ALL', query: '77/88가능', label: '77·88' }
   ];
   return `<nav class="showroom-category-nav" aria-label="추천 카테고리">
     ${items.map((item, index) => `<button type="button" class="section-more ${index === 0 ? 'is-active' : ''}" data-f="${item.filter}" ${item.query ? `data-q="${item.query}"` : ''}>${item.label}</button>`).join('')}
