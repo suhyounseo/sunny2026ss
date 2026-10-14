@@ -2451,7 +2451,10 @@ function renderHome() {
     .map(code => visible.find(p => codeOf(p) === code))
     .filter(Boolean);
   const luxury1012 = SILHOUETTE_1012_LUXURY_CODES.map(code => visible.find(p => codeOf(p) === code)).filter(Boolean);
-  const luxuryNew = [...luxury1012, ...luxuryExisting, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
+  // Keep familiar products first on the home preview; show one color per new design.
+  // P and V are provisional representative choices until the photo colors are confirmed.
+  const luxury1012Representatives = ['S1012001P', 'S1012002V'].map(code => luxury1012.find(p => codeOf(p) === code)).filter(Boolean);
+  const luxuryNew = [...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
@@ -2517,7 +2520,7 @@ function renderHome() {
     ${showroomHeroBlock(heroProducts)}
     ${showroomCategoryNav()}
     ${showroomPickGrid(editorItems)}
-    ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 11)}
+    ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 13)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
@@ -2564,7 +2567,7 @@ function render() {
   } else {
     list = sortProducts(PRODUCTS.filter(match));
     if (!searchActive && FILTER === 'LUXURY_NEW') {
-      const order = new Map(SILHOUETTE_1012_LUXURY_CODES.map((code, index) => [code, index]));
+      const order = new Map(['S1012001P', 'S1012002V', ...SILHOUETTE_1012_LUXURY_CODES].filter((code, index, all) => all.indexOf(code) === index).map((code, index) => [code, index]));
       list = list.sort((a, b) => (order.get(codeOf(a)) ?? Infinity) - (order.get(codeOf(b)) ?? Infinity));
     }
   }
