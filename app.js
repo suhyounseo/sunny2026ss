@@ -1030,9 +1030,11 @@ function matchesColorSearch(p, rawSearch) {
   return COLOR_SEARCH_GROUPS[group].some(word => hay.includes(norm(word)));
 }
 const isNew = p => !!p.new || !!p.isNew || hasTag(p, 'NEW');
+const SILHOUETTE_1012_LUXURY_CODES = ['S1012001B', 'S1012001K', 'S1012001P', 'S1012002B', 'S1012002V'];
+const SILHOUETTE_1012_LUXURY_SET = new Set(SILHOUETTE_1012_LUXURY_CODES);
 const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
 const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
-const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p));
+const isLuxuryNew929Product = p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p)) || SILHOUETTE_1012_LUXURY_SET.has(codeOf(p));
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -2448,7 +2450,8 @@ function renderHome() {
   const luxurySelectedSilhouette = SILHOUETTE_HOME_LUXURY_CODES
     .map(code => visible.find(p => codeOf(p) === code))
     .filter(Boolean);
-  const luxuryNew = [...luxuryExisting, ...luxurySelectedSilhouette.filter(p => !luxuryExisting.some(x => codeOf(x) === codeOf(p)))];
+  const luxury1012 = SILHOUETTE_1012_LUXURY_CODES.map(code => visible.find(p => codeOf(p) === code)).filter(Boolean);
+  const luxuryNew = [...luxury1012, ...luxuryExisting, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
@@ -2560,6 +2563,10 @@ function render() {
     list = newArrivalItems(visible, editorCodes);
   } else {
     list = sortProducts(PRODUCTS.filter(match));
+    if (!searchActive && FILTER === 'LUXURY_NEW') {
+      const order = new Map(SILHOUETTE_1012_LUXURY_CODES.map((code, index) => [code, index]));
+      list = list.sort((a, b) => (order.get(codeOf(a)) ?? Infinity) - (order.get(codeOf(b)) ?? Infinity));
+    }
   }
   count.textContent = `${list.length} ${t('item')}`;
   if (!list.length) {
