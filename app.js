@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'product_info_20261007_1';
+const VERSION = 'silhouette_1012_20261014_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -3092,12 +3092,13 @@ Promise.all([
   fetch('./products-929.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-silhouette.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-tiara1001.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-silhouette-1012.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-t059.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-info-1007.json?v=' + VERSION).then(r => r.ok ? r.json() : {})
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001, t059Patch, productInfo1007]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007]) => {
     const merged = new Map();
-    [...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
+    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts].forEach(p => merged.set(codeOf(p), p));
     const infoOverrides = productInfo1007 && typeof productInfo1007 === 'object' ? productInfo1007 : {};
     PRODUCTS = [...merged.values()]
       .map(p => ({ ...p, ...(infoOverrides[codeOf(p)] || {}) }))
