@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_1012_20261014_1';
+const VERSION = 'silhouette_colors_20261014_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
