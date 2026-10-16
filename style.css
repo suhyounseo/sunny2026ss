@@ -1818,3 +1818,7 @@ body{padding-bottom:0}
 .nice-style-button span{font-size:18px}
 .nice-style-button:focus-visible{outline:3px solid #bd8297;outline-offset:3px}
 @media(max-width:720px){.nice-style-finder{margin:-10px 0 25px;padding:15px 14px;gap:9px}.nice-style-finder-title strong{font-size:15px}.nice-style-finder-title span{font-size:11px;line-height:1.4}.nice-style-button{min-height:42px;padding:0 13px;font-size:12px;gap:5px}}
+
+/* STYLE FINDER: four equally accessible occasions */
+.nice-style-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:8px}
+@media(max-width:850px){.nice-style-finder{flex-direction:column;align-items:stretch}.nice-style-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.nice-style-actions .nice-style-button{width:100%;margin:0;justify-content:space-between}}
