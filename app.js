@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'style_finder_four_20261016_1';
+const VERSION = 'style_finder_precision_20261016_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1758,14 +1758,13 @@ const STYLE_RULES = {
   ]
 };
 function styleEvidenceText(p) {
-  // Product code, folder, supplier and pricing are deliberately excluded here.
-  // De-duplicate fields so repeated description copies do not multiply scores.
-  return [...new Set([
-    p.name, p.category, p.length, p.fit, p.fabric, p.color,
-    p.desc || p.description || p.mainCopy,
-    ...(p.tags || []), ...(p.styleTags || []), ...(p.sceneTags || []),
-    ...(p.searchKeywords || [])
-  ].filter(Boolean).map(String))].join(' ');
+  // Product-specific features only. Generic sales copy, supplier and broadly applied
+  // occasion keywords are excluded to avoid recommending almost the entire catalog.
+  return [
+    p.name, p.storeName, p.productName, p.category, p.length, p.fit,
+    p.fabric, p.color, ...(p.styleTags || []),
+    ...(p.designTags || []), ...(p.featureTags || [])
+  ].filter(Boolean).join(' ');
 }
 const STYLE_SCORE_CACHE = new WeakMap();
 function styleScores(p) {
@@ -1775,21 +1774,28 @@ function styleScores(p) {
   const score = Object.fromEntries(Object.entries(STYLE_RULES).map(([key, rules]) => [
     key, rules.reduce((total, [pattern, points]) => total + (pattern.test(evidence) ? points : 0), 0)
   ]));
+  // A generic occasion tag is a weak hint only, never sufficient on its own.
+  const scene = [...(p.sceneTags || []), ...(p.tags || [])].join(' ');
+  for (const [key, pattern] of Object.entries({
+    club: /클럽룩|클럽/i, party: /파티룩|파티/i,
+    stage: /무대룩|무대의상|공연룩/i, broadcast: /방송룩|BJ룩/i
+  })) if (pattern.test(scene)) score[key] += 1;
   const supplier = [p.supplier, p.vendor, p.origin].filter(Boolean).join(' ');
-  if (/티아라/.test(supplier)) { score.club += 2; score.party += 1; }
+  if (/티아라/.test(supplier)) { score.club += 1; score.party += 1; }
   if (/앙크최/.test(supplier)) { score.party += 1; score.broadcast += 1; }
   if (/실루엣/.test(supplier)) { score.stage += 1; score.broadcast += 1; }
-  const price = Number(p.price) || 0;
-  if (price >= 100000) { score.party += 1; score.stage += 1; }
-  if (price >= 130000 && isSetProduct(p)) score.party += 1;
+  if (Number(p.price) >= 100000) { score.party += 1; score.stage += 1; }
+  if (Number(p.price) >= 130000 && isSetProduct(p)) score.party += 1;
   for (const [key, points] of Object.entries(STYLE_OVERRIDES[codeOf(p)] || {})) {
-    if (Object.hasOwn(score, key) && Number.isFinite(Number(points))) score[key] += Number(points);
+    if (Object.prototype.hasOwnProperty.call(score, key) && Number.isFinite(Number(points))) score[key] += Number(points);
   }
   STYLE_SCORE_CACHE.set(p, score);
   return score;
 }
 const STYLE_FILTER_TYPES = { STYLE_CLUB: 'club', STYLE_PARTY: 'party', STYLE_STAGE: 'stage', STYLE_BROADCAST: 'broadcast' };
-const STYLE_FILTER_THRESHOLD = 7;
+const STYLE_FILTER_THRESHOLD = 9;
+const STYLE_PAGE_SIZE = 30;
+let STYLE_VISIBLE_COUNT = STYLE_PAGE_SIZE;
 const STYLE_LABELS = {
   ko: { STYLE_CLUB:'클럽룩', STYLE_PARTY:'파티룩', STYLE_STAGE:'무대의상', STYLE_BROADCAST:'방송룩', heading:'STYLE FINDER', copy:'어떤 자리에 입으실 옷을 찾으세요?', subtitle:'상품 디자인과 용도별 특징을 바탕으로 추천합니다.' },
   en: { STYLE_CLUB:'Club Looks', STYLE_PARTY:'Party Looks', STYLE_STAGE:'Stagewear', STYLE_BROADCAST:'Broadcast Looks', heading:'STYLE FINDER', copy:'Shop for your occasion', subtitle:'Recommended using product attributes and descriptions.' },
@@ -1994,6 +2000,7 @@ function buildChips() {
 }
 function applyView(nextFilter, { search = '', push = false, scroll = false } = {}) {
   FILTER = nextFilter;
+  STYLE_VISIBLE_COUNT = STYLE_PAGE_SIZE;
   q.value = search || '';
   buildChips();
   render();
@@ -2662,12 +2669,20 @@ function render() {
       list = list.sort((a, b) => (order.get(codeOf(a)) ?? Infinity) - (order.get(codeOf(b)) ?? Infinity));
     }
   }
-  count.textContent = `${list.length} ${t('item')}`;
+  const styleMode = !!STYLE_FILTER_TYPES[FILTER];
+  const visibleList = styleMode ? list.slice(0, STYLE_VISIBLE_COUNT) : list;
+  count.textContent = styleMode ? `${visibleList.length} / ${list.length} ${t('item')}` : `${list.length} ${t('item')}`;
   if (!list.length) {
     grid.innerHTML = `${dmGuideBlock()}<div class="empty">${t('empty')}</div>`;
     return;
   }
-  grid.innerHTML = `${dmGuideBlock()}${list.map(p => productCard(p)).join('')}${similarShelfBlock()}`;
+  const moreStyle = styleMode && list.length > STYLE_VISIBLE_COUNT
+    ? `<div class="style-load-more-wrap"><button type="button" class="style-load-more">더 많은 상품 보기 (${list.length - STYLE_VISIBLE_COUNT}개 남음)</button></div>` : '';
+  grid.innerHTML = `${dmGuideBlock()}${visibleList.map(p => productCard(p)).join('')}${moreStyle}${similarShelfBlock()}`;
+  if (moreStyle) {
+    const more = grid.querySelector('.style-load-more');
+    if (more) more.onclick = () => { STYLE_VISIBLE_COUNT += STYLE_PAGE_SIZE; render(); };
+  }
   bindCards();
 }
 function points(p) {
