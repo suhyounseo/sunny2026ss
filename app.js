@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'style_finder_club_20261016_1';
+const VERSION = 'style_finder_bottom_fast_20261016_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1764,7 +1764,10 @@ function styleEvidenceText(p) {
     ...(p.searchKeywords || [])
   ].filter(Boolean).map(String))].join(' ');
 }
+const STYLE_SCORE_CACHE = new WeakMap();
 function styleScores(p) {
+  const cached = STYLE_SCORE_CACHE.get(p);
+  if (cached) return cached;
   const evidence = styleEvidenceText(p);
   const score = Object.fromEntries(Object.entries(STYLE_RULES).map(([key, rules]) => [
     key, rules.reduce((total, [pattern, points]) => total + (pattern.test(evidence) ? points : 0), 0)
@@ -1779,6 +1782,7 @@ function styleScores(p) {
   for (const [key, points] of Object.entries(STYLE_OVERRIDES[codeOf(p)] || {})) {
     if (Object.hasOwn(score, key) && Number.isFinite(Number(points))) score[key] += Number(points);
   }
+  STYLE_SCORE_CACHE.set(p, score);
   return score;
 }
 const STYLE_FILTER_TYPES = { STYLE_CLUB: 'club' };
@@ -2597,12 +2601,12 @@ function renderHome() {
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${showroomHeroBlock(heroProducts)}
     ${showroomCategoryNav()}
-    ${styleFinderBlock()}
     ${showroomPickGrid(editorItems)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 13)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
+    ${styleFinderBlock()}
     ${communityBlock()}`;
   $$('[data-external]').forEach(a => a.onclick = e => {
     const href = a.getAttribute('href');
