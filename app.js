@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'silhouette_colors_20261014_1';
+const VERSION = 'style_finder_club_20261016_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -723,6 +723,7 @@ const LABEL = {
   ANC_NEW: '앙크 NEW',
   TIARA_NEW: 'TIARA NEW',
   LUXURY_NEW: 'LUXURY NEW',
+  STYLE_CLUB: '클럽룩',
   MINI: '미니',
   MIDI: '미디',
   TWO_PIECE: '투피스',
@@ -1721,6 +1722,80 @@ function wearInfoBlock(p) {
   }).filter(Boolean).join('');
   return blocks ? `<div class="box wear-guide"><b>${t('wearInfo')}</b><div class="wear-table-grid">${blocks}</div></div>` : '';
 }
+
+/* NICE STYLE FINDER · metadata-based ranking, kept separate from product records.
+   Only explicitly reviewed exceptions belong in STYLE_OVERRIDES. */
+const STYLE_OVERRIDES = Object.freeze({
+  // Example: 'PRODUCT-CODE': { club: -100, party: 3 }
+});
+const STYLE_RULES = {
+  club: [
+    [/미니|mini/i, 3], [/슬림핏|슬림|타이트|바디라인|H라인/i, 4],
+    [/오프숄더|원숄더/i, 3], [/홀터|홀터넥/i, 3],
+    [/컷아웃|코르셋|뷔스티에/i, 4], [/시스루|망사/i, 3],
+    [/크롭|(?:^|\\s)탑(?:\\s|$)|투피스/i, 2], [/셔링/i, 2],
+    [/글램|섹시|클럽/i, 4]
+  ],
+  party: [
+    [/파티|글램|럭셔리/i, 4], [/비즈|스팽글|스팽클|진주|큐빅|시퀸/i, 4],
+    [/레이스|새틴|벨벳/i, 3], [/오프숄더|홀터|원숄더/i, 2],
+    [/미니|미디|롱드레스/i, 2], [/A라인|플레어|머메이드/i, 2],
+    [/리본|프릴|셔링/i, 1]
+  ],
+  stage: [
+    [/무대|공연|행사/i, 5], [/비즈|스팽글|스팽클|큐빅|시퀸/i, 5],
+    [/레드|블루|핑크|화이트|실버|골드/i, 2], [/롱드레스|머메이드/i, 3],
+    [/원숄더|오프숄더|홀터/i, 2], [/볼륨|플레어|프릴/i, 2],
+    [/배색|컬러블록/i, 2]
+  ],
+  broadcast: [
+    [/방송|BJ|촬영/i, 5], [/오프숄더|원숄더|홀터/i, 3],
+    [/카라|리본|레이스|진주|비즈/i, 2], [/슬림핏|바디라인/i, 2],
+    [/핑크|아이보리|화이트|레드|블루/i, 1], [/투피스|블라우스|탑/i, 2]
+  ]
+};
+function styleEvidenceText(p) {
+  // Product code, folder, supplier and pricing are deliberately excluded here.
+  // De-duplicate fields so repeated description copies do not multiply scores.
+  return [...new Set([
+    p.name, p.category, p.length, p.fit, p.fabric, p.color,
+    p.desc || p.description || p.mainCopy,
+    ...(p.tags || []), ...(p.styleTags || []), ...(p.sceneTags || []),
+    ...(p.searchKeywords || [])
+  ].filter(Boolean).map(String))].join(' ');
+}
+function styleScores(p) {
+  const evidence = styleEvidenceText(p);
+  const score = Object.fromEntries(Object.entries(STYLE_RULES).map(([key, rules]) => [
+    key, rules.reduce((total, [pattern, points]) => total + (pattern.test(evidence) ? points : 0), 0)
+  ]));
+  const supplier = [p.supplier, p.vendor, p.origin].filter(Boolean).join(' ');
+  if (/티아라/.test(supplier)) { score.club += 2; score.party += 1; }
+  if (/앙크최/.test(supplier)) { score.party += 1; score.broadcast += 1; }
+  if (/실루엣/.test(supplier)) { score.stage += 1; score.broadcast += 1; }
+  const price = Number(p.price) || 0;
+  if (price >= 100000) { score.party += 1; score.stage += 1; }
+  if (price >= 130000 && isSetProduct(p)) score.party += 1;
+  for (const [key, points] of Object.entries(STYLE_OVERRIDES[codeOf(p)] || {})) {
+    if (Object.hasOwn(score, key) && Number.isFinite(Number(points))) score[key] += Number(points);
+  }
+  return score;
+}
+const STYLE_FILTER_TYPES = { STYLE_CLUB: 'club' };
+const STYLE_LABELS = {
+  ko: { STYLE_CLUB: '클럽룩', heading: 'STYLE FINDER', copy: '어떤 자리에 입으실 옷을 찾으세요?', subtitle: '미니·슬림핏·과감한 디테일을 기준으로 찾은 추천 상품입니다.' },
+  en: { STYLE_CLUB: 'Club Looks', heading: 'STYLE FINDER', copy: 'Shop for your occasion', subtitle: 'Looks matched by silhouette and design.' },
+  zh: { STYLE_CLUB: '夜店穿搭', heading: 'STYLE FINDER', copy: '根据穿着场景挑选', subtitle: '根据款式和设计特点推荐的商品。' },
+  ja: { STYLE_CLUB: 'クラブルック', heading: 'STYLE FINDER', copy: 'シーンに合わせて選ぶ', subtitle: 'シルエットやデザインから選んだおすすめ商品です。' }
+};
+function styleFinderBlock() {
+  const labels = STYLE_LABELS[LANG] || STYLE_LABELS.ko;
+  return `<nav class="nice-style-finder" aria-label="STYLE FINDER">
+    <div class="nice-style-finder-title"><strong>${labels.heading}</strong><span>${labels.copy}</span></div>
+    <button type="button" class="nice-style-button section-more" data-f="STYLE_CLUB">${labels.STYLE_CLUB} <span aria-hidden="true">↗</span></button>
+  </nav>`;
+}
+
 function productText(p) {
   return [
     p.code, p.customerCode, p.name, p.storeName, p.productName, p.color, p.category, p.length,
@@ -1930,6 +2005,7 @@ function sectionName() {
   if (FILTER === 'ANC_NEW') return filterLabel('ANC_NEW');
   if (FILTER === 'TIARA_NEW') return filterLabel('TIARA_NEW');
   if (FILTER === 'LUXURY_NEW') return filterLabel('LUXURY_NEW');
+  if (FILTER === 'STYLE_CLUB') return (STYLE_LABELS[LANG] || STYLE_LABELS.ko).STYLE_CLUB;
   if (FILTER === 'MINI') return 'MINI DRESS';
   if (FILTER === 'MIDI') return 'MIDI DRESS';
   if (FILTER === 'TWO_PIECE') return 'TWO PIECE';
@@ -1945,6 +2021,7 @@ function sectionIntro() {
   if (FILTER === 'ANC_NEW') return '앙크최 26FW 신상만 모아보는 메뉴입니다.';
   if (FILTER === 'TIARA_NEW') return '티아라 T179~T214 신상만 모아보는 메뉴입니다.';
   if (FILTER === 'LUXURY_NEW') return '최근 입고될 럭셔리룩 신상을 모아보는 메뉴입니다.';
+  if (FILTER === 'STYLE_CLUB') return (STYLE_LABELS[LANG] || STYLE_LABELS.ko).subtitle;
   if (FILTER === 'MINI') return t('miniIntro');
   if (FILTER === 'MIDI') return t('midiIntro');
   if (FILTER === 'TWO_PIECE') return t('twoPieceIntro');
@@ -2023,6 +2100,7 @@ function match(p) {
   else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
   else if (FILTER === 'TIARA_NEW') f = isTiaraOctoberNewProduct(p);
   else if (FILTER === 'LUXURY_NEW') f = isLuxuryNew929Product(p);
+  else if (FILTER === 'STYLE_CLUB') f = styleScores(p).club >= 7;
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
   else if (FILTER === 'MIDI') f = p.category === 'MIDI' || p.length === '미디' || hasTag(p, 'MIDI');
   else if (FILTER === 'TWO_PIECE') f = p.category === 'TWO PIECE' || hasTag(p, 'TWO PIECE');
@@ -2519,6 +2597,7 @@ function renderHome() {
     ${SIMILAR_CODE ? similarShelfBlock() : ''}
     ${showroomHeroBlock(heroProducts)}
     ${showroomCategoryNav()}
+    ${styleFinderBlock()}
     ${showroomPickGrid(editorItems)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 13)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
@@ -2566,6 +2645,7 @@ function render() {
     list = newArrivalItems(visible, editorCodes);
   } else {
     list = sortProducts(PRODUCTS.filter(match));
+    if (FILTER === 'STYLE_CLUB') list.sort((a, b) => styleScores(b).club - styleScores(a).club || rankProduct(b) - rankProduct(a));
     if (!searchActive && FILTER === 'LUXURY_NEW') {
       const order = new Map(['S1012001P', 'S1012002V', ...SILHOUETTE_1012_LUXURY_CODES].filter((code, index, all) => all.indexOf(code) === index).map((code, index) => [code, index]));
       list = list.sort((a, b) => (order.get(codeOf(a)) ?? Infinity) - (order.get(codeOf(b)) ?? Infinity));
