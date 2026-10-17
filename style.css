@@ -1827,3 +1827,8 @@ body{padding-bottom:0}
 .style-load-more-wrap{grid-column:1/-1;display:flex;justify-content:center;padding:26px 0 14px}
 .style-load-more{min-height:48px;padding:0 28px;border:1px solid #a78c7b;border-radius:999px;background:#fffdf9;color:#2c201b;font-size:14px;font-weight:800;cursor:pointer}
 .style-load-more:hover{background:#f3e8dc}
+
+/* 2026-10-17 supplier original size & wear charts */
+.product-info-1017{margin:20px 0;padding:16px;border:1px solid #e8ded4;border-radius:12px;background:#fff}
+.product-info-1017 h4{margin:0 0 12px;font-size:15px;letter-spacing:.01em}
+.product-info-1017 img{display:block;width:100%;height:auto;object-fit:contain;margin:8px auto 14px;border-radius:4px}
