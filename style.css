@@ -1808,3 +1808,22 @@ body{padding-bottom:0}
 @media(max-width:720px){
   .showroom-home-return{min-height:39px;margin-top:9px;font-size:12.5px}
 }
+
+/* NICE STYLE FINDER: independent customer-purpose path */
+.nice-style-finder{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:-12px 0 32px;padding:19px 24px;border:1px solid #e4d8cd;border-radius:14px;background:linear-gradient(110deg,#fffdf9,#f8eee7)}
+.nice-style-finder-title{display:flex;flex-direction:column;gap:5px;min-width:0}
+.nice-style-finder-title strong{font-family:Georgia,serif;font-size:18px;letter-spacing:.12em;font-weight:600}
+.nice-style-finder-title span{font-size:13px;color:#76645b}
+.nice-style-button{display:inline-flex;align-items:center;justify-content:center;gap:13px;flex-shrink:0;min-height:45px;padding:0 20px;border:1px solid #6d2036;border-radius:999px;background:#781c38;color:#fff;font-size:14px;font-weight:800;cursor:pointer}
+.nice-style-button span{font-size:18px}
+.nice-style-button:focus-visible{outline:3px solid #bd8297;outline-offset:3px}
+@media(max-width:720px){.nice-style-finder{margin:-10px 0 25px;padding:15px 14px;gap:9px}.nice-style-finder-title strong{font-size:15px}.nice-style-finder-title span{font-size:11px;line-height:1.4}.nice-style-button{min-height:42px;padding:0 13px;font-size:12px;gap:5px}}
+
+/* STYLE FINDER: four equally accessible occasions */
+.nice-style-actions{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:8px}
+@media(max-width:850px){.nice-style-finder{flex-direction:column;align-items:stretch}.nice-style-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.nice-style-actions .nice-style-button{width:100%;margin:0;justify-content:space-between}}
+
+/* STYLE FINDER progressive results */
+.style-load-more-wrap{grid-column:1/-1;display:flex;justify-content:center;padding:26px 0 14px}
+.style-load-more{min-height:48px;padding:0 28px;border:1px solid #a78c7b;border-radius:999px;background:#fffdf9;color:#2c201b;font-size:14px;font-weight:800;cursor:pointer}
+.style-load-more:hover{background:#f3e8dc}
