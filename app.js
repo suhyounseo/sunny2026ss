@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_1018_20261020_1';
+const VERSION = 'nice_1018_20261020_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2667,9 +2667,9 @@ function render() {
       const type = STYLE_FILTER_TYPES[FILTER];
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
-    if (!searchActive && FILTER === 'LUXURY_NEW') {
-      const order = new Map(['S1012001P', 'S1012002V', ...SILHOUETTE_1012_LUXURY_CODES].filter((code, index, all) => all.indexOf(code) === index).map((code, index) => [code, index]));
-      list = list.sort((a, b) => (order.get(codeOf(a)) ?? Infinity) - (order.get(codeOf(b)) ?? Infinity));
+    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
+      const priority = p => p.sourceInfo === 'NICE_1018' ? 0 : 1;
+      list.sort((a, b) => priority(a) - priority(b));
     }
   }
   const styleMode = !!STYLE_FILTER_TYPES[FILTER];
