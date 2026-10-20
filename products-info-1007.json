@@ -5036,6 +5036,29 @@
   "T120": {
     "sizeTables": [
       {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "48",
+            "가슴단면": "30",
+            "허리단면": "25"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "48",
+            "가슴단면": "32",
+            "허리단면": "27"
+          }
+        ]
+      },
+      {
         "title": "스커트 사이즈 정보",
         "columns": [
           "사이즈",
@@ -5067,6 +5090,18 @@
     ],
     "wearTables": [
       {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "니트",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      },
+      {
         "title": "스커트 착용 정보",
         "items": {
           "소재": "폴리혼방",
@@ -5078,12 +5113,38 @@
         }
       }
     ],
-    "sourceInfoNote": "2026-10-07 제품정보업데이트 폴더 및 사용자 확정 매칭 기준 반영",
-    "updateMemo": "2026-10-07 제품정보 업데이트"
+    "sourceInfoNote": "2026-10-17 사용자 제공 T120 T121 상의제품정보 확인; 스커트는 기존 10-07 자료 유지",
+    "updateMemo": "2026-10-07 제품정보 업데이트",
+    "fabric": "상의: 니트 / 스커트: 폴리혼방",
+    "material": "상의: 니트 / 스커트: 폴리혼방",
+    "designGroupId": "TIA-929-T120-T121"
   },
   "T121": {
     "sizeTables": [
       {
+        "title": "상의 사이즈 정보",
+        "columns": [
+          "사이즈",
+          "총길이",
+          "가슴단면",
+          "허리단면"
+        ],
+        "rows": [
+          {
+            "사이즈": "55(S)",
+            "총길이": "48",
+            "가슴단면": "30",
+            "허리단면": "25"
+          },
+          {
+            "사이즈": "66(M)",
+            "총길이": "48",
+            "가슴단면": "32",
+            "허리단면": "27"
+          }
+        ]
+      },
+      {
         "title": "스커트 사이즈 정보",
         "columns": [
           "사이즈",
@@ -5115,6 +5176,18 @@
     ],
     "wearTables": [
       {
+        "title": "상의 착용 정보",
+        "items": {
+          "소재": "니트",
+          "신축성": "있음",
+          "캡여부": "없음",
+          "안감": "없음",
+          "비침": "있음",
+          "두께감": "보통",
+          "지퍼": "옆지퍼"
+        }
+      },
+      {
         "title": "스커트 착용 정보",
         "items": {
           "소재": "폴리혼방",
@@ -5126,8 +5199,11 @@
         }
       }
     ],
-    "sourceInfoNote": "2026-10-07 제품정보업데이트 폴더 및 사용자 확정 매칭 기준 반영",
-    "updateMemo": "2026-10-07 제품정보 업데이트"
+    "sourceInfoNote": "2026-10-17 사용자 제공 T120 T121 상의제품정보 확인; 스커트는 기존 10-07 자료 유지",
+    "updateMemo": "2026-10-07 제품정보 업데이트",
+    "fabric": "상의: 니트 / 스커트: 폴리혼방",
+    "material": "상의: 니트 / 스커트: 폴리혼방",
+    "designGroupId": "TIA-929-T120-T121"
   },
   "T147": {
     "sizeTables": [
@@ -5169,7 +5245,8 @@
       }
     ],
     "sourceInfoNote": "2026-10-07 제품정보업데이트 폴더 및 사용자 확정 매칭 기준 반영",
-    "updateMemo": "2026-10-07 제품정보 업데이트"
+    "updateMemo": "2026-10-07 제품정보 업데이트",
+    "designGroupId": "TIA-929-T147-T148-T149-T150"
   },
   "T148": {
     "sizeTables": [
@@ -5211,7 +5288,8 @@
       }
     ],
     "sourceInfoNote": "2026-10-07 제품정보업데이트 폴더 및 사용자 확정 매칭 기준 반영",
-    "updateMemo": "2026-10-07 제품정보 업데이트"
+    "updateMemo": "2026-10-07 제품정보 업데이트",
+    "designGroupId": "TIA-929-T147-T148-T149-T150"
   },
   "T151": {
     "fabric": "탑/상의/스커트: 폴리혼방",
@@ -8908,5 +8986,197 @@
     "designGroupId": "TIA-T036-T037",
     "sourceInfoNote": "2026-10-07 제품정보업데이트 폴더 및 사용자 확정 매칭 기준 반영",
     "updateMemo": "2026-10-07 제품정보 업데이트"
+  },
+  "T070": {
+    "designGroupId": "TIA-929-T070-T071-T072"
+  },
+  "T071": {
+    "designGroupId": "TIA-929-T070-T071-T072"
+  },
+  "T072": {
+    "designGroupId": "TIA-929-T070-T071-T072"
+  },
+  "T083": {
+    "designGroupId": "TIA-929-T083-T084-T085"
+  },
+  "T084": {
+    "designGroupId": "TIA-929-T083-T084-T085"
+  },
+  "T085": {
+    "designGroupId": "TIA-929-T083-T084-T085"
+  },
+  "T093": {
+    "designGroupId": "TIA-929-T093-T094"
+  },
+  "T094": {
+    "designGroupId": "TIA-929-T093-T094"
+  },
+  "T095": {
+    "designGroupId": "TIA-929-T095-T096-T097"
+  },
+  "T096": {
+    "designGroupId": "TIA-929-T095-T096-T097"
+  },
+  "T097": {
+    "designGroupId": "TIA-929-T095-T096-T097"
+  },
+  "T100": {
+    "designGroupId": "TIA-929-T100-T101-T102"
+  },
+  "T101": {
+    "designGroupId": "TIA-929-T100-T101-T102"
+  },
+  "T102": {
+    "designGroupId": "TIA-929-T100-T101-T102"
+  },
+  "T103": {
+    "designGroupId": "TIA-929-T103-T104"
+  },
+  "T104": {
+    "designGroupId": "TIA-929-T103-T104"
+  },
+  "T105": {
+    "designGroupId": "TIA-929-T105-T106-T107"
+  },
+  "T106": {
+    "designGroupId": "TIA-929-T105-T106-T107"
+  },
+  "T107": {
+    "designGroupId": "TIA-929-T105-T106-T107"
+  },
+  "T111": {
+    "designGroupId": "TIA-929-T111-T112-T113"
+  },
+  "T112": {
+    "designGroupId": "TIA-929-T111-T112-T113"
+  },
+  "T113": {
+    "designGroupId": "TIA-929-T111-T112-T113"
+  },
+  "T117-ALT": {
+    "designGroupId": "TIA-929-T117-ALT-T118-T119"
+  },
+  "T118": {
+    "designGroupId": "TIA-929-T117-ALT-T118-T119"
+  },
+  "T119": {
+    "designGroupId": "TIA-929-T117-ALT-T118-T119"
+  },
+  "T122": {
+    "designGroupId": "TIA-929-T122-T123-T124"
+  },
+  "T123": {
+    "designGroupId": "TIA-929-T122-T123-T124"
+  },
+  "T124": {
+    "designGroupId": "TIA-929-T122-T123-T124"
+  },
+  "T125": {
+    "designGroupId": "TIA-929-T125-T126-T127"
+  },
+  "T126": {
+    "designGroupId": "TIA-929-T125-T126-T127"
+  },
+  "T127": {
+    "designGroupId": "TIA-929-T125-T126-T127"
+  },
+  "T128": {
+    "designGroupId": "TIA-929-T128-T129-T130"
+  },
+  "T129": {
+    "designGroupId": "TIA-929-T128-T129-T130"
+  },
+  "T130": {
+    "designGroupId": "TIA-929-T128-T129-T130"
+  },
+  "T131": {
+    "designGroupId": "TIA-929-T131-T132"
+  },
+  "T132": {
+    "designGroupId": "TIA-929-T131-T132"
+  },
+  "T133": {
+    "designGroupId": "TIA-929-T133-T134"
+  },
+  "T134": {
+    "designGroupId": "TIA-929-T133-T134"
+  },
+  "T135": {
+    "designGroupId": "TIA-929-T135-T136"
+  },
+  "T136": {
+    "designGroupId": "TIA-929-T135-T136"
+  },
+  "T137": {
+    "designGroupId": "TIA-929-T137-T138"
+  },
+  "T138": {
+    "designGroupId": "TIA-929-T137-T138"
+  },
+  "T139": {
+    "designGroupId": "TIA-929-T139-T140"
+  },
+  "T140": {
+    "designGroupId": "TIA-929-T139-T140"
+  },
+  "T141": {
+    "designGroupId": "TIA-929-T141-T142"
+  },
+  "T142": {
+    "designGroupId": "TIA-929-T141-T142"
+  },
+  "T143": {
+    "designGroupId": "TIA-929-T143-T144-T145-T146"
+  },
+  "T144": {
+    "designGroupId": "TIA-929-T143-T144-T145-T146"
+  },
+  "T145": {
+    "designGroupId": "TIA-929-T143-T144-T145-T146"
+  },
+  "T146": {
+    "designGroupId": "TIA-929-T143-T144-T145-T146"
+  },
+  "T149": {
+    "designGroupId": "TIA-929-T147-T148-T149-T150"
+  },
+  "T150": {
+    "designGroupId": "TIA-929-T147-T148-T149-T150"
+  },
+  "T167": {
+    "designGroupId": "TIA-929-T167-T168-T169"
+  },
+  "T168": {
+    "designGroupId": "TIA-929-T167-T168-T169"
+  },
+  "T169": {
+    "designGroupId": "TIA-929-T167-T168-T169"
+  },
+  "T170": {
+    "designGroupId": "TIA-929-T170-T171-T172"
+  },
+  "T171": {
+    "designGroupId": "TIA-929-T170-T171-T172"
+  },
+  "T172": {
+    "designGroupId": "TIA-929-T170-T171-T172"
+  },
+  "T173": {
+    "designGroupId": "TIA-929-T173-T174"
+  },
+  "T174": {
+    "designGroupId": "TIA-929-T173-T174"
+  },
+  "T175": {
+    "designGroupId": "TIA-929-T175-T176"
+  },
+  "T176": {
+    "designGroupId": "TIA-929-T175-T176"
+  },
+  "T177": {
+    "designGroupId": "TIA-929-T177-T178"
+  },
+  "T178": {
+    "designGroupId": "TIA-929-T177-T178"
   }
 }

@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'product_info_text_20261017_2';
+const VERSION = 'product_info_colorways_20261017_3';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
