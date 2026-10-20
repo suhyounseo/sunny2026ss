@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_1018_20261020_2';
+const VERSION = 'nice_luxury1018_first_20261020_3';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2668,7 +2668,7 @@ function render() {
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
     if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
-      const priority = p => p.sourceInfo === 'NICE_1018' ? 0 : 1;
+      const priority = p => (FILTER === 'LUXURY_NEW' && p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1;
       list.sort((a, b) => priority(a) - priority(b));
     }
   }
