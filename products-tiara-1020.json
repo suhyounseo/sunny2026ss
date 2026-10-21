@@ -2903,5 +2903,93 @@
     "desc": "블랙 스트랩넥 니트와 브라운 미니 스커트 구성. 주얼 버클 벨트가 허리선을 강조하며 시크한 분위기를 더합니다.",
     "description": "블랙 스트랩넥 니트와 브라운 미니 스커트 구성. 주얼 버클 벨트가 허리선을 강조하며 시크한 분위기를 더합니다.",
     "designGroupId": null
+  },
+  {
+    "code": "T344",
+    "customerCode": "T344",
+    "sourceCode": "T344번 TPS",
+    "supplier": "티아라",
+    "vendor": "티아라",
+    "name": "브라운 스트랩넥 골지니트 & 아이보리 주얼벨트 미니투피스",
+    "storeName": "브라운 스트랩넥 골지니트 & 아이보리 주얼벨트 미니투피스",
+    "productName": "브라운 스트랩넥 골지니트 & 아이보리 주얼벨트 미니투피스",
+    "category": "TWO PIECE",
+    "length": "미니",
+    "collection": "TIARA_20261020",
+    "collectionName": "10월 20일 티아라 신상",
+    "sourceInfo": "product/1020 new/tiara",
+    "uploadDate": "2026-10-20",
+    "price": null,
+    "stockStatus": "문의",
+    "mainDisplay": false,
+    "featured": false,
+    "new": false,
+    "isNew": false,
+    "mainImage": "product/1020 new/tiara/T344번 TPS/T344번 TPS1.jpg",
+    "thumbImage": "product/1020 new/tiara/T344번 TPS/T344번 TPS1.jpg",
+    "cardImage": "product/1020 new/tiara/T344번 TPS/T344번 TPS1.jpg",
+    "images": [
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS1.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS2.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS3.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS4.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS5.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS6.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS7.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS8.jpg",
+      "product/1020 new/tiara/T344번 TPS/T344번 TPS9.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS1.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/1020 new/tiara/T344번 TPS/T344번 TPS9.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "티아라",
+      "투피스",
+      "T344"
+    ],
+    "searchKeywords": [
+      "T344",
+      "티아라",
+      "투피스",
+      "브라운 스트랩넥 골지니트 & 아이보리 주얼벨트 미니투피스"
+    ],
+    "desc": "브라운 스트랩넥 니트와 아이보리 미니 스커트 구성. 주얼 버클 벨트가 허리선을 강조하며 시크한 분위기를 더합니다.",
+    "description": "브라운 스트랩넥 니트와 아이보리 미니 스커트 구성. 주얼 버클 벨트가 허리선을 강조하며 시크한 분위기를 더합니다.",
+    "designGroupId": null
   }
 ]
