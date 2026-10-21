@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_luxury1018_first_20261020_3';
+const VERSION = 'nice_tiara1020_bottom_20261021_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1043,7 +1043,7 @@ const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p,
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
-const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
+const isTiaraOctoberNewProduct = p => p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
 const isNewArrivalProduct = p => isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
@@ -2553,7 +2553,7 @@ function renderHome() {
   const luxuryNew = [...luxuryOct18, ...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
-  const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
+  const tiaraHome = [...tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean), ...visible.filter(p => p.collection === 'TIARA_20261020')];
   const gallery = sortProducts(visible).slice(0, 16);
   const heroProducts = showroomHeroItems(visible);
   if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
@@ -2668,7 +2668,7 @@ function render() {
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
     if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
-      const priority = p => (FILTER === 'LUXURY_NEW' && p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1;
+      const priority = p => FILTER === 'TIARA_NEW' ? (p.collection === 'TIARA_20261020' ? 1 : 0) : ((p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1);
       list.sort((a, b) => priority(a) - priority(b));
     }
   }
@@ -3215,11 +3215,12 @@ Promise.all([
   fetch('./products-t059.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-info-1007.json?v=' + VERSION).then(r => r.ok ? r.json() : {}),
   fetch('./products-info-1017.json?v=' + VERSION).then(r => r.ok ? r.json() : {}),
-  fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-tiara-1020.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020]) => {
     const merged = new Map();
-    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New].forEach(p => merged.set(codeOf(p), p));
+    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020].forEach(p => merged.set(codeOf(p), p));
     const infoOverrides = productInfo1007 && typeof productInfo1007 === 'object' ? productInfo1007 : {};
     const infoOct17 = productInfo1017 && typeof productInfo1017 === 'object' ? productInfo1017 : {};
     PRODUCTS = [...merged.values()]
