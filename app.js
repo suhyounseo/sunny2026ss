@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_tiara1020_bottom_20261021_1';
+const VERSION = 'nice_tiara1020_top_prices_images_20261024_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2553,7 +2553,7 @@ function renderHome() {
   const luxuryNew = [...luxuryOct18, ...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
-  const tiaraHome = [...tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean), ...visible.filter(p => p.collection === 'TIARA_20261020')];
+  const tiaraHome = [...visible.filter(p => p.collection === 'TIARA_20261020'), ...tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean)];
   const gallery = sortProducts(visible).slice(0, 16);
   const heroProducts = showroomHeroItems(visible);
   if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
@@ -2668,7 +2668,7 @@ function render() {
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
     if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
-      const priority = p => FILTER === 'TIARA_NEW' ? (p.collection === 'TIARA_20261020' ? 1 : 0) : ((p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1);
+      const priority = p => FILTER === 'TIARA_NEW' ? (p.collection === 'TIARA_20261020' ? 0 : 1) : ((p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1);
       list.sort((a, b) => priority(a) - priority(b));
     }
   }
