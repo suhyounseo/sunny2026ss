@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_pick_50_preview12_20261028_1';
+const VERSION = 'nice_pick_more_button_20261028_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2528,8 +2528,9 @@ function showroomCategoryNav() {
 function showroomPickGrid(items) {
   if (!items.length) return '';
   return `<section class="showroom-pick-section">
-    <div class="section-head showroom-pick-head"><div><span>CURATED FOR YOU</span><h3>이번 주 NICE PICK</h3><p>지금 쇼룸에서 먼저 보여드리고 싶은 스타일입니다.</p></div><button class="section-more showroom-view-all" type="button" data-f="BEST" aria-label="추천 상품 전체보기">›</button></div>
+    <div class="section-head showroom-pick-head"><div><span>CURATED FOR YOU</span><h3>이번 주 NICE PICK</h3><p>지금 쇼룸에서 먼저 보여드리고 싶은 스타일입니다.</p></div></div>
     <div class="showroom-pick-grid">${items.slice(0, 12).map(p => productCard(p, true)).join('')}</div>
+    <button class="section-more showroom-view-all showroom-pick-more" type="button" data-f="BEST" aria-label="NICE PICK 전체보기">NICE PICK 더보기 <span aria-hidden="true">›</span></button>
   </section>`;
 }
 
