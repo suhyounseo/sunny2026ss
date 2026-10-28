@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_luxury1018_first_20261020_3';
+const VERSION = 'nice_pick_50_preview12_20261028_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -336,60 +336,59 @@ function isShowroomExcludedProduct(p) {
   return PERMANENTLY_REMOVED_PRODUCT_CODES.has(code) || ARCHIVED_PRODUCT_CODES.has(code);
 }
 
-const NICE_PICK_PREVIEW_LIMIT = 8;
+const NICE_PICK_PREVIEW_LIMIT = 12;
 const NICE_PICK_TOTAL_LIMIT = 50;
 const NICE_PICK_CODES = [
+  "T318",
+  "T326",
+  "T338",
+  "T264",
+  "T285",
+  "T129",
+  "T097",
+  "ANC-5035",
+  "T136",
+  "T260",
+  "T131",
+  "T003",
+  "T341",
+  "T335",
+  "T311",
+  "T312",
+  "T274",
+  "T309",
+  "T315",
+  "T267",
+  "T295",
+  "T299",
+  "T297",
+  "T303",
+  "T093",
+  "T173",
+  "T177",
+  "T252",
+  "T254",
+  "T137",
+  "T139",
+  "T283",
+  "T091",
+  "T162",
+  "T165",
+  "T291",
+  "T122",
+  "T126",
+  "T086",
+  "T158",
+  "T160",
+  "T100",
+  "T170",
+  "T133",
+  "T152",
   "S92902W",
-  "T007",
-  "T030",
-  "T036",
-  "T039",
-  "T025",
-  "T044",
-  "SIL-KYLIE-IVORY",
-  "JES-502",
-  "JES-510",
+  "S92901G",
+  "S91501W",
   "JES-557",
-  "S964",
-  "S965",
-  "S970",
-  "S972",
-  "JINI-003",
-  "JINI-002",
-  "JES-176",
-  "PEARL-S913",
-  "HIYA-S787",
-  "TIA-S776",
-  "TIA-S817",
-  "S726",
-  "N260226",
-  "N260228",
-  "S729",
-  "N260235",
-  "N260034",
-  "N260194",
-  "N260222",
-  "N260216",
-  "N260033",
-  "N260093",
-  "N260081",
-  "N260090",
-  "N260092",
-  "N260037",
-  "N260038",
-  "JINI-012",
-  "JINI-001",
-  "JINI-004",
-  "JINI-005",
-  "JINI-006",
-  "JINI-007",
-  "GRA-S888",
-  "GRA-S889",
-  "GRA-S890",
-  "N260001",
-  "N260002",
-  "N260003",
-  "N260039"
+  "JINI-001"
 ];
 
 const KAKAO_URL = 'https://qr.kakao.com/talk/aGDd1dyfDwbjsvFXshqsTJhGWWc-';
@@ -1043,7 +1042,7 @@ const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p,
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
-const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
+const isTiaraOctoberNewProduct = p => p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
 const isNewArrivalProduct = p => isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
@@ -2553,7 +2552,7 @@ function renderHome() {
   const luxuryNew = [...luxuryOct18, ...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
-  const tiaraHome = tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean);
+  const tiaraHome = [...visible.filter(p => p.collection === 'TIARA_20261020'), ...tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean)];
   const gallery = sortProducts(visible).slice(0, 16);
   const heroProducts = showroomHeroItems(visible);
   if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
@@ -2668,7 +2667,7 @@ function render() {
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
     if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
-      const priority = p => (FILTER === 'LUXURY_NEW' && p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1;
+      const priority = p => FILTER === 'TIARA_NEW' ? (p.collection === 'TIARA_20261020' ? 0 : 1) : ((p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 0 : 1);
       list.sort((a, b) => priority(a) - priority(b));
     }
   }
@@ -3215,11 +3214,12 @@ Promise.all([
   fetch('./products-t059.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-info-1007.json?v=' + VERSION).then(r => r.ok ? r.json() : {}),
   fetch('./products-info-1017.json?v=' + VERSION).then(r => r.ok ? r.json() : {}),
-  fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-tiara-1020.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020]) => {
     const merged = new Map();
-    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New].forEach(p => merged.set(codeOf(p), p));
+    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020].forEach(p => merged.set(codeOf(p), p));
     const infoOverrides = productInfo1007 && typeof productInfo1007 === 'object' ? productInfo1007 : {};
     const infoOct17 = productInfo1017 && typeof productInfo1017 === 'object' ? productInfo1017 : {};
     PRODUCTS = [...merged.values()]
