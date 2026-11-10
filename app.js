@@ -1043,7 +1043,7 @@ const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p,
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
-const isTiaraOctoberNewProduct = p => p.sourceInfo === 'NICE_1107' && p.supplier === '티아라';
+const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1107' && p.supplier === '티아라') || p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
 const isNewArrivalProduct = p => p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
@@ -2117,7 +2117,7 @@ function match(p) {
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
   else if (FILTER === 'NOV_NEW') f = p.sourceInfo === 'NICE_1107';
-  else if (FILTER === 'TIARA_NEW') f = isTiaraOctoberNewProduct(p);
+  else if (FILTER === 'TIARA_NEW') f = p.sourceInfo === 'NICE_1107' && p.supplier === '티아라';
   else if (FILTER === 'LUXURY_NEW') f = isLuxuryNew929Product(p);
   else if (STYLE_FILTER_TYPES[FILTER]) f = styleScores(p)[STYLE_FILTER_TYPES[FILTER]] >= STYLE_FILTER_THRESHOLD;
   else if (FILTER === 'MINI') f = p.category === 'MINI' || p.length === '미니' || hasTag(p, 'MINI');
