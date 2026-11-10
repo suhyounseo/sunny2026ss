@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_new_only_20261110_3';
+const VERSION = 'nice_hero_1107_refresh_20261110_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2407,12 +2407,20 @@ function smartStoreItems(visible) {
 
 const SHOWROOM_HERO_SUPPLIERS = ['펄', '지나', '임마누엘', '티아라', '실루엣', '제시카', '앙크최', '지니', '세윤', '희야', '그레이스', '써니', '예스', '햅번'];
 const SHOWROOM_HERO_PREFERRED_CODES = {
-  '펄': 'T086',
-  '지나': 'T093',
-  '임마누엘': 'S997',
-  '티아라': 'T208',
+  '펄': 'T425',
+  '지나': 'T428',
+  '임마누엘': 'T412',
+  '티아라': 'T433',
   '실루엣': 'S92902W',
-  '제시카': 'JES-502'
+  '제시카': 'JES-502',
+  '앙크최': 'ANC-5035',
+  '지니': 'JINI-001',
+  '세윤': 'T414',
+  '희야': 'T382',
+  '그레이스': 'T381',
+  '써니': 'T419',
+  '예스': 'T376',
+  '햅번': 'T378'
 };
 
 function showroomSupplierName(p) {
