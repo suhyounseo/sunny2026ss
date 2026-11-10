@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_nov_supplier_code_desc_20261110_1';
+const VERSION = 'nice_remove_november_new_20261110_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -715,7 +715,7 @@ const COLLECTIONS = [
   { key: 'D', filter: 'COL_D', title: 'Collection D', name: 'Mini Dress Edit', desc: '클럽룩·파티룩으로 입기 좋은 미니원피스 셀렉션' }
 ];
 const JESSICA_STORE_STOCK_CODES = new Set(['JES-176', 'JES-193', 'JES-194', 'JES-199', 'JES-204', 'JES-369', 'JES-109', 'JES-309', 'JES-326']);
-const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'NOV_NEW', 'COSTUME', 'ANC_NEW', 'TIARA_NEW', 'LUXURY_NEW'];
+const FILTERS_BASE = ['HOME', 'ALL', 'BEST', 'COSTUME', 'ANC_NEW', 'TIARA_NEW', 'LUXURY_NEW'];
 const LABEL = {
   HOME: 'HOME',
   ALL: 'ALL',
@@ -724,7 +724,6 @@ const LABEL = {
   COSTUME: 'COSTUME',
   ANC_NEW: '앙크 NEW',
   TIARA_NEW: 'TIARA NEW',
-  NOV_NEW: '11월 신상',
   LUXURY_NEW: 'LUXURY NEW',
   STYLE_CLUB: '클럽룩',
   MINI: '미니',
@@ -2123,7 +2122,6 @@ function match(p) {
   else if (FILTER === 'BEST') f = NICE_PICK_CODES.includes(codeOf(p));
   else if (FILTER === 'COSTUME') f = isCostume(p);
   else if (FILTER === 'ANC_NEW') f = isCurrentAnkProduct(p);
-  else if (FILTER === 'NOV_NEW') f = p.sourceInfo === 'NICE_1107';
   else if (FILTER === 'TIARA_NEW') f = p.sourceInfo === 'NICE_1107' && p.supplier === '티아라';
   else if (FILTER === 'LUXURY_NEW') f = isLuxuryNew929Product(p);
   else if (STYLE_FILTER_TYPES[FILTER]) f = styleScores(p)[STYLE_FILTER_TYPES[FILTER]] >= STYLE_FILTER_THRESHOLD;
@@ -2634,7 +2632,6 @@ function renderHome() {
     ${showroomHeroBlock(heroProducts)}
     ${showroomCategoryNav()}
     ${showroomPickGrid(editorItems)}
-    ${sectionBlock('NOVEMBER NEW', '11월 첫째주 신상품을 만나보세요.', novemberNew, 'NOV_NEW', '11월 신상 전체보기', 12)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 13)}
     ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
     ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
@@ -2686,7 +2683,7 @@ function render() {
       const type = STYLE_FILTER_TYPES[FILTER];
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
-    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW' || FILTER === 'NOV_NEW')) {
+    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
       list = sortNewBySupplierAndCode(list);
     }
   }
