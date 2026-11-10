@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_nov1107_brand_split_20261110_2';
+const VERSION = 'nice_new_only_20261110_3';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1038,12 +1038,12 @@ const SILHOUETTE_1012_LUXURY_CODES = ['S1012001B', 'S1012001K', 'S1012001P', 'S1
 const SILHOUETTE_1012_LUXURY_SET = new Set(SILHOUETTE_1012_LUXURY_CODES);
 const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
 const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
-const isLuxuryNew929Product = p => (p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라') || (p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') || p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p)) || SILHOUETTE_1012_LUXURY_SET.has(codeOf(p));
+const isLuxuryNew929Product = p => p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라';
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
-const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1107' && p.supplier === '티아라') || p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
+const isTiaraOctoberNewProduct = p => p.sourceInfo === 'NICE_1107' && p.supplier === '티아라';
 const isNewArrivalProduct = p => p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
@@ -2555,10 +2555,10 @@ function renderHome() {
   const novemberNew = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1107'));
   const luxuryNovember = novemberNew.filter(p => p.supplier !== '티아라');
   const luxuryOct18 = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라')).slice(0, 12);
-  const luxuryNew = [...luxuryNovember, ...luxuryOct18, ...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
+  const luxuryNew = luxuryNovember;
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
-  const tiaraHome = [...novemberNew.filter(p => p.supplier === '티아라'), ...visible.filter(p => p.collection === 'TIARA_20261020'), ...tiaraHomeCodes.map(code => visibleMap.get(code)).filter(Boolean)];
+  const tiaraHome = novemberNew.filter(p => p.supplier === '티아라');
   const gallery = sortProducts(visible).slice(0, 16);
   const heroProducts = showroomHeroItems(visible);
   if (!heroProducts.length) heroProducts.push(...[...editorPreview, ...fresh, ...gallery].filter(p => mainImg(p)).slice(0, 6));
