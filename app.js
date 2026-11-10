@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_nov1107_launch_20261110_1';
+const VERSION = 'nice_nov1107_brand_split_20261110_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1038,7 +1038,7 @@ const SILHOUETTE_1012_LUXURY_CODES = ['S1012001B', 'S1012001K', 'S1012001P', 'S1
 const SILHOUETTE_1012_LUXURY_SET = new Set(SILHOUETTE_1012_LUXURY_CODES);
 const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
 const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
-const isLuxuryNew929Product = p => (p.sourceInfo === 'NICE_1107' && Number(p.price || 0) >= (p.category === 'TWO PIECE' ? 130000 : ['BLOUSE','SKIRT','TOP','CARDIGAN'].includes(p.category) ? 60000 : 100000)) || (p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') || p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p)) || SILHOUETTE_1012_LUXURY_SET.has(codeOf(p));
+const isLuxuryNew929Product = p => (p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라') || (p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') || p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상') || SILHOUETTE_HOME_LUXURY_SET.has(codeOf(p)) || SILHOUETTE_1012_LUXURY_SET.has(codeOf(p));
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -2553,7 +2553,7 @@ function renderHome() {
   // P and V are provisional representative choices until the photo colors are confirmed.
   const luxury1012Representatives = ['S1012001P', 'S1012002V'].map(code => luxury1012.find(p => codeOf(p) === code)).filter(Boolean);
   const novemberNew = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1107'));
-  const luxuryNovember = novemberNew.filter(isLuxuryNew929Product).slice(0, 12);
+  const luxuryNovember = novemberNew.filter(p => p.supplier !== '티아라');
   const luxuryOct18 = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라')).slice(0, 12);
   const luxuryNew = [...luxuryNovember, ...luxuryOct18, ...luxuryExisting, ...luxury1012Representatives, ...luxurySelectedSilhouette].filter((p, i, all) => all.findIndex(x => codeOf(x) === codeOf(p)) === i);
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
