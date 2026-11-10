@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_hero_1107_selected_20261110_2';
+const VERSION = 'nice_nov_supplier_code_desc_20261110_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1913,6 +1913,13 @@ function rankProduct(p) {
 function sortProducts(list) {
   return [...list].sort((a, b) => rankProduct(b) - rankProduct(a) || codeOf(a).localeCompare(codeOf(b), 'ko'));
 }
+// 최근 신상은 거래처별로 묶고, 동일 거래처 안에서는 큰 상품번호가 먼저 보이도록 정렬합니다.
+function sortNewBySupplierAndCode(list) {
+  const supplierOrder = ['펄', '지나', '임마누엘', '티아라', '실루엣', '제시카', '앙크최', '지니', '세윤', '희야', '그레이스', '써니', '예스', '햅번'];
+  const order = name => { const i = supplierOrder.indexOf(String(name || '').trim()); return i < 0 ? supplierOrder.length : i; };
+  const codeNumber = p => { const m = String(codeOf(p)).match(/(\d+)(?!.*\d)/); return m ? Number(m[1]) : -1; };
+  return [...list].sort((a, b) => order(a.supplier) - order(b.supplier) || String(a.supplier || '').localeCompare(String(b.supplier || ''), 'ko') || codeNumber(b) - codeNumber(a) || codeOf(b).localeCompare(codeOf(a), 'ko'));
+}
 function designGroupKey(p) {
   return p && p.designGroupId ? String(p.designGroupId) : codeOf(p);
 }
@@ -2558,7 +2565,7 @@ function renderHome() {
   // Keep familiar products first on the home preview; show one color per new design.
   // P and V are provisional representative choices until the photo colors are confirmed.
   const luxury1012Representatives = ['S1012001P', 'S1012002V'].map(code => luxury1012.find(p => codeOf(p) === code)).filter(Boolean);
-  const novemberNew = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1107'));
+  const novemberNew = sortNewBySupplierAndCode(visible.filter(p => p.sourceInfo === 'NICE_1107'));
   const luxuryNovember = novemberNew.filter(p => p.supplier !== '티아라');
   const luxuryOct18 = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라')).slice(0, 12);
   const luxuryNew = luxuryNovember;
@@ -2679,9 +2686,8 @@ function render() {
       const type = STYLE_FILTER_TYPES[FILTER];
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
-    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
-      const priority = p => p.sourceInfo === 'NICE_1107' ? 0 : FILTER === 'TIARA_NEW' ? (p.collection === 'TIARA_20261020' ? 1 : 2) : ((p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라') ? 1 : 2);
-      list.sort((a, b) => priority(a) - priority(b));
+    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW' || FILTER === 'NOV_NEW')) {
+      list = sortNewBySupplierAndCode(list);
     }
   }
   const styleMode = !!STYLE_FILTER_TYPES[FILTER];
