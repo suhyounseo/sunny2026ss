@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_hero_1107_refresh_20261110_1';
+const VERSION = 'nice_hero_1107_selected_20261110_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2410,13 +2410,13 @@ const SHOWROOM_HERO_PREFERRED_CODES = {
   '펄': 'T425',
   '지나': 'T428',
   '임마누엘': 'T412',
-  '티아라': 'T433',
+  '티아라': 'T438',
   '실루엣': 'S92902W',
   '제시카': 'JES-502',
   '세윤': 'T414',
-  '희야': 'T382',
+  '희야': 'T388',
   '그레이스': 'T381',
-  '써니': 'T419',
+  '써니': 'T421',
   '예스': 'T376',
   '햅번': 'T378'
 };
