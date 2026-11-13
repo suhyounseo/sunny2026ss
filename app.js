@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_jessica_winter_20261113_1';
+const VERSION = 'nice_jessica_winter_new_arrival_20261113_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1037,7 +1037,7 @@ const SILHOUETTE_1012_LUXURY_CODES = ['S1012001B', 'S1012001K', 'S1012001P', 'S1
 const SILHOUETTE_1012_LUXURY_SET = new Set(SILHOUETTE_1012_LUXURY_CODES);
 const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
 const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
-const isLuxuryNew929Product = p => p.sourceInfo === 'JESSICA_WINTER_2026' || (p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라');
+const isLuxuryNew929Product = p => p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라';
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
@@ -1978,7 +1978,8 @@ function newArrivalItems(visible, editorCodes) {
     sortProducts(visible.filter(p => isAugustNewProduct(p) && !pinnedSet.has(codeOf(p)))),
     8
   );
-  return [...silhouettePinned, ...ancPinned, ...existingFresh];
+  const jessicaWinterArrivals = sortJessicaWinter(visible.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026'));
+  return [...jessicaWinterArrivals, ...silhouettePinned, ...ancPinned, ...existingFresh];
 }
 const SILHOUETTE_N260035_MANNEQUIN = 'Silhouette/N260035/N260035_1.jpg';
 function appendSilhouetteMannequinCut(p) {
@@ -2572,7 +2573,7 @@ function renderHome() {
   const luxuryNovember = novemberNew.filter(p => p.supplier !== '티아라');
   const jessicaWinter = sortJessicaWinter(visible.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026'));
   const luxuryOct18 = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라')).slice(0, 12);
-  const luxuryNew = [...jessicaWinter.slice(0, 4), ...luxuryNovember, ...jessicaWinter.slice(4)];
+  const luxuryNew = luxuryNovember;
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = novemberNew.filter(p => p.supplier === '티아라');
@@ -2690,7 +2691,7 @@ function render() {
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
     if (!searchActive && FILTER === 'LUXURY_NEW') {
-      list = [...sortJessicaWinter(list.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026')), ...sortNewBySupplierAndCode(list.filter(p => p.sourceInfo !== 'JESSICA_WINTER_2026'))];
+      list = sortNewBySupplierAndCode(list);
     } else if (!searchActive && FILTER === 'TIARA_NEW') {
       list = sortNewBySupplierAndCode(list);
     }
