@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_remove_november_new_20261110_1';
+const VERSION = 'nice_jessica_winter_20261113_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1037,13 +1037,13 @@ const SILHOUETTE_1012_LUXURY_CODES = ['S1012001B', 'S1012001K', 'S1012001P', 'S1
 const SILHOUETTE_1012_LUXURY_SET = new Set(SILHOUETTE_1012_LUXURY_CODES);
 const SILHOUETTE_HOME_LUXURY_CODES = ['S92901V', 'S93001', 'S92902W'];
 const SILHOUETTE_HOME_LUXURY_SET = new Set(SILHOUETTE_HOME_LUXURY_CODES);
-const isLuxuryNew929Product = p => p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라';
+const isLuxuryNew929Product = p => p.sourceInfo === 'JESSICA_WINTER_2026' || (p.sourceInfo === 'NICE_1107' && p.supplier !== '티아라');
 const isSeptemberNewProduct = p => p.collection === 'SEPTEMBER_NEW' || hasTag(p, '9월신상');
 const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월신상');
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
 const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1107' && p.supplier === '티아라') || p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
-const isNewArrivalProduct = p => p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
+const isNewArrivalProduct = p => p.sourceInfo === 'JESSICA_WINTER_2026' || p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
@@ -1891,6 +1891,7 @@ function isJessicaStoreStockProduct(p) {
 }
 function rankProduct(p) {
   let score = Number(p.priority || 0);
+  if (p.sourceInfo === 'JESSICA_WINTER_2026') score += 55000;
   if (p.sourceInfo === 'NICE_1107') score += 45000;
   if (p.sourceInfo === 'NICE_1018') score += 35000;
   // 전체(ALL)에서는 매장에 실제 입고된 제시카 재고를 가장 먼저 노출합니다.
@@ -1918,6 +1919,10 @@ function sortNewBySupplierAndCode(list) {
   const order = name => { const i = supplierOrder.indexOf(String(name || '').trim()); return i < 0 ? supplierOrder.length : i; };
   const codeNumber = p => { const m = String(codeOf(p)).match(/(\d+)(?!.*\d)/); return m ? Number(m[1]) : -1; };
   return [...list].sort((a, b) => order(a.supplier) - order(b.supplier) || String(a.supplier || '').localeCompare(String(b.supplier || ''), 'ko') || codeNumber(b) - codeNumber(a) || codeOf(b).localeCompare(codeOf(a), 'ko'));
+}
+// Jessica winter codes include JES-2609-25/26, so compare whole codes naturally.
+function sortJessicaWinter(items) {
+  return [...items].sort((a, b) => codeOf(b).localeCompare(codeOf(a), 'en', { numeric: true }));
 }
 function designGroupKey(p) {
   return p && p.designGroupId ? String(p.designGroupId) : codeOf(p);
@@ -2565,8 +2570,9 @@ function renderHome() {
   const luxury1012Representatives = ['S1012001P', 'S1012002V'].map(code => luxury1012.find(p => codeOf(p) === code)).filter(Boolean);
   const novemberNew = sortNewBySupplierAndCode(visible.filter(p => p.sourceInfo === 'NICE_1107'));
   const luxuryNovember = novemberNew.filter(p => p.supplier !== '티아라');
+  const jessicaWinter = sortJessicaWinter(visible.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026'));
   const luxuryOct18 = sortProducts(visible.filter(p => p.sourceInfo === 'NICE_1018' && p.supplier !== '티아라')).slice(0, 12);
-  const luxuryNew = luxuryNovember;
+  const luxuryNew = [...jessicaWinter.slice(0, 4), ...luxuryNovember, ...jessicaWinter.slice(4)];
   const tiaraHomeCodes = ['T223', 'T225', 'T229', 'T233', 'T267', 'T280', 'T208', 'T214', 'T190', 'T211', 'T183', 'T206'];
   const visibleMap = new Map(visible.map(p => [codeOf(p), p]));
   const tiaraHome = novemberNew.filter(p => p.supplier === '티아라');
@@ -2683,7 +2689,9 @@ function render() {
       const type = STYLE_FILTER_TYPES[FILTER];
       list.sort((a, b) => styleScores(b)[type] - styleScores(a)[type] || rankProduct(b) - rankProduct(a));
     }
-    if (!searchActive && (FILTER === 'LUXURY_NEW' || FILTER === 'TIARA_NEW')) {
+    if (!searchActive && FILTER === 'LUXURY_NEW') {
+      list = [...sortJessicaWinter(list.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026')), ...sortNewBySupplierAndCode(list.filter(p => p.sourceInfo !== 'JESSICA_WINTER_2026'))];
+    } else if (!searchActive && FILTER === 'TIARA_NEW') {
       list = sortNewBySupplierAndCode(list);
     }
   }
@@ -3232,11 +3240,12 @@ Promise.all([
   fetch('./products-info-1017.json?v=' + VERSION).then(r => r.ok ? r.json() : {}),
   fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-tiara-1020.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
-  fetch('./products-1107.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-1107.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-jessica-winter-2026.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020, nov1107]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020, nov1107, jessicaWinter2026]) => {
     const merged = new Map();
-    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020, ...nov1107].forEach(p => merged.set(codeOf(p), p));
+    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020, ...nov1107, ...jessicaWinter2026].forEach(p => merged.set(codeOf(p), p));
     const infoOverrides = productInfo1007 && typeof productInfo1007 === 'object' ? productInfo1007 : {};
     const infoOct17 = productInfo1017 && typeof productInfo1017 === 'object' ? productInfo1017 : {};
     PRODUCTS = [...merged.values()]
