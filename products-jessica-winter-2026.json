@@ -1,0 +1,2190 @@
+[
+  {
+    "code": "JES-601",
+    "customerCode": "JES-601",
+    "sourceCode": "601",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "핑크 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "storeName": "핑크 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "productName": "핑크 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/601/601-9 main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/601/601-9 main.jpg",
+    "cardImage": "product/jessica 2026 winter new/601/601-9 main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/601/601-9 main.jpg",
+      "product/jessica 2026 winter new/601/601-1.jpg",
+      "product/jessica 2026 winter new/601/601-2.jpg",
+      "product/jessica 2026 winter new/601/601-3.jpg",
+      "product/jessica 2026 winter new/601/601-4.jpg",
+      "product/jessica 2026 winter new/601/601-7.jpg",
+      "product/jessica 2026 winter new/601/601-8.jpg",
+      "product/jessica 2026 winter new/601/601_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/601/601-9 main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-7.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601-8.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/601/601_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "601"
+    ],
+    "searchKeywords": [
+      "JES-601",
+      "601",
+      "핑크 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "핑크 상의와 블랙 스커트를 배색한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 상체에 시선을 모아주고 블랙 셔링 스커트가 바디라인을 또렷하게 잡아주는 디자인입니다.",
+    "desc": "핑크 상의와 블랙 스커트를 배색한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 상체에 시선을 모아주고 블랙 셔링 스커트가 바디라인을 또렷하게 잡아주는 디자인입니다.",
+    "mainCopy": "핑크 상의와 블랙 스커트를 배색한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 상체에 시선을 모아주고 블랙 셔링 스커트가 바디라인을 또렷하게 잡아주는 디자인입니다.",
+    "designGroupId": "JES-WINTER-601-602"
+  },
+  {
+    "code": "JES-602",
+    "customerCode": "JES-602",
+    "sourceCode": "602",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "아이보리 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "storeName": "아이보리 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "productName": "아이보리 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/602/602-4main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/602/602-4main.jpg",
+    "cardImage": "product/jessica 2026 winter new/602/602-4main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/602/602-4main.jpg",
+      "product/jessica 2026 winter new/602/602-1.jpg",
+      "product/jessica 2026 winter new/602/602-2.jpg",
+      "product/jessica 2026 winter new/602/602-3.jpg",
+      "product/jessica 2026 winter new/602/602-5.jpg",
+      "product/jessica 2026 winter new/602/602-6.jpg",
+      "product/jessica 2026 winter new/602/602-7.jpg",
+      "product/jessica 2026 winter new/602/602-8.jpg",
+      "product/jessica 2026 winter new/602/602-9.jpg",
+      "product/jessica 2026 winter new/602/602_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/602/602-4main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-7.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-8.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602-9.jpg",
+        "cut": "상세컷 8"
+      },
+      {
+        "url": "product/jessica 2026 winter new/602/602_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "602"
+    ],
+    "searchKeywords": [
+      "JES-602",
+      "602",
+      "아이보리 블랙배색 스퀘어넥 골드버튼 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "아이보리 상의와 블랙 스커트의 대비가 선명한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 블랙 배색 포켓 디테일이 클래식하면서도 글램한 분위기를 연출합니다.",
+    "desc": "아이보리 상의와 블랙 스커트의 대비가 선명한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 블랙 배색 포켓 디테일이 클래식하면서도 글램한 분위기를 연출합니다.",
+    "mainCopy": "아이보리 상의와 블랙 스커트의 대비가 선명한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 블랙 배색 포켓 디테일이 클래식하면서도 글램한 분위기를 연출합니다.",
+    "designGroupId": "JES-WINTER-601-602"
+  },
+  {
+    "code": "JES-603",
+    "customerCode": "JES-603",
+    "sourceCode": "603",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "화이트 프릴카라 핑크 체크배색 슬림 미니원피스",
+    "storeName": "화이트 프릴카라 핑크 체크배색 슬림 미니원피스",
+    "productName": "화이트 프릴카라 핑크 체크배색 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/603/603-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/603/603-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/603/603-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/603/603-1main.jpg",
+      "product/jessica 2026 winter new/603/603-1.jpg",
+      "product/jessica 2026 winter new/603/603-2.jpg",
+      "product/jessica 2026 winter new/603/603p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/603/603-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/603/603-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/603/603-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/603/603p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "603"
+    ],
+    "searchKeywords": [
+      "JES-603",
+      "603",
+      "화이트 프릴카라 핑크 체크배색 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "화이트 프릴 카라 상의에 핑크 체크 텍스처 스커트를 배색한 미니원피스. 골드 버튼과 허리 라인이 여성스러운 포인트를 더해 화사한 방송룩·파티룩으로 활용하기 좋습니다.",
+    "desc": "화이트 프릴 카라 상의에 핑크 체크 텍스처 스커트를 배색한 미니원피스. 골드 버튼과 허리 라인이 여성스러운 포인트를 더해 화사한 방송룩·파티룩으로 활용하기 좋습니다.",
+    "mainCopy": "화이트 프릴 카라 상의에 핑크 체크 텍스처 스커트를 배색한 미니원피스. 골드 버튼과 허리 라인이 여성스러운 포인트를 더해 화사한 방송룩·파티룩으로 활용하기 좋습니다."
+  },
+  {
+    "code": "JES-604",
+    "customerCode": "JES-604",
+    "sourceCode": "604",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 스퀘어넥 집업 벨티드 슬림 미니원피스",
+    "storeName": "블랙 스퀘어넥 집업 벨티드 슬림 미니원피스",
+    "productName": "블랙 스퀘어넥 집업 벨티드 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/604/604-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/604/604-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/604/604-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/604/604-1main.jpg",
+      "product/jessica 2026 winter new/604/604-1.jpg",
+      "product/jessica 2026 winter new/604/604-2.jpg",
+      "product/jessica 2026 winter new/604/604.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/604/604-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/604/604-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/604/604-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/604/604.jpg",
+        "cut": "상세컷 3"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "604"
+    ],
+    "searchKeywords": [
+      "JES-604",
+      "604",
+      "블랙 스퀘어넥 집업 벨티드 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "스퀘어넥과 프런트 지퍼가 돋보이는 블랙 슬림 미니원피스. 골드 버튼 포켓과 버클 벨트가 허리선을 강조해 시크하고 단정한 무드를 연출합니다.",
+    "desc": "스퀘어넥과 프런트 지퍼가 돋보이는 블랙 슬림 미니원피스. 골드 버튼 포켓과 버클 벨트가 허리선을 강조해 시크하고 단정한 무드를 연출합니다.",
+    "mainCopy": "스퀘어넥과 프런트 지퍼가 돋보이는 블랙 슬림 미니원피스. 골드 버튼 포켓과 버클 벨트가 허리선을 강조해 시크하고 단정한 무드를 연출합니다."
+  },
+  {
+    "code": "JES-605",
+    "customerCode": "JES-605",
+    "sourceCode": "605",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 원숄더 베이지 리본벨트 배색 미니원피스",
+    "storeName": "블랙 원숄더 베이지 리본벨트 배색 미니원피스",
+    "productName": "블랙 원숄더 베이지 리본벨트 배색 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 언발숄더",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/605/605-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/605/605-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/605/605-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/605/605-1main.jpg",
+      "product/jessica 2026 winter new/605/605-1.jpg",
+      "product/jessica 2026 winter new/605/605-2.jpg",
+      "product/jessica 2026 winter new/605/605-3.jpg",
+      "product/jessica 2026 winter new/605/605.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/605/605-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/605/605-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/605/605-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/605/605-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/605/605.jpg",
+        "cut": "상세컷 4"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "605"
+    ],
+    "searchKeywords": [
+      "JES-605",
+      "605",
+      "블랙 원숄더 베이지 리본벨트 배색 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 비대칭 원숄더 상의와 베이지 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리 리본벨트, 더블 버튼 디테일이 포인트가 되어 세련된 글램 룩을 완성합니다.",
+    "desc": "블랙 비대칭 원숄더 상의와 베이지 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리 리본벨트, 더블 버튼 디테일이 포인트가 되어 세련된 글램 룩을 완성합니다.",
+    "mainCopy": "블랙 비대칭 원숄더 상의와 베이지 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리 리본벨트, 더블 버튼 디테일이 포인트가 되어 세련된 글램 룩을 완성합니다."
+  },
+  {
+    "code": "JES-606",
+    "customerCode": "JES-606",
+    "sourceCode": "606",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "아이보리 레이스슬리브 골드버튼 벨티드 미니원피스",
+    "storeName": "아이보리 레이스슬리브 골드버튼 벨티드 미니원피스",
+    "productName": "아이보리 레이스슬리브 골드버튼 벨티드 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 시스루소매",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/606/606-2main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/606/606-2main.jpg",
+    "cardImage": "product/jessica 2026 winter new/606/606-2main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/606/606-2main.jpg",
+      "product/jessica 2026 winter new/606/606-1.jpg",
+      "product/jessica 2026 winter new/606/606-2.jpg",
+      "product/jessica 2026 winter new/606/606-3.jpg",
+      "product/jessica 2026 winter new/606/606-4.jpg",
+      "product/jessica 2026 winter new/606/606_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/606/606-2main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/606/606-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/606/606-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/606/606-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/606/606-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/606/606_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "606"
+    ],
+    "searchKeywords": [
+      "JES-606",
+      "606",
+      "아이보리 레이스슬리브 골드버튼 벨티드 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "아이보리 컬러에 레이스 소매와 입체적인 바스트 라인을 더한 미니원피스. 골드 버튼과 슬림 벨트가 허리를 정돈해주며 화사하고 고급스러운 분위기가 돋보입니다.",
+    "desc": "아이보리 컬러에 레이스 소매와 입체적인 바스트 라인을 더한 미니원피스. 골드 버튼과 슬림 벨트가 허리를 정돈해주며 화사하고 고급스러운 분위기가 돋보입니다.",
+    "mainCopy": "아이보리 컬러에 레이스 소매와 입체적인 바스트 라인을 더한 미니원피스. 골드 버튼과 슬림 벨트가 허리를 정돈해주며 화사하고 고급스러운 분위기가 돋보입니다."
+  },
+  {
+    "code": "JES-607",
+    "customerCode": "JES-607",
+    "sourceCode": "607",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "딥네이비 오프숄더 랩넥 벨티드 미니원피스",
+    "storeName": "딥네이비 오프숄더 랩넥 벨티드 미니원피스",
+    "productName": "딥네이비 오프숄더 랩넥 벨티드 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 언발숄더",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/607/607-2main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/607/607-2main.jpg",
+    "cardImage": "product/jessica 2026 winter new/607/607-2main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/607/607-2main.jpg",
+      "product/jessica 2026 winter new/607/607-1.jpg",
+      "product/jessica 2026 winter new/607/607-2.jpg",
+      "product/jessica 2026 winter new/607/607.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/607/607-2main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/607/607-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/607/607-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/607/607.jpg",
+        "cut": "상세컷 3"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "607"
+    ],
+    "searchKeywords": [
+      "JES-607",
+      "607",
+      "딥네이비 오프숄더 랩넥 벨티드 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "딥네이비 컬러의 오프숄더 랩넥 미니원피스. 넓게 접힌 네크라인이 어깨선을 강조하고 허리의 골드 장식 벨트가 슬림한 실루엣을 완성합니다.",
+    "desc": "딥네이비 컬러의 오프숄더 랩넥 미니원피스. 넓게 접힌 네크라인이 어깨선을 강조하고 허리의 골드 장식 벨트가 슬림한 실루엣을 완성합니다.",
+    "mainCopy": "딥네이비 컬러의 오프숄더 랩넥 미니원피스. 넓게 접힌 네크라인이 어깨선을 강조하고 허리의 골드 장식 벨트가 슬림한 실루엣을 완성합니다."
+  },
+  {
+    "code": "JES-608",
+    "customerCode": "JES-608",
+    "sourceCode": "608",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "화이트 스퀘어넥 레드 골드버튼 배색 미니원피스",
+    "storeName": "화이트 스퀘어넥 레드 골드버튼 배색 미니원피스",
+    "productName": "화이트 스퀘어넥 레드 골드버튼 배색 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/608/608-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/608/608-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/608/608-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/608/608-1main.jpg",
+      "product/jessica 2026 winter new/608/608-1.jpg",
+      "product/jessica 2026 winter new/608/608-2.jpg",
+      "product/jessica 2026 winter new/608/608_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/608/608-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/608/608-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/608/608-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/608/608_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "608"
+    ],
+    "searchKeywords": [
+      "JES-608",
+      "608",
+      "화이트 스퀘어넥 레드 골드버튼 배색 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "화이트 텍스처 상의와 선명한 레드 스커트를 배색한 미니원피스. 스퀘어넥과 골드 버튼, 허리 포켓 장식이 포인트가 되어 무대와 촬영에서 컬러 대비가 또렷하게 살아납니다.",
+    "desc": "화이트 텍스처 상의와 선명한 레드 스커트를 배색한 미니원피스. 스퀘어넥과 골드 버튼, 허리 포켓 장식이 포인트가 되어 무대와 촬영에서 컬러 대비가 또렷하게 살아납니다.",
+    "mainCopy": "화이트 텍스처 상의와 선명한 레드 스커트를 배색한 미니원피스. 스퀘어넥과 골드 버튼, 허리 포켓 장식이 포인트가 되어 무대와 촬영에서 컬러 대비가 또렷하게 살아납니다."
+  },
+  {
+    "code": "JES-609",
+    "customerCode": "JES-609",
+    "sourceCode": "609",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "화이트 텍스처 스퀘어넥 골드버튼 슬림 미니원피스",
+    "storeName": "화이트 텍스처 스퀘어넥 골드버튼 슬림 미니원피스",
+    "productName": "화이트 텍스처 스퀘어넥 골드버튼 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/609/609-2main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/609/609-2main.jpg",
+    "cardImage": "product/jessica 2026 winter new/609/609-2main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/609/609-2main.jpg",
+      "product/jessica 2026 winter new/609/609-1.jpg",
+      "product/jessica 2026 winter new/609/609-2.jpg",
+      "product/jessica 2026 winter new/609/609-3.jpg",
+      "product/jessica 2026 winter new/609/609.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/609/609-2main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/609/609-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/609/609-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/609/609-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/609/609.jpg",
+        "cut": "상세컷 4"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "609"
+    ],
+    "searchKeywords": [
+      "JES-609",
+      "609",
+      "화이트 텍스처 스퀘어넥 골드버튼 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "화이트 컬러의 입체적인 텍스처가 돋보이는 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 단정하면서도 화려한 포인트를 더합니다.",
+    "desc": "화이트 컬러의 입체적인 텍스처가 돋보이는 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 단정하면서도 화려한 포인트를 더합니다.",
+    "mainCopy": "화이트 컬러의 입체적인 텍스처가 돋보이는 슬림 미니원피스. 스퀘어넥과 골드 버튼, 포켓 장식이 단정하면서도 화려한 포인트를 더합니다."
+  },
+  {
+    "code": "JES-610",
+    "customerCode": "JES-610",
+    "sourceCode": "610",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 레이스슬리브 스퀘어넥 골드버튼 미니원피스",
+    "storeName": "블랙 레이스슬리브 스퀘어넥 골드버튼 미니원피스",
+    "productName": "블랙 레이스슬리브 스퀘어넥 골드버튼 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/610/610-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/610/610-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/610/610-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/610/610-1main.jpg",
+      "product/jessica 2026 winter new/610/610-1.jpg",
+      "product/jessica 2026 winter new/610/610-2.jpg",
+      "product/jessica 2026 winter new/610/610_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/610/610-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/610/610-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/610/610-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/610/610_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "610"
+    ],
+    "searchKeywords": [
+      "JES-610",
+      "610",
+      "블랙 레이스슬리브 스퀘어넥 골드버튼 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 바디에 시스루 레이스 소매를 조합한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 허리 장식이 더해져 섹시하면서도 클래식한 분위기를 연출합니다.",
+    "desc": "블랙 바디에 시스루 레이스 소매를 조합한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 허리 장식이 더해져 섹시하면서도 클래식한 분위기를 연출합니다.",
+    "mainCopy": "블랙 바디에 시스루 레이스 소매를 조합한 슬림 미니원피스. 스퀘어넥과 골드 버튼, 허리 장식이 더해져 섹시하면서도 클래식한 분위기를 연출합니다."
+  },
+  {
+    "code": "JES-611",
+    "customerCode": "JES-611",
+    "sourceCode": "611",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "핑크 블랙라인 스퀘어넥 골드버튼 셔링 미니원피스",
+    "storeName": "핑크 블랙라인 스퀘어넥 골드버튼 셔링 미니원피스",
+    "productName": "핑크 블랙라인 스퀘어넥 골드버튼 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/611/611-2main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/611/611-2main.jpg",
+    "cardImage": "product/jessica 2026 winter new/611/611-2main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/611/611-2main.jpg",
+      "product/jessica 2026 winter new/611/611-1.jpg",
+      "product/jessica 2026 winter new/611/611-2.jpg",
+      "product/jessica 2026 winter new/611/611-3.jpg",
+      "product/jessica 2026 winter new/611/611-4.jpg",
+      "product/jessica 2026 winter new/611/611-5.jpg",
+      "product/jessica 2026 winter new/611/611-6.jpg",
+      "product/jessica 2026 winter new/611/611_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/611/611-2main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/611/611_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "611"
+    ],
+    "searchKeywords": [
+      "JES-611",
+      "611",
+      "핑크 블랙라인 스퀘어넥 골드버튼 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "핑크 컬러에 블랙 라인 배색을 더한 슬림 미니원피스. 스퀘어넥과 골드 버튼이 상체를 또렷하게 잡아주고 셔링 스커트가 여성스러운 바디라인을 강조합니다.",
+    "desc": "핑크 컬러에 블랙 라인 배색을 더한 슬림 미니원피스. 스퀘어넥과 골드 버튼이 상체를 또렷하게 잡아주고 셔링 스커트가 여성스러운 바디라인을 강조합니다.",
+    "mainCopy": "핑크 컬러에 블랙 라인 배색을 더한 슬림 미니원피스. 스퀘어넥과 골드 버튼이 상체를 또렷하게 잡아주고 셔링 스커트가 여성스러운 바디라인을 강조합니다."
+  },
+  {
+    "code": "JES-612",
+    "customerCode": "JES-612",
+    "sourceCode": "612",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 언밸런스넥 더블골드버튼 플레어 미니원피스",
+    "storeName": "블랙 언밸런스넥 더블골드버튼 플레어 미니원피스",
+    "productName": "블랙 언밸런스넥 더블골드버튼 플레어 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "A라인",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/612/612-2main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/612/612-2main.jpg",
+    "cardImage": "product/jessica 2026 winter new/612/612-2main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/612/612-2main.jpg",
+      "product/jessica 2026 winter new/612/612-1.jpg",
+      "product/jessica 2026 winter new/612/612-2.jpg",
+      "product/jessica 2026 winter new/612/612-3.jpg",
+      "product/jessica 2026 winter new/612/612-4.jpg",
+      "product/jessica 2026 winter new/612/612_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/612/612-2main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/612/612-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/612/612-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/612/612-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/612/612-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/612/612_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "612"
+    ],
+    "searchKeywords": [
+      "JES-612",
+      "612",
+      "블랙 언밸런스넥 더블골드버튼 플레어 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "언밸런스한 네크라인과 허리 아래로 퍼지는 플레어 실루엣이 특징인 블랙 미니원피스. 골드 더블 버튼이 시선을 모아주며 시크한 무대룩으로 활용하기 좋습니다.",
+    "desc": "언밸런스한 네크라인과 허리 아래로 퍼지는 플레어 실루엣이 특징인 블랙 미니원피스. 골드 더블 버튼이 시선을 모아주며 시크한 무대룩으로 활용하기 좋습니다.",
+    "mainCopy": "언밸런스한 네크라인과 허리 아래로 퍼지는 플레어 실루엣이 특징인 블랙 미니원피스. 골드 더블 버튼이 시선을 모아주며 시크한 무대룩으로 활용하기 좋습니다."
+  },
+  {
+    "code": "JES-613",
+    "customerCode": "JES-613",
+    "sourceCode": "613",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "아이보리 브이넥 골드버튼 베이지 셔링 미니원피스",
+    "storeName": "아이보리 브이넥 골드버튼 베이지 셔링 미니원피스",
+    "productName": "아이보리 브이넥 골드버튼 베이지 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/613/613-3main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/613/613-3main.jpg",
+    "cardImage": "product/jessica 2026 winter new/613/613-3main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/613/613-3main.jpg",
+      "product/jessica 2026 winter new/613/613-1.jpg",
+      "product/jessica 2026 winter new/613/613-2.jpg",
+      "product/jessica 2026 winter new/613/613-3.jpg",
+      "product/jessica 2026 winter new/613/613-4.jpg",
+      "product/jessica 2026 winter new/613/613-5.jpg",
+      "product/jessica 2026 winter new/613/613_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/613/613-3main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/613/613_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "613"
+    ],
+    "searchKeywords": [
+      "JES-613",
+      "613",
+      "아이보리 브이넥 골드버튼 베이지 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "아이보리 브이넥 상의와 베이지 셔링 스커트를 배색한 미니원피스. 전면 골드 버튼과 부드러운 컬러 조합이 여성스럽고 단정한 분위기를 만들어줍니다.",
+    "desc": "아이보리 브이넥 상의와 베이지 셔링 스커트를 배색한 미니원피스. 전면 골드 버튼과 부드러운 컬러 조합이 여성스럽고 단정한 분위기를 만들어줍니다.",
+    "mainCopy": "아이보리 브이넥 상의와 베이지 셔링 스커트를 배색한 미니원피스. 전면 골드 버튼과 부드러운 컬러 조합이 여성스럽고 단정한 분위기를 만들어줍니다."
+  },
+  {
+    "code": "JES-614",
+    "customerCode": "JES-614",
+    "sourceCode": "614",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 스퀘어넥 체인스트랩 슬림 미니원피스",
+    "storeName": "블랙 스퀘어넥 체인스트랩 슬림 미니원피스",
+    "productName": "블랙 스퀘어넥 체인스트랩 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/614/614-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/614/614-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/614/614-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/614/614-1main.jpg",
+      "product/jessica 2026 winter new/614/614-1.jpg",
+      "product/jessica 2026 winter new/614/614-2.jpg",
+      "product/jessica 2026 winter new/614/614-3.jpg",
+      "product/jessica 2026 winter new/614/614-4.jpg",
+      "product/jessica 2026 winter new/614/614-5.jpg",
+      "product/jessica 2026 winter new/614/614.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/614/614-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/614/614.jpg",
+        "cut": "상세컷 6"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "614"
+    ],
+    "searchKeywords": [
+      "JES-614",
+      "614",
+      "블랙 스퀘어넥 체인스트랩 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 컬러의 슬림한 스퀘어넥 미니원피스. 한쪽 어깨의 골드 체인 스트랩이 비대칭 포인트가 되어 심플한 실루엣에 무대감 있는 디테일을 더합니다.",
+    "desc": "블랙 컬러의 슬림한 스퀘어넥 미니원피스. 한쪽 어깨의 골드 체인 스트랩이 비대칭 포인트가 되어 심플한 실루엣에 무대감 있는 디테일을 더합니다.",
+    "mainCopy": "블랙 컬러의 슬림한 스퀘어넥 미니원피스. 한쪽 어깨의 골드 체인 스트랩이 비대칭 포인트가 되어 심플한 실루엣에 무대감 있는 디테일을 더합니다."
+  },
+  {
+    "code": "JES-615",
+    "customerCode": "JES-615",
+    "sourceCode": "615",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "아이보리 블랙배색 페플럼 골드버튼 슬림 미니원피스",
+    "storeName": "아이보리 블랙배색 페플럼 골드버튼 슬림 미니원피스",
+    "productName": "아이보리 블랙배색 페플럼 골드버튼 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/615/615-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/615/615-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/615/615-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/615/615-1main.jpg",
+      "product/jessica 2026 winter new/615/615-1.jpg",
+      "product/jessica 2026 winter new/615/615-2.jpg",
+      "product/jessica 2026 winter new/615/615-3.jpg",
+      "product/jessica 2026 winter new/615/615-4.jpg",
+      "product/jessica 2026 winter new/615/615_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/615/615-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/615/615-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/615/615-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/615/615-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/615/615-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/615/615_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "615"
+    ],
+    "searchKeywords": [
+      "JES-615",
+      "615",
+      "아이보리 블랙배색 페플럼 골드버튼 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "아이보리 바디에 블랙 배색 패널과 페플럼 라인을 더한 슬림 미니원피스. 골드 버튼과 스퀘어넥이 클래식한 인상을 주며 허리선이 또렷하게 강조됩니다.",
+    "desc": "아이보리 바디에 블랙 배색 패널과 페플럼 라인을 더한 슬림 미니원피스. 골드 버튼과 스퀘어넥이 클래식한 인상을 주며 허리선이 또렷하게 강조됩니다.",
+    "mainCopy": "아이보리 바디에 블랙 배색 패널과 페플럼 라인을 더한 슬림 미니원피스. 골드 버튼과 스퀘어넥이 클래식한 인상을 주며 허리선이 또렷하게 강조됩니다."
+  },
+  {
+    "code": "JES-616",
+    "customerCode": "JES-616",
+    "sourceCode": "616",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "네이비 스트라이프 드레이프넥 슬림 미니원피스",
+    "storeName": "네이비 스트라이프 드레이프넥 슬림 미니원피스",
+    "productName": "네이비 스트라이프 드레이프넥 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 코스튬",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/616/616-4main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/616/616-4main.jpg",
+    "cardImage": "product/jessica 2026 winter new/616/616-4main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/616/616-4main.jpg",
+      "product/jessica 2026 winter new/616/616-1.jpg",
+      "product/jessica 2026 winter new/616/616-2.jpg",
+      "product/jessica 2026 winter new/616/616-3.jpg",
+      "product/jessica 2026 winter new/616/616-4.jpg",
+      "product/jessica 2026 winter new/616/616-5.jpg",
+      "product/jessica 2026 winter new/616/616-6.jpg",
+      "product/jessica 2026 winter new/616/616-7.jpg",
+      "product/jessica 2026 winter new/616/616-0_p.jpg",
+      "product/jessica 2026 winter new/616/616_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/616/616-4main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-7.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616-0_p.jpg",
+        "cut": "제품컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/616/616_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "616"
+    ],
+    "searchKeywords": [
+      "JES-616",
+      "616",
+      "네이비 스트라이프 드레이프넥 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "네이비와 화이트 스트라이프 상의에 솔리드 네이비 스커트를 연결한 슬림 미니원피스. 드레이프된 네크라인과 중앙 라인이 상체를 길고 선명하게 보여주는 디자인입니다.",
+    "desc": "네이비와 화이트 스트라이프 상의에 솔리드 네이비 스커트를 연결한 슬림 미니원피스. 드레이프된 네크라인과 중앙 라인이 상체를 길고 선명하게 보여주는 디자인입니다.",
+    "mainCopy": "네이비와 화이트 스트라이프 상의에 솔리드 네이비 스커트를 연결한 슬림 미니원피스. 드레이프된 네크라인과 중앙 라인이 상체를 길고 선명하게 보여주는 디자인입니다."
+  },
+  {
+    "code": "JES-617",
+    "customerCode": "JES-617",
+    "sourceCode": "617",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 랩카라 골드사이드버튼 셔링 미니원피스",
+    "storeName": "블랙 랩카라 골드사이드버튼 셔링 미니원피스",
+    "productName": "블랙 랩카라 골드사이드버튼 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/617/617-4main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/617/617-4main.jpg",
+    "cardImage": "product/jessica 2026 winter new/617/617-4main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/617/617-4main.jpg",
+      "product/jessica 2026 winter new/617/617-1.jpg",
+      "product/jessica 2026 winter new/617/617-2.jpg",
+      "product/jessica 2026 winter new/617/617-3.jpg",
+      "product/jessica 2026 winter new/617/617-4.jpg",
+      "product/jessica 2026 winter new/617/617-5.jpg",
+      "product/jessica 2026 winter new/617/617_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/617/617-4main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/617/617_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "617"
+    ],
+    "searchKeywords": [
+      "JES-617",
+      "617",
+      "블랙 랩카라 골드사이드버튼 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 컬러의 랩 카라와 사선 셔링이 돋보이는 슬림 미니원피스. 측면 골드 버튼이 포인트가 되어 단정하면서도 강한 실루엣을 연출합니다.",
+    "desc": "블랙 컬러의 랩 카라와 사선 셔링이 돋보이는 슬림 미니원피스. 측면 골드 버튼이 포인트가 되어 단정하면서도 강한 실루엣을 연출합니다.",
+    "mainCopy": "블랙 컬러의 랩 카라와 사선 셔링이 돋보이는 슬림 미니원피스. 측면 골드 버튼이 포인트가 되어 단정하면서도 강한 실루엣을 연출합니다."
+  },
+  {
+    "code": "JES-618",
+    "customerCode": "JES-618",
+    "sourceCode": "618",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "그레이 집업 블랙체크 머메이드 미니원피스",
+    "storeName": "그레이 집업 블랙체크 머메이드 미니원피스",
+    "productName": "그레이 집업 블랙체크 머메이드 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "머메이드",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/618/618-7main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/618/618-7main.jpg",
+    "cardImage": "product/jessica 2026 winter new/618/618-7main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/618/618-7main.jpg",
+      "product/jessica 2026 winter new/618/618-1.jpg",
+      "product/jessica 2026 winter new/618/618-2.jpg",
+      "product/jessica 2026 winter new/618/618-3.jpg",
+      "product/jessica 2026 winter new/618/618-4.jpg",
+      "product/jessica 2026 winter new/618/618-5.jpg",
+      "product/jessica 2026 winter new/618/618-6.jpg",
+      "product/jessica 2026 winter new/618/618-7.jpg",
+      "product/jessica 2026 winter new/618/618-8.jpg",
+      "product/jessica 2026 winter new/618/618_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/618/618-7main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-7.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618-8.jpg",
+        "cut": "상세컷 8"
+      },
+      {
+        "url": "product/jessica 2026 winter new/618/618_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "618"
+    ],
+    "searchKeywords": [
+      "JES-618",
+      "618",
+      "그레이 집업 블랙체크 머메이드 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "그레이 집업 상의와 블랙 체크 플레어 스커트를 배색한 미니원피스. 골드 포켓 장식과 허리 절개, 밑단 플레어가 발랄하면서도 구조적인 실루엣을 만듭니다.",
+    "desc": "그레이 집업 상의와 블랙 체크 플레어 스커트를 배색한 미니원피스. 골드 포켓 장식과 허리 절개, 밑단 플레어가 발랄하면서도 구조적인 실루엣을 만듭니다.",
+    "mainCopy": "그레이 집업 상의와 블랙 체크 플레어 스커트를 배색한 미니원피스. 골드 포켓 장식과 허리 절개, 밑단 플레어가 발랄하면서도 구조적인 실루엣을 만듭니다."
+  },
+  {
+    "code": "JES-619",
+    "customerCode": "JES-619",
+    "sourceCode": "619",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "레드 언밸런스 오프숄더 골드벨트 셔링 미니원피스",
+    "storeName": "레드 언밸런스 오프숄더 골드벨트 셔링 미니원피스",
+    "productName": "레드 언밸런스 오프숄더 골드벨트 셔링 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/619/619-3main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/619/619-3main.jpg",
+    "cardImage": "product/jessica 2026 winter new/619/619-3main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/619/619-3main.jpg",
+      "product/jessica 2026 winter new/619/619-1.jpg",
+      "product/jessica 2026 winter new/619/619-2.jpg",
+      "product/jessica 2026 winter new/619/619-3.jpg",
+      "product/jessica 2026 winter new/619/619-4.jpg",
+      "product/jessica 2026 winter new/619/619-5.jpg",
+      "product/jessica 2026 winter new/619/619_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/619/619-3main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/619/619_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "619"
+    ],
+    "searchKeywords": [
+      "JES-619",
+      "619",
+      "레드 언밸런스 오프숄더 골드벨트 셔링 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "선명한 레드 컬러와 비대칭 오프숄더 네크라인이 시선을 끄는 슬림 미니원피스. 허리 골드 장식과 사선 셔링이 바디라인을 강조해 무대와 파티에서 존재감이 큰 스타일입니다.",
+    "desc": "선명한 레드 컬러와 비대칭 오프숄더 네크라인이 시선을 끄는 슬림 미니원피스. 허리 골드 장식과 사선 셔링이 바디라인을 강조해 무대와 파티에서 존재감이 큰 스타일입니다.",
+    "mainCopy": "선명한 레드 컬러와 비대칭 오프숄더 네크라인이 시선을 끄는 슬림 미니원피스. 허리 골드 장식과 사선 셔링이 바디라인을 강조해 무대와 파티에서 존재감이 큰 스타일입니다."
+  },
+  {
+    "code": "JES-620",
+    "customerCode": "JES-620",
+    "sourceCode": "620",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "네이비 세일러카라 화이트배색 골드버튼 미니원피스",
+    "storeName": "네이비 세일러카라 화이트배색 골드버튼 미니원피스",
+    "productName": "네이비 세일러카라 화이트배색 골드버튼 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 코스튬",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/620/620-3main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/620/620-3main.jpg",
+    "cardImage": "product/jessica 2026 winter new/620/620-3main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/620/620-3main.jpg",
+      "product/jessica 2026 winter new/620/620-1.jpg",
+      "product/jessica 2026 winter new/620/620-2.jpg",
+      "product/jessica 2026 winter new/620/620-3.jpg",
+      "product/jessica 2026 winter new/620/620-0_p.jpg",
+      "product/jessica 2026 winter new/620/620_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/620/620-3main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/620/620-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/620/620-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/620/620-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/620/620-0_p.jpg",
+        "cut": "제품컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/620/620_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "620"
+    ],
+    "searchKeywords": [
+      "JES-620",
+      "620",
+      "네이비 세일러카라 화이트배색 골드버튼 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "네이비 바디에 화이트 세일러 카라를 배색한 슬림 미니원피스. 전면 골드 버튼과 포켓 장식이 클래식한 제복 무드를 더해 깔끔하면서도 눈에 띄는 디자인입니다.",
+    "desc": "네이비 바디에 화이트 세일러 카라를 배색한 슬림 미니원피스. 전면 골드 버튼과 포켓 장식이 클래식한 제복 무드를 더해 깔끔하면서도 눈에 띄는 디자인입니다.",
+    "mainCopy": "네이비 바디에 화이트 세일러 카라를 배색한 슬림 미니원피스. 전면 골드 버튼과 포켓 장식이 클래식한 제복 무드를 더해 깔끔하면서도 눈에 띄는 디자인입니다."
+  },
+  {
+    "code": "JES-621",
+    "customerCode": "JES-621",
+    "sourceCode": "621",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "핑크 오프숄더 와인 플레어 배색 미니원피스",
+    "storeName": "핑크 오프숄더 와인 플레어 배색 미니원피스",
+    "productName": "핑크 오프숄더 와인 플레어 배색 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "A라인",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/621/621-3main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/621/621-3main.jpg",
+    "cardImage": "product/jessica 2026 winter new/621/621-3main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/621/621-3main.jpg",
+      "product/jessica 2026 winter new/621/621-1.jpg",
+      "product/jessica 2026 winter new/621/621-2.jpg",
+      "product/jessica 2026 winter new/621/621-3.jpg",
+      "product/jessica 2026 winter new/621/621-4.jpg",
+      "product/jessica 2026 winter new/621/621-5.jpg",
+      "product/jessica 2026 winter new/621/621-6.jpg",
+      "product/jessica 2026 winter new/621/621.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/621/621-3main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/621/621.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "621"
+    ],
+    "searchKeywords": [
+      "JES-621",
+      "621",
+      "핑크 오프숄더 와인 플레어 배색 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "라이트핑크 오프숄더 상의와 와인 컬러 플레어 스커트를 배색한 미니원피스. 어깨 스트랩과 넓은 네크라인이 여성스러운 상체 라인을 강조하며 풍성한 스커트가 경쾌한 분위기를 더합니다.",
+    "desc": "라이트핑크 오프숄더 상의와 와인 컬러 플레어 스커트를 배색한 미니원피스. 어깨 스트랩과 넓은 네크라인이 여성스러운 상체 라인을 강조하며 풍성한 스커트가 경쾌한 분위기를 더합니다.",
+    "mainCopy": "라이트핑크 오프숄더 상의와 와인 컬러 플레어 스커트를 배색한 미니원피스. 어깨 스트랩과 넓은 네크라인이 여성스러운 상체 라인을 강조하며 풍성한 스커트가 경쾌한 분위기를 더합니다."
+  },
+  {
+    "code": "JES-622",
+    "customerCode": "JES-622",
+    "sourceCode": "622",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 스퀘어넥 레이스슬리브 슬림 미니원피스",
+    "storeName": "블랙 스퀘어넥 레이스슬리브 슬림 미니원피스",
+    "productName": "블랙 스퀘어넥 레이스슬리브 슬림 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏, 시스루소매",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/622/622-1main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/622/622-1main.jpg",
+    "cardImage": "product/jessica 2026 winter new/622/622-1main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/622/622-1main.jpg",
+      "product/jessica 2026 winter new/622/622-1.jpg",
+      "product/jessica 2026 winter new/622/622.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/622/622-1main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/622/622-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/622/622.jpg",
+        "cut": "상세컷 2"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "622"
+    ],
+    "searchKeywords": [
+      "JES-622",
+      "622",
+      "블랙 스퀘어넥 레이스슬리브 슬림 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 바디에 시스루 레이스 소매를 더한 슬림 미니원피스. 스퀘어넥과 깊게 잡힌 허리 라인이 깔끔하면서도 섹시한 실루엣을 만들어줍니다.",
+    "desc": "블랙 바디에 시스루 레이스 소매를 더한 슬림 미니원피스. 스퀘어넥과 깊게 잡힌 허리 라인이 깔끔하면서도 섹시한 실루엣을 만들어줍니다.",
+    "mainCopy": "블랙 바디에 시스루 레이스 소매를 더한 슬림 미니원피스. 스퀘어넥과 깊게 잡힌 허리 라인이 깔끔하면서도 섹시한 실루엣을 만들어줍니다."
+  },
+  {
+    "code": "JES-624",
+    "customerCode": "JES-624",
+    "sourceCode": "624",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "화이트 레드 코르셋배색 골드버튼 러플 미니원피스",
+    "storeName": "화이트 레드 코르셋배색 골드버튼 러플 미니원피스",
+    "productName": "화이트 레드 코르셋배색 골드버튼 러플 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "머메이드",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/624/624-6main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/624/624-6main.jpg",
+    "cardImage": "product/jessica 2026 winter new/624/624-6main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/624/624-6main.jpg",
+      "product/jessica 2026 winter new/624/624-1.jpg",
+      "product/jessica 2026 winter new/624/624-2.jpg",
+      "product/jessica 2026 winter new/624/624-3.jpg",
+      "product/jessica 2026 winter new/624/624-4.jpg",
+      "product/jessica 2026 winter new/624/624-5.jpg",
+      "product/jessica 2026 winter new/624/624-6.jpg",
+      "product/jessica 2026 winter new/624/624-7.jpg",
+      "product/jessica 2026 winter new/624/624.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/624/624-6main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624-7.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/jessica 2026 winter new/624/624.jpg",
+        "cut": "상세컷 8"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "624"
+    ],
+    "searchKeywords": [
+      "JES-624",
+      "624",
+      "화이트 레드 코르셋배색 골드버튼 러플 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "화이트 롱슬리브 상의에 레드 코르셋 형태의 배색 패널을 더한 미니원피스. 골드 버튼과 포켓 장식, 밑단 러플이 강한 컬러 포인트와 발랄한 실루엣을 동시에 살려줍니다.",
+    "desc": "화이트 롱슬리브 상의에 레드 코르셋 형태의 배색 패널을 더한 미니원피스. 골드 버튼과 포켓 장식, 밑단 러플이 강한 컬러 포인트와 발랄한 실루엣을 동시에 살려줍니다.",
+    "mainCopy": "화이트 롱슬리브 상의에 레드 코르셋 형태의 배색 패널을 더한 미니원피스. 골드 버튼과 포켓 장식, 밑단 러플이 강한 컬러 포인트와 발랄한 실루엣을 동시에 살려줍니다."
+  },
+  {
+    "code": "JES-625",
+    "customerCode": "JES-625",
+    "sourceCode": "625",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "블랙 화이트라인 골드버튼 페플럼 미니원피스",
+    "storeName": "블랙 화이트라인 골드버튼 페플럼 미니원피스",
+    "productName": "블랙 화이트라인 골드버튼 페플럼 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/625/625-4main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/625/625-4main.jpg",
+    "cardImage": "product/jessica 2026 winter new/625/625-4main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/625/625-4main.jpg",
+      "product/jessica 2026 winter new/625/625-1.jpg",
+      "product/jessica 2026 winter new/625/625-2.jpg",
+      "product/jessica 2026 winter new/625/625-3.jpg",
+      "product/jessica 2026 winter new/625/625-4.jpg",
+      "product/jessica 2026 winter new/625/625-5.jpg",
+      "product/jessica 2026 winter new/625/625-6.jpg",
+      "product/jessica 2026 winter new/625/625.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/625/625-4main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/625/625.jpg",
+        "cut": "상세컷 7"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "625"
+    ],
+    "searchKeywords": [
+      "JES-625",
+      "625",
+      "블랙 화이트라인 골드버튼 페플럼 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "블랙 텍스처 바디에 화이트 라인 배색과 골드 버튼을 더한 미니원피스. 상체의 재킷형 디테일과 허리 페플럼 라인이 고급스럽고 구조적인 실루엣을 연출합니다.",
+    "desc": "블랙 텍스처 바디에 화이트 라인 배색과 골드 버튼을 더한 미니원피스. 상체의 재킷형 디테일과 허리 페플럼 라인이 고급스럽고 구조적인 실루엣을 연출합니다.",
+    "mainCopy": "블랙 텍스처 바디에 화이트 라인 배색과 골드 버튼을 더한 미니원피스. 상체의 재킷형 디테일과 허리 페플럼 라인이 고급스럽고 구조적인 실루엣을 연출합니다."
+  },
+  {
+    "code": "JES-626",
+    "customerCode": "JES-626",
+    "sourceCode": "626",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "핑크 스퀘어넥 블랙 리본벨트 배색 미니원피스",
+    "storeName": "핑크 스퀘어넥 블랙 리본벨트 배색 미니원피스",
+    "productName": "핑크 스퀘어넥 블랙 리본벨트 배색 미니원피스",
+    "category": "MINI",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 79000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/626/626-7main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/626/626-7main.jpg",
+    "cardImage": "product/jessica 2026 winter new/626/626-7main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/626/626-7main.jpg",
+      "product/jessica 2026 winter new/626/626-1.jpg",
+      "product/jessica 2026 winter new/626/626-2.jpg",
+      "product/jessica 2026 winter new/626/626-3.jpg",
+      "product/jessica 2026 winter new/626/626-4.jpg",
+      "product/jessica 2026 winter new/626/626-5.jpg",
+      "product/jessica 2026 winter new/626/626-6.jpg",
+      "product/jessica 2026 winter new/626/626-7.jpg",
+      "product/jessica 2026 winter new/626/626-8.jpg",
+      "product/jessica 2026 winter new/626/626.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/626/626-7main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-7.jpg",
+        "cut": "상세컷 7"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626-8.jpg",
+        "cut": "상세컷 8"
+      },
+      {
+        "url": "product/jessica 2026 winter new/626/626.jpg",
+        "cut": "상세컷 9"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "미니원피스",
+      "626"
+    ],
+    "searchKeywords": [
+      "JES-626",
+      "626",
+      "핑크 스퀘어넥 블랙 리본벨트 배색 미니원피스",
+      "제시카",
+      "미니원피스"
+    ],
+    "description": "핑크 스퀘어넥 상의와 블랙 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리의 큰 리본벨트, 더블 버튼 장식이 여성스럽고 세련된 포인트를 완성합니다.",
+    "desc": "핑크 스퀘어넥 상의와 블랙 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리의 큰 리본벨트, 더블 버튼 장식이 여성스럽고 세련된 포인트를 완성합니다.",
+    "mainCopy": "핑크 스퀘어넥 상의와 블랙 스커트를 배색한 미니원피스. 골드 체인 스트랩과 허리의 큰 리본벨트, 더블 버튼 장식이 여성스럽고 세련된 포인트를 완성합니다."
+  },
+  {
+    "code": "JES-2609-25",
+    "customerCode": "JES-2609-25",
+    "sourceCode": "2609-25",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "베이지 스트라이프 브이넥 가디건 미니 투피스",
+    "storeName": "베이지 스트라이프 브이넥 가디건 미니 투피스",
+    "productName": "베이지 스트라이프 브이넥 가디건 미니 투피스",
+    "category": "TWO PIECE",
+    "length": "미니",
+    "fit": "슬림핏",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 78000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/2609_25/2609-25-5main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/2609_25/2609-25-5main.jpg",
+    "cardImage": "product/jessica 2026 winter new/2609_25/2609-25-5main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/2609_25/2609-25-5main.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-1.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-2.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-3.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-4.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-5.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-6.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25-0_p.jpg",
+      "product/jessica 2026 winter new/2609_25/2609-25_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-5main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-1.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-2.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-3.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-4.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-5.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-6.jpg",
+        "cut": "상세컷 6"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25-0_p.jpg",
+        "cut": "제품컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_25/2609-25_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "투피스",
+      "2609-25"
+    ],
+    "searchKeywords": [
+      "JES-2609-25",
+      "2609-25",
+      "베이지 스트라이프 브이넥 가디건 미니 투피스",
+      "제시카",
+      "투피스"
+    ],
+    "description": "베이지와 아이보리 스트라이프 브이넥 가디건에 베이지 미니스커트를 매치한 셋업 스타일. 골드 버튼과 라인 배색이 단정한 포인트가 되어 세련된 겨울 코디를 연출합니다.",
+    "desc": "베이지와 아이보리 스트라이프 브이넥 가디건에 베이지 미니스커트를 매치한 셋업 스타일. 골드 버튼과 라인 배색이 단정한 포인트가 되어 세련된 겨울 코디를 연출합니다.",
+    "mainCopy": "베이지와 아이보리 스트라이프 브이넥 가디건에 베이지 미니스커트를 매치한 셋업 스타일. 골드 버튼과 라인 배색이 단정한 포인트가 되어 세련된 겨울 코디를 연출합니다.",
+    "componentPrices": [
+      [
+        "가디건(GD)",
+        38000
+      ],
+      [
+        "스커트(SK)",
+        40000
+      ]
+    ],
+    "componentPriceNote": "가디건(GD) 38,000원 + 스커트(SK) 40,000원",
+    "componentConfirmation": "사진상 코디 셋업. 실제 세트 판매 여부 거래처 확인 필요"
+  },
+  {
+    "code": "JES-2609-26",
+    "customerCode": "JES-2609-26",
+    "sourceCode": "2609-26",
+    "supplier": "제시카",
+    "vendor": "제시카",
+    "name": "아이보리 블랙 스트라이프 가디건 플리츠 미니 투피스",
+    "storeName": "아이보리 블랙 스트라이프 가디건 플리츠 미니 투피스",
+    "productName": "아이보리 블랙 스트라이프 가디건 플리츠 미니 투피스",
+    "category": "TWO PIECE",
+    "length": "미니",
+    "fit": "A라인",
+    "collection": "JESSICA_WINTER_2026",
+    "collectionName": "제시카 2026 겨울 신상",
+    "sourceInfo": "JESSICA_WINTER_2026",
+    "uploadDate": "2026-11-13",
+    "price": 87000,
+    "stockStatus": "문의",
+    "new": true,
+    "isNew": true,
+    "mainDisplay": false,
+    "featured": false,
+    "mainImage": "product/jessica 2026 winter new/2609_26/2609-26-4main.jpg",
+    "thumbImage": "product/jessica 2026 winter new/2609_26/2609-26-4main.jpg",
+    "cardImage": "product/jessica 2026 winter new/2609_26/2609-26-4main.jpg",
+    "images": [
+      "product/jessica 2026 winter new/2609_26/2609-26-4main.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-2.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-3.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-4.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-5.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-6.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-0_p.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26-1_p.jpg",
+      "product/jessica 2026 winter new/2609_26/2609-26_p.jpg"
+    ],
+    "cuts": [
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-4main.jpg",
+        "cut": "대표컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-2.jpg",
+        "cut": "상세컷 1"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-3.jpg",
+        "cut": "상세컷 2"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-4.jpg",
+        "cut": "상세컷 3"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-5.jpg",
+        "cut": "상세컷 4"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-6.jpg",
+        "cut": "상세컷 5"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-0_p.jpg",
+        "cut": "제품컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26-1_p.jpg",
+        "cut": "제품컷"
+      },
+      {
+        "url": "product/jessica 2026 winter new/2609_26/2609-26_p.jpg",
+        "cut": "제품컷"
+      }
+    ],
+    "tags": [
+      "제시카",
+      "겨울신상",
+      "투피스",
+      "2609-26"
+    ],
+    "searchKeywords": [
+      "JES-2609-26",
+      "2609-26",
+      "아이보리 블랙 스트라이프 가디건 플리츠 미니 투피스",
+      "제시카",
+      "투피스"
+    ],
+    "description": "아이보리와 블랙 스트라이프 브이넥 가디건에 블랙 플리츠 미니스커트를 매치한 셋업 스타일. 선명한 컬러 대비와 골드 버튼이 클래식하면서도 발랄한 분위기를 만들어줍니다.",
+    "desc": "아이보리와 블랙 스트라이프 브이넥 가디건에 블랙 플리츠 미니스커트를 매치한 셋업 스타일. 선명한 컬러 대비와 골드 버튼이 클래식하면서도 발랄한 분위기를 만들어줍니다.",
+    "mainCopy": "아이보리와 블랙 스트라이프 브이넥 가디건에 블랙 플리츠 미니스커트를 매치한 셋업 스타일. 선명한 컬러 대비와 골드 버튼이 클래식하면서도 발랄한 분위기를 만들어줍니다.",
+    "componentPrices": [
+      [
+        "가디건(GD)",
+        38000
+      ],
+      [
+        "스커트(SK)",
+        49000
+      ]
+    ],
+    "componentPriceNote": "가디건(GD) 38,000원 + 스커트(SK) 49,000원",
+    "componentConfirmation": "사진상 코디 셋업. 실제 세트 판매 여부 거래처 확인 필요"
+  }
+]
