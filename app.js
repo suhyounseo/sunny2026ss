@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_jessica_winter_new_arrival_20261113_2';
+const VERSION = 'nice_winter_pick_16_20261114_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -336,25 +336,25 @@ function isShowroomExcludedProduct(p) {
   return PERMANENTLY_REMOVED_PRODUCT_CODES.has(code) || ARCHIVED_PRODUCT_CODES.has(code);
 }
 
-const NICE_PICK_PREVIEW_LIMIT = 12;
+const NICE_PICK_PREVIEW_LIMIT = 16;
 const NICE_PICK_TOTAL_LIMIT = 50;
 const NICE_PICK_CODES = [
-  "T318",
-  "T326",
-  "T338",
-  "T264",
-  "T285",
-  "T129",
-  "T097",
-  "ANC-5035",
-  "T136",
-  "T260",
-  "T131",
-  "T003",
-  "T341",
-  "T335",
-  "T311",
-  "T312",
+  "T450",
+  "JES-619",
+  "T385",
+  "T430",
+  "T419",
+  "T416",
+  "T382",
+  "JES-2609-26",
+  "T390",
+  "JINI-006",
+  "SIL-ANGEL-PINK",
+  "ANC-5057",
+  "ANC-5075",
+  "T417",
+  "T420",
+  "ANC-5049",
   "T274",
   "T309",
   "T315",
