@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_pick_winter_full50_20261114_2';
+const VERSION = 'nice_anc_5101_5180_20261115_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -1043,7 +1043,7 @@ const isAugustNewProduct = p => p.collection === 'AUGUST_NEW' || hasTag(p, '8월
 const isJulyNewProduct = p => p.collection === 'JULY_NEW' || hasTag(p, '7월신상');
 const isRecentNewProduct = p => isSeptemberNewProduct(p) || isAugustNewProduct(p) || isJulyNewProduct(p);
 const isTiaraOctoberNewProduct = p => (p.sourceInfo === 'NICE_1107' && p.supplier === '티아라') || p.collection === 'TIARA_20261020' || (p.sourceInfo === 'NICE_1018' && p.supplier === '티아라') || p.collection === 'TIARA_20261001' || p.sourceInfo === 'product/tiara1001';
-const isNewArrivalProduct = p => p.sourceInfo === 'JESSICA_WINTER_2026' || p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p);
+const isNewArrivalProduct = p => p.sourceInfo !== 'ANC_26FW4' && (p.sourceInfo === 'JESSICA_WINTER_2026' || p.sourceInfo === 'NICE_1107' || isTiaraOctoberNewProduct(p) || isSeptemberNewProduct(p) || isAugustNewProduct(p));
 const isCurrentNewProduct = p => CURRENT_NEW_CODES.includes(codeOf(p));
 const isBest = p => isJulyNewProduct(p) ? false : (!!p.best || !!p.isBest || !!p.bestItem || !!p.isPopular || hasTag(p, 'BEST') || !!p.mainDisplay || !!p.featured);
 const vipCode = () => String.fromCharCode(...VIP_CODE_CHARS);
@@ -1057,7 +1057,7 @@ function isCurrentAnkProduct(p) {
   const match = codeOf(p).match(/^ANC-(\d{4})$/);
   if (!match) return false;
   const no = Number(match[1]);
-  return no >= 5001 && no <= 5100;
+  return no >= 5001 && no <= 5180;
 }
 function ancNumericValue(value) {
   const raw = String(value ?? '').trim();
@@ -1122,7 +1122,7 @@ const ANC_MEASURED_DATA = {
 };
 
 function normalizeCurrentAnkProduct(p) {
-  if (!isCurrentAnkProduct(p)) return p;
+  if (!isCurrentAnkProduct(p) || p.sourceInfo === 'ANC_26FW4') return p;
 
   const measured = ANC_MEASURED_DATA[codeOf(p)];
   if (measured) {
@@ -2694,6 +2694,8 @@ function render() {
       list = sortNewBySupplierAndCode(list);
     } else if (!searchActive && FILTER === 'TIARA_NEW') {
       list = sortNewBySupplierAndCode(list);
+    } else if (FILTER === 'ANC_NEW') {
+      list = [...list.filter(p => p.sourceInfo === 'ANC_26FW4').sort((a,b) => codeOf(b).localeCompare(codeOf(a), 'en', {numeric:true})), ...list.filter(p => p.sourceInfo !== 'ANC_26FW4')];
     }
   }
   const styleMode = !!STYLE_FILTER_TYPES[FILTER];
@@ -3242,11 +3244,12 @@ Promise.all([
   fetch('./products-1018.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-tiara-1020.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
   fetch('./products-1107.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
-  fetch('./products-jessica-winter-2026.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
+  fetch('./products-jessica-winter-2026.json?v=' + VERSION).then(r => r.ok ? r.json() : []),
+  fetch('./products-anc-5101-5180.json?v=' + VERSION).then(r => r.ok ? r.json() : [])
 ])
-  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020, nov1107, jessicaWinter2026]) => {
+  .then(([baseProducts, new929, silhouetteNew, tiara1001, silhouette1012, t059Patch, productInfo1007, productInfo1017, oct18New, tiara1020, nov1107, jessicaWinter2026, ancWinterNew]) => {
     const merged = new Map();
-    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020, ...nov1107, ...jessicaWinter2026].forEach(p => merged.set(codeOf(p), p));
+    [...silhouette1012, ...new929, ...silhouetteNew, ...tiara1001, ...t059Patch, ...baseProducts, ...oct18New, ...tiara1020, ...nov1107, ...jessicaWinter2026, ...ancWinterNew].forEach(p => merged.set(codeOf(p), p));
     const infoOverrides = productInfo1007 && typeof productInfo1007 === 'object' ? productInfo1007 : {};
     const infoOct17 = productInfo1017 && typeof productInfo1017 === 'object' ? productInfo1017 : {};
     PRODUCTS = [...merged.values()]
