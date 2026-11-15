@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_anc_5101_5180_20261115_1';
+const VERSION = 'nice_home_new_arrival_anc7_jes3_20261115_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -2561,6 +2561,12 @@ function renderHome() {
   const editorPreview = editorItems.slice(0, NICE_PICK_PREVIEW_LIMIT);
   const editorCodes = new Set(editorItems.map(codeOf));
   const fresh = newArrivalItems(visible, editorCodes);
+  // Homepage only: seven current ANC arrivals and three Jessica winter arrivals.
+  const homeAnc = visible.filter(p => p.sourceInfo === 'ANC_26FW4').sort((a,b) => codeOf(b).localeCompare(codeOf(a), 'en', {numeric:true})).slice(0,7);
+  const homeJessica = sortJessicaWinter(visible.filter(p => p.sourceInfo === 'JESSICA_WINTER_2026')).slice(0,3);
+  const homeMix = [homeAnc[0], homeAnc[1], homeJessica[0], homeAnc[2], homeAnc[3], homeJessica[1], homeAnc[4], homeAnc[5], homeJessica[2], homeAnc[6]].filter(Boolean);
+  const homeMixCodes = new Set(homeMix.map(codeOf));
+  const homeFresh = [...homeMix, ...fresh.filter(p => !homeMixCodes.has(codeOf(p)))];
   const luxuryExisting = sortProducts(visible.filter(p => p.sourceInfo === 'NEW ITEM 929' || p.collectionName === '9월 29일 신상' || hasTag(p, '9월29일신상'))).slice(0, 8);
   const luxurySelectedSilhouette = SILHOUETTE_HOME_LUXURY_CODES
     .map(code => visible.find(p => codeOf(p) === code))
@@ -2640,7 +2646,7 @@ function renderHome() {
     ${showroomCategoryNav()}
     ${showroomPickGrid(editorItems)}
     ${sectionBlock('LUXURY NEW', homeText.luxuryNewDesc, luxuryNew, 'LUXURY_NEW', homeText.luxuryNewMore, 13)}
-    ${sectionBlock('NEW ARRIVAL', homeText.newDesc, fresh, 'COL_AUGUST', homeText.newMore)}
+    ${sectionBlock('NEW ARRIVAL', homeText.newDesc, homeFresh, 'NEW', homeText.newMore, 10)}
     ${sectionBlock('TIARA NEW', homeText.tiaraDesc, tiaraHome, 'TIARA_NEW', homeText.tiaraMore)}
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${styleFinderBlock()}
