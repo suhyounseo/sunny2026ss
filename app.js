@@ -668,8 +668,24 @@ let detailOpenedCode = '';
 let searchTrackTimer = 0;
 const pageOpenedAt = Date.now();
 
+function campaignContext() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    utm_source: params.get('utm_source') || '',
+    utm_medium: params.get('utm_medium') || '',
+    utm_campaign: params.get('utm_campaign') || '',
+    utm_content: params.get('utm_content') || '',
+    utm_term: params.get('utm_term') || ''
+  };
+}
+
 function trackShowroomEvent(name, params = {}) {
-  const payload = { ...params, showroom_filter: FILTER, showroom_lang: LANG };
+  const payload = {
+    ...campaignContext(),
+    ...params,
+    showroom_filter: FILTER,
+    showroom_lang: LANG
+  };
   if (typeof window.gtag === 'function') {
     window.gtag('event', name, payload);
   }
@@ -2651,9 +2667,20 @@ function renderHome() {
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${styleFinderBlock()}
     ${communityBlock()}`;
-  $$('[data-external]').forEach(a => a.onclick = e => {
+  $('[data-external]').forEach(a => a.onclick = e => {
     const href = a.getAttribute('href');
     if (!href || href === '#') return;
+    const channel = a.dataset.external || 'external';
+    trackShowroomEvent(channel === 'smartstore' ? 'smartstore_click' : 'outbound_click', {
+      link_url: href,
+      link_domain: (() => {
+        try { return new URL(href, window.location.href).hostname; }
+        catch (_) { return ''; }
+      })(),
+      outbound_channel: channel,
+      item_id: currentProduct ? codeOf(currentProduct) : '',
+      item_name: currentProduct ? displayName(currentProduct) : ''
+    });
     const opened = window.open(href, '_blank');
     if (opened) e.preventDefault();
   });
