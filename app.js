@@ -2667,7 +2667,7 @@ function renderHome() {
     ${sectionBlock('ALL PRODUCTS', homeText.allDesc, gallery, 'ALL', homeText.allMore)}
     ${styleFinderBlock()}
     ${communityBlock()}`;
-  $('[data-external]').forEach(a => a.onclick = e => {
+  $$('[data-external]').forEach(a => a.onclick = e => {
     const href = a.getAttribute('href');
     if (!href || href === '#') return;
     const channel = a.dataset.external || 'external';
