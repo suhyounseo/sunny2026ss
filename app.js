@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_cleanup_20261127_1';
+const VERSION = 'nice_cleanup_20261127_2';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
