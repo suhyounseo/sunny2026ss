@@ -13,7 +13,7 @@ const detail = $('#detail');
 const vipModal = $('#vipModal');
 const vipInput = $('#vipCode');
 const vipMessage = $('#vipMessage');
-const VERSION = 'nice_home_new_arrival_anc7_jes3_20261115_2';
+const VERSION = 'nice_cleanup_20261127_1';
 
 const PRODUCT_OVERRIDES_20261002 = {
   'T056': {
@@ -316,7 +316,8 @@ function applyProductOverrides(p) {
 
 const PERMANENTLY_REMOVED_PRODUCT_CODES = new Set([
   'S958', 'S957', 'S697', 'S698',
-  'TIA-S808', 'TIA-S809', 'TIA-S810', 'TIA-S811'
+  'TIA-S808', 'TIA-S809', 'TIA-S810', 'TIA-S811',
+  'N260124', 'N260126', 'N260133', 'N260122', 'N260123', 'JES-303', 'JES-305', 'JES-307', 'JES-301', 'ANC-4092', 'ANC-4039', 'ANC-4038', 'ANC-4018', 'ANC-4010', 'ANC-4060', 'ANC-4020', 'JES-381', 'HIYA-S883', 'JES-324', 'JES-323', 'JES-319', 'JES-318', 'JES-316', 'JES-317', 'JES-315', 'JES-312', 'JES-308', 'JES-204', 'JES-199', 'JES-194', 'JES-193', 'JES-109', 'P038'
 ]);
 
 const ARCHIVED_PRODUCT_CODES = new Set([
